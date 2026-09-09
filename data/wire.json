@@ -1,0 +1,32 @@
+[
+  {
+    "id": "YAS-INTEL-01",
+    "timestamp": "2026-09-09T08:00:00Z",
+    "category": "MARITIME",
+    "severity": "CRITICAL",
+    "title": "Red Sea Chokepoint Interdiction & Electronic Jamming Alert",
+    "source": "YASLOGIST CTI TELEMETRY",
+    "region": "Bab el-Mandeb / Suez Corridor",
+    "summary": "Autonomous telemetry detects anomalous vessel clustering and active navigation spoofing targeting commercial container shipping lanes."
+  },
+  {
+    "id": "YAS-INTEL-02",
+    "timestamp": "2026-09-09T07:15:00Z",
+    "category": "APT ACTIVITY",
+    "severity": "HIGH",
+    "title": "State-Sponsored Cyber Probe Targeting Port Logistics Control Towers",
+    "source": "MIDDLE EAST CYBER COMMAND",
+    "region": "Eastern Mediterranean",
+    "summary": "Advanced persistent threat signatures identified probing automated container handling gate control systems and customs databases."
+  },
+  {
+    "id": "YAS-INTEL-03",
+    "timestamp": "2026-09-09T06:30:00Z",
+    "category": "ZERO-DAY",
+    "severity": "CRITICAL",
+    "title": "Critical ICS/SCADA Vulnerability Disclosed in Supply Chain Hubs",
+    "source": "MITRE CAVE / CISA KEV",
+    "region": "Global / Regional Hubs",
+    "summary": "Active exploitation vector detected against remote terminal units deployed in automated logistics freight infrastructure."
+  }
+]
