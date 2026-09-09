@@ -720,7 +720,7 @@ class YaslogistThreatRadarApp {
     async loadData() {
         // Load target intensity data
         try {
-            const res = await fetch('data/target_intensity.json');
+            const res = await fetch('./data/target_intensity.json');
             if (res.ok) {
                 this.intensityData = await res.json();
             } else {
@@ -732,7 +732,7 @@ class YaslogistThreatRadarApp {
 
         // Load CVE data
         try {
-            const res = await fetch('data/middle_east_cves.json');
+            const res = await fetch('./data/middle_east_cves.json');
             if (res.ok) {
                 this.cveData = await res.json();
             } else {
