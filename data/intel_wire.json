@@ -1,5 +1,138 @@
 [
   {
+    "titleEn": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "titleAr": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789165065000,
+    "summaryEn": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+    "summaryAr": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli demolitions threaten schools and homes in Masafer Yatta",
+    "titleAr": "Israeli demolitions threaten schools and homes in Masafer Yatta",
+    "link": "https://www.aljazeera.com/features/2026/9/11/israeli-demolitions-threaten-schools-and-homes-in-masafer-yatta?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789163614000,
+    "summaryEn": "Students pledge to continue learning as Masafer Yatta demolitions target homes, schools, and their right to education.",
+    "summaryAr": "Students pledge to continue learning as Masafer Yatta demolitions target homes, schools, and their right to education.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+    "titleAr": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+    "link": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789162247000,
+    "summaryEn": "Iraq condemns the attack, says Prime ⁠Minister Ali al-Zaidi orders an ⁠investigation ​into ⁠those responsible.",
+    "summaryAr": "Iraq condemns the attack, says Prime ⁠Minister Ali al-Zaidi orders an ⁠investigation ​into ⁠those responsible.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "titleAr": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "source": "BleepingComputer",
+    "pubDate": 1789157949000,
+    "summaryEn": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for m…",
+    "summaryAr": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for m…",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Declassified documents show UK aware of Israeli war crimes for 24 years",
+    "titleAr": "Declassified documents show UK aware of Israeli war crimes for 24 years",
+    "link": "https://www.aljazeera.com/news/2026/9/11/declassified-documents-show-uk-aware-of-israeli-war-crimes-for-24-years?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789156781000,
+    "summaryEn": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002.",
+    "summaryAr": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Lightning Houthi advance in Yemen may bring dangerous new dimension to Iran war",
+    "titleAr": "Lightning Houthi advance in Yemen may bring dangerous new dimension to Iran war",
+    "link": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789155898000,
+    "summaryEn": "The capture by the rebels of a stretch Yemen's strategic coastline is the group's most impressive military coup for several years.",
+    "summaryAr": "The capture by the rebels of a stretch Yemen's strategic coastline is the group's most impressive military coup for several years.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "How US leaders remembered the 25th anniversary of the 9/11 attacks",
+    "titleAr": "How US leaders remembered the 25th anniversary of the 9/11 attacks",
+    "link": "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789154508000,
+    "summaryEn": "Trump drew parallels to the US's present-day war against Iran, while figures like Abdul El-Sayed called for inclusivity.",
+    "summaryAr": "Trump drew parallels to the US's present-day war against Iran, while figures like Abdul El-Sayed called for inclusivity.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthi advance in Yemen is about more than just the Red Sea",
+    "titleAr": "Houthi advance in Yemen is about more than just the Red Sea",
+    "link": "https://www.aljazeera.com/news/2026/9/11/houthi-advance-in-yemen-is-about-more-than-just-the-red-sea?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789153267000,
+    "summaryEn": "Houthis were already able to disrupt shipping - their advance consolidates that power, and exposes government weakness.",
+    "summaryAr": "Houthis were already able to disrupt shipping - their advance consolidates that power, and exposes government weakness.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Iran says will discuss Strait of Hormuz with Gulf states on Monday",
     "titleAr": "Iran says will discuss Strait of Hormuz with Gulf states on Monday",
     "link": "https://www.aljazeera.com/news/2026/9/11/iran-says-will-discuss-strait-of-hormuz-with-gulf-states-on-monday?traffic_source=rss",
@@ -28,22 +161,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "titleAr": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789145914000,
-    "summaryEn": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
-    "summaryAr": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -96,54 +213,6 @@
     ]
   },
   {
-    "titleEn": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
-    "titleAr": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-take-control-of-yemens-entire-red-sea-coast-reports-say?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789140870000,
-    "summaryEn": "The Iran-backed Houthi forces have taken control over most of the western Red Sea coastal line",
-    "summaryAr": "The Iran-backed Houthi forces have taken control over most of the western Red Sea coastal line",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "‘Tool of oppression’: Rising number of UK pro-Palestine voices debanked",
-    "titleAr": "‘Tool of oppression’: Rising number of UK pro-Palestine voices debanked",
-    "link": "https://www.aljazeera.com/news/2026/9/11/tool-of-oppression-rising-number-of-uk-pro-palestine-voices-debanked?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789140141000,
-    "summaryEn": "A Palestine Action prisoner's mother, politician George Galloway and a leftist news outlet are among those speaking up.",
-    "summaryAr": "A Palestine Action prisoner's mother, politician George Galloway and a leftist news outlet are among those speaking up.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
-    "titleAr": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
-    "link": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789138032000,
-    "summaryEn": "Some observers see a force that has improved impressively in the past years, but others doubt the Houthis can sustain wins.",
-    "summaryAr": "Some observers see a force that has improved impressively in the past years, but others doubt the Houthis can sustain wins.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
     "titleAr": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
     "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
@@ -176,38 +245,6 @@
     ]
   },
   {
-    "titleEn": "‘Majority do not welcome him’: Trump heads to Ireland amid fury over Gaza",
-    "titleAr": "‘Majority do not welcome him’: Trump heads to Ireland amid fury over Gaza",
-    "link": "https://www.aljazeera.com/news/2026/9/11/majority-do-not-welcome-him-trump-heads-to-ireland-amid-fury-over-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789135792000,
-    "summaryEn": "Protests set to erupt across Ireland, where President Connolly has long regarded the US as an untrustworthy power.",
-    "summaryAr": "Protests set to erupt across Ireland, where President Connolly has long regarded the US as an untrustworthy power.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why Pakistan is talking to Iran as the Houthi-Saudi fight escalates",
-    "titleAr": "Why Pakistan is talking to Iran as the Houthi-Saudi fight escalates",
-    "link": "https://www.aljazeera.com/news-analysis/2026/9/11/why-pakistan-is-talking-to-iran-as-the-houthi-saudi-fight-escalates?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789135620000,
-    "summaryEn": "Pakistan faces growing pressure to honour its Saudi defence commitments while keeping diplomatic channels to Iran open.",
-    "summaryAr": "Pakistan faces growing pressure to honour its Saudi defence commitments while keeping diplomatic channels to Iran open.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
     "titleAr": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
     "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
@@ -220,6 +257,38 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1789128000000,
+    "summaryEn": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect…",
+    "summaryAr": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1789128000000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85706 GitLab Community Edition and En…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85706 GitLab Community Edition and En…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -662,70 +731,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "titleAr": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1788928071000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
-    "titleAr": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
-    "link": "https://www.bbc.co.uk/news/articles/c3v439n5xlpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788911548000,
-    "summaryEn": "It is hoped that coordinated action minimises the blowback to any one country from Israel or America, our political editor writes.",
-    "summaryAr": "It is hoped that coordinated action minimises the blowback to any one country from Israel or America, our political editor writes.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "British-Israeli relations at lowest ebb in decades",
-    "titleAr": "British-Israeli relations at lowest ebb in decades",
-    "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788903991000,
-    "summaryEn": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
-    "summaryAr": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How Israel responded to UK sanctions on West Bank settlements",
-    "titleAr": "How Israel responded to UK sanctions on West Bank settlements",
-    "link": "https://www.bbc.co.uk/news/videos/cj4jwnzd2dgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788902752000,
-    "summaryEn": "BBC correspondent Katy Watson reports from Jerusalem.",
-    "summaryAr": "BBC correspondent Katy Watson reports from Jerusalem.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
