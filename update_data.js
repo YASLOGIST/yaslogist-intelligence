@@ -119,18 +119,60 @@ function buildTags(contentStr) {
     return tags.slice(0, 3);
 }
 
+// Pulls the real CVSS base score / severity published with the record.
+// Metrics live under the CNA container or an ADP container (e.g. CISA-ADP),
+// and may be CVSS v4.0, v3.1, v3.0 or v2.0 depending on the CNA.
+function extractCvss(data) {
+    const buckets = [];
+    try { if (data.containers.cna.metrics) buckets.push(...data.containers.cna.metrics); } catch (e) {}
+    try { (data.containers.adp || []).forEach(a => { if (a.metrics) buckets.push(...a.metrics); }); } catch (e) {}
+
+    for (const key of ['cvssV4_0', 'cvssV3_1', 'cvssV3_0', 'cvssV2_0']) {
+        for (const m of buckets) {
+            const v = m && m[key];
+            if (v && typeof v.baseScore === 'number') {
+                return { score: v.baseScore, severity: v.baseSeverity || scoreToSeverity(v.baseScore) };
+            }
+        }
+    }
+    return null;
+}
+
+function scoreToSeverity(score) {
+    if (score >= 9.0) return 'CRITICAL';
+    if (score >= 7.0) return 'HIGH';
+    if (score >= 4.0) return 'MEDIUM';
+    return 'LOW';
+}
+
+function titleCase(str) {
+    const s = String(str || 'High').toLowerCase();
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
 async function fetchCVEInfo(cveId) {
     try {
         const res = await fetch(`https://cveawg.mitre.org/api/cve/${cveId}`);
         if (!res.ok) return null;
         const data = await res.json();
+
         let system = 'Unknown System';
         try {
             const affected = data.containers.cna.affected[0];
             system = affected.product || affected.vendor || 'Unknown System';
             if (String(system).toLowerCase() === 'n/a') system = affected.vendor || 'Unknown System';
         } catch (e) { /* shape varies across CNAs */ }
-        return { id: cveId, system, severity: 'High', badge: 'badge-high' };
+
+        const cvss = extractCvss(data);
+        const severity = titleCase(cvss ? cvss.severity : 'High');
+
+        return {
+            id: cveId,
+            system,
+            severity,
+            cvss: cvss ? cvss.score : null,
+            badge: `badge-${severity.toLowerCase()}`
+        };
     } catch (e) {
         return null;
     }
@@ -212,6 +254,15 @@ async function run() {
     if (fs.existsSync(CVE_FILE)) {
         try { cves = JSON.parse(fs.readFileSync(CVE_FILE, 'utf-8')); } catch (e) { cves = []; }
     }
+    // Backfill CVSS for records stored before severity was read from MITRE.
+    for (let i = 0; i < cves.length; i++) {
+        if (cves[i] && cves[i].cvss === undefined) {
+            const fresh = await fetchCVEInfo(cves[i].id);
+            if (fresh) cves[i] = fresh;
+            else cves[i].cvss = null;
+        }
+    }
+
     const knownIds = new Set(cves.map(c => c.id));
     let added = 0;
     for (const cveId of foundCves) {
@@ -221,13 +272,11 @@ async function run() {
         knownIds.add(cveId);
         added++;
     }
-    if (added > 0) {
-        cves = cves.slice(0, MAX_CVES);
-        fs.writeFileSync(CVE_FILE, JSON.stringify(cves, null, 4));
-        console.log(`Added ${added} new CVE(s) -> data/middle_east_cves.json`);
-    } else {
-        console.log('No new CVEs in this cycle.');
-    }
+    cves = cves.slice(0, MAX_CVES);
+    fs.writeFileSync(CVE_FILE, JSON.stringify(cves, null, 4));
+    console.log(`CVE set: ${cves.length} tracked (${added} new), avg CVSS ` +
+        (cves.filter(c => c.cvss).reduce((a, c) => a + c.cvss, 0) /
+         Math.max(cves.filter(c => c.cvss).length, 1)).toFixed(1));
 
     /* ---- target intensity ---- */
     const intensity = TARGET_COUNTRIES.map(country => {

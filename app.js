@@ -579,12 +579,14 @@ class YaslogistThreatRadarApp {
             isAr ? `${maritime} تقرير بحري نشط` : `${maritime} MARITIME REPORTS`,
             isAr ? 'السويس · باب المندب · هرمز' : 'SUEZ · MANDEB · HORMUZ');
 
-        // 4) CVE EXPOSURE INDEX - share of tracked CVEs rated Critical.
+        // 4) CVE EXPOSURE INDEX - mean CVSS base score across tracked CVEs, x10.
         const cves = this.cveData || [];
+        const scored = cves.filter(c => typeof c.cvss === 'number');
+        const avg = scored.length ? scored.reduce((a, c) => a + c.cvss, 0) / scored.length : 0;
         const crit = cves.filter(c => (c.severity || '').toLowerCase() === 'critical').length;
-        paint('ai', cves.length ? (crit / cves.length) * 100 : 0,
-            isAr ? `${crit} حرجة من ${cves.length} مرصودة` : `${crit} CRITICAL / ${cves.length} TRACKED`,
-            isAr ? 'المصدر: MITRE CVE API' : 'SOURCE: MITRE CVE API');
+        paint('ai', avg * 10,
+            isAr ? `متوسط CVSS ${avg.toFixed(1)} · ${scored.length} مقيّمة` : `AVG CVSS ${avg.toFixed(1)} · ${scored.length} SCORED`,
+            isAr ? `${crit} حرجة من ${cves.length}` : `${crit} CRITICAL / ${cves.length} TRACKED`);
     }
 
     startLiveProgressTelemetry() {
@@ -784,9 +786,14 @@ class YaslogistThreatRadarApp {
         // Maritime chokepoint alerts currently on the wire.
         set('kpi-logistics-count', this.countWireTag('MARITIME'));
 
-        const criticalCount = (this.cveData || [])
-            .filter(c => (c.severity || '').toLowerCase() === 'critical').length;
-        this.setDefconLevel(criticalCount >= 3 ? 2 : 3);
+        // DEFCON from the real severity mix of tracked CVEs.
+        const sev = (this.cveData || []).map(c => (c.severity || '').toLowerCase());
+        const criticalCount = sev.filter(x => x === 'critical').length;
+        const highCount = sev.filter(x => x === 'high').length;
+        let defcon = 4;
+        if (criticalCount >= 3) defcon = 2;
+        else if (criticalCount >= 1 || highCount >= 5) defcon = 3;
+        this.setDefconLevel(defcon);
     }
 
     setDefconLevel(level = 2) {
