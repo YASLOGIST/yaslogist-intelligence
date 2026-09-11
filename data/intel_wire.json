@@ -1,5 +1,213 @@
 [
   {
+    "titleEn": "Iran says will discuss Strait of Hormuz with Gulf states on Monday",
+    "titleAr": "Iran says will discuss Strait of Hormuz with Gulf states on Monday",
+    "link": "https://www.aljazeera.com/news/2026/9/11/iran-says-will-discuss-strait-of-hormuz-with-gulf-states-on-monday?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789151616000,
+    "summaryEn": "Iran's Foreign Ministry says the meeting in Oman is to 'promote better understanding among the countries of the region'.",
+    "summaryAr": "Iran's Foreign Ministry says the meeting in Oman is to 'promote better understanding among the countries of the region'.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 46,000 displaced by escalating Yemen fighting: UN",
+    "titleAr": "At least 46,000 displaced by escalating Yemen fighting: UN",
+    "link": "https://www.aljazeera.com/news/2026/9/11/at-least-46000-displaced-by-escalating-yemen-fighting-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789150469000,
+    "summaryEn": "The International Organisation for Migration (IOM) warns that the figure is rising 'by the hour'.",
+    "summaryAr": "The International Organisation for Migration (IOM) warns that the figure is rising 'by the hour'.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "titleAr": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789145914000,
+    "summaryEn": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+    "summaryAr": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis declare Red Sea shipping safe except for Saudi vessels",
+    "titleAr": "Houthis declare Red Sea shipping safe except for Saudi vessels",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-declare-red-sea-shipping-safe-except-for-saudi-vessels?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789144334000,
+    "summaryEn": "Houthi spokesman Yahya Saree said maritime navigation in the Red Sea is safe, except for Saudi ships.",
+    "summaryAr": "Houthi spokesman Yahya Saree said maritime navigation in the Red Sea is safe, except for Saudi ships.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "titleAr": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "source": "The Hacker News",
+    "pubDate": 1789144218000,
+    "summaryEn": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. …",
+    "summaryAr": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel says it has destroyed major underground Hezbollah base",
+    "titleAr": "Israel says it has destroyed major underground Hezbollah base",
+    "link": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789141823000,
+    "summaryEn": "The powerful blast registered as the equivalent of a magnitude 4.1 earthquake, according to the US Geological Survey.",
+    "summaryAr": "The powerful blast registered as the equivalent of a magnitude 4.1 earthquake, according to the US Geological Survey.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
+    "titleAr": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-take-control-of-yemens-entire-red-sea-coast-reports-say?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789140870000,
+    "summaryEn": "The Iran-backed Houthi forces have taken control over most of the western Red Sea coastal line",
+    "summaryAr": "The Iran-backed Houthi forces have taken control over most of the western Red Sea coastal line",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Tool of oppression’: Rising number of UK pro-Palestine voices debanked",
+    "titleAr": "‘Tool of oppression’: Rising number of UK pro-Palestine voices debanked",
+    "link": "https://www.aljazeera.com/news/2026/9/11/tool-of-oppression-rising-number-of-uk-pro-palestine-voices-debanked?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789140141000,
+    "summaryEn": "A Palestine Action prisoner's mother, politician George Galloway and a leftist news outlet are among those speaking up.",
+    "summaryAr": "A Palestine Action prisoner's mother, politician George Galloway and a leftist news outlet are among those speaking up.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
+    "titleAr": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
+    "link": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789138032000,
+    "summaryEn": "Some observers see a force that has improved impressively in the past years, but others doubt the Houthis can sustain wins.",
+    "summaryAr": "Some observers see a force that has improved impressively in the past years, but others doubt the Houthis can sustain wins.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "titleAr": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+    "source": "The Hacker News",
+    "pubDate": 1789136987000,
+    "summaryEn": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
+    "summaryAr": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "titleAr": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+    "source": "The Hacker News",
+    "pubDate": 1789135820000,
+    "summaryEn": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of t…",
+    "summaryAr": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of t…",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Majority do not welcome him’: Trump heads to Ireland amid fury over Gaza",
+    "titleAr": "‘Majority do not welcome him’: Trump heads to Ireland amid fury over Gaza",
+    "link": "https://www.aljazeera.com/news/2026/9/11/majority-do-not-welcome-him-trump-heads-to-ireland-amid-fury-over-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789135792000,
+    "summaryEn": "Protests set to erupt across Ireland, where President Connolly has long regarded the US as an untrustworthy power.",
+    "summaryAr": "Protests set to erupt across Ireland, where President Connolly has long regarded the US as an untrustworthy power.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why Pakistan is talking to Iran as the Houthi-Saudi fight escalates",
+    "titleAr": "Why Pakistan is talking to Iran as the Houthi-Saudi fight escalates",
+    "link": "https://www.aljazeera.com/news-analysis/2026/9/11/why-pakistan-is-talking-to-iran-as-the-houthi-saudi-fight-escalates?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789135620000,
+    "summaryEn": "Pakistan faces growing pressure to honour its Saudi defence commitments while keeping diplomatic channels to Iran open.",
+    "summaryAr": "Pakistan faces growing pressure to honour its Saudi defence commitments while keeping diplomatic channels to Iran open.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
     "titleAr": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
     "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
@@ -16,75 +224,6 @@
     ]
   },
   {
-    "titleEn": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
-    "titleAr": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
-    "link": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789132184000,
-    "summaryEn": "Second day of strikes on fuel stations suggest a new campaign focused on civilian areas in the Ukrainian capital.",
-    "summaryAr": "Second day of strikes on fuel stations suggest a new campaign focused on civilian areas in the Ukrainian capital.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "From hunger crisis to ‘obesity’: how Gaza’s UN data is being twisted",
-    "titleAr": "From hunger crisis to ‘obesity’: how Gaza’s UN data is being twisted",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/from-hunger-crisis-to-obesity-how-gazas-un-data-is-being-twisted?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789129802000,
-    "summaryEn": "US and Israeli officials are using a drop in acute malnutrition cases to claim Gaza has no hunger.",
-    "summaryAr": "US and Israeli officials are using a drop in acute malnutrition cases to claim Gaza has no hunger.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Myanmar airport closed following reported drone attack",
-    "titleAr": "Myanmar airport closed following reported drone attack",
-    "link": "https://www.aljazeera.com/news/2026/9/11/myanmar-airport-closed-following-reported-drone-attack?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789129332000,
-    "summaryEn": "Military government pins attack on pro-democracy rebels it has been battling since seizing power in 2021.",
-    "summaryAr": "Military government pins attack on pro-democracy rebels it has been battling since seizing power in 2021.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis take strategic Red Sea island, witnesses say",
-    "titleAr": "Houthis take strategic Red Sea island, witnesses say",
-    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789126519000,
-    "summaryEn": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
-    "summaryAr": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
     "titleEn": "GitLab urges users to patch max severity path traversal flaw",
     "titleAr": "GitLab urges users to patch max severity path traversal flaw",
     "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
@@ -92,102 +231,6 @@
     "pubDate": 1789125322000,
     "summaryEn": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
     "summaryAr": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Al Jazeera explains massive Israeli blasts on south Lebanon hill",
-    "titleAr": "Al Jazeera explains massive Israeli blasts on south Lebanon hill",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-reported-israel-hezb-tunnels-lebanon-mp4?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789123710000,
-    "summaryEn": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon",
-    "summaryAr": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "‘Blew the hell out of it’: How Iran damaged US bases in Bahrain, Jordan",
-    "titleAr": "‘Blew the hell out of it’: How Iran damaged US bases in Bahrain, Jordan",
-    "link": "https://www.aljazeera.com/news/2026/9/11/blew-the-hell-out-of-it-how-iran-damaged-us-bases-in-bahrain-jordan?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789123295000,
-    "summaryEn": "US official admits the naval base near Manama sustained heavy damage in the war with Iran.",
-    "summaryAr": "US official admits the naval base near Manama sustained heavy damage in the war with Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis control key shipping route after gains along Yemen’s Red Sea coast",
-    "titleAr": "Houthis control key shipping route after gains along Yemen’s Red Sea coast",
-    "link": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789121477000,
-    "summaryEn": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
-    "summaryAr": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Pro-Palestine student suspended by King’s College London returns to campus",
-    "titleAr": "Pro-Palestine student suspended by King’s College London returns to campus",
-    "link": "https://www.aljazeera.com/news/2026/9/11/pro-palestine-student-suspended-by-kings-college-london-returns-to-campus?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789114922000,
-    "summaryEn": "College lifts suspension amid criticism from student groups over crackdown on pro-Palestine sentiments.",
-    "summaryAr": "College lifts suspension amid criticism from student groups over crackdown on pro-Palestine sentiments.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How 9/11 helped Israel sell its war on Palestinians to America",
-    "titleAr": "How 9/11 helped Israel sell its war on Palestinians to America",
-    "link": "https://www.aljazeera.com/opinions/2026/9/11/how-9-11-helped-israel-sell-its-war-on-palestinians-to?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789114698000,
-    "summaryEn": "The 'war on terror' made Israeli repression easier to present as part of a shared struggle against a common enemy.",
-    "summaryAr": "The 'war on terror' made Israeli repression easier to present as part of a shared struggle against a common enemy.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Settlers, soldiers, and Israeli impunity in the West Bank",
-    "titleAr": "Settlers, soldiers, and Israeli impunity in the West Bank",
-    "link": "https://www.aljazeera.com/news/2026/9/11/settlers-soldiers-and-israeli-impunity-in-the-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789112203000,
-    "summaryEn": "Armed settlers in military uniforms are seizing land and attacking Palestinian communities with near-total impunity.",
-    "summaryAr": "Armed settlers in military uniforms are seizing land and attacking Palestinian communities with near-total impunity.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -310,22 +353,6 @@
     "pubDate": 1789054152000,
     "summaryEn": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
     "summaryAr": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-    "titleAr": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-    "source": "BleepingComputer",
-    "pubDate": 1789049494000,
-    "summaryEn": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
-    "summaryAr": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
     "tags": [
       {
         "textEn": "ZERO-DAY",
@@ -655,22 +682,6 @@
     ]
   },
   {
-    "titleEn": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-    "titleAr": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788918315000,
-    "summaryEn": "Britain's foreign secretary accuses settlers of carrying out the \"ethnic cleansing\" of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.",
-    "summaryAr": "Britain's foreign secretary accuses settlers of carrying out the \"ethnic cleansing\" of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
     "titleAr": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
     "link": "https://www.bbc.co.uk/news/articles/c3v439n5xlpo?at_medium=RSS&at_campaign=rss",
@@ -710,22 +721,6 @@
     "pubDate": 1788902752000,
     "summaryEn": "BBC correspondent Katy Watson reports from Jerusalem.",
     "summaryAr": "BBC correspondent Katy Watson reports from Jerusalem.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Where is Israel's proposed West Bank settlement the UK opposes?",
-    "titleAr": "Where is Israel's proposed West Bank settlement the UK opposes?",
-    "link": "https://www.bbc.co.uk/news/videos/c74k1lw9nwko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788885932000,
-    "summaryEn": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
-    "summaryAr": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
     "tags": [
       {
         "textEn": "INTEL",
