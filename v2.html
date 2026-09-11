@@ -18,7 +18,7 @@
     
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=14">
+    <link rel="stylesheet" href="styles.css?v=15">
 </head>
 <body class="yaslogist-terminal">
     <!-- Background Canvas Container for OGL <AcidSquares /> -->
@@ -215,7 +215,7 @@
                         <h3 class="cockpit-title" data-i18n="cockpitTitle">SOVEREIGN DEFENSE GRID // LIVE TELEMETRY & THREAT MITIGATION ENGINE</h3>
                         <span class="cockpit-live-tag mono"><i class="fa-solid fa-circle-dot live-blinker"></i> <span data-i18n="cockpitLiveTag">LIVE 24/7 STREAM</span></span>
                     </div>
-                    <div class="cockpit-engine-meta mono" data-i18n="cockpitEngineMeta">AI ENGINE: NEURAL-CTI v4.8 // QUANTUM-ENCRYPTED</div>
+                    <div class="cockpit-engine-meta mono" id="cockpit-engine-meta">INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H</div>
                 </div>
 
                 <div class="cockpit-progress-grid">
@@ -230,7 +230,7 @@
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
-                        <div class="metric-foot mono"><span data-i18n="progGridFoot1">SYNC: 14 SOVEREIGN NODES</span><span class="text-green" data-i18n="progGridFoot2">STATUS: NOMINAL</span></div>
+                        <div class="metric-foot mono"><span id="foot-grid-1">—</span><span class="text-green" id="foot-grid-2">—</span></div>
                     </div>
 
                     <!-- Progress 2: Threat Vector Interception -->
@@ -244,7 +244,7 @@
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
-                        <div class="metric-foot mono"><span data-i18n="progInterceptFoot1">134/142 VECTORS ISOLATED</span><span class="text-gold" data-i18n="progInterceptFoot2">8 AIR-GAPPED</span></div>
+                        <div class="metric-foot mono"><span id="foot-intercept-1">—</span><span class="text-gold" id="foot-intercept-2">—</span></div>
                     </div>
 
                     <!-- Progress 3: Maritime Chokepoint Continuity -->
@@ -258,7 +258,7 @@
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
-                        <div class="metric-foot mono"><span data-i18n="progTransitFoot1">SUEZ · MANDEB · HORMUZ</span><span class="text-cyan" data-i18n="progTransitFoot2">ESCORT CONVOYS ACTIVE</span></div>
+                        <div class="metric-foot mono"><span id="foot-transit-1">—</span><span class="text-cyan" id="foot-transit-2">—</span></div>
                     </div>
 
                     <!-- Progress 4: AI CTI Attribution Confidence -->
@@ -272,7 +272,7 @@
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
-                        <div class="metric-foot mono"><span data-i18n="progAiFoot1">MITRE ATT&CK ALIGNED</span><span class="text-green" data-i18n="progAiFoot2">9 APT CLUSTERS MAPPED</span></div>
+                        <div class="metric-foot mono"><span id="foot-ai-1">—</span><span class="text-green" id="foot-ai-2">—</span></div>
                     </div>
                 </div>
             </div>
@@ -470,6 +470,6 @@
     
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js"></script>
-    <script type="module" src="app.js?v=14"></script>
+    <script type="module" src="app.js?v=15"></script>
 </body>
 </html>

@@ -891,8 +891,8 @@ export class ThreatMap {
                 <h4 class="tac-node-name">${nodeName}</h4>
                 <div class="tac-popup-grid">
                     <div class="tac-grid-item">
-                        <span class="tac-k"><i class="fa-solid fa-chart-line" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'تقارير الهجمات (7 أيام)' : '7D Intel Volume'}</span>
-                        <span class="tac-v mono">${attacks} ${isAr ? 'هجمات مرصودة' : 'Confirmed Hits'}</span>
+                        <span class="tac-k"><i class="fa-solid fa-chart-line" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'حجم الإشارة (7 أيام)' : 'Signal Volume (7D)'}</span>
+                        <span class="tac-v mono">${attacks} ${isAr ? 'تقرير مرتبط بالدولة' : 'country-linked reports'}</span>
                     </div>
                     <div class="tac-grid-item">
                         <span class="tac-k"><i class="fa-solid fa-location-dot" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'الإحداثيات الجغرافية' : 'Geo Coordinates'}</span>
@@ -941,8 +941,8 @@ export class ThreatMap {
         else if (category === 'medium') tooltipIcon = '<i class="fa-solid fa-circle-exclamation" style="color:#06B6D4"></i>';
 
         const tooltipText = isAr 
-            ? `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} هجمات مؤكدة [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.ar}</span>`
-            : `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} confirmed hits [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.en}</span>`;
+            ? `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} تقرير خلال 7 أيام [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.ar}</span>`
+            : `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} reports / 7d [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.en}</span>`;
 
         marker.bindTooltip(tooltipText, {
             direction: 'auto',
