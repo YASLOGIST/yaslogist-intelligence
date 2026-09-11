@@ -1,52 +1,50 @@
 [
     {
-        "id": "CVE-2024-3400",
-        "system": "Palo Alto PAN-OS",
-        "systemEn": "Palo Alto PAN-OS (GlobalProtect)",
-        "systemAr": "بالو ألتو PAN-OS (بوابات الحافة)",
-        "severity": "Critical",
-        "badge": "badge-critical",
-        "advisoryEn": "Patch PAN-OS GlobalProtect Gateway immediately.",
-        "advisoryAr": "تحديث عاجل وفوري لبوابات GlobalProtect وسد ثغرة الحقن."
-    },
-    {
-        "id": "CVE-2023-34362",
-        "system": "MOVEit Transfer",
-        "systemEn": "MOVEit Transfer MFT Gateway",
-        "systemAr": "نظام نقل الملفات MOVEit Transfer",
-        "severity": "Critical",
-        "badge": "badge-critical",
-        "advisoryEn": "Apply vendor SQLi mitigations and isolate storage endpoints.",
-        "advisoryAr": "تطبيق معالجة ثغرة SQLi وعزل نقاط التخزين عن الإنترنت العام."
-    },
-    {
-        "id": "CVE-2024-21412",
-        "system": "Windows Defender",
-        "systemEn": "Windows Defender SmartScreen",
-        "systemAr": "نظام الحماية Windows Defender",
-        "severity": "Critical",
-        "badge": "badge-critical",
-        "advisoryEn": "Enforce MSFT security patch to halt zero-day shortcut execution.",
-        "advisoryAr": "تطبيق حزمة تحديث مايكروسوفت لوقف تنفيذ ملفات الاختصار الخبيثة."
-    },
-    {
-        "id": "CVE-2023-46805",
-        "system": "Ivanti ICS",
-        "systemEn": "Ivanti Connect Secure (ICS)",
-        "systemAr": "بوابات إيفانتي Ivanti Connect Secure",
+        "id": "CVE-2026-82078",
+        "system": "PaperCut MF/NG",
         "severity": "High",
-        "badge": "badge-high",
-        "advisoryEn": "Run external integrity verification tool; revoke all API tokens.",
-        "advisoryAr": "تشغيل أداة التحقق من النزاهة الخارجية وإلغاء كافة مفاتيح API."
+        "badge": "badge-high"
     },
     {
-        "id": "CVE-2023-4966",
-        "system": "Citrix NetScaler",
-        "systemEn": "Citrix NetScaler ADC",
-        "systemAr": "موزع الأحمال Citrix NetScaler ADC",
+        "id": "CVE-2026-81578",
+        "system": "PaperCut MF/NG",
         "severity": "High",
-        "badge": "badge-high",
-        "advisoryEn": "Clear persistent session tokens and deploy firmware update.",
-        "advisoryAr": "تطهير كافة رموز الجلسات النشطة وتحديث البرنامج الثابت فوراً."
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2021-42260",
+        "system": "n/a",
+        "severity": "High",
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9625",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9624",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9622",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9621",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9634",
+        "system": "Redundancy Module Configuration Tool",
+        "severity": "High",
+        "badge": "badge-high"
     }
 ]

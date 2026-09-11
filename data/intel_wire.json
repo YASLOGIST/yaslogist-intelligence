@@ -1,44 +1,49 @@
 [
   {
-    "titleEn": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
-    "titleAr": "الحوثيون يسيطرون على ساحل البحر الأحمر اليمني وممر ملاحي حيوي",
-    "link": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route",
-    "source": "Al Jazeera",
-    "pubDate": 1789121477000,
-    "summaryEn": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
-    "summaryAr": "تقدم سريع لقوة مدعومة من إيران يهدد ممراً ملاحياً بديلاً رئيسياً لمضيق هرمز.",
+    "titleEn": "Houthis take strategic Red Sea island, witnesses say",
+    "titleAr": "Houthis take strategic Red Sea island, witnesses say",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789126519000,
+    "summaryEn": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
+    "summaryAr": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
       }
     ]
   },
   {
-    "titleEn": "Houthis take strategic Red Sea island, witnesses say",
-    "titleAr": "شهود: الحوثيون يسيطرون على جزيرة استراتيجية في البحر الأحمر",
-    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo",
-    "source": "BBC Middle East",
-    "pubDate": 1789119319000,
-    "summaryEn": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
-    "summaryAr": "تقارير عن سيطرة المقاتلين على جزيرة بريم، وهي جزيرة استراتيجية على طريق شحن دولي حيوي.",
+    "titleEn": "GitLab urges users to patch max severity path traversal flaw",
+    "titleAr": "GitLab urges users to patch max severity path traversal flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+    "source": "BleepingComputer",
+    "pubDate": 1789125322000,
+    "summaryEn": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
+    "summaryAr": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
   {
     "titleEn": "Al Jazeera explains massive Israeli blasts on south Lebanon hill",
-    "titleAr": "تفجيرات إسرائيلية ضخمة في تلة بجنوب لبنان",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-reported-israel-hezb-tunnels-lebanon-mp4",
+    "titleAr": "Al Jazeera explains massive Israeli blasts on south Lebanon hill",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-reported-israel-hezb-tunnels-lebanon-mp4?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789123710000,
-    "summaryEn": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon.",
-    "summaryAr": "القوات الإسرائيلية تقول إنها استخدمت أكثر من 1100 طن من المتفجرات لتدمير أنفاق يُزعم أنها لحزب الله في جنوب لبنان.",
+    "summaryEn": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon",
+    "summaryAr": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon",
     "tags": [
       {
         "textEn": "INTEL",
@@ -49,12 +54,12 @@
   },
   {
     "titleEn": "‘Blew the hell out of it’: How Iran damaged US bases in Bahrain, Jordan",
-    "titleAr": "كيف ألحقت إيران أضراراً بقواعد أمريكية في البحرين والأردن",
-    "link": "https://www.aljazeera.com/news/2026/9/11/blew-the-hell-out-of-it-how-iran-damaged-us-bases-in-bahrain-jordan",
+    "titleAr": "‘Blew the hell out of it’: How Iran damaged US bases in Bahrain, Jordan",
+    "link": "https://www.aljazeera.com/news/2026/9/11/blew-the-hell-out-of-it-how-iran-damaged-us-bases-in-bahrain-jordan?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789123295000,
     "summaryEn": "US official admits the naval base near Manama sustained heavy damage in the war with Iran.",
-    "summaryAr": "مسؤول أمريكي يقر بأن القاعدة البحرية قرب المنامة تعرضت لأضرار جسيمة في الحرب مع إيران.",
+    "summaryAr": "US official admits the naval base near Manama sustained heavy damage in the war with Iran.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,13 +69,45 @@
     ]
   },
   {
-    "titleEn": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-    "titleAr": "نتنياهو يقاضي صحيفة بشأن ادعاء تحذير إماراتي من هجوم 7 أكتوبر",
-    "link": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o",
-    "source": "BBC Middle East",
-    "pubDate": 1789055657000,
-    "summaryEn": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
-    "summaryAr": "الصحيفة قالت إنها تقف خلف تقريرها بعد نشر مقتطفات من كتاب ورد فيه الادعاء.",
+    "titleEn": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
+    "titleAr": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
+    "link": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789121477000,
+    "summaryEn": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
+    "summaryAr": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Pro-Palestine student suspended by King’s College London returns to campus",
+    "titleAr": "Pro-Palestine student suspended by King’s College London returns to campus",
+    "link": "https://www.aljazeera.com/news/2026/9/11/pro-palestine-student-suspended-by-kings-college-london-returns-to-campus?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789114922000,
+    "summaryEn": "College lifts suspension amid criticism from student groups over crackdown on pro-Palestine sentiments.",
+    "summaryAr": "College lifts suspension amid criticism from student groups over crackdown on pro-Palestine sentiments.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How 9/11 helped Israel sell its war on Palestinians to America",
+    "titleAr": "How 9/11 helped Israel sell its war on Palestinians to America",
+    "link": "https://www.aljazeera.com/opinions/2026/9/11/how-9-11-helped-israel-sell-its-war-on-palestinians-to?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789114698000,
+    "summaryEn": "The 'war on terror' made Israeli repression easier to present as part of a shared struggle against a common enemy.",
+    "summaryAr": "The 'war on terror' made Israeli repression easier to present as part of a shared struggle against a common enemy.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -81,12 +118,614 @@
   },
   {
     "titleEn": "Settlers, soldiers, and Israeli impunity in the West Bank",
-    "titleAr": "المستوطنون والجنود والإفلات من العقاب في الضفة الغربية",
-    "link": "https://www.aljazeera.com/news/2026/9/11/settlers-soldiers-and-israeli-impunity-in-the-west-bank",
+    "titleAr": "Settlers, soldiers, and Israeli impunity in the West Bank",
+    "link": "https://www.aljazeera.com/news/2026/9/11/settlers-soldiers-and-israeli-impunity-in-the-west-bank?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789112203000,
     "summaryEn": "Armed settlers in military uniforms are seizing land and attacking Palestinian communities with near-total impunity.",
-    "summaryAr": "مستوطنون مسلحون بزي عسكري يستولون على الأراضي ويهاجمون التجمعات الفلسطينية دون محاسبة تُذكر.",
+    "summaryAr": "Armed settlers in military uniforms are seizing land and attacking Palestinian communities with near-total impunity.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Conti ransomware gang member sentenced to 4 years in prison",
+    "titleAr": "Conti ransomware gang member sentenced to 4 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+    "source": "BleepingComputer",
+    "pubDate": 1789109317000,
+    "summaryEn": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+    "summaryAr": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "titleAr": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+    "source": "The Hacker News",
+    "pubDate": 1789107599000,
+    "summaryEn": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center …",
+    "summaryAr": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center …",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "NAZA, the Israeli film revealing new layers of the Gaza genocide",
+    "titleAr": "NAZA, the Israeli film revealing new layers of the Gaza genocide",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/naza-the-israeli-film-revealing-new-layers-of-the-gaza-genocide?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789104334000,
+    "summaryEn": "A 25-minute standing ovation at the Biennale has put NAZA, an Israeli-made film confronting Israel’s genocide in Gaza.",
+    "summaryAr": "A 25-minute standing ovation at the Biennale has put NAZA, an Israeli-made film confronting Israel’s genocide in Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New Android malware encrypts files, steals data, and harasses victims",
+    "titleAr": "New Android malware encrypts files, steals data, and harasses victims",
+    "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+    "source": "BleepingComputer",
+    "pubDate": 1789076443000,
+    "summaryEn": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+    "summaryAr": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+    "titleAr": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+    "link": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789055657000,
+    "summaryEn": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+    "summaryAr": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Algeria to sever diplomatic ties with UAE",
+    "titleAr": "Algeria to sever diplomatic ties with UAE",
+    "link": "https://www.bbc.co.uk/news/articles/cx2zpgpngvpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789055263000,
+    "summaryEn": "The Algerian foreign ministry did not give a reason for the move but said it had exhausted all means.",
+    "summaryAr": "The Algerian foreign ministry did not give a reason for the move but said it had exhausted all means.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+    "titleAr": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+    "source": "BleepingComputer",
+    "pubDate": 1789055038000,
+    "summaryEn": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-s…",
+    "summaryAr": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-s…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+    "titleAr": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+    "source": "Dark Reading",
+    "pubDate": 1789054152000,
+    "summaryEn": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
+    "summaryAr": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "titleAr": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "source": "BleepingComputer",
+    "pubDate": 1789049494000,
+    "summaryEn": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+    "summaryAr": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1789041600000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-67277 MikroTik RouterOS Missing Aut…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-67277 MikroTik RouterOS Missing Aut…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Orthanc DICOM Server",
+    "titleAr": "Orthanc DICOM Server",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
+    "source": "CISA Advisories",
+    "pubDate": 1789041600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an atta…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an atta…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "AVEVA Pipeline Integrity Monitor",
+    "titleAr": "AVEVA Pipeline Integrity Monitor",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
+    "source": "CISA Advisories",
+    "pubDate": 1789041600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ST Engineering iDirect iQ-Series Terminals (Update A)",
+    "titleAr": "ST Engineering iDirect iQ-Series Terminals (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+    "source": "CISA Advisories",
+    "pubDate": 1789041600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.…",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "NextGen Healthcare Mirth Connect",
+    "titleAr": "NextGen Healthcare Mirth Connect",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+    "source": "CISA Advisories",
+    "pubDate": 1789041600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition. The following versions of Next…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition. The following versions of Next…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war won't end until after crucial November elections, says Trump",
+    "titleAr": "Iran war won't end until after crucial November elections, says Trump",
+    "link": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789037033000,
+    "summaryEn": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
+    "summaryAr": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "titleAr": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+    "source": "The Hacker News",
+    "pubDate": 1789036606000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities …",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "titleAr": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1789031420000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "How a community living under demolition orders from Israel view UK sanctions",
+    "titleAr": "How a community living under demolition orders from Israel view UK sanctions",
+    "link": "https://www.bbc.co.uk/news/videos/cy5zpze3qe3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788992242000,
+    "summaryEn": "BBC's Middle East Correspondent Lucy Williamson visits the Palestinian community of Khan al Ahmar in the so-called E1 area, and the neighbouring Israeli settlement of Maale Admumim…",
+    "summaryAr": "BBC's Middle East Correspondent Lucy Williamson visits the Palestinian community of Khan al Ahmar in the so-called E1 area, and the neighbouring Israeli settlement of Maale Admumim…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
+    "titleAr": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
+    "link": "https://www.bbc.co.uk/news/articles/cevw2lxnwk9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788988873000,
+    "summaryEn": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
+    "summaryAr": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Miliband rejects chief rabbi's claim British Jews in greater danger after sanctions move",
+    "titleAr": "Miliband rejects chief rabbi's claim British Jews in greater danger after sanctions move",
+    "link": "https://www.bbc.co.uk/news/articles/ce9e3djdz94o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788987564000,
+    "summaryEn": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
+    "summaryAr": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran referred to UN Security Council for nuclear non-compliance",
+    "titleAr": "Iran referred to UN Security Council for nuclear non-compliance",
+    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788985371000,
+    "summaryEn": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
+    "summaryAr": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "titleAr": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "source": "The Hacker News",
+    "pubDate": 1788978365000,
+    "summaryEn": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
+    "summaryAr": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+    "titleAr": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+    "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788972413000,
+    "summaryEn": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+    "summaryAr": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "titleAr": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "source": "The Hacker News",
+    "pubDate": 1788971645000,
+    "summaryEn": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
+    "summaryAr": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1788955200000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "titleAr": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+    "source": "The Hacker News",
+    "pubDate": 1788945063000,
+    "summaryEn": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
+    "summaryAr": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "titleAr": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+    "source": "The Hacker News",
+    "pubDate": 1788936447000,
+    "summaryEn": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
+    "summaryAr": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "titleAr": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1788935145000,
+    "summaryEn": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
+    "summaryAr": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+    "titleAr": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+    "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+    "source": "The Hacker News",
+    "pubDate": 1788928889000,
+    "summaryEn": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been a…",
+    "summaryAr": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been a…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "titleAr": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1788928071000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
+    "titleAr": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
+    "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788918315000,
+    "summaryEn": "Britain's foreign secretary accuses settlers of carrying out the \"ethnic cleansing\" of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.",
+    "summaryAr": "Britain's foreign secretary accuses settlers of carrying out the \"ethnic cleansing\" of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
+    "titleAr": "Chris Mason: Burnham looks to show he will go further than Starmer with West Bank sanctions",
+    "link": "https://www.bbc.co.uk/news/articles/c3v439n5xlpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788911548000,
+    "summaryEn": "It is hoped that coordinated action minimises the blowback to any one country from Israel or America, our political editor writes.",
+    "summaryAr": "It is hoped that coordinated action minimises the blowback to any one country from Israel or America, our political editor writes.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "British-Israeli relations at lowest ebb in decades",
+    "titleAr": "British-Israeli relations at lowest ebb in decades",
+    "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788903991000,
+    "summaryEn": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
+    "summaryAr": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How Israel responded to UK sanctions on West Bank settlements",
+    "titleAr": "How Israel responded to UK sanctions on West Bank settlements",
+    "link": "https://www.bbc.co.uk/news/videos/cj4jwnzd2dgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788902752000,
+    "summaryEn": "BBC correspondent Katy Watson reports from Jerusalem.",
+    "summaryAr": "BBC correspondent Katy Watson reports from Jerusalem.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Where is Israel's proposed West Bank settlement the UK opposes?",
+    "titleAr": "Where is Israel's proposed West Bank settlement the UK opposes?",
+    "link": "https://www.bbc.co.uk/news/videos/c74k1lw9nwko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788885932000,
+    "summaryEn": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
+    "summaryAr": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+    "titleAr": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+    "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+    "source": "The Hacker News",
+    "pubDate": 1788884423000,
+    "summaryEn": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company …",
+    "summaryAr": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
+    "titleAr": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
+    "link": "https://www.bbc.co.uk/news/articles/cvgy6gd228vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1788881794000,
+    "summaryEn": "Palestinians strongly back a ban on settlement goods, but Israel's government says it is a \"big mistake\".",
+    "summaryAr": "Palestinians strongly back a ban on settlement goods, but Israel's government says it is a \"big mistake\".",
     "tags": [
       {
         "textEn": "INTEL",
