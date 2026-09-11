@@ -447,38 +447,30 @@ class YaslogistThreatRadarApp {
     async init() {
         console.log('[YASLOGIST] Sovereign Command OS initializing...');
 
-        // 1. Initialize OGL / Native WebGL2 Background Shader
-        this.initShader();
+        // Every subsystem boots in isolation. A single failing dependency
+        // (dead CDN, blocked feed, missing DOM node) degrades ONE module
+        // and can never abort the boot chain again.
+        const safe = async (label, fn) => {
+            try {
+                await fn();
+            } catch (err) {
+                console.error(`[YASLOGIST] Subsystem "${label}" degraded (non-fatal):`, err);
+            }
+        };
 
-        // 2. Initialize Tactical Map
-        this.initMap();
+        await safe('shader',       () => this.initShader());
+        await safe('tactical-map', () => this.initMap());
+        await safe('clocks',       () => this.startDualClocks());
+        await safe('i18n',         () => this.initLanguageSwitcher());
+        await safe('charts',       () => this.initCharts());
+        await safe('tabs',         () => this.bindTabs());
+        await safe('interactions', () => this.bindInteractions());
+        await safe('cti-data',     () => this.loadData());
+        await safe('intel-wire',   () => this.fetchWire());
+        await safe('dossiers',     () => this.renderThreatActors());
+        await safe('telemetry',    () => this.startLiveProgressTelemetry());
 
-        // 3. Start Dual Clocks
-        this.startDualClocks();
-
-        // 4. Initialize Bilingual Switcher
-        this.initLanguageSwitcher();
-
-        // 5. Initialize Charts
-        this.initCharts();
-
-        // 6. Bind User Interaction Listeners
-        this.bindTabs();
-        this.bindInteractions();
-
-        // 7. Load Dynamic CTI Data
-        await this.loadData();
-
-        // 8. Load Live RSS Intelligence
-        await this.fetchWire();
-
-        // 9. Render Threat Actor Dossiers
-        this.renderThreatActors();
-
-        // 10. Start Live Telemetry Progress System
-        this.startLiveProgressTelemetry();
-
-        console.log('[YASLOGIST] Sovereign Threat Radar online. All systems nominal.');
+        console.log('[YASLOGIST] Sovereign Threat Radar online.');
     }
 
     initShader() {
@@ -874,92 +866,181 @@ class YaslogistThreatRadarApp {
         }).join('');
     }
 
-    async fetchWire() {
-        const container = document.getElementById('news-container');
-        if (!container) return;
-
-        container.innerHTML = `
-            <div class="loading-state">
-                <i class="fa-solid fa-satellite-dish fa-spin"></i>
-                <span>${I18N[this.currentLang].loadingWire}</span>
-            </div>
-        `;
-
-        const feedUrls = [
+    // Feeds used for the live browser-side overlay.
+    static get WIRE_FEEDS() {
+        return [
             { url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', source: 'BBC Middle East' },
             { url: 'https://www.aljazeera.com/xml/rss/all.xml', source: 'Al Jazeera' },
             { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer' },
             { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News' },
             { url: 'https://www.darkreading.com/rss.xml', source: 'Dark Reading' }
         ];
+    }
 
-        let fetchedItems = [];
-        const keywords = ['israel', 'gaza', 'palestin', 'iran', 'lebanon', 'syria', 'yemen', 'houthi', 'middle east', 'suez', 'red sea', 'hormuz', 'maritime', 'cve', 'zero-day', 'ransomware', 'wiper', 'apt33', 'apt34', 'scada', 'telecom'];
+    static get WIRE_KEYWORDS() {
+        return ['israel', 'gaza', 'palestin', 'iran', 'lebanon', 'syria', 'yemen', 'houthi',
+                'middle east', 'suez', 'red sea', 'hormuz', 'maritime', 'cve', 'zero-day',
+                'ransomware', 'wiper', 'apt33', 'apt34', 'scada', 'telecom', 'hezbollah',
+                'idf', 'strike', 'drone', 'missile'];
+    }
 
-        try {
-            for (const feed of feedUrls) {
-                try {
-                    const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
-                    if (!response.ok) continue;
-                    const data = await response.json();
-                    if (!data.items) continue;
-
-                    data.items.forEach(item => {
-                        const title = item.title || "";
-                        const description = item.description || item.content || "";
-                        const contentStr = (title + " " + description).toLowerCase();
-
-                        const isRelevant = feed.source.includes('BBC') || keywords.some(kw => contentStr.includes(kw));
-
-                        if (isRelevant) {
-                            const tags = [];
-                            if (contentStr.includes('ransomware')) tags.push({ textEn: 'RANSOMWARE', textAr: 'برمجيات الفدية', class: 'tag-urgent' });
-                            if (contentStr.includes('zero-day') || contentStr.includes('0-day')) tags.push({ textEn: 'ZERO-DAY', textAr: 'يوم-الصفر', class: 'tag-purple' });
-                            if (contentStr.includes('maritime') || contentStr.includes('suez') || contentStr.includes('red sea') || contentStr.includes('houthi') || contentStr.includes('vessel')) {
-                                tags.push({ textEn: 'MARITIME', textAr: 'ملاحة بحرية', class: 'tag-urgent' });
-                            }
-                            if (contentStr.includes('ddos')) tags.push({ textEn: 'DDoS', textAr: 'حجب الخدمة', class: 'tag-warn' });
-                            if (contentStr.includes('apt') || contentStr.includes('state-sponsored')) tags.push({ textEn: 'APT', textAr: 'مجموعات متقدمة', class: 'tag-cyan' });
-
-                            if (tags.length === 0) {
-                                tags.push({ textEn: 'INTEL', textAr: 'استخبارات', class: '' });
-                            }
-
-                            fetchedItems.push({
-                                titleEn: title,
-                                titleAr: title, // RSS provides English titles
-                                link: item.link || "#",
-                                source: feed.source,
-                                pubDate: new Date(item.pubDate || new Date()).getTime(),
-                                summaryEn: description.replace(/<[^>]+>/g, '').trim().substring(0, 160) + '...',
-                                summaryAr: description.replace(/<[^>]+>/g, '').trim().substring(0, 160) + '...',
-                                tags: tags.slice(0, 3)
-                            });
-                        }
-                    });
-                } catch (err) {
-                    // Skip unavailable feed
-                }
-            }
-
-            if (fetchedItems.length > 0) {
-                fetchedItems.sort((a, b) => b.pubDate - a.pubDate);
-                this.allWireItems = fetchedItems;
-            } else {
-                this.allWireItems = FALLBACK_WIRE_ITEMS;
-            }
-        } catch (e) {
-            this.allWireItems = FALLBACK_WIRE_ITEMS;
+    buildWireTags(contentStr) {
+        const tags = [];
+        if (contentStr.includes('ransomware')) tags.push({ textEn: 'RANSOMWARE', textAr: 'برمجيات الفدية', class: 'tag-urgent' });
+        if (contentStr.includes('zero-day') || contentStr.includes('0-day')) tags.push({ textEn: 'ZERO-DAY', textAr: 'يوم-الصفر', class: 'tag-purple' });
+        if (contentStr.includes('maritime') || contentStr.includes('suez') || contentStr.includes('red sea') ||
+            contentStr.includes('houthi') || contentStr.includes('vessel') || contentStr.includes('hormuz')) {
+            tags.push({ textEn: 'MARITIME', textAr: 'ملاحة بحرية', class: 'tag-urgent' });
         }
+        if (contentStr.includes('ddos')) tags.push({ textEn: 'DDoS', textAr: 'حجب الخدمة', class: 'tag-warn' });
+        if (contentStr.includes('apt') || contentStr.includes('state-sponsored')) tags.push({ textEn: 'APT', textAr: 'مجموعات متقدمة', class: 'tag-cyan' });
+        if (tags.length === 0) tags.push({ textEn: 'INTEL', textAr: 'استخبارات', class: '' });
+        return tags.slice(0, 3);
+    }
 
+    // Accepts anything the pipeline or a seed file produced and coerces it
+    // into the exact shape renderIntelligenceWire() expects.
+    normalizeWireItems(raw) {
+        if (!Array.isArray(raw)) return [];
+        return raw.map(item => {
+            if (!item || typeof item !== 'object') return null;
+
+            const titleEn = item.titleEn || item.title || '';
+            if (!titleEn) return null;
+
+            let pubDate = item.pubDate;
+            if (typeof pubDate !== 'number') {
+                const parsed = Date.parse(item.pubDate || item.timestamp || '');
+                pubDate = isNaN(parsed) ? Date.now() : parsed;
+            }
+
+            const summaryEn = item.summaryEn || item.summary || '';
+            let tags = Array.isArray(item.tags) ? item.tags.filter(t => t && t.textEn) : [];
+            if (tags.length === 0) {
+                tags = this.buildWireTags(`${titleEn} ${summaryEn} ${item.category || ''}`.toLowerCase());
+            }
+
+            return {
+                titleEn,
+                titleAr: item.titleAr || titleEn,
+                link: item.link || item.url || '#',
+                source: item.source || 'YASLOGIST CTI',
+                pubDate,
+                summaryEn,
+                summaryAr: item.summaryAr || summaryEn,
+                tags
+            };
+        }).filter(Boolean);
+    }
+
+    dedupeWireItems(items) {
+        const seen = new Set();
+        const out = [];
+        items.forEach(item => {
+            const key = (item.titleEn || '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
+            if (!key || seen.has(key)) return;
+            seen.add(key);
+            out.push(item);
+        });
+        out.sort((a, b) => b.pubDate - a.pubDate);
+        return out.slice(0, 60);
+    }
+
+    updateWireCount() {
         const countEl = document.getElementById('wire-report-count');
-        if (countEl) {
-            const isAr = this.currentLang === 'ar';
-            countEl.textContent = isAr 
-                ? `${this.allWireItems.length} تقارير معترضة // تدفق حي متواصل`
-                : `${this.allWireItems.length} intercepted reports // Active streams`;
+        if (!countEl) return;
+        const isAr = this.currentLang === 'ar';
+        const n = (this.allWireItems || []).length;
+        countEl.textContent = isAr
+            ? `${n} تقارير معترضة // تدفق حي متواصل`
+            : `${n} intercepted reports // Active streams`;
+    }
+
+    async fetchSingleFeed(feed, timeoutMs = 9000) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+            const response = await fetch(
+                `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`,
+                { signal: controller.signal }
+            );
+            if (!response.ok) return [];
+            const data = await response.json();
+            if (!data || !Array.isArray(data.items)) return [];
+
+            const keywords = YaslogistThreatRadarApp.WIRE_KEYWORDS;
+            const out = [];
+            data.items.forEach(item => {
+                const title = item.title || '';
+                const description = item.description || item.content || '';
+                const contentStr = `${title} ${description}`.toLowerCase();
+                const isRelevant = feed.source.includes('BBC') || keywords.some(kw => contentStr.includes(kw));
+                if (!isRelevant) return;
+
+                const clean = description.replace(/<[^>]+>/g, '').trim();
+                out.push({
+                    titleEn: title,
+                    titleAr: title,
+                    link: item.link || '#',
+                    source: feed.source,
+                    pubDate: Date.parse(item.pubDate || '') || Date.now(),
+                    summaryEn: clean.substring(0, 180) + (clean.length > 180 ? '…' : ''),
+                    summaryAr: clean.substring(0, 180) + (clean.length > 180 ? '…' : ''),
+                    tags: this.buildWireTags(contentStr)
+                });
+            });
+            return out;
+        } catch (err) {
+            return [];
+        } finally {
+            clearTimeout(timer);
+        }
+    }
+
+    async fetchWire() {
+        const container = document.getElementById('news-container');
+        if (container) {
+            container.innerHTML = `
+                <div class="loading-state">
+                    <i class="fa-solid fa-satellite-dish fa-spin"></i>
+                    <span>${I18N[this.currentLang].loadingWire}</span>
+                </div>
+            `;
         }
 
+        // ---- STAGE 1 : committed wire, regenerated every 2h by the GitHub Action.
+        // Always available, never rate-limited. Painted immediately.
+        let baseItems = [];
+        try {
+            const res = await fetch(`./data/intel_wire.json?t=${Date.now()}`, { cache: 'no-store' });
+            if (res.ok) baseItems = this.normalizeWireItems(await res.json());
+        } catch (err) {
+            console.warn('[YASLOGIST] Static intel wire unavailable:', err);
+        }
+
+        if (baseItems.length > 0) {
+            this.allWireItems = this.dedupeWireItems(baseItems);
+            this.updateWireCount();
+            this.renderIntelligenceWire();
+        }
+
+        // ---- STAGE 2 : live browser-side overlay. Parallel + timeboxed.
+        let liveItems = [];
+        try {
+            const results = await Promise.allSettled(
+                YaslogistThreatRadarApp.WIRE_FEEDS.map(feed => this.fetchSingleFeed(feed))
+            );
+            results.forEach(r => {
+                if (r.status === 'fulfilled' && Array.isArray(r.value)) liveItems = liveItems.concat(r.value);
+            });
+        } catch (err) {
+            console.warn('[YASLOGIST] Live feed overlay degraded:', err);
+        }
+
+        const merged = this.dedupeWireItems(liveItems.concat(baseItems));
+        this.allWireItems = merged.length > 0 ? merged : FALLBACK_WIRE_ITEMS;
+
+        this.updateWireCount();
         this.renderIntelligenceWire();
     }
 

@@ -1,32 +1,98 @@
 [
   {
-    "id": "YAS-INTEL-01",
-    "timestamp": "2026-09-09T08:00:00Z",
-    "category": "MARITIME",
-    "severity": "CRITICAL",
-    "title": "Red Sea Chokepoint Interdiction & Electronic Jamming Alert",
-    "source": "YASLOGIST CTI TELEMETRY",
-    "region": "Bab el-Mandeb / Suez Corridor",
-    "summary": "Autonomous telemetry detects anomalous vessel clustering and active navigation spoofing targeting commercial container shipping lanes."
+    "titleEn": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
+    "titleAr": "الحوثيون يسيطرون على ساحل البحر الأحمر اليمني وممر ملاحي حيوي",
+    "link": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route",
+    "source": "Al Jazeera",
+    "pubDate": 1789121477000,
+    "summaryEn": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
+    "summaryAr": "تقدم سريع لقوة مدعومة من إيران يهدد ممراً ملاحياً بديلاً رئيسياً لمضيق هرمز.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
   },
   {
-    "id": "YAS-INTEL-02",
-    "timestamp": "2026-09-09T07:15:00Z",
-    "category": "APT ACTIVITY",
-    "severity": "HIGH",
-    "title": "State-Sponsored Cyber Probe Targeting Port Logistics Control Towers",
-    "source": "MIDDLE EAST CYBER COMMAND",
-    "region": "Eastern Mediterranean",
-    "summary": "Advanced persistent threat signatures identified probing automated container handling gate control systems and customs databases."
+    "titleEn": "Houthis take strategic Red Sea island, witnesses say",
+    "titleAr": "شهود: الحوثيون يسيطرون على جزيرة استراتيجية في البحر الأحمر",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo",
+    "source": "BBC Middle East",
+    "pubDate": 1789119319000,
+    "summaryEn": "Rebel fighters are reported to have captured Perim, a strategic island on a vital international shipping route.",
+    "summaryAr": "تقارير عن سيطرة المقاتلين على جزيرة بريم، وهي جزيرة استراتيجية على طريق شحن دولي حيوي.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
   },
   {
-    "id": "YAS-INTEL-03",
-    "timestamp": "2026-09-09T06:30:00Z",
-    "category": "ZERO-DAY",
-    "severity": "CRITICAL",
-    "title": "Critical ICS/SCADA Vulnerability Disclosed in Supply Chain Hubs",
-    "source": "MITRE CAVE / CISA KEV",
-    "region": "Global / Regional Hubs",
-    "summary": "Active exploitation vector detected against remote terminal units deployed in automated logistics freight infrastructure."
+    "titleEn": "Al Jazeera explains massive Israeli blasts on south Lebanon hill",
+    "titleAr": "تفجيرات إسرائيلية ضخمة في تلة بجنوب لبنان",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-reported-israel-hezb-tunnels-lebanon-mp4",
+    "source": "Al Jazeera",
+    "pubDate": 1789123710000,
+    "summaryEn": "Israeli forces say they used more than 1,100 tonnes of explosives to demolish alleged Hezbollah tunnels in south Lebanon.",
+    "summaryAr": "القوات الإسرائيلية تقول إنها استخدمت أكثر من 1100 طن من المتفجرات لتدمير أنفاق يُزعم أنها لحزب الله في جنوب لبنان.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Blew the hell out of it’: How Iran damaged US bases in Bahrain, Jordan",
+    "titleAr": "كيف ألحقت إيران أضراراً بقواعد أمريكية في البحرين والأردن",
+    "link": "https://www.aljazeera.com/news/2026/9/11/blew-the-hell-out-of-it-how-iran-damaged-us-bases-in-bahrain-jordan",
+    "source": "Al Jazeera",
+    "pubDate": 1789123295000,
+    "summaryEn": "US official admits the naval base near Manama sustained heavy damage in the war with Iran.",
+    "summaryAr": "مسؤول أمريكي يقر بأن القاعدة البحرية قرب المنامة تعرضت لأضرار جسيمة في الحرب مع إيران.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+    "titleAr": "نتنياهو يقاضي صحيفة بشأن ادعاء تحذير إماراتي من هجوم 7 أكتوبر",
+    "link": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o",
+    "source": "BBC Middle East",
+    "pubDate": 1789055657000,
+    "summaryEn": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+    "summaryAr": "الصحيفة قالت إنها تقف خلف تقريرها بعد نشر مقتطفات من كتاب ورد فيه الادعاء.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Settlers, soldiers, and Israeli impunity in the West Bank",
+    "titleAr": "المستوطنون والجنود والإفلات من العقاب في الضفة الغربية",
+    "link": "https://www.aljazeera.com/news/2026/9/11/settlers-soldiers-and-israeli-impunity-in-the-west-bank",
+    "source": "Al Jazeera",
+    "pubDate": 1789112203000,
+    "summaryEn": "Armed settlers in military uniforms are seizing land and attacking Palestinian communities with near-total impunity.",
+    "summaryAr": "مستوطنون مسلحون بزي عسكري يستولون على الأراضي ويهاجمون التجمعات الفلسطينية دون محاسبة تُذكر.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
   }
 ]

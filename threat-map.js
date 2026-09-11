@@ -766,11 +766,21 @@ export class ThreatMap {
         if (category === 'critical') {
             // CRITICAL: Red pulsing beacon (kinetic alert effect)
             markerType = 'kinetic';
-            customIcon = L.icon.pulse({
-                iconSize: [markerDiameter, markerDiameter],
-                color: colorHex,
-                fillColor: colorHex
-            });
+            iconHtml = `
+                <div class="radar-node node-kinetic" style="
+                    --node-color: ${colorHex};
+                    --node-glow: ${glowShadow};
+                    --pulse-duration: ${pulseSpeed};
+                    width: ${markerDiameter}px;
+                    height: ${markerDiameter}px;
+                ">
+                    <div class="kinetic-beacon"></div>
+                    <div class="radar-pulse-ring ring-1"></div>
+                    <div class="radar-pulse-ring ring-2"></div>
+                    <div class="radar-pulse-ring ring-3"></div>
+                    <div class="radar-center-dot"></div>
+                </div>
+            `;
         } else if (category === 'high') {
             // HIGH: Yellow/gold glitch square (cyber alert effect)
             markerType = 'cyber';
