@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+    "titleAr": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+    "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+    "source": "BleepingComputer",
+    "pubDate": 1789135271000,
+    "summaryEn": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI u…",
+    "summaryAr": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI u…",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
+    "titleAr": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
+    "link": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789132184000,
+    "summaryEn": "Second day of strikes on fuel stations suggest a new campaign focused on civilian areas in the Ukrainian capital.",
+    "summaryAr": "Second day of strikes on fuel stations suggest a new campaign focused on civilian areas in the Ukrainian capital.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "From hunger crisis to ‘obesity’: how Gaza’s UN data is being twisted",
+    "titleAr": "From hunger crisis to ‘obesity’: how Gaza’s UN data is being twisted",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/from-hunger-crisis-to-obesity-how-gazas-un-data-is-being-twisted?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789129802000,
+    "summaryEn": "US and Israeli officials are using a drop in acute malnutrition cases to claim Gaza has no hunger.",
+    "summaryAr": "US and Israeli officials are using a drop in acute malnutrition cases to claim Gaza has no hunger.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Myanmar airport closed following reported drone attack",
+    "titleAr": "Myanmar airport closed following reported drone attack",
+    "link": "https://www.aljazeera.com/news/2026/9/11/myanmar-airport-closed-following-reported-drone-attack?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789129332000,
+    "summaryEn": "Military government pins attack on pro-democracy rebels it has been battling since seizing power in 2021.",
+    "summaryAr": "Military government pins attack on pro-democracy rebels it has been battling since seizing power in 2021.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Houthis take strategic Red Sea island, witnesses say",
     "titleAr": "Houthis take strategic Red Sea island, witnesses say",
     "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
@@ -69,8 +133,8 @@
     ]
   },
   {
-    "titleEn": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
-    "titleAr": "Houthis take control of Yemen’s Red Sea coast and key shipping route",
+    "titleEn": "Houthis control key shipping route after gains along Yemen’s Red Sea coast",
+    "titleAr": "Houthis control key shipping route after gains along Yemen’s Red Sea coast",
     "link": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789121477000,
@@ -166,22 +230,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "NAZA, the Israeli film revealing new layers of the Gaza genocide",
-    "titleAr": "NAZA, the Israeli film revealing new layers of the Gaza genocide",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/11/naza-the-israeli-film-revealing-new-layers-of-the-gaza-genocide?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789104334000,
-    "summaryEn": "A 25-minute standing ovation at the Biennale has put NAZA, an Israeli-made film confronting Israel’s genocide in Gaza.",
-    "summaryAr": "A 25-minute standing ovation at the Biennale has put NAZA, an Israeli-made film confronting Israel’s genocide in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -395,22 +443,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-    "titleAr": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
-    "source": "BleepingComputer",
-    "pubDate": 1789031420000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -694,38 +726,6 @@
     "pubDate": 1788885932000,
     "summaryEn": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
     "summaryAr": "BBC's Middle East correspondent Lucy Williamson reports from an area close to Israel's proposed site in the occupied West Bank.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-    "titleAr": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-    "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-    "source": "The Hacker News",
-    "pubDate": 1788884423000,
-    "summaryEn": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company …",
-    "summaryAr": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
-    "titleAr": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
-    "link": "https://www.bbc.co.uk/news/articles/cvgy6gd228vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788881794000,
-    "summaryEn": "Palestinians strongly back a ban on settlement goods, but Israel's government says it is a \"big mistake\".",
-    "summaryAr": "Palestinians strongly back a ban on settlement goods, but Israel's government says it is a \"big mistake\".",
     "tags": [
       {
         "textEn": "INTEL",
