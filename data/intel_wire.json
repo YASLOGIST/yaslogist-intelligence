@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "How to plan a wedding when you don’t know what tomorrow will bring",
+    "titleAr": "How to plan a wedding when you don’t know what tomorrow will bring",
+    "link": "https://www.aljazeera.com/features/longform/2026/9/12/how-to-plan-a-wedding-when-you-dont-know-what-tomorrow-will-bring?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789198404000,
+    "summaryEn": "In Gaza, weddings have become acts of defiance. Couples marry in tents and rebuild, choosing love despite suffering.",
+    "summaryAr": "In Gaza, weddings have become acts of defiance. Couples marry in tents and rebuild, choosing love despite suffering.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Man waving Palestinian flag tackled on Yankee Stadium field",
+    "titleAr": "Man waving Palestinian flag tackled on Yankee Stadium field",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/man-waving-palestinian-flag-tackled-on-yankee-stadium-field?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789197458000,
+    "summaryEn": "A man waving a Palestinian flag ran onto the field at Yankee Stadium during a Yankees-Mets MLB game.",
+    "summaryAr": "A man waving a Palestinian flag ran onto the field at Yankee Stadium during a Yankees-Mets MLB game.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "BRICS meets in India: What’s on the agenda, why it matters",
+    "titleAr": "BRICS meets in India: What’s on the agenda, why it matters",
+    "link": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789190529000,
+    "summaryEn": "This year's summit comes amid the US-Israel war on Iran, Russia's war on Ukraine and global economic challenges.",
+    "summaryAr": "This year's summit comes amid the US-Israel war on Iran, Russia's war on Ukraine and global economic challenges.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China’s Xi lands in India for BRICS summit overshadowed by wars",
+    "titleAr": "China’s Xi lands in India for BRICS summit overshadowed by wars",
+    "link": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789187247000,
+    "summaryEn": "Wars in the Middle East and Ukraine, along with global energy security, are expected to dominate the summit.",
+    "summaryAr": "Wars in the Middle East and Ukraine, along with global energy security, are expected to dominate the summit.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "North Korea fires ballistic missiles off eastern coast, Seoul says",
     "titleAr": "North Korea fires ballistic missiles off eastern coast, Seoul says",
     "link": "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss",
@@ -48,8 +112,8 @@
     ]
   },
   {
-    "titleEn": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda",
-    "titleAr": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda",
+    "titleEn": "CIA releases dozens of declassified documents on bin Laden prior to 9/11",
+    "titleAr": "CIA releases dozens of declassified documents on bin Laden prior to 9/11",
     "link": "https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789176161000,
@@ -144,29 +208,13 @@
     ]
   },
   {
-    "titleEn": "Declassified documents show UK aware of Israeli war crimes for 24 years",
-    "titleAr": "Declassified documents show UK aware of Israeli war crimes for 24 years",
-    "link": "https://www.aljazeera.com/news/2026/9/11/declassified-documents-show-uk-aware-of-israeli-war-crimes-for-24-years?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789156781000,
-    "summaryEn": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002.",
-    "summaryAr": "UK Foreign Office files, public since 2024, record warnings about Israeli violence and rights abuses since 2002.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Lightning Houthi advance in Yemen may bring dangerous new dimension to Iran war",
     "titleAr": "Lightning Houthi advance in Yemen may bring dangerous new dimension to Iran war",
     "link": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
     "pubDate": 1789155898000,
-    "summaryEn": "The capture by the rebels of a stretch Yemen's strategic coastline is the group's most impressive military coup for several years.",
-    "summaryAr": "The capture by the rebels of a stretch Yemen's strategic coastline is the group's most impressive military coup for several years.",
+    "summaryEn": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most impressive military coup for several years.",
+    "summaryAr": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most impressive military coup for several years.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -177,38 +225,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "How US leaders remembered the 25th anniversary of the 9/11 attacks",
-    "titleAr": "How US leaders remembered the 25th anniversary of the 9/11 attacks",
-    "link": "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789154508000,
-    "summaryEn": "Trump drew parallels to the US's present-day war against Iran, while figures like Abdul El-Sayed called for inclusivity.",
-    "summaryAr": "Trump drew parallels to the US's present-day war against Iran, while figures like Abdul El-Sayed called for inclusivity.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthi advance in Yemen is about more than just the Red Sea",
-    "titleAr": "Houthi advance in Yemen is about more than just the Red Sea",
-    "link": "https://www.aljazeera.com/news/2026/9/11/houthi-advance-in-yemen-is-about-more-than-just-the-red-sea?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789153267000,
-    "summaryEn": "Houthis were already able to disrupt shipping - their advance consolidates that power, and exposes government weakness.",
-    "summaryAr": "Houthis were already able to disrupt shipping - their advance consolidates that power, and exposes government weakness.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -710,22 +726,6 @@
     "pubDate": 1788945063000,
     "summaryEn": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
     "summaryAr": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "titleAr": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-    "source": "The Hacker News",
-    "pubDate": 1788936447000,
-    "summaryEn": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
-    "summaryAr": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
     "tags": [
       {
         "textEn": "ZERO-DAY",
