@@ -1,5 +1,106 @@
 [
   {
+    "titleEn": "Will the Houthi attacks activate the Mecca Pact?",
+    "titleAr": "Will the Houthi attacks activate the Mecca Pact?",
+    "link": "https://www.aljazeera.com/opinions/2026/9/12/will-the-houthi-attacks-activate-the-mecca-pact?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789229208000,
+    "summaryEn": "If there is a Saudi request, Pakistan and Turkiye will intervene, but direct involvement in the Yemen war is unlikely.",
+    "summaryAr": "If there is a Saudi request, Pakistan and Turkiye will intervene, but direct involvement in the Yemen war is unlikely.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "At least seven killed in fire at prison in northern Syria",
+    "titleAr": "At least seven killed in fire at prison in northern Syria",
+    "link": "https://www.aljazeera.com/news/2026/9/12/at-least-seven-killed-in-fire-at-prison-in-northern-syria?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789226808000,
+    "summaryEn": "Inmates rioted following protests in the city of Kobane over the killing of former Kurdish fighter, state media reports.",
+    "summaryAr": "Inmates rioted following protests in the city of Kobane over the killing of former Kurdish fighter, state media reports.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranian official tells Al Jazeera IAEA ruling was imposed by US and Israel",
+    "titleAr": "Iranian official tells Al Jazeera IAEA ruling was imposed by US and Israel",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-iranian-fm-spox-aj?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789224588000,
+    "summaryEn": "Iranian official tells Al Jazeera an IAEA resolution on Tehran’s nuclear safeguards was ‘imposed’ by the US and Israel",
+    "summaryAr": "Iranian official tells Al Jazeera an IAEA resolution on Tehran’s nuclear safeguards was ‘imposed’ by the US and Israel",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "titleAr": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "source": "BleepingComputer",
+    "pubDate": 1789222472000,
+    "summaryEn": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+    "summaryAr": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran-backed Houthis seize strategic Mayun Island: Can they hold it?",
+    "titleAr": "Iran-backed Houthis seize strategic Mayun Island: Can they hold it?",
+    "link": "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789220700000,
+    "summaryEn": "The takeover solidifies the group's position in the Bab al-Mandeb, but holding it long-term could be difficult.",
+    "summaryAr": "The takeover solidifies the group's position in the Bab al-Mandeb, but holding it long-term could be difficult.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+    "titleAr": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+    "link": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789218365000,
+    "summaryEn": "Iranian officials have praised the Houthis' victories but have not spoken about any imminent closure of Bab al-Mandeb.",
+    "summaryAr": "Iranian officials have praised the Houthis' victories but have not spoken about any imminent closure of Bab al-Mandeb.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "titleAr": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
@@ -103,70 +204,6 @@
     "pubDate": 1789209378000,
     "summaryEn": "Baghdad launches investigation, closes border after confirming strike came from Iraqi territory.",
     "summaryAr": "Baghdad launches investigation, closes border after confirming strike came from Iraqi territory.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Fighting re-erupts in Yemen and civilians are paying the price",
-    "titleAr": "Fighting re-erupts in Yemen and civilians are paying the price",
-    "link": "https://www.aljazeera.com/news/2026/9/12/fighting-re-erupts-in-yemen-and-civilians-are-paying-the-price?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789205446000,
-    "summaryEn": "More than 900 people have been killed or injured and at least 5,000 families have fled their homes in less than a week.",
-    "summaryAr": "More than 900 people have been killed or injured and at least 5,000 families have fled their homes in less than a week.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia strikes cargo vessels, steel plants across Ukraine",
-    "titleAr": "Russia strikes cargo vessels, steel plants across Ukraine",
-    "link": "https://www.aljazeera.com/news/2026/9/12/russia-strikes-cargo-vessels-steel-plants-across-ukraine?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789202328000,
-    "summaryEn": "Russia's Defence Ministry says its forces have struck several industrial facilities across Ukraine.",
-    "summaryAr": "Russia's Defence Ministry says its forces have struck several industrial facilities across Ukraine.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "How to plan a wedding when you don’t know what tomorrow will bring",
-    "titleAr": "How to plan a wedding when you don’t know what tomorrow will bring",
-    "link": "https://www.aljazeera.com/features/longform/2026/9/12/how-to-plan-a-wedding-when-you-dont-know-what-tomorrow-will-bring?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789198404000,
-    "summaryEn": "In Gaza, weddings have become acts of defiance. Couples marry in tents and rebuild, choosing love despite suffering.",
-    "summaryAr": "In Gaza, weddings have become acts of defiance. Couples marry in tents and rebuild, choosing love despite suffering.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Man waving Palestinian flag tackled on Yankee Stadium field",
-    "titleAr": "Man waving Palestinian flag tackled on Yankee Stadium field",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/man-waving-palestinian-flag-tackled-on-yankee-stadium-field?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789197458000,
-    "summaryEn": "A man waving a Palestinian flag ran onto the field at Yankee Stadium during a Yankees-Mets MLB game.",
-    "summaryAr": "A man waving a Palestinian flag ran onto the field at Yankee Stadium during a Yankees-Mets MLB game.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -442,27 +479,6 @@
     ]
   },
   {
-    "titleEn": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-    "titleAr": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-    "source": "BleepingComputer",
-    "pubDate": 1789055038000,
-    "summaryEn": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-s…",
-    "summaryAr": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-s…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
     "titleEn": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
     "titleAr": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
     "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
@@ -715,22 +731,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "titleAr": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-    "source": "The Hacker News",
-    "pubDate": 1788945063000,
-    "summaryEn": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
-    "summaryAr": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   }
