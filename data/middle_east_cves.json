@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-9633",
+        "id": "CVE-2026-9625",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "cvss": 8.7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9624",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "cvss": 8.7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9622",
+        "system": "RSLinx Classic®",
+        "severity": "High",
+        "cvss": 8.7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-9621",
+        "system": "RSLinx Classic®",
+        "severity": "Critical",
+        "cvss": 9.2,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-9634",
         "system": "Redundancy Module Configuration Tool",
         "severity": "High",
         "cvss": 7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-9637",
-        "system": "CompactLogix® 5380 / ControlLogix® 5580",
-        "severity": "High",
-        "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-12661",
-        "system": "FactoryTalk® Historian Machine Edition",
-        "severity": "Medium",
-        "cvss": 4.8,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2025-12768",
-        "system": "FactoryTalk® Historian Machine Edition",
-        "severity": "High",
-        "cvss": 8.6,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-16675",
-        "system": "FactoryTalk® Activation Manager",
-        "severity": "High",
-        "cvss": 8.5,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-83549",
-        "system": "SMA1000",
-        "severity": "High",
-        "cvss": 7.8,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-83548",
-        "system": "SMA1000",
+        "id": "CVE-2026-49869",
+        "system": "kestra",
         "severity": "Critical",
         "cvss": 10,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-59822",
-        "system": "litellm",
-        "severity": "High",
-        "cvss": 8.8,
-        "badge": "badge-high"
+        "id": "CVE-2026-48710",
+        "system": "starlette",
+        "severity": "Medium",
+        "cvss": 6.5,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-9586",
+        "system": "Switchvox SMB Edition",
+        "severity": "Critical",
+        "cvss": 9.3,
+        "badge": "badge-critical"
     }
 ]
