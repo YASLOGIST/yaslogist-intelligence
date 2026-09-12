@@ -1,5 +1,85 @@
 [
   {
+    "titleEn": "Bahrain says it will not participate in Iran’s proposed Hormuz meeting",
+    "titleAr": "Bahrain says it will not participate in Iran’s proposed Hormuz meeting",
+    "link": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789241644000,
+    "summaryEn": "Iran tells Al Jazeera that Monday's meeting is a sign of 'good intentions' towards neighbouring countries.",
+    "summaryAr": "Iran tells Al Jazeera that Monday's meeting is a sign of 'good intentions' towards neighbouring countries.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Will Houthi advances in Yemen give Iran leverage in its war with the US?",
+    "titleAr": "Will Houthi advances in Yemen give Iran leverage in its war with the US?",
+    "link": "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789240657000,
+    "summaryEn": "The Iranian ally seizes Yemen's Red Sea coast, cementing their hold on the Bab al-Mandeb strait.",
+    "summaryAr": "The Iranian ally seizes Yemen's Red Sea coast, cementing their hold on the Bab al-Mandeb strait.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran",
+    "titleAr": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran",
+    "link": "https://www.aljazeera.com/news/2026/9/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789239211000,
+    "summaryEn": "PM Ali al-Zaidi dismisses commander, orders investigation into operations command in Maysan province, bordering Iran.",
+    "summaryAr": "PM Ali al-Zaidi dismisses commander, orders investigation into operations command in Maysan province, bordering Iran.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran, UAE hold first talks at BRICS summit since conflict began",
+    "titleAr": "Iran, UAE hold first talks at BRICS summit since conflict began",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-uae-iran-brics-talks-mp4?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789238177000,
+    "summaryEn": "Iran’s President has met Abu Dhabi’s Crown Prince at the BRICS summit for their highest-level talks since the war began.",
+    "summaryAr": "Iran’s President has met Abu Dhabi’s Crown Prince at the BRICS summit for their highest-level talks since the war began.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Selling the war: Purges, polygraphs and propaganda",
+    "titleAr": "Selling the war: Purges, polygraphs and propaganda",
+    "link": "https://www.aljazeera.com/video/the-listening-post/2026/9/12/selling-the-war-purges-polygraphs-and-propaganda?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789234316000,
+    "summaryEn": "The Iran war has become ever more challenging for the Trump administration to sell.",
+    "summaryAr": "The Iran war has become ever more challenging for the Trump administration to sell.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Will the Houthi attacks activate the Mecca Pact?",
     "titleAr": "Will the Houthi attacks activate the Mecca Pact?",
     "link": "https://www.aljazeera.com/opinions/2026/9/12/will-the-houthi-attacks-activate-the-mecca-pact?traffic_source=rss",
@@ -12,6 +92,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "titleAr": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "source": "The Hacker News",
+    "pubDate": 1789228485000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its …",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -124,86 +220,6 @@
     "pubDate": 1789215013000,
     "summaryEn": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
     "summaryAr": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen government forces say Houthi ‘members, vehicles’ targeted in Mocha",
-    "titleAr": "Yemen government forces say Houthi ‘members, vehicles’ targeted in Mocha",
-    "link": "https://www.aljazeera.com/news/2026/9/12/yemen-government-forces-say-houthi-members-vehicles-targeted-in-mocha?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789214269000,
-    "summaryEn": "Yemeni government forces says they launched air strikes on Houthi fighters along the Red Sea coast.",
-    "summaryAr": "Yemeni government forces says they launched air strikes on Houthi fighters along the Red Sea coast.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Left with nothing, people in Gaza are forced to rent generators by the hour",
-    "titleAr": "Left with nothing, people in Gaza are forced to rent generators by the hour",
-    "link": "https://www.aljazeera.com/features/2026/9/12/left-with-nothing-people-in-gaza-are-forced-to-rent-generators-by-the-hour?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789213408000,
-    "summaryEn": "Israel's destruction of homes and infrastructure in Gaza has forced Palestinians to rent generators by the hour.",
-    "summaryAr": "Israel's destruction of homes and infrastructure in Gaza has forced Palestinians to rent generators by the hour.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis celebrate seizing control of Yemen’s Red Sea coast",
-    "titleAr": "Houthis celebrate seizing control of Yemen’s Red Sea coast",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/houthis-celebrate-seizing-control-of-yemens-red-sea-coast?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789212722000,
-    "summaryEn": "Yemen’s Iran-aligned Houthis have been celebrating after seizing control of the Red Sea coast in a rapid offensive.",
-    "summaryAr": "Yemen’s Iran-aligned Houthis have been celebrating after seizing control of the Red Sea coast in a rapid offensive.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel-Lebanon talks postponed as explosions rock southern Lebanon",
-    "titleAr": "Israel-Lebanon talks postponed as explosions rock southern Lebanon",
-    "link": "https://www.aljazeera.com/news/2026/9/12/israel-lebanon-talks-postponed-as-explosions-rock-southern-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789211074000,
-    "summaryEn": "President Aoun says 'no new negotiations with Israel at the moment'.",
-    "summaryAr": "President Aoun says 'no new negotiations with Israel at the moment'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
-    "titleAr": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
-    "link": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789209378000,
-    "summaryEn": "Baghdad launches investigation, closes border after confirming strike came from Iraqi territory.",
-    "summaryAr": "Baghdad launches investigation, closes border after confirming strike came from Iraqi territory.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -715,22 +731,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1788955200000,
-    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
-    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
