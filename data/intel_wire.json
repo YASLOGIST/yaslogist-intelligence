@@ -1,5 +1,101 @@
 [
   {
+    "titleEn": "French TV programme pulled after actress speaks out on Gaza",
+    "titleAr": "French TV programme pulled after actress speaks out on Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/french-tv-programme-pulled-after-actress-speaks-out-on-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789319736000,
+    "summaryEn": "France Televisions has removed the replay of a programme after actress Adèle Haenel denounced the Gaza genocide.",
+    "summaryAr": "France Televisions has removed the replay of a programme after actress Adèle Haenel denounced the Gaza genocide.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ukrainian drone evades Russian helicopter fire to strike oil tanker",
+    "titleAr": "Ukrainian drone evades Russian helicopter fire to strike oil tanker",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789315903000,
+    "summaryEn": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
+    "summaryAr": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "World leaders gather in New Delhi for final day of BRICS summit",
+    "titleAr": "World leaders gather in New Delhi for final day of BRICS summit",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789314024000,
+    "summaryEn": "BRICS leaders gathered in New Delhi for the final day of the summit amid divisions over the wars in Iran and Ukraine.",
+    "summaryAr": "BRICS leaders gathered in New Delhi for the final day of the summit amid divisions over the wars in Iran and Ukraine.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Red Sea nations watch as Houthis seize Bab al-Mandeb strait",
+    "titleAr": "Red Sea nations watch as Houthis seize Bab al-Mandeb strait",
+    "link": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789311647000,
+    "summaryEn": "Houthi control of Bab al-Mandeb chokes Suez Canal revenues, triggers refugee flows, and exposes regional security gaps.",
+    "summaryAr": "Houthi control of Bab al-Mandeb chokes Suez Canal revenues, triggers refugee flows, and exposes regional security gaps.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "More than 2,000 Yemenis flee to Djibouti amid Houthi advances",
+    "titleAr": "More than 2,000 Yemenis flee to Djibouti amid Houthi advances",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/more-than-2000-yemenis-flee-to-djibouti-amid-houthi-advances?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789310326000,
+    "summaryEn": "Escalating fighting along Yemen’s western coast has driven more than 2,000 Yemenis across the Red Sea to Djibouti.",
+    "summaryAr": "Escalating fighting along Yemen’s western coast has driven more than 2,000 Yemenis across the Red Sea to Djibouti.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "titleAr": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "source": "BleepingComputer",
+    "pubDate": 1789309592000,
+    "summaryEn": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbi…",
+    "summaryAr": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbi…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Iran-GCC summit: What’s behind the meeting, why is Bahrain not attending?",
     "titleAr": "Iran-GCC summit: What’s behind the meeting, why is Bahrain not attending?",
     "link": "https://www.aljazeera.com/news/2026/9/13/iran-gcc-summit-whats-behind-the-meeting-why-is-bahrain-not-attending?traffic_source=rss",
@@ -135,70 +231,6 @@
     "pubDate": 1789296439000,
     "summaryEn": "Government forces and Saudi Arabia carry out air attacks to stop Houthis' advance as thousands displaced by conflict.",
     "summaryAr": "Government forces and Saudi Arabia carry out air attacks to stop Houthis' advance as thousands displaced by conflict.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli attack on Gaza kills two Palestinians",
-    "titleAr": "Israeli attack on Gaza kills two Palestinians",
-    "link": "https://www.aljazeera.com/news/2026/9/13/israeli-attack-on-gaza-kills-two-palestinians?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789294921000,
-    "summaryEn": "Israeli strikes on Palestinian territory persist despite a 'ceasefire' brokered by the United States.",
-    "summaryAr": "Israeli strikes on Palestinian territory persist despite a 'ceasefire' brokered by the United States.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mosque and homes damaged in Saudi Arabia after alleged Houthi strike",
-    "titleAr": "Mosque and homes damaged in Saudi Arabia after alleged Houthi strike",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/mosque-and-homes-damaged-in-saudi-arabia-after-alleged-houthi-strike?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789287236000,
-    "summaryEn": "Mosque and homes damaged in Saudi Arabia after alleged Houthi strike",
-    "summaryAr": "Mosque and homes damaged in Saudi Arabia after alleged Houthi strike",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "About 1,400 Yemenis flee to Djibouti within 24 hours",
-    "titleAr": "About 1,400 Yemenis flee to Djibouti within 24 hours",
-    "link": "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789274418000,
-    "summaryEn": "Refugees from Yemen arrive in Obock, Djibouti, as Houthis tighten their grip on the Bab al-Mandeb strait.",
-    "summaryAr": "Refugees from Yemen arrive in Obock, Djibouti, as Houthis tighten their grip on the Bab al-Mandeb strait.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen’s Houthis seize strategic Mayun Island in Red Sea",
-    "titleAr": "Yemen’s Houthis seize strategic Mayun Island in Red Sea",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789267472000,
-    "summaryEn": "Yemen’s Houthis have seized the strategic Mayun Island as they cement control over the Bab al-Mandeb Strait.",
-    "summaryAr": "Yemen’s Houthis have seized the strategic Mayun Island as they cement control over the Bab al-Mandeb Strait.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -689,38 +721,6 @@
     "pubDate": 1788987564000,
     "summaryEn": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
     "summaryAr": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran referred to UN Security Council for nuclear non-compliance",
-    "titleAr": "Iran referred to UN Security Council for nuclear non-compliance",
-    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788985371000,
-    "summaryEn": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "summaryAr": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "titleAr": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-    "source": "The Hacker News",
-    "pubDate": 1788978365000,
-    "summaryEn": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
-    "summaryAr": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
     "tags": [
       {
         "textEn": "INTEL",
