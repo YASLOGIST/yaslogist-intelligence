@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Israeli minister threatens to revoke filmmakers’ citizenship over Gaza film",
+    "titleAr": "Israeli minister threatens to revoke filmmakers’ citizenship over Gaza film",
+    "link": "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789357825000,
+    "summaryEn": "Israeli Culture Minister Miki Zohar labels Gaza genocide film 'vile' after it wins Venice Film Festival recognition.",
+    "summaryAr": "Israeli Culture Minister Miki Zohar labels Gaza genocide film 'vile' after it wins Venice Film Festival recognition.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia hits Ukrainian train shortly after Boris Johnson leaves station",
+    "titleAr": "Russia hits Ukrainian train shortly after Boris Johnson leaves station",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/russia-hits-ukrainian-train-shortly-after-boris-johnson-leaves-station?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789357032000,
+    "summaryEn": "A Russian drone struck a train near Ukraine-Poland border, shortly after Former UK PM Boris Johnson left the station.",
+    "summaryAr": "A Russian drone struck a train near Ukraine-Poland border, shortly after Former UK PM Boris Johnson left the station.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Protests erupt across Syria over sharp fuel price hikes",
+    "titleAr": "Protests erupt across Syria over sharp fuel price hikes",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/14-09-sv-syria-protest-fuel-hikes-sy?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789348081000,
+    "summaryEn": "Protests have erupted in Syria after the government raised fuel prices.",
+    "summaryAr": "Protests have erupted in Syria after the government raised fuel prices.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen’s Houthis advance on government strongholds of Marib, Taiz",
+    "titleAr": "Yemen’s Houthis advance on government strongholds of Marib, Taiz",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/yemens-houthis-advance-on-government-strongholds-of-marib-taiz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789344849000,
+    "summaryEn": "Fighting is intensifying in Yemen as Houthi fighters advance toward Saudi-backed government-held areas.",
+    "summaryAr": "Fighting is intensifying in Yemen as Houthi fighters advance toward Saudi-backed government-held areas.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
+    "titleAr": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789344000000,
+    "summaryEn": "Oman says Hormuz talks with Iran and Gulf states are postponed 'in the interests of consensus'.",
+    "summaryAr": "Oman says Hormuz talks with Iran and Gulf states are postponed 'in the interests of consensus'.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli quadcopter terrorises homes in Gaza City",
+    "titleAr": "Israeli quadcopter terrorises homes in Gaza City",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/aje-onl-nf_israeli-quadcopter-terrorises-homes-in-gaza-city-130926?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789342403000,
+    "summaryEn": "Video shows a low-flying Israeli quadcopter maneuvering between residential buildings in eastern Gaza City.",
+    "summaryAr": "Video shows a low-flying Israeli quadcopter maneuvering between residential buildings in eastern Gaza City.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Tehran and Muscat delay talks, citing regional consensus need",
+    "titleAr": "Tehran and Muscat delay talks, citing regional consensus need",
+    "link": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789336250000,
+    "summaryEn": "Tehran and Muscat agree to delay dialogue to prioritise regional consensus amid tensions in the Strait of Hormuz.",
+    "summaryAr": "Tehran and Muscat agree to delay dialogue to prioritise regional consensus amid tensions in the Strait of Hormuz.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Poland, Ukraine accuse Russia of ‘escalation’ after strikes near border",
     "titleAr": "Poland, Ukraine accuse Russia of ‘escalation’ after strikes near border",
     "link": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss",
@@ -55,118 +167,6 @@
     "pubDate": 1789332291000,
     "summaryEn": "The conflict in the Middle East raises security concerns about traditional shipping routes.",
     "summaryAr": "The conflict in the Middle East raises security concerns about traditional shipping routes.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US Envoy Jared Kushner says Doha attack left Israel ‘globally isolated’",
-    "titleAr": "US Envoy Jared Kushner says Doha attack left Israel ‘globally isolated’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-kushner-doha-attack-comments-clip?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789331608000,
-    "summaryEn": "Jared Kushner, says Israel’s failed attack on Hamas leadership in Doha was ‘terrible’ and left the country ‘isolated'",
-    "summaryAr": "Jared Kushner, says Israel’s failed attack on Hamas leadership in Doha was ‘terrible’ and left the country ‘isolated'",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Guyana’s oil boom and challenges",
-    "titleAr": "Guyana’s oil boom and challenges",
-    "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/9/13/guyanas-oil-boom-and-challenges?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789329300000,
-    "summaryEn": "Guyana’s president says his country has seen an increase in oil revenue as the Iran conflict reshapes global markets.",
-    "summaryAr": "Guyana’s president says his country has seen an increase in oil revenue as the Iran conflict reshapes global markets.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli raid targets Palestinian journalist Ali al-Samoudi’s home",
-    "titleAr": "Israeli raid targets Palestinian journalist Ali al-Samoudi’s home",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/israeli-raid-targets-palestinian-journalist-ali-al-samoudis-home?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789328461000,
-    "summaryEn": "Israeli forces reportedly raided the Jenin home of Palestinian journalist Ali al-Samoudi and beat his son.",
-    "summaryAr": "Israeli forces reportedly raided the Jenin home of Palestinian journalist Ali al-Samoudi and beat his son.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Syrian child killed after roadside object explodes near Damascus",
-    "titleAr": "Syrian child killed after roadside object explodes near Damascus",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-syrian-child-explosion-clip-mp4?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789324229000,
-    "summaryEn": "A child has been killed after an explosive object detonated when he touched it near Damascus.",
-    "summaryAr": "A child has been killed after an explosive object detonated when he touched it near Damascus.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "French TV programme pulled after actress speaks out on Gaza",
-    "titleAr": "French TV programme pulled after actress speaks out on Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/french-tv-programme-pulled-after-actress-speaks-out-on-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789319736000,
-    "summaryEn": "France Televisions has removed the replay of a programme after actress Adèle Haenel denounced the Gaza genocide.",
-    "summaryAr": "France Televisions has removed the replay of a programme after actress Adèle Haenel denounced the Gaza genocide.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ukrainian drone evades Russian helicopter fire to strike oil tanker",
-    "titleAr": "Ukrainian drone evades Russian helicopter fire to strike oil tanker",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789315903000,
-    "summaryEn": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
-    "summaryAr": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "World leaders gather in New Delhi for final day of BRICS summit",
-    "titleAr": "World leaders gather in New Delhi for final day of BRICS summit",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789314024000,
-    "summaryEn": "BRICS leaders gathered in New Delhi for the final day of the summit amid divisions over the wars in Iran and Ukraine.",
-    "summaryAr": "BRICS leaders gathered in New Delhi for the final day of the summit amid divisions over the wars in Iran and Ukraine.",
     "tags": [
       {
         "textEn": "INTEL",
