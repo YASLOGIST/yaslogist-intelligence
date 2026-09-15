@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Houthis say air strikes hit Yemen after Saudi Arabia vows ‘firm’ response",
+    "titleAr": "Houthis say air strikes hit Yemen after Saudi Arabia vows ‘firm’ response",
+    "link": "https://www.aljazeera.com/news/2026/9/15/houthis-report-air-strikes-in-yemen-after-saudi-arabia-vows-firm-response?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789459869000,
+    "summaryEn": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
+    "summaryAr": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "titleAr": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "source": "BleepingComputer",
+    "pubDate": 1789457469000,
+    "summaryEn": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+    "summaryAr": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+    "titleAr": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+    "link": "https://www.aljazeera.com/news/2026/9/15/palestine-weekly-settlement-sanctions-spark-diplomatic-crisis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789455230000,
+    "summaryEn": "New B'Tselem report frames events on ground as Israel's 'project of elimination' of Palestinians.",
+    "summaryAr": "New B'Tselem report frames events on ground as Israel's 'project of elimination' of Palestinians.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "titleAr": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1789452671000,
+    "summaryEn": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, trac…",
+    "summaryAr": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, trac…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "AI 'SpongeBob' parody of problems in Egypt draws scrutiny of authorities",
+    "titleAr": "AI 'SpongeBob' parody of problems in Egypt draws scrutiny of authorities",
+    "link": "https://www.bbc.co.uk/news/articles/c5y4g65vjnmo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789452155000,
+    "summaryEn": "A take on the hit US TV series has become an unlikely tool for Egyptians to complain about life amid strict surveillance.",
+    "summaryAr": "A take on the hit US TV series has become an unlikely tool for Egyptians to complain about life amid strict surveillance.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "titleAr": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+    "source": "The Hacker News",
+    "pubDate": 1789450265000,
+    "summaryEn": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious …",
+    "summaryAr": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious …",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Millions line up for ‘sacred henna’ at Indian temple",
+    "titleAr": "Millions line up for ‘sacred henna’ at Indian temple",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/millions-line-up-for-sacred-henna-at-indian-temple?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789447360000,
+    "summaryEn": "Drone visuals show masses lining up at Indian temple for sacred henna, believed to help unmarried people find a match.",
+    "summaryAr": "Drone visuals show masses lining up at Indian temple for sacred henna, believed to help unmarried people find a match.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "B’Tselem: Israeli settler violence aims to eliminate Palestinian existence",
     "titleAr": "B’Tselem: Israeli settler violence aims to eliminate Palestinian existence",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/15-09-reported-west-bank-report-btselem-ps?traffic_source=rss",
@@ -32,162 +144,18 @@
     ]
   },
   {
-    "titleEn": "Iran war live: CENTCOM disputes IRGC claim supertanker struck by Hormuz nav",
-    "titleAr": "Iran war live: CENTCOM disputes IRGC claim supertanker struck by Hormuz nav",
+    "titleEn": "Iran war live: 54 Saudi air strikes target Houthis as Yemen fighting rages",
+    "titleAr": "Iran war live: 54 Saudi air strikes target Houthis as Yemen fighting rages",
     "link": "https://www.aljazeera.com/news/liveblog/2026/9/15/iran-war-live-centcom-refutes-iran-claim-supertanker-hit-hormuz-mines?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789430400000,
-    "summaryEn": "CENTCOM disputes the IRGC claim that the Panama-flagged oil tanker El Gaia hit naval mines in the Strait of Hormuz.",
-    "summaryAr": "CENTCOM disputes the IRGC claim that the Panama-flagged oil tanker El Gaia hit naval mines in the Strait of Hormuz.",
+    "summaryEn": "Houthis say attacks by Saudi Arabia ongoing as Yemen PM accuses militia of killing and displacing civilians.",
+    "summaryAr": "Houthis say attacks by Saudi Arabia ongoing as Yemen PM accuses militia of killing and displacing civilians.",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli attack targets Gaza displacement camp",
-    "titleAr": "Israeli attack targets Gaza displacement camp",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/israeli-attack-targets-gaza-displacement-camp?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789421824000,
-    "summaryEn": "Israeli attack targets Gaza displacement camp",
-    "summaryAr": "Israeli attack targets Gaza displacement camp",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Macklemore cut from Ed Sheeran tour for pro-Palestine stance",
-    "titleAr": "Macklemore cut from Ed Sheeran tour for pro-Palestine stance",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/macklemore-cut-from-ed-sheeran-tour-for-pro-palestine-stance?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789421390000,
-    "summaryEn": "Macklemore says he was dropped from Ed Sheeran’s US tour over his pro-Palestinian stance.",
-    "summaryAr": "Macklemore says he was dropped from Ed Sheeran’s US tour over his pro-Palestinian stance.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why talks in Oman between Iran and Gulf Arab states were postponed",
-    "titleAr": "Why talks in Oman between Iran and Gulf Arab states were postponed",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-talks-in-oman-between-iran-and-gulf-arab-states-were-postponed?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789420800000,
-    "summaryEn": "Hopes for a breakthrough on the Iran war have taken a hit after talks in Oman between Iran-Gulf nations were postponed.",
-    "summaryAr": "Hopes for a breakthrough on the Iran war have taken a hit after talks in Oman between Iran-Gulf nations were postponed.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US blocks Iran nuclear chief from attending IAEA conference in Vienna",
-    "titleAr": "US blocks Iran nuclear chief from attending IAEA conference in Vienna",
-    "link": "https://www.aljazeera.com/news/2026/9/14/us-blocks-iran-nuclear-chief-from-attending-key-vienna-conference?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789420781000,
-    "summaryEn": "Iran accuses US of pressuring Austria to revoke visa for Mohammad Eslami, calling it a violation of member state rights.",
-    "summaryAr": "Iran accuses US of pressuring Austria to revoke visa for Mohammad Eslami, calling it a violation of member state rights.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel probing Naza film on Gaza for treason, inciting anti-Semitism",
-    "titleAr": "Israel probing Naza film on Gaza for treason, inciting anti-Semitism",
-    "link": "https://www.aljazeera.com/news/2026/9/14/israel-probing-naza-film-on-gaza-for-inciting-antisemitism?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789420327000,
-    "summaryEn": "Film alleges mass ⁠civilian deaths routinely built into military decisions amid Israel's genocidal war on Gaza.",
-    "summaryAr": "Film alleges mass ⁠civilian deaths routinely built into military decisions amid Israel's genocidal war on Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What could stop the Houthis’ advance across Yemen?",
-    "titleAr": "What could stop the Houthis’ advance across Yemen?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/9/14/what-could-stop-the-houthis-advance-across-yemen?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789419357000,
-    "summaryEn": "Iran-backed group seized areas on Red Sea coastline.",
-    "summaryAr": "Iran-backed group seized areas on Red Sea coastline.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Inside the Houthis’ expanding war economy in Yemen",
-    "titleAr": "Inside the Houthis’ expanding war economy in Yemen",
-    "link": "https://www.aljazeera.com/economy/2026/9/14/inside-the-houthis-expanding-war-economy-in-yemen?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789418507000,
-    "summaryEn": "The Houthis have restructured Yemen's commercial sector, securing billions in revenue amid a humanitarian crisis.",
-    "summaryAr": "The Houthis have restructured Yemen's commercial sector, securing billions in revenue amid a humanitarian crisis.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Austria denies entry to Iranian official after UN ruling",
-    "titleAr": "Austria denies entry to Iranian official after UN ruling",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/austria-denies-entry-to-iranian-official-after-un-ruling?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789418481000,
-    "summaryEn": "Iran accused Austria of reversing its approval of an Iranian delegation to the IAEA under external pressure.",
-    "summaryAr": "Iran accused Austria of reversing its approval of an Iranian delegation to the IAEA under external pressure.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Macklemore dropped from Ed Sheeran tour following Palestine advocacy",
-    "titleAr": "Macklemore dropped from Ed Sheeran tour following Palestine advocacy",
-    "link": "https://www.aljazeera.com/news/2026/9/14/macklemore-dropped-from-ed-sheeran-tour-following-palestine-advocacy?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789418454000,
-    "summaryEn": "Gillette Stadium owner cites concerns over Macklemore's rhetoric as reason for barring him from performances.",
-    "summaryAr": "Gillette Stadium owner cites concerns over Macklemore's rhetoric as reason for barring him from performances.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -199,6 +167,22 @@
     "pubDate": 1789417162000,
     "summaryEn": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
     "summaryAr": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli minister threatens to revoke filmmakers' citizenship over Gaza documentary",
+    "titleAr": "Israeli minister threatens to revoke filmmakers' citizenship over Gaza documentary",
+    "link": "https://www.bbc.co.uk/news/articles/c9vgy8d8256go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789410380000,
+    "summaryEn": "The film accuses the Israeli army of mass civilian killing in Gaza, and Israeli officials say it could be treasonous.",
+    "summaryAr": "The film accuses the Israeli army of mass civilian killing in Gaza, and Israeli officials say it could be treasonous.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -240,22 +224,6 @@
     ]
   },
   {
-    "titleEn": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-    "titleAr": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-    "source": "BleepingComputer",
-    "pubDate": 1789309592000,
-    "summaryEn": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbi…",
-    "summaryAr": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbi…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "titleAr": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
@@ -263,22 +231,6 @@
     "pubDate": 1789228485000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its …",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-    "titleAr": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-    "source": "BleepingComputer",
-    "pubDate": 1789222472000,
-    "summaryEn": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
-    "summaryAr": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
     "tags": [
       {
         "textEn": "INTEL",
@@ -316,22 +268,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-    "titleAr": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "source": "BleepingComputer",
-    "pubDate": 1789157949000,
-    "summaryEn": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for m…",
-    "summaryAr": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for m…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   },
@@ -671,22 +607,6 @@
     ]
   },
   {
-    "titleEn": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
-    "titleAr": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
-    "link": "https://www.bbc.co.uk/news/articles/cevw2lxnwk9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788988873000,
-    "summaryEn": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
-    "summaryAr": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Watch: Trump says Iran war will end 'immediately' after US midterm elections",
     "titleAr": "Watch: Trump says Iran war will end 'immediately' after US midterm elections",
     "link": "https://www.bbc.co.uk/news/videos/c3d7p3jmk7ko?at_medium=RSS&at_campaign=rss",
@@ -703,13 +623,13 @@
     ]
   },
   {
-    "titleEn": "Miliband rejects chief rabbi's claim British Jews in greater danger after sanctions move",
-    "titleAr": "Miliband rejects chief rabbi's claim British Jews in greater danger after sanctions move",
-    "link": "https://www.bbc.co.uk/news/articles/ce9e3djdz94o?at_medium=RSS&at_campaign=rss",
+    "titleEn": "Iran referred to UN Security Council for nuclear non-compliance",
+    "titleAr": "Iran referred to UN Security Council for nuclear non-compliance",
+    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1788987564000,
-    "summaryEn": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
-    "summaryAr": "The foreign secretary disagrees that sanctions on Israeli settlements could put British Jews at greater risk.",
+    "pubDate": 1788985371000,
+    "summaryEn": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
+    "summaryAr": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -719,13 +639,93 @@
     ]
   },
   {
-    "titleEn": "Iran referred to UN Security Council for nuclear non-compliance",
-    "titleAr": "Iran referred to UN Security Council for nuclear non-compliance",
-    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788985371000,
-    "summaryEn": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "summaryAr": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
+    "titleEn": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "titleAr": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "source": "The Hacker News",
+    "pubDate": 1788978365000,
+    "summaryEn": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
+    "summaryAr": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "titleAr": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "source": "The Hacker News",
+    "pubDate": 1788971645000,
+    "summaryEn": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
+    "summaryAr": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1788955200000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "titleAr": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+    "source": "The Hacker News",
+    "pubDate": 1788945063000,
+    "summaryEn": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
+    "summaryAr": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "titleAr": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+    "source": "The Hacker News",
+    "pubDate": 1788936447000,
+    "summaryEn": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
+    "summaryAr": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "titleAr": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1788935145000,
+    "summaryEn": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
+    "summaryAr": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
     "tags": [
       {
         "textEn": "INTEL",
