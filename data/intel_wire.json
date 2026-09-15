@@ -1,5 +1,197 @@
 [
   {
+    "titleEn": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+    "titleAr": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+    "link": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789504452000,
+    "summaryEn": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+    "summaryAr": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Western intelligence warns of Iranian cyber threats targeting dissidents",
+    "titleAr": "Western intelligence warns of Iranian cyber threats targeting dissidents",
+    "link": "https://www.aljazeera.com/news/2026/9/15/western-intelligence-warns-of-iranian-cyber-threats-targeting-dissidents?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789503395000,
+    "summaryEn": "Western intelligence agencies highlight 'CHOSEN BRICK' spyware targeting critics of Iran government abroad.",
+    "summaryAr": "Western intelligence agencies highlight 'CHOSEN BRICK' spyware targeting critics of Iran government abroad.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "NATO jet shoots down suspected Russian drone over Lithuania",
+    "titleAr": "NATO jet shoots down suspected Russian drone over Lithuania",
+    "link": "https://www.aljazeera.com/news/2026/9/15/nato-jet-shoots-down-suspected-russian-drone-over-lithuania?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789502340000,
+    "summaryEn": "EU chief warns of wider conflict as border incursions stoke fears that Ukraine war is spilling into neighbouring states.",
+    "summaryAr": "EU chief warns of wider conflict as border incursions stoke fears that Ukraine war is spilling into neighbouring states.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "titleAr": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
+    "source": "Dark Reading",
+    "pubDate": 1789500439000,
+    "summaryEn": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and resear…",
+    "summaryAr": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and resear…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel lacking respect for dead buried in Gaza rubble: UN",
+    "titleAr": "Israel lacking respect for dead buried in Gaza rubble: UN",
+    "link": "https://www.aljazeera.com/news/2026/9/15/israel-lacking-respect-for-dead-buried-in-gaza-rubble-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789500415000,
+    "summaryEn": "Human rights chief reiterates concern over war crimes evidence as remains from entire families are unearthed.",
+    "summaryAr": "Human rights chief reiterates concern over war crimes evidence as remains from entire families are unearthed.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "NATO downs drone over Lithuania, ‘probably’ launched by Russia",
+    "titleAr": "NATO downs drone over Lithuania, ‘probably’ launched by Russia",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/nato-downs-drone-over-lithuania-probably-launched-by-russia?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789497708000,
+    "summaryEn": "A NATO fighter jet shot down a drone in southern Lithuania shortly after midnight on Tuesday.",
+    "summaryAr": "A NATO fighter jet shot down a drone in southern Lithuania shortly after midnight on Tuesday.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Eto’o could face Cameroon probe over alleged Russia payment",
+    "titleAr": "Eto’o could face Cameroon probe over alleged Russia payment",
+    "link": "https://www.aljazeera.com/sports/2026/9/15/etoo-could-face-cameroon-probe-over-alleged-russia-payment?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789497340000,
+    "summaryEn": "Ex-Chelsea and Barcelona striker Samuel Eto'o faces a probe over allegations of embezzlement in his Cameroon FA role.",
+    "summaryAr": "Ex-Chelsea and Barcelona striker Samuel Eto'o faces a probe over allegations of embezzlement in his Cameroon FA role.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt’s el-Sisi meets MBS, backs Saudi call for secure Red Sea navigation",
+    "titleAr": "Egypt’s el-Sisi meets MBS, backs Saudi call for secure Red Sea navigation",
+    "link": "https://www.aljazeera.com/news/2026/9/15/egypts-sisi-meets-mbs-backs-saudi-call-for-secure-red-sea-navigation?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789495524000,
+    "summaryEn": "Red Sea disruptions impact Egypt’s economy, with Suez Canal revenues dropping by $7bn in two years.",
+    "summaryAr": "Red Sea disruptions impact Egypt’s economy, with Suez Canal revenues dropping by $7bn in two years.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "More than 100,000 displaced as they flee violence in Yemen: UN",
+    "titleAr": "More than 100,000 displaced as they flee violence in Yemen: UN",
+    "link": "https://www.aljazeera.com/news/2026/9/15/more-than-100000-displaced-as-they-flee-violence-in-yemen-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789493998000,
+    "summaryEn": "Thousands making risky maritime journey to Djibouti as conflict between Yemen gov't and Houthis intensifies.",
+    "summaryAr": "Thousands making risky maritime journey to Djibouti as conflict between Yemen gov't and Houthis intensifies.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "How an Israeli cell orchestrated an anti-Qatar campaign",
+    "titleAr": "How an Israeli cell orchestrated an anti-Qatar campaign",
+    "link": "https://www.aljazeera.com/news/2026/9/15/israel-influence-campaign-against-qatar?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789491046000,
+    "summaryEn": "Israeli newspaper Haaretz reports that influence experts and an ex-Mossad official were part of an anti-Qatar group.",
+    "summaryAr": "Israeli newspaper Haaretz reports that influence experts and an ex-Mossad official were part of an anti-Qatar group.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "titleAr": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "source": "The Hacker News",
+    "pubDate": 1789489791000,
+    "summaryEn": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissid…",
+    "summaryAr": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissid…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Can China play peacemaker as Iran’s foreign minister heads to Beijing?",
+    "titleAr": "Can China play peacemaker as Iran’s foreign minister heads to Beijing?",
+    "link": "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789488913000,
+    "summaryEn": "Tehran and Beijing explore diplomatic paths amid escalating tensions between Iran and the United States.",
+    "summaryAr": "Tehran and Beijing explore diplomatic paths amid escalating tensions between Iran and the United States.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
     "titleAr": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
     "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
@@ -12,22 +204,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
-    "titleAr": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
-    "link": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789486294000,
-    "summaryEn": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
-    "summaryAr": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -64,40 +240,8 @@
     ]
   },
   {
-    "titleEn": "Saudi Arabia faces high-stakes choices as war with Houthis escalates",
-    "titleAr": "Saudi Arabia faces high-stakes choices as war with Houthis escalates",
-    "link": "https://www.aljazeera.com/news/2026/9/15/saudi-arabia-faces-high-stakes-choices-as-war-with-houthis-escalates?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789482809000,
-    "summaryEn": "Riyadh has several military options, say analysts, but all of them carry risks, too.",
-    "summaryAr": "Riyadh has several military options, say analysts, but all of them carry risks, too.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Can the Houthis hold on to Yemen’s strategic western coast?",
-    "titleAr": "Can the Houthis hold on to Yemen’s strategic western coast?",
-    "link": "https://www.aljazeera.com/news/2026/9/15/can-the-houthis-hold-on-to-yemens-strategic-western-coast?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789482511000,
-    "summaryEn": "Houthi coastal advances face hurdles: geography, local resistance and fierce government counterattacks.",
-    "summaryAr": "Houthi coastal advances face hurdles: geography, local resistance and fierce government counterattacks.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Satellite image reveals major damage that shut crucial oil pipeline",
-    "titleAr": "Satellite image reveals major damage that shut crucial oil pipeline",
+    "titleEn": "Satellite image reveals major damage that shut crucial Saudi oil pipeline",
+    "titleAr": "Satellite image reveals major damage that shut crucial Saudi oil pipeline",
     "link": "https://www.bbc.co.uk/news/articles/c65yw2gq2nrno?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
     "pubDate": 1789482074000,
@@ -124,38 +268,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthi-run TV releases video of abandoned Mocha airport",
-    "titleAr": "Houthi-run TV releases video of abandoned Mocha airport",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/houthi-run-tv-releases-video-of-abandoned-mocha-airport?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789477873000,
-    "summaryEn": "Houthi-run TV has aired drone video of Yemen’s Mocha International Airport, empty and abandoned.",
-    "summaryAr": "Houthi-run TV has aired drone video of Yemen’s Mocha International Airport, empty and abandoned.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Thousands flee to Djibouti amid renewed Yemen fighting",
-    "titleAr": "Thousands flee to Djibouti amid renewed Yemen fighting",
-    "link": "https://www.aljazeera.com/news/2026/9/15/thousands-flee-to-djibouti-amid-renewed-yemen-fighting?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789476194000,
-    "summaryEn": "More than 3,400 people arrived in 48 hours as Djibouti prepares for more.",
-    "summaryAr": "More than 3,400 people arrived in 48 hours as Djibouti prepares for more.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -295,22 +407,6 @@
     "pubDate": 1789473600000,
     "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
     "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Dozens of aircraft, hundreds of buildings: US loss to Iran attacks revealed",
-    "titleAr": "Dozens of aircraft, hundreds of buildings: US loss to Iran attacks revealed",
-    "link": "https://www.aljazeera.com/features/2026/9/15/dozens-of-aircraft-hundreds-of-buildings-us-loss-to-iran-attacks-revealed?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789471023000,
-    "summaryEn": "The Pentagon watchdog's report paints a picture of significant losses to US forces and facilities in the region.",
-    "summaryAr": "The Pentagon watchdog's report paints a picture of significant losses to US forces and facilities in the region.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -630,107 +726,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "titleAr": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-    "source": "The Hacker News",
-    "pubDate": 1789107599000,
-    "summaryEn": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center …",
-    "summaryAr": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center …",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-    "titleAr": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-    "link": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789055657000,
-    "summaryEn": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
-    "summaryAr": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Algeria to sever diplomatic ties with UAE",
-    "titleAr": "Algeria to sever diplomatic ties with UAE",
-    "link": "https://www.bbc.co.uk/news/articles/cx2zpgpngvpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789055263000,
-    "summaryEn": "The Algerian foreign ministry did not give a reason for the move but said it had exhausted all means.",
-    "summaryAr": "The Algerian foreign ministry did not give a reason for the move but said it had exhausted all means.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
-    "titleAr": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
-    "source": "Dark Reading",
-    "pubDate": 1789054152000,
-    "summaryEn": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-    "summaryAr": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Orthanc DICOM Server",
-    "titleAr": "Orthanc DICOM Server",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
-    "source": "CISA Advisories",
-    "pubDate": 1789041600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an atta…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an atta…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "AVEVA Pipeline Integrity Monitor",
-    "titleAr": "AVEVA Pipeline Integrity Monitor",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789041600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
