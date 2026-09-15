@@ -1,17 +1,321 @@
 [
   {
-    "titleEn": "Houthis say air strikes hit Yemen after Saudi Arabia vows ‘firm’ response",
-    "titleAr": "Houthis say air strikes hit Yemen after Saudi Arabia vows ‘firm’ response",
-    "link": "https://www.aljazeera.com/news/2026/9/15/houthis-report-air-strikes-in-yemen-after-saudi-arabia-vows-firm-response?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789459869000,
-    "summaryEn": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
-    "summaryAr": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
+    "titleEn": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+    "titleAr": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+    "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789488821000,
+    "summaryEn": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+    "summaryAr": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+    "titleAr": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+    "link": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789486294000,
+    "summaryEn": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+    "summaryAr": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is Robert Kraft, pro-Israel billionaire who cancelled Macklemore?",
+    "titleAr": "Who is Robert Kraft, pro-Israel billionaire who cancelled Macklemore?",
+    "link": "https://www.aljazeera.com/news/2026/9/15/who-is-robert-kraft-pro-israel-billionaire-who-cancelled-macklemore?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789486045000,
+    "summaryEn": "Rapper Macklemore claims Kraft rallied other venue owners against his participation in Ed Sheeran's US tour.",
+    "summaryAr": "Rapper Macklemore claims Kraft rallied other venue owners against his participation in Ed Sheeran's US tour.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Canada, the UK and Australia should investigate the WCK attack in Gaza",
+    "titleAr": "Canada, the UK and Australia should investigate the WCK attack in Gaza",
+    "link": "https://www.aljazeera.com/opinions/2026/9/15/canada-the-uk-and-australia-should-investigate-the-wck-attack-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789485939000,
+    "summaryEn": "Israel has made clear it is unwilling to hold to account those responsible for the deaths of seven humanitarian workers.",
+    "summaryAr": "Israel has made clear it is unwilling to hold to account those responsible for the deaths of seven humanitarian workers.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia faces high-stakes choices as war with Houthis escalates",
+    "titleAr": "Saudi Arabia faces high-stakes choices as war with Houthis escalates",
+    "link": "https://www.aljazeera.com/news/2026/9/15/saudi-arabia-faces-high-stakes-choices-as-war-with-houthis-escalates?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789482809000,
+    "summaryEn": "Riyadh has several military options, say analysts, but all of them carry risks, too.",
+    "summaryAr": "Riyadh has several military options, say analysts, but all of them carry risks, too.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Can the Houthis hold on to Yemen’s strategic western coast?",
+    "titleAr": "Can the Houthis hold on to Yemen’s strategic western coast?",
+    "link": "https://www.aljazeera.com/news/2026/9/15/can-the-houthis-hold-on-to-yemens-strategic-western-coast?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789482511000,
+    "summaryEn": "Houthi coastal advances face hurdles: geography, local resistance and fierce government counterattacks.",
+    "summaryAr": "Houthi coastal advances face hurdles: geography, local resistance and fierce government counterattacks.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Satellite image reveals major damage that shut crucial oil pipeline",
+    "titleAr": "Satellite image reveals major damage that shut crucial oil pipeline",
+    "link": "https://www.bbc.co.uk/news/articles/c65yw2gq2nrno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789482074000,
+    "summaryEn": "Experts tell BBC Verify the pipeline's closure could cut oil supplies by as much as 3.6 million barrels per day.",
+    "summaryAr": "Experts tell BBC Verify the pipeline's closure could cut oil supplies by as much as 3.6 million barrels per day.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "titleAr": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "source": "BleepingComputer",
+    "pubDate": 1789479954000,
+    "summaryEn": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploita…",
+    "summaryAr": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploita…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthi-run TV releases video of abandoned Mocha airport",
+    "titleAr": "Houthi-run TV releases video of abandoned Mocha airport",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/houthi-run-tv-releases-video-of-abandoned-mocha-airport?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789477873000,
+    "summaryEn": "Houthi-run TV has aired drone video of Yemen’s Mocha International Airport, empty and abandoned.",
+    "summaryAr": "Houthi-run TV has aired drone video of Yemen’s Mocha International Airport, empty and abandoned.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Thousands flee to Djibouti amid renewed Yemen fighting",
+    "titleAr": "Thousands flee to Djibouti amid renewed Yemen fighting",
+    "link": "https://www.aljazeera.com/news/2026/9/15/thousands-flee-to-djibouti-amid-renewed-yemen-fighting?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789476194000,
+    "summaryEn": "More than 3,400 people arrived in 48 hours as Djibouti prepares for more.",
+    "summaryAr": "More than 3,400 people arrived in 48 hours as Djibouti prepares for more.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "titleAr": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "source": "BleepingComputer",
+    "pubDate": 1789474592000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vu…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vu…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Digital Watchdog VMAX DVR and NVR Product Lineups",
+    "titleAr": "Digital Watchdog VMAX DVR and NVR Product Lineups",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillanc…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillanc…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "mySCADA myPRO Manager",
+    "titleAr": "mySCADA myPRO Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the conn…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the conn…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Schneider Electric SCADAPack x70 Products",
+    "titleAr": "Schneider Electric SCADAPack x70 Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x …",
+    "summaryAr": "View CSAF Summary Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Teamcenter",
+    "titleAr": "Siemens Teamcenter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject Java…",
+    "summaryAr": "View CSAF Summary A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject Java…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Mendix SAML",
+    "titleAr": "Siemens Mendix SAML",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has prov…",
+    "summaryAr": "View CSAF Summary Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has prov…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Wärtsilä FOS-Onboard",
+    "titleAr": "Wärtsilä FOS-Onboard",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the atta…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the atta…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Reyrolle 7SR5",
+    "titleAr": "Siemens Reyrolle 7SR5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the l…",
+    "summaryAr": "View CSAF Summary Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the l…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CareCam CM2507",
+    "titleAr": "CareCam CM2507",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "source": "CISA Advisories",
+    "pubDate": 1789473600000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Dozens of aircraft, hundreds of buildings: US loss to Iran attacks revealed",
+    "titleAr": "Dozens of aircraft, hundreds of buildings: US loss to Iran attacks revealed",
+    "link": "https://www.aljazeera.com/features/2026/9/15/dozens-of-aircraft-hundreds-of-buildings-us-loss-to-iran-attacks-revealed?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789471023000,
+    "summaryEn": "The Pentagon watchdog's report paints a picture of significant losses to US forces and facilities in the region.",
+    "summaryAr": "The Pentagon watchdog's report paints a picture of significant losses to US forces and facilities in the region.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -28,22 +332,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
-    "titleAr": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
-    "link": "https://www.aljazeera.com/news/2026/9/15/palestine-weekly-settlement-sanctions-spark-diplomatic-crisis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789455230000,
-    "summaryEn": "New B'Tselem report frames events on ground as Israel's 'project of elimination' of Palestinians.",
-    "summaryAr": "New B'Tselem report frames events on ground as Israel's 'project of elimination' of Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -92,70 +380,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Millions line up for ‘sacred henna’ at Indian temple",
-    "titleAr": "Millions line up for ‘sacred henna’ at Indian temple",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/millions-line-up-for-sacred-henna-at-indian-temple?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789447360000,
-    "summaryEn": "Drone visuals show masses lining up at Indian temple for sacred henna, believed to help unmarried people find a match.",
-    "summaryAr": "Drone visuals show masses lining up at Indian temple for sacred henna, believed to help unmarried people find a match.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "B’Tselem: Israeli settler violence aims to eliminate Palestinian existence",
-    "titleAr": "B’Tselem: Israeli settler violence aims to eliminate Palestinian existence",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/15-09-reported-west-bank-report-btselem-ps?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789435433000,
-    "summaryEn": "Israeli rights group B’Tselem says Israeli settler violence aims to eliminate Palestinian existence.",
-    "summaryAr": "Israeli rights group B’Tselem says Israeli settler violence aims to eliminate Palestinian existence.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia resupplies military bases in Syria for first time under new deal",
-    "titleAr": "Russia resupplies military bases in Syria for first time under new deal",
-    "link": "https://www.aljazeera.com/news/2026/9/15/russia-resupplies-military-bases-in-syria-for-first-time-under-new-deal?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789433027000,
-    "summaryEn": "Moscow maintains military foothold in the Mediterranean following talks with Damascus",
-    "summaryAr": "Moscow maintains military foothold in the Mediterranean following talks with Damascus",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: 54 Saudi air strikes target Houthis as Yemen fighting rages",
-    "titleAr": "Iran war live: 54 Saudi air strikes target Houthis as Yemen fighting rages",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/15/iran-war-live-centcom-refutes-iran-claim-supertanker-hit-hormuz-mines?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789430400000,
-    "summaryEn": "Houthis say attacks by Saudi Arabia ongoing as Yemen PM accuses militia of killing and displacing civilians.",
-    "summaryAr": "Houthis say attacks by Saudi Arabia ongoing as Yemen PM accuses militia of killing and displacing civilians.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -479,22 +703,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789041600000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-67277 MikroTik RouterOS Missing Aut…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-67277 MikroTik RouterOS Missing Aut…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Orthanc DICOM Server",
     "titleAr": "Orthanc DICOM Server",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
@@ -518,214 +726,6 @@
     "pubDate": 1789041600000,
     "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
     "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "ST Engineering iDirect iQ-Series Terminals (Update A)",
-    "titleAr": "ST Engineering iDirect iQ-Series Terminals (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789041600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.…",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "NextGen Healthcare Mirth Connect",
-    "titleAr": "NextGen Healthcare Mirth Connect",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789041600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition. The following versions of Next…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition. The following versions of Next…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war won't end until after crucial November elections, says Trump",
-    "titleAr": "Iran war won't end until after crucial November elections, says Trump",
-    "link": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789037033000,
-    "summaryEn": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
-    "summaryAr": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "titleAr": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "source": "The Hacker News",
-    "pubDate": 1789036606000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities …",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How a community living under demolition orders from Israel view UK sanctions",
-    "titleAr": "How a community living under demolition orders from Israel view UK sanctions",
-    "link": "https://www.bbc.co.uk/news/videos/cy5zpze3qe3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788992242000,
-    "summaryEn": "BBC's Middle East Correspondent Lucy Williamson visits the Palestinian community of Khan al Ahmar in the so-called E1 area, and the neighbouring Israeli settlement of Maale Admumim…",
-    "summaryAr": "BBC's Middle East Correspondent Lucy Williamson visits the Palestinian community of Khan al Ahmar in the so-called E1 area, and the neighbouring Israeli settlement of Maale Admumim…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Watch: Trump says Iran war will end 'immediately' after US midterm elections",
-    "titleAr": "Watch: Trump says Iran war will end 'immediately' after US midterm elections",
-    "link": "https://www.bbc.co.uk/news/videos/c3d7p3jmk7ko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788988332000,
-    "summaryEn": "The president also blamed the rising price of oil on the war, and said that prices will come down after the coming elections.",
-    "summaryAr": "The president also blamed the rising price of oil on the war, and said that prices will come down after the coming elections.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran referred to UN Security Council for nuclear non-compliance",
-    "titleAr": "Iran referred to UN Security Council for nuclear non-compliance",
-    "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1788985371000,
-    "summaryEn": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "summaryAr": "Tehran condemns the resolution, blaming US and Israeli strikes on its nuclear facilities for disrupting inspections.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "titleAr": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-    "source": "The Hacker News",
-    "pubDate": 1788978365000,
-    "summaryEn": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
-    "summaryAr": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "titleAr": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "source": "The Hacker News",
-    "pubDate": 1788971645000,
-    "summaryEn": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
-    "summaryAr": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities …",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1788955200000,
-    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
-    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-25249 Fortinet Multiple Products H…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "titleAr": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-    "source": "The Hacker News",
-    "pubDate": 1788945063000,
-    "summaryEn": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
-    "summaryAr": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "titleAr": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-    "source": "The Hacker News",
-    "pubDate": 1788936447000,
-    "summaryEn": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
-    "summaryAr": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is a…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-    "titleAr": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1788935145000,
-    "summaryEn": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
-    "summaryAr": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact o…",
     "tags": [
       {
         "textEn": "INTEL",
