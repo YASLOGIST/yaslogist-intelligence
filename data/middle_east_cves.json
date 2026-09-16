@@ -1,57 +1,57 @@
 [
     {
-        "id": "CVE-2026-78012",
-        "system": "EtherNet/IP Adapter DLL Kit (EIPA)",
+        "id": "CVE-2026-55985",
+        "system": "TPDIN-Monitor-WEB2",
+        "severity": "Medium",
+        "cvss": 5.3,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-61884",
+        "system": "TPDIN-Monitor-WEB2",
         "severity": "Critical",
         "cvss": 9.3,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-19472",
-        "system": "ArmorStart® LT",
-        "severity": "High",
-        "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-19471",
-        "system": "ArmorStart® LT",
-        "severity": "Medium",
-        "cvss": 6.9,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2026-4827",
-        "system": "Easergy MiCOM C264",
-        "severity": "High",
-        "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-77477",
+        "id": "CVE-2025-10478",
         "system": "Unknown (Active Exploit)",
         "severity": "High",
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-82684",
-        "system": "TPDIN-Monitor-WEB3",
+        "id": "CVE-2026-12663",
+        "system": "ControlFLASH ®",
         "severity": "High",
-        "cvss": 8.6,
+        "cvss": 7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-82712",
-        "system": "TPDIN-Monitor-WEB3",
+        "id": "CVE-2026-85046",
+        "system": "Chrome",
         "severity": "High",
-        "cvss": 8.6,
+        "cvss": 8.8,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-77847",
-        "system": "TPDIN-Monitor-WEB3",
+        "id": "CVE-2026-85083",
+        "system": "ANJIA AJL33PC0801 Firmware",
         "severity": "High",
-        "cvss": 7.1,
+        "cvss": 7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-86218",
+        "system": "N-central",
+        "severity": "Critical",
+        "cvss": 10,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-85880",
+        "system": "Windows 10 Version 1607",
+        "severity": "High",
+        "cvss": 7.8,
         "badge": "badge-high"
     }
 ]

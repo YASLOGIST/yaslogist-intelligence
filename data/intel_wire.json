@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
-    "titleAr": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
-    "link": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth?traffic_source=rss",
+    "titleEn": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "titleAr": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "source": "BleepingComputer",
+    "pubDate": 1789542019000,
+    "summaryEn": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attac…",
+    "summaryAr": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attac…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "US House votes to end Iran war, 7 Republicans join in favour",
+    "titleAr": "US House votes to end Iran war, 7 Republicans join in favour",
+    "link": "https://www.aljazeera.com/news/2026/9/16/us-house-votes-to-end-iran-war-7-republicans-join-in-favour?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1789511888000,
-    "summaryEn": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
-    "summaryAr": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
+    "pubDate": 1789537013000,
+    "summaryEn": "For a third time, the US House approved a war powers resolution, halting Trump's ability to continue military action.",
+    "summaryAr": "For a third time, the US House approved a war powers resolution, halting Trump's ability to continue military action.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +32,189 @@
     ]
   },
   {
-    "titleEn": "Ed Sheeran blames US tour promoter for dropping Macklemore",
-    "titleAr": "Ed Sheeran blames US tour promoter for dropping Macklemore",
-    "link": "https://www.aljazeera.com/news/2026/9/15/ed-sheeran-blames-us-tour-promoter-for-dropping-macklemore?traffic_source=rss",
+    "titleEn": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "titleAr": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+    "source": "The Hacker News",
+    "pubDate": 1789535886000,
+    "summaryEn": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS…",
+    "summaryAr": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 10 dead, dozens missing in Gaza building collapse",
+    "titleAr": "At least 10 dead, dozens missing in Gaza building collapse",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1789510904000,
-    "summaryEn": "The British musician said it was important to \"set out some facts\" after US rapper voiced support for Palestine.",
-    "summaryAr": "The British musician said it was important to \"set out some facts\" after US rapper voiced support for Palestine.",
+    "pubDate": 1789535212000,
+    "summaryEn": "At least 10 Palestinians are dead and up to 70 more are believed missing after a building collapsed in Gaza City.",
+    "summaryAr": "At least 10 Palestinians are dead and up to 70 more are believed missing after a building collapsed in Gaza City.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 12 dead as Gaza building collapses, many trapped under rubble",
+    "titleAr": "At least 12 dead as Gaza building collapses, many trapped under rubble",
+    "link": "https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789533052000,
+    "summaryEn": "Rescue crews in Gaza pull survivors from a collapsed building as cries for help echo beneath the rubble, witnesses say.",
+    "summaryAr": "Rescue crews in Gaza pull survivors from a collapsed building as cries for help echo beneath the rubble, witnesses say.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump administration plans $2.8bn sale of 2,000-pound bombs to Israel",
+    "titleAr": "Trump administration plans $2.8bn sale of 2,000-pound bombs to Israel",
+    "link": "https://www.aljazeera.com/news/2026/9/16/trump-administration-plans-2-8bn-sale-of-2000-pound-bombs-to-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789529990000,
+    "summaryEn": "Trump administration pushes $2.8bn bomb sale to Israel amid criticism over mass targeting of civilians in the region.",
+    "summaryAr": "Trump administration pushes $2.8bn bomb sale to Israel amid criticism over mass targeting of civilians in the region.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
+    "titleAr": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789523607000,
+    "summaryEn": "Saudi Arabia has cancelled some oil deliveries to Europe after attacks shut down its export pipeline to the Red Sea.",
+    "summaryAr": "Saudi Arabia has cancelled some oil deliveries to Europe after attacks shut down its export pipeline to the Red Sea.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel started an anti-Qatar campaign, then scrapped it",
+    "titleAr": "Israel started an anti-Qatar campaign, then scrapped it",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/israel-started-an-anti-qatar-campaign-then-scrapped-it?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789522900000,
+    "summaryEn": "Days after October 7, Israel began building a global campaign to pressure and isolate Qatar.",
+    "summaryAr": "Days after October 7, Israel began building a global campaign to pressure and isolate Qatar.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi-led coalition intercepts Houthi drone headed for Mecca",
+    "titleAr": "Saudi-led coalition intercepts Houthi drone headed for Mecca",
+    "link": "https://www.aljazeera.com/news/2026/9/16/saudi-led-coalition-intercepts-drone-headed-for-mecca?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789520994000,
+    "summaryEn": "Saudi Arabia says it intercepted a drone before it entered Islam's holiest city, calling pilgrims' security a 'red line'",
+    "summaryAr": "Saudi Arabia says it intercepted a drone before it entered Islam's holiest city, calling pilgrims' security a 'red line'",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli soldiers rappel from helicopter in occupied West Bank",
+    "titleAr": "Israeli soldiers rappel from helicopter in occupied West Bank",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/israeli-soldiers-rappel-from-helicopter-in-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789519353000,
+    "summaryEn": "Israeli forces rappelled from a helicopter onto the roof of a residential building in Yatta, in the occupied West Bank.",
+    "summaryAr": "Israeli forces rappelled from a helicopter onto the roof of a residential building in Yatta, in the occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war increasing inflation, straining US munitions: congressional report",
+    "titleAr": "Iran war increasing inflation, straining US munitions: congressional report",
+    "link": "https://www.aljazeera.com/news/2026/9/16/iran-war-increasing-inflation-straining-us-munitions-congressional-report?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789519092000,
+    "summaryEn": "Report by nonpartisan research body finds that replenishing depleted munitions stockpiles could take up to five years.",
+    "summaryAr": "Report by nonpartisan research body finds that replenishing depleted munitions stockpiles could take up to five years.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
+    "titleAr": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/16/iran-war-live-irans-top-diplomat-heads-to-china-as-war-drags-on?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789516800000,
+    "summaryEn": "Saudi Arabia has intercepted and destroyed a Houthi drone that was heading toward Mecca.",
+    "summaryAr": "Saudi Arabia has intercepted and destroyed a Houthi drone that was heading toward Mecca.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Panic on board Iranian plane as violent shaking rips cabin apart",
+    "titleAr": "Panic on board Iranian plane as violent shaking rips cabin apart",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/aje-onl-nf_iranian-plane-violent-shaking-rips-cabin-apart-150926?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789516076000,
+    "summaryEn": "A Sepehran Airlines Boeing 737 cabin rips apart after an emergency landing in Mashhad, Iran.",
+    "summaryAr": "A Sepehran Airlines Boeing 737 cabin rips apart after an emergency landing in Mashhad, Iran.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
+    "titleAr": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
+    "link": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789511888000,
+    "summaryEn": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
+    "summaryAr": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,38 +240,6 @@
     ]
   },
   {
-    "titleEn": "Western intelligence warns of Iranian cyber threats targeting dissidents",
-    "titleAr": "Western intelligence warns of Iranian cyber threats targeting dissidents",
-    "link": "https://www.aljazeera.com/news/2026/9/15/western-intelligence-warns-of-iranian-cyber-threats-targeting-dissidents?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789503395000,
-    "summaryEn": "Western intelligence agencies highlight 'CHOSEN BRICK' spyware targeting critics of Iran government abroad.",
-    "summaryAr": "Western intelligence agencies highlight 'CHOSEN BRICK' spyware targeting critics of Iran government abroad.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "NATO jet shoots down suspected Russian drone over Lithuania",
-    "titleAr": "NATO jet shoots down suspected Russian drone over Lithuania",
-    "link": "https://www.aljazeera.com/news/2026/9/15/nato-jet-shoots-down-suspected-russian-drone-over-lithuania?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789502340000,
-    "summaryEn": "EU chief warns of wider conflict as border incursions stoke fears that Ukraine war is spilling into neighbouring states.",
-    "summaryAr": "EU chief warns of wider conflict as border incursions stoke fears that Ukraine war is spilling into neighbouring states.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
     "titleAr": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
     "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
@@ -96,102 +256,6 @@
     ]
   },
   {
-    "titleEn": "Israel lacking respect for dead buried in Gaza rubble: UN",
-    "titleAr": "Israel lacking respect for dead buried in Gaza rubble: UN",
-    "link": "https://www.aljazeera.com/news/2026/9/15/israel-lacking-respect-for-dead-buried-in-gaza-rubble-un?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789500415000,
-    "summaryEn": "Human rights chief reiterates concern over war crimes evidence as remains from entire families are unearthed.",
-    "summaryAr": "Human rights chief reiterates concern over war crimes evidence as remains from entire families are unearthed.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "NATO downs drone over Lithuania, ‘probably’ launched by Russia",
-    "titleAr": "NATO downs drone over Lithuania, ‘probably’ launched by Russia",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/nato-downs-drone-over-lithuania-probably-launched-by-russia?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789497708000,
-    "summaryEn": "A NATO fighter jet shot down a drone in southern Lithuania shortly after midnight on Tuesday.",
-    "summaryAr": "A NATO fighter jet shot down a drone in southern Lithuania shortly after midnight on Tuesday.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Eto’o could face Cameroon probe over alleged Russia payment",
-    "titleAr": "Eto’o could face Cameroon probe over alleged Russia payment",
-    "link": "https://www.aljazeera.com/sports/2026/9/15/etoo-could-face-cameroon-probe-over-alleged-russia-payment?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789497340000,
-    "summaryEn": "Ex-Chelsea and Barcelona striker Samuel Eto'o faces a probe over allegations of embezzlement in his Cameroon FA role.",
-    "summaryAr": "Ex-Chelsea and Barcelona striker Samuel Eto'o faces a probe over allegations of embezzlement in his Cameroon FA role.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Egypt’s el-Sisi meets MBS, backs Saudi call for secure Red Sea navigation",
-    "titleAr": "Egypt’s el-Sisi meets MBS, backs Saudi call for secure Red Sea navigation",
-    "link": "https://www.aljazeera.com/news/2026/9/15/egypts-sisi-meets-mbs-backs-saudi-call-for-secure-red-sea-navigation?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789495524000,
-    "summaryEn": "Red Sea disruptions impact Egypt’s economy, with Suez Canal revenues dropping by $7bn in two years.",
-    "summaryAr": "Red Sea disruptions impact Egypt’s economy, with Suez Canal revenues dropping by $7bn in two years.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "More than 100,000 displaced as they flee violence in Yemen: UN",
-    "titleAr": "More than 100,000 displaced as they flee violence in Yemen: UN",
-    "link": "https://www.aljazeera.com/news/2026/9/15/more-than-100000-displaced-as-they-flee-violence-in-yemen-un?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789493998000,
-    "summaryEn": "Thousands making risky maritime journey to Djibouti as conflict between Yemen gov't and Houthis intensifies.",
-    "summaryAr": "Thousands making risky maritime journey to Djibouti as conflict between Yemen gov't and Houthis intensifies.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "How an Israeli cell orchestrated an anti-Qatar campaign",
-    "titleAr": "How an Israeli cell orchestrated an anti-Qatar campaign",
-    "link": "https://www.aljazeera.com/news/2026/9/15/israel-influence-campaign-against-qatar?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789491046000,
-    "summaryEn": "Israeli newspaper Haaretz reports that influence experts and an ex-Mossad official were part of an anti-Qatar group.",
-    "summaryAr": "Israeli newspaper Haaretz reports that influence experts and an ex-Mossad official were part of an anti-Qatar group.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
     "titleAr": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
     "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
@@ -199,22 +263,6 @@
     "pubDate": 1789489791000,
     "summaryEn": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissid…",
     "summaryAr": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissid…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Can China play peacemaker as Iran’s foreign minister heads to Beijing?",
-    "titleAr": "Can China play peacemaker as Iran’s foreign minister heads to Beijing?",
-    "link": "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789488913000,
-    "summaryEn": "Tehran and Beijing explore diplomatic paths amid escalating tensions between Iran and the United States.",
-    "summaryAr": "Tehran and Beijing explore diplomatic paths amid escalating tensions between Iran and the United States.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -669,59 +717,6 @@
     "summaryEn": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
     "summaryAr": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
     "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "titleAr": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "source": "The Hacker News",
-    "pubDate": 1789135820000,
-    "summaryEn": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of t…",
-    "summaryAr": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of t…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789128000000,
-    "summaryEn": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect…",
-    "summaryAr": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen's Houthis seize strategic Red Sea port of Mokha",
-    "titleAr": "Yemen's Houthis seize strategic Red Sea port of Mokha",
-    "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789118445000,
-    "summaryEn": "Mokha's capture brings the Iran-backed group closer to controlling a key international shipping route.",
-    "summaryAr": "Mokha's capture brings the Iran-backed group closer to controlling a key international shipping route.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      },
       {
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
