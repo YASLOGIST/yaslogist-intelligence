@@ -1,5 +1,197 @@
 [
   {
+    "titleEn": "China willing to ‘safeguard Iran’s legitimate rights’, official says",
+    "titleAr": "China willing to ‘safeguard Iran’s legitimate rights’, official says",
+    "link": "https://www.aljazeera.com/news/2026/9/16/china-willing-to-safeguard-irans-legitimate-rights-official-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789564191000,
+    "summaryEn": "China says the US-Israel war on Iran highlights flaws in the Middle East's 'existing security architecture'.",
+    "summaryAr": "China says the US-Israel war on Iran highlights flaws in the Middle East's 'existing security architecture'.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Photos: Gaza building collapse kills 20, including women and children",
+    "titleAr": "Photos: Gaza building collapse kills 20, including women and children",
+    "link": "https://www.aljazeera.com/gallery/2026/9/16/photos-gaza-building-collapse-kills-20-including-women-and-children?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789563402000,
+    "summaryEn": "Israel-hit building collapsed in Gaza City, killing 20 and leaving dozens trapped under the rubble.",
+    "summaryAr": "Israel-hit building collapsed in Gaza City, killing 20 and leaving dozens trapped under the rubble.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 20 killed as multi-storey building collapses in Gaza City",
+    "titleAr": "At least 20 killed as multi-storey building collapses in Gaza City",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-20-killed-as-multi-storey-building-collapses-in-gaza-city?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789561967000,
+    "summaryEn": "Rescuers are searching through the rubble for survivors after a damaged apartment building collapsed overnight in Gaza.",
+    "summaryAr": "Rescuers are searching through the rubble for survivors after a damaged apartment building collapsed overnight in Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+    "titleAr": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+    "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789561576000,
+    "summaryEn": "Dozens of people are missing beneath the rubble of a building hit by an Israeli strike last year, where some 10 families had been living.",
+    "summaryAr": "Dozens of people are missing beneath the rubble of a building hit by an Israeli strike last year, where some 10 families had been living.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Taiz camps overflow with Yemenis fleeing fighting after Houthi offensive",
+    "titleAr": "Taiz camps overflow with Yemenis fleeing fighting after Houthi offensive",
+    "link": "https://www.aljazeera.com/features/2026/9/16/taiz-camps-overflow-with-yemenis-fleeing-fighting-after-houthi-offensive?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789560655000,
+    "summaryEn": "The recent flare-up in the Yemen conflict has seen tens of thousands of people displaced in Taiz governorate.",
+    "summaryAr": "The recent flare-up in the Yemen conflict has seen tens of thousands of people displaced in Taiz governorate.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "US set to approve 60,000 heavy bombs for Israel: What that means",
+    "titleAr": "US set to approve 60,000 heavy bombs for Israel: What that means",
+    "link": "https://www.aljazeera.com/features/2026/9/16/us-set-to-approve-60000-heavy-bombs-for-israel-what-that-means?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789560585000,
+    "summaryEn": "The package of 2,000-pound bombs comes amid Israel's genocidal war on Gaza and its occupation of southern Lebanon.",
+    "summaryAr": "The package of 2,000-pound bombs comes amid Israel's genocidal war on Gaza and its occupation of southern Lebanon.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "titleAr": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+    "source": "The Hacker News",
+    "pubDate": 1789557358000,
+    "summaryEn": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS scor…",
+    "summaryAr": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS scor…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "titleAr": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+    "source": "The Hacker News",
+    "pubDate": 1789556934000,
+    "summaryEn": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, trac…",
+    "summaryAr": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, trac…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli double-tap strike kills 15-year-old and paramedic in Gaza",
+    "titleAr": "Israeli double-tap strike kills 15-year-old and paramedic in Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/09-16-sv-gaza-double-tap-strike?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789554109000,
+    "summaryEn": "A child has been killed in an Israeli double-tap strike as he rushed to help a paramedic wounded in an earlier attack.",
+    "summaryAr": "A child has been killed in an Israeli double-tap strike as he rushed to help a paramedic wounded in an earlier attack.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least five killed in Russian drone strike near Ukraine front line",
+    "titleAr": "At least five killed in Russian drone strike near Ukraine front line",
+    "link": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789551172000,
+    "summaryEn": "At least seven people also injured in attack near Nikopol in southeastern Ukraine, Dnipropetrovsk governor says.",
+    "summaryAr": "At least seven people also injured in attack near Nikopol in southeastern Ukraine, Dnipropetrovsk governor says.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Human rights lawyer Noura Erakat arrested at hearing against Israel Bonds",
+    "titleAr": "Human rights lawyer Noura Erakat arrested at hearing against Israel Bonds",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/human-rights-lawyer-noura-erakat-arrested-at-hearing-against-israel-bonds?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789550390000,
+    "summaryEn": "Palestinian human rights lawyer Noura Erakat was arrested in Florida after speaking against an Israel Bonds investment.",
+    "summaryAr": "Palestinian human rights lawyer Noura Erakat was arrested in Florida after speaking against an Israel Bonds investment.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia says it shot down Houthi drone south of Mecca",
+    "titleAr": "Saudi Arabia says it shot down Houthi drone south of Mecca",
+    "link": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789547777000,
+    "summaryEn": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\".",
+    "summaryAr": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\".",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Google fixes actively exploited Android zero-day on Pixel devices",
     "titleAr": "Google fixes actively exploited Android zero-day on Pixel devices",
     "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
@@ -39,182 +231,6 @@
     "pubDate": 1789535886000,
     "summaryEn": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS…",
     "summaryAr": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "At least 10 dead, dozens missing in Gaza building collapse",
-    "titleAr": "At least 10 dead, dozens missing in Gaza building collapse",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789535212000,
-    "summaryEn": "At least 10 Palestinians are dead and up to 70 more are believed missing after a building collapsed in Gaza City.",
-    "summaryAr": "At least 10 Palestinians are dead and up to 70 more are believed missing after a building collapsed in Gaza City.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "At least 12 dead as Gaza building collapses, many trapped under rubble",
-    "titleAr": "At least 12 dead as Gaza building collapses, many trapped under rubble",
-    "link": "https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789533052000,
-    "summaryEn": "Rescue crews in Gaza pull survivors from a collapsed building as cries for help echo beneath the rubble, witnesses say.",
-    "summaryAr": "Rescue crews in Gaza pull survivors from a collapsed building as cries for help echo beneath the rubble, witnesses say.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump administration plans $2.8bn sale of 2,000-pound bombs to Israel",
-    "titleAr": "Trump administration plans $2.8bn sale of 2,000-pound bombs to Israel",
-    "link": "https://www.aljazeera.com/news/2026/9/16/trump-administration-plans-2-8bn-sale-of-2000-pound-bombs-to-israel?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789529990000,
-    "summaryEn": "Trump administration pushes $2.8bn bomb sale to Israel amid criticism over mass targeting of civilians in the region.",
-    "summaryAr": "Trump administration pushes $2.8bn bomb sale to Israel amid criticism over mass targeting of civilians in the region.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
-    "titleAr": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789523607000,
-    "summaryEn": "Saudi Arabia has cancelled some oil deliveries to Europe after attacks shut down its export pipeline to the Red Sea.",
-    "summaryAr": "Saudi Arabia has cancelled some oil deliveries to Europe after attacks shut down its export pipeline to the Red Sea.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel started an anti-Qatar campaign, then scrapped it",
-    "titleAr": "Israel started an anti-Qatar campaign, then scrapped it",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/israel-started-an-anti-qatar-campaign-then-scrapped-it?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789522900000,
-    "summaryEn": "Days after October 7, Israel began building a global campaign to pressure and isolate Qatar.",
-    "summaryAr": "Days after October 7, Israel began building a global campaign to pressure and isolate Qatar.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi-led coalition intercepts Houthi drone headed for Mecca",
-    "titleAr": "Saudi-led coalition intercepts Houthi drone headed for Mecca",
-    "link": "https://www.aljazeera.com/news/2026/9/16/saudi-led-coalition-intercepts-drone-headed-for-mecca?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789520994000,
-    "summaryEn": "Saudi Arabia says it intercepted a drone before it entered Islam's holiest city, calling pilgrims' security a 'red line'",
-    "summaryAr": "Saudi Arabia says it intercepted a drone before it entered Islam's holiest city, calling pilgrims' security a 'red line'",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli soldiers rappel from helicopter in occupied West Bank",
-    "titleAr": "Israeli soldiers rappel from helicopter in occupied West Bank",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/16/israeli-soldiers-rappel-from-helicopter-in-occupied-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789519353000,
-    "summaryEn": "Israeli forces rappelled from a helicopter onto the roof of a residential building in Yatta, in the occupied West Bank.",
-    "summaryAr": "Israeli forces rappelled from a helicopter onto the roof of a residential building in Yatta, in the occupied West Bank.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war increasing inflation, straining US munitions: congressional report",
-    "titleAr": "Iran war increasing inflation, straining US munitions: congressional report",
-    "link": "https://www.aljazeera.com/news/2026/9/16/iran-war-increasing-inflation-straining-us-munitions-congressional-report?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789519092000,
-    "summaryEn": "Report by nonpartisan research body finds that replenishing depleted munitions stockpiles could take up to five years.",
-    "summaryAr": "Report by nonpartisan research body finds that replenishing depleted munitions stockpiles could take up to five years.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
-    "titleAr": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/16/iran-war-live-irans-top-diplomat-heads-to-china-as-war-drags-on?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789516800000,
-    "summaryEn": "Saudi Arabia has intercepted and destroyed a Houthi drone that was heading toward Mecca.",
-    "summaryAr": "Saudi Arabia has intercepted and destroyed a Houthi drone that was heading toward Mecca.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Panic on board Iranian plane as violent shaking rips cabin apart",
-    "titleAr": "Panic on board Iranian plane as violent shaking rips cabin apart",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/aje-onl-nf_iranian-plane-violent-shaking-rips-cabin-apart-150926?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789516076000,
-    "summaryEn": "A Sepehran Airlines Boeing 737 cabin rips apart after an emergency landing in Mashhad, Iran.",
-    "summaryAr": "A Sepehran Airlines Boeing 737 cabin rips apart after an emergency landing in Mashhad, Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
-    "titleAr": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
-    "link": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789511888000,
-    "summaryEn": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
-    "summaryAr": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -705,22 +721,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "titleAr": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "source": "The Hacker News",
-    "pubDate": 1789136987000,
-    "summaryEn": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
-    "summaryAr": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between …",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   }
