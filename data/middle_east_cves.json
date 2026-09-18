@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-38058",
-        "system": "Evolution iQ‑Series terminals",
+        "id": "CVE-2026-20079",
+        "system": "Cisco Secure Firewall Management Center (FMC)",
+        "severity": "Critical",
+        "cvss": 10,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-87491",
+        "system": "Chrome",
         "severity": "High",
-        "cvss": 8.6,
+        "cvss": 8.8,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-82578",
-        "system": "Mirth Connect",
+        "id": "CVE-2026-19490",
+        "system": "ADC",
+        "severity": "Critical",
+        "cvss": 9.3,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2025-25249",
+        "system": "FortiSwitchManager",
+        "severity": "High",
+        "cvss": 7.4,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-38056",
+        "system": "Evolution iQ‑Series terminals",
+        "severity": "Critical",
+        "cvss": 9.4,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-38057",
+        "system": "Evolution iQ‑Series terminals",
+        "severity": "High",
+        "cvss": 7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-38059",
+        "system": "Evolution iQ‑Series terminals",
         "severity": "High",
         "cvss": 8.7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-78224",
-        "system": "Mirth Connect",
-        "severity": "High",
-        "cvss": 8.8,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-82583",
-        "system": "Mirth Connect",
-        "severity": "High",
-        "cvss": 7.2,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-67277",
+        "id": "CVE-2026-86060",
         "system": "RouterOS",
-        "severity": "High",
-        "cvss": 8.8,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-87020",
-        "system": "DICOM Server",
-        "severity": "High",
-        "cvss": 7.2,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-81824",
-        "system": "Pipeline Integrity Monitor",
-        "severity": "Medium",
-        "cvss": 6.3,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2026-81823",
-        "system": "Pipeline Integrity Monitor",
-        "severity": "Medium",
-        "cvss": 6.9,
-        "badge": "badge-medium"
+        "severity": "Critical",
+        "cvss": 9.2,
+        "badge": "badge-critical"
     }
 ]
