@@ -14,6 +14,13 @@
         "class": "intensity-high"
     },
     {
+        "country": "Syria",
+        "attacks": "3",
+        "intensity": "Medium",
+        "trend": "up",
+        "class": "intensity-med"
+    },
+    {
         "country": "Yemen",
         "attacks": "3",
         "intensity": "Medium",
@@ -22,13 +29,6 @@
     },
     {
         "country": "Lebanon",
-        "attacks": "2",
-        "intensity": "Medium",
-        "trend": "up",
-        "class": "intensity-med"
-    },
-    {
-        "country": "Syria",
         "attacks": "2",
         "intensity": "Medium",
         "trend": "up",

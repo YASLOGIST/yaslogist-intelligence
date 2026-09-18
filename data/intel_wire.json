@@ -1,5 +1,53 @@
 [
   {
+    "titleEn": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
+    "titleAr": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
+    "link": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789773240000,
+    "summaryEn": "The war in Yemen intensifies with mounting clashes and reciprocal attacks between Saudi forces and the Houthis.",
+    "summaryAr": "The war in Yemen intensifies with mounting clashes and reciprocal attacks between Saudi forces and the Houthis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "UK court clears woman of voicing support for Hamas in university speech",
+    "titleAr": "UK court clears woman of voicing support for Hamas in university speech",
+    "link": "https://www.aljazeera.com/news/2026/9/18/uk-court-clears-woman-of-voicing-support-for-hamas-in-university-speech?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789764957000,
+    "summaryEn": "Sarah Cotte said her comments were not in support of Hamas, but in support of Palestinians' right to resist.",
+    "summaryAr": "Sarah Cotte said her comments were not in support of Hamas, but in support of Palestinians' right to resist.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile",
+    "titleAr": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789763880000,
+    "summaryEn": "Thousands of people cheered as they welcomed Syrian icon Assala Nasri back at a sold-out concert in Damascus.",
+    "summaryAr": "Thousands of people cheered as they welcomed Syrian icon Assala Nasri back at a sold-out concert in Damascus.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Syria arrests five former al-Assad-era officers over strikes on civilians",
     "titleAr": "Syria arrests five former al-Assad-era officers over strikes on civilians",
     "link": "https://www.aljazeera.com/news/2026/9/18/syria-arrests-five-former-al-assad-era-officers-over-strikes-on-civilians?traffic_source=rss",
@@ -112,22 +160,6 @@
     ]
   },
   {
-    "titleEn": "More than 112,000 displaced by Yemen fighting; thousands flee to Djibouti",
-    "titleAr": "More than 112,000 displaced by Yemen fighting; thousands flee to Djibouti",
-    "link": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789747948000,
-    "summaryEn": "United Nations says 22 million people need humanitarian aid as conflict intensifies.",
-    "summaryAr": "United Nations says 22 million people need humanitarian aid as conflict intensifies.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
     "titleAr": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
     "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
@@ -151,6 +183,22 @@
     "pubDate": 1789732800000,
     "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition V…",
     "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition V…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1789732800000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39682 Linux Kernel Improper Check for…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39682 Linux Kernel Improper Check for…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -256,13 +304,13 @@
     ]
   },
   {
-    "titleEn": "Schneider Electric PowerChute Serial Shutdown",
-    "titleAr": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "titleEn": "ABB Ability Edgenius",
+    "titleAr": "ABB Ability Edgenius",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
+    "summaryEn": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
+    "summaryAr": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -279,6 +327,22 @@
     "pubDate": 1789646400000,
     "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
     "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Schneider Electric PowerChute Serial Shutdown",
+    "titleAr": "Schneider Electric PowerChute Serial Shutdown",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "source": "CISA Advisories",
+    "pubDate": 1789646400000,
+    "summaryEn": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
+    "summaryAr": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -336,22 +400,6 @@
     ]
   },
   {
-    "titleEn": "Bransys ELD",
-    "titleAr": "Bransys ELD",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Schneider Electric Modicon M340 Controller and Communication Modules",
     "titleAr": "Schneider Electric Modicon M340 Controller and Communication Modules",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
@@ -368,13 +416,13 @@
     ]
   },
   {
-    "titleEn": "ABB Ability Edgenius",
-    "titleAr": "ABB Ability Edgenius",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+    "titleEn": "Bransys ELD",
+    "titleAr": "Bransys ELD",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
-    "summaryAr": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -549,22 +597,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789560000000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-58704 Google Pixel Improper Authoriza…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-58704 Google Pixel Improper Authoriza…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
     "titleAr": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
     "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
@@ -684,38 +716,6 @@
     "pubDate": 1789482074000,
     "summaryEn": "Experts tell BBC Verify the pipeline's closure could cut oil supplies by as much as 3.6 million barrels per day.",
     "summaryAr": "Experts tell BBC Verify the pipeline's closure could cut oil supplies by as much as 3.6 million barrels per day.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CareCam CM2507",
-    "titleAr": "CareCam CM2507",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
-    "source": "CISA Advisories",
-    "pubDate": 1789473600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, exec…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Wärtsilä FOS-Onboard",
-    "titleAr": "Wärtsilä FOS-Onboard",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
-    "source": "CISA Advisories",
-    "pubDate": 1789473600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the atta…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the atta…",
     "tags": [
       {
         "textEn": "INTEL",
