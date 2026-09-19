@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "Houthis claim attack on Saudi capital after smoke seen rising near Riyadh airport",
+    "titleAr": "Houthis claim attack on Saudi capital after smoke seen rising near Riyadh airport",
+    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789840214000,
+    "summaryEn": "The King Khalid International Airport incident caused hours of flight disruptions and comes amid an escalating conflict with Houthi rebels in Yemen.",
+    "summaryAr": "The King Khalid International Airport incident caused hours of flight disruptions and comes amid an escalating conflict with Houthi rebels in Yemen.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Ed Sheeran concert set to go ahead after outcry over Gaza",
+    "titleAr": "Ed Sheeran concert set to go ahead after outcry over Gaza",
+    "link": "https://www.aljazeera.com/news/2026/9/19/ed-sheeran-concert-set-to-go-ahead-after-outcry-over-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789838085000,
+    "summaryEn": "Sheeran may perform solo after musicians dropped out of tour over expulsion of Macklemore for supporting Palestine.",
+    "summaryAr": "Sheeran may perform solo after musicians dropped out of tour over expulsion of Macklemore for supporting Palestine.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Gaza’s children return to schools",
+    "titleAr": "Jerusalem Daily: Gaza’s children return to schools",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/jerusalem-daily-gazas-children-return-to-schools?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789832338000,
+    "summaryEn": "It's the first official day back to school for Gaza's children.",
+    "summaryAr": "It's the first official day back to school for Gaza's children.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
+    "titleAr": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/djibouti-refugee-crisis-worsens-as-more-than-2700-yemenis-arrive?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789831865000,
+    "summaryEn": "More than 2,700 Yemenis have fled to Djibouti, many making dangerous sea crossings to escape the conflict.",
+    "summaryAr": "More than 2,700 Yemenis have fled to Djibouti, many making dangerous sea crossings to escape the conflict.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "UEFA defends policy after rejecting Ireland’s request not to play Israel",
     "titleAr": "UEFA defends policy after rejecting Ireland’s request not to play Israel",
     "link": "https://www.aljazeera.com/sports/2026/9/19/uefa-defends-policy-after-rejecting-irelands-request-not-to-play-israel?traffic_source=rss",
@@ -80,8 +144,8 @@
     ]
   },
   {
-    "titleEn": "Child among three Palestinians killed in Israeli attacks across Gaza",
-    "titleAr": "Child among three Palestinians killed in Israeli attacks across Gaza",
+    "titleEn": "Child among four Palestinians killed in Israeli attacks across Gaza",
+    "titleAr": "Child among four Palestinians killed in Israeli attacks across Gaza",
     "link": "https://www.aljazeera.com/news/2026/9/19/three-palestinians-killed-in-israeli-strikes-across-gaza?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789822771000,
@@ -160,38 +224,6 @@
     ]
   },
   {
-    "titleEn": "Iran stages show of force during mobilisation campaign in Tehran",
-    "titleAr": "Iran stages show of force during mobilisation campaign in Tehran",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-progovrally-tehran-sv-mp4?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789815360000,
-    "summaryEn": "Armed women, anti-aircraft guns and Shaheed drones were seen in Tehran as hundreds of thousands marched in the capital.",
-    "summaryAr": "Armed women, anti-aircraft guns and Shaheed drones were seen in Tehran as hundreds of thousands marched in the capital.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia kills eight people in Ukraine, attacks two vessels in Black Sea",
-    "titleAr": "Russia kills eight people in Ukraine, attacks two vessels in Black Sea",
-    "link": "https://www.aljazeera.com/news/2026/9/19/poland-on-high-alert-as-russia-claims-black-sea-vessel-strikes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789815081000,
-    "summaryEn": "Ukraine's Air Force says Russia hit the country with dozens of drones and two antiship missiles overnight.",
-    "summaryAr": "Ukraine's Air Force says Russia hit the country with dozens of drones and two antiship missiles overnight.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
     "titleAr": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
@@ -199,22 +231,6 @@
     "pubDate": 1789810277000,
     "summaryEn": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote cod…",
     "summaryAr": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote cod…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "EU urges US to lift travel ban on Palestinian delegation for UNGA meeting",
-    "titleAr": "EU urges US to lift travel ban on Palestinian delegation for UNGA meeting",
-    "link": "https://www.aljazeera.com/news/2026/9/19/eu-urges-us-to-lift-travel-ban-on-palestinian-delegation-for-unga-meeting?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789808713000,
-    "summaryEn": "The United Nations General Assembly will allow Palestinian President Mahmoud Abbas to address via a prerecorded video.",
-    "summaryAr": "The United Nations General Assembly will allow Palestinian President Mahmoud Abbas to address via a prerecorded video.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -700,27 +716,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "titleAr": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "source": "The Hacker News",
-    "pubDate": 1789572469000,
-    "summaryEn": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "summaryAr": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   }
