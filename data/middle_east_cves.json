@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-38056",
-        "system": "Evolution iQ‑Series terminals",
-        "severity": "Critical",
-        "cvss": 9.4,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-38057",
+        "id": "CVE-2026-38058",
         "system": "Evolution iQ‑Series terminals",
         "severity": "High",
-        "cvss": 7,
+        "cvss": 8.6,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-38059",
-        "system": "Evolution iQ‑Series terminals",
+        "id": "CVE-2026-82578",
+        "system": "Mirth Connect",
         "severity": "High",
         "cvss": 8.7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-86060",
+        "id": "CVE-2026-78224",
+        "system": "Mirth Connect",
+        "severity": "High",
+        "cvss": 8.8,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-82583",
+        "system": "Mirth Connect",
+        "severity": "High",
+        "cvss": 7.2,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-67277",
         "system": "RouterOS",
-        "severity": "Critical",
-        "cvss": 9.2,
-        "badge": "badge-critical"
+        "severity": "High",
+        "cvss": 8.8,
+        "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-81822",
+        "id": "CVE-2026-87020",
+        "system": "DICOM Server",
+        "severity": "High",
+        "cvss": 7.2,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-81824",
         "system": "Pipeline Integrity Monitor",
-        "severity": "High",
-        "cvss": 8.3,
-        "badge": "badge-high"
+        "severity": "Medium",
+        "cvss": 6.3,
+        "badge": "badge-medium"
     },
     {
-        "id": "CVE-2026-81821",
+        "id": "CVE-2026-81823",
         "system": "Pipeline Integrity Monitor",
-        "severity": "High",
-        "cvss": 8.3,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-84869",
-        "system": "ScreenConnect",
-        "severity": "Critical",
-        "cvss": 9.9,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-42018",
-        "system": "artifactory",
-        "severity": "High",
-        "cvss": 7.5,
-        "badge": "badge-high"
+        "severity": "Medium",
+        "cvss": 6.9,
+        "badge": "badge-medium"
     }
 ]
