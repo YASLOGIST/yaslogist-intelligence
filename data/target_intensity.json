@@ -1,7 +1,7 @@
 [
     {
         "country": "Iran",
-        "attacks": "7",
+        "attacks": "9",
         "intensity": "High",
         "trend": "up",
         "class": "intensity-high"
@@ -15,7 +15,7 @@
     },
     {
         "country": "Yemen",
-        "attacks": "4",
+        "attacks": "3",
         "intensity": "Medium",
         "trend": "up",
         "class": "intensity-med"
@@ -29,9 +29,9 @@
     },
     {
         "country": "Lebanon",
-        "attacks": "0",
+        "attacks": "1",
         "intensity": "Low",
-        "trend": "down",
+        "trend": "up",
         "class": "intensity-low"
     },
     {
