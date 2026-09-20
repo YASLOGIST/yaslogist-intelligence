@@ -1,5 +1,85 @@
 [
   {
+    "titleEn": "Turkish FM says ready to meet Saudi defence needs – what does that mean?",
+    "titleAr": "Turkish FM says ready to meet Saudi defence needs – what does that mean?",
+    "link": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789899813000,
+    "summaryEn": "Ankara expresses readiness to assist Riyadh as Houthi attacks escalate, testing a recent trilateral defence agreement.",
+    "summaryAr": "Ankara expresses readiness to assist Riyadh as Houthi attacks escalate, testing a recent trilateral defence agreement.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘There will be a very sizeable Saudi response’ to Houthi attacks",
+    "titleAr": "‘There will be a very sizeable Saudi response’ to Houthi attacks",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/20/there-will-be-a-very-sizeable-saudi-response-to-houthi-attacks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789896651000,
+    "summaryEn": "Nawaf Obaid tells Al Jazeera that Saudi Arabia’s response to Houthi attacks from Yemen will be massive.",
+    "summaryAr": "Nawaf Obaid tells Al Jazeera that Saudi Arabia’s response to Houthi attacks from Yemen will be massive.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Echoicide: Who decides which truths survive in Gaza?",
+    "titleAr": "Echoicide: Who decides which truths survive in Gaza?",
+    "link": "https://www.aljazeera.com/news-analysis/2026/9/20/echoicide-who-decides-which-truths-survive-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789893165000,
+    "summaryEn": "From Gaza to the digital age, visibility has become one of the central political struggles of modern conflicts.",
+    "summaryAr": "From Gaza to the digital age, visibility has become one of the central political struggles of modern conflicts.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+    "titleAr": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+    "link": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789887425000,
+    "summaryEn": "Moscow mayor says Russia has intercepted 1,600 drones since Saturday, including 450 directed at the capital.",
+    "summaryAr": "Moscow mayor says Russia has intercepted 1,600 drones since Saturday, including 450 directed at the capital.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Tunisian protesters demand release of four Sumud activists",
+    "titleAr": "Tunisian protesters demand release of four Sumud activists",
+    "link": "https://www.aljazeera.com/news/2026/9/20/tunisian-protesters-demand-release-of-four-sumud-activists?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789880133000,
+    "summaryEn": "The protest comes as the health of one detainee deteriorates after more than a month on hunger strike.",
+    "summaryAr": "The protest comes as the health of one detainee deteriorates after more than a month on hunger strike.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Morocco’s PJD: what has the party learned from its dramatic fall",
     "titleAr": "Morocco’s PJD: what has the party learned from its dramatic fall",
     "link": "https://www.aljazeera.com/news/2026/9/20/moroccos-pjd-what-has-the-party-learned-from-its-dramatic-fall?traffic_source=rss",
@@ -48,13 +128,13 @@
     ]
   },
   {
-    "titleEn": "Iran war live: Tehran sets terms for talks; Saudi forces foil Riyadh attack",
-    "titleAr": "Iran war live: Tehran sets terms for talks; Saudi forces foil Riyadh attack",
+    "titleEn": "Iran war live: ‘Battlefield success’ against US before any talks – Speaker",
+    "titleAr": "Iran war live: ‘Battlefield success’ against US before any talks – Speaker",
     "link": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1789862400000,
-    "summaryEn": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of US's naval blockade.",
-    "summaryAr": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of US's naval blockade.",
+    "summaryEn": "Parliament Speaker Ghalibaf says Iran’s position on the US-Israeli war 'entirely clear, rational, and non-negotiable'.",
+    "summaryAr": "Parliament Speaker Ghalibaf says Iran’s position on the US-Israeli war 'entirely clear, rational, and non-negotiable'.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -76,134 +156,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Turkiye backs Saudi Arabia’s security amid escalating Houthi attacks: FM",
-    "titleAr": "Turkiye backs Saudi Arabia’s security amid escalating Houthi attacks: FM",
-    "link": "https://www.aljazeera.com/news/2026/9/19/turkiye-backs-saudi-arabias-security-amid-escalating-houthi-attacks-fm?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789859914000,
-    "summaryEn": "Turkish FM highlights Turkiye's readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
-    "summaryAr": "Turkish FM highlights Turkiye's readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
-    "titleAr": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
-    "link": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789855385000,
-    "summaryEn": "It was the first air raid alert in Riyadh since an escalation in fighting between the Houthis in Yemen and Saudi Arabia.",
-    "summaryAr": "It was the first air raid alert in Riyadh since an escalation in fighting between the Houthis in Yemen and Saudi Arabia.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel’s president pardons soldier who killed wounded Palestinian in 2016",
-    "titleAr": "Israel’s president pardons soldier who killed wounded Palestinian in 2016",
-    "link": "https://www.aljazeera.com/news/2026/9/19/israels-president-pardons-soldier-who-killed-wounded-palestinian-in-2016?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789850409000,
-    "summaryEn": "Elor Azaria had shot a Palestinian who had already been incapacitated by Israeli troops, in controversial case.",
-    "summaryAr": "Elor Azaria had shot a Palestinian who had already been incapacitated by Israeli troops, in controversial case.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Lacking equipment, but not ambition: Gaza students try to keep up with tech",
-    "titleAr": "Lacking equipment, but not ambition: Gaza students try to keep up with tech",
-    "link": "https://www.aljazeera.com/features/2026/9/19/lacking-equipment-but-not-ambition-gaza-students-try-to-keep-up-with-tech?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789849801000,
-    "summaryEn": "Gaza's IT industry has been devastated from three-years of bombing and destruction.",
-    "summaryAr": "Gaza's IT industry has been devastated from three-years of bombing and destruction.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hegseth kicks off ‘Send Me Tour’ amid Iran war backlash",
-    "titleAr": "Hegseth kicks off ‘Send Me Tour’ amid Iran war backlash",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/hegseth-kicks-off-send-me-tour-amid-iran-war-backlash?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789848836000,
-    "summaryEn": "US Secretary of Defence Pete Hegseth has kicked off his ‘Send Me Tour’ in Texas amid Iran war backlash.",
-    "summaryAr": "US Secretary of Defence Pete Hegseth has kicked off his ‘Send Me Tour’ in Texas amid Iran war backlash.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran says conditions to re-engage in talks, end war sent to US via Qatar",
-    "titleAr": "Iran says conditions to re-engage in talks, end war sent to US via Qatar",
-    "link": "https://www.aljazeera.com/news/2026/9/19/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789842750000,
-    "summaryEn": "Mohsen Rezaei, secretary of Iran’s Supreme National Security Council, tells Al Jazeera Tehran awaiting Trump response.",
-    "summaryAr": "Mohsen Rezaei, secretary of Iran’s Supreme National Security Council, tells Al Jazeera Tehran awaiting Trump response.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel targets paramedics in southern Lebanon",
-    "titleAr": "Israel targets paramedics in southern Lebanon",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/israel-targets-paramedics-in-southern-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789841212000,
-    "summaryEn": "Two back-to-back Israeli air strikes hit Nabatieh in Lebanon, while a third strike targeted an ambulance team.",
-    "summaryAr": "Two back-to-back Israeli air strikes hit Nabatieh in Lebanon, while a third strike targeted an ambulance team.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ed Sheeran concert set to go ahead after outcry over Gaza",
-    "titleAr": "Ed Sheeran concert set to go ahead after outcry over Gaza",
-    "link": "https://www.aljazeera.com/news/2026/9/19/ed-sheeran-concert-set-to-go-ahead-after-outcry-over-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789838085000,
-    "summaryEn": "Sheeran may perform solo after musicians dropped out of tour over expulsion of Macklemore for supporting Palestine.",
-    "summaryAr": "Sheeran may perform solo after musicians dropped out of tour over expulsion of Macklemore for supporting Palestine.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -711,6 +663,59 @@
     "pubDate": 1789573859000,
     "summaryEn": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability …",
     "summaryAr": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "titleAr": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+    "source": "The Hacker News",
+    "pubDate": 1789572469000,
+    "summaryEn": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
+    "summaryAr": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "titleAr": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+    "source": "The Hacker News",
+    "pubDate": 1789557358000,
+    "summaryEn": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS scor…",
+    "summaryAr": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS scor…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "titleAr": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+    "source": "The Hacker News",
+    "pubDate": 1789556934000,
+    "summaryEn": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, trac…",
+    "summaryAr": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, trac…",
     "tags": [
       {
         "textEn": "INTEL",
