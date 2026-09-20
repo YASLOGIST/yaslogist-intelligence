@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Morocco’s PJD: what has the party learned from its dramatic fall",
+    "titleAr": "Morocco’s PJD: what has the party learned from its dramatic fall",
+    "link": "https://www.aljazeera.com/news/2026/9/20/moroccos-pjd-what-has-the-party-learned-from-its-dramatic-fall?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789875624000,
+    "summaryEn": "After its 2021 defeat, the party with an Islamic reference is rebuilding under Abdelilah Benkirane. Can it regain trust?",
+    "summaryAr": "After its 2021 defeat, the party with an Islamic reference is rebuilding under Abdelilah Benkirane. Can it regain trust?",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ed Sheeran opens solo concert with comments about Gaza",
+    "titleAr": "Ed Sheeran opens solo concert with comments about Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/20/ed-sheeran-opens-solo-concert-with-comments-about-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789875114000,
+    "summaryEn": "Ed Sheeran has addressed the Macklemore-Palestine fallout in remarks at his solo concert in Philadelphia.",
+    "summaryAr": "Ed Sheeran has addressed the Macklemore-Palestine fallout in remarks at his solo concert in Philadelphia.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ed Sheeran calls Gaza situation ‘unjustifiable’ after Palestine controversy",
+    "titleAr": "Ed Sheeran calls Gaza situation ‘unjustifiable’ after Palestine controversy",
+    "link": "https://www.aljazeera.com/news/2026/9/20/ed-sheeran-calls-gaza-situation-unjustifiable-after-palestine-controversy?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789874066000,
+    "summaryEn": "The British singer addresses fans at his concert in Philadelphia as his US Loop Tour resumes.",
+    "summaryAr": "The British singer addresses fans at his concert in Philadelphia as his US Loop Tour resumes.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Tehran sets terms for talks; Saudi forces foil Riyadh attack",
+    "titleAr": "Iran war live: Tehran sets terms for talks; Saudi forces foil Riyadh attack",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789862400000,
+    "summaryEn": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of US's naval blockade.",
+    "summaryAr": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of US's naval blockade.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis say they targeted Saudi capital with ballistic missiles",
+    "titleAr": "Houthis say they targeted Saudi capital with ballistic missiles",
+    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1789861766000,
+    "summaryEn": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+    "summaryAr": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Turkiye backs Saudi Arabia’s security amid escalating Houthi attacks: FM",
+    "titleAr": "Turkiye backs Saudi Arabia’s security amid escalating Houthi attacks: FM",
+    "link": "https://www.aljazeera.com/news/2026/9/19/turkiye-backs-saudi-arabias-security-amid-escalating-houthi-attacks-fm?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789859914000,
+    "summaryEn": "Turkish FM highlights Turkiye's readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
+    "summaryAr": "Turkish FM highlights Turkiye's readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
+    "titleAr": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
+    "link": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1789855385000,
+    "summaryEn": "It was the first air raid alert in Riyadh since an escalation in fighting between the Houthis in Yemen and Saudi Arabia.",
+    "summaryAr": "It was the first air raid alert in Riyadh since an escalation in fighting between the Houthis in Yemen and Saudi Arabia.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Israel’s president pardons soldier who killed wounded Palestinian in 2016",
     "titleAr": "Israel’s president pardons soldier who killed wounded Palestinian in 2016",
     "link": "https://www.aljazeera.com/news/2026/9/19/israels-president-pardons-soldier-who-killed-wounded-palestinian-in-2016?traffic_source=rss",
@@ -28,22 +140,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis say they targeted Saudi capital with ballistic missiles",
-    "titleAr": "Houthis say they targeted Saudi capital with ballistic missiles",
-    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789848967000,
-    "summaryEn": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-    "summaryAr": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -112,70 +208,6 @@
     ]
   },
   {
-    "titleEn": "Jerusalem Daily: Gaza’s children return to schools",
-    "titleAr": "Jerusalem Daily: Gaza’s children return to schools",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/jerusalem-daily-gazas-children-return-to-schools?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789832338000,
-    "summaryEn": "It's the first official day back to school for Gaza's children.",
-    "summaryAr": "It's the first official day back to school for Gaza's children.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
-    "titleAr": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/djibouti-refugee-crisis-worsens-as-more-than-2700-yemenis-arrive?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789831865000,
-    "summaryEn": "More than 2,700 Yemenis have fled to Djibouti, many making dangerous sea crossings to escape the conflict.",
-    "summaryAr": "More than 2,700 Yemenis have fled to Djibouti, many making dangerous sea crossings to escape the conflict.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UEFA defends policy after rejecting Ireland’s request not to play Israel",
-    "titleAr": "UEFA defends policy after rejecting Ireland’s request not to play Israel",
-    "link": "https://www.aljazeera.com/sports/2026/9/19/uefa-defends-policy-after-rejecting-irelands-request-not-to-play-israel?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789830279000,
-    "summaryEn": "UEFA responds after Ireland's football association says its request to avoid future pairings with Israel was ⁠⁠rejected.",
-    "summaryAr": "UEFA responds after Ireland's football association says its request to avoid future pairings with Israel was ⁠⁠rejected.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Syria says blast at military site in Deir Az Zor killed 11",
-    "titleAr": "Syria says blast at military site in Deir Az Zor killed 11",
-    "link": "https://www.aljazeera.com/news/2026/9/19/syria-says-blast-at-military-site-in-deir-az-zor-killed-11?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789829718000,
-    "summaryEn": "Syrian army holds funeral for soldiers killed in ammunition blast in town of Ayyash, in western Deir Az Zor, on Friday.",
-    "summaryAr": "Syrian army holds funeral for soldiers killed in ammunition blast in town of Ayyash, in western Deir Az Zor, on Friday.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
     "titleAr": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
@@ -188,22 +220,6 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "An unaffordable car market highlights Iran’s cost-of-living crisis",
-    "titleAr": "An unaffordable car market highlights Iran’s cost-of-living crisis",
-    "link": "https://www.aljazeera.com/economy/2026/9/19/an-unaffordable-car-market-highlights-irans-cost-of-living-crisis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789824112000,
-    "summaryEn": "Some officials and state media have long openly described the industry as a ‘mafia’ system.",
-    "summaryAr": "Some officials and state media have long openly described the industry as a ‘mafia’ system.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -700,27 +716,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "titleAr": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "source": "The Hacker News",
-    "pubDate": 1789572469000,
-    "summaryEn": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "summaryAr": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   }
