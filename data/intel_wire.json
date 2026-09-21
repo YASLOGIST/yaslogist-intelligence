@@ -1,5 +1,53 @@
 [
   {
+    "titleEn": "US man convicted in 2023 shooting of three Palestinian students in Vermont",
+    "titleAr": "US man convicted in 2023 shooting of three Palestinian students in Vermont",
+    "link": "https://www.aljazeera.com/news/2026/9/21/us-man-convicted-in-2023-shooting-of-three-palestinian-students-in-vermont?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790021107000,
+    "summaryEn": "Jason Eaton faces up to life in prison after a jury rejected his insanity defence.",
+    "summaryAr": "Jason Eaton faces up to life in prison after a jury rejected his insanity defence.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Protesters blockade Elbit Systems factory over Israel weapons supply",
+    "titleAr": "Protesters blockade Elbit Systems factory over Israel weapons supply",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-blockade-elbit-systems-factory-over-israel-weapons-supply?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790018535000,
+    "summaryEn": "Nine protesters blocked access to Elbit Systems’ factory in Staffordshire by attaching themselves to five ‘lock-ons’.",
+    "summaryAr": "Nine protesters blocked access to Elbit Systems’ factory in Staffordshire by attaching themselves to five ‘lock-ons’.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump approval rating hits career low of 32% amid Iran war, high costs",
+    "titleAr": "Trump approval rating hits career low of 32% amid Iran war, high costs",
+    "link": "https://www.aljazeera.com/news/2026/9/21/trumps-approval-rating-hits-record-low-amid-iran-war-economy-fallout?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790017852000,
+    "summaryEn": "Republican support for Trump dips to 73 percent, down from 82 percent, as war and inflation concerns dominate polls.",
+    "summaryAr": "Republican support for Trump dips to 73 percent, down from 82 percent, as war and inflation concerns dominate polls.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Photos: Gaza’s children return to class in tents and ruins",
     "titleAr": "Photos: Gaza’s children return to class in tents and ruins",
     "link": "https://www.aljazeera.com/gallery/2026/9/21/photos-gazas-children-return-to-class-in-tents-and-ruins?traffic_source=rss",
@@ -64,38 +112,6 @@
     ]
   },
   {
-    "titleEn": "How an economic squeeze is changing everyday life and work for Iranians",
-    "titleAr": "How an economic squeeze is changing everyday life and work for Iranians",
-    "link": "https://www.aljazeera.com/economy/2026/9/21/how-an-economic-squeeze-is-changing-everyday-life-and-work-for-iranians?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790002246000,
-    "summaryEn": "Iran’s government is trying to change some work patterns to help save on fuel and energy amid struggles and shortages.",
-    "summaryAr": "Iran’s government is trying to change some work patterns to help save on fuel and energy amid struggles and shortages.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine?",
-    "titleAr": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine?",
-    "link": "https://www.aljazeera.com/news/2026/9/21/is-it-a-missile-is-it-a-drone-whats-the-pelican-used-by-ukraine?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790000386000,
-    "summaryEn": "The use of the Pelican has provoked interest among military analysts as to whether it is a tactical ballistic missile.",
-    "summaryAr": "The use of the Pelican has provoked interest among military analysts as to whether it is a tactical ballistic missile.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
     "titleAr": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
     "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
@@ -112,13 +128,13 @@
     ]
   },
   {
-    "titleEn": "NFL’s Azeez Al-Shaair honours another Palestinian girl killed by Israel",
-    "titleAr": "NFL’s Azeez Al-Shaair honours another Palestinian girl killed by Israel",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/nfls-azeez-al-shaair-honours-another-palestinian-girl-killed-by-israel?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1789994947000,
-    "summaryEn": "Azeez Al-Shaair has paid tribute to another Palestinian child killed by Israel, despite the NFL fine last week.",
-    "summaryAr": "Azeez Al-Shaair has paid tribute to another Palestinian child killed by Israel, despite the NFL fine last week.",
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1789992000000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Sta…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Sta…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -304,22 +320,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789732800000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39682 Linux Kernel Improper Check for…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39682 Linux Kernel Improper Check for…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
     "titleAr": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
     "link": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
@@ -432,6 +432,22 @@
     ]
   },
   {
+    "titleEn": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "titleAr": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "source": "CISA Advisories",
+    "pubDate": 1789646400000,
+    "summaryEn": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
+    "summaryAr": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "ABB Ability Edgenius",
     "titleAr": "ABB Ability Edgenius",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
@@ -448,13 +464,13 @@
     ]
   },
   {
-    "titleEn": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "titleAr": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+    "titleEn": "Bransys ELD",
+    "titleAr": "Bransys ELD",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -480,13 +496,13 @@
     ]
   },
   {
-    "titleEn": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "titleAr": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+    "titleEn": "Schneider Electric NetBotz 5 750/755",
+    "titleAr": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
+    "summaryEn": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
+    "summaryAr": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -512,13 +528,13 @@
     ]
   },
   {
-    "titleEn": "Schneider Electric NetBotz 5 750/755",
-    "titleAr": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "titleEn": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "titleAr": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -528,29 +544,13 @@
     ]
   },
   {
-    "titleEn": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "titleAr": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "titleEn": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "titleAr": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
     "source": "CISA Advisories",
     "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Bransys ELD",
-    "titleAr": "Bransys ELD",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
     "tags": [
       {
         "textEn": "INTEL",
