@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Trump returns to the UN, what will he say?",
-    "titleAr": "Trump returns to the UN, what will he say?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/aje-onl-nf_trump-returns-to-the-un-what-will-he-say-210926?traffic_source=rss",
+    "titleEn": "Why United Nations says US boat strikes may be ‘crimes against humanity’",
+    "titleAr": "Why United Nations says US boat strikes may be ‘crimes against humanity’",
+    "link": "https://www.aljazeera.com/news/2026/9/22/why-united-nations-says-us-boat-strikes-may-be-crimes-against-humanity?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790037116000,
-    "summaryEn": "Trump returns to UNGA amid Iran war he started, Israeli violations of a Gaza ceasefire, and scrutiny of US aims.",
-    "summaryAr": "Trump returns to UNGA amid Iran war he started, Israeli violations of a Gaza ceasefire, and scrutiny of US aims.",
+    "pubDate": 1790073042000,
+    "summaryEn": "Washington justifies the attacks as necessary to halt the flow of lethal drugs into the US.",
+    "summaryAr": "Washington justifies the attacks as necessary to halt the flow of lethal drugs into the US.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +16,45 @@
     ]
   },
   {
-    "titleEn": "UK to refuel Saudi jets to help counter Houthi attacks",
-    "titleAr": "UK to refuel Saudi jets to help counter Houthi attacks",
-    "link": "https://www.aljazeera.com/news/2026/9/22/uk-to-refuel-saudi-jets-to-help-counter-houthi-attacks?traffic_source=rss",
+    "titleEn": "What Syrians want from al-Sharaa’s proposal of a ‘new Syria’ at UNGA",
+    "titleAr": "What Syrians want from al-Sharaa’s proposal of a ‘new Syria’ at UNGA",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/what-syrians-want-from-al-sharaas-proposal-of-a-new-syria-at-unga?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790036968000,
-    "summaryEn": "British Prime Minister Andy Burnham says he has agreed to a request for 'defensive' air-to-air refuelling of Saudi jets.",
-    "summaryAr": "British Prime Minister Andy Burnham says he has agreed to a request for 'defensive' air-to-air refuelling of Saudi jets.",
+    "pubDate": 1790072991000,
+    "summaryEn": "As President al-Sharaa is set to present a ‘new Syria’ at UNGA, Syrians at home demand safety and justice.",
+    "summaryAr": "As President al-Sharaa is set to present a ‘new Syria’ at UNGA, Syrians at home demand safety and justice.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "titleAr": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "source": "BleepingComputer",
+    "pubDate": 1790070911000,
+    "summaryEn": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+    "summaryAr": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "UK to help refuel Saudi jets countering Houthi attacks",
+    "titleAr": "UK to help refuel Saudi jets countering Houthi attacks",
+    "link": "https://www.bbc.co.uk/news/articles/cqlykpe4dk0yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790067183000,
+    "summaryEn": "The UK says it will provide air-to-air refuelling for \"defensive\" operations following a request from Saudi Arabia.",
+    "summaryAr": "The UK says it will provide air-to-air refuelling for \"defensive\" operations following a request from Saudi Arabia.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -32,13 +64,13 @@
     ]
   },
   {
-    "titleEn": "Iran war live: IRGC says US, Israel ‘must accept withdrawal’ from region",
-    "titleAr": "Iran war live: IRGC says US, Israel ‘must accept withdrawal’ from region",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/22/iran-war-live-irgc-says-us-israel-must-accept-withdrawal-from-region?traffic_source=rss",
+    "titleEn": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+    "titleAr": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+    "link": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790035200000,
-    "summaryEn": "The IRGC says the US and Israel \"must accept the region's freedom from their vile and criminal presence\".",
-    "summaryAr": "The IRGC says the US and Israel \"must accept the region's freedom from their vile and criminal presence\".",
+    "pubDate": 1790064433000,
+    "summaryEn": "Overnight missile and drone attacks hit several Ukrainian regions as world leaders gather in New York, US.",
+    "summaryAr": "Overnight missile and drone attacks hit several Ukrainian regions as world leaders gather in New York, US.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +80,13 @@
     ]
   },
   {
-    "titleEn": "US man convicted in 2023 shooting of three Palestinian students in Vermont",
-    "titleAr": "US man convicted in 2023 shooting of three Palestinian students in Vermont",
-    "link": "https://www.aljazeera.com/news/2026/9/21/us-man-convicted-in-2023-shooting-of-three-palestinian-students-in-vermont?traffic_source=rss",
+    "titleEn": "Iran’s Pezeshkian meets Pakistan’s Naqvi in Tehran as tensions with US rise",
+    "titleAr": "Iran’s Pezeshkian meets Pakistan’s Naqvi in Tehran as tensions with US rise",
+    "link": "https://www.aljazeera.com/news/2026/9/22/irans-pezeshkian-meets-pakistans-naqvi-in-tehran-as-tensions-with-us-rise?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790021107000,
-    "summaryEn": "Jason Eaton faces up to life in prison after a jury rejected his insanity defence.",
-    "summaryAr": "Jason Eaton faces up to life in prison after a jury rejected his insanity defence.",
+    "pubDate": 1790062027000,
+    "summaryEn": "Pakistani interior minister's trip to Tehran is his sixth and comes as Islamabad, Doha seek to revive diplomacy with US.",
+    "summaryAr": "Pakistani interior minister's trip to Tehran is his sixth and comes as Islamabad, Doha seek to revive diplomacy with US.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,13 +96,13 @@
     ]
   },
   {
-    "titleEn": "Protesters blockade Elbit Systems factory over Israel weapons supply",
-    "titleAr": "Protesters blockade Elbit Systems factory over Israel weapons supply",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-blockade-elbit-systems-factory-over-israel-weapons-supply?traffic_source=rss",
+    "titleEn": "Palestinians turn to communal ovens to bake bread in Gaza",
+    "titleAr": "Palestinians turn to communal ovens to bake bread in Gaza",
+    "link": "https://www.aljazeera.com/features/2026/9/22/palestinians-turn-to-communal-ovens-to-bake-bread-in-gaza?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790018535000,
-    "summaryEn": "Nine protesters blocked access to Elbit Systems’ factory in Staffordshire by attaching themselves to five ‘lock-ons’.",
-    "summaryAr": "Nine protesters blocked access to Elbit Systems’ factory in Staffordshire by attaching themselves to five ‘lock-ons’.",
+    "pubDate": 1790061976000,
+    "summaryEn": "Amid Gaza’s food crisis, bread remains a staple as displaced families use communal ovens to save on costly fuel.",
+    "summaryAr": "Amid Gaza’s food crisis, bread remains a staple as displaced families use communal ovens to save on costly fuel.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,13 +112,29 @@
     ]
   },
   {
-    "titleEn": "Trump approval rating hits career low of 32% amid Iran war, high costs",
-    "titleAr": "Trump approval rating hits career low of 32% amid Iran war, high costs",
-    "link": "https://www.aljazeera.com/news/2026/9/21/trumps-approval-rating-hits-record-low-amid-iran-war-economy-fallout?traffic_source=rss",
+    "titleEn": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "titleAr": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790061252000,
+    "summaryEn": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "summaryAr": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Attempted murder for the man who shot three Palestinians in Vermont",
+    "titleAr": "Attempted murder for the man who shot three Palestinians in Vermont",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/aje-onl-nf_us-man-who-shot-three-palestinians-guilty-220926?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790017852000,
-    "summaryEn": "Republican support for Trump dips to 73 percent, down from 82 percent, as war and inflation concerns dominate polls.",
-    "summaryAr": "Republican support for Trump dips to 73 percent, down from 82 percent, as war and inflation concerns dominate polls.",
+    "pubDate": 1790057814000,
+    "summaryEn": "Jason Eaton was found guilty of attempted second-degree murder for the shooting of three Palestinian college students.",
+    "summaryAr": "Jason Eaton was found guilty of attempted second-degree murder for the shooting of three Palestinian college students.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -96,13 +144,93 @@
     ]
   },
   {
-    "titleEn": "Photos: Gaza’s children return to class in tents and ruins",
-    "titleAr": "Photos: Gaza’s children return to class in tents and ruins",
-    "link": "https://www.aljazeera.com/gallery/2026/9/21/photos-gazas-children-return-to-class-in-tents-and-ruins?traffic_source=rss",
+    "titleEn": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "titleAr": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "source": "The Hacker News",
+    "pubDate": 1790056994000,
+    "summaryEn": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
+    "summaryAr": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia",
+    "titleAr": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia",
+    "link": "https://www.aljazeera.com/news/2026/9/22/g7-foreign-ministers-demand-houthis-halt-strikes-on-saudi-arabia?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790016026000,
-    "summaryEn": "Gaza children return to classrooms after three years, facing challenges of damaged schools, tents, and scarce supplies.",
-    "summaryAr": "Gaza children return to classrooms after three years, facing challenges of damaged schools, tents, and scarce supplies.",
+    "pubDate": 1790055160000,
+    "summaryEn": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
+    "summaryAr": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "titleAr": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "source": "The Hacker News",
+    "pubDate": 1790055119000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why does the US want to send Israel 40,000 bombs?",
+    "titleAr": "Why does the US want to send Israel 40,000 bombs?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/why-does-the-us-want-to-send-israel-40000-bombs?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790054134000,
+    "summaryEn": "Is the planned $2.8bn US arms deal proportionate to Israel’s threat, or could it cause more civilian casualties in Gaza?",
+    "summaryAr": "Is the planned $2.8bn US arms deal proportionate to Israel’s threat, or could it cause more civilian casualties in Gaza?",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis battle for strategic heights in Yemen as thousands more flee homes",
+    "titleAr": "Houthis battle for strategic heights in Yemen as thousands more flee homes",
+    "link": "https://www.aljazeera.com/news/2026/9/22/houthis-battle-for-strategic-heights-in-yemen-as-thousands-more-flee-homes?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790052509000,
+    "summaryEn": "Fighting intensifies as US media say Trump called off attacks against Houthis at the last minute on Sunday.",
+    "summaryAr": "Fighting intensifies as US media say Trump called off attacks against Houthis at the last minute on Sunday.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "US strikes on alleged drug boats may be ‘crimes against humanity’, UN says",
+    "titleAr": "US strikes on alleged drug boats may be ‘crimes against humanity’, UN says",
+    "link": "https://www.aljazeera.com/news/2026/9/22/us-strikes-on-alleged-drug-boats-may-be-crimes-against-humanity-un-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790049143000,
+    "summaryEn": "UN expert says US forces have killed 223 people in 68 attacks in the Caribbean and the Pacific in the past year.",
+    "summaryAr": "UN expert says US forces have killed 223 people in 68 attacks in the Caribbean and the Pacific in the past year.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -188,22 +316,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "titleAr": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-    "source": "BleepingComputer",
-    "pubDate": 1789825712000,
-    "summaryEn": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys fo…",
-    "summaryAr": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys fo…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -604,123 +716,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-    "titleAr": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-    "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-    "source": "The Hacker News",
-    "pubDate": 1789627180000,
-    "summaryEn": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-…",
-    "summaryAr": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-    "titleAr": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-    "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789621218000,
-    "summaryEn": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims.",
-    "summaryAr": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Photos show widespread damage at US sites from Iranian attacks",
-    "titleAr": "Photos show widespread damage at US sites from Iranian attacks",
-    "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789583776000,
-    "summaryEn": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
-    "summaryAr": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-    "titleAr": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-    "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789579007000,
-    "summaryEn": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year.",
-    "summaryAr": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How escalating Saudi oil crisis could drive up prices everywhere",
-    "titleAr": "How escalating Saudi oil crisis could drive up prices everywhere",
-    "link": "https://www.bbc.co.uk/news/articles/cqlym3wye1ero?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789574810000,
-    "summaryEn": "BBC Verify's Ben Chu examines what impact rising energy costs could have on the global economy.",
-    "summaryAr": "BBC Verify's Ben Chu examines what impact rising energy costs could have on the global economy.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "titleAr": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "source": "The Hacker News",
-    "pubDate": 1789573859000,
-    "summaryEn": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability …",
-    "summaryAr": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "titleAr": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "source": "The Hacker News",
-    "pubDate": 1789572469000,
-    "summaryEn": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "summaryAr": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   }
