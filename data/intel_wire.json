@@ -1,5 +1,245 @@
 [
   {
+    "titleEn": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
+    "titleAr": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
+    "link": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790108865000,
+    "summaryEn": "Saudi monarch's rare condemnation hints at sense of urgency in the kingdom amid ramped-up attacks from Yemen.",
+    "summaryAr": "Saudi monarch's rare condemnation hints at sense of urgency in the kingdom amid ramped-up attacks from Yemen.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump: US-Iran meeting at UN was ‘very good’",
+    "titleAr": "Trump: US-Iran meeting at UN was ‘very good’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790108628000,
+    "summaryEn": "US President Donald Trump says he had a ‘very good’ three-hour meeting with Iranian officials at the UN.",
+    "summaryAr": "US President Donald Trump says he had a ‘very good’ three-hour meeting with Iranian officials at the UN.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
+    "titleAr": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790107176000,
+    "summaryEn": "Brazilian President Luiz Inacio Lula da Silva condemned the “pain and trauma” inflicted by Israel’s government in Gaza.",
+    "summaryAr": "Brazilian President Luiz Inacio Lula da Silva condemned the “pain and trauma” inflicted by Israel’s government in Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Djibouti minister appeals for aid for Yemeni refugees",
+    "titleAr": "Djibouti minister appeals for aid for Yemeni refugees",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/djibouti-minister-appeals-for-aid-for-yemeni-refugees?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790106962000,
+    "summaryEn": "Djibouti’s Minister of Social Affairs and Solidarity, Ouloufa Ismail Abdo, appeals for aid for Yemeni refugees",
+    "summaryAr": "Djibouti’s Minister of Social Affairs and Solidarity, Ouloufa Ismail Abdo, appeals for aid for Yemeni refugees",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
+    "titleAr": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
+    "link": "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790106736000,
+    "summaryEn": "US solicitor general challenges lower court's ruling on Georgetown scholar's detention, sparking constitutional debates.",
+    "summaryAr": "US solicitor general challenges lower court's ruling on Georgetown scholar's detention, sparking constitutional debates.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Qatar denounces Israeli aggression across the region",
+    "titleAr": "Qatar denounces Israeli aggression across the region",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-denounces-israeli-aggression-across-the-region?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790105343000,
+    "summaryEn": "Qatari Emir Sheikh Tamim bin Hamad Al Thani has denounced Israeli aggression in neighbouring countries.",
+    "summaryAr": "Qatari Emir Sheikh Tamim bin Hamad Al Thani has denounced Israeli aggression in neighbouring countries.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
+    "titleAr": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/erdogan-accuses-israel-of-genocidal-mindset-at-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790104481000,
+    "summaryEn": "Turkish President Recep Tayyip Erdogan accused Israel of a “genocidal mindset” at the UN General Assembly.",
+    "summaryAr": "Turkish President Recep Tayyip Erdogan accused Israel of a “genocidal mindset” at the UN General Assembly.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+    "titleAr": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+    "source": "BleepingComputer",
+    "pubDate": 1790104409000,
+    "summaryEn": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data…",
+    "summaryAr": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Qatar’s emir urges diplomacy as Gulf at ‘one of the most dangerous phases’",
+    "titleAr": "Qatar’s emir urges diplomacy as Gulf at ‘one of the most dangerous phases’",
+    "link": "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790102917000,
+    "summaryEn": "Sheikh Tamim says years of delayed diplomacy led to the US-Israel war on Iran.",
+    "summaryAr": "Sheikh Tamim says years of delayed diplomacy led to the US-Israel war on Iran.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+    "titleAr": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+    "source": "The Hacker News",
+    "pubDate": 1790101779000,
+    "summaryEn": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, a…",
+    "summaryAr": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, a…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Qatar urges diplomacy, rejects Strait of Hormuz ‘bargaining’",
+    "titleAr": "Qatar urges diplomacy, rejects Strait of Hormuz ‘bargaining’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-urges-diplomacy-rejects-strait-of-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790101621000,
+    "summaryEn": "Qatari Emir Sheikh Tamim bin Hamad Al Thani called for the reopening of the Strait of Hormuz while speaking at the UN.",
+    "summaryAr": "Qatari Emir Sheikh Tamim bin Hamad Al Thani called for the reopening of the Strait of Hormuz while speaking at the UN.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "US, Iran hold ‘very good’ talks, Trump says at UN meeting",
+    "titleAr": "US, Iran hold ‘very good’ talks, Trump says at UN meeting",
+    "link": "https://www.aljazeera.com/news/2026/9/22/trump-says-us-officials-met-with-iranian-delegation-for-three-hours-2?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790100852000,
+    "summaryEn": "US President hints at possible deal with Iran, but warns of dire consequences if no agreement is reached.",
+    "summaryAr": "US President hints at possible deal with Iran, but warns of dire consequences if no agreement is reached.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
+    "titleAr": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
+    "link": "https://www.aljazeera.com/news/2026/9/22/erdogan-slams-israels-genocidal-mindset-in-blistering-un-address?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790096139000,
+    "summaryEn": "Turkish leader says UN has been forced into 'dysfunction' and was 'bleeding out' in Palestine, Lebanon, Sudan.",
+    "summaryAr": "Turkish leader says UN has been forced into 'dysfunction' and was 'bleeding out' in Palestine, Lebanon, Sudan.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+    "titleAr": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+    "source": "The Hacker News",
+    "pubDate": 1790095272000,
+    "summaryEn": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
+    "summaryAr": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
+    "titleAr": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/war-crime-jordans-king-slams-israeli-west-bank-expansion?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790094914000,
+    "summaryEn": "Jordan's King Abdullah II decried Israeli settlements in the occupied West Bank as a strategy of ‘forced displacement.'",
+    "summaryAr": "Jordan's King Abdullah II decried Israeli settlements in the occupied West Bank as a strategy of ‘forced displacement.'",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Check Point warns of Management Server zero-day exploited in attacks",
     "titleAr": "Check Point warns of Management Server zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
@@ -32,6 +272,22 @@
     ]
   },
   {
+    "titleEn": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+    "titleAr": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+    "source": "The Hacker News",
+    "pubDate": 1790093644000,
+    "summaryEn": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on Septemb…",
+    "summaryAr": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on Septemb…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
     "titleEn": "UNGA 2026: Can the UN stop wars?",
     "titleAr": "UNGA 2026: Can the UN stop wars?",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-2026-can-the-un-stop-wars?traffic_source=rss",
@@ -39,86 +295,6 @@
     "pubDate": 1790092152000,
     "summaryEn": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
     "summaryAr": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "The return of Palestinian football: ‘We are a people who must live’",
-    "titleAr": "The return of Palestinian football: ‘We are a people who must live’",
-    "link": "https://www.aljazeera.com/features/2026/9/22/the-return-of-palestinian-football-we-are-a-people-who-must?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790091147000,
-    "summaryEn": "The Martyrs’ World Cup brings Palestinian football back after nearly three years, despite military restrictions.",
-    "summaryAr": "The Martyrs’ World Cup brings Palestinian football back after nearly three years, despite military restrictions.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump to UN: do I ‘annihilate’ Iran or ‘make a deal?’",
-    "titleAr": "Trump to UN: do I ‘annihilate’ Iran or ‘make a deal?’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-to-un-do-i-annihilate-iran-or-make-a?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790090359000,
-    "summaryEn": "US President Donald Trump told the UN General Assembly that he has a ‘big decision to make’ on Iran.",
-    "summaryAr": "US President Donald Trump told the UN General Assembly that he has a ‘big decision to make’ on Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why are the Houthis fighting for Yemen’s Kahboub Mountains?",
-    "titleAr": "Why are the Houthis fighting for Yemen’s Kahboub Mountains?",
-    "link": "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790088445000,
-    "summaryEn": "Kahboub could help the Houthis consolidate control near one of the world’s busiest shipping routes.",
-    "summaryAr": "Kahboub could help the Houthis consolidate control near one of the world’s busiest shipping routes.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "UN Chief condemns Gaza destruction, West Bank settlements",
-    "titleAr": "UN Chief condemns Gaza destruction, West Bank settlements",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/un-chief-condemns-gaza-destruction-west-bank-settlements?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790087844000,
-    "summaryEn": "In his final UN General Assembly address as secretary-general, Antonio Guterres condemned the killing in Gaza.",
-    "summaryAr": "In his final UN General Assembly address as secretary-general, Antonio Guterres condemned the killing in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Israel besieges Palestinian town",
-    "titleAr": "Jerusalem Daily: Israel besieges Palestinian town",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/jerusalem-daily-israel-besieges-palestinian-town?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790087451000,
-    "summaryEn": "Israeli forces have effectively turned the Palestinian town of Biddu into military barracks.",
-    "summaryAr": "Israeli forces have effectively turned the Palestinian town of Biddu into military barracks.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -140,54 +316,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran delegation to present narrative of resilience, diplomacy at UNGA",
-    "titleAr": "Iran delegation to present narrative of resilience, diplomacy at UNGA",
-    "link": "https://www.aljazeera.com/news/2026/9/22/iran-delegation-to-present-narrative-of-resilience-diplomacy-at-unga?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790083793000,
-    "summaryEn": "Iran’s delegation has arrived to New York for the UNGA where the war with the United States will be raised.",
-    "summaryAr": "Iran’s delegation has arrived to New York for the UNGA where the war with the United States will be raised.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UN warns of rising Yemen displacement as thousands flee to Djibouti",
-    "titleAr": "UN warns of rising Yemen displacement as thousands flee to Djibouti",
-    "link": "https://www.aljazeera.com/news/2026/9/22/un-warns-of-rising-yemen-displacement-as-thousands-flee-to-djibouti?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790081909000,
-    "summaryEn": "Renewed fighting could drive 10,000 across the Red Sea and displace more than 230,000 internally, UNHCR says.",
-    "summaryAr": "Renewed fighting could drive 10,000 across the Red Sea and displace more than 230,000 internally, UNHCR says.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran president heads to UNGA, vows to highlight US ‘oppression’",
-    "titleAr": "Iran president heads to UNGA, vows to highlight US ‘oppression’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/iran-president-heads-to-unga-vows-to-highlight-us-oppression?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790081513000,
-    "summaryEn": "Iran president heads to UNGA, vows to highlight US 'oppression'",
-    "summaryAr": "Iran president heads to UNGA, vows to highlight US 'oppression'",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -247,6 +375,22 @@
     "pubDate": 1790078400000,
     "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow…",
     "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -567,150 +711,6 @@
     "pubDate": 1789805934000,
     "summaryEn": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
     "summaryAr": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "titleAr": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-    "source": "The Hacker News",
-    "pubDate": 1789804294000,
-    "summaryEn": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
-    "summaryAr": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "titleAr": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-    "source": "The Hacker News",
-    "pubDate": 1789799050000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalo…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalo…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-    "titleAr": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-    "source": "Dark Reading",
-    "pubDate": 1789759607000,
-    "summaryEn": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
-    "summaryAr": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "titleAr": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "source": "The Hacker News",
-    "pubDate": 1789735624000,
-    "summaryEn": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The v…",
-    "summaryAr": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The v…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789732800000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition V…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition V…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
-    "titleAr": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
-    "link": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789695103000,
-    "summaryEn": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet.",
-    "summaryAr": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
-    "titleAr": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
-    "link": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789681279000,
-    "summaryEn": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
-    "summaryAr": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-    "titleAr": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-    "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789677270000,
-    "summaryEn": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
-    "summaryAr": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "titleAr": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-    "source": "The Hacker News",
-    "pubDate": 1789659476000,
-    "summaryEn": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Dock…",
-    "summaryAr": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Dock…",
     "tags": [
       {
         "textEn": "INTEL",
