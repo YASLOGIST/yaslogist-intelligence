@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "Why United Nations says US boat strikes may be ‘crimes against humanity’",
-    "titleAr": "Why United Nations says US boat strikes may be ‘crimes against humanity’",
-    "link": "https://www.aljazeera.com/news/2026/9/22/why-united-nations-says-us-boat-strikes-may-be-crimes-against-humanity?traffic_source=rss",
+    "titleEn": "Check Point warns of Management Server zero-day exploited in attacks",
+    "titleAr": "Check Point warns of Management Server zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790094767000,
+    "summaryEn": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+    "summaryAr": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump: ‘My honour to settle eight wars’ including ‘war in Gaza’",
+    "titleAr": "Trump: ‘My honour to settle eight wars’ including ‘war in Gaza’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-my-honour-to-settle-eight-wars-including-war-in-gaza?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790073042000,
-    "summaryEn": "Washington justifies the attacks as necessary to halt the flow of lethal drugs into the US.",
-    "summaryAr": "Washington justifies the attacks as necessary to halt the flow of lethal drugs into the US.",
+    "pubDate": 1790093928000,
+    "summaryEn": "Speaking at the UN General Assembly, US President Donald Trump claimed he helped end the war in Gaza.",
+    "summaryAr": "Speaking at the UN General Assembly, US President Donald Trump claimed he helped end the war in Gaza.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +32,365 @@
     ]
   },
   {
-    "titleEn": "What Syrians want from al-Sharaa’s proposal of a ‘new Syria’ at UNGA",
-    "titleAr": "What Syrians want from al-Sharaa’s proposal of a ‘new Syria’ at UNGA",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/what-syrians-want-from-al-sharaas-proposal-of-a-new-syria-at-unga?traffic_source=rss",
+    "titleEn": "UNGA 2026: Can the UN stop wars?",
+    "titleAr": "UNGA 2026: Can the UN stop wars?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-2026-can-the-un-stop-wars?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790072991000,
-    "summaryEn": "As President al-Sharaa is set to present a ‘new Syria’ at UNGA, Syrians at home demand safety and justice.",
-    "summaryAr": "As President al-Sharaa is set to present a ‘new Syria’ at UNGA, Syrians at home demand safety and justice.",
+    "pubDate": 1790092152000,
+    "summaryEn": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
+    "summaryAr": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "The return of Palestinian football: ‘We are a people who must live’",
+    "titleAr": "The return of Palestinian football: ‘We are a people who must live’",
+    "link": "https://www.aljazeera.com/features/2026/9/22/the-return-of-palestinian-football-we-are-a-people-who-must?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790091147000,
+    "summaryEn": "The Martyrs’ World Cup brings Palestinian football back after nearly three years, despite military restrictions.",
+    "summaryAr": "The Martyrs’ World Cup brings Palestinian football back after nearly three years, despite military restrictions.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump to UN: do I ‘annihilate’ Iran or ‘make a deal?’",
+    "titleAr": "Trump to UN: do I ‘annihilate’ Iran or ‘make a deal?’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-to-un-do-i-annihilate-iran-or-make-a?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790090359000,
+    "summaryEn": "US President Donald Trump told the UN General Assembly that he has a ‘big decision to make’ on Iran.",
+    "summaryAr": "US President Donald Trump told the UN General Assembly that he has a ‘big decision to make’ on Iran.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why are the Houthis fighting for Yemen’s Kahboub Mountains?",
+    "titleAr": "Why are the Houthis fighting for Yemen’s Kahboub Mountains?",
+    "link": "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790088445000,
+    "summaryEn": "Kahboub could help the Houthis consolidate control near one of the world’s busiest shipping routes.",
+    "summaryAr": "Kahboub could help the Houthis consolidate control near one of the world’s busiest shipping routes.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "UN Chief condemns Gaza destruction, West Bank settlements",
+    "titleAr": "UN Chief condemns Gaza destruction, West Bank settlements",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/un-chief-condemns-gaza-destruction-west-bank-settlements?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790087844000,
+    "summaryEn": "In his final UN General Assembly address as secretary-general, Antonio Guterres condemned the killing in Gaza.",
+    "summaryAr": "In his final UN General Assembly address as secretary-general, Antonio Guterres condemned the killing in Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israel besieges Palestinian town",
+    "titleAr": "Jerusalem Daily: Israel besieges Palestinian town",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/jerusalem-daily-israel-besieges-palestinian-town?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790087451000,
+    "summaryEn": "Israeli forces have effectively turned the Palestinian town of Biddu into military barracks.",
+    "summaryAr": "Israeli forces have effectively turned the Palestinian town of Biddu into military barracks.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "titleAr": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790084349000,
+    "summaryEn": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "summaryAr": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran delegation to present narrative of resilience, diplomacy at UNGA",
+    "titleAr": "Iran delegation to present narrative of resilience, diplomacy at UNGA",
+    "link": "https://www.aljazeera.com/news/2026/9/22/iran-delegation-to-present-narrative-of-resilience-diplomacy-at-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790083793000,
+    "summaryEn": "Iran’s delegation has arrived to New York for the UNGA where the war with the United States will be raised.",
+    "summaryAr": "Iran’s delegation has arrived to New York for the UNGA where the war with the United States will be raised.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UN warns of rising Yemen displacement as thousands flee to Djibouti",
+    "titleAr": "UN warns of rising Yemen displacement as thousands flee to Djibouti",
+    "link": "https://www.aljazeera.com/news/2026/9/22/un-warns-of-rising-yemen-displacement-as-thousands-flee-to-djibouti?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790081909000,
+    "summaryEn": "Renewed fighting could drive 10,000 across the Red Sea and displace more than 230,000 internally, UNHCR says.",
+    "summaryAr": "Renewed fighting could drive 10,000 across the Red Sea and displace more than 230,000 internally, UNHCR says.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran president heads to UNGA, vows to highlight US ‘oppression’",
+    "titleAr": "Iran president heads to UNGA, vows to highlight US ‘oppression’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/iran-president-heads-to-unga-vows-to-highlight-us-oppression?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790081513000,
+    "summaryEn": "Iran president heads to UNGA, vows to highlight US 'oppression'",
+    "summaryAr": "Iran president heads to UNGA, vows to highlight US 'oppression'",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "titleAr": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+    "source": "BleepingComputer",
+    "pubDate": 1790081286000,
+    "summaryEn": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi…",
+    "summaryAr": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "titleAr": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+    "source": "The Hacker News",
+    "pubDate": 1790080140000,
+    "summaryEn": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
+    "summaryAr": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Industrial Edge Management",
+    "titleAr": "Siemens Industrial Edge Management",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
+    "summaryAr": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "OpenPLC Runtime v3",
+    "titleAr": "OpenPLC Runtime v3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "lwIP (Lightweight IP)",
+    "titleAr": "lwIP (Lightweight IP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens WTV676 and WTV776",
+    "titleAr": "Siemens WTV676 and WTV776",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
+    "summaryAr": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens SIPLUS and SIMATIC Products",
+    "titleAr": "Siemens SIPLUS and SIMATIC Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
+    "summaryAr": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Desigo CC family",
+    "titleAr": "Siemens Desigo CC family",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices th…",
+    "summaryAr": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices th…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens SIMOVE Fleetmanager and SIPLANT",
+    "titleAr": "Siemens SIMOVE Fleetmanager and SIPLANT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has release…",
+    "summaryAr": "View CSAF Summary SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has release…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Siveillance Control",
+    "titleAr": "Siemens Siveillance Control",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y …",
+    "summaryAr": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "lwIP TCP/IP Stack MQTT Client Application",
+    "titleAr": "lwIP TCP/IP Stack MQTT Client Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "titleAr": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+    "source": "The Hacker News",
+    "pubDate": 1790077120000,
+    "summaryEn": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtual…",
+    "summaryAr": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtual…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "titleAr": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "source": "The Hacker News",
+    "pubDate": 1790075861000,
+    "summaryEn": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to…",
+    "summaryAr": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,86 +432,6 @@
     ]
   },
   {
-    "titleEn": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
-    "titleAr": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
-    "link": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790064433000,
-    "summaryEn": "Overnight missile and drone attacks hit several Ukrainian regions as world leaders gather in New York, US.",
-    "summaryAr": "Overnight missile and drone attacks hit several Ukrainian regions as world leaders gather in New York, US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran’s Pezeshkian meets Pakistan’s Naqvi in Tehran as tensions with US rise",
-    "titleAr": "Iran’s Pezeshkian meets Pakistan’s Naqvi in Tehran as tensions with US rise",
-    "link": "https://www.aljazeera.com/news/2026/9/22/irans-pezeshkian-meets-pakistans-naqvi-in-tehran-as-tensions-with-us-rise?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790062027000,
-    "summaryEn": "Pakistani interior minister's trip to Tehran is his sixth and comes as Islamabad, Doha seek to revive diplomacy with US.",
-    "summaryAr": "Pakistani interior minister's trip to Tehran is his sixth and comes as Islamabad, Doha seek to revive diplomacy with US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinians turn to communal ovens to bake bread in Gaza",
-    "titleAr": "Palestinians turn to communal ovens to bake bread in Gaza",
-    "link": "https://www.aljazeera.com/features/2026/9/22/palestinians-turn-to-communal-ovens-to-bake-bread-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790061976000,
-    "summaryEn": "Amid Gaza’s food crisis, bread remains a staple as displaced families use communal ovens to save on costly fuel.",
-    "summaryAr": "Amid Gaza’s food crisis, bread remains a staple as displaced families use communal ovens to save on costly fuel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "titleAr": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790061252000,
-    "summaryEn": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
-    "summaryAr": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Attempted murder for the man who shot three Palestinians in Vermont",
-    "titleAr": "Attempted murder for the man who shot three Palestinians in Vermont",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/aje-onl-nf_us-man-who-shot-three-palestinians-guilty-220926?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790057814000,
-    "summaryEn": "Jason Eaton was found guilty of attempted second-degree murder for the shooting of three Palestinian college students.",
-    "summaryAr": "Jason Eaton was found guilty of attempted second-degree murder for the shooting of three Palestinian college students.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
     "titleAr": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
     "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
@@ -160,22 +448,6 @@
     ]
   },
   {
-    "titleEn": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia",
-    "titleAr": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia",
-    "link": "https://www.aljazeera.com/news/2026/9/22/g7-foreign-ministers-demand-houthis-halt-strikes-on-saudi-arabia?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790055160000,
-    "summaryEn": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
-    "summaryAr": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
     "titleAr": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
     "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
@@ -183,54 +455,6 @@
     "pubDate": 1790055119000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why does the US want to send Israel 40,000 bombs?",
-    "titleAr": "Why does the US want to send Israel 40,000 bombs?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/why-does-the-us-want-to-send-israel-40000-bombs?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790054134000,
-    "summaryEn": "Is the planned $2.8bn US arms deal proportionate to Israel’s threat, or could it cause more civilian casualties in Gaza?",
-    "summaryAr": "Is the planned $2.8bn US arms deal proportionate to Israel’s threat, or could it cause more civilian casualties in Gaza?",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis battle for strategic heights in Yemen as thousands more flee homes",
-    "titleAr": "Houthis battle for strategic heights in Yemen as thousands more flee homes",
-    "link": "https://www.aljazeera.com/news/2026/9/22/houthis-battle-for-strategic-heights-in-yemen-as-thousands-more-flee-homes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790052509000,
-    "summaryEn": "Fighting intensifies as US media say Trump called off attacks against Houthis at the last minute on Sunday.",
-    "summaryAr": "Fighting intensifies as US media say Trump called off attacks against Houthis at the last minute on Sunday.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US strikes on alleged drug boats may be ‘crimes against humanity’, UN says",
-    "titleAr": "US strikes on alleged drug boats may be ‘crimes against humanity’, UN says",
-    "link": "https://www.aljazeera.com/news/2026/9/22/us-strikes-on-alleged-drug-boats-may-be-crimes-against-humanity-un-says?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790049143000,
-    "summaryEn": "UN expert says US forces have killed 223 people in 68 attacks in the Caribbean and the Pacific in the past year.",
-    "summaryAr": "UN expert says US forces have killed 223 people in 68 attacks in the Caribbean and the Pacific in the past year.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -487,230 +711,6 @@
     "pubDate": 1789659476000,
     "summaryEn": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Dock…",
     "summaryAr": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Dock…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-    "titleAr": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-    "link": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-    "source": "The Hacker News",
-    "pubDate": 1789653793000,
-    "summaryEn": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEE…",
-    "summaryAr": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEE…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Verified video shows wreckage of Saudi fighter jet shot down over Yemen",
-    "titleAr": "Verified video shows wreckage of Saudi fighter jet shot down over Yemen",
-    "link": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789652856000,
-    "summaryEn": "BBC Verify tracks down the location of a Houthi video showing the wreckage of an F-15 they claim to have shot down.",
-    "summaryAr": "BBC Verify tracks down the location of a Houthi video showing the wreckage of an F-15 they claim to have shot down.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-    "titleAr": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-    "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1789648200000,
-    "summaryEn": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker wh…",
-    "summaryAr": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker wh…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "titleAr": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/ , BMXNOR0200H https://www.se.com/…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "ABB Ability Edgenius",
-    "titleAr": "ABB Ability Edgenius",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
-    "summaryAr": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available th…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Bransys ELD",
-    "titleAr": "Bransys ELD",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affecte…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Schneider Electric PowerChute Serial Shutdown",
-    "titleAr": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enab…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Schneider Electric NetBotz 5 750/755",
-    "titleAr": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
-    "summaryAr": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monito…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hitachi Energy FACTS Control Platform (FCP)",
-    "titleAr": "Hitachi Energy FACTS Control Platform (FCP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerab…",
-    "summaryAr": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerab…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "titleAr": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affec…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "titleAr": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
-    "source": "CISA Advisories",
-    "pubDate": 1789646400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected pr…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "titleAr": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "source": "The Hacker News",
-    "pubDate": 1789639545000,
-    "summaryEn": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple …",
-    "summaryAr": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple …",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "US blocks Palestinian leader from UN meeting in New York for second year in row",
-    "titleAr": "US blocks Palestinian leader from UN meeting in New York for second year in row",
-    "link": "https://www.bbc.co.uk/news/articles/cq783jlrr282o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789635968000,
-    "summaryEn": "The US State Department extended visa sanctions after accusing Palestinian officials of failing to live up to peace process commitments.",
-    "summaryAr": "The US State Department extended visa sanctions after accusing Palestinian officials of failing to live up to peace process commitments.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Algae bloom that crippled Israel's desalination plants raises water security concerns",
-    "titleAr": "Algae bloom that crippled Israel's desalination plants raises water security concerns",
-    "link": "https://www.bbc.co.uk/news/articles/ck4glvqj4qqdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789634441000,
-    "summaryEn": "The \"carpet\" of microalgae stopped five of Israel's six desalination plants from working.",
-    "summaryAr": "The \"carpet\" of microalgae stopped five of Israel's six desalination plants from working.",
     "tags": [
       {
         "textEn": "INTEL",

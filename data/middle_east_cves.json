@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-86060",
-        "system": "RouterOS",
+        "id": "CVE-2026-81321",
+        "system": "HMT.CM2507 Firmware",
         "severity": "Critical",
-        "cvss": 9.2,
+        "cvss": 9.3,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-81822",
-        "system": "Pipeline Integrity Monitor",
-        "severity": "High",
-        "cvss": 8.3,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-81821",
-        "system": "Pipeline Integrity Monitor",
-        "severity": "High",
-        "cvss": 8.3,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-84869",
-        "system": "ScreenConnect",
+        "id": "CVE-2026-85497",
+        "system": "HMT.CM2507 Firmware",
         "severity": "Critical",
-        "cvss": 9.9,
+        "cvss": 9.3,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-42018",
-        "system": "artifactory",
+        "id": "CVE-2026-85478",
+        "system": "HMT.CM2507 Firmware",
+        "severity": "Low",
+        "cvss": 2.4,
+        "badge": "badge-low"
+    },
+    {
+        "id": "CVE-2026-81305",
+        "system": "HMT.CM2507 Firmware",
         "severity": "High",
-        "cvss": 7.5,
+        "cvss": 7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-42016",
-        "system": "artifactory",
+        "id": "CVE-2026-84400",
+        "system": "HMT.CM2507 Firmware",
+        "severity": "Low",
+        "cvss": 2.3,
+        "badge": "badge-low"
+    },
+    {
+        "id": "CVE-2026-84398",
+        "system": "HMT.CM2507 Firmware",
         "severity": "High",
-        "cvss": 8.1,
+        "cvss": 8.7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-76461",
-        "system": "Cisco Secure Email",
+        "id": "CVE-2026-88259",
+        "system": "HMT.CM2507 Firmware",
+        "severity": "High",
+        "cvss": 8.7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-81855",
+        "system": "FOS-Onboard",
         "severity": "Critical",
-        "cvss": 9.8,
+        "cvss": 9.3,
         "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-58113",
-        "system": "Teamcenter V2412",
-        "severity": "High",
-        "cvss": 8.5,
-        "badge": "badge-high"
     }
 ]
