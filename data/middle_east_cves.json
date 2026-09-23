@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-78225",
+        "id": "CVE-2026-81855",
         "system": "FOS-Onboard",
         "severity": "Critical",
-        "cvss": 9.5,
+        "cvss": 9.3,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-62648",
+        "id": "CVE-2026-82567",
+        "system": "mySCADA myPRO",
+        "severity": "Medium",
+        "cvss": 5.3,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-73807",
+        "system": "mySCADA myPRO",
+        "severity": "Critical",
+        "cvss": 9.3,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-62654",
+        "system": "Reyrolle 7SR5",
+        "severity": "High",
+        "cvss": 7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-62653",
+        "system": "Reyrolle 7SR5",
+        "severity": "High",
+        "cvss": 7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-62652",
+        "system": "Reyrolle 7SR5",
+        "severity": "Medium",
+        "cvss": 6.9,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-62650",
         "system": "Reyrolle 7SR5",
         "severity": "High",
         "cvss": 8.7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-62647",
+        "id": "CVE-2026-62649",
         "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.3,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-62646",
-        "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.1,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-62645",
-        "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.3,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2024-42392",
-        "system": "Mongoose Web Server",
-        "severity": "Medium",
-        "cvss": 4,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2024-42391",
-        "system": "Mongoose Web Server",
-        "severity": "Medium",
-        "cvss": 4.3,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2024-42386",
-        "system": "Mongoose Web Server",
         "severity": "High",
-        "cvss": 8.2,
+        "cvss": 8.7,
         "badge": "badge-high"
     }
 ]
