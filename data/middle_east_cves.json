@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-78225",
+        "id": "CVE-2026-81855",
         "system": "FOS-Onboard",
         "severity": "Critical",
-        "cvss": 9.5,
+        "cvss": 9.3,
         "badge": "badge-critical"
     },
     {
-        "id": "CVE-2026-66372",
-        "system": "VMAX A1 G4 DVR",
+        "id": "CVE-2026-82567",
+        "system": "mySCADA myPRO",
+        "severity": "Medium",
+        "cvss": 5.3,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-73807",
+        "system": "mySCADA myPRO",
+        "severity": "Critical",
+        "cvss": 9.3,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-62654",
+        "system": "Reyrolle 7SR5",
         "severity": "High",
-        "cvss": 7.6,
+        "cvss": 7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-66887",
-        "system": "VMAX A1 G4 DVR",
-        "severity": "Critical",
-        "cvss": 9.4,
-        "badge": "badge-critical"
+        "id": "CVE-2026-62653",
+        "system": "Reyrolle 7SR5",
+        "severity": "High",
+        "cvss": 7,
+        "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-68950",
-        "system": "VMAX A1 G4 DVR",
+        "id": "CVE-2026-62652",
+        "system": "Reyrolle 7SR5",
+        "severity": "Medium",
+        "cvss": 6.9,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-62650",
+        "system": "Reyrolle 7SR5",
         "severity": "High",
         "cvss": 8.7,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-68070",
-        "system": "VMAX A1 G4 DVR",
+        "id": "CVE-2026-62649",
+        "system": "Reyrolle 7SR5",
         "severity": "High",
         "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-66890",
-        "system": "VMAX A1 G4 DVR",
-        "severity": "Critical",
-        "cvss": 9.4,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-68953",
-        "system": "VMAX A1 G4 DVR",
-        "severity": "High",
-        "cvss": 7.1,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-80465",
-        "system": "Mendix SAML (Mendix 10 compatible)",
-        "severity": "High",
-        "cvss": 8.8,
         "badge": "badge-high"
     }
 ]

@@ -1,5 +1,53 @@
 [
   {
+    "titleEn": "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions",
+    "titleAr": "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions",
+    "link": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790120766000,
+    "summaryEn": "Iran's aviation officials negotiate with Oman and Iraq as US's Bessent targets carriers seven months into the conflict.",
+    "summaryAr": "Iran's aviation officials negotiate with Oman and Iraq as US's Bessent targets carriers seven months into the conflict.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UNGA Day 1: US and Iran hold talks despite Trump’s threat",
+    "titleAr": "UNGA Day 1: US and Iran hold talks despite Trump’s threat",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-day-1-us-and-iran-hold-talks-despite-trumps-threat?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790117336000,
+    "summaryEn": "The US and Iran hold talks on UNGA’s first day, despite Trump threatening to ‘annihilate’ Iran in his opening address.",
+    "summaryAr": "The US and Iran hold talks on UNGA’s first day, despite Trump threatening to ‘annihilate’ Iran in his opening address.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinian Americans meet US lawmakers as Trump seeks $2.8bn for Israel",
+    "titleAr": "Palestinian Americans meet US lawmakers as Trump seeks $2.8bn for Israel",
+    "link": "https://www.aljazeera.com/news/2026/9/22/palestinian-americans-meet-us-lawmakers-as-trump-seeks-2-8bn-for-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790112651000,
+    "summaryEn": "Organisers say more than 300 constituents met with House and Senate members from 26 states to demand US policy shift.",
+    "summaryAr": "Organisers say more than 300 constituents met with House and Senate members from 26 states to demand US policy shift.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
     "titleAr": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
     "link": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
@@ -192,22 +240,6 @@
     ]
   },
   {
-    "titleEn": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
-    "titleAr": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
-    "link": "https://www.aljazeera.com/news/2026/9/22/erdogan-slams-israels-genocidal-mindset-in-blistering-un-address?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790096139000,
-    "summaryEn": "Turkish leader says UN has been forced into 'dysfunction' and was 'bleeding out' in Palestine, Lebanon, Sudan.",
-    "summaryAr": "Turkish leader says UN has been forced into 'dysfunction' and was 'bleeding out' in Palestine, Lebanon, Sudan.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
     "titleAr": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
     "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
@@ -215,22 +247,6 @@
     "pubDate": 1790095272000,
     "summaryEn": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
     "summaryAr": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
-    "titleAr": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/war-crime-jordans-king-slams-israeli-west-bank-expansion?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790094914000,
-    "summaryEn": "Jordan's King Abdullah II decried Israeli settlements in the occupied West Bank as a strategy of ‘forced displacement.'",
-    "summaryAr": "Jordan's King Abdullah II decried Israeli settlements in the occupied West Bank as a strategy of ‘forced displacement.'",
     "tags": [
       {
         "textEn": "INTEL",
@@ -256,22 +272,6 @@
     ]
   },
   {
-    "titleEn": "Trump: ‘My honour to settle eight wars’ including ‘war in Gaza’",
-    "titleAr": "Trump: ‘My honour to settle eight wars’ including ‘war in Gaza’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-my-honour-to-settle-eight-wars-including-war-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790093928000,
-    "summaryEn": "Speaking at the UN General Assembly, US President Donald Trump claimed he helped end the war in Gaza.",
-    "summaryAr": "Speaking at the UN General Assembly, US President Donald Trump claimed he helped end the war in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
     "titleAr": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
     "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
@@ -284,22 +284,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "UNGA 2026: Can the UN stop wars?",
-    "titleAr": "UNGA 2026: Can the UN stop wars?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-2026-can-the-un-stop-wars?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790092152000,
-    "summaryEn": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
-    "summaryAr": "Al Jazeera asked people in Bangladesh, Gaza and Nigeria what they think of the UN’s role in resolving conflicts.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -711,6 +695,22 @@
     "pubDate": 1789805934000,
     "summaryEn": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
     "summaryAr": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "titleAr": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "source": "The Hacker News",
+    "pubDate": 1789804294000,
+    "summaryEn": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
+    "summaryAr": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
     "tags": [
       {
         "textEn": "INTEL",
