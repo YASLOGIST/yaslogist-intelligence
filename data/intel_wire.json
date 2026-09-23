@@ -1,5 +1,213 @@
 [
   {
+    "titleEn": "Iran's president tells Trump it will never 'bend the knee'",
+    "titleAr": "Iran's president tells Trump it will never 'bend the knee'",
+    "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790187331000,
+    "summaryEn": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+    "summaryAr": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
+    "titleAr": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
+    "link": "https://www.aljazeera.com/news/2026/9/23/board-of-peace-plans-2-4bn-gaza-reconstruction-as-israel-kills-seven?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790185503000,
+    "summaryEn": "Violations against Palestinians in Gaza continue even as world leaders call on Israel to adhere to ceasefire deal.",
+    "summaryAr": "Violations against Palestinians in Gaza continue even as world leaders call on Israel to adhere to ceasefire deal.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: World leaders condemn Israel at UN",
+    "titleAr": "Jerusalem Daily: World leaders condemn Israel at UN",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/jerusalem-daily-world-leaders-condemn-israel-at-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790184955000,
+    "summaryEn": "Palestinians protest Israel’s prison visit bans as settler pogroms continue across the occupied West Bank.",
+    "summaryAr": "Palestinians protest Israel’s prison visit bans as settler pogroms continue across the occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s destruction leaves Lebanon’s border villages in ruins",
+    "titleAr": "Israel’s destruction leaves Lebanon’s border villages in ruins",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/israels-destruction-leaves-lebanons-border-villages-in-ruins?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790182113000,
+    "summaryEn": "Israel’s destruction leaves Lebanon’s border villages in ruins",
+    "summaryAr": "Israel’s destruction leaves Lebanon’s border villages in ruins",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Syria’s al-Sharaa warns Israeli attacks endanger delicate post-war recovery",
+    "titleAr": "Syria’s al-Sharaa warns Israeli attacks endanger delicate post-war recovery",
+    "link": "https://www.aljazeera.com/news/2026/9/23/syrias-al-sharaa-warns-israeli-attacks-endanger-delicate-post-war-recovery?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790181841000,
+    "summaryEn": "President Ahmed al-Sharaa calls for Israeli withdrawal, condemning its attacks as Syria emerges from civil war.",
+    "summaryAr": "President Ahmed al-Sharaa calls for Israeli withdrawal, condemning its attacks as Syria emerges from civil war.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US envoy walks out on Pezeshkian UN speech slamming war on Iran",
+    "titleAr": "US envoy walks out on Pezeshkian UN speech slamming war on Iran",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/us-envoy-walks-out-on-pezeshkian-un-speech-slamming-war-on-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790181287000,
+    "summaryEn": "As Iran’s president began his speech at the UN General Assembly, an official from the US delegation walked out.",
+    "summaryAr": "As Iran’s president began his speech at the UN General Assembly, an official from the US delegation walked out.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemeni government in military and diplomatic push to reverse Houthi gains",
+    "titleAr": "Yemeni government in military and diplomatic push to reverse Houthi gains",
+    "link": "https://www.aljazeera.com/news/2026/9/23/yemeni-government-in-military-and-diplomatic-push-to-reverse-houthi-gains?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790180478000,
+    "summaryEn": "Government claims battlefield advances as diplomats attempt to put anti-Houthi fight at UN centre stage.",
+    "summaryAr": "Government claims battlefield advances as diplomats attempt to put anti-Houthi fight at UN centre stage.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "titleAr": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+    "source": "The Hacker News",
+    "pubDate": 1790179601000,
+    "summaryEn": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed auth…",
+    "summaryAr": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed auth…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘They kill, we are punished’: Iran calls out Western hypocrisy",
+    "titleAr": "‘They kill, we are punished’: Iran calls out Western hypocrisy",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/they-kill-we-are-punished-iran-calls-out-western-hypocrisy?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790178599000,
+    "summaryEn": "Iranian President Masoud Pezeshkian has accused Israel and the US of applying ‘double standards’.",
+    "summaryAr": "Iranian President Masoud Pezeshkian has accused Israel and the US of applying ‘double standards’.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’",
+    "titleAr": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/iran-strait-of-hormuz-wont-be-used-to-impose-insecurity-on?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790177053000,
+    "summaryEn": "Iranian President Masoud Pezeshkian told the UN General Assembly that ‘warfare knows no borders’.",
+    "summaryAr": "Iranian President Masoud Pezeshkian told the UN General Assembly that ‘warfare knows no borders’.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+    "titleAr": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+    "link": "https://www.aljazeera.com/news/2026/9/23/trump-pushes-russia-ukraine-energy-truce-can-it-work?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790174944000,
+    "summaryEn": "Talks of a possible halt in attacks on energy facilities come as strikes on such targets continue unabated.",
+    "summaryAr": "Talks of a possible halt in attacks on energy facilities come as strikes on such targets continue unabated.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Al-Sharaa: Occupied Golan Heights to ‘remain Syrian territory’",
+    "titleAr": "Al-Sharaa: Occupied Golan Heights to ‘remain Syrian territory’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/al-sharaa-occupied-golan-heights-to-remain-syrian?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790174020000,
+    "summaryEn": "Syrian President Ahmed al-Sharaa demanded the withdrawal of Israeli forces from Syrian territory.",
+    "summaryAr": "Syrian President Ahmed al-Sharaa demanded the withdrawal of Israeli forces from Syrian territory.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis?",
+    "titleAr": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis?",
+    "link": "https://www.aljazeera.com/news/2026/9/23/how-much-is-uk-supporting-saudi-arabia-in-its-war-with-iran-backed-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790171870000,
+    "summaryEn": "UK to refuel Saudi fighter jets and France to secure energy infrastructure amid fighting with Yemen's Houthi group.",
+    "summaryAr": "UK to refuel Saudi fighter jets and France to secure energy infrastructure amid fighting with Yemen's Houthi group.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
     "titleAr": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
     "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
@@ -16,13 +224,13 @@
     ]
   },
   {
-    "titleEn": "UN General Assembly live: Iran’s Pezeshkian, Ukraine’s Zelenskyy to speak",
-    "titleAr": "UN General Assembly live: Iran’s Pezeshkian, Ukraine’s Zelenskyy to speak",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak?traffic_source=rss",
-    "source": "Al Jazeera",
+    "titleEn": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "titleAr": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "link": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "source": "CISA Advisories",
     "pubDate": 1790164800000,
-    "summaryEn": "Second day of UN General Assembly kicks off with speeches from world leaders, including from Syria, Iran and Ukraine.",
-    "summaryAr": "Second day of UN General Assembly kicks off with speeches from world leaders, including from Syria, Iran and Ukraine.",
+    "summaryEn": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published …",
+    "summaryAr": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published …",
     "tags": [
       {
         "textEn": "INTEL",
@@ -55,70 +263,6 @@
     "pubDate": 1790161938000,
     "summaryEn": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published Sep…",
     "summaryAr": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published Sep…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar on mediation efforts: ‘We can’t let diplomacy fail’",
-    "titleAr": "Qatar on mediation efforts: ‘We can’t let diplomacy fail’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/qatar-on-mediation-efforts-we-cant-let-diplomacy?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790161415000,
-    "summaryEn": "Qatar’s Majed al-Ansari says Doha is determined to make diplomacy work to end the US-Iran conflict.",
-    "summaryAr": "Qatar’s Majed al-Ansari says Doha is determined to make diplomacy work to end the US-Iran conflict.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen government forces claim control of Mount Qarfan in Taiz",
-    "titleAr": "Yemen government forces claim control of Mount Qarfan in Taiz",
-    "link": "https://www.aljazeera.com/news/2026/9/23/yemen-government-forces-claim-control-of-mount-qarfan-in-taiz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790158537000,
-    "summaryEn": "Major General Abdulaziz al-Majidi says five Houthi fighters killed and 20 wounded after 'fierce battles'.",
-    "summaryAr": "Major General Abdulaziz al-Majidi says five Houthi fighters killed and 20 wounded after 'fierce battles'.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "‘Annihilate’ vs ‘crushing’ attacks: Why Iran, US up rhetoric amid talks",
-    "titleAr": "‘Annihilate’ vs ‘crushing’ attacks: Why Iran, US up rhetoric amid talks",
-    "link": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790156420000,
-    "summaryEn": "Trump threatens to 'annihilate' Iran and then brags about diplomacy, provoking Tehran to warn of a response.",
-    "summaryAr": "Trump threatens to 'annihilate' Iran and then brags about diplomacy, provoking Tehran to warn of a response.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What Palestinian children endure in Israeli detention",
-    "titleAr": "What Palestinian children endure in Israeli detention",
-    "link": "https://www.aljazeera.com/features/2026/9/23/inside-israels-prisons-what-palestinian-children-say-they-endure-in-deten?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790152931000,
-    "summaryEn": "Every day, Fidaa Zalbani checks the room of her son, Mohammed, 17, tidying his bed and arranging untouched clothes.",
-    "summaryAr": "Every day, Fidaa Zalbani checks the room of her son, Mohammed, 17, tidying his bed and arranging untouched clothes.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -176,22 +320,6 @@
     ]
   },
   {
-    "titleEn": "Pakistan’s latest Trump bet is on drone firm already selling to India",
-    "titleAr": "Pakistan’s latest Trump bet is on drone firm already selling to India",
-    "link": "https://www.aljazeera.com/news/2026/9/23/pakistans-new-drone-deal-is-with-trump-backed-firm-also-selling-to-india?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790147934000,
-    "summaryEn": "The company's cofounder is also an ex-Israeli soldier. Pakistan does not recognise Israel.",
-    "summaryAr": "The company's cofounder is also an ex-Israeli soldier. Pakistan does not recognise Israel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
     "titleAr": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
     "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
@@ -245,8 +373,8 @@
     "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
     "source": "Dark Reading",
     "pubDate": 1790110553000,
-    "summaryEn": "Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security …",
-    "summaryAr": "Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security …",
+    "summaryEn": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and transla…",
+    "summaryAr": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and transla…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -368,22 +496,6 @@
     ]
   },
   {
-    "titleEn": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-    "titleAr": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-    "source": "BleepingComputer",
-    "pubDate": 1790081286000,
-    "summaryEn": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi…",
-    "summaryAr": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
     "titleEn": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
     "titleAr": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
     "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
@@ -391,22 +503,6 @@
     "pubDate": 1790080140000,
     "summaryEn": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
     "summaryAr": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Industrial Edge Management",
-    "titleAr": "Siemens Industrial Edge Management",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-    "source": "CISA Advisories",
-    "pubDate": 1790078400000,
-    "summaryEn": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
-    "summaryAr": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -487,6 +583,22 @@
     "pubDate": 1790078400000,
     "summaryEn": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
     "summaryAr": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Industrial Edge Management",
+    "titleAr": "Siemens Industrial Edge Management",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
+    "summaryAr": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -592,22 +704,6 @@
     ]
   },
   {
-    "titleEn": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-    "titleAr": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-    "source": "BleepingComputer",
-    "pubDate": 1790070911000,
-    "summaryEn": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
-    "summaryAr": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
     "titleEn": "UK to help refuel Saudi jets countering Houthi attacks",
     "titleAr": "UK to help refuel Saudi jets countering Houthi attacks",
     "link": "https://www.bbc.co.uk/news/articles/cqlykpe4dk0yo?at_medium=RSS&at_campaign=rss",
@@ -615,102 +711,6 @@
     "pubDate": 1790067183000,
     "summaryEn": "The UK says it will provide air-to-air refuelling for \"defensive\" operations following a request from Saudi Arabia.",
     "summaryAr": "The UK says it will provide air-to-air refuelling for \"defensive\" operations following a request from Saudi Arabia.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "titleAr": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "source": "The Hacker News",
-    "pubDate": 1790056994000,
-    "summaryEn": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
-    "summaryAr": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "titleAr": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "source": "The Hacker News",
-    "pubDate": 1790055119000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "titleAr": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790000056000,
-    "summaryEn": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
-    "summaryAr": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1789992000000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Sta…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Sta…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-    "titleAr": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-    "link": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789984831000,
-    "summaryEn": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-    "summaryAr": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis say they targeted Saudi capital with ballistic missiles",
-    "titleAr": "Houthis say they targeted Saudi capital with ballistic missiles",
-    "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1789861766000,
-    "summaryEn": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-    "summaryAr": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
     "tags": [
       {
         "textEn": "MARITIME",
