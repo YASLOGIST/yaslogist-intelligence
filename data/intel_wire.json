@@ -1,12 +1,172 @@
 [
   {
-    "titleEn": "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions",
-    "titleAr": "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions",
+    "titleEn": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "titleAr": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790147843000,
+    "summaryEn": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+    "summaryAr": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+    "titleAr": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+    "link": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790143976000,
+    "summaryEn": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
+    "summaryAr": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Reports of violence against women in Gaza surge, UN agency finds",
+    "titleAr": "Reports of violence against women in Gaza surge, UN agency finds",
+    "link": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790139746000,
+    "summaryEn": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
+    "summaryAr": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz",
+    "titleAr": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz",
+    "link": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790138535000,
+    "summaryEn": "Tehran ties diplomatic progress to lifting shipping blockades and unfreezing assets during New York negotiations.",
+    "summaryAr": "Tehran ties diplomatic progress to lifting shipping blockades and unfreezing assets during New York negotiations.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Wall Street’s Nasdaq hits all-time high as AI frenzy gathers pace",
+    "titleAr": "Wall Street’s Nasdaq hits all-time high as AI frenzy gathers pace",
+    "link": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790131836000,
+    "summaryEn": "Investors shrug off AI safety concerns and Iran war, sending market to a new peak.",
+    "summaryAr": "Investors shrug off AI safety concerns and Iran war, sending market to a new peak.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "France rebukes world over Gaza as Canada, UK back Palestinian state at UNGA",
+    "titleAr": "France rebukes world over Gaza as Canada, UK back Palestinian state at UNGA",
+    "link": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790130992000,
+    "summaryEn": "France's Macron says suffering in Gaza should 'shame all of us' as Canada's Carney pledges $71m for two-state efforts.",
+    "summaryAr": "France's Macron says suffering in Gaza should 'shame all of us' as Canada's Carney pledges $71m for two-state efforts.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK Prime Minister vows not to ‘stand by’ as Palestinians suffer",
+    "titleAr": "UK Prime Minister vows not to ‘stand by’ as Palestinians suffer",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/uk-prime-minister-vows-not-to-stand-by-as-palestinians-suffer?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790130241000,
+    "summaryEn": "UK PM Burnham condemned Israel’s war on Gaza, and explains why the UK sanctioned illegal Israeli settlements.",
+    "summaryAr": "UK PM Burnham condemned Israel’s war on Gaza, and explains why the UK sanctioned illegal Israeli settlements.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
+    "titleAr": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
+    "link": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-says-ukraine-ready-for-energy-truce-with-russia-after-trump-talks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790126439000,
+    "summaryEn": "Ukraine leader says Kyiv is ready to stop strikes on Russian facilities if Moscow halts attacks on its energy system.",
+    "summaryAr": "Ukraine leader says Kyiv is ready to stop strikes on Russian facilities if Moscow halts attacks on its energy system.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranian President Masoud Pezeshkian arrives in New York for UNGA",
+    "titleAr": "Iranian President Masoud Pezeshkian arrives in New York for UNGA",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/iranian-president-masoud-pezeshkian-arrives-in-new-york-for-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790125866000,
+    "summaryEn": "Iranian President Masoud Pezeshkian has arrived in New York as the US-Iran war continues.",
+    "summaryAr": "Iranian President Masoud Pezeshkian has arrived in New York as the US-Iran war continues.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Trump confirms ‘very good’ meeting with Iran at UN",
+    "titleAr": "Iran war live: Trump confirms ‘very good’ meeting with Iran at UN",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790121600000,
+    "summaryEn": "President Trump says US officials held a 'very good' meeting on Tuesday with the Iranian delegation at UN.",
+    "summaryAr": "President Trump says US officials held a 'very good' meeting on Tuesday with the Iranian delegation at UN.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran cancels Baghdad, Muscat flights as US aviation sanctions take effect",
+    "titleAr": "Iran cancels Baghdad, Muscat flights as US aviation sanctions take effect",
     "link": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1790120766000,
-    "summaryEn": "Iran's aviation officials negotiate with Oman and Iraq as US's Bessent targets carriers seven months into the conflict.",
-    "summaryAr": "Iran's aviation officials negotiate with Oman and Iraq as US's Bessent targets carriers seven months into the conflict.",
+    "summaryEn": "Iran official says Baghdad and Muscat airports will not accept Iranian flights from midnight on Wednesday.",
+    "summaryAr": "Iran official says Baghdad and Muscat airports will not accept Iranian flights from midnight on Wednesday.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,118 +208,6 @@
     ]
   },
   {
-    "titleEn": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
-    "titleAr": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
-    "link": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790108865000,
-    "summaryEn": "Saudi monarch's rare condemnation hints at sense of urgency in the kingdom amid ramped-up attacks from Yemen.",
-    "summaryAr": "Saudi monarch's rare condemnation hints at sense of urgency in the kingdom amid ramped-up attacks from Yemen.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump: US-Iran meeting at UN was ‘very good’",
-    "titleAr": "Trump: US-Iran meeting at UN was ‘very good’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790108628000,
-    "summaryEn": "US President Donald Trump says he had a ‘very good’ three-hour meeting with Iranian officials at the UN.",
-    "summaryAr": "US President Donald Trump says he had a ‘very good’ three-hour meeting with Iranian officials at the UN.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
-    "titleAr": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790107176000,
-    "summaryEn": "Brazilian President Luiz Inacio Lula da Silva condemned the “pain and trauma” inflicted by Israel’s government in Gaza.",
-    "summaryAr": "Brazilian President Luiz Inacio Lula da Silva condemned the “pain and trauma” inflicted by Israel’s government in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Djibouti minister appeals for aid for Yemeni refugees",
-    "titleAr": "Djibouti minister appeals for aid for Yemeni refugees",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/djibouti-minister-appeals-for-aid-for-yemeni-refugees?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790106962000,
-    "summaryEn": "Djibouti’s Minister of Social Affairs and Solidarity, Ouloufa Ismail Abdo, appeals for aid for Yemeni refugees",
-    "summaryAr": "Djibouti’s Minister of Social Affairs and Solidarity, Ouloufa Ismail Abdo, appeals for aid for Yemeni refugees",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
-    "titleAr": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
-    "link": "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790106736000,
-    "summaryEn": "US solicitor general challenges lower court's ruling on Georgetown scholar's detention, sparking constitutional debates.",
-    "summaryAr": "US solicitor general challenges lower court's ruling on Georgetown scholar's detention, sparking constitutional debates.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar denounces Israeli aggression across the region",
-    "titleAr": "Qatar denounces Israeli aggression across the region",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-denounces-israeli-aggression-across-the-region?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790105343000,
-    "summaryEn": "Qatari Emir Sheikh Tamim bin Hamad Al Thani has denounced Israeli aggression in neighbouring countries.",
-    "summaryAr": "Qatari Emir Sheikh Tamim bin Hamad Al Thani has denounced Israeli aggression in neighbouring countries.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
-    "titleAr": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/erdogan-accuses-israel-of-genocidal-mindset-at-unga?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790104481000,
-    "summaryEn": "Turkish President Recep Tayyip Erdogan accused Israel of a “genocidal mindset” at the UN General Assembly.",
-    "summaryAr": "Turkish President Recep Tayyip Erdogan accused Israel of a “genocidal mindset” at the UN General Assembly.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
     "titleAr": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
@@ -172,22 +220,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar’s emir urges diplomacy as Gulf at ‘one of the most dangerous phases’",
-    "titleAr": "Qatar’s emir urges diplomacy as Gulf at ‘one of the most dangerous phases’",
-    "link": "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790102917000,
-    "summaryEn": "Sheikh Tamim says years of delayed diplomacy led to the US-Israel war on Iran.",
-    "summaryAr": "Sheikh Tamim says years of delayed diplomacy led to the US-Israel war on Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -208,29 +240,13 @@
     ]
   },
   {
-    "titleEn": "Qatar urges diplomacy, rejects Strait of Hormuz ‘bargaining’",
-    "titleAr": "Qatar urges diplomacy, rejects Strait of Hormuz ‘bargaining’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-urges-diplomacy-rejects-strait-of-hormuz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790101621000,
-    "summaryEn": "Qatari Emir Sheikh Tamim bin Hamad Al Thani called for the reopening of the Strait of Hormuz while speaking at the UN.",
-    "summaryAr": "Qatari Emir Sheikh Tamim bin Hamad Al Thani called for the reopening of the Strait of Hormuz while speaking at the UN.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US, Iran hold ‘very good’ talks, Trump says at UN meeting",
-    "titleAr": "US, Iran hold ‘very good’ talks, Trump says at UN meeting",
-    "link": "https://www.aljazeera.com/news/2026/9/22/trump-says-us-officials-met-with-iranian-delegation-for-three-hours-2?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790100852000,
-    "summaryEn": "US President hints at possible deal with Iran, but warns of dire consequences if no agreement is reached.",
-    "summaryAr": "US President hints at possible deal with Iran, but warns of dire consequences if no agreement is reached.",
+    "titleEn": "Watch: Trump threatens to 'annihilate' Iran if no deal reached",
+    "titleAr": "Watch: Trump threatens to 'annihilate' Iran if no deal reached",
+    "link": "https://www.bbc.co.uk/news/videos/cmvgydqqlyx9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790098536000,
+    "summaryEn": "US President Donald Trump presented Iran with a stark choice: reach an agreement or face the rapid “annihilation” of the Islamic Republic.",
+    "summaryAr": "US President Donald Trump presented Iran with a stark choice: reach an agreement or face the rapid “annihilation” of the Islamic Republic.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -695,22 +711,6 @@
     "pubDate": 1789805934000,
     "summaryEn": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
     "summaryAr": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score:…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "titleAr": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-    "source": "The Hacker News",
-    "pubDate": 1789804294000,
-    "summaryEn": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
-    "summaryAr": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The develop…",
     "tags": [
       {
         "textEn": "INTEL",
