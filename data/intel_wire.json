@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Netanyahu takes UN stage with one eye on Israel’s election",
+    "titleAr": "Netanyahu takes UN stage with one eye on Israel’s election",
+    "link": "https://www.aljazeera.com/news/2026/9/24/netanyahus-un-speech-a-high-stakes-test-for-audiences-at-home?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790239245000,
+    "summaryEn": "As criticism of Israel intensifies, Israeli PM Netanyahu heads to the UN with his own political future in focus.",
+    "summaryAr": "As criticism of Israel intensifies, Israeli PM Netanyahu heads to the UN with his own political future in focus.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza watches Israel’s elections with fear and antipathy",
+    "titleAr": "Gaza watches Israel’s elections with fear and antipathy",
+    "link": "https://www.aljazeera.com/news/2026/9/24/gaza-watches-israels-election-with-fear-and-antipathy?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790233622000,
+    "summaryEn": "Palestinians are following the campaign, but few feel next month's vote will make their lives any better.",
+    "summaryAr": "Palestinians are following the campaign, but few feel next month's vote will make their lives any better.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Pakistan says it launches air strikes on Afghanistan after drone attacks",
+    "titleAr": "Pakistan says it launches air strikes on Afghanistan after drone attacks",
+    "link": "https://www.aljazeera.com/news/2026/9/24/pakistan-says-it-launches-air-strikes-on-afghanistan-after-drone-attacks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790231386000,
+    "summaryEn": "Strikes carried out in southeastern province of Khost cause no casualties, governor's office says.",
+    "summaryAr": "Strikes carried out in southeastern province of Khost cause no casualties, governor's office says.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump-Xi summit: Here’s what’s on the agenda, and why it matters",
+    "titleAr": "Trump-Xi summit: Here’s what’s on the agenda, and why it matters",
+    "link": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-whats-on-the-agenda-why-it-matters?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790230290000,
+    "summaryEn": "The leaders of the US and China are expected to discuss trade, AI and Iran in their third in-person meeting in a year.",
+    "summaryAr": "The leaders of the US and China are expected to discuss trade, AI and Iran in their third in-person meeting in a year.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
+    "titleAr": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/gaza-2-45-billion-reconstruction-plan-who-decides-its-future?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790230145000,
+    "summaryEn": "Gaza’s $2.45bn recovery plan spans housing, health and 4G, but Israeli pullout and Hamas’s disarmament remain unclear.",
+    "summaryAr": "Gaza’s $2.45bn recovery plan spans housing, health and 4G, but Israeli pullout and Hamas’s disarmament remain unclear.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "titleAr": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "source": "The Hacker News",
+    "pubDate": 1790228178000,
+    "summaryEn": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
+    "summaryAr": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why have some nations developed while others struggle?",
+    "titleAr": "Why have some nations developed while others struggle?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/why-have-some-nations-developed-while-others-struggle?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790226132000,
+    "summaryEn": "At UNGA, Iran, Syria and Kenya have highlighted how war and injustice have skewed global development.",
+    "summaryAr": "At UNGA, Iran, Syria and Kenya have highlighted how war and injustice have skewed global development.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "‘They uprooted it all’: Israel bulldozes Palestinian-owned olive groves",
     "titleAr": "‘They uprooted it all’: Israel bulldozes Palestinian-owned olive groves",
     "link": "https://www.aljazeera.com/news/2026/9/24/they-uprooted-it-all-israel-bulldozes-palestinian-owned-olive-groves?traffic_source=rss",
@@ -48,22 +160,6 @@
     ]
   },
   {
-    "titleEn": "Iran war live: Tehran says it won’t be bullied, remains open for talks",
-    "titleAr": "Iran war live: Tehran says it won’t be bullied, remains open for talks",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/24/iran-war-live-tehran-says-it-wont-be-bullied-remains-open-for-talks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790208000000,
-    "summaryEn": "Iranian president says Tehran will not bow to pressure while remaining open to dialogue in a defiant UN speech.",
-    "summaryAr": "Iranian president says Tehran will not bow to pressure while remaining open to dialogue in a defiant UN speech.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
     "titleAr": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
     "link": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
@@ -80,38 +176,6 @@
     ]
   },
   {
-    "titleEn": "US aviation sanctions disrupt Iran flights, push travellers overland",
-    "titleAr": "US aviation sanctions disrupt Iran flights, push travellers overland",
-    "link": "https://www.aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790197536000,
-    "summaryEn": "Travel disruptions intensify as Iranian airlines lose access to airspace, pushing civilians towards costly land routes.",
-    "summaryAr": "Travel disruptions intensify as Iranian airlines lose access to airspace, pushing civilians towards costly land routes.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
-    "titleAr": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
-    "link": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790196975000,
-    "summaryEn": "Wael Naouar has been hospitalised as his hunger strike enters its 39th day, the Gaza Sumud Flotilla says.",
-    "summaryAr": "Wael Naouar has been hospitalised as his hunger strike enters its 39th day, the Gaza Sumud Flotilla says.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
     "titleAr": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
@@ -119,22 +183,6 @@
     "pubDate": 1790193234000,
     "summaryEn": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handlin…",
     "summaryAr": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handlin…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli soldier wounded in car-ramming attack in occupied West Bank",
-    "titleAr": "Israeli soldier wounded in car-ramming attack in occupied West Bank",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/23-09-sv-israeli-solider-injured-leiter-il?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790191789000,
-    "summaryEn": "Israeli soldier Neria Leiter wounded in a suspected car-ramming attack near the illegal settlement of Beit Horon.",
-    "summaryAr": "Israeli soldier Neria Leiter wounded in a suspected car-ramming attack near the illegal settlement of Beit Horon.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -364,22 +412,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "titleAr": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-    "source": "BleepingComputer",
-    "pubDate": 1790104409000,
-    "summaryEn": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data…",
-    "summaryAr": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   },
@@ -684,38 +716,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "titleAr": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "source": "The Hacker News",
-    "pubDate": 1790056994000,
-    "summaryEn": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
-    "summaryAr": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "titleAr": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "source": "The Hacker News",
-    "pubDate": 1790055119000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
