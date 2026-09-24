@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-78225",
-        "system": "FOS-Onboard",
-        "severity": "Critical",
-        "cvss": 9.5,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-62648",
-        "system": "Reyrolle 7SR5",
-        "severity": "High",
-        "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-62647",
-        "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.3,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-62646",
-        "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.1,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-62645",
-        "system": "Reyrolle 7SR5",
-        "severity": "Critical",
-        "cvss": 9.3,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2024-42392",
-        "system": "Mongoose Web Server",
+        "id": "CVE-2026-81861",
+        "system": "SCADAPack 47x",
         "severity": "Medium",
-        "cvss": 4,
+        "cvss": 5.9,
         "badge": "badge-medium"
     },
     {
-        "id": "CVE-2024-42391",
-        "system": "Mongoose Web Server",
+        "id": "CVE-2026-82567",
+        "system": "mySCADA myPRO",
+        "severity": "Medium",
+        "cvss": 5.3,
+        "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-73807",
+        "system": "mySCADA myPRO",
+        "severity": "Critical",
+        "cvss": 9.3,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-87886",
+        "system": "Acronis Backup plugin for cPanel & WHM",
+        "severity": "High",
+        "cvss": 7.8,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-58704",
+        "system": "Android",
+        "severity": "High",
+        "cvss": 8.8,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-15688",
+        "system": "GX Works3",
+        "severity": "Critical",
+        "cvss": 9.2,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2024-7941",
+        "system": "MicroSCADA SYS600",
         "severity": "Medium",
         "cvss": 4.3,
         "badge": "badge-medium"
     },
     {
-        "id": "CVE-2024-42386",
-        "system": "Mongoose Web Server",
+        "id": "CVE-2024-7940",
+        "system": "MicroSCADA SYS600",
         "severity": "High",
-        "cvss": 8.2,
+        "cvss": 8.3,
         "badge": "badge-high"
     }
 ]
