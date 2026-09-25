@@ -1,12 +1,124 @@
 [
   {
+    "titleEn": "Lebanon PM calls for full Israeli withdrawal in UN address",
+    "titleAr": "Lebanon PM calls for full Israeli withdrawal in UN address",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/lebanon-pm-calls-for-full-israeli-withdrawal-in-un-address?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790348868000,
+    "summaryEn": "Lebanon’s Prime Minister Nawaf Salam told the UN that his country will not be an ‘arena for the conflicts of others’.",
+    "summaryAr": "Lebanon’s Prime Minister Nawaf Salam told the UN that his country will not be an ‘arena for the conflicts of others’.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iraq calls for a ‘sovereign Palestinian state’ at UNGA",
+    "titleAr": "Iraq calls for a ‘sovereign Palestinian state’ at UNGA",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iraq-calls-for-a-sovereign-palestinian-state-at-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790348602000,
+    "summaryEn": "Iraqi Prime Minister Ali Falih Al-Zaidi called for a sovereign state of Palestine at the 81st session of the UNGA.",
+    "summaryAr": "Iraqi Prime Minister Ali Falih Al-Zaidi called for a sovereign state of Palestine at the 81st session of the UNGA.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen fighting displaces 71,000 children, worsens malnutrition: UNICEF",
+    "titleAr": "Yemen fighting displaces 71,000 children, worsens malnutrition: UNICEF",
+    "link": "https://www.aljazeera.com/news/2026/9/25/yemen-fighting-displaces-71000-children-worsens-malnutrition-unicef?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790345451000,
+    "summaryEn": "More than a quarter of the nearly 2,900 children screened by UNICEF in recent weeks were acutely malnourished.",
+    "summaryAr": "More than a quarter of the nearly 2,900 children screened by UNICEF in recent weeks were acutely malnourished.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli official takes notes after UN walkout against Netanyahu",
+    "titleAr": "Israeli official takes notes after UN walkout against Netanyahu",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/israeli-official-takes-notes-after-un-walkout-against-netanyahu?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790340081000,
+    "summaryEn": "An Israeli official was filmed taking notes after UN delegates staged a walk out during a speech by Netanyahu.",
+    "summaryAr": "An Israeli official was filmed taking notes after UN delegates staged a walk out during a speech by Netanyahu.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1790337600000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Inj…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Inj…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+    "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+    "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790336684000,
+    "summaryEn": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+    "summaryAr": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Pakistan, Turkiye edge closer towards joining Saudi war against Houthis",
+    "titleAr": "Pakistan, Turkiye edge closer towards joining Saudi war against Houthis",
+    "link": "https://www.aljazeera.com/news/2026/9/25/pakistan-turkiye-edge-closer-towards-joining-saudi-war-against-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790335365000,
+    "summaryEn": "Pakistani and Turkish military chiefs head to Riyadh for urgent talks, but both countries remain cautious on involvement",
+    "summaryAr": "Pakistani and Turkish military chiefs head to Riyadh for urgent talks, but both countries remain cautious on involvement",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
     "titleAr": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
     "link": "https://www.aljazeera.com/news/liveblog/2026/9/25/un-general-assembly-live-leaders-from-lebanon-iraq-pakistan-to-speak?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1790334000000,
-    "summaryEn": "The US-Israel war on Iran will continue to be a focus as the UNGA enters its fourth day.",
-    "summaryAr": "The US-Israel war on Iran will continue to be a focus as the UNGA enters its fourth day.",
+    "summaryEn": "The US-Israel war on Iran continues to take centre stage as the UNGA enters its fourth day.",
+    "summaryAr": "The US-Israel war on Iran continues to take centre stage as the UNGA enters its fourth day.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,54 +176,6 @@
     ]
   },
   {
-    "titleEn": "Iran pitches seven-day roadmap to end conflict with US",
-    "titleAr": "Iran pitches seven-day roadmap to end conflict with US",
-    "link": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790330080000,
-    "summaryEn": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
-    "summaryAr": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia allies line up support as Houthi attacks mount",
-    "titleAr": "Saudi Arabia allies line up support as Houthi attacks mount",
-    "link": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790325168000,
-    "summaryEn": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
-    "summaryAr": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Mamdani plants olive tree with Gaza families",
-    "titleAr": "Mamdani plants olive tree with Gaza families",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/mamdani-plants-olive-tree-with-gaza-families?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790322941000,
-    "summaryEn": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
-    "summaryAr": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
     "titleAr": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
     "link": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
@@ -128,70 +192,6 @@
     ]
   },
   {
-    "titleEn": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-    "titleAr": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-    "link": "https://www.aljazeera.com/sports/2026/9/25/israels-abu-farchi-sent-off-for-gun-celebration-in-nations-league-match?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790318671000,
-    "summaryEn": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
-    "summaryAr": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Converging crises, chaos and walkouts dominate UNGA Day Three",
-    "titleAr": "Converging crises, chaos and walkouts dominate UNGA Day Three",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790317680000,
-    "summaryEn": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
-    "summaryAr": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Multiple regions in Russia come under Ukrainian drone attacks",
-    "titleAr": "Multiple regions in Russia come under Ukrainian drone attacks",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790313515000,
-    "summaryEn": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
-    "summaryAr": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli football player sent off after gun-firing goal celebration",
-    "titleAr": "Israeli football player sent off after gun-firing goal celebration",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/israeli-football-player-sent-off-after-gun-firing-goal-celebration?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790312994000,
-    "summaryEn": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
-    "summaryAr": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
     "titleAr": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
     "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
@@ -199,70 +199,6 @@
     "pubDate": 1790311594000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploite…",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploite…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jewish protestors join Free Palestine march to denounce Netanyahu",
-    "titleAr": "Jewish protestors join Free Palestine march to denounce Netanyahu",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jewish-protestors-join-free-palestine-march-to-denounce-netanyahu?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790308183000,
-    "summaryEn": "Al Jazeera’s Emma Withrow reports from a Free Palestine march, where Jewish demonstrators rejected Netanyahu.",
-    "summaryAr": "Al Jazeera’s Emma Withrow reports from a Free Palestine march, where Jewish demonstrators rejected Netanyahu.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-    "titleAr": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-    "link": "https://www.aljazeera.com/economy/2026/9/25/oil-prices-jump-after-yemens-houthis-claim-attacks-on-saudi-facilities?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790307685000,
-    "summaryEn": "Brent crude tops $106 a barrel after Iran-aligned rebel group claims to have successfully attacked Aramco facilities.",
-    "summaryAr": "Brent crude tops $106 a barrel after Iran-aligned rebel group claims to have successfully attacked Aramco facilities.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-    "titleAr": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-    "link": "https://www.aljazeera.com/news/2026/9/25/saudi-turkish-pakistani-chiefs-plan-urgent-talks-amid-yemen-fighting?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790307322000,
-    "summaryEn": "Saudi Arabia, Turkiye and Pakistan move to deepen defence coordination as Houthi attacks and Yemen fighting intensify.",
-    "summaryAr": "Saudi Arabia, Turkiye and Pakistan move to deepen defence coordination as Houthi attacks and Yemen fighting intensify.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-    "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-    "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790297044000,
-    "summaryEn": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-    "summaryAr": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
     "tags": [
       {
         "textEn": "INTEL",
@@ -352,22 +288,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790251200000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-5430 WSO2 Multiple Products Path Tr…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-5430 WSO2 Multiple Products Path Tr…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
     "titleAr": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
@@ -423,38 +343,6 @@
     "pubDate": 1790228178000,
     "summaryEn": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
     "summaryAr": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "titleAr": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "source": "BleepingComputer",
-    "pubDate": 1790193234000,
-    "summaryEn": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handlin…",
-    "summaryAr": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handlin…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hackers start exploiting critical WordPress flaw for code execution",
-    "titleAr": "Hackers start exploiting critical WordPress flaw for code execution",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "source": "BleepingComputer",
-    "pubDate": 1790188282000,
-    "summaryEn": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
-    "summaryAr": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
     "tags": [
       {
         "textEn": "INTEL",
@@ -711,6 +599,118 @@
     "pubDate": 1790080140000,
     "summaryEn": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
     "summaryAr": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens WTV676 and WTV776",
+    "titleAr": "Siemens WTV676 and WTV776",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
+    "summaryAr": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "lwIP TCP/IP Stack MQTT Client Application",
+    "titleAr": "lwIP TCP/IP Stack MQTT Client Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens SIPLUS and SIMATIC Products",
+    "titleAr": "Siemens SIPLUS and SIMATIC Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
+    "summaryAr": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to updat…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens SIMOVE Fleetmanager and SIPLANT",
+    "titleAr": "Siemens SIMOVE Fleetmanager and SIPLANT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has release…",
+    "summaryAr": "View CSAF Summary SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has release…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Desigo CC family",
+    "titleAr": "Siemens Desigo CC family",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices th…",
+    "summaryAr": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices th…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Siveillance Control",
+    "titleAr": "Siemens Siveillance Control",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
+    "source": "CISA Advisories",
+    "pubDate": 1790078400000,
+    "summaryEn": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y …",
+    "summaryAr": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y …",
     "tags": [
       {
         "textEn": "INTEL",
