@@ -1,5 +1,213 @@
 [
   {
+    "titleEn": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
+    "titleAr": "UN General Assembly live: Leaders from Lebanon, Iraq, Pakistan to speak",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/25/un-general-assembly-live-leaders-from-lebanon-iraq-pakistan-to-speak?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790334000000,
+    "summaryEn": "The US-Israel war on Iran will continue to be a focus as the UNGA enters its fourth day.",
+    "summaryAr": "The US-Israel war on Iran will continue to be a focus as the UNGA enters its fourth day.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
+    "titleAr": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
+    "link": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790333388000,
+    "summaryEn": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
+    "summaryAr": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "titleAr": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1790331242000,
+    "summaryEn": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2…",
+    "summaryAr": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
+    "titleAr": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790331033000,
+    "summaryEn": "The war on Iran is raising the cost of living in Nigeria.",
+    "summaryAr": "The war on Iran is raising the cost of living in Nigeria.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran pitches seven-day roadmap to end conflict with US",
+    "titleAr": "Iran pitches seven-day roadmap to end conflict with US",
+    "link": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790330080000,
+    "summaryEn": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
+    "summaryAr": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia allies line up support as Houthi attacks mount",
+    "titleAr": "Saudi Arabia allies line up support as Houthi attacks mount",
+    "link": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790325168000,
+    "summaryEn": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
+    "summaryAr": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Mamdani plants olive tree with Gaza families",
+    "titleAr": "Mamdani plants olive tree with Gaza families",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/mamdani-plants-olive-tree-with-gaza-families?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790322941000,
+    "summaryEn": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
+    "summaryAr": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+    "titleAr": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+    "link": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
+    "source": "Dark Reading",
+    "pubDate": 1790319600000,
+    "summaryEn": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
+    "summaryAr": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
+    "titleAr": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
+    "link": "https://www.aljazeera.com/sports/2026/9/25/israels-abu-farchi-sent-off-for-gun-celebration-in-nations-league-match?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790318671000,
+    "summaryEn": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
+    "summaryAr": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Converging crises, chaos and walkouts dominate UNGA Day Three",
+    "titleAr": "Converging crises, chaos and walkouts dominate UNGA Day Three",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790317680000,
+    "summaryEn": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
+    "summaryAr": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Multiple regions in Russia come under Ukrainian drone attacks",
+    "titleAr": "Multiple regions in Russia come under Ukrainian drone attacks",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790313515000,
+    "summaryEn": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
+    "summaryAr": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli football player sent off after gun-firing goal celebration",
+    "titleAr": "Israeli football player sent off after gun-firing goal celebration",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/israeli-football-player-sent-off-after-gun-firing-goal-celebration?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790312994000,
+    "summaryEn": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
+    "summaryAr": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "titleAr": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "source": "The Hacker News",
+    "pubDate": 1790311594000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploite…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploite…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Jewish protestors join Free Palestine march to denounce Netanyahu",
     "titleAr": "Jewish protestors join Free Palestine march to denounce Netanyahu",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jewish-protestors-join-free-palestine-march-to-denounce-netanyahu?traffic_source=rss",
@@ -48,70 +256,6 @@
     ]
   },
   {
-    "titleEn": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-    "titleAr": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-    "link": "https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790303753000,
-    "summaryEn": "Rights groups accuse UN of hosting a 'war criminal' as delegations walk out during Israeli prime minister's speech.",
-    "summaryAr": "Rights groups accuse UN of hosting a 'war criminal' as delegations walk out during Israeli prime minister's speech.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Contrasting treatment of Israel and Palestine on display at the UN",
-    "titleAr": "Contrasting treatment of Israel and Palestine on display at the UN",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/contrasting-treatment-of-israel-and-palestine-on-display-at-the-un?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790303176000,
-    "summaryEn": "Israel’s Prime Minister addressed the UN General Assembly in person, despite having an ICC arrest warrant.",
-    "summaryAr": "Israel’s Prime Minister addressed the UN General Assembly in person, despite having an ICC arrest warrant.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-    "titleAr": "More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-    "link": "https://www.aljazeera.com/news/2026/9/25/more-than-100-arrested-as-new-yorkers-protest-netanyahus-un-visit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790303056000,
-    "summaryEn": "Demonstrators blocked streets and marched towards UN headquarters as the Israeli PM addressed world leaders at UNGA.",
-    "summaryAr": "Demonstrators blocked streets and marched towards UN headquarters as the Israeli PM addressed world leaders at UNGA.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump praises US-China friendship at state dinner with Xi Jinping",
-    "titleAr": "Trump praises US-China friendship at state dinner with Xi Jinping",
-    "link": "https://www.aljazeera.com/news/2026/9/25/trump-praises-us-china-friendship-at-state-dinner-with-xi-jinping?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790301616000,
-    "summaryEn": "The two superpowers seek greater dialogue despite differences over issues such as Iran, Taiwan, AI and trade.",
-    "summaryAr": "The two superpowers seek greater dialogue despite differences over issues such as Iran, Taiwan, AI and trade.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
     "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
     "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
@@ -119,102 +263,6 @@
     "pubDate": 1790297044000,
     "summaryEn": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
     "summaryAr": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-    "titleAr": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-    "link": "https://www.aljazeera.com/economy/2026/9/25/uae-bars-iranian-airlines-as-us-sanctions-squeeze-irans-aviation-sector?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790295887000,
-    "summaryEn": "UAE joins Oman, Iraq, Azerbaijan, Georgia and Turkmenistan in restricting access to Iranian airlines.",
-    "summaryAr": "UAE joins Oman, Iraq, Azerbaijan, Georgia and Turkmenistan in restricting access to Iranian airlines.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Saudi, Turkish and Pakistani army chiefs plan urgent meeting",
-    "titleAr": "Iran war live: Saudi, Turkish and Pakistani army chiefs plan urgent meeting",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/25/iran-war-live-tehran-wants-washington-to-re-enter-mou-before-us-midterms?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790294400000,
-    "summaryEn": "Saudi, Turkish and Pakistani military chiefs arrange urgent talks over Houthi attacks.",
-    "summaryAr": "Saudi, Turkish and Pakistani military chiefs arrange urgent talks over Houthi attacks.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-    "titleAr": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-    "link": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790293916000,
-    "summaryEn": "Trump, Xi seek stable US-China ties at the White House, but differences over Iran, Taiwan and trade remain unresolved.",
-    "summaryAr": "Trump, Xi seek stable US-China ties at the White House, but differences over Iran, Taiwan and trade remain unresolved.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-    "titleAr": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-    "link": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790289159000,
-    "summaryEn": "Israeli prime minister denounces Iran, NYC Mayor Mamdani and critics accusing Israel of crimes against Palestinians.",
-    "summaryAr": "Israeli prime minister denounces Iran, NYC Mayor Mamdani and critics accusing Israel of crimes against Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump and Xi hold critical talks at White House summit",
-    "titleAr": "Trump and Xi hold critical talks at White House summit",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790286100000,
-    "summaryEn": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
-    "summaryAr": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-    "titleAr": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790284110000,
-    "summaryEn": "Dutch PM Rob Jetten says Israeli Prime Minister Benjamin Netanyahu should be at the UNGA despite an ICC arrest warrant.",
-    "summaryAr": "Dutch PM Rob Jetten says Israeli Prime Minister Benjamin Netanyahu should be at the UNGA despite an ICC arrest warrant.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -663,54 +711,6 @@
     "pubDate": 1790080140000,
     "summaryEn": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
     "summaryAr": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The fl…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens WTV676 and WTV776",
-    "titleAr": "Siemens WTV676 and WTV776",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-    "source": "CISA Advisories",
-    "pubDate": 1790078400000,
-    "summaryEn": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
-    "summaryAr": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain condition…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "lwIP TCP/IP Stack MQTT Client Application",
-    "titleAr": "lwIP TCP/IP Stack MQTT Client Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-    "source": "CISA Advisories",
-    "pubDate": 1790078400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790078400000,
-    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
-    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Product…",
     "tags": [
       {
         "textEn": "INTEL",
