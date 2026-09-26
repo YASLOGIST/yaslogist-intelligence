@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2025-6625",
-        "system": "Modicon M340",
+        "id": "CVE-2026-87886",
+        "system": "Acronis Backup plugin for cPanel & WHM",
         "severity": "High",
-        "cvss": 8.7,
+        "cvss": 7.8,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-13337",
-        "system": "NetBotz 5 - 750/755",
+        "id": "CVE-2024-7941",
+        "system": "MicroSCADA SYS600",
         "severity": "Medium",
-        "cvss": 5.1,
+        "cvss": 4.3,
         "badge": "badge-medium"
     },
     {
-        "id": "CVE-2026-13336",
-        "system": "NetBotz 5 - 750/755",
-        "severity": "High",
-        "cvss": 7.3,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-77960",
-        "system": "ELD",
-        "severity": "Medium",
-        "cvss": 6.9,
-        "badge": "badge-medium"
-    },
-    {
-        "id": "CVE-2026-86689",
-        "system": "ELD",
-        "severity": "High",
-        "cvss": 8.2,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2026-86520",
-        "system": "ELD",
-        "severity": "High",
-        "cvss": 8.7,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2024-3982",
+        "id": "CVE-2024-7940",
         "system": "MicroSCADA SYS600",
         "severity": "High",
-        "cvss": 8.2,
+        "cvss": 8.3,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-13348",
-        "system": "PowerChute™ Serial Shutdown",
-        "severity": "Medium",
-        "cvss": 6.9,
-        "badge": "badge-medium"
+        "id": "CVE-2024-3980",
+        "system": "MicroSCADA X SYS600",
+        "severity": "Critical",
+        "cvss": 9.9,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2024-4872",
+        "system": "MicroSCADA X SYS600",
+        "severity": "Critical",
+        "cvss": 9.9,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-15688",
+        "system": "GX Works3",
+        "severity": "Critical",
+        "cvss": 9.2,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-13584",
+        "system": "MELSEC MX Controller MX-R model MXR300-16",
+        "severity": "High",
+        "cvss": 7.1,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2025-39682",
+        "system": "Linux",
+        "severity": "Critical",
+        "cvss": 9.8,
+        "badge": "badge-critical"
     }
 ]
