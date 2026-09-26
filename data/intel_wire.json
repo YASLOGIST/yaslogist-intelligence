@@ -1,5 +1,101 @@
 [
   {
+    "titleEn": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
+    "titleAr": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790451783000,
+    "summaryEn": "At the UN, Saudi Arabia accused Iran of attacks across the region and called for action against the Houthis.",
+    "summaryAr": "At the UN, Saudi Arabia accused Iran of attacks across the region and called for action against the Houthis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Ireland decide to play Israel in Nations League after squad vote",
+    "titleAr": "Ireland decide to play Israel in Nations League after squad vote",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/ireland-decide-to-play-israel-in-nations-league-after-squad-vote?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790451777000,
+    "summaryEn": "Ireland's players have voted to proceed with their Nations League fixture against Israel on Sunday.",
+    "summaryAr": "Ireland's players have voted to proceed with their Nations League fixture against Israel on Sunday.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "titleAr": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790449414000,
+    "summaryEn": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat …",
+    "summaryAr": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump rejects Iranian offer to reopen Strait of Hormuz",
+    "titleAr": "Trump rejects Iranian offer to reopen Strait of Hormuz",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790445643000,
+    "summaryEn": "US President Donald Trump has rejected Iran’s latest proposal to reopen the Strait of Hormuz to shipping.",
+    "summaryAr": "US President Donald Trump has rejected Iran’s latest proposal to reopen the Strait of Hormuz to shipping.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iraq seeks US exemption from ban on Iranian flights",
+    "titleAr": "Iraq seeks US exemption from ban on Iranian flights",
+    "link": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790444111000,
+    "summaryEn": "Ali al-Zaidi government urges dialogue to de-escalate regional tensions amid US sanctions on Iranian airlines.",
+    "summaryAr": "Ali al-Zaidi government urges dialogue to de-escalate regional tensions amid US sanctions on Iranian airlines.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Stop arming Israel’: Pro-Palestine protesters march on Labour conference",
+    "titleAr": "‘Stop arming Israel’: Pro-Palestine protesters march on Labour conference",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/stop-arming-israel-pro-palestine-protesters-march-on-labour-conference?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790443639000,
+    "summaryEn": "Pro-Palestine protesters have marched on Labour’s annual conference in Liverpool.",
+    "summaryAr": "Pro-Palestine protesters have marched on Labour’s annual conference in Liverpool.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "At least 10 people killed in Russian and Ukrainian attacks",
     "titleAr": "At least 10 people killed in Russian and Ukrainian attacks",
     "link": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks?traffic_source=rss",
@@ -71,86 +167,6 @@
     "pubDate": 1790433381000,
     "summaryEn": "Ireland have delayed their pre-match media briefing and training as pressure grew, but player vote avoids game boycott.",
     "summaryAr": "Ireland have delayed their pre-match media briefing and training as pressure grew, but player vote avoids game boycott.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "The intelligence war is turning against the Houthis",
-    "titleAr": "The intelligence war is turning against the Houthis",
-    "link": "https://www.aljazeera.com/opinions/2026/9/26/the-intelligence-war-is-turning-against-the-houthis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790429380000,
-    "summaryEn": "Russian-Iranian intelligence helped the Houthis' offensive on the Red Sea coast. Now that system is under attack.",
-    "summaryAr": "Russian-Iranian intelligence helped the Houthis' offensive on the Red Sea coast. Now that system is under attack.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Girl disabled by Israeli strike urges wheelchairs be let into Gaza",
-    "titleAr": "Girl disabled by Israeli strike urges wheelchairs be let into Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/girl-disabled-by-israeli-strike-urges-wheelchairs-be-let-into-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790428953000,
-    "summaryEn": "Disabled and amputee children in Gaza are unable to get new wheelchairs as Israel refuses to allow them in",
-    "summaryAr": "Disabled and amputee children in Gaza are unable to get new wheelchairs as Israel refuses to allow them in",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mecca defence alliance chiefs meet amid Houthi attacks",
-    "titleAr": "Mecca defence alliance chiefs meet amid Houthi attacks",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-saudi-turkiye-pakistan-chiefs-riy-ks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790426930000,
-    "summaryEn": "Defence chiefs from Saudi Arabia, Turkiye and Pakistan have been meeting in Riyadh to discuss support for Saudi Arabia.",
-    "summaryAr": "Defence chiefs from Saudi Arabia, Turkiye and Pakistan have been meeting in Riyadh to discuss support for Saudi Arabia.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Why has the Yemen government called for a general mobilisation?",
-    "titleAr": "Why has the Yemen government called for a general mobilisation?",
-    "link": "https://www.aljazeera.com/news/2026/9/26/why-has-the-yemen-government-called-for-a-general-mobilisation?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790426778000,
-    "summaryEn": "Yemeni government offers amnesty to Houthi defectors, aiming to weaken rebel ranks and rebuild national unity.",
-    "summaryAr": "Yemeni government offers amnesty to Houthi defectors, aiming to weaken rebel ranks and rebuild national unity.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Pressure to boycott Israel game grows as Ireland preparations stall",
-    "titleAr": "Pressure to boycott Israel game grows as Ireland preparations stall",
-    "link": "https://www.aljazeera.com/sports/2026/9/26/pressure-to-boycott-israel-game-grows-as-ireland-preparations-stall?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790423288000,
-    "summaryEn": "Ireland are due to play Israel in the Nations League in Hungary on Sunday, but boycott pressure mounts on and off-field.",
-    "summaryAr": "Ireland are due to play Israel in the Nations League in Hungary on Sunday, but boycott pressure mounts on and off-field.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -700,22 +716,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "titleAr": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790084349000,
-    "summaryEn": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
-    "summaryAr": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
