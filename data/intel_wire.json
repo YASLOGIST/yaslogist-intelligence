@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+    "titleAr": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790466570000,
+    "summaryEn": "Iran’s Pezeshkian says Tehran no longer trusts US talks, shortly before Trump rejected its Hormuz proposal.",
+    "summaryAr": "Iran’s Pezeshkian says Tehran no longer trusts US talks, shortly before Trump rejected its Hormuz proposal.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia scales up strikes on Ukraine as largest steelmaker halts operations",
+    "titleAr": "Russia scales up strikes on Ukraine as largest steelmaker halts operations",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/russia-scales-up-strikes-on-ukraine-as-largest-steelmaker-halts-operations?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790456274000,
+    "summaryEn": "A wave of Russian strikes has hit various regions across Ukraine.",
+    "summaryAr": "A wave of Russian strikes has hit various regions across Ukraine.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why is violence between Pakistan and Afghanistan recurring?",
+    "titleAr": "Why is violence between Pakistan and Afghanistan recurring?",
+    "link": "https://www.aljazeera.com/video/inside-story/2026/9/26/why-is-violence-between-pakistan-and-afghanistan-recurring?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790456144000,
+    "summaryEn": "Pakistan has carried out new strikes inside Afghanistan.",
+    "summaryAr": "Pakistan has carried out new strikes inside Afghanistan.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hamas slams Board of Peace for refusal to work with UNRWA in Gaza",
+    "titleAr": "Hamas slams Board of Peace for refusal to work with UNRWA in Gaza",
+    "link": "https://www.aljazeera.com/news/2026/9/26/hamas-slams-board-of-peace-for-refusal-to-work-with-unrwa-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790454785000,
+    "summaryEn": "Hamas accuses Board of Peace of aligning with Israel after excluding UN agency for Palestinians from Gaza operations.",
+    "summaryAr": "Hamas accuses Board of Peace of aligning with Israel after excluding UN agency for Palestinians from Gaza operations.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
     "titleAr": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
@@ -87,86 +151,6 @@
     "pubDate": 1790443639000,
     "summaryEn": "Pro-Palestine protesters have marched on Labour’s annual conference in Liverpool.",
     "summaryAr": "Pro-Palestine protesters have marched on Labour’s annual conference in Liverpool.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "At least 10 people killed in Russian and Ukrainian attacks",
-    "titleAr": "At least 10 people killed in Russian and Ukrainian attacks",
-    "link": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790439409000,
-    "summaryEn": "New strikes come as Russian FM accuses Europe of doing 'everything it can to thwart peace talks' with Ukraine.",
-    "summaryAr": "New strikes come as Russian FM accuses Europe of doing 'everything it can to thwart peace talks' with Ukraine.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: violence continues as the world watches the UNGA",
-    "titleAr": "Jerusalem Daily: violence continues as the world watches the UNGA",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/jerusalem-daily-violence-continues-as-the-world-watches-the-unga?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790439275000,
-    "summaryEn": "As the UN General Assembly enters its fifth day, with world leaders denouncing Israeli violence against Palestinians.",
-    "summaryAr": "As the UN General Assembly enters its fifth day, with world leaders denouncing Israeli violence against Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "One year on, the UK’s recognition of Palestinian statehood is bearing fruit",
-    "titleAr": "One year on, the UK’s recognition of Palestinian statehood is bearing fruit",
-    "link": "https://www.aljazeera.com/opinions/2026/9/26/one-year-on-the-uks-recognition-of-palestinian-statehood-is-bearing-fruit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790436024000,
-    "summaryEn": "The British government is moving to translate rhetoric into policy.",
-    "summaryAr": "The British government is moving to translate rhetoric into policy.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump rejects Iran’s seven-day roadmap to reopen Strait of Hormuz",
-    "titleAr": "Trump rejects Iran’s seven-day roadmap to reopen Strait of Hormuz",
-    "link": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790434013000,
-    "summaryEn": "Tehran submitted a proposal via Qatar to reopen the strait and resume nuclear talks within a week if Washington agreed.",
-    "summaryAr": "Tehran submitted a proposal via Qatar to reopen the strait and resume nuclear talks within a week if Washington agreed.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel-Ireland match to go ahead in Nations League after player vote",
-    "titleAr": "Israel-Ireland match to go ahead in Nations League after player vote",
-    "link": "https://www.aljazeera.com/sports/2026/9/26/republic-of-ireland-players-vote-for-israel-nations-league-game-to-go-ahead?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790433381000,
-    "summaryEn": "Ireland have delayed their pre-match media briefing and training as pressure grew, but player vote avoids game boycott.",
-    "summaryAr": "Ireland have delayed their pre-match media briefing and training as pressure grew, but player vote avoids game boycott.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -716,6 +700,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "titleAr": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790084349000,
+    "summaryEn": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "summaryAr": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   }
