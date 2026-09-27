@@ -1,5 +1,149 @@
 [
   {
+    "titleEn": "‘Iran ready for doomsday war’, FM Araghchi says",
+    "titleAr": "‘Iran ready for doomsday war’, FM Araghchi says",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/iran-ready-for-doomsday-war-fm-araghchi-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790531164000,
+    "summaryEn": "Foreign Minister Abbas Araghchi says Iran is prepared for war to resume, ‘even if it comes to a doomsday war’.",
+    "summaryAr": "Foreign Minister Abbas Araghchi says Iran is prepared for war to resume, ‘even if it comes to a doomsday war’.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Mike Waltz: US offered to sell Iran uranium for civilian programme",
+    "titleAr": "Mike Waltz: US offered to sell Iran uranium for civilian programme",
+    "link": "https://www.aljazeera.com/news/2026/9/27/mike-waltz-us-offered-to-sell-iran-uranium-for-civilian-programme?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790530965000,
+    "summaryEn": "US ambassador says Iran refused to agree to an arrangement where uranium would be supplied by Washington.",
+    "summaryAr": "US ambassador says Iran refused to agree to an arrangement where uranium would be supplied by Washington.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israeli opposition leaders unite to drive out Netanyahu",
+    "titleAr": "Jerusalem Daily: Israeli opposition leaders unite to drive out Netanyahu",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790528037000,
+    "summaryEn": "Jerusalem Daily: Israeli opposition leaders unite to drive out Netanyahu",
+    "summaryAr": "Jerusalem Daily: Israeli opposition leaders unite to drive out Netanyahu",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "titleAr": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "source": "BleepingComputer",
+    "pubDate": 1790524957000,
+    "summaryEn": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
+    "summaryAr": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match?",
+    "titleAr": "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match?",
+    "link": "https://www.aljazeera.com/sports/2026/9/27/who-is-gavin-bazunu-and-why-is-he-boycotting-the-ireland-vs-israel-match?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790524278000,
+    "summaryEn": "Bazunu says his decision to withdraw was based on a 'personal belief that the killing of innocent people is wrong'.",
+    "summaryAr": "Bazunu says his decision to withdraw was based on a 'personal belief that the killing of innocent people is wrong'.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "For Libya, the Hormuz crisis can be a trap or an opportunity",
+    "titleAr": "For Libya, the Hormuz crisis can be a trap or an opportunity",
+    "link": "https://www.aljazeera.com/opinions/2026/9/27/for-libya-the-hormuz-crisis-can-be-a-trap-or-an-opportunity?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790522959000,
+    "summaryEn": "Libyan hydrocarbons are increasingly sought after. To take full advantage, the country needs a new economic strategy.",
+    "summaryAr": "Libyan hydrocarbons are increasingly sought after. To take full advantage, the country needs a new economic strategy.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Strait of Hormuz tensions linger as Iran and US move further from a deal",
+    "titleAr": "Strait of Hormuz tensions linger as Iran and US move further from a deal",
+    "link": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790519804000,
+    "summaryEn": "There are fears of renewed fighting between the US and Iran, after President Trump rejected a deal.",
+    "summaryAr": "There are fears of renewed fighting between the US and Iran, after President Trump rejected a deal.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen’s health system could collapse in some areas, minister warns",
+    "titleAr": "Yemen’s health system could collapse in some areas, minister warns",
+    "link": "https://www.aljazeera.com/news/2026/9/27/yemens-health-system-could-collapse-in-some-areas-minister-warns?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790518075000,
+    "summaryEn": "Yemen's healthcare system may not be able to support the population as war strains resources, minister tells Al Jazeera.",
+    "summaryAr": "Yemen's healthcare system may not be able to support the population as war strains resources, minister tells Al Jazeera.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s Smotrich calls for ‘war’ in West Bank: Rhetoric or real threat?",
+    "titleAr": "Israel’s Smotrich calls for ‘war’ in West Bank: Rhetoric or real threat?",
+    "link": "https://www.aljazeera.com/news/2026/9/27/israels-smotrich-urges-war-in-west-bank-poll-rhetoric-or-real-threat?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790517825000,
+    "summaryEn": "Smotrich’s words should not be dismissed as mere election rhetoric, human rights experts and analysts warn.",
+    "summaryAr": "Smotrich’s words should not be dismissed as mere election rhetoric, human rights experts and analysts warn.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
     "titleAr": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
     "link": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer?traffic_source=rss",
@@ -32,130 +176,34 @@
     ]
   },
   {
-    "titleEn": "‘My hands are empty’: Displaced Palestinians struggle to survive",
-    "titleAr": "‘My hands are empty’: Displaced Palestinians struggle to survive",
-    "link": "https://www.aljazeera.com/features/2026/9/27/my-hands-are-empty-displaced-palestinians-struggle-to-survive?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790504781000,
-    "summaryEn": "In Tulkarem and other West Bank cities, displaced Palestinians are being forced deeper into debt and poverty.",
-    "summaryAr": "In Tulkarem and other West Bank cities, displaced Palestinians are being forced deeper into debt and poverty.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli minister Bezalel Smotrich calls for war in occupied West Bank",
-    "titleAr": "Israeli minister Bezalel Smotrich calls for war in occupied West Bank",
-    "link": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790503293000,
-    "summaryEn": "Comments come as Israeli authorities announce military closure across occupied West Bank, citing Jewish holiday Sukkot.",
-    "summaryAr": "Comments come as Israeli authorities announce military closure across occupied West Bank, citing Jewish holiday Sukkot.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen government forces widen attacks against Houthis: What we know",
-    "titleAr": "Yemen government forces widen attacks against Houthis: What we know",
-    "link": "https://www.aljazeera.com/news/2026/9/27/yemen-government-forces-widen-attacks-against-houthis-what-we-know?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790503161000,
-    "summaryEn": "Yemeni government forces claim multiple air and ground operations across Taiz in 24 hours.",
-    "summaryAr": "Yemeni government forces claim multiple air and ground operations across Taiz in 24 hours.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Massive Attack singer arrested over pro-Palestine protest in UK",
-    "titleAr": "Massive Attack singer arrested over pro-Palestine protest in UK",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/massive-attack-singer-arrested-over-pro-palestine-protest-in-uk?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790498987000,
-    "summaryEn": "Massive Attack singer arrested over pro-Palestine protest in UK",
-    "summaryAr": "Massive Attack singer arrested over pro-Palestine protest in UK",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz",
-    "titleAr": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz",
-    "link": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790498972000,
-    "summaryEn": "Iran is looking for alternatives to export its oil as the US blockades its southern ports.",
-    "summaryAr": "Iran is looking for alternatives to export its oil as the US blockades its southern ports.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Djibouti urges world to help as Yemen war drives refugee influx",
-    "titleAr": "Djibouti urges world to help as Yemen war drives refugee influx",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/djibouti-urges-world-to-help-as-yemen-war-drives-refugee-influx?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790498125000,
-    "summaryEn": "Djibouti urges world to help as Yemen war drives refugee influx",
-    "summaryAr": "Djibouti urges world to help as Yemen war drives refugee influx",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel’s Netanyahu criticises opposition uniting against him for elections",
-    "titleAr": "Israel’s Netanyahu criticises opposition uniting against him for elections",
-    "link": "https://www.aljazeera.com/news/2026/9/27/israels-netanyahu-criticises-opposition-uniting-against-him-for-election?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790496622000,
-    "summaryEn": "Five opposition leaders agree to cooperate to boost voter turnout to secure a majority in the October 27 elections.",
-    "summaryAr": "Five opposition leaders agree to cooperate to boost voter turnout to secure a majority in the October 27 elections.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "titleAr": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
     "source": "The Hacker News",
     "pubDate": 1790495277000,
-    "summaryEn": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, secur…",
-    "summaryAr": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, secur…",
+    "summaryEn": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re…",
+    "summaryAr": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re…",
     "tags": [
       {
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+    "titleAr": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+    "link": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790495051000,
+    "summaryEn": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
+    "summaryAr": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -663,54 +711,6 @@
     "pubDate": 1790101779000,
     "summaryEn": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, a…",
     "summaryAr": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, a…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Watch: Trump threatens to 'annihilate' Iran if no deal reached",
-    "titleAr": "Watch: Trump threatens to 'annihilate' Iran if no deal reached",
-    "link": "https://www.bbc.co.uk/news/videos/cmvgydqqlyx9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790098536000,
-    "summaryEn": "US President Donald Trump presented Iran with a stark choice: reach an agreement or face the rapid “annihilation” of the Islamic Republic.",
-    "summaryAr": "US President Donald Trump presented Iran with a stark choice: reach an agreement or face the rapid “annihilation” of the Islamic Republic.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-    "titleAr": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-    "source": "The Hacker News",
-    "pubDate": 1790095272000,
-    "summaryEn": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
-    "summaryAr": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on t…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-    "titleAr": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-    "source": "The Hacker News",
-    "pubDate": 1790093644000,
-    "summaryEn": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on Septemb…",
-    "summaryAr": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on Septemb…",
     "tags": [
       {
         "textEn": "ZERO-DAY",
