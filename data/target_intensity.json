@@ -7,15 +7,15 @@
         "class": "intensity-high"
     },
     {
-        "country": "Israel",
-        "attacks": "6",
-        "intensity": "High",
-        "trend": "up",
-        "class": "intensity-high"
-    },
-    {
         "country": "Yemen",
         "attacks": "4",
+        "intensity": "Medium",
+        "trend": "up",
+        "class": "intensity-med"
+    },
+    {
+        "country": "Israel",
+        "attacks": "3",
         "intensity": "Medium",
         "trend": "up",
         "class": "intensity-med"
