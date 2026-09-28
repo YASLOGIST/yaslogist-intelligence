@@ -1,12 +1,108 @@
 [
   {
-    "titleEn": "Child among three killed off French coast in Channel crossing attempt",
-    "titleAr": "Child among three killed off French coast in Channel crossing attempt",
-    "link": "https://www.aljazeera.com/news/2026/9/28/child-among-three-killed-off-french-coast-in-channel-crossing-attempt?traffic_source=rss",
+    "titleEn": "UAE confirms Netanyahu visit to Abu Dhabi",
+    "titleAr": "UAE confirms Netanyahu visit to Abu Dhabi",
+    "link": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790597291000,
-    "summaryEn": "France's maritime police ‌‌said ​they received a distress ​call from an inflatable dinghy carrying 105 people.",
-    "summaryAr": "France's maritime police ‌‌said ​they received a distress ​call from an inflatable dinghy carrying 105 people.",
+    "pubDate": 1790624550000,
+    "summaryEn": "The visit took place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.",
+    "summaryAr": "The visit took place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Myanmar army air strike kills dozens in Rakhine state",
+    "titleAr": "Myanmar army air strike kills dozens in Rakhine state",
+    "link": "https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790623887000,
+    "summaryEn": "Nearly half a million people are displaced in Rakhine as a result of the conflict between the military and rebel groups.",
+    "summaryAr": "Nearly half a million people are displaced in Rakhine as a result of the conflict between the military and rebel groups.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "titleAr": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+    "source": "The Hacker News",
+    "pubDate": 1790623081000,
+    "summaryEn": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
+    "summaryAr": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "American and six Ukrainians released by India after six months in jail",
+    "titleAr": "American and six Ukrainians released by India after six months in jail",
+    "link": "https://www.aljazeera.com/news/2026/9/28/american-and-six-ukrainians-released-by-india-after-six-months-in-jail?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790622173000,
+    "summaryEn": "Matthew VanDyke and six Ukrainians were accused of smuggling weapons and drones to armed ethnic groups fighting India.",
+    "summaryAr": "Matthew VanDyke and six Ukrainians were accused of smuggling weapons and drones to armed ethnic groups fighting India.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flights between Iraq’s Najaf and Iran resumed as Tehran protests US curbs",
+    "titleAr": "Flights between Iraq’s Najaf and Iran resumed as Tehran protests US curbs",
+    "link": "https://www.aljazeera.com/news/2026/9/28/flights-between-iraqs-najaf-and-iran-resumed-as-tehran-protests-us-curbs?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790621424000,
+    "summaryEn": "Tehran filed a UN complaint against US sanctions forcing regional cancellations of Iran flights.",
+    "summaryAr": "Tehran filed a UN complaint against US sanctions forcing regional cancellations of Iran flights.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump made the right decision to reject Iran’s offer",
+    "titleAr": "Trump made the right decision to reject Iran’s offer",
+    "link": "https://www.aljazeera.com/opinions/2026/9/28/trump-made-the-right-decision-to-reject-irans-offer?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790619386000,
+    "summaryEn": "The US president has denied Tehran the opportunity to use the US midterm elections as a pressure point.",
+    "summaryAr": "The US president has denied Tehran the opportunity to use the US midterm elections as a pressure point.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran touts Hormuz attacks as oil flows increase despite tensions",
+    "titleAr": "Iran touts Hormuz attacks as oil flows increase despite tensions",
+    "link": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790617390000,
+    "summaryEn": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
+    "summaryAr": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -16,13 +112,13 @@
     ]
   },
   {
-    "titleEn": "Israeli fans direct monkey chants and military slogans at Ireland’s players",
-    "titleAr": "Israeli fans direct monkey chants and military slogans at Ireland’s players",
-    "link": "https://www.aljazeera.com/sports/2026/9/28/israeli-fans-monkey-chants-ireland-adam-idah-uefa-nations-league?traffic_source=rss",
+    "titleEn": "Photos: Russian drone strikes pound civilian targets across Kyiv",
+    "titleAr": "Photos: Russian drone strikes pound civilian targets across Kyiv",
+    "link": "https://www.aljazeera.com/gallery/2026/9/28/photos-aftermath-of-a-russian-drone-attack-in-kyiv?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790595807000,
-    "summaryEn": "Israeli fans directed monkey chants at Ireland's Adam Idah, who scored a goal in his team's 3-0 Nations League win.",
-    "summaryAr": "Israeli fans directed monkey chants at Ireland's Adam Idah, who scored a goal in his team's 3-0 Nations League win.",
+    "pubDate": 1790617056000,
+    "summaryEn": "Ukraine condemns Russian targeting of civilians as strikes kill seven and injure dozens across Kyiv.",
+    "summaryAr": "Ukraine condemns Russian targeting of civilians as strikes kill seven and injure dozens across Kyiv.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +128,13 @@
     ]
   },
   {
-    "titleEn": "Israeli football fans chant military slogans after defeat to Ireland",
-    "titleAr": "Israeli football fans chant military slogans after defeat to Ireland",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/israeli-football-fans-chant-military-slogans-after-defeat-to-ireland?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790593803000,
-    "summaryEn": "Israeli football fans chant military slogans after defeat to Ireland",
-    "summaryAr": "Israeli football fans chant military slogans after defeat to Ireland",
+    "titleEn": "Iran court upholds lashes sentence for singer who performed without hijab",
+    "titleAr": "Iran court upholds lashes sentence for singer who performed without hijab",
+    "link": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790615700000,
+    "summaryEn": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
+    "summaryAr": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +144,13 @@
     ]
   },
   {
-    "titleEn": "Palestinians denounce Israeli minister Ben-Gvir’s threats against prisoner",
-    "titleAr": "Palestinians denounce Israeli minister Ben-Gvir’s threats against prisoner",
-    "link": "https://www.aljazeera.com/news/2026/9/28/palestinians-denounce-israeli-minister-ben-gvirs-threats-against-prisoner?traffic_source=rss",
+    "titleEn": "Russia strike sets National Academy of Sciences of Ukraine ablaze",
+    "titleAr": "Russia strike sets National Academy of Sciences of Ukraine ablaze",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/russia-strike-sets-national-academy-of-sciences-of-ukraine-ablaze?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790590288000,
-    "summaryEn": "Footage of national security minister taunting Hassan Salama in his cell draws sharp condemnation from Palestinians.",
-    "summaryAr": "Footage of national security minister taunting Hassan Salama in his cell draws sharp condemnation from Palestinians.",
+    "pubDate": 1790615160000,
+    "summaryEn": "A Russian drone struck the National Academy of Sciences of Ukraine in central Kyiv, killing one person",
+    "summaryAr": "A Russian drone struck the National Academy of Sciences of Ukraine in central Kyiv, killing one person",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,82 +160,34 @@
     ]
   },
   {
-    "titleEn": "Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz",
-    "titleAr": "Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz",
-    "link": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz?traffic_source=rss",
+    "titleEn": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
+    "titleAr": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/jerusalem-daily-israeli-incursions-at-al-aqsa-mosque?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790587049000,
-    "summaryEn": "Brent crude rises more than 3 percent to top $107 a barrel as Washington dismisses Tehran's proposal to end war.",
-    "summaryAr": "Brent crude rises more than 3 percent to top $107 a barrel as Washington dismisses Tehran's proposal to end war.",
+    "pubDate": 1790612694000,
+    "summaryEn": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
+    "summaryAr": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "titleAr": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+    "source": "BleepingComputer",
+    "pubDate": 1790610567000,
+    "summaryEn": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+    "summaryAr": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Azeez Al-Shaair honours slain Palestinian sisters despite NFL sanctions",
-    "titleAr": "Azeez Al-Shaair honours slain Palestinian sisters despite NFL sanctions",
-    "link": "https://www.aljazeera.com/sports/2026/9/28/azeez-al-shaair-honours-slain-palestinian-sisters-despite-nfl-sanctions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790586765000,
-    "summaryEn": "The Houston Texans linebacker wore eye black with the names of slain sisters Lana, 12, and Bana, eight.",
-    "summaryAr": "The Houston Texans linebacker wore eye black with the names of slain sisters Lana, 12, and Bana, eight.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mapping Israel’s 300 checkpoints: Where they are and how they work",
-    "titleAr": "Mapping Israel’s 300 checkpoints: Where they are and how they work",
-    "link": "https://www.aljazeera.com/news/2026/9/28/mapping-israels-300-checkpoints-where-they-are-and-how-they-work?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790585437000,
-    "summaryEn": "Israel has shut occupied West Bank crossings for a week, further restricting Palestinian movement and holy site access.",
-    "summaryAr": "Israel has shut occupied West Bank crossings for a week, further restricting Palestinian movement and holy site access.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Police probe ‘terror’ incident near RAF base used in Iran war: What we know",
-    "titleAr": "Police probe ‘terror’ incident near RAF base used in Iran war: What we know",
-    "link": "https://www.aljazeera.com/news/2026/9/28/terror-incident-near-raf-base-used-for-iran-war-what-we-know?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790585056000,
-    "summaryEn": "Five men were arrested on suspicion of the 'preparation of a terrorist act' near RAF Fairford, a base used by the US.",
-    "summaryAr": "Five men were arrested on suspicion of the 'preparation of a terrorist act' near RAF Fairford, a base used by the US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran’s children return to school under the shadow of war",
-    "titleAr": "Iran’s children return to school under the shadow of war",
-    "link": "https://www.aljazeera.com/features/2026/9/28/irans-children-return-to-school-under-the-shadow-of-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790583949000,
-    "summaryEn": "Iranian children have missed schooling due to the US war.",
-    "summaryAr": "Iranian children have missed schooling due to the US war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -151,22 +199,6 @@
     "pubDate": 1790580109000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) ca…",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) ca…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian strikes kill eight, injure dozens across Ukraine",
-    "titleAr": "Russian strikes kill eight, injure dozens across Ukraine",
-    "link": "https://www.aljazeera.com/news/2026/9/28/russian-strikes-kill-eight-injure-dozens-across-ukraine?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790571971000,
-    "summaryEn": "Ukrainian leader Zelenskyy says Moscow launched nearly 4,000 drones, aerial bombs and missiles on Ukraine in past week.",
-    "summaryAr": "Ukrainian leader Zelenskyy says Moscow launched nearly 4,000 drones, aerial bombs and missiles on Ukraine in past week.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -348,38 +380,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "titleAr": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "pubDate": 1790372467000,
-    "summaryEn": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelli…",
-    "summaryAr": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelli…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-    "titleAr": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-    "source": "BleepingComputer",
-    "pubDate": 1790369875000,
-    "summaryEn": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that …",
-    "summaryAr": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that …",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
       }
     ]
   },
