@@ -91,6 +91,26 @@ body {
     letter-spacing: -0.01em;
 }
 
+/* Keyboard and motion accessibility */
+:where(button, a, input):focus-visible {
+    outline: 2px solid var(--yas-cyan);
+    outline-offset: 3px;
+}
+
+button:disabled {
+    cursor: wait;
+    opacity: 0.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
 /* Color Accent Classes */
 .text-gold { color: var(--yas-gold) !important; }
 .text-cyan { color: var(--yas-cyan) !important; }
