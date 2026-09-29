@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#07090e">
+    <meta name="color-scheme" content="dark">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description" content="YASLOGIST bilingual cyber threat intelligence and maritime logistics radar.">
     <title>YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR</title>
     
     <!-- Google Fonts: Cairo, IBM Plex Sans Arabic, JetBrains Mono, Fira Code, Orbitron -->
@@ -19,6 +23,7 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="styles.css?v=16">
+    <link rel="stylesheet" href="smart-operations.css?v=1">
 </head>
 <body class="yaslogist-terminal">
     <!-- Background Canvas Container for OGL <AcidSquares /> -->
@@ -100,9 +105,12 @@
                         <span class="status-signal-dot"></span>
                         <span class="status-pill-text mono" data-i18n="statusLiveFeed">FEED: LIVE ENCRYPTED</span>
                     </div>
-                    <button class="lang-toggle-btn" id="langToggleBtn" title="Toggle Language / تبديل اللغة">
+                    <button class="lang-toggle-btn" id="langToggleBtn" type="button" title="Toggle Language / تبديل اللغة" aria-label="Toggle interface language">
                         <i class="fa-solid fa-language"></i>
                         <span class="lang-text" id="langBtnText">العربية</span>
+                    </button>
+                    <button class="lang-toggle-btn command-launcher" id="commandLauncher" type="button" title="Open command palette" aria-label="Open command palette">
+                        <i class="fa-solid fa-terminal"></i><span class="mono">⌘K</span>
                     </button>
                 </div>
             </div>

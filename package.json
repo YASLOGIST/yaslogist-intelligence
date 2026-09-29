@@ -1,0 +1,13 @@
+{
+  "name": "yaslogist-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static bilingual CTI and maritime logistics threat radar",
+  "scripts": {
+    "check": "node --check update_data.js && node --check --input-type=module < app.js && node --check --input-type=module < threat-map.js && node --check --input-type=module < acid-squares-bg.js",
+    "ingest": "node update_data.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
