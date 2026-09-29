@@ -1,5 +1,165 @@
 [
   {
+    "titleEn": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+    "titleAr": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+    "source": "Dark Reading",
+    "pubDate": 1790717489000,
+    "summaryEn": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+    "summaryAr": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Netanyahu targets Qatar to deflect from Gaza war crimes’",
+    "titleAr": "‘Netanyahu targets Qatar to deflect from Gaza war crimes’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/netanyahu-targets-qatar-to-deflect-from-gaza-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790717047000,
+    "summaryEn": "In an interview with British broadcaster Piers Morgan, Qatar’s prime minister accused Israeli’s Netanyahu of war crimes",
+    "summaryAr": "In an interview with British broadcaster Piers Morgan, Qatar’s prime minister accused Israeli’s Netanyahu of war crimes",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What is white phosphorus, and why is Israel using it in Lebanon?",
+    "titleAr": "What is white phosphorus, and why is Israel using it in Lebanon?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-is-white-phosphorus-and-why-is-israel-using-it-in-lebanon?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790715935000,
+    "summaryEn": "White phosphorus can cause severe burns, ignite repeatedly and produce intense heat and toxic smoke.",
+    "summaryAr": "White phosphorus can cause severe burns, ignite repeatedly and produce intense heat and toxic smoke.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What we know about RAF Fairford ‘bomb plot’",
+    "titleAr": "What we know about RAF Fairford ‘bomb plot’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-we-know-about-raf-fairford-bomb?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790715320000,
+    "summaryEn": "A police alert turned into a potential Iranian “bomb plot” against a British military base used by the US.",
+    "summaryAr": "A police alert turned into a potential Iranian “bomb plot” against a British military base used by the US.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US sanctions 10 entities for allegedly supporting Iran’s military",
+    "titleAr": "US sanctions 10 entities for allegedly supporting Iran’s military",
+    "link": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790714914000,
+    "summaryEn": "Individuals and firms in China, Pakistan, Turkiye, Iran and Saudi Arabia sanctioned as part of a pressure campaign.",
+    "summaryAr": "Individuals and firms in China, Pakistan, Turkiye, Iran and Saudi Arabia sanctioned as part of a pressure campaign.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Has Gaza broken the Israel consensus in the US?",
+    "titleAr": "Has Gaza broken the Israel consensus in the US?",
+    "link": "https://www.aljazeera.com/video/lets-focus/2026/9/29/has-gaza-broken-the-israel-consensus-in-the-us?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790712341000,
+    "summaryEn": "For decades, Israel was untouchable in Washington. Gaza changed that. Josh Rushing investigates how and what comes next.",
+    "summaryAr": "For decades, Israel was untouchable in Washington. Gaza changed that. Josh Rushing investigates how and what comes next.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israeli worshippers attack Palestinian man",
+    "titleAr": "Jerusalem Daily: Israeli worshippers attack Palestinian man",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_j_daily_israeli-worshippers-attack-palestinian-man-290926?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790707890000,
+    "summaryEn": "Settler pogroms intensify as a total lockdown of the occupied West Bank enters its third day.",
+    "summaryAr": "Settler pogroms intensify as a total lockdown of the occupied West Bank enters its third day.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "titleAr": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "source": "BleepingComputer",
+    "pubDate": 1790707032000,
+    "summaryEn": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and…",
+    "summaryAr": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump administration ‘must be changed’: Iran’s IRGC appeals to US voters",
+    "titleAr": "Trump administration ‘must be changed’: Iran’s IRGC appeals to US voters",
+    "link": "https://www.aljazeera.com/news/2026/9/29/trump-administration-must-be-changed-irans-irgc-appeals-to-us-voters?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790704271000,
+    "summaryEn": "Iran's military has issued an open letter accusing Trump of lying to US citizens about the state of the ongoing war.",
+    "summaryAr": "Iran's military has issued an open letter accusing Trump of lying to US citizens about the state of the ongoing war.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike",
+    "titleAr": "Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/mourners-in-gaza-bury-remains-of-loved-ones-killed-in-2023-israeli-strike?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790701079000,
+    "summaryEn": "Dozens of mourners in Gaza grieve the loss of their loved ones as they bury the fragmented remains of relatives killed.",
+    "summaryAr": "Dozens of mourners in Gaza grieve the loss of their loved ones as they bury the fragmented remains of relatives killed.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Yemen’s war disrupts roads and ports, deepening humanitarian crisis",
     "titleAr": "Yemen’s war disrupts roads and ports, deepening humanitarian crisis",
     "link": "https://www.aljazeera.com/news/2026/9/29/yemens-war-disrupts-roads-and-ports-deepening-humanitarian-crisis?traffic_source=rss",
@@ -7,54 +167,6 @@
     "pubDate": 1790696857000,
     "summaryEn": "Civilian displacement surges as key Yemen roads close, leaving thousands in camps amid dire humanitarian challenges.",
     "summaryAr": "Civilian displacement surges as key Yemen roads close, leaving thousands in camps amid dire humanitarian challenges.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ireland undecided on approach for next game against Israel, coach says",
-    "titleAr": "Ireland undecided on approach for next game against Israel, coach says",
-    "link": "https://www.aljazeera.com/sports/2026/9/29/ireland-undecided-on-approach-for-next-game-against-israel-coach-says?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790696022000,
-    "summaryEn": "Ireland played the first Nations League game despite unease among some players over Israel's genocidal war in Gaza.",
-    "summaryAr": "Ireland played the first Nations League game despite unease among some players over Israel's genocidal war in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US-Iran talks in New York: What’s the latest?",
-    "titleAr": "US-Iran talks in New York: What’s the latest?",
-    "link": "https://www.aljazeera.com/news/2026/9/29/us-iran-talks-in-new-york-whats-the-latest?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790694593000,
-    "summaryEn": "Both sides remain interested in a diplomatic settlement but differ on how to achieve one.",
-    "summaryAr": "Both sides remain interested in a diplomatic settlement but differ on how to achieve one.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Photos: French students protest, public workers strike before budget cuts",
-    "titleAr": "Photos: French students protest, public workers strike before budget cuts",
-    "link": "https://www.aljazeera.com/gallery/2026/9/29/photos-french-studentspublic-workers-protest-macrons-planned-budget-cuts?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790693503000,
-    "summaryEn": "About 40 people have been arrested and 10 injured as protesting students clash with police.",
-    "summaryAr": "About 40 people have been arrested and 10 injured as protesting students clash with police.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,38 +192,6 @@
     ]
   },
   {
-    "titleEn": "Are Houthis using new modified cruise missiles in Yemen’s war?",
-    "titleAr": "Are Houthis using new modified cruise missiles in Yemen’s war?",
-    "link": "https://www.aljazeera.com/features/2026/9/29/are-houthis-using-new-modified-cruise-missiles-in-yemens-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790688148000,
-    "summaryEn": "Experts say use of modified Iranian defence system could alter the balance in the fight for the Red Sea.",
-    "summaryAr": "Experts say use of modified Iranian defence system could alter the balance in the fight for the Red Sea.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran downplays possible role in Houthis’ recent Yemen victories",
-    "titleAr": "Iran downplays possible role in Houthis’ recent Yemen victories",
-    "link": "https://www.aljazeera.com/news-analysis/2026/9/29/iran-downplays-their-possible-role-in-houthis-recent-yemen-victories?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790688034000,
-    "summaryEn": "Iran has long been accused of links with the Houthis in Yemen, but how far do these links go?",
-    "summaryAr": "Iran has long been accused of links with the Houthis in Yemen, but how far do these links go?",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Israeli settlers attack West Bank village and block Palestinian family's return home",
     "titleAr": "Israeli settlers attack West Bank village and block Palestinian family's return home",
     "link": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
@@ -124,38 +204,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iranians stock up on food and medicine as fears of new US fighting grow",
-    "titleAr": "Iranians stock up on food and medicine as fears of new US fighting grow",
-    "link": "https://www.aljazeera.com/economy/2026/9/29/iranians-stock-up-on-food-and-medicine-as-fears-of-new-us-fighting-grow?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790685130000,
-    "summaryEn": "Iran is struggling with shortages as sanctions and blockade strain food and medicine supply chains.",
-    "summaryAr": "Iran is struggling with shortages as sanctions and blockade strain food and medicine supply chains.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
-    "titleAr": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
-    "link": "https://www.aljazeera.com/opinions/2026/9/29/hormuz-and-yemen-iran-offers-de-escalation-at-a-price-others-will-pay?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790683200000,
-    "summaryEn": "Iran is using Hormuz to seek US concessions, relief for the Houthis and greater control over Gulf shipping.",
-    "summaryAr": "Iran is using Hormuz to seek US concessions, relief for the Houthis and greater control over Gulf shipping.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -272,6 +320,22 @@
     ]
   },
   {
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1790683200000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
     "titleAr": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
@@ -364,22 +428,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-    "titleAr": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
-    "source": "BleepingComputer",
-    "pubDate": 1790610567000,
-    "summaryEn": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
-    "summaryAr": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -560,22 +608,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790337600000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-87902 WordPress Core Remote File Incl…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-87902 WordPress Core Remote File Incl…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
     "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
     "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
@@ -684,38 +716,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Botslab G980H Dashcams",
-    "titleAr": "Botslab G980H Dashcams",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
-    "source": "CISA Advisories",
-    "pubDate": 1790251200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privile…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privile…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Eufy Omni C20, Omni X10 Pro",
-    "titleAr": "Eufy Omni C20, Omni X10 Pro",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
-    "source": "CISA Advisories",
-    "pubDate": 1790251200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code. The following versions of Eufy Om…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code. The following versions of Eufy Om…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
