@@ -1,12 +1,204 @@
 [
   {
-    "titleEn": "Iran war live: Trump says he did not offer Tehran sanctions relief",
-    "titleAr": "Iran war live: Trump says he did not offer Tehran sanctions relief",
+    "titleEn": "Israeli settlers attack Jalud village in occupied West Bank, torch homes",
+    "titleAr": "Israeli settlers attack Jalud village in occupied West Bank, torch homes",
+    "link": "https://www.aljazeera.com/news/2026/9/29/israeli-settlers-attack-jalud-village-in-occupied-west-bank-torch-homes?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790668874000,
+    "summaryEn": "A group of settlers attacked two homes belonging to the Al-Tubasi family in northern West Bank village.",
+    "summaryAr": "A group of settlers attacked two homes belonging to the Al-Tubasi family in northern West Bank village.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s West Bank road closures turn routine journeys into long ordeals",
+    "titleAr": "Israel’s West Bank road closures turn routine journeys into long ordeals",
+    "link": "https://www.aljazeera.com/news/2026/9/29/israels-west-bank-road-closures-turn-routine-journeys-into-long-ordeals?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790667846000,
+    "summaryEn": "Palestinians face delayed medical care and long journeys as Israel tightens movement restrictions across the West Bank.",
+    "summaryAr": "Palestinians face delayed medical care and long journeys as Israel tightens movement restrictions across the West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Satellite images show Gaza in ruins three years into Israel’s genocidal war",
+    "titleAr": "Satellite images show Gaza in ruins three years into Israel’s genocidal war",
+    "link": "https://www.aljazeera.com/news/2026/9/29/satellite-images-show-gaza-in-ruins-three-years-into-israels-genocidal-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790667719000,
+    "summaryEn": "Google Maps images show scale of Israel's destruction of Gaza, where more than 74,000 Palestinians have been killed.",
+    "summaryAr": "Google Maps images show scale of Israel's destruction of Gaza, where more than 74,000 Palestinians have been killed.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli forces kill Hamas commander Izz al-Din al-Beik in Gaza attack",
+    "titleAr": "Israeli forces kill Hamas commander Izz al-Din al-Beik in Gaza attack",
+    "link": "https://www.aljazeera.com/news/2026/9/29/israeli-forces-kill-hamas-commander-izz-al-din-al-beik-in-gaza-attack?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790667290000,
+    "summaryEn": "Head of Hamas's armed wing in northern Gaza killed in ⁠an Israeli strike on an apartment building in Gaza City.",
+    "summaryAr": "Head of Hamas's armed wing in northern Gaza killed in ⁠an Israeli strike on an apartment building in Gaza City.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+    "titleAr": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790667192000,
+    "summaryEn": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+    "summaryAr": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza doctors face tough decisions as patients face long waits for diagnoses",
+    "titleAr": "Gaza doctors face tough decisions as patients face long waits for diagnoses",
+    "link": "https://www.aljazeera.com/features/2026/9/29/gaza-doctors-face-tough-decisions-as-patients-face-long-waits-for-diagnoses?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790666797000,
+    "summaryEn": "Medical staff in Gaza struggle to treat patients with shortages in testing equipment.",
+    "summaryAr": "Medical staff in Gaza struggle to treat patients with shortages in testing equipment.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "AFCON qualifiers: Wissa guides DR Congo to win, Tunisia held by Botswana",
+    "titleAr": "AFCON qualifiers: Wissa guides DR Congo to win, Tunisia held by Botswana",
+    "link": "https://www.aljazeera.com/sports/2026/9/29/africa-cup-of-nations-qualifying-afcon-wissa-dr-congo-tunisia?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790662722000,
+    "summaryEn": "Democratic Republic of the Congo secure their second straight win in Group E, with striker Yoanne Wissa scoring again.",
+    "summaryAr": "Democratic Republic of the Congo secure their second straight win in Group E, with striker Yoanne Wissa scoring again.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Public transport drivers strike in Manila over soaring fuel prices",
+    "titleAr": "Public transport drivers strike in Manila over soaring fuel prices",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/29/public-transport-drivers-strike-in-manila-over-soaring-fuel-prices?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790659310000,
+    "summaryEn": "Public transport drivers in Manila begin a three-day strike over soaring fuel prices.",
+    "summaryAr": "Public transport drivers in Manila begin a three-day strike over soaring fuel prices.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Rubio, Saudi Arabia’s foreign minister hold talks on Yemen, Hormuz Strait",
+    "titleAr": "Rubio, Saudi Arabia’s foreign minister hold talks on Yemen, Hormuz Strait",
+    "link": "https://www.aljazeera.com/news/2026/9/29/rubio-saudi-arabias-foreign-minister-hold-talks-on-yemen-hormuz-strait?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790657198000,
+    "summaryEn": "Top US and Saudi diplomats discuss cooperation on security challenges, including hostilities with Yemen's Houthis.",
+    "summaryAr": "Top US and Saudi diplomats discuss cooperation on security challenges, including hostilities with Yemen's Houthis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+    "titleAr": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+    "link": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790653096000,
+    "summaryEn": "Footage of attack on Academy shows people leaning out of windows as bright flames engulf part of the historic building.",
+    "summaryAr": "Footage of attack on Academy shows people leaning out of windows as bright flames engulf part of the historic building.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
+    "titleAr": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
+    "link": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790649385000,
+    "summaryEn": "Tehran awaits reply on Hormuz plan as a US official says there will be no deal unless nuclear issues are addressed.",
+    "summaryAr": "Tehran awaits reply on Hormuz plan as a US official says there will be no deal unless nuclear issues are addressed.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: IRGC tells American people US must stop ‘war crimes’",
+    "titleAr": "Iran war live: IRGC tells American people US must stop ‘war crimes’",
     "link": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1790640000000,
-    "summaryEn": "US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.",
-    "summaryAr": "US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.",
+    "summaryEn": "Revolutionary Guard spokesman calls President Trump a 'big liar'; says US has no choice but to leave the Middle East.",
+    "summaryAr": "Revolutionary Guard spokesman calls President Trump a 'big liar'; says US has no choice but to leave the Middle East.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egyptian officials convicted of kidnapping Italian student found dead in 2016",
+    "titleAr": "Egyptian officials convicted of kidnapping Italian student found dead in 2016",
+    "link": "https://www.bbc.co.uk/news/articles/cw7v4ppj9yd6o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790638755000,
+    "summaryEn": "Giulio Regeni's tortured body was found days after he went missing on a research trip to Egypt in 2016, while studying at Cambridge University.",
+    "summaryAr": "Giulio Regeni's tortured body was found days after he went missing on a research trip to Egypt in 2016, while studying at Cambridge University.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,70 +240,6 @@
     ]
   },
   {
-    "titleEn": "Slovenia’s U-turn towards Israel",
-    "titleAr": "Slovenia’s U-turn towards Israel",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_slovenias-u-turn-towards-israel-280926?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790627751000,
-    "summaryEn": "Slovenia’s policy towards Palestine has changed sharply following a UNGA sideline meeting with Israeli PM Netanyahu.",
-    "summaryAr": "Slovenia’s policy towards Palestine has changed sharply following a UNGA sideline meeting with Israeli PM Netanyahu.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza’s young inventors build robots with what they have",
-    "titleAr": "Gaza’s young inventors build robots with what they have",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/gazas-young-inventors-build-robots-with-what-they-have?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790627662000,
-    "summaryEn": "At a youth hackathon in Gaza City, young inventors are developing robots.",
-    "summaryAr": "At a youth hackathon in Gaza City, young inventors are developing robots.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
-    "titleAr": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
-    "link": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790624550000,
-    "summaryEn": "The visit took place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.",
-    "summaryAr": "The visit took place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Myanmar army air strike kills dozens in Rakhine state",
-    "titleAr": "Myanmar army air strike kills dozens in Rakhine state",
-    "link": "https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790623887000,
-    "summaryEn": "Nearly half a million people are displaced in Rakhine as a result of the conflict between the military and rebel groups.",
-    "summaryAr": "Nearly half a million people are displaced in Rakhine as a result of the conflict between the military and rebel groups.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
     "titleAr": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
     "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
@@ -119,22 +247,6 @@
     "pubDate": 1790623081000,
     "summaryEn": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
     "summaryAr": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "American and six Ukrainians released by India after six months in jail",
-    "titleAr": "American and six Ukrainians released by India after six months in jail",
-    "link": "https://www.aljazeera.com/news/2026/9/28/american-and-six-ukrainians-released-by-india-after-six-months-in-jail?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790622173000,
-    "summaryEn": "Matthew VanDyke and six Ukrainians were accused of smuggling weapons and drones to armed ethnic groups fighting India.",
-    "summaryAr": "Matthew VanDyke and six Ukrainians were accused of smuggling weapons and drones to armed ethnic groups fighting India.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -599,118 +711,6 @@
     "pubDate": 1790228178000,
     "summaryEn": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
     "summaryAr": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's president tells Trump it will never 'bend the knee'",
-    "titleAr": "Iran's president tells Trump it will never 'bend the knee'",
-    "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790187331000,
-    "summaryEn": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
-    "summaryAr": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "titleAr": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-    "source": "The Hacker News",
-    "pubDate": 1790179601000,
-    "summaryEn": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed auth…",
-    "summaryAr": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed auth…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
-    "titleAr": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
-    "link": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
-    "source": "CISA Advisories",
-    "pubDate": 1790164800000,
-    "summaryEn": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published …",
-    "summaryAr": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-    "titleAr": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-    "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
-    "source": "The Hacker News",
-    "pubDate": 1790161938000,
-    "summaryEn": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published Sep…",
-    "summaryAr": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published Sep…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-    "titleAr": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-    "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-    "source": "The Hacker News",
-    "pubDate": 1790152188000,
-    "summaryEn": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, …",
-    "summaryAr": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, …",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "titleAr": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-    "source": "The Hacker News",
-    "pubDate": 1790152164000,
-    "summaryEn": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The a…",
-    "summaryAr": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The a…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
-    "titleAr": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
-    "link": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790143976000,
-    "summaryEn": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
-    "summaryAr": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
     "tags": [
       {
         "textEn": "INTEL",
