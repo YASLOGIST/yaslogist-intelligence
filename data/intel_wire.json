@@ -1,7 +1,87 @@
 [
   {
-    "titleEn": "UAE confirms Netanyahu visit to Abu Dhabi",
-    "titleAr": "UAE confirms Netanyahu visit to Abu Dhabi",
+    "titleEn": "Iran war live: Trump says he did not offer Tehran sanctions relief",
+    "titleAr": "Iran war live: Trump says he did not offer Tehran sanctions relief",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790640000000,
+    "summaryEn": "US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.",
+    "summaryAr": "US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "titleAr": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+    "source": "Dark Reading",
+    "pubDate": 1790629984000,
+    "summaryEn": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "summaryAr": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Japan's Keio confirms ransomware attack disrupted business systems",
+    "titleAr": "Japan's Keio confirms ransomware attack disrupted business systems",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+    "source": "BleepingComputer",
+    "pubDate": 1790629007000,
+    "summaryEn": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+    "summaryAr": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Slovenia’s U-turn towards Israel",
+    "titleAr": "Slovenia’s U-turn towards Israel",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_slovenias-u-turn-towards-israel-280926?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790627751000,
+    "summaryEn": "Slovenia’s policy towards Palestine has changed sharply following a UNGA sideline meeting with Israeli PM Netanyahu.",
+    "summaryAr": "Slovenia’s policy towards Palestine has changed sharply following a UNGA sideline meeting with Israeli PM Netanyahu.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza’s young inventors build robots with what they have",
+    "titleAr": "Gaza’s young inventors build robots with what they have",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/gazas-young-inventors-build-robots-with-what-they-have?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790627662000,
+    "summaryEn": "At a youth hackathon in Gaza City, young inventors are developing robots.",
+    "summaryAr": "At a youth hackathon in Gaza City, young inventors are developing robots.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
+    "titleAr": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
     "link": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1790624550000,
@@ -64,70 +144,6 @@
     ]
   },
   {
-    "titleEn": "Flights between Iraq’s Najaf and Iran resumed as Tehran protests US curbs",
-    "titleAr": "Flights between Iraq’s Najaf and Iran resumed as Tehran protests US curbs",
-    "link": "https://www.aljazeera.com/news/2026/9/28/flights-between-iraqs-najaf-and-iran-resumed-as-tehran-protests-us-curbs?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790621424000,
-    "summaryEn": "Tehran filed a UN complaint against US sanctions forcing regional cancellations of Iran flights.",
-    "summaryAr": "Tehran filed a UN complaint against US sanctions forcing regional cancellations of Iran flights.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump made the right decision to reject Iran’s offer",
-    "titleAr": "Trump made the right decision to reject Iran’s offer",
-    "link": "https://www.aljazeera.com/opinions/2026/9/28/trump-made-the-right-decision-to-reject-irans-offer?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790619386000,
-    "summaryEn": "The US president has denied Tehran the opportunity to use the US midterm elections as a pressure point.",
-    "summaryAr": "The US president has denied Tehran the opportunity to use the US midterm elections as a pressure point.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran touts Hormuz attacks as oil flows increase despite tensions",
-    "titleAr": "Iran touts Hormuz attacks as oil flows increase despite tensions",
-    "link": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790617390000,
-    "summaryEn": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
-    "summaryAr": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Photos: Russian drone strikes pound civilian targets across Kyiv",
-    "titleAr": "Photos: Russian drone strikes pound civilian targets across Kyiv",
-    "link": "https://www.aljazeera.com/gallery/2026/9/28/photos-aftermath-of-a-russian-drone-attack-in-kyiv?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790617056000,
-    "summaryEn": "Ukraine condemns Russian targeting of civilians as strikes kill seven and injure dozens across Kyiv.",
-    "summaryAr": "Ukraine condemns Russian targeting of civilians as strikes kill seven and injure dozens across Kyiv.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Iran court upholds lashes sentence for singer who performed without hijab",
     "titleAr": "Iran court upholds lashes sentence for singer who performed without hijab",
     "link": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
@@ -135,38 +151,6 @@
     "pubDate": 1790615700000,
     "summaryEn": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
     "summaryAr": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia strike sets National Academy of Sciences of Ukraine ablaze",
-    "titleAr": "Russia strike sets National Academy of Sciences of Ukraine ablaze",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/russia-strike-sets-national-academy-of-sciences-of-ukraine-ablaze?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790615160000,
-    "summaryEn": "A Russian drone struck the National Academy of Sciences of Ukraine in central Kyiv, killing one person",
-    "summaryAr": "A Russian drone struck the National Academy of Sciences of Ukraine in central Kyiv, killing one person",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
-    "titleAr": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/jerusalem-daily-israeli-incursions-at-al-aqsa-mosque?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790612694000,
-    "summaryEn": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
-    "summaryAr": "Jerusalem Daily: Israeli incursions at Al-Aqsa Mosque",
     "tags": [
       {
         "textEn": "INTEL",
@@ -716,6 +700,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+    "titleAr": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+    "link": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790143976000,
+    "summaryEn": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
+    "summaryAr": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   }

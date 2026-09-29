@@ -1,7 +1,7 @@
 [
     {
         "country": "Iran",
-        "attacks": "13",
+        "attacks": "11",
         "intensity": "High",
         "trend": "up",
         "class": "intensity-high"
