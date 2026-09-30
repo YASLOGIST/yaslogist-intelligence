@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
-    "titleAr": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
-    "link": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
+    "titleEn": "Flydubai flight to Israel diverted after attack on pilot",
+    "titleAr": "Flydubai flight to Israel diverted after attack on pilot",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-after-attack-on-pilot?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790755210000,
-    "summaryEn": "Airline says plane experiences 'incident' en route from Dubai to Tel Aviv, lands safely at Saudi Arabia's Tabuk airport.",
-    "summaryAr": "Airline says plane experiences 'incident' en route from Dubai to Tel Aviv, lands safely at Saudi Arabia's Tabuk airport.",
+    "pubDate": 1790768615000,
+    "summaryEn": "Dramatic video shows the aftermath of an attack on a pilot on a Flydubai flight to the Israeli city of Tel Aviv.",
+    "summaryAr": "Dramatic video shows the aftermath of an attack on a pilot on a Flydubai flight to the Israeli city of Tel Aviv.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +16,109 @@
     ]
   },
   {
-    "titleEn": "Israel-bound flight diverted after fight between pilots",
-    "titleAr": "Israel-bound flight diverted after fight between pilots",
-    "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+    "titleEn": "Ireland vs Israel Nations League match will go ahead, coach confirms",
+    "titleAr": "Ireland vs Israel Nations League match will go ahead, coach confirms",
+    "link": "https://www.aljazeera.com/sports/2026/9/30/ireland-vs-israel-nations-league-match-will-go-ahead-coach-confirms?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790768195000,
+    "summaryEn": "The Football Association of Ireland says the team will fulfil the second fixture despite public opposition.",
+    "summaryAr": "The Football Association of Ireland says the team will fulfil the second fixture despite public opposition.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+    "titleAr": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+    "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1790754686000,
-    "summaryEn": "Despite a brief emergency alert signalling a hijacking, the Israeli prime minister's office confirmed this had been ruled out.",
-    "summaryAr": "Despite a brief emergency alert signalling a hijacking, the Israeli prime minister's office confirmed this had been ruled out.",
+    "pubDate": 1790768183000,
+    "summaryEn": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
+    "summaryAr": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Bitget hacked via zero-day in third-party security products",
+    "titleAr": "Bitget hacked via zero-day in third-party security products",
+    "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+    "source": "BleepingComputer",
+    "pubDate": 1790766706000,
+    "summaryEn": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security produc…",
+    "summaryAr": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security produc…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "The October 7 warnings threatening Netanyahu’s Israeli election campaign",
+    "titleAr": "The October 7 warnings threatening Netanyahu’s Israeli election campaign",
+    "link": "https://www.aljazeera.com/news/2026/9/30/the-october-7-warnings-threatening-netanyahus-israel-election-campaign?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790766181000,
+    "summaryEn": "Netanyahu faces continued pressure over alleged warnings before the 2023 Hamas attack as October 27 elections draw near.",
+    "summaryAr": "Netanyahu faces continued pressure over alleged warnings before the 2023 Hamas attack as October 27 elections draw near.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What’s behind French student protests that turned violent?",
+    "titleAr": "What’s behind French student protests that turned violent?",
+    "link": "https://www.aljazeera.com/news/2026/9/30/whats-behind-french-student-protests-that-turned-violent?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790766079000,
+    "summaryEn": "The school protests coincide with public sector strikes over planned budget cuts.",
+    "summaryAr": "The school protests coincide with public sector strikes over planned budget cuts.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘We no longer eat three meals’: Yemen’s displaced face daily fight for food",
+    "titleAr": "‘We no longer eat three meals’: Yemen’s displaced face daily fight for food",
+    "link": "https://www.aljazeera.com/news/2026/9/30/we-no-longer-eat-three-meals-yemens-displaced-face-daily-fight-for-food?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790766070000,
+    "summaryEn": "Yemen's latest fighting has redrawn front lines after more than a decade of war, deepening hunger and displacement.",
+    "summaryAr": "Yemen's latest fighting has redrawn front lines after more than a decade of war, deepening hunger and displacement.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
+    "titleAr": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert-2?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790764179000,
+    "summaryEn": "A Flydubai plane travelling from Dubai to Israel made an emergency landing in Saudi Arabia.",
+    "summaryAr": "A Flydubai plane travelling from Dubai to Israel made an emergency landing in Saudi Arabia.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -135,118 +231,6 @@
     "pubDate": 1790743861000,
     "summaryEn": "Opposition leader dismisses Netanyahu's warning of possible attacks during next month's general election.",
     "summaryAr": "Opposition leader dismisses Netanyahu's warning of possible attacks during next month's general election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Public workers in France strike over pay as student protests turn violent",
-    "titleAr": "Public workers in France strike over pay as student protests turn violent",
-    "link": "https://www.aljazeera.com/news/2026/9/30/french-public-workers-strike-over-pay-as-student-protests-turn-violent?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790740419000,
-    "summaryEn": "Tens of thousands of workers march nationwide, as police arrest 440 students in clashes at schools.",
-    "summaryAr": "Tens of thousands of workers march nationwide, as police arrest 440 students in clashes at schools.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Somali pirates killed five crew members on hijacked tanker, officials say",
-    "titleAr": "Somali pirates killed five crew members on hijacked tanker, officials say",
-    "link": "https://www.aljazeera.com/news/2026/9/30/somali-pirates-killed-five-crew-members-on-hijacked-tanker-officials-say?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790735946000,
-    "summaryEn": "The deaths appear to be the first at the hands of Somali pirates in more than a decade.",
-    "summaryAr": "The deaths appear to be the first at the hands of Somali pirates in more than a decade.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US Senate blocks resolution seeking report on Americans killed in West Bank",
-    "titleAr": "US Senate blocks resolution seeking report on Americans killed in West Bank",
-    "link": "https://www.aljazeera.com/news/2026/9/30/us-senate-blocks-resolution-seeking-report-on-americans-killed-in-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790735180000,
-    "summaryEn": "The resolution cites a 'lack of accountability' by Israel's government and an 'inability to secure justice' by the US.",
-    "summaryAr": "The resolution cites a 'lack of accountability' by Israel's government and an 'inability to secure justice' by the US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Morocco’s pro-Palestine protests challenge Rabat’s deepening Israel ties",
-    "titleAr": "Morocco’s pro-Palestine protests challenge Rabat’s deepening Israel ties",
-    "link": "https://www.aljazeera.com/news/2026/9/30/moroccos-pro-palestine-protests-challenge-rabats-deepening-israel-ties?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790732813000,
-    "summaryEn": "Protests across Morocco highlight gap between public opposition to normalisation and Rabat’s closer ties with Israel.",
-    "summaryAr": "Protests across Morocco highlight gap between public opposition to normalisation and Rabat’s closer ties with Israel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Trump claims war will end ‘very soon’, gives no details",
-    "titleAr": "Iran war live: Trump claims war will end ‘very soon’, gives no details",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790726400000,
-    "summaryEn": "US President Donald Trump reiterates that Tehran will not have a nuclear weapon.",
-    "summaryAr": "US President Donald Trump reiterates that Tehran will not have a nuclear weapon.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump says he plans to campaign for 32 days before midterm elections",
-    "titleAr": "Trump says he plans to campaign for 32 days before midterm elections",
-    "link": "https://www.aljazeera.com/news/2026/9/29/trump-says-he-plans-to-campaign-for-32-days-before-midterm-elections?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790725988000,
-    "summaryEn": "US president brushes aside concerns about his popularity as voters express frustration over cost of living, war on Iran.",
-    "summaryAr": "US president brushes aside concerns about his popularity as voters express frustration over cost of living, war on Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza",
-    "titleAr": "‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza",
-    "link": "https://www.aljazeera.com/news/2026/9/29/nothing-is-justifying-this-qatari-pm-slams-atrocities-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790725758000,
-    "summaryEn": "Qatar's top diplomat says Israel has undermined Doha's efforts to broker a ceasefire in Gaza from 'day one'.",
-    "summaryAr": "Qatar's top diplomat says Israel has undermined Doha's efforts to broker a ceasefire in Gaza from 'day one'.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -711,6 +695,22 @@
     "pubDate": 1790361673000,
     "summaryEn": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
     "summaryAr": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+    "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+    "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790336684000,
+    "summaryEn": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+    "summaryAr": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
     "tags": [
       {
         "textEn": "INTEL",
