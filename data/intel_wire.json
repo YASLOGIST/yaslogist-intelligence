@@ -1,28 +1,12 @@
 [
   {
-    "titleEn": "Strong indications’ Iran linked to suspected UK airbase plot",
-    "titleAr": "Strong indications’ Iran linked to suspected UK airbase plot",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_indications-iran-linked-suspected-uk-airbase-plot-300926?traffic_source=rss",
+    "titleEn": "Russian drone crashes into Kyiv playground without exploding",
+    "titleAr": "Russian drone crashes into Kyiv playground without exploding",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790791791000,
-    "summaryEn": "UK Prime Minister says there are ‘strong indications’ Iran played a part in the suspected RAF Fairford airbase plot.",
-    "summaryAr": "UK Prime Minister says there are ‘strong indications’ Iran played a part in the suspected RAF Fairford airbase plot.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Syria removed from US arms export ban list",
-    "titleAr": "Syria removed from US arms export ban list",
-    "link": "https://www.aljazeera.com/news/2026/9/30/syria-removed-from-us-arms-export-ban-list?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790790913000,
-    "summaryEn": "US has gradually loosened restrictions placed on Syria during the Assad era to aid country's recovery from conflict.",
-    "summaryAr": "US has gradually loosened restrictions placed on Syria during the Assad era to aid country's recovery from conflict.",
+    "pubDate": 1790806415000,
+    "summaryEn": "A Russian attack drone crashed into a children’s playground in Kyiv, Ukraine without exploding.",
+    "summaryAr": "A Russian attack drone crashed into a children’s playground in Kyiv, Ukraine without exploding.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -36,9 +20,105 @@
     "titleAr": "What we know about stabbing on Flydubai flight to Israel",
     "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1790790709000,
-    "summaryEn": "The captain and first officer were injured, and one pilot has been arrested, officials say.",
-    "summaryAr": "The captain and first officer were injured, and one pilot has been arrested, officials say.",
+    "pubDate": 1790804191000,
+    "summaryEn": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+    "summaryAr": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK believes Iran involved in RAF Fairford incident, Burnham says",
+    "titleAr": "UK believes Iran involved in RAF Fairford incident, Burnham says",
+    "link": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790803619000,
+    "summaryEn": "Iran's foreign minister has responded, saying the PM was \"barking up the wrong tree\".",
+    "summaryAr": "Iran's foreign minister has responded, saying the PM was \"barking up the wrong tree\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai passengers arrive in Tel Aviv after pilot stabbing",
+    "titleAr": "Flydubai passengers arrive in Tel Aviv after pilot stabbing",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-passengers-arrive-in-tel-aviv-after-pilot-stabbing?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790802766000,
+    "summaryEn": "A replacement Flydubai aircraft has landed in Israel, carrying passengers from the flight on which a pilot was stabbed.",
+    "summaryAr": "A replacement Flydubai aircraft has landed in Israel, carrying passengers from the flight on which a pilot was stabbed.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gas pipeline explodes in Syria, knocks three power plants offline",
+    "titleAr": "Gas pipeline explodes in Syria, knocks three power plants offline",
+    "link": "https://www.aljazeera.com/news/2026/9/30/gas-pipeline-explodes-in-syria-knocks-three-power-plants-offline?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790802073000,
+    "summaryEn": "Powe rationing hours are to increase as a result of the blast.",
+    "summaryAr": "Powe rationing hours are to increase as a result of the blast.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
+    "titleAr": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
+    "link": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+    "source": "Dark Reading",
+    "pubDate": 1790801475000,
+    "summaryEn": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
+    "summaryAr": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli attacks across Gaza kill at least eight",
+    "titleAr": "Israeli attacks across Gaza kill at least eight",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/israeli-attacks-across-gaza-kill-at-least-eight?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790799142000,
+    "summaryEn": "Israeli attacks on residential areas across Gaza killed at least eight civilians and wounded others on Wednesday",
+    "summaryAr": "Israeli attacks on residential areas across Gaza killed at least eight civilians and wounded others on Wednesday",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight",
+    "titleAr": "Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight",
+    "link": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790797761000,
+    "summaryEn": "The Israeli prime minister thanks 'true hero' Captain Smit Machchhar for 'extraordinary bravery'.",
+    "summaryAr": "The Israeli prime minister thanks 'true hero' Captain Smit Machchhar for 'extraordinary bravery'.",
     "tags": [
       {
         "textEn": "APT",
@@ -48,13 +128,61 @@
     ]
   },
   {
-    "titleEn": "Hundreds of Israelis storm Al-Aqsa Mosque compound",
-    "titleAr": "Hundreds of Israelis storm Al-Aqsa Mosque compound",
-    "link": "https://www.aljazeera.com/news/2026/9/30/over-1300-settlers-raid-al-aqsa-mosque-alongside-israeli-forces?traffic_source=rss",
+    "titleEn": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "titleAr": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+    "source": "BleepingComputer",
+    "pubDate": 1790797755000,
+    "summaryEn": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Za…",
+    "summaryAr": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Za…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai FZ1073 timeline: How the Israel-bound flight emergency unfolded",
+    "titleAr": "Flydubai FZ1073 timeline: How the Israel-bound flight emergency unfolded",
+    "link": "https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790788385000,
-    "summaryEn": "Israeli raids at Al-Aqsa Mosque compound have intensified during the Jewish holiday season.",
-    "summaryAr": "Israeli raids at Al-Aqsa Mosque compound have intensified during the Jewish holiday season.",
+    "pubDate": 1790797190000,
+    "summaryEn": "Flydubai flight diverts to Saudi Arabia after cockpit emergency, as Netanyahu alleges a crash attempt.",
+    "summaryAr": "Flydubai flight diverts to Saudi Arabia after cockpit emergency, as Netanyahu alleges a crash attempt.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
+    "titleAr": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
+    "link": "https://www.aljazeera.com/news/2026/9/30/saudi-crown-prince-says-no-compromise-on-kingdoms-security-against-threats?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790796004000,
+    "summaryEn": "Crown Prince Mohammed bin Salman says the kingdom 'will not hesitate to respond firmly to any threat'.",
+    "summaryAr": "Crown Prince Mohammed bin Salman says the kingdom 'will not hesitate to respond firmly to any threat'.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Strong indications’ Iran linked to suspected UK airbase plot",
+    "titleAr": "‘Strong indications’ Iran linked to suspected UK airbase plot",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_indications-iran-linked-suspected-uk-airbase-plot-300926?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790791791000,
+    "summaryEn": "UK Prime Minister says there are ‘strong indications’ Iran played a part in the suspected RAF Fairford airbase plot.",
+    "summaryAr": "UK Prime Minister says there are ‘strong indications’ Iran played a part in the suspected RAF Fairford airbase plot.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -71,54 +199,6 @@
     "pubDate": 1790786789000,
     "summaryEn": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft…",
     "summaryAr": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Flight carrying Israelis diverted after stabbing",
-    "titleAr": "Jerusalem Daily: Flight carrying Israelis diverted after stabbing",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/jerusalem-daily-flight-carrying-israelis-diverted-after-stabbing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790786212000,
-    "summaryEn": "A Flydubai flight to Tel Aviv was diverted after a stabbing, with Israeli officials calling it 'an act of terror'.",
-    "summaryAr": "A Flydubai flight to Tel Aviv was diverted after a stabbing, with Israeli officials calling it 'an act of terror'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK believes Iran involved in RAF Fairford incident, Burnham says",
-    "titleAr": "UK believes Iran involved in RAF Fairford incident, Burnham says",
-    "link": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790783991000,
-    "summaryEn": "The prime minister's comments come days after the suspects were released on the 'strictest possible bail conditions'.",
-    "summaryAr": "The prime minister's comments come days after the suspects were released on the 'strictest possible bail conditions'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
-    "titleAr": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
-    "link": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790782046000,
-    "summaryEn": "Israel's prime minister said one of the pilots stabbed the other and then tried to crash the plane.",
-    "summaryAr": "Israel's prime minister said one of the pilots stabbed the other and then tried to crash the plane.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -176,29 +256,13 @@
     ]
   },
   {
-    "titleEn": "Palestinian archaeologists race against time to save Gaza’s heritage",
-    "titleAr": "Palestinian archaeologists race against time to save Gaza’s heritage",
-    "link": "https://www.aljazeera.com/features/2026/9/30/palestinian-archaeologists-race-against-time-to-save-gazas-heritage?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790775956000,
-    "summaryEn": "A Palestinian team rescued Gaza's artefacts. The question now is where to store them.",
-    "summaryAr": "A Palestinian team rescued Gaza's artefacts. The question now is where to store them.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why Israel is interfering in Palestinian education",
-    "titleAr": "Why Israel is interfering in Palestinian education",
-    "link": "https://www.aljazeera.com/opinions/2026/9/30/why-israel-is-interfering-in-palestinian-education?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790774553000,
-    "summaryEn": "The occupation authorities are trying to censor Palestinian school curricula because they teach national consciousness.",
-    "summaryAr": "The occupation authorities are trying to censor Palestinian school curricula because they teach national consciousness.",
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1790769600000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager H…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager H…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -432,22 +496,6 @@
     ]
   },
   {
-    "titleEn": "Toptech TMS7 and TopHAT",
-    "titleAr": "Toptech TMS7 and TopHAT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Lantronix G520 Series Cellular Gateway",
     "titleAr": "Lantronix G520 Series Cellular Gateway",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
@@ -464,13 +512,13 @@
     ]
   },
   {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "titleEn": "Toptech TMS7 and TopHAT",
+    "titleAr": "Toptech TMS7 and TopHAT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
     "source": "CISA Advisories",
     "pubDate": 1790683200000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-…",
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -668,54 +716,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "titleAr": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-    "source": "The Hacker News",
-    "pubDate": 1790412593000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vuln…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vuln…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why an international arrest warrant didn't stop Netanyahu's US trip",
-    "titleAr": "Why an international arrest warrant didn't stop Netanyahu's US trip",
-    "link": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790361673000,
-    "summaryEn": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
-    "summaryAr": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-    "titleAr": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-    "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790336684000,
-    "summaryEn": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-    "summaryAr": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
