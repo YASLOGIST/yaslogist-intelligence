@@ -1,58 +1,58 @@
 [
     {
-        "id": "CVE-2026-53266",
-        "system": "Linux",
-        "severity": "High",
-        "cvss": 8.8,
-        "badge": "badge-high"
-    },
-    {
-        "id": "CVE-2025-39682",
-        "system": "Linux",
-        "severity": "Critical",
-        "cvss": 9.8,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-31431",
+        "id": "CVE-2025-39964",
         "system": "Linux",
         "severity": "High",
         "cvss": 7.8,
         "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-94127",
-        "system": "BIG-IP",
-        "severity": "Critical",
-        "cvss": 9.3,
-        "badge": "badge-critical"
+        "id": "CVE-2026-7273",
+        "system": "GS1900-48HPv2 firmware",
+        "severity": "High",
+        "cvss": 8.8,
+        "badge": "badge-high"
     },
     {
-        "id": "CVE-2026-93952",
-        "system": "VeloCloud Orchestrator (VCO) On-Prem",
-        "severity": "Critical",
-        "cvss": 9.5,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-93616",
-        "system": "Quantum Security Management",
-        "severity": "Critical",
-        "cvss": 9.8,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-85102",
-        "system": "Quantum Security Gateway",
-        "severity": "Critical",
-        "cvss": 9.8,
-        "badge": "badge-critical"
-    },
-    {
-        "id": "CVE-2026-89207",
-        "system": "WTV676-HB6035 Web Interface",
+        "id": "CVE-2026-88020",
+        "system": "OpenPLC Runtime",
         "severity": "Medium",
-        "cvss": 6.9,
+        "cvss": 5.3,
         "badge": "badge-medium"
+    },
+    {
+        "id": "CVE-2026-91018",
+        "system": "lwIP API",
+        "severity": "High",
+        "cvss": 8.7,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-18963",
+        "system": "Red Hat build of Keycloak 26.4",
+        "severity": "Critical",
+        "cvss": 9.1,
+        "badge": "badge-critical"
+    },
+    {
+        "id": "CVE-2026-50093",
+        "system": "Siveillance Control Pro V3.0",
+        "severity": "High",
+        "cvss": 8.9,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-34223",
+        "system": "Desigo CC ClickOnce Client V6",
+        "severity": "High",
+        "cvss": 8.6,
+        "badge": "badge-high"
+    },
+    {
+        "id": "CVE-2026-67367",
+        "system": "SIMOVE Fleetmanager V3.1",
+        "severity": "Critical",
+        "cvss": 9.2,
+        "badge": "badge-critical"
     }
 ]
