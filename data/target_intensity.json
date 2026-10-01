@@ -1,51 +1,65 @@
 [
-    {
-        "country": "Israel",
-        "attacks": "11",
-        "intensity": "High",
-        "trend": "up",
-        "class": "intensity-high"
-    },
-    {
-        "country": "Iran",
-        "attacks": "10",
-        "intensity": "High",
-        "trend": "up",
-        "class": "intensity-high"
-    },
-    {
-        "country": "Yemen",
-        "attacks": "3",
-        "intensity": "Medium",
-        "trend": "up",
-        "class": "intensity-med"
-    },
-    {
-        "country": "Syria",
-        "attacks": "1",
-        "intensity": "Low",
-        "trend": "up",
-        "class": "intensity-low"
-    },
-    {
-        "country": "Egypt",
-        "attacks": "1",
-        "intensity": "Low",
-        "trend": "up",
-        "class": "intensity-low"
-    },
-    {
-        "country": "Lebanon",
-        "attacks": "0",
-        "intensity": "Low",
-        "trend": "down",
-        "class": "intensity-low"
-    },
-    {
-        "country": "Jordan",
-        "attacks": "0",
-        "intensity": "Low",
-        "trend": "down",
-        "class": "intensity-low"
-    }
+  {
+    "country": "Israel",
+    "attacks": "17",
+    "previous": "0",
+    "intensity": "Critical",
+    "trend": "up",
+    "deltaPct": null,
+    "class": "intensity-high"
+  },
+  {
+    "country": "Iran",
+    "attacks": "7",
+    "previous": "0",
+    "intensity": "High",
+    "trend": "up",
+    "deltaPct": null,
+    "class": "intensity-high"
+  },
+  {
+    "country": "Yemen",
+    "attacks": "3",
+    "previous": "1",
+    "intensity": "Medium",
+    "trend": "up",
+    "deltaPct": 200,
+    "class": "intensity-med"
+  },
+  {
+    "country": "Egypt",
+    "attacks": "1",
+    "previous": "0",
+    "intensity": "Low",
+    "trend": "up",
+    "deltaPct": null,
+    "class": "intensity-low"
+  },
+  {
+    "country": "Lebanon",
+    "attacks": "0",
+    "previous": "0",
+    "intensity": "Low",
+    "trend": "down",
+    "deltaPct": 0,
+    "class": "intensity-low"
+  },
+  {
+    "country": "Syria",
+    "attacks": "0",
+    "previous": "0",
+    "intensity": "Low",
+    "trend": "down",
+    "deltaPct": 0,
+    "class": "intensity-low"
+  },
+  {
+    "country": "Jordan",
+    "attacks": "0",
+    "previous": "0",
+    "intensity": "Low",
+    "trend": "down",
+    "deltaPct": 0,
+    "class": "intensity-low"
+  }
 ]

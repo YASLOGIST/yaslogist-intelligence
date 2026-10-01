@@ -1,12 +1,55 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-01T06:50:00.840Z",
-  "source": "offline-derivation",
+  "generatedAt": "2026-10-01T12:44:09.140Z",
+  "source": "pipeline",
   "counts": {
     "wire": 45,
     "cves": 8,
     "countries": 7
   },
-  "wireNewestAt": "2026-10-01T04:16:19.000Z",
-  "feeds": []
+  "wireNewestAt": "2026-10-01T11:50:25.000Z",
+  "feeds": [
+    {
+      "source": "BBC Middle East",
+      "ok": true,
+      "items": 31,
+      "error": null
+    },
+    {
+      "source": "Al Jazeera",
+      "ok": true,
+      "items": 25,
+      "error": null
+    },
+    {
+      "source": "Reuters",
+      "ok": false,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "BleepingComputer",
+      "ok": true,
+      "items": 15,
+      "error": null
+    },
+    {
+      "source": "The Hacker News",
+      "ok": true,
+      "items": 50,
+      "error": null
+    },
+    {
+      "source": "Dark Reading",
+      "ok": true,
+      "items": 50,
+      "error": null
+    },
+    {
+      "source": "CISA Advisories",
+      "ok": true,
+      "items": 30,
+      "error": null
+    }
+  ]
 }

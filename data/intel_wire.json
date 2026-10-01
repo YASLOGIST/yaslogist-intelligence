@@ -1,12 +1,236 @@
 [
   {
-    "titleEn": "Pakistan says 22 fighters killed in air attacks on Afghanistan hideouts",
-    "titleAr": "Pakistan says 22 fighters killed in air attacks on Afghanistan hideouts",
-    "link": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand?traffic_source=rss",
+    "titleEn": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
+    "titleAr": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
+    "link": "https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790828179000,
-    "summaryEn": "Kabul says the strikes on Kunar and Helmand provinces killed nine women and children.",
-    "summaryAr": "Kabul says the strikes on Kunar and Helmand provinces killed nine women and children.",
+    "pubDate": 1790855425000,
+    "summaryEn": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
+    "summaryAr": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
+    "titleAr": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
+    "link": "https://www.aljazeera.com/news/2026/10/1/uae-investigates-possible-terrorist-link-in-attack-on-flight-to-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790855168000,
+    "summaryEn": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
+    "summaryAr": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jewish human rights barrister, 94, arrested for supporting Palestine Action",
+    "titleAr": "Jewish human rights barrister, 94, arrested for supporting Palestine Action",
+    "link": "https://www.aljazeera.com/news/2026/10/1/jewish-human-rights-barrister-94-arrested-for-supporting-palestine-action?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790854947000,
+    "summaryEn": "Margaret Owen OBE, a celebrated human rights lawyer and friend of Ed Miliband’s late mother, talks to Al Jazeera.",
+    "summaryAr": "Margaret Owen OBE, a celebrated human rights lawyer and friend of Ed Miliband’s late mother, talks to Al Jazeera.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Afghanistan says Pakistani airstrikes killed women and children",
+    "titleAr": "Afghanistan says Pakistani airstrikes killed women and children",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/afghanistan-says-pakistani-airstrikes-killed-women-and-children?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790854739000,
+    "summaryEn": "Afghan officials say at least nine women and children were killed and 11 people wounded by Pakistani air attacks.",
+    "summaryAr": "Afghan officials say at least nine women and children were killed and 11 people wounded by Pakistani air attacks.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+    "titleAr": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+    "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790854006000,
+    "summaryEn": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
+    "summaryAr": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+    "titleAr": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+    "source": "The Hacker News",
+    "pubDate": 1790850796000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How will investigation into Flydubai flight attack unfold?",
+    "titleAr": "How will investigation into Flydubai flight attack unfold?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/how-will-investigation-into-flydubai-flight-attack-unfold?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790849800000,
+    "summaryEn": "Investigators are examining what happened inside the cockpit of Flydubai flight FZ1073 to Israel.",
+    "summaryAr": "Investigators are examining what happened inside the cockpit of Flydubai flight FZ1073 to Israel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Turkish fans show support for Palestine at friendly fixture",
+    "titleAr": "Turkish fans show support for Palestine at friendly fixture",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/01-10-sv-konyaspor-palestine-tifo-tr?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790847676000,
+    "summaryEn": "Turkish football fans displayed pro-Palestinian tifos and banners.",
+    "summaryAr": "Turkish football fans displayed pro-Palestinian tifos and banners.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+    "titleAr": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+    "link": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790843968000,
+    "summaryEn": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
+    "summaryAr": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Will Democrats move beyond rhetoric on Israel’s illegal settlements?",
+    "titleAr": "Will Democrats move beyond rhetoric on Israel’s illegal settlements?",
+    "link": "https://www.aljazeera.com/opinions/2026/10/1/will-democrats-move-beyond-rhetoric-on-israels-illegal-settlements?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790842395000,
+    "summaryEn": "A new E1 sanctions bill could test whether US objections are finally backed by consequences.",
+    "summaryAr": "A new E1 sanctions bill could test whether US objections are finally backed by consequences.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinians to bury remains of 105 people killed in Israeli attack on Gaza",
+    "titleAr": "Palestinians to bury remains of 105 people killed in Israeli attack on Gaza",
+    "link": "https://www.aljazeera.com/news/2026/10/1/palestinians-to-bury-remains-of-105-people-killed-in-israeli-attack-on-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790839398000,
+    "summaryEn": "Coffins containing the remains of those killed will be carried in a funeral procession involving family members.",
+    "summaryAr": "Coffins containing the remains of those killed will be carried in a funeral procession involving family members.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+    "titleAr": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+    "source": "The Hacker News",
+    "pubDate": 1790834081000,
+    "summaryEn": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targe…",
+    "summaryAr": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targe…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+    "titleAr": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+    "source": "The Hacker News",
+    "pubDate": 1790832070000,
+    "summaryEn": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing i…",
+    "summaryAr": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing i…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza prepares to bury 105 Palestinians killed in October 2023",
+    "titleAr": "Gaza prepares to bury 105 Palestinians killed in October 2023",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790831068000,
+    "summaryEn": "The bodies of 105 Palestinians have been recovered from the rubble of a residential block destroyed by Israel.",
+    "summaryAr": "The bodies of 105 Palestinians have been recovered from the rubble of a residential block destroyed by Israel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Plummeting Israel flight like 'rollercoaster', says passenger",
+    "titleAr": "Plummeting Israel flight like 'rollercoaster', says passenger",
+    "link": "https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790826740000,
+    "summaryEn": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
+    "summaryAr": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,93 +256,13 @@
     ]
   },
   {
-    "titleEn": "UK says Iran may be linked to alleged airbase plot, drawing angry denial",
-    "titleAr": "UK says Iran may be linked to alleged airbase plot, drawing angry denial",
-    "link": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790821845000,
-    "summaryEn": "Andy Burnham says UK has 'strong indications' Iran involved in alleged security incident at RAF base used by US.",
-    "summaryAr": "Andy Burnham says UK has 'strong indications' Iran involved in alleged security incident at RAF base used by US.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Passengers tell of ‘nightmare’ onboard diverted Flydubai flight",
-    "titleAr": "Passengers tell of ‘nightmare’ onboard diverted Flydubai flight",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/passengers-tell-of-nightmare-onboard-diverted-flydubai-flight?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790816034000,
-    "summaryEn": "Israeli passengers tell of the horror onboard the Flydubai flight that was diverted after a pilot was stabbed.",
-    "summaryAr": "Israeli passengers tell of the horror onboard the Flydubai flight that was diverted after a pilot was stabbed.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran parades Shahed drones through capital",
-    "titleAr": "Iran parades Shahed drones through capital",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/iran-parades-shahed-drones-through-capital?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790815144000,
-    "summaryEn": "Crowds cheered and waved national flags as two Shahed drones were paraded through Tehran.",
-    "summaryAr": "Crowds cheered and waved national flags as two Shahed drones were paraded through Tehran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Trump hints US could strike Iran, warns time coming",
-    "titleAr": "Iran war live: Trump hints US could strike Iran, warns time coming",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/1/iran-war-live-trump-hints-us-could-strike-iran-warns-time-coming?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790812800000,
-    "summaryEn": "Trump says the US may “blow up” Iran or strike a deal, insisting the standoff will end very soon one way or the other.",
-    "summaryAr": "Trump says the US may “blow up” Iran or strike a deal, insisting the standoff will end very soon one way or the other.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump amazed that an ‘Israeli plumber’ helped land Flydubai flight",
-    "titleAr": "Trump amazed that an ‘Israeli plumber’ helped land Flydubai flight",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-amazed-that-an-israeli-plumber-helped-land-flydubai-flight?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790812217000,
-    "summaryEn": "An amazed US President Donald Trump relayed the story of how an ‘Israeli plumber’ helped land a Flydubai flight.",
-    "summaryAr": "An amazed US President Donald Trump relayed the story of how an ‘Israeli plumber’ helped land a Flydubai flight.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian drone crashes into Kyiv playground without exploding",
-    "titleAr": "Russian drone crashes into Kyiv playground without exploding",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790806415000,
-    "summaryEn": "A Russian attack drone crashed into a children’s playground in Kyiv, Ukraine without exploding.",
-    "summaryAr": "A Russian attack drone crashed into a children’s playground in Kyiv, Ukraine without exploding.",
+    "titleEn": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
+    "titleAr": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
+    "link": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790804334000,
+    "summaryEn": "Other passengers on the Israel-bound flight described the \"terrifying\" moment the plane dropped.",
+    "summaryAr": "Other passengers on the Israel-bound flight described the \"terrifying\" moment the plane dropped.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -144,38 +288,6 @@
     ]
   },
   {
-    "titleEn": "Flydubai passengers arrive in Tel Aviv after pilot stabbing",
-    "titleAr": "Flydubai passengers arrive in Tel Aviv after pilot stabbing",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-passengers-arrive-in-tel-aviv-after-pilot-stabbing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790802766000,
-    "summaryEn": "A replacement Flydubai aircraft has landed in Israel, carrying passengers from the flight on which a pilot was stabbed.",
-    "summaryAr": "A replacement Flydubai aircraft has landed in Israel, carrying passengers from the flight on which a pilot was stabbed.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gunmen kill 7 on bus in Syria as pipeline blast knocks out 3 power plants",
-    "titleAr": "Gunmen kill 7 on bus in Syria as pipeline blast knocks out 3 power plants",
-    "link": "https://www.aljazeera.com/news/2026/9/30/gas-pipeline-explodes-in-syria-knocks-three-power-plants-offline?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790802073000,
-    "summaryEn": "Gunmen attack bus in Homs province hours after a pipeline explosion knocked out three power plants near Damascus.",
-    "summaryAr": "Gunmen attack bus in Homs province hours after a pipeline explosion knocked out three power plants near Damascus.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
     "titleAr": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
     "link": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
@@ -192,38 +304,6 @@
     ]
   },
   {
-    "titleEn": "Israeli attacks across Gaza kill at least eight",
-    "titleAr": "Israeli attacks across Gaza kill at least eight",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/30/israeli-attacks-across-gaza-kill-at-least-eight?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790799142000,
-    "summaryEn": "Israeli attacks on residential areas across Gaza killed at least eight civilians and wounded others on Wednesday",
-    "summaryAr": "Israeli attacks on residential areas across Gaza killed at least eight civilians and wounded others on Wednesday",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu calls stabbed Indian pilot a hero; Flydubai halts Israel flights",
-    "titleAr": "Netanyahu calls stabbed Indian pilot a hero; Flydubai halts Israel flights",
-    "link": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790797761000,
-    "summaryEn": "Israeli prime minister thanks Captain Smit Machchhar for saving the lives of 174 people on board Tel Aviv-bound flight.",
-    "summaryAr": "Israeli prime minister thanks Captain Smit Machchhar for saving the lives of 174 people on board Tel Aviv-bound flight.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
     "titleEn": "DIVD says Zammad zero-days enabled AI-driven network breach",
     "titleAr": "DIVD says Zammad zero-days enabled AI-driven network breach",
     "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
@@ -236,6 +316,38 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "'Shaken and emotional' passengers arrive at Israeli airport",
+    "titleAr": "'Shaken and emotional' passengers arrive at Israeli airport",
+    "link": "https://www.bbc.co.uk/news/videos/cmx2z29wx32vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790795480000,
+    "summaryEn": "The BBC's Yogita Limaye is at Ben Gurion Airport as passengers from the Flydubai flight arrive in Israel.",
+    "summaryAr": "The BBC's Yogita Limaye is at Ben Gurion Airport as passengers from the Flydubai flight arrive in Israel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "'I pulled the controls': Passenger tells Israeli PM how he helped stop attacker",
+    "titleAr": "'I pulled the controls': Passenger tells Israeli PM how he helped stop attacker",
+    "link": "https://www.bbc.co.uk/news/videos/c6rered722j5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790793636000,
+    "summaryEn": "The man says he \"pulled the controls\" of the plane after it plummeted during the attack.",
+    "summaryAr": "The man says he \"pulled the controls\" of the plane after it plummeted during the attack.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -407,22 +519,6 @@
     "pubDate": 1790717489000,
     "summaryEn": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
     "summaryAr": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "titleAr": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "source": "BleepingComputer",
-    "pubDate": 1790707032000,
-    "summaryEn": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and…",
-    "summaryAr": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and…",
     "tags": [
       {
         "textEn": "ZERO-DAY",
@@ -620,102 +716,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "titleAr": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-    "source": "The Hacker News",
-    "pubDate": 1790580109000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) ca…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) ca…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Inside Yemen's front-line city as Houthis battle for control",
-    "titleAr": "Inside Yemen's front-line city as Houthis battle for control",
-    "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790543791000,
-    "summaryEn": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-    "summaryAr": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Watch: BBC reports from the front-line of an escalating war in Yemen",
-    "titleAr": "Watch: BBC reports from the front-line of an escalating war in Yemen",
-    "link": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790542806000,
-    "summaryEn": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-    "summaryAr": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790510400000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Inp…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Inp…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-    "titleAr": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-    "source": "CISA Advisories",
-    "pubDate": 1790510400000,
-    "summaryEn": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026…",
-    "summaryAr": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "titleAr": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-    "source": "The Hacker News",
-    "pubDate": 1790495277000,
-    "summaryEn": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re…",
-    "summaryAr": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   }
