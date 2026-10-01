@@ -1,5 +1,181 @@
 [
   {
+    "titleEn": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank",
+    "titleAr": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank",
+    "link": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790898279000,
+    "summaryEn": "1,439 Palestinians have been killed in Gaza and 5,052 injured since the 'ceasefire' began in October 2025.",
+    "summaryAr": "1,439 Palestinians have been killed in Gaza and 5,052 injured since the 'ceasefire' began in October 2025.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "94-year-old Jewish barrister arrested for supporting Palestine Action",
+    "titleAr": "94-year-old Jewish barrister arrested for supporting Palestine Action",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/94-year-old-jewish-barrister-arrested-for-supporting-palestine-action?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790894696000,
+    "summaryEn": "A 94-year-old Jewish activist was detained at a pro-Palestine rally in the UK for supporting Palestine Action.",
+    "summaryAr": "A 94-year-old Jewish activist was detained at a pro-Palestine rally in the UK for supporting Palestine Action.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "titleAr": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790894569000,
+    "summaryEn": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
+    "summaryAr": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "titleAr": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+    "source": "Dark Reading",
+    "pubDate": 1790890670000,
+    "summaryEn": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "summaryAr": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Protesters halt game as calls grow on Ireland to boycott second Israel game",
+    "titleAr": "Protesters halt game as calls grow on Ireland to boycott second Israel game",
+    "link": "https://www.aljazeera.com/sports/2026/10/1/protesters-halt-game-as-calls-grow-on-ireland-to-boycott-second-israel-game?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790889295000,
+    "summaryEn": "Republic of Ireland's game halted by tennis balls thrown and invader with Palestine flags amid Israel boycott demand.",
+    "summaryAr": "Republic of Ireland's game halted by tennis balls thrown and invader with Palestine flags amid Israel boycott demand.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Most Americans say US-Israel war on Iran not worth fighting: Poll",
+    "titleAr": "Most Americans say US-Israel war on Iran not worth fighting: Poll",
+    "link": "https://www.aljazeera.com/news/2026/10/1/most-americans-say-us-israel-war-on-iran-not-worth-fighting-poll?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790887785000,
+    "summaryEn": "Nearly 70 percent of Americans say the US-Israeli war is not worth fighting, marking a significant spike since July.",
+    "summaryAr": "Nearly 70 percent of Americans say the US-Israeli war is not worth fighting, marking a significant spike since July.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Funeral held for Palestinian man killed in the occupied West Bank",
+    "titleAr": "Funeral held for Palestinian man killed in the occupied West Bank",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-palestinian-man-killed-in-the-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790887504000,
+    "summaryEn": "Funeral held for Palestinian man killed in the occupied West Bank",
+    "summaryAr": "Funeral held for Palestinian man killed in the occupied West Bank",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Syria denies officials held ‘secret’ talks with Hezbollah in Turkiye",
+    "titleAr": "Syria denies officials held ‘secret’ talks with Hezbollah in Turkiye",
+    "link": "https://www.aljazeera.com/news/2026/10/1/syria-denies-officials-held-secret-talks-with-hezbollah-in-turkiye?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790884962000,
+    "summaryEn": "Six sources from Syria, the US and Lebanon told Reuters news agency the reported meeting aimed to calm tensions.",
+    "summaryAr": "Six sources from Syria, the US and Lebanon told Reuters news agency the reported meeting aimed to calm tensions.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+    "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+    "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790884764000,
+    "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What’s driving Israeli settler violence in the occupied West Bank?",
+    "titleAr": "What’s driving Israeli settler violence in the occupied West Bank?",
+    "link": "https://www.aljazeera.com/video/inside-story/2026/10/1/whats-driving-israeli-settler-violence-in-the-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790883937000,
+    "summaryEn": "Attacks on Palestinians in the area are growing at unprecedented levels.",
+    "summaryAr": "Attacks on Palestinians in the area are growing at unprecedented levels.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "After Red Sea losses, Yemen’s government forces hold the line",
+    "titleAr": "After Red Sea losses, Yemen’s government forces hold the line",
+    "link": "https://www.aljazeera.com/news/2026/10/1/after-red-sea-losses-yemens-government-forces-hold-the-line?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790881525000,
+    "summaryEn": "Air strikes and difficult terrain have prevented the Houthis from turning coastal gains into a wider breakthrough.",
+    "summaryAr": "Air strikes and difficult terrain have prevented the Houthis from turning coastal gains into a wider breakthrough.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
     "titleAr": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
     "link": "https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis?traffic_source=rss",
@@ -16,22 +192,6 @@
     ]
   },
   {
-    "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790880526000,
-    "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Palestinian children in Israeli military detention",
     "titleAr": "Palestinian children in Israeli military detention",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/palestinian-children-in-israeli-military-detention?traffic_source=rss",
@@ -39,22 +199,6 @@
     "pubDate": 1790876691000,
     "summaryEn": "Palestinian children in Israeli military detention",
     "summaryAr": "Palestinian children in Israeli military detention",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel’s Supreme Court advises Arab party leader to drop election bid",
-    "titleAr": "Israel’s Supreme Court advises Arab party leader to drop election bid",
-    "link": "https://www.aljazeera.com/news/2026/10/1/israels-supreme-court-advises-arab-party-leader-to-drop-election-bid?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790874567000,
-    "summaryEn": "Central Elections Committee voted last week to bar both main Arab lists and two candidates from parliamentary election.",
-    "summaryAr": "Central Elections Committee voted last week to bar both main Arab lists and two candidates from parliamentary election.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,38 +224,6 @@
     ]
   },
   {
-    "titleEn": "British police arrest UK-Iranian national over airbase incident",
-    "titleAr": "British police arrest UK-Iranian national over airbase incident",
-    "link": "https://www.aljazeera.com/news/2026/10/1/british-police-arrest-uk-iranian-national-over-airbase-incident?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790873747000,
-    "summaryEn": "Counter Terrorism police also questioned a UK national, days after five others were arrested and released on bail.",
-    "summaryAr": "Counter Terrorism police also questioned a UK national, days after five others were arrested and released on bail.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Photos: Palestinians mourn more than 100 loved ones in mass Gaza funeral",
-    "titleAr": "Photos: Palestinians mourn more than 100 loved ones in mass Gaza funeral",
-    "link": "https://www.aljazeera.com/gallery/2026/10/1/photos-palestinians-mourn-more-than-100-loved-ones-in-mass-gaza-funeral?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790873441000,
-    "summaryEn": "The remains of 105 people were buried in the Sheikh Radwan cemetery, northwest of Gaza City.",
-    "summaryAr": "The remains of 105 people were buried in the Sheikh Radwan cemetery, northwest of Gaza City.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
     "titleAr": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
     "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
@@ -124,38 +236,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Netanyahu calls flight incident another 9/11",
-    "titleAr": "Jerusalem Daily: Netanyahu calls flight incident another 9/11",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/jerusalem-daily-netanyahu-calls-flight-incident-another-9?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790871575000,
-    "summaryEn": "Israeli officials claimed the Flydubai incident as a \"terror attack\", despite the airline’s ongoing investigation.",
-    "summaryAr": "Israeli officials claimed the Flydubai incident as a \"terror attack\", despite the airline’s ongoing investigation.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
-    "titleAr": "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
-    "link": "https://www.aljazeera.com/news/2026/10/1/flydubai-attack-gives-netanyahu-new-security-message-ahead-of-israel-vote?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790869643000,
-    "summaryEn": "Motive behind Flydubai incident still unclear, but Israeli PM is framing it within his warnings of threats to Israelis.",
-    "summaryAr": "Motive behind Flydubai incident still unclear, but Israeli PM is framing it within his warnings of threats to Israelis.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -224,38 +304,6 @@
     ]
   },
   {
-    "titleEn": "UK PM Burnham says Iran likely behind RAF base incident: Is there evidence?",
-    "titleAr": "UK PM Burnham says Iran likely behind RAF base incident: Is there evidence?",
-    "link": "https://www.aljazeera.com/news/2026/10/1/uk-pm-burnham-says-iran-likely-behind-raf-base-incident-is-there-evidence?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790862718000,
-    "summaryEn": "UK, US and Israeli officials point to Iranian involvement but remain tight-lipped on details.",
-    "summaryAr": "UK, US and Israeli officials point to Iranian involvement but remain tight-lipped on details.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian drone hits school in Ukraine’s Kyiv as Moscow presses air assault",
-    "titleAr": "Russian drone hits school in Ukraine’s Kyiv as Moscow presses air assault",
-    "link": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790860002000,
-    "summaryEn": "Russian drone strikes hit a school in Kyiv and the main bridge, disrupting transport in the latest wave of attacks.",
-    "summaryAr": "Russian drone strikes hit a school in Kyiv and the main bridge, disrupting transport in the latest wave of attacks.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
     "titleAr": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
@@ -293,6 +341,22 @@
     ]
   },
   {
+    "titleEn": "Meari IoT Cloud Platform OpenAPI Service",
+    "titleAr": "Meari IoT Cloud Platform OpenAPI Service",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Monta monta.app",
     "titleAr": "Monta monta.app",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
@@ -325,13 +389,13 @@
     ]
   },
   {
-    "titleEn": "Meari IoT Cloud Platform OpenAPI Service",
-    "titleAr": "Meari IoT Cloud Platform OpenAPI Service",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
     "source": "CISA Advisories",
     "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traver…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traver…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -613,22 +677,6 @@
     ]
   },
   {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790769600000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager H…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager H…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
     "titleAr": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
     "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss",
@@ -641,22 +689,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Bitget hacked via zero-day in third-party security products",
-    "titleAr": "Bitget hacked via zero-day in third-party security products",
-    "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-    "source": "BleepingComputer",
-    "pubDate": 1790766706000,
-    "summaryEn": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security produc…",
-    "summaryAr": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security produc…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   },
@@ -689,38 +721,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Girl has multiple surgeries to control infections after strike in Gaza",
-    "titleAr": "Girl has multiple surgeries to control infections after strike in Gaza",
-    "link": "https://www.bbc.co.uk/news/videos/c8n5d0e0n6wdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790744570000,
-    "summaryEn": "Witnesses say Raseel's tent was hit by an Israeli helicopter strike. Israel’s military says it has no record of the attack.",
-    "summaryAr": "Witnesses say Raseel's tent was hit by an Israeli helicopter strike. Israel’s military says it has no record of the attack.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "titleAr": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
-    "source": "Dark Reading",
-    "pubDate": 1790717489000,
-    "summaryEn": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "summaryAr": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   }
