@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T06:50:00.840Z",
+  "source": "offline-derivation",
+  "counts": {
+    "wire": 45,
+    "cves": 8,
+    "countries": 7
+  },
+  "wireNewestAt": "2026-10-01T04:16:19.000Z",
+  "feeds": []
+}

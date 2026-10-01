@@ -1,0 +1,20 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Node (dev tooling only — the app is zero-build and dependency-free)
+node_modules/
+npm-debug.log*
+
+# Test / tooling caches
+coverage/
+.nyc_output/
+
+# Local environment overrides (never commit secrets)
+.env
+.env.*
+!.env.example

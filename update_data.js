@@ -1,22 +1,38 @@
 /**
  * YASLOGIST // SOVEREIGN CTI INGEST PIPELINE
  * ------------------------------------------------------------------
- * Runs on GitHub Actions every 2 hours. Produces three committed artefacts:
+ * Runs on GitHub Actions every 2 hours (`npm run ingest`). Produces five
+ * committed artefacts (see lib/intel-core.cjs for the exact contracts):
+ *
  *   data/intel_wire.json        - live Middle East kinetic + cyber wire
  *   data/middle_east_cves.json  - actively weaponized CVEs seen in the feeds
  *   data/target_intensity.json  - per-country attack intensity for the map
+ *   data/meta.json              - provenance manifest (freshness, feed health)
+ *   data/signal_timeline.json   - rolling 14-day daily signal buckets
  *
- * Feeds are parsed DIRECTLY from source XML. No third-party RSS proxy,
- * therefore no rate limit and no silent empty payloads.
+ * Feeds are parsed DIRECTLY from source XML — no third-party RSS proxy,
+ * therefore no rate limit and no silent empty payloads. All parsing and
+ * scoring logic lives in ./lib/intel-core.cjs and is unit tested.
+ *
+ * Failure contract:
+ *   - one dead feed never fails the cycle (per-feed isolation);
+ *   - an empty wire never overwrites the committed wire;
+ *   - writes are schema-checked before they hit disk;
+ *   - meta.json is ALWAYS written so the UI can display honest freshness.
  */
+
+'use strict';
 
 const fs = require('fs');
 const path = require('path');
+const core = require('./lib/intel-core.cjs');
 
 const DATA_DIR = path.join(__dirname, 'data');
 const WIRE_FILE = path.join(DATA_DIR, 'intel_wire.json');
 const CVE_FILE = path.join(DATA_DIR, 'middle_east_cves.json');
 const INTENSITY_FILE = path.join(DATA_DIR, 'target_intensity.json');
+const META_FILE = path.join(DATA_DIR, 'meta.json');
+const TIMELINE_FILE = path.join(DATA_DIR, 'signal_timeline.json');
 
 const FEEDS = [
     { url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', source: 'BBC Middle East', alwaysRelevant: true },
@@ -41,119 +57,33 @@ const TARGET_COUNTRIES = ['israel', 'iran', 'lebanon', 'syria', 'yemen', 'jordan
 
 const MAX_WIRE_ITEMS = 45;
 const MAX_CVES = 8;
+const CVE_CONCURRENCY = 3;
 
-/* ------------------------------------------------------------------ utils */
+const REQUEST_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (compatible; YASLOGIST-CTI/1.1; +https://github.com/YASLOGIST)',
+    'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+};
+
+/* -------------------------------------------------------------- helpers */
+
+const readJsonSafe = (file, fallback) => {
+    try { return JSON.parse(fs.readFileSync(file, 'utf-8')); } catch { return fallback; }
+};
+
+const writeJson = (file, value) => {
+    fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
+};
 
 async function fetchText(url, timeoutMs = 20000) {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeoutMs);
-    try {
-        const res = await fetch(url, {
-            signal: controller.signal,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (compatible; YASLOGIST-CTI/1.0; +https://github.com/YASLOGIST)',
-                'Accept': 'application/rss+xml, application/xml, text/xml, */*'
-            }
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return await res.text();
-    } finally {
-        clearTimeout(timer);
-    }
-}
-
-function decodeEntities(str) {
-    return String(str || '')
-        .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-        .replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>')
-        .replace(/&quot;/g, '"')
-        .replace(/&#0?39;|&apos;/g, "'")
-        .replace(/&nbsp;/g, ' ')
-        .replace(/&amp;/g, '&')
-        .replace(/\s+/g, ' ')
-        .trim();
-}
-
-function pickTag(block, tag) {
-    const m = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'));
-    return m ? decodeEntities(m[1]) : '';
-}
-
-function pickLink(block) {
-    const rss = pickTag(block, 'link');
-    if (rss) return rss;
-    const atom = block.match(/<link[^>]*href=["']([^"']+)["']/i);
-    return atom ? atom[1] : '#';
-}
-
-function stripHtml(str) {
-    return decodeEntities(String(str || '').replace(/<[^>]+>/g, ' '));
-}
-
-function parseFeed(xml) {
-    const blocks = xml.match(/<(item|entry)[\s>][\s\S]*?<\/\1>/gi) || [];
-    return blocks.map(block => ({
-        title: pickTag(block, 'title'),
-        link: pickLink(block),
-        description: stripHtml(
-            pickTag(block, 'description') ||
-            pickTag(block, 'content:encoded') ||
-            pickTag(block, 'summary') ||
-            pickTag(block, 'content')
-        ),
-        pubDate: pickTag(block, 'pubDate') || pickTag(block, 'published') || pickTag(block, 'updated') || ''
-    })).filter(i => i.title);
-}
-
-function buildTags(contentStr) {
-    const tags = [];
-    if (contentStr.includes('ransomware')) tags.push({ textEn: 'RANSOMWARE', textAr: 'برمجيات الفدية', class: 'tag-urgent' });
-    if (contentStr.includes('zero-day') || contentStr.includes('0-day')) tags.push({ textEn: 'ZERO-DAY', textAr: 'يوم-الصفر', class: 'tag-purple' });
-    if (['maritime', 'suez', 'red sea', 'houthi', 'vessel', 'tanker', 'hormuz'].some(k => contentStr.includes(k))) {
-        tags.push({ textEn: 'MARITIME', textAr: 'ملاحة بحرية', class: 'tag-urgent' });
-    }
-    if (contentStr.includes('ddos')) tags.push({ textEn: 'DDoS', textAr: 'حجب الخدمة', class: 'tag-warn' });
-    if (contentStr.includes('apt') || contentStr.includes('state-sponsored')) tags.push({ textEn: 'APT', textAr: 'مجموعات متقدمة', class: 'tag-cyan' });
-    if (tags.length === 0) tags.push({ textEn: 'INTEL', textAr: 'استخبارات', class: '' });
-    return tags.slice(0, 3);
-}
-
-// Pulls the real CVSS base score / severity published with the record.
-// Metrics live under the CNA container or an ADP container (e.g. CISA-ADP),
-// and may be CVSS v4.0, v3.1, v3.0 or v2.0 depending on the CNA.
-function extractCvss(data) {
-    const buckets = [];
-    try { if (data.containers.cna.metrics) buckets.push(...data.containers.cna.metrics); } catch (e) {}
-    try { (data.containers.adp || []).forEach(a => { if (a.metrics) buckets.push(...a.metrics); }); } catch (e) {}
-
-    for (const key of ['cvssV4_0', 'cvssV3_1', 'cvssV3_0', 'cvssV2_0']) {
-        for (const m of buckets) {
-            const v = m && m[key];
-            if (v && typeof v.baseScore === 'number') {
-                return { score: v.baseScore, severity: v.baseSeverity || scoreToSeverity(v.baseScore) };
-            }
-        }
-    }
-    return null;
-}
-
-function scoreToSeverity(score) {
-    if (score >= 9.0) return 'CRITICAL';
-    if (score >= 7.0) return 'HIGH';
-    if (score >= 4.0) return 'MEDIUM';
-    return 'LOW';
-}
-
-function titleCase(str) {
-    const s = String(str || 'High').toLowerCase();
-    return s.charAt(0).toUpperCase() + s.slice(1);
+    const res = await core.fetchWithRetry(url, { timeoutMs, retries: 2, headers: REQUEST_HEADERS });
+    return res.text();
 }
 
 async function fetchCVEInfo(cveId) {
     try {
-        const res = await fetch(`https://cveawg.mitre.org/api/cve/${cveId}`);
-        if (!res.ok) return null;
+        const res = await core.fetchWithRetry(`https://cveawg.mitre.org/api/cve/${encodeURIComponent(cveId)}`, {
+            timeoutMs: 15000, retries: 1, headers: REQUEST_HEADERS
+        });
         const data = await res.json();
 
         let system = 'Unknown System';
@@ -161,10 +91,10 @@ async function fetchCVEInfo(cveId) {
             const affected = data.containers.cna.affected[0];
             system = affected.product || affected.vendor || 'Unknown System';
             if (String(system).toLowerCase() === 'n/a') system = affected.vendor || 'Unknown System';
-        } catch (e) { /* shape varies across CNAs */ }
+        } catch { /* shape varies across CNAs */ }
 
-        const cvss = extractCvss(data);
-        const severity = titleCase(cvss ? cvss.severity : 'High');
+        const cvss = core.extractCvss(data);
+        const severity = core.titleCase(cvss ? cvss.severity : 'High');
 
         return {
             id: cveId,
@@ -173,12 +103,12 @@ async function fetchCVEInfo(cveId) {
             cvss: cvss ? cvss.score : null,
             badge: `badge-${severity.toLowerCase()}`
         };
-    } catch (e) {
+    } catch {
         return null;
     }
 }
 
-/* ------------------------------------------------------------------- main */
+/* ------------------------------------------------------------------ main */
 
 async function run() {
     const now = Date.now();
@@ -187,18 +117,24 @@ async function run() {
     const countryStats = {};
     TARGET_COUNTRIES.forEach(c => { countryStats[c] = { recent: 0, previous: 0 }; });
 
-    const results = await Promise.allSettled(FEEDS.map(async feed => {
-        const xml = await fetchText(feed.url);
-        return { feed, items: parseFeed(xml) };
-    }));
+    const feedReports = [];
+    const results = await core.mapPool(FEEDS, 4, async feed => {
+        try {
+            const xml = await fetchText(feed.url);
+            return { feed, items: core.parseFeed(xml), error: null };
+        } catch (err) {
+            return { feed, items: [], error: err && err.message ? err.message : String(err) };
+        }
+    });
 
-    results.forEach((result, idx) => {
-        if (result.status !== 'fulfilled') {
-            console.warn(`[SKIP] ${FEEDS[idx].source}: ${result.reason && result.reason.message}`);
+    results.forEach(({ feed, items, error }) => {
+        if (error) {
+            console.warn(`[SKIP] ${feed.source}: ${error}`);
+            feedReports.push({ source: feed.source, ok: false, items: 0, error });
             return;
         }
-        const { feed, items } = result.value;
         console.log(`[OK]   ${feed.source}: ${items.length} items`);
+        feedReports.push({ source: feed.source, ok: true, items: items.length, error: null });
 
         items.forEach(item => {
             const contentStr = `${item.title} ${item.description}`.toLowerCase();
@@ -217,7 +153,7 @@ async function run() {
                 pubDate: ts,
                 summaryEn: item.description.slice(0, 180) + (item.description.length > 180 ? '…' : ''),
                 summaryAr: item.description.slice(0, 180) + (item.description.length > 180 ? '…' : ''),
-                tags: buildTags(contentStr)
+                tags: core.buildTags(contentStr)
             });
 
             (contentStr.match(/cve-\d{4}-\d{4,7}/gi) || []).forEach(m => foundCves.add(m.toUpperCase()));
@@ -230,30 +166,24 @@ async function run() {
         });
     });
 
-    /* ---- intel wire ---- */
-    const seen = new Set();
-    const wire = wireItems
-        .filter(i => {
-            const key = i.titleEn.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
-            if (!key || seen.has(key)) return false;
-            seen.add(key);
-            return true;
-        })
-        .sort((a, b) => b.pubDate - a.pubDate)
-        .slice(0, MAX_WIRE_ITEMS);
+    /* ---- intel wire (schema-checked; empty cycle keeps previous wire) ---- */
+    const wire = core.dedupeAndSort(wireItems, MAX_WIRE_ITEMS)
+        .map(core.sanitizeWireItem)
+        .filter(Boolean);
+    const invalid = core.dedupeAndSort(wireItems, MAX_WIRE_ITEMS).length - wire.length;
+    if (invalid > 0) console.warn(`[GUARD] dropped ${invalid} wire items failing schema/URL checks`);
 
     if (wire.length > 0) {
-        fs.writeFileSync(WIRE_FILE, JSON.stringify(wire, null, 2));
+        writeJson(WIRE_FILE, wire);
         console.log(`Wrote ${wire.length} wire items -> data/intel_wire.json`);
     } else {
         console.warn('No wire items resolved; keeping previous intel_wire.json intact.');
     }
 
-    /* ---- CVEs ---- */
-    let cves = [];
-    if (fs.existsSync(CVE_FILE)) {
-        try { cves = JSON.parse(fs.readFileSync(CVE_FILE, 'utf-8')); } catch (e) { cves = []; }
-    }
+    /* ---- CVEs (keep history, cap enrichment concurrency) ---- */
+    let cves = readJsonSafe(CVE_FILE, []);
+    if (!Array.isArray(cves)) cves = [];
+
     // Backfill CVSS for records stored before severity was read from MITRE.
     for (let i = 0; i < cves.length; i++) {
         if (cves[i] && cves[i].cvss === undefined) {
@@ -264,39 +194,47 @@ async function run() {
     }
 
     const knownIds = new Set(cves.map(c => c.id));
+    const newIds = [...foundCves].filter(id => !knownIds.has(id));
+    const enriched = await core.mapPool(newIds, CVE_CONCURRENCY, id => fetchCVEInfo(id));
     let added = 0;
-    for (const cveId of foundCves) {
-        if (knownIds.has(cveId)) continue;
-        const info = await fetchCVEInfo(cveId);
-        cves.unshift(info || { id: cveId, system: 'Unknown (Active Exploit)', severity: 'High', badge: 'badge-high' });
-        knownIds.add(cveId);
+    newIds.forEach((id, i) => {
+        cves.unshift(enriched[i] || { id, system: 'Unknown (Active Exploit)', severity: 'High', cvss: null, badge: 'badge-high' });
         added++;
-    }
+    });
     cves = cves.slice(0, MAX_CVES);
-    fs.writeFileSync(CVE_FILE, JSON.stringify(cves, null, 4));
+    writeJson(CVE_FILE, cves);
+    const scored = cves.filter(c => typeof c.cvss === 'number');
     console.log(`CVE set: ${cves.length} tracked (${added} new), avg CVSS ` +
-        (cves.filter(c => c.cvss).reduce((a, c) => a + c.cvss, 0) /
-         Math.max(cves.filter(c => c.cvss).length, 1)).toFixed(1));
+        (scored.reduce((a, c) => a + c.cvss, 0) / Math.max(scored.length, 1)).toFixed(1));
 
-    /* ---- target intensity ---- */
-    const intensity = TARGET_COUNTRIES.map(country => {
-        const { recent, previous } = countryStats[country];
-        let label = 'Low', cls = 'intensity-low';
-        if (recent >= 15) { label = 'Critical'; cls = 'intensity-high'; }
-        else if (recent >= 5) { label = 'High'; cls = 'intensity-high'; }
-        else if (recent >= 2) { label = 'Medium'; cls = 'intensity-med'; }
-
-        return {
-            country: country.charAt(0).toUpperCase() + country.slice(1),
-            attacks: String(recent),
-            intensity: label,
-            trend: recent < previous || (recent === 0 && previous === 0) ? 'down' : 'up',
-            class: cls
-        };
-    }).sort((a, b) => parseInt(b.attacks, 10) - parseInt(a.attacks, 10));
-
-    fs.writeFileSync(INTENSITY_FILE, JSON.stringify(intensity, null, 4));
+    /* ---- target intensity (now with previous-window deltas) ---- */
+    const intensity = TARGET_COUNTRIES
+        .map(country => core.intensityEntry(country, countryStats[country].recent, countryStats[country].previous))
+        .sort((a, b) => parseInt(b.attacks, 10) - parseInt(a.attacks, 10));
+    writeJson(INTENSITY_FILE, intensity);
     console.log('Wrote data/target_intensity.json');
+
+    /* ---- signal timeline (merge with committed history, never erase) ---- */
+    const previousTimeline = readJsonSafe(TIMELINE_FILE, { days: [] });
+    const freshTimeline = core.buildTimeline(wire, now, 14);
+    const mergedTimeline = core.mergeTimelines(previousTimeline.days, freshTimeline, 14);
+    writeJson(TIMELINE_FILE, {
+        schemaVersion: core.SCHEMA_VERSION,
+        generatedAt: new Date(now).toISOString(),
+        days: mergedTimeline
+    });
+    console.log('Wrote data/signal_timeline.json');
+
+    /* ---- provenance manifest (always written, even on a quiet cycle) ---- */
+    const meta = core.buildMeta({
+        feedReports,
+        counts: { wire: wire.length, cves: cves.length, countries: intensity.length },
+        source: 'pipeline',
+        now,
+        newestWireTs: wire.length ? wire[0].pubDate : null
+    });
+    writeJson(META_FILE, meta);
+    console.log(`Wrote data/meta.json (feeds OK: ${feedReports.filter(f => f.ok).length}/${feedReports.length})`);
 }
 
 run().catch(err => {

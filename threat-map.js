@@ -144,7 +144,7 @@ export class ThreatMap {
             minZoom: this.options.minZoom,
             maxZoom: this.options.maxZoom,
             zoomControl: true,
-            attributionControl: false,
+            attributionControl: true,
             dragging: true,
             scrollWheelZoom: true,
             doubleClickZoom: true,
@@ -178,6 +178,14 @@ export class ThreatMap {
 
         // Default to Dark Canvas
         darkCanvas.addTo(this.map);
+
+        // Attribution is a licence requirement of the tile providers
+        // (Esri services + Leaflet). Compact branded control, bottom-right.
+        if (this.map.attributionControl) {
+            this.map.attributionControl.setPrefix(
+                '<a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · YASLOGIST'
+            );
+        }
 
         this.corridorsLayer = L.layerGroup().addTo(this.map);
         this.markersLayer = L.layerGroup().addTo(this.map);

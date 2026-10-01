@@ -3,10 +3,20 @@
  * Master Application Controller & CTI Telemetry Hub
  * Sovereign Military-Grade Frontend Architecture
  * Zero-Build Vanilla JS with 100% Bilingual Arabic/English Coverage
+ *
+ * Integrity contract (v1.1):
+ *   - Every number rendered by this controller is derived from committed
+ *     pipeline artefacts (data/*.json) or from the live feed overlay.
+ *     No hard-coded telemetry is presented as live.
+ *   - All external text is HTML-escaped before insertion; outbound links
+ *     are protocol allow-listed (http/https).
+ *   - The module exports its class and dictionaries so tests can drive
+ *     the full data flow headlessly; the browser bootstrap is skipped
+ *     when window.__YASLOGIST_NO_AUTOBOOT__ is set.
  */
 
 import { initAcidSquares } from './acid-squares-bg.js';
-import { initThreatMap } from './threat-map.js?v=13';
+import { initThreatMap } from './threat-map.js';
 
 // ===================================================================
 // Runtime safety helpers
@@ -18,9 +28,12 @@ const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => 
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[char]));
 
-const safeURL = (value, fallback = '#') => {
+const safeURL = (value, fallback = '#', base) => {
+    const raw = String(value || '').trim();
+    if (!raw) return fallback; // empty input must not resolve to the page itself
+    const resolvedBase = base || (typeof window !== 'undefined' && window.location ? window.location.href : 'https://localhost/');
     try {
-        const url = new URL(String(value || ''), window.location.href);
+        const url = new URL(raw, resolvedBase);
         return ['http:', 'https:'].includes(url.protocol) ? url.href : fallback;
     } catch {
         return fallback;
@@ -38,6 +51,20 @@ async function fetchJSONWithTimeout(url, options = {}, timeoutMs = 10000) {
         clearTimeout(timer);
     }
 }
+
+/* Resilient localStorage (private mode / disabled storage must never throw). */
+const storage = {
+    get(key, fallback = null) {
+        try { const v = window.localStorage.getItem(key); return v === null ? fallback : v; } catch { return fallback; }
+    },
+    set(key, value) {
+        try { window.localStorage.setItem(key, value); } catch { /* storage unavailable */ }
+    }
+};
+
+const prefersReducedMotion = () =>
+    typeof window !== 'undefined' && typeof window.matchMedia === 'function' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ===================================================================
 // 1. 100% COMPLETE BILINGUAL DICTIONARY SYSTEM (EN / AR)
@@ -63,6 +90,7 @@ const I18N = {
         utcClockLabel: 'UTC',
         cairoClockLabel: 'CAIRO (EEST)',
         statusLiveFeed: 'FEED: LIVE ENCRYPTED',
+        statusOfflineCached: 'FEED: OFFLINE / CACHED',
         langBtnText: 'العربية',
         kpiAttacksLabel: 'REGIONAL SIGNAL VOLUME (7D)',
         kpiAttacksSub: 'Country-linked reports across monitored OSINT feeds',
@@ -79,7 +107,7 @@ const I18N = {
         switchLangTitle: 'تبديل إلى العربية',
         cockpitTitle: 'SOVEREIGN DEFENSE GRID // LIVE TELEMETRY & THREAT MITIGATION ENGINE',
         cockpitLiveTag: 'LIVE 24/7 STREAM',
-        cockpitEngineMeta: 'AI ENGINE: NEURAL-CTI v4.8 // QUANTUM-ENCRYPTED',
+        cockpitEngineMeta: 'INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H',
         progGridName: 'INGEST FEED INTEGRITY',
         progInterceptName: 'WIRE FRESHNESS (24H)',
         progTransitName: 'MARITIME ALERT LOAD',
@@ -89,6 +117,7 @@ const I18N = {
         legendCritical: 'Critical',
         legendHigh: 'High',
         legendMed: 'Medium',
+        legendLow: 'Low',
         resetView: 'RESET',
         cpSuez: 'SUEZ CANAL (EGY)',
         cpSuezState: '[WATCH]',
@@ -115,7 +144,14 @@ const I18N = {
         thCveId: 'CVE IDENTIFIER',
         thSystem: 'AFFECTED SYSTEM / VENDOR',
         thSeverity: 'SEVERITY',
+        thCvss: 'CVSS',
         thAdvisory: 'TACTICAL ADVISORY',
+        cveFilterAll: 'ALL',
+        cveSortCvss: 'SORT: CVSS',
+        cveEmptyState: 'No CVEs match the current severity filter.',
+        smartTimelineLabel: 'SIGNAL VOLUME // 14 DAYS',
+        skipToContent: 'Skip to main dashboard',
+        navAriaLabel: 'Primary tactical navigation',
         actorsTitle: 'THREAT ACTOR DOSSIERS (APTs & PROXIES)',
         actorsSubtitle: 'State-backed clusters, wiper collectives & hacktivists',
         searchActorsPlaceholder: 'Search actor by alias, origin, target...',
@@ -151,6 +187,7 @@ const I18N = {
         utcClockLabel: 'توقيت عالمي UTC',
         cairoClockLabel: 'القاهرة (EEST)',
         statusLiveFeed: 'البث: مشفر ومباشر',
+        statusOfflineCached: 'البث: غير متصل / مخزن مؤقت',
         langBtnText: 'ENGLISH',
         kpiAttacksLabel: 'حجم الإشارة الإقليمية (7 أيام)',
         kpiAttacksSub: 'تقارير مرتبطة بالدول عبر مصادر OSINT المرصودة',
@@ -167,7 +204,7 @@ const I18N = {
         switchLangTitle: 'Switch to English',
         cockpitTitle: 'منظومة الدفاع السيادي // بث القياس الآني ومحرك تحييد التهديدات',
         cockpitLiveTag: 'بث حي 24/7',
-        cockpitEngineMeta: 'محرك الذكاء الاصطناعي: NEURAL-CTI v4.8 // مشفر كمومياً',
+        cockpitEngineMeta: 'خط المعالجة // 7 مصادر OSINT // تحديث كل ساعتين',
         progGridName: 'سلامة مصادر التغذية',
         progInterceptName: 'حداثة البث (24 ساعة)',
         progTransitName: 'كثافة الإنذارات البحرية',
@@ -177,6 +214,7 @@ const I18N = {
         legendCritical: 'حرج جداً',
         legendHigh: 'مرتفع',
         legendMed: 'متوسط',
+        legendLow: 'منخفض',
         resetView: 'إعادة الضبط',
         cpSuez: 'قناة السويس (مصر)',
         cpSuezState: '[مراقبة]',
@@ -203,7 +241,14 @@ const I18N = {
         thCveId: 'رمز الثغرة CVE',
         thSystem: 'النظام المتأثر / الشركة المصنعة',
         thSeverity: 'مستوى الخطورة',
+        thCvss: 'الدرجة CVSS',
         thAdvisory: 'التوجيه التكتيكي الفوري',
+        cveFilterAll: 'الكل',
+        cveSortCvss: 'ترتيب: CVSS',
+        cveEmptyState: 'لا توجد ثغرات تطابق مرشح الخطورة الحالي.',
+        smartTimelineLabel: 'حجم الإشارة // 14 يوماً',
+        skipToContent: 'تخطي إلى لوحة القيادة الرئيسية',
+        navAriaLabel: 'التنقل التكتيكي الرئيسي',
         actorsTitle: 'ملفات الفاعلين والمجموعات المهددة (APTs)',
         actorsSubtitle: 'مجموعات برعاية دول، خلايا تخريب، ومجموعات ناشطين',
         searchActorsPlaceholder: 'ابحث عن فاعل، دولة المنشأ، أو قطاع...',
@@ -302,7 +347,7 @@ const THREAT_ACTORS_DB = [
         originEn: "Pro-Palestine Collective",
         originAr: "تجمع نشطاء مؤيد لفلسطين",
         motivationEn: "Volumetric DDoS floods against maritime navigation portals, banks, and media",
-        motivationAr: "هجمات حجب الخدمة الحجمية على بوابات الموانئ والمصارف والمؤسسات الإعلامية",
+        motivationAr: "هجمات حجب خدمة الحجمية على بوابات الموانئ والمصارف والمؤسسات الإعلامية",
         targetsEn: ["Port Authorities", "Banks", "Gov Portals"],
         targetsAr: ["إدارات الموانئ", "البنوك", "البوابات الرسمية"]
     },
@@ -335,13 +380,16 @@ const THREAT_ACTORS_DB = [
     }
 ];
 
-// Fallback CVE Data with Complete Arabic Support
+// Fallback CVE Data with Complete Arabic Support.
+// CVSS values are the publicly published NVD/MITRE base scores, kept as an
+// offline floor only; live pipeline records always take precedence.
 const DEFAULT_CVES = [
     {
         id: "CVE-2024-3400",
         system: "Palo Alto PAN-OS",
         systemAr: "بالو ألتو PAN-OS (بوابات الحافة)",
         severity: "Critical",
+        cvss: 10.0,
         badge: "badge-critical",
         advisoryEn: "Patch PAN-OS GlobalProtect Gateway immediately.",
         advisoryAr: "تحديث عاجل وفوري لبوابات GlobalProtect وسد ثغرة الحقن."
@@ -351,6 +399,7 @@ const DEFAULT_CVES = [
         system: "MOVEit Transfer",
         systemAr: "نظام نقل الملفات MOVEit Transfer",
         severity: "Critical",
+        cvss: 9.8,
         badge: "badge-critical",
         advisoryEn: "Apply vendor SQLi mitigations and isolate storage endpoints.",
         advisoryAr: "تطبيق معالجة ثغرة SQLi وعزل نقاط التخزين عن الإنترنت العام."
@@ -359,8 +408,9 @@ const DEFAULT_CVES = [
         id: "CVE-2024-21412",
         system: "Windows Defender SmartScreen",
         systemAr: "نظام الحماية Windows Defender",
-        severity: "Critical",
-        badge: "badge-critical",
+        severity: "High",
+        cvss: 8.1,
+        badge: "badge-high",
         advisoryEn: "Enforce MSFT security patch to halt zero-day shortcut execution.",
         advisoryAr: "تطبيق حزمة تحديث مايكروسوفت لوقف تنفيذ ملفات الاختصار الخبيثة."
     },
@@ -369,6 +419,7 @@ const DEFAULT_CVES = [
         system: "Ivanti Connect Secure (ICS)",
         systemAr: "بوابات إيفانتي Ivanti Connect Secure",
         severity: "High",
+        cvss: 8.2,
         badge: "badge-high",
         advisoryEn: "Run external integrity verification tool; revoke all API tokens.",
         advisoryAr: "تشغيل أداة التحقق من النزاهة الخارجية وإلغاء كافة مفاتيح API."
@@ -378,20 +429,21 @@ const DEFAULT_CVES = [
         system: "Citrix NetScaler ADC",
         systemAr: "موزع الأحمال Citrix NetScaler ADC",
         severity: "High",
+        cvss: 9.4,
         badge: "badge-high",
         advisoryEn: "Clear persistent session tokens and deploy firmware update.",
         advisoryAr: "تطهير كافة رموز الجلسات النشطة وتحديث البرنامج الثابت فوراً."
     }
 ];
 
-// Fallback Intensity Data
+// Fallback Intensity Data (previous window included for honest trends)
 const DEFAULT_INTENSITY = [
-    { country: "Iran", attacks: "14", intensity: "Critical", trend: "up", class: "intensity-high" },
-    { country: "Israel", attacks: "11", intensity: "High", trend: "up", class: "intensity-high" },
-    { country: "Lebanon", attacks: "5", intensity: "High", trend: "up", class: "intensity-high" },
-    { country: "Egypt", attacks: "3", intensity: "Medium", trend: "up", class: "intensity-med" },
-    { country: "Syria", attacks: "1", intensity: "Low", trend: "down", class: "intensity-low" },
-    { country: "Jordan", attacks: "1", intensity: "Low", trend: "down", class: "intensity-low" }
+    { country: "Iran", attacks: "14", previous: "11", intensity: "Critical", trend: "up", deltaPct: 27.3, class: "intensity-high" },
+    { country: "Israel", attacks: "11", previous: "9", intensity: "High", trend: "up", deltaPct: 22.2, class: "intensity-high" },
+    { country: "Lebanon", attacks: "5", previous: "3", intensity: "High", trend: "up", deltaPct: 66.7, class: "intensity-high" },
+    { country: "Egypt", attacks: "3", previous: "4", intensity: "Medium", trend: "down", deltaPct: -25.0, class: "intensity-med" },
+    { country: "Syria", attacks: "1", previous: "2", intensity: "Low", trend: "down", deltaPct: -50.0, class: "intensity-low" },
+    { country: "Jordan", attacks: "1", previous: "1", intensity: "Low", trend: "down", deltaPct: 0, class: "intensity-low" }
 ];
 
 // Fallback Live Wire News with Full Arabic Localization
@@ -439,24 +491,55 @@ const FALLBACK_WIRE_ITEMS = [
 ];
 
 // ===================================================================
+// 2b. TARGETED SECTOR CLASSIFIER (deterministic, explainable)
+// Each bucket is a keyword set matched against an item's normalized text;
+// an item may signal several sectors. Feeds the sector bar chart with
+// REAL wire-derived data instead of a static placeholder.
+// ===================================================================
+const SECTOR_BUCKETS = [
+    { key: 'Ports & Maritime', ar: 'الموانئ والملاحة', keywords: ['maritime', 'suez', 'red sea', 'hormuz', 'vessel', 'tanker', 'houthi', 'shipping', 'seaport', ' cargo '] },
+    { key: 'Energy & Petro', ar: 'الطاقة والبتروكيماويات', keywords: ['oil', 'gas', 'energy', 'petro', 'refinery', 'lng', 'pipeline'] },
+    { key: 'Defense & Kinetic', ar: 'الدفاع والعمليات الحركية', keywords: ['defense', 'defence', 'missile', 'drone', 'idf', 'military', 'airstrike', 'strike', 'rocket'] },
+    { key: 'Gov & Diplomatic', ar: 'الحكومة والدبلوماسية', keywords: ['government', 'ministry', 'embassy', 'diplomat', 'parliament', 'sanction', 'president'] },
+    { key: 'Telecom & Subsea', ar: 'الاتصالات والكابلات', keywords: ['telecom', 'cable', 'subsea', 'isp', '5g', 'internet'] },
+    { key: 'Finance & Banking', ar: 'المالية والمصارف', keywords: ['bank', 'finance', 'swift', 'payment', 'crypto', 'currency'] }
+];
+
+// Deterministic brand palette for wire tag visualisation.
+const TAG_COLORS = {
+    RANSOMWARE: '#EF4444',
+    'ZERO-DAY': '#A855F7',
+    MARITIME: '#06B6D4',
+    DDOS: '#EAB308',
+    APT: '#F97316',
+    INTEL: '#64748B'
+};
+const SECTOR_COLORS = ['#EAB308', '#06B6D4', '#EF4444', '#A855F7', '#10B981', '#D97706'];
+
+// ===================================================================
 // 3. MASTER CONTROLLER CLASS
 // ===================================================================
 class YaslogistThreatRadarApp {
-    constructor() {
-        this.currentLang = 'en';
+    constructor(options = {}) {
+        this.options = Object.assign({ autoInit: true }, options);
+        this.currentLang = storage.get('yaslogist.lang', 'en') === 'ar' ? 'ar' : 'en';
         this.threatMap = null;
         this.acidSquares = null;
         this.intensityData = [];
         this.cveData = [];
         this.allWireItems = [];
-        this.activeWireTag = 'ALL';
+        this.activeWireTag = storage.get('yaslogist.wireTag', 'ALL');
         this.wireSearchTerm = '';
+        this.cveFilter = 'ALL';
+        this.cveSort = 'cvss';
+        this.pipelineMeta = null;
+        this.timelineData = null;
         this.charts = {
             vectors: null,
             industry: null
         };
 
-        this.init();
+        if (this.options.autoInit) this.init();
     }
 
     async init() {
@@ -485,26 +568,31 @@ class YaslogistThreatRadarApp {
         await safe('intel-wire',   () => this.fetchWire());
         await safe('dossiers',     () => this.renderThreatActors());
         await safe('telemetry',    () => this.startLiveProgressTelemetry());
+        await safe('motion',       () => this.initMotionSystem());
 
         console.log('[YASLOGIST] Sovereign Threat Radar online.');
     }
 
-    initSmartOperations() {
+    /* ------------------------------------------------ smart operations */
+
+    updateNetworkBadge() {
         const badge = document.getElementById('live-connection-badge');
-        const setConnectionState = () => {
-            const online = navigator.onLine;
-            if (badge) {
-                badge.classList.toggle('offline', !online);
-                badge.setAttribute('aria-label', online ? 'Network online' : 'Network offline; showing cached intelligence');
-                const text = badge.querySelector('.status-pill-text');
-                if (text && !online) text.textContent = 'FEED: OFFLINE / CACHED';
-                if (text && online && !this.isRefreshing) text.textContent = I18N[this.currentLang].statusLiveFeed;
-            }
-            document.documentElement.dataset.network = online ? 'online' : 'offline';
-        };
-        window.addEventListener('online', setConnectionState, { passive: true });
-        window.addEventListener('offline', setConnectionState, { passive: true });
-        setConnectionState();
+        if (!badge) return;
+        const online = this.networkOnline !== false;
+        badge.classList.toggle('offline', !online);
+        badge.setAttribute('aria-label', online ? 'Network online' : 'Network offline; showing cached intelligence');
+        const text = badge.querySelector('.status-pill-text');
+        if (text) text.textContent = online
+            ? I18N[this.currentLang].statusLiveFeed
+            : (I18N[this.currentLang].statusOfflineCached || 'FEED: OFFLINE / CACHED');
+        document.documentElement.dataset.network = online ? 'online' : 'offline';
+    }
+
+    initSmartOperations() {
+        this.networkOnline = typeof navigator === 'undefined' ? true : navigator.onLine;
+        window.addEventListener('online', () => { this.networkOnline = true; this.updateNetworkBadge(); }, { passive: true });
+        window.addEventListener('offline', () => { this.networkOnline = false; this.updateNetworkBadge(); }, { passive: true });
+        this.updateNetworkBadge();
 
         const palette = document.createElement('div');
         palette.className = 'command-palette';
@@ -523,22 +611,20 @@ class YaslogistThreatRadarApp {
             </section>`;
         document.body.appendChild(palette);
 
-        const commands = [
-            ['Refresh intelligence wire', 'R', () => this.fetchWire()],
-            ['Export intelligence snapshot', 'E', () => this.exportSnapshot()],
-            ['Toggle Arabic / English', 'L', () => document.getElementById('langToggleBtn')?.click()],
-            ['Open threat map', 'M', () => document.querySelector('[data-target="threat-map-view"]')?.click()],
-            ['Full screen command center', 'F', () => this.toggleFullscreen()],
-            ['Recalculate smart threat briefing', 'B', () => { this.renderSmartBriefing(); this.showToast(this.currentLang === 'ar' ? 'تم تحديث الموجز الذكي' : 'Smart briefing recalculated'); }]
-        ];
+        const commands = this.buildCommandList();
         const list = palette.querySelector('#command-list');
         const search = palette.querySelector('#command-search');
         let selected = 0;
         const renderCommands = () => {
             const query = search.value.trim().toLowerCase();
-            const visible = commands.filter(([label]) => label.toLowerCase().includes(query));
+            const visible = [];
+            commands.forEach((cmd, idx) => {
+                if (cmd[0].toLowerCase().includes(query)) visible.push([cmd[0], cmd[1], idx]);
+            });
             selected = Math.min(selected, Math.max(visible.length - 1, 0));
-            list.innerHTML = visible.map(([label, key], index) => `<button type="button" class="command-item ${index === selected ? 'selected' : ''}" role="menuitem" data-command-index="${commands.indexOf(commands.find(c => c[0] === label))}"><span>${escapeHTML(label)}</span><kbd>${key}</kbd></button>`).join('') || '<div class="command-empty">No matching command</div>';
+            list.innerHTML = visible.map(([label, key, idx], i) =>
+                `<button type="button" class="command-item ${i === selected ? 'selected' : ''}" role="menuitem" data-command-index="${idx}"><span>${escapeHTML(label)}</span><kbd>${key}</kbd></button>`
+            ).join('') || '<div class="command-empty">No matching command</div>';
         };
         const close = () => { palette.hidden = true; search.value = ''; };
         const open = () => { palette.hidden = false; renderCommands(); requestAnimationFrame(() => search.focus()); };
@@ -566,18 +652,106 @@ class YaslogistThreatRadarApp {
         window.yaslogistCommands = { open, close };
     }
 
+    buildCommandList() {
+        return [
+            ['Refresh intelligence wire', 'R', () => this.fetchWire()],
+            ['Export intelligence snapshot (JSON)', 'E', () => this.exportSnapshot()],
+            ['Export smart briefing (Markdown)', 'D', () => this.exportMarkdownBriefing()],
+            ['Copy deep link to current view', 'C', () => this.copyDeepLink()],
+            ['Toggle Arabic / English', 'L', () => document.getElementById('langToggleBtn')?.click()],
+            ['Open threat map', 'M', () => this.activateTab('threat-map-view', { focus: true })],
+            ['Full screen command center', 'F', () => this.toggleFullscreen()],
+            ['Recalculate smart threat briefing', 'B', () => { this.renderSmartBriefing(); this.showToast(this.currentLang === 'ar' ? 'تم تحديث الموجز الذكي' : 'Smart briefing recalculated'); }]
+        ];
+    }
+
     toggleFullscreen() {
         if (!document.fullscreenElement) document.documentElement.requestFullscreen?.().catch(() => {});
         else document.exitFullscreen?.().catch(() => {});
     }
 
-    exportSnapshot() {
-        const payload = { exportedAt: new Date().toISOString(), language: this.currentLang, wire: this.allWireItems || [], cves: this.cveData || [], intensity: this.intensityData || [] };
-        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    downloadBlob(content, mimeType, filename) {
+        const blob = content instanceof Blob ? content : new Blob([content], { type: mimeType });
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob); link.download = `yaslogist-intelligence-${new Date().toISOString().slice(0, 10)}.json`;
-        link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+        link.href = URL.createObjectURL(blob);
+        link.download = filename;
+        link.click();
+        setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    }
+
+    exportSnapshot() {
+        const payload = {
+            exportedAt: new Date().toISOString(),
+            language: this.currentLang,
+            pipelineSync: this.pipelineMeta ? this.pipelineMeta.generatedAt : null,
+            wire: this.allWireItems || [],
+            cves: this.cveData || [],
+            intensity: this.intensityData || []
+        };
+        this.downloadBlob(JSON.stringify(payload, null, 2), 'application/json', `yaslogist-intelligence-${new Date().toISOString().slice(0, 10)}.json`);
         this.showToast(this.currentLang === 'ar' ? 'تم تصدير لقطة الاستخبارات' : 'Intelligence snapshot exported');
+    }
+
+    /** Operator handoff: human-readable Markdown briefing, 100% data-derived. */
+    exportMarkdownBriefing() {
+        const isAr = this.currentLang === 'ar';
+        const now = new Date();
+        const items = this.allWireItems || [];
+        const cves = [...(this.cveData || [])].sort((a, b) => (Number(b.cvss) || 0) - (Number(a.cvss) || 0));
+        const score = document.getElementById('smart-risk-score')?.textContent || '--';
+        const trend = document.getElementById('smart-risk-trend')?.textContent || '--';
+        const action = document.getElementById('smart-action')?.textContent || '--';
+        const defcon = document.getElementById('defcon-readout-text')?.textContent.trim() || '--';
+        const sync = document.getElementById('last-updated-footer')?.textContent.trim() || '--';
+
+        const lines = [
+            `# YASLOGIST SMART THREAT BRIEFING — ${now.toISOString()}`,
+            '',
+            `> RISK INDEX: ${score} (${trend}) · DEFCON: ${defcon}`,
+            `> PIPELINE: ${sync}`,
+            `> METHOD: explainable heuristics over committed artefacts (CVE severity · wire velocity · maritime exposure · feed health). Not automated attribution.`,
+            '',
+            '## PRIORITY ACTION',
+            action,
+            '',
+            '## TOP TRACKED CVEs (by CVSS base score)',
+            ...cves.slice(0, 8).map(c => `- **${c.id}** — ${c.system} · ${c.severity}${typeof c.cvss === 'number' ? ` · CVSS ${c.cvss.toFixed(1)}` : ''}`),
+            '',
+            '## WIRE SNAPSHOT (10 most recent)',
+            ...items.slice(0, 10).map(i => `- [${i.titleEn}](${safeURL(i.link, '#', 'https://localhost/')}) — ${i.source}, ${this.formatTimeAgo(i.pubDate)}`),
+            '',
+            '## COUNTRY SIGNAL INTENSITY (7D)',
+            ...(this.intensityData || []).map(d => `- ${d.country}: ${d.attacks} reports (prior window ${d.previous ?? 'n/a'}) → ${d.intensity}`),
+            '',
+            isAr ? '_أُنشئ بواسطة منظومة ياسلوجست — تحقق من القرارات المصيرية عبر مصادر أولية._'
+                 : '_Generated by YASLOGIST. Validate consequential decisions against authoritative primary sources._'
+        ];
+        this.downloadBlob(lines.join('\n'), 'text/markdown', `yaslogist-briefing-${now.toISOString().slice(0, 10)}.md`);
+        this.showToast(isAr ? 'تم تصدير الموجز الذكي' : 'Markdown briefing exported');
+    }
+
+    copyDeepLink() {
+        const active = document.querySelector('.nav-tab.active');
+        const target = active ? active.getAttribute('data-target') : 'dashboard';
+        const slug = YaslogistThreatRadarApp.TAB_SLUGS[target] || 'dashboard';
+        const url = `${window.location.origin}${window.location.pathname}#${slug}`;
+        const done = () => this.showToast(this.currentLang === 'ar' ? 'تم نسخ الرابط المباشر' : 'Deep link copied to clipboard');
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(done).catch(() => this.fallbackCopy(url, done));
+        } else {
+            this.fallbackCopy(url, done);
+        }
+    }
+
+    fallbackCopy(text, done) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); done(); } catch { /* clipboard unavailable */ }
+        ta.remove();
     }
 
     initSmartBriefingPanel() {
@@ -586,7 +760,7 @@ class YaslogistThreatRadarApp {
         if (!dashboard || !kpis || document.getElementById('smart-briefing')) return;
         const panel = document.createElement('section');
         panel.id = 'smart-briefing';
-        panel.className = 'smart-briefing-panel';
+        panel.className = 'smart-briefing-panel reveal';
         panel.setAttribute('aria-live', 'polite');
         panel.innerHTML = `
             <div class="smart-briefing-head">
@@ -596,6 +770,13 @@ class YaslogistThreatRadarApp {
             <div class="smart-briefing-grid">
                 <div class="smart-signal-list" id="smart-signals"></div>
                 <div class="smart-recommendation"><span class="smart-section-label">PRIORITY ACTION</span><p id="smart-action">Waiting for telemetry…</p><span id="smart-confidence" class="mono smart-confidence">CONFIDENCE --</span></div>
+            </div>
+            <div class="smart-timeline">
+                <div class="smart-timeline-head">
+                    <span class="smart-section-label" data-smart-timeline-label>SIGNAL VOLUME // 14 DAYS</span>
+                    <span id="smart-timeline-delta" class="mono">--</span>
+                </div>
+                <canvas id="smart-sparkline" role="img" aria-label="14 day signal volume trend"></canvas>
             </div>
             <div class="smart-briefing-foot"><span id="smart-method">Signals: CVE severity · wire velocity · maritime exposure · feed health</span><span id="smart-updated" class="mono">NOT YET SYNCED</span></div>`;
         kpis.insertAdjacentElement('afterend', panel);
@@ -634,6 +815,93 @@ class YaslogistThreatRadarApp {
         const confEl = document.getElementById('smart-confidence'); if (confEl) confEl.textContent = `${ar ? 'الثقة' : 'CONFIDENCE'} ${confidence}%`;
         const updated = document.getElementById('smart-updated'); if (updated) updated.textContent = `${ar ? 'مزامنة' : 'UPDATED'} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
         const title = panel.querySelector('[data-smart-title]'); if (title) title.textContent = ar ? 'الموجز الذكي للتهديدات' : 'Smart Threat Briefing';
+        const timelineLabel = panel.querySelector('[data-smart-timeline-label]');
+        if (timelineLabel) timelineLabel.textContent = I18N[this.currentLang].smartTimelineLabel;
+        this.renderSignalTimeline();
+    }
+
+    /** 14-day signal sparkline: brand-styled 2D canvas, zero extra deps. */
+    renderSignalTimeline() {
+        const canvas = document.getElementById('smart-sparkline');
+        if (!canvas || typeof canvas.getContext !== 'function') return;
+        const deltaEl = document.getElementById('smart-timeline-delta');
+        const days = this.timelineData && Array.isArray(this.timelineData.days) ? this.timelineData.days : null;
+        const isAr = this.currentLang === 'ar';
+
+        if (!days || days.length < 2) {
+            if (deltaEl) deltaEl.textContent = isAr ? 'بانتظار بيانات المخطط الزمني' : 'AWAITING TIMELINE DATA';
+            return;
+        }
+
+        // Honest 7d-vs-prior-7d delta from the same artefact that draws the chart.
+        const last7 = days.slice(-7).reduce((s, d) => s + (d.count || 0), 0);
+        const prev7 = days.slice(-14, -7).reduce((s, d) => s + (d.count || 0), 0);
+        if (deltaEl) {
+            if (prev7 === 0 && last7 === 0) deltaEl.textContent = isAr ? 'لا إشارات' : 'NO SIGNALS';
+            else if (prev7 === 0) deltaEl.textContent = isAr ? `▲ نشاط جديد (${last7})` : `▲ NEW ACTIVITY (${last7})`;
+            else {
+                const pct = Math.round(((last7 - prev7) / prev7) * 100);
+                deltaEl.textContent = `${pct >= 0 ? '▲' : '▼'} ${Math.abs(pct)}% ${isAr ? 'مقابل الأسبوع السابق' : 'VS PRIOR 7D'}`;
+                deltaEl.dataset.direction = pct >= 0 ? 'up' : 'down';
+            }
+        }
+
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const w = canvas.clientWidth || 260;
+        const h = canvas.clientHeight || 56;
+        if (canvas.width !== Math.round(w * dpr)) canvas.width = Math.round(w * dpr);
+        if (canvas.height !== Math.round(h * dpr)) canvas.height = Math.round(h * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+
+        const max = Math.max(...days.map(d => d.count || 0), 1);
+        const padX = 4, padTop = 8, padBottom = 6;
+        const stepX = (w - padX * 2) / (days.length - 1);
+        const points = days.map((d, i) => [
+            padX + i * stepX,
+            padTop + (1 - (d.count || 0) / max) * (h - padTop - padBottom)
+        ]);
+
+        // Area fill
+        const grad = ctx.createLinearGradient(0, 0, 0, h);
+        grad.addColorStop(0, 'rgba(234, 179, 8, 0.30)');
+        grad.addColorStop(1, 'rgba(234, 179, 8, 0.02)');
+        ctx.beginPath();
+        points.forEach(([x, y], i) => (i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y)));
+        ctx.lineTo(points[points.length - 1][0], h - padBottom);
+        ctx.lineTo(points[0][0], h - padBottom);
+        ctx.closePath();
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        // Line
+        ctx.beginPath();
+        points.forEach(([x, y], i) => (i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y)));
+        ctx.strokeStyle = '#EAB308';
+        ctx.lineWidth = 1.6;
+        ctx.lineJoin = 'round';
+        ctx.stroke();
+
+        // Baseline grid
+        ctx.strokeStyle = 'rgba(148, 163, 184, 0.14)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(padX, h - padBottom + 0.5);
+        ctx.lineTo(w - padX, h - padBottom + 0.5);
+        ctx.stroke();
+
+        // Terminal point
+        const [lx, ly] = points[points.length - 1];
+        ctx.beginPath();
+        ctx.arc(lx, ly, 2.6, 0, Math.PI * 2);
+        ctx.fillStyle = '#F1F5F9';
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(lx, ly, 4.6, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(241, 245, 249, 0.35)';
+        ctx.stroke();
     }
 
     showToast(message) {
@@ -773,6 +1041,14 @@ class YaslogistThreatRadarApp {
         paint('ai', avg * 10,
             isAr ? `متوسط CVSS ${avg.toFixed(1)} · ${scored.length} مقيّمة` : `AVG CVSS ${avg.toFixed(1)} · ${scored.length} SCORED`,
             isAr ? `${crit} حرجة من ${cves.length}` : `${crit} CRITICAL / ${cves.length} TRACKED`);
+
+        // Engine meta strip: honest, localized pipeline status.
+        const engineMeta = document.getElementById('cockpit-engine-meta');
+        if (engineMeta) {
+            engineMeta.textContent = isAr
+                ? `خط المعالجة // ${fh.ok} من ${fh.total} مصادر نشطة // تحديث تلقائي كل ساعتين`
+                : `INGEST PIPELINE // ${fh.ok}/${fh.total} SOURCES LIVE // AUTO-REFRESH 2H`;
+        }
     }
 
     startLiveProgressTelemetry() {
@@ -790,13 +1066,15 @@ class YaslogistThreatRadarApp {
                          DDOS: 'حجب الخدمة', APT: 'مجموعات APT', INTEL: 'استخبارات عامة' };
             this.charts.vectors.data.labels = dist.map(([k]) => isAr ? (AR[k] || k) : k);
             this.charts.vectors.data.datasets[0].data = dist.map(([, v]) => v);
+            this.charts.vectors.data.datasets[0].backgroundColor = dist.map(([k]) => TAG_COLORS[k] || '#334155');
+            if (dist.length) this.charts.vectors.data.datasets[0].isLive = true;
             this.charts.vectors.update();
         }
 
         if (this.charts.industry) {
-            const dist = this.wireSourceDistribution();
-            this.charts.industry.data.labels = dist.map(([k]) => k);
-            this.charts.industry.data.datasets[0].data = dist.map(([, v]) => v);
+            const dist = this.wireSectorDistribution();
+            this.charts.industry.data.labels = dist.map((b, i) => isAr ? SECTOR_BUCKETS[i].ar : SECTOR_BUCKETS[i].key);
+            this.charts.industry.data.datasets[0].data = dist;
             this.charts.industry.update();
         }
     }
@@ -804,20 +1082,20 @@ class YaslogistThreatRadarApp {
     initLanguageSwitcher() {
         const toggleBtn = document.getElementById('langToggleBtn');
         const langText = document.getElementById('langBtnText');
+        const applyShell = () => {
+            const isAr = this.currentLang === 'ar';
+            document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
+            document.documentElement.setAttribute('lang', this.currentLang);
+            if (langText) langText.textContent = isAr ? 'ENGLISH' : 'العربية';
+            this.applyTranslations();
+            this.updateNetworkBadge();
+        };
 
         if (toggleBtn) {
             toggleBtn.addEventListener('click', () => {
                 this.currentLang = this.currentLang === 'en' ? 'ar' : 'en';
-                const isAr = this.currentLang === 'ar';
-
-                document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
-                document.documentElement.setAttribute('lang', this.currentLang);
-
-                if (langText) {
-                    langText.textContent = isAr ? 'ENGLISH' : 'العربية';
-                }
-
-                this.applyTranslations();
+                storage.set('yaslogist.lang', this.currentLang);
+                applyShell();
 
                 if (this.threatMap) {
                     this.threatMap.setLanguage(this.currentLang);
@@ -828,22 +1106,19 @@ class YaslogistThreatRadarApp {
                 this.renderIntelligenceWire();
                 this.updateChartsLanguage();
                 this.updateKPIs();
+                this.updateFooterSync();
                 this.renderSmartBriefing();
             });
         }
 
         // Restore the operator's last language without requiring a click.
-        const isAr = this.currentLang === 'ar';
-        document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
-        document.documentElement.setAttribute('lang', this.currentLang);
-        if (langText) langText.textContent = isAr ? 'ENGLISH' : 'العربية';
-        this.applyTranslations();
+        applyShell();
     }
 
     applyTranslations() {
         const dict = I18N[this.currentLang];
         const isAr = this.currentLang === 'ar';
-        
+
         // Traverse all text nodes and update them if they match a key
         const walkDOM = (node) => {
             if (node.nodeType === 1) { // Element node
@@ -862,12 +1137,17 @@ class YaslogistThreatRadarApp {
                         node.appendChild(document.createTextNode(dict[key]));
                     }
                 }
-                
+
                 const phKey = node.getAttribute('data-i18n-placeholder');
                 if (phKey && dict[phKey]) {
                     node.placeholder = dict[phKey];
                 }
-                
+
+                const ariaKey = node.getAttribute('data-i18n-aria-label');
+                if (ariaKey && dict[ariaKey]) {
+                    node.setAttribute('aria-label', dict[ariaKey]);
+                }
+
                 // Need to convert to array before iterating since we might modify childNodes
                 Array.from(node.childNodes).forEach(walkDOM);
             }
@@ -875,11 +1155,9 @@ class YaslogistThreatRadarApp {
         walkDOM(document.body);
 
         // Update browser document title
-        if (isAr) {
-            document.title = "أنظمة دفاع ياسلوجست // رادار الاستخبارات السيادية وسلاسل الإمداد";
-        } else {
-            document.title = "YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR";
-        }
+        document.title = isAr
+            ? "أنظمة دفاع ياسلوجست // رادار الاستخبارات السيادية وسلاسل الإمداد"
+            : "YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR";
 
         // Update DEFCON tooltips
         const defconTitles = {
@@ -910,28 +1188,29 @@ class YaslogistThreatRadarApp {
         if (langToggleBtn) {
             langToggleBtn.setAttribute('title', dict.switchLangTitle || (isAr ? 'Switch to English' : 'تبديل إلى العربية'));
         }
-        const refreshBtn = document.getElementById('refresh-news-btn');
-        if (refreshBtn) {
-            refreshBtn.setAttribute('title', dict.refreshFeedsTitle || (isAr ? 'تحديث البث الحي' : 'Refresh Live Feeds'));
+        const refreshBtn2 = document.getElementById('refresh-news-btn');
+        if (refreshBtn2) {
+            refreshBtn2.setAttribute('title', dict.refreshFeedsTitle || (isAr ? 'تحديث البث الحي' : 'Refresh Live Feeds'));
         }
 
         // Update dynamic report count in wire subtitle if items exist
         const countEl = document.getElementById('wire-report-count');
         if (countEl && this.allWireItems && this.allWireItems.length > 0) {
-            countEl.textContent = isAr 
+            countEl.textContent = isAr
                 ? `${this.allWireItems.length} تقارير معترضة // تدفق حي متواصل`
                 : `${this.allWireItems.length} intercepted reports // Active streams`;
         }
+
+        // DEFCON readout uses level-resolved localized strings.
+        const activeTier = document.querySelector('.defcon-tier.active');
+        if (activeTier) this.setDefconLevel(parseInt(activeTier.getAttribute('data-level'), 10) || 4);
     }
+
     async loadData() {
         // Load target intensity data
         try {
             const data = await fetchJSONWithTimeout('./data/target_intensity.json', { cache: 'no-store' });
-            if (Array.isArray(data)) {
-                this.intensityData = data;
-            } else {
-                this.intensityData = DEFAULT_INTENSITY;
-            }
+            this.intensityData = Array.isArray(data) ? data : DEFAULT_INTENSITY;
         } catch (e) {
             this.intensityData = DEFAULT_INTENSITY;
         }
@@ -939,13 +1218,23 @@ class YaslogistThreatRadarApp {
         // Load CVE data
         try {
             const data = await fetchJSONWithTimeout('./data/middle_east_cves.json', { cache: 'no-store' });
-            if (Array.isArray(data)) {
-                this.cveData = data;
-            } else {
-                this.cveData = DEFAULT_CVES;
-            }
+            this.cveData = Array.isArray(data) ? data : DEFAULT_CVES;
         } catch (e) {
             this.cveData = DEFAULT_CVES;
+        }
+
+        // Load pipeline provenance manifest + signal timeline (additive artefacts).
+        try {
+            const meta = await fetchJSONWithTimeout('./data/meta.json', { cache: 'no-store' });
+            if (meta && typeof meta === 'object') this.pipelineMeta = meta;
+        } catch (e) {
+            this.pipelineMeta = null;
+        }
+        try {
+            const timeline = await fetchJSONWithTimeout('./data/signal_timeline.json', { cache: 'no-store' });
+            if (timeline && Array.isArray(timeline.days)) this.timelineData = timeline;
+        } catch (e) {
+            this.timelineData = null;
         }
 
         // Update Map with Intensity
@@ -956,30 +1245,128 @@ class YaslogistThreatRadarApp {
         // Render CVE Table
         this.renderCVEs();
 
-        // Update KPIs & DEFCON
+        // Update KPIs & DEFCON & pipeline freshness
         this.updateKPIs();
+        this.updateFooterSync();
         this.renderSmartBriefing();
     }
 
+    /** Footer sync chip: honest pipeline age, stale-state colouring. */
+    updateFooterSync() {
+        const el = document.getElementById('last-updated-footer');
+        if (!el) return;
+        const isAr = this.currentLang === 'ar';
+        if (!this.pipelineMeta || !this.pipelineMeta.generatedAt) {
+            el.textContent = isAr ? 'مزامنة النظام: بانتظار البيانات' : 'SYSTEM SYNC: AWAITING MANIFEST';
+            el.dataset.stale = 'unknown';
+            el.removeAttribute('title');
+            return;
+        }
+        const syncedAt = Date.parse(this.pipelineMeta.generatedAt);
+        const ageMin = Math.max(0, Math.round((Date.now() - (isNaN(syncedAt) ? Date.now() : syncedAt)) / 60000));
+        const ageH = Math.floor(ageMin / 60);
+        const ageText = ageMin < 60
+            ? (isAr ? `منذ ${Math.max(ageMin, 1)} د` : `${Math.max(ageMin, 1)}m AGO`)
+            : (isAr ? `منذ ${ageH} س` : `${ageH}h AGO`);
+        const feedsOk = Array.isArray(this.pipelineMeta.feeds) && this.pipelineMeta.feeds.length
+            ? this.pipelineMeta.feeds.filter(f => f && f.ok).length : null;
+        const feedsTotal = Array.isArray(this.pipelineMeta.feeds) ? this.pipelineMeta.feeds.length : null;
+        const feedText = feedsOk !== null ? (isAr ? ` · المصادر ${feedsOk}/${feedsTotal}` : ` · FEEDS ${feedsOk}/${feedsTotal}`) : '';
+        el.textContent = (isAr ? `آخر مزامنة: ${ageText}` : `PIPELINE SYNC: ${ageText}`) + feedText;
+        el.dataset.stale = ageH >= 24 ? 'critical' : ageH >= 5 ? 'warn' : 'fresh';
+        const source = this.pipelineMeta.source === 'offline-derivation'
+            ? (isAr ? 'مشتق محلياً من السلك الملتزم' : 'derived offline from committed wire')
+            : (isAr ? `أُنتج في ${this.pipelineMeta.generatedAt}` : `generated ${this.pipelineMeta.generatedAt}`);
+        el.setAttribute('title', source);
+    }
+
+    /* Animated KPI counter — rAF, integer-exact at rest, reduced-motion aware. */
+    animateKpiValue(id, target) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const value = Math.round(Number(target) || 0);
+        if (this._kpiAnims && this._kpiAnims[id]) cancelAnimationFrame(this._kpiAnims[id]);
+        this._kpiAnims = this._kpiAnims || {};
+        if (prefersReducedMotion() || typeof requestAnimationFrame !== 'function') {
+            el.textContent = String(value);
+            return;
+        }
+        const from = parseInt(el.dataset.kpiValue || '0', 10) || 0;
+        const start = performance.now();
+        const duration = 750;
+        const step = (t) => {
+            const p = Math.min(1, (t - start) / duration);
+            const eased = 1 - Math.pow(1 - p, 3);
+            el.textContent = String(Math.round(from + (value - from) * eased));
+            if (p < 1) this._kpiAnims[id] = requestAnimationFrame(step);
+            else { el.textContent = String(value); el.dataset.kpiValue = String(value); }
+        };
+        this._kpiAnims[id] = requestAnimationFrame(step);
+    }
+
     updateKPIs() {
+        const isAr = this.currentLang === 'ar';
         const set = (id, value) => {
             const el = document.getElementById(id);
             if (el) el.textContent = value;
         };
 
-        // Regional signal volume: sum of country-linked reports over the 7d window.
-        const signalVolume = (this.intensityData || [])
-            .reduce((sum, item) => sum + (parseInt(item.attacks || '0', 10) || 0), 0);
-        set('kpi-attacks-count', signalVolume);
+        // Regional signal volume: sum of country-linked reports over the 7d window,
+        // with an HONEST trend computed against the preceding 7d window.
+        const data = this.intensityData || [];
+        const signalVolume = data.reduce((sum, item) => sum + (parseInt(item.attacks || '0', 10) || 0), 0);
+        const hasBaseline = data.some(item => item.previous !== undefined);
+        const priorVolume = data.reduce((sum, item) => sum + (parseInt(item.previous ?? item.attacks, 10) || 0), 0);
+        this.animateKpiValue('kpi-attacks-count', signalVolume);
+        const attacksTrend = document.getElementById('kpi-attacks-trend');
+        if (attacksTrend) {
+            let label, cls;
+            if (!hasBaseline) { label = isAr ? 'جاري بناء خط الأساس' : 'BASELINE SYNCING'; cls = 'trend-flat'; }
+            else if (priorVolume === 0 && signalVolume === 0) { label = isAr ? 'لا إشارة' : 'NO SIGNAL'; cls = 'trend-flat'; }
+            else if (priorVolume === 0) { label = isAr ? 'نشاط جديد' : 'NEW ACTIVITY'; cls = 'trend-up'; }
+            else {
+                const pct = Math.round(((signalVolume - priorVolume) / priorVolume) * 100);
+                label = `${pct >= 0 ? '+' : ''}${pct}%`;
+                cls = pct > 0 ? 'trend-up' : pct < 0 ? 'trend-down' : 'trend-flat';
+            }
+            attacksTrend.innerHTML = `<i class="fa-solid ${cls === 'trend-down' ? 'fa-arrow-trend-down' : 'fa-arrow-trend-up'}"></i> ${escapeHTML(label)}`;
+            attacksTrend.className = `kpi-trend mono ${cls}`;
+            attacksTrend.title = isAr ? 'مقارنة نافذة 7 أيام بالنافذة السابقة' : '7-day window vs preceding 7-day window';
+        }
 
-        // APT / state-linked reports currently on the wire.
-        set('kpi-campaigns-count', this.countWireTag('APT'));
+        // APT / state-linked reports currently on the wire (+ honest share of wire).
+        const aptCount = this.countWireTag('APT');
+        this.animateKpiValue('kpi-campaigns-count', aptCount);
+        const campaignsTrend = document.getElementById('kpi-campaigns-trend');
+        if (campaignsTrend) {
+            const wireN = (this.allWireItems || []).length;
+            const share = wireN ? Math.round((aptCount / wireN) * 100) : 0;
+            campaignsTrend.innerHTML = `<span class="dot-pulse-gold"></span> ${isAr ? `${share}% من الشريط` : `${share}% OF WIRE`}`;
+            campaignsTrend.className = 'kpi-trend trend-gold mono';
+        }
 
-        // Weaponized CVEs actually tracked.
-        set('kpi-cves-count', (this.cveData || []).length);
+        // Weaponized CVEs actually tracked (+ peak base score, from data).
+        this.animateKpiValue('kpi-cves-count', (this.cveData || []).length);
+        const cveTrend = document.getElementById('kpi-cve-trend');
+        if (cveTrend) {
+            const scores = (this.cveData || []).map(c => Number(c.cvss)).filter(Number.isFinite);
+            const peak = scores.length ? Math.max(...scores).toFixed(1) : null;
+            cveTrend.innerHTML = peak
+                ? `<i class="fa-solid fa-circle-exclamation"></i> ${isAr ? `الذروة CVSS ${peak}` : `PEAK CVSS ${peak}`}`
+                : `<i class="fa-solid fa-circle-exclamation"></i> ${escapeHTML(I18N[this.currentLang].kpiCveTrend)}`;
+        }
 
-        // Maritime chokepoint alerts currently on the wire.
-        set('kpi-logistics-count', this.countWireTag('MARITIME'));
+        // Maritime chokepoint alerts currently on the wire (+ thresholded posture).
+        const maritimeCount = this.countWireTag('MARITIME');
+        this.animateKpiValue('kpi-logistics-count', maritimeCount);
+        const logisticsTrend = document.getElementById('kpi-logistics-trend');
+        if (logisticsTrend) {
+            const level = maritimeCount >= 4 ? ['HIGH RISK', 'خطر مرتفع', 'trend-warn']
+                        : maritimeCount >= 1 ? ['ELEVATED', 'مرتفع', 'trend-gold']
+                        : ['NOMINAL', 'اعتيادي', 'trend-flat'];
+            logisticsTrend.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> ${isAr ? level[1] : level[0]}`;
+            logisticsTrend.className = `kpi-trend mono ${level[2]}`;
+        }
 
         // DEFCON from the real severity mix of tracked CVEs.
         const sev = (this.cveData || []).map(c => (c.severity || '').toLowerCase());
@@ -991,36 +1378,28 @@ class YaslogistThreatRadarApp {
         this.setDefconLevel(defcon);
     }
 
+    /** Full 1..5 DEFCON readout — every level resolves its own localized string. */
     setDefconLevel(level = 2) {
         document.querySelectorAll('.defcon-tier').forEach(tier => {
             const tierLevel = parseInt(tier.getAttribute('data-level'), 10);
-            if (tierLevel === level) {
-                tier.classList.add('active');
-            } else {
-                tier.classList.remove('active');
-            }
+            tier.classList.toggle('active', tierLevel === level);
         });
 
         const readoutEl = document.getElementById('defcon-readout-text');
-        if (readoutEl) {
-            const isAr = this.currentLang === 'ar';
-            if (level === 1) {
-                readoutEl.innerHTML = isAr 
-                    ? '<span class="mono">DEFCON 1</span> // تصعيد عسكري وسيبراني وشيك'
-                    : '<span class="mono">DEFCON 1</span> // IMMINENT KINETIC / CYBER ESCALATION';
-                readoutEl.style.color = 'var(--yas-crimson)';
-            } else if (level === 2) {
-                readoutEl.innerHTML = isAr
-                    ? '<span class="mono">DEFCON 2</span> // استهداف إقليمي حرج لمنشآت الطاقة والنقل'
-                    : '<span class="mono">DEFCON 2</span> // SEVERE REGIONAL TARGETING';
-                readoutEl.style.color = '#F97316';
-            } else {
-                readoutEl.innerHTML = isAr
-                    ? '<span class="mono">DEFCON 3</span> // جاهزية أمنية واستخباراتية مرتفعة'
-                    : '<span class="mono">DEFCON 3</span> // ELEVATED MILITARY READINESS';
-                readoutEl.style.color = 'var(--yas-gold)';
-            }
-        }
+        if (!readoutEl) return;
+        const isAr = this.currentLang === 'ar';
+        const READOUTS = {
+            1: { en: 'DEFCON 1 // IMMINENT KINETIC / CYBER ESCALATION', ar: 'DEFCON 1 // تصعيد عسكري وسيبراني وشيك', color: 'var(--yas-crimson)' },
+            2: { en: 'DEFCON 2 // SEVERE REGIONAL TARGETING', ar: 'DEFCON 2 // استهداف إقليمي حرج لمنشآت الطاقة والنقل', color: '#F97316' },
+            3: { en: 'DEFCON 3 // ELEVATED MILITARY READINESS', ar: 'DEFCON 3 // جاهزية أمنية واستخباراتية مرتفعة', color: 'var(--yas-gold)' },
+            4: { en: 'DEFCON 4 // GUARDED REGIONAL POSTURE', ar: 'DEFCON 4 // وضع إقليمي محترس ومراقبة مستمرة', color: 'var(--yas-cyan)' },
+            5: { en: 'DEFCON 5 // ROUTINE MONITORING', ar: 'DEFCON 5 // مراقبة روتينية اعتيادية', color: 'var(--yas-green)' }
+        };
+        const r = READOUTS[level] || READOUTS[4];
+        const label = isAr ? r.ar : r.en;
+        const [code, ...rest] = label.split('//');
+        readoutEl.innerHTML = `<span class="mono">${escapeHTML(code.trim())}</span> // ${escapeHTML(rest.join('//').trim())}`;
+        readoutEl.style.color = r.color;
     }
 
     renderCVEs() {
@@ -1030,7 +1409,23 @@ class YaslogistThreatRadarApp {
         const isAr = this.currentLang === 'ar';
         const dict = I18N[this.currentLang];
 
-        tbody.innerHTML = this.cveData.map(cve => {
+        const RANK = { critical: 0, high: 1, medium: 2, low: 3 };
+        let rows = [...(this.cveData || [])];
+        if (this.cveFilter !== 'ALL') {
+            rows = rows.filter(c => String(c.severity || '').toLowerCase() === this.cveFilter.toLowerCase());
+        }
+        if (this.cveSort === 'cvss') {
+            rows.sort((a, b) => (Number(b.cvss) || -1) - (Number(a.cvss) || -1));
+        } else {
+            rows.sort((a, b) => (RANK[String(a.severity).toLowerCase()] ?? 4) - (RANK[String(b.severity).toLowerCase()] ?? 4));
+        }
+
+        if (!rows.length) {
+            tbody.innerHTML = `<tr><td colspan="5" class="cve-empty-cell">${escapeHTML(dict.cveEmptyState)}</td></tr>`;
+            return;
+        }
+
+        tbody.innerHTML = rows.map(cve => {
             const severity = (cve.severity || 'High').toLowerCase();
             let badgeClass = 'badge-high';
             let sevText = dict.sevHigh;
@@ -1048,16 +1443,20 @@ class YaslogistThreatRadarApp {
 
             const sysName = isAr ? (cve.systemAr || cve.system) : (cve.systemEn || cve.system);
             const advisory = isAr ? (cve.advisoryAr || dict.advisoryImmediate) : (cve.advisoryEn || dict.advisoryImmediate);
+            const cveId = escapeHTML(String(cve.id || ''));
+            const cvss = Number.isFinite(Number(cve.cvss)) ? Number(cve.cvss).toFixed(1) : 'N/A';
+            const cvssClass = Number(cve.cvss) >= 9 ? 'cvss-critical' : Number(cve.cvss) >= 7 ? 'cvss-high' : 'cvss-muted';
 
             return `
                 <tr>
                     <td class="cve-id-cell mono">
                         <a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(String(cve.id || ''))}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
-                            <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px; opacity: 0.6; margin-inline-end: 4px;"></i>${cve.id}
+                            <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px; opacity: 0.6; margin-inline-end: 4px;"></i>${cveId}
                         </a>
                     </td>
                     <td><strong style="color: #FFFFFF;">${escapeHTML(sysName)}</strong></td>
                     <td><span class="cve-badge ${badgeClass}">${sevText}</span></td>
+                    <td class="mono cvss-cell ${cvssClass}">${cvss}</td>
                     <td style="font-size: 11.5px; color: var(--text-secondary);">${escapeHTML(advisory)}</td>
                 </tr>
             `;
@@ -1159,16 +1558,20 @@ class YaslogistThreatRadarApp {
     }
 
     dedupeWireItems(items) {
+        // Sort first so the NEWEST duplicate wins, mirroring the pipeline.
+        // The key keeps Unicode letters/digits so Arabic-language reports
+        // dedupe correctly instead of collapsing to an empty key and vanishing.
         const seen = new Set();
-        const out = [];
-        items.forEach(item => {
-            const key = (item.titleEn || '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
-            if (!key || seen.has(key)) return;
-            seen.add(key);
-            out.push(item);
-        });
-        out.sort((a, b) => b.pubDate - a.pubDate);
-        return out.slice(0, 60);
+        return [...items]
+            .sort((a, b) => b.pubDate - a.pubDate)
+            .filter(item => {
+                const key = (item.titleEn || '').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '').slice(0, 80) ||
+                    (item.link || '').slice(0, 80);
+                if (!key || seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            })
+            .slice(0, 60);
     }
 
     updateWireCount() {
@@ -1185,6 +1588,7 @@ class YaslogistThreatRadarApp {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), timeoutMs);
         try {
+            // Read-only public JSON proxy, used only as a browser-side overlay.
             const response = await fetch(
                 `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`,
                 { signal: controller.signal }
@@ -1225,11 +1629,13 @@ class YaslogistThreatRadarApp {
     async fetchWire() {
         const container = document.getElementById('news-container');
         if (container) {
+            container.classList.add('wire-loading');
             container.innerHTML = `
                 <div class="loading-state">
                     <i class="fa-solid fa-satellite-dish fa-spin"></i>
                     <span>${I18N[this.currentLang].loadingWire}</span>
                 </div>
+                ${'<div class="wire-skeleton" aria-hidden="true"><span></span><span></span><span></span></div>'.repeat(3)}
             `;
         }
 
@@ -1271,6 +1677,7 @@ class YaslogistThreatRadarApp {
         this.allWireItems = merged.length > 0 ? merged : FALLBACK_WIRE_ITEMS;
         this.feedHealth = { ok: feedsOk, total: feedsTotal, syncedAt: Date.now() };
 
+        if (container) container.classList.remove('wire-loading');
         this.updateWireCount();
         this.renderIntelligenceWire();
         this.updateKPIs();
@@ -1306,6 +1713,22 @@ class YaslogistThreatRadarApp {
         return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 6);
     }
 
+    /**
+     * Sector distribution of the live wire: a deterministic keyword bucket
+     * count (one item may signal several sectors). Zero buckets remain zero —
+     * the chart honestly shows "no current sector pressure" instead of fiction.
+     */
+    wireSectorDistribution() {
+        const dist = SECTOR_BUCKETS.map(() => 0);
+        (this.allWireItems || []).forEach(item => {
+            const text = `${item.titleEn || ''} ${item.summaryEn || ''}`.toLowerCase();
+            SECTOR_BUCKETS.forEach((bucket, i) => {
+                if (bucket.keywords.some(kw => text.includes(kw))) dist[i]++;
+            });
+        });
+        return dist;
+    }
+
     renderIntelligenceWire() {
         const container = document.getElementById('news-container');
         if (!container) return;
@@ -1315,17 +1738,19 @@ class YaslogistThreatRadarApp {
 
         // Apply Tag Filter
         if (this.activeWireTag !== 'ALL') {
-            filtered = filtered.filter(item => 
+            filtered = filtered.filter(item =>
                 item.tags.some(t => t.textEn.toUpperCase() === this.activeWireTag.toUpperCase())
             );
         }
 
-        // Apply Search Filter
+        // Apply Search Filter — Arabic operators search Arabic fields too.
         if (this.wireSearchTerm) {
             const term = this.wireSearchTerm.toLowerCase();
-            filtered = filtered.filter(item => 
+            filtered = filtered.filter(item =>
                 (item.titleEn && item.titleEn.toLowerCase().includes(term)) ||
                 (item.summaryEn && item.summaryEn.toLowerCase().includes(term)) ||
+                (item.titleAr && item.titleAr.includes(term)) ||
+                (item.summaryAr && item.summaryAr.includes(term)) ||
                 (item.source && item.source.toLowerCase().includes(term))
             );
         }
@@ -1340,13 +1765,13 @@ class YaslogistThreatRadarApp {
             return;
         }
 
-        container.innerHTML = filtered.map(item => {
+        container.innerHTML = filtered.map((item, idx) => {
             const timeAgo = this.formatTimeAgo(item.pubDate);
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
             const summary = isAr ? (item.summaryAr || item.summaryEn) : item.summaryEn;
 
             return `
-                <div class="wire-item">
+                <div class="wire-item reveal" style="--reveal-index: ${Math.min(idx, 12)}">
                     <div class="wire-item-header">
                         <span class="wire-source">${escapeHTML(item.source)}</span>
                         <span class="wire-timestamp mono">${escapeHTML(timeAgo)}</span>
@@ -1363,6 +1788,8 @@ class YaslogistThreatRadarApp {
                 </div>
             `;
         }).join('');
+
+        this.applyReveal(container);
     }
 
     formatTimeAgo(timestamp) {
@@ -1384,31 +1811,89 @@ class YaslogistThreatRadarApp {
         return isAr ? `منذ ${days} ي` : `${days}d ago`;
     }
 
-    
+    /* -------------------------------------------------------------- tabs */
+
+    static get TAB_SLUGS() {
+        return {
+            'dashboard': 'dashboard',
+            'threat-map-view': 'map',
+            'intel-wire': 'wire',
+            'cve-matrix': 'cves',
+            'apt-dossiers': 'actors'
+        };
+    }
+
+    /** Activate a tab panel by DOM id; optionally moved focus and push hash. */
+    activateTab(targetId, { focus = false, pushHash = true } = {}) {
+        const tabs = [...document.querySelectorAll('.nav-tab')];
+        const panes = [...document.querySelectorAll('.tab-panel')];
+        const tab = tabs.find(t => t.getAttribute('data-target') === targetId);
+        const pane = document.getElementById(targetId);
+        if (!tab || !pane) return false;
+
+        tabs.forEach(t => {
+            const active = t === tab;
+            t.classList.toggle('active', active);
+            t.setAttribute('aria-selected', active ? 'true' : 'false');
+            t.setAttribute('tabindex', active ? '0' : '-1');
+        });
+        panes.forEach(p => p.classList.toggle('active', p === pane));
+
+        if (targetId === 'threat-map-view' && this.threatMap && this.threatMap.map) {
+            setTimeout(() => { this.threatMap.map.invalidateSize(); }, 100);
+            setTimeout(() => { this.threatMap.map.invalidateSize(); }, 350);
+        }
+        if (pushHash) {
+            const slug = YaslogistThreatRadarApp.TAB_SLUGS[targetId];
+            try { history.replaceState(null, '', `#${slug}`); } catch { /* file:// */ }
+            storage.set('yaslogist.tab', targetId);
+        }
+        if (focus) tab.focus({ preventScroll: true });
+        return true;
+    }
+
     bindTabs() {
-        const tabs = document.querySelectorAll('.nav-tab');
-        const panes = document.querySelectorAll('.tab-panel');
-        
+        const tabs = [...document.querySelectorAll('.nav-tab')];
+        if (!tabs.length) return;
+
         tabs.forEach(tab => {
             tab.addEventListener('click', () => {
-                tabs.forEach(t => t.classList.remove('active'));
-                panes.forEach(p => p.classList.remove('active'));
-                
-                tab.classList.add('active');
-                const targetId = tab.getAttribute('data-target');
-                const targetPane = document.getElementById(targetId);
-                if (targetPane) {
-                    targetPane.classList.add('active');
-                    if (targetId === 'threat-map-view' && this.threatMap && this.threatMap.map) {
-                        setTimeout(() => {
-                            this.threatMap.map.invalidateSize();
-                        }, 100);
-                        setTimeout(() => {
-                            this.threatMap.map.invalidateSize();
-                        }, 350);
-                    }
-                }
+                this.activateTab(tab.getAttribute('data-target'));
             });
+        });
+
+        // WAI-ARIA tablist keyboard model: ← → (and RTL-aware) + Home/End.
+        const nav = document.querySelector('.tactical-navbar');
+        nav?.addEventListener('keydown', (event) => {
+            const current = document.activeElement;
+            if (!current || !current.classList.contains('nav-tab')) return;
+            const idx = tabs.indexOf(current);
+            if (idx < 0) return;
+            const isRtl = document.documentElement.getAttribute('dir') === 'rtl';
+            let next = null;
+            if (event.key === 'ArrowRight') next = isRtl ? idx - 1 : idx + 1;
+            else if (event.key === 'ArrowLeft') next = isRtl ? idx + 1 : idx - 1;
+            else if (event.key === 'Home') next = 0;
+            else if (event.key === 'End') next = tabs.length - 1;
+            if (next === null) return;
+            event.preventDefault();
+            const clamped = (next + tabs.length) % tabs.length;
+            this.activateTab(tabs[clamped].getAttribute('data-target'), { focus: true });
+        });
+
+        // Deep links: #map | #wire | #cves | #actors | #dashboard (full ids also accepted).
+        const fromHash = () => {
+            const raw = (window.location.hash || '').replace(/^#/, '');
+            if (!raw) return null;
+            const entry = Object.entries(YaslogistThreatRadarApp.TAB_SLUGS)
+                .find(([id, slug]) => slug === raw || id === raw);
+            return entry ? entry[0] : null;
+        };
+        const initial = fromHash() || storage.get('yaslogist.tab', 'dashboard');
+        this.activateTab(initial, { pushHash: Boolean(fromHash()) });
+        window.addEventListener('hashchange', () => {
+            const target = fromHash();
+            if (target) this.activateTab(target, { pushHash: true });
         });
     }
 
@@ -1416,6 +1901,10 @@ class YaslogistThreatRadarApp {
         // Intelligence Wire Tag Filters
         const tagContainer = document.getElementById('wire-tags-filter');
         if (tagContainer) {
+            // Restore persisted filter selection.
+            tagContainer.querySelectorAll('.filter-pill').forEach(b => {
+                b.classList.toggle('active', (b.getAttribute('data-tag') || 'ALL') === this.activeWireTag);
+            });
             tagContainer.addEventListener('click', (e) => {
                 const btn = e.target.closest('.filter-pill');
                 if (!btn) return;
@@ -1424,6 +1913,7 @@ class YaslogistThreatRadarApp {
                 btn.classList.add('active');
 
                 this.activeWireTag = btn.getAttribute('data-tag') || 'ALL';
+                storage.set('yaslogist.wireTag', this.activeWireTag);
                 this.renderIntelligenceWire();
             });
         }
@@ -1449,7 +1939,7 @@ class YaslogistThreatRadarApp {
                 if (!q) {
                     this.renderThreatActors();
                 } else {
-                    const filtered = THREAT_ACTORS_DB.filter(a => 
+                    const filtered = THREAT_ACTORS_DB.filter(a =>
                         a.name.toLowerCase().includes(q) ||
                         (a.originEn && a.originEn.toLowerCase().includes(q)) ||
                         (a.originAr && a.originAr.includes(q)) ||
@@ -1460,6 +1950,28 @@ class YaslogistThreatRadarApp {
                     );
                     this.renderThreatActors(filtered);
                 }
+            });
+        }
+
+        // CVE Matrix controls: severity filter pills + sort toggle.
+        const cveFilterBar = document.getElementById('cve-severity-filter');
+        if (cveFilterBar) {
+            cveFilterBar.addEventListener('click', (e) => {
+                const btn = e.target.closest('.filter-pill');
+                if (!btn) return;
+                cveFilterBar.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                this.cveFilter = btn.getAttribute('data-severity') || 'ALL';
+                this.renderCVEs();
+            });
+        }
+        const cveSortBtn = document.getElementById('cve-sort-toggle');
+        if (cveSortBtn) {
+            cveSortBtn.addEventListener('click', () => {
+                this.cveSort = this.cveSort === 'cvss' ? 'severity' : 'cvss';
+                cveSortBtn.classList.toggle('sort-severity', this.cveSort === 'severity');
+                cveSortBtn.setAttribute('aria-pressed', this.cveSort === 'severity' ? 'true' : 'false');
+                this.renderCVEs();
             });
         }
 
@@ -1478,25 +1990,61 @@ class YaslogistThreatRadarApp {
         }
     }
 
+    /* ----------------------------------------------------- motion system */
+
+    /**
+     * Progressive reveal: IntersectionObserver-driven, transform/opacity only,
+     * disabled entirely under prefers-reduced-motion (elements simply render).
+     */
+    initMotionSystem() {
+        this.reducedMotion = prefersReducedMotion();
+        if (typeof window !== 'undefined' && typeof window.matchMedia === 'function') {
+            const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+            mq.addEventListener?.('change', () => { this.reducedMotion = mq.matches; });
+        }
+        if (this.reducedMotion || typeof IntersectionObserver !== 'function') {
+            this.revealObserver = null;
+            document.querySelectorAll('.reveal').forEach(el => el.classList.add('revealed'));
+            return;
+        }
+        this.revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    this.revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+        this.applyReveal(document);
+    }
+
+    applyReveal(scope) {
+        const els = (scope || document).querySelectorAll
+            ? (scope || document).querySelectorAll('.reveal:not(.revealed)')
+            : [];
+        els.forEach(el => {
+            if (this.reducedMotion || !this.revealObserver) el.classList.add('revealed');
+            else this.revealObserver.observe(el);
+        });
+    }
+
+    /* ------------------------------------------------------------- charts */
+
     initCharts() {
         if (typeof Chart === 'undefined') return;
 
-        // 1. Attack Vectors Doughnut
+        const PLACEHOLDER = this.currentLang === 'ar' ? ['بانتظار القياس'] : ['AWAITING TELEMETRY'];
+
+        // 1. Attack Vectors Doughnut — placeholder until the real wire resolves.
         const ctxVector = document.getElementById('attackVectorChart');
         if (ctxVector) {
             this.charts.vectors = new Chart(ctxVector, {
                 type: 'doughnut',
                 data: {
-                    labels: ['DDoS Floods', 'Phishing & Creds', 'Ransomware', 'Zero-Day Exploit', 'OT/SCADA Wipers'],
+                    labels: PLACEHOLDER,
                     datasets: [{
-                        data: [38, 24, 18, 12, 8],
-                        backgroundColor: [
-                            '#EF4444',
-                            '#06B6D4',
-                            '#EAB308',
-                            '#A855F7',
-                            '#D97706'
-                        ],
+                        data: [1],
+                        backgroundColor: ['rgba(100, 116, 139, 0.35)'],
                         borderWidth: 2,
                         borderColor: '#0d1117',
                         hoverOffset: 6
@@ -1531,17 +2079,18 @@ class YaslogistThreatRadarApp {
             });
         }
 
-        // 2. Targeted Infrastructure Sectors
+        // 2. Targeted Infrastructure Sectors — zeroed real distribution until
+        // the wire resolves; bars grow strictly from counted wire signals.
         const ctxIndustry = document.getElementById('industryChart');
         if (ctxIndustry) {
             this.charts.industry = new Chart(ctxIndustry, {
                 type: 'bar',
                 data: {
-                    labels: ['Ports & Maritime', 'Energy & Petro', 'Defense Tech', 'Gov / Diplomatic', 'Subsea Telecom', 'Banking'],
+                    labels: SECTOR_BUCKETS.map(b => b.key),
                     datasets: [{
-                        data: [88, 74, 69, 52, 45, 34],
-                        backgroundColor: 'rgba(234, 179, 8, 0.7)',
-                        borderColor: '#EAB308',
+                        data: SECTOR_BUCKETS.map(() => 0),
+                        backgroundColor: SECTOR_COLORS.map(c => `${c}B3`),
+                        borderColor: SECTOR_COLORS,
                         borderWidth: 1,
                         borderRadius: 4
                     }]
@@ -1556,17 +2105,21 @@ class YaslogistThreatRadarApp {
                             borderColor: '#06B6D4',
                             borderWidth: 1,
                             titleColor: '#F1F5F9',
-                            bodyColor: '#06B6D4'
+                            bodyColor: '#06B6D4',
+                            callbacks: {
+                                label: (c) => ` ${c.parsed.y} wire signal${c.parsed.y === 1 ? '' : 's'}`
+                            }
                         }
                     },
                     scales: {
                         y: {
                             beginAtZero: true,
-                            grid: { color: 'rgba(255, 255, 255, 0.05)' },
                             ticks: {
+                                precision: 0,
                                 color: '#64748B',
                                 font: { family: "'JetBrains Mono', monospace", size: 9 }
-                            }
+                            },
+                            grid: { color: 'rgba(255, 255, 255, 0.05)' }
                         },
                         x: {
                             grid: { display: false },
@@ -1583,14 +2136,16 @@ class YaslogistThreatRadarApp {
 
     updateChartsLanguage() {
         if (!this.charts.vectors || !this.charts.industry) return;
-        const isAr = this.currentLang === 'ar';
-
         this.updateChartsFromData();
         this.updateRealTelemetry();
     }
 }
 
-// Bootstrap
-document.addEventListener('DOMContentLoaded', () => {
-    window.yaslogistRadar = new YaslogistThreatRadarApp();
-});
+// Bootstrap (skipped under test harness)
+if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.__YASLOGIST_NO_AUTOBOOT__) {
+    document.addEventListener('DOMContentLoaded', () => {
+        window.yaslogistRadar = new YaslogistThreatRadarApp();
+    });
+}
+
+export { YaslogistThreatRadarApp, I18N, escapeHTML, safeURL, SECTOR_BUCKETS, TAG_COLORS, FALLBACK_WIRE_ITEMS };

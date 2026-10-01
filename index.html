@@ -7,36 +7,76 @@
     <meta name="color-scheme" content="dark">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="description" content="YASLOGIST bilingual cyber threat intelligence and maritime logistics radar.">
+    <meta property="og:title" content="YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR">
+    <meta property="og:description" content="Bilingual sovereign CTI cockpit: live intelligence wire, tactical threat map, CVE matrix and maritime chokepoint telemetry.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yaslogist.github.io/yaslogist-intelligence/">
+    <meta property="og:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image-animated.gif">
+    <meta property="og:image:type" content="image/gif">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Animated tactical HUD: YASLOGIST Defense Systems — sovereign CTI & logistics radar with live intel wire, DEFCON meter, CVE exposure and 14-day signal sparkline.">
+    <meta property="og:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR">
+    <meta name="twitter:description" content="Bilingual sovereign CTI cockpit: live intelligence wire, tactical threat map, CVE matrix and maritime chokepoint telemetry.">
+    <meta name="twitter:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image-animated.gif">
+    <!--
+      Content-Security-Policy (meta-delivered, static host):
+      - scripts: self + the two pinned CDN modules (Leaflet, Chart.js) with SRI below
+      - styles: self + Google Fonts, FontAwesome, Leaflet CSS (+ inline for JS-driven styles)
+      - connect: same-origin JSON + the read-only public RSS overlay proxy
+      - img: self + data: + Esri tile services used by the tactical map
+      - no forms, no frames, no object/embed, upgrade-insecure-requests on HTTPS deploys
+    -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' https://unpkg.com https://cdn.jsdelivr.net;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://unpkg.com;
+        font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+        img-src 'self' data: https://server.arcgisonline.com https://services.arcgisonline.com https://basemaps.arcgis.com https://unpkg.com;
+        connect-src 'self' https://api.rss2json.com;
+        worker-src 'none';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'none';
+    ">
     <title>YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR</title>
-    
+
     <!-- Google Fonts: Cairo, IBM Plex Sans Arabic, JetBrains Mono, Fira Code, Orbitron -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800;900&family=Fira+Code:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Orbitron:wght@600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome 6 Pro/Free CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Leaflet.js CSS for Tactical Threat Map -->
+
+    <!-- FontAwesome 6.5.1 (pinned, SRI-verified against the @fortawesome/fontawesome-free npm package) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Leaflet.js CSS for Tactical Threat Map (pinned + SRI) -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=16">
-    <link rel="stylesheet" href="smart-operations.css?v=1">
+    <link rel="stylesheet" href="styles.css?v=17">
+    <link rel="stylesheet" href="smart-operations.css?v=2">
 </head>
 <body class="yaslogist-terminal">
+    <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
+
     <!-- Background Canvas Container for OGL <AcidSquares /> -->
     <div id="acid-squares-bg" aria-hidden="true"></div>
 
     <!-- Master Application Container -->
-    <div class="hud-container">
+    <div class="hud-container" id="main-content">
         <!-- 1. Tactical Command Header -->
         <header class="command-header">
             <!-- Left: Brand Identity & Logo -->
             <div class="brand-block">
                 <div class="logo-container" title="YASLOGIST Sovereign Operations">
-                    <img src="assets/yaslogist-logo.png" alt="YASLOGIST Logo" class="brand-logo" />
+                    <img src="assets/yaslogist-logo-128.png" alt="YASLOGIST Logo" class="brand-logo" width="64" height="64" />
                 </div>
                 <div class="title-meta">
                     <div class="kicker-tag">
@@ -93,13 +133,13 @@
                         <span class="clock-label" data-i18n="utcClockLabel">UTC</span>
                         <span class="clock-time mono" id="clock-utc">00:00:00</span>
                     </div>
-                    <div class="clock-divider">|</div>
+                    <div class="clock-divider" aria-hidden="true">|</div>
                     <div class="clock-cell">
                         <span class="clock-label" data-i18n="cairoClockLabel">CAIRO (EEST)</span>
                         <span class="clock-time mono text-gold" id="clock-cairo">00:00:00</span>
                     </div>
                 </div>
-                
+
                 <div class="header-controls">
                     <div class="status-pill live" id="live-connection-badge">
                         <span class="status-signal-dot"></span>
@@ -110,7 +150,7 @@
                         <span class="lang-text" id="langBtnText">العربية</span>
                     </button>
                     <button class="lang-toggle-btn command-launcher" id="commandLauncher" type="button" title="Open command palette" aria-label="Open command palette">
-                        <i class="fa-solid fa-terminal"></i><span class="mono">⌘K</span>
+                        <i class="fa-solid fa-terminal"></i><span class="mono" aria-hidden="true">⌘K</span>
                     </button>
                 </div>
             </div>
@@ -118,28 +158,28 @@
 
         <!-- 2. Main High-Density Layout -->
 
-        <!-- Tactical Navigation Bar -->
-        <nav class="tactical-navbar glass-panel">
-            <button class="nav-tab active" data-target="dashboard" data-i18n="navDashboard">DASHBOARD</button>
-            <button class="nav-tab" data-target="threat-map-view" data-i18n="navThreatMap">THREAT MAP</button>
-            <button class="nav-tab" data-target="intel-wire" data-i18n="navIntelWire">INTEL WIRE</button>
-            <button class="nav-tab" data-target="cve-matrix" data-i18n="navCveMatrix">CVE MATRIX</button>
-            <button class="nav-tab" data-target="apt-dossiers" data-i18n="navAptDossiers">APT DOSSIERS</button>
+        <!-- Tactical Navigation Bar (WAI-ARIA tablist) -->
+        <nav class="tactical-navbar glass-panel" role="tablist" aria-label="Primary tactical navigation" data-i18n-aria-label="navAriaLabel">
+            <button class="nav-tab active" id="tab-dashboard" data-target="dashboard" role="tab" aria-selected="true" aria-controls="dashboard" tabindex="0" data-i18n="navDashboard">DASHBOARD</button>
+            <button class="nav-tab" id="tab-threat-map-view" data-target="threat-map-view" role="tab" aria-selected="false" aria-controls="threat-map-view" tabindex="-1" data-i18n="navThreatMap">THREAT MAP</button>
+            <button class="nav-tab" id="tab-intel-wire" data-target="intel-wire" role="tab" aria-selected="false" aria-controls="intel-wire" tabindex="-1" data-i18n="navIntelWire">INTEL WIRE</button>
+            <button class="nav-tab" id="tab-cve-matrix" data-target="cve-matrix" role="tab" aria-selected="false" aria-controls="cve-matrix" tabindex="-1" data-i18n="navCveMatrix">CVE MATRIX</button>
+            <button class="nav-tab" id="tab-apt-dossiers" data-target="apt-dossiers" role="tab" aria-selected="false" aria-controls="apt-dossiers" tabindex="-1" data-i18n="navAptDossiers">APT DOSSIERS</button>
         </nav>
 
-        <section id="dashboard" class="tab-panel glass-panel active">
+        <section id="dashboard" class="tab-panel glass-panel active" role="tabpanel" aria-labelledby="tab-dashboard" tabindex="0">
             <!-- TOP KPI STRIP (4 CARDS) WITH LIVE METRIC PROGRESS -->
             <section class="kpi-strip" aria-label="Key Performance Threat Indicators">
-                <!-- KPI 1: Attacks Monitored (24h) -->
-                <div class="kpi-card" id="kpi-attacks-card">
+                <!-- KPI 1: Regional Signal Volume (7d) -->
+                <div class="kpi-card reveal" id="kpi-attacks-card">
                     <div class="kpi-top">
-                        <span class="kpi-label" data-i18n="kpiAttacksLabel">ATTACKS MONITORED (24H)</span>
+                        <span class="kpi-label" data-i18n="kpiAttacksLabel">REGIONAL SIGNAL VOLUME (7D)</span>
                         <i class="fa-solid fa-shield-virus kpi-icon text-crimson"></i>
                     </div>
                     <div class="kpi-value-row">
-                        <span class="kpi-value mono text-crimson" id="kpi-attacks-count">142</span>
+                        <span class="kpi-value mono text-crimson" id="kpi-attacks-count">—</span>
                         <span class="kpi-trend trend-up mono" id="kpi-attacks-trend">
-                            <i class="fa-solid fa-arrow-trend-up"></i> +14.2%
+                            <i class="fa-solid fa-arrow-trend-up"></i>
                         </span>
                     </div>
                     <!-- Micro Live Progress Bar -->
@@ -148,19 +188,19 @@
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
-                    <div class="kpi-subtext" data-i18n="kpiAttacksSub">Kinetic & sovereign cyber vectors detected</div>
+                    <div class="kpi-subtext" data-i18n="kpiAttacksSub">Country-linked reports across monitored OSINT feeds</div>
                 </div>
 
-                <!-- KPI 2: Active Campaigns -->
-                <div class="kpi-card" id="kpi-campaigns-card">
+                <!-- KPI 2: APT / State-linked reports -->
+                <div class="kpi-card reveal" id="kpi-campaigns-card">
                     <div class="kpi-top">
-                        <span class="kpi-label" data-i18n="kpiCampaignsLabel">ACTIVE THREAT CAMPAIGNS</span>
+                        <span class="kpi-label" data-i18n="kpiCampaignsLabel">APT / STATE-LINKED REPORTS</span>
                         <i class="fa-solid fa-crosshairs kpi-icon text-gold"></i>
                     </div>
                     <div class="kpi-value-row">
-                        <span class="kpi-value mono text-gold" id="kpi-campaigns-count">9</span>
+                        <span class="kpi-value mono text-gold" id="kpi-campaigns-count">—</span>
                         <span class="kpi-trend trend-gold mono" id="kpi-campaigns-trend">
-                            <span class="dot-pulse-gold"></span> APT33 / CIR
+                            <span class="dot-pulse-gold"></span>
                         </span>
                     </div>
                     <!-- Micro Live Progress Bar -->
@@ -169,19 +209,19 @@
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
-                    <div class="kpi-subtext" data-i18n="kpiCampaignsSub">IRGC & counter-proxy clusters active</div>
+                    <div class="kpi-subtext" data-i18n="kpiCampaignsSub">Wire items tagged APT or state-sponsored activity</div>
                 </div>
 
                 <!-- KPI 3: Critical Vulnerabilities -->
-                <div class="kpi-card" id="kpi-cve-card">
+                <div class="kpi-card reveal" id="kpi-cve-card">
                     <div class="kpi-top">
-                        <span class="kpi-label" data-i18n="kpiCveLabel">CRITICAL VULNERABILITIES</span>
+                        <span class="kpi-label" data-i18n="kpiCveLabel">WEAPONIZED CVEs TRACKED</span>
                         <i class="fa-solid fa-bug-slash kpi-icon text-cyan"></i>
                     </div>
                     <div class="kpi-value-row">
-                        <span class="kpi-value mono text-cyan" id="kpi-cves-count">18</span>
+                        <span class="kpi-value mono text-cyan" id="kpi-cves-count">—</span>
                         <span class="kpi-trend trend-cyan mono" id="kpi-cve-trend">
-                            <i class="fa-solid fa-circle-exclamation"></i> <span data-i18n="kpiCveTrend">+2 NEW</span>
+                            <i class="fa-solid fa-circle-exclamation"></i>
                         </span>
                     </div>
                     <!-- Micro Live Progress Bar -->
@@ -190,19 +230,19 @@
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
-                    <div class="kpi-subtext" data-i18n="kpiCveSub">Actively weaponized in edge gateways</div>
+                    <div class="kpi-subtext" data-i18n="kpiCveSub">Extracted from feeds, enriched via MITRE CVE API</div>
                 </div>
 
-                <!-- KPI 4: Critical Logistics Disruptions -->
-                <div class="kpi-card" id="kpi-logistics-card">
+                <!-- KPI 4: Maritime Chokepoint Alerts -->
+                <div class="kpi-card reveal" id="kpi-logistics-card">
                     <div class="kpi-top">
-                        <span class="kpi-label" data-i18n="kpiLogisticsLabel">CRITICAL LOGISTICS DISRUPTIONS</span>
+                        <span class="kpi-label" data-i18n="kpiLogisticsLabel">MARITIME CHOKEPOINT ALERTS</span>
                         <i class="fa-solid fa-ship kpi-icon text-crimson"></i>
                     </div>
                     <div class="kpi-value-row">
-                        <span class="kpi-value mono text-crimson" id="kpi-logistics-count">3</span>
+                        <span class="kpi-value mono text-crimson" id="kpi-logistics-count">—</span>
                         <span class="kpi-trend trend-warn mono" id="kpi-logistics-trend">
-                            <i class="fa-solid fa-triangle-exclamation"></i> <span data-i18n="kpiLogisticsTrend">HIGH RISK</span>
+                            <i class="fa-solid fa-triangle-exclamation"></i>
                         </span>
                     </div>
                     <!-- Micro Live Progress Bar -->
@@ -216,67 +256,67 @@
             </section>
 
             <!-- LIVE SOVEREIGN TELEMETRY & DEFENSE PROGRESS GRID -->
-            <div class="live-progress-cockpit-panel">
+            <div class="live-progress-cockpit-panel reveal">
                 <div class="cockpit-header">
                     <div class="cockpit-title-group">
                         <span class="cockpit-beacon-pulse"></span>
                         <h3 class="cockpit-title" data-i18n="cockpitTitle">SOVEREIGN DEFENSE GRID // LIVE TELEMETRY & THREAT MITIGATION ENGINE</h3>
                         <span class="cockpit-live-tag mono"><i class="fa-solid fa-circle-dot live-blinker"></i> <span data-i18n="cockpitLiveTag">LIVE 24/7 STREAM</span></span>
                     </div>
-                    <div class="cockpit-engine-meta mono" id="cockpit-engine-meta">INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H</div>
+                    <div class="cockpit-engine-meta mono" id="cockpit-engine-meta" data-i18n="cockpitEngineMeta">INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H</div>
                 </div>
 
                 <div class="cockpit-progress-grid">
-                    <!-- Progress 1: Defense Shield Integrity -->
+                    <!-- Progress 1: Ingest Feed Integrity -->
                     <div class="progress-metric-box">
                         <div class="metric-head">
-                            <span class="metric-name"><i class="fa-solid fa-shield-halved text-cyan"></i> <span data-i18n="progGridName">DEFENSE GRID INTEGRITY</span></span>
-                            <span class="metric-val mono text-cyan" id="prog-grid-val">98.4%</span>
+                            <span class="metric-name"><i class="fa-solid fa-shield-halved text-cyan"></i> <span data-i18n="progGridName">INGEST FEED INTEGRITY</span></span>
+                            <span class="metric-val mono text-cyan" id="prog-grid-val">—</span>
                         </div>
                         <div class="tactical-progress-track">
-                            <div class="tactical-progress-bar bar-cyan" id="prog-grid-bar" style="width: 98.4%">
+                            <div class="tactical-progress-bar bar-cyan" id="prog-grid-bar" style="width: 0%">
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
                         <div class="metric-foot mono"><span id="foot-grid-1">—</span><span class="text-green" id="foot-grid-2">—</span></div>
                     </div>
 
-                    <!-- Progress 2: Threat Vector Interception -->
+                    <!-- Progress 2: Wire Freshness (24h) -->
                     <div class="progress-metric-box">
                         <div class="metric-head">
-                            <span class="metric-name"><i class="fa-solid fa-crosshairs text-crimson"></i> <span data-i18n="progInterceptName">THREAT INTERCEPTION RATE</span></span>
-                            <span class="metric-val mono text-crimson" id="prog-intercept-val">94.8%</span>
+                            <span class="metric-name"><i class="fa-solid fa-crosshairs text-crimson"></i> <span data-i18n="progInterceptName">WIRE FRESHNESS (24H)</span></span>
+                            <span class="metric-val mono text-crimson" id="prog-intercept-val">—</span>
                         </div>
                         <div class="tactical-progress-track">
-                            <div class="tactical-progress-bar bar-crimson" id="prog-intercept-bar" style="width: 94.8%">
+                            <div class="tactical-progress-bar bar-crimson" id="prog-intercept-bar" style="width: 0%">
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
                         <div class="metric-foot mono"><span id="foot-intercept-1">—</span><span class="text-gold" id="foot-intercept-2">—</span></div>
                     </div>
 
-                    <!-- Progress 3: Maritime Chokepoint Continuity -->
+                    <!-- Progress 3: Maritime Alert Load -->
                     <div class="progress-metric-box">
                         <div class="metric-head">
-                            <span class="metric-name"><i class="fa-solid fa-anchor text-gold"></i> <span data-i18n="progTransitName">CHOKEPOINT TRANSIT CONTINUITY</span></span>
-                            <span class="metric-val mono text-gold" id="prog-transit-val">89.2%</span>
+                            <span class="metric-name"><i class="fa-solid fa-anchor text-gold"></i> <span data-i18n="progTransitName">MARITIME ALERT LOAD</span></span>
+                            <span class="metric-val mono text-gold" id="prog-transit-val">—</span>
                         </div>
                         <div class="tactical-progress-track">
-                            <div class="tactical-progress-bar bar-gold" id="prog-transit-bar" style="width: 89.2%">
+                            <div class="tactical-progress-bar bar-gold" id="prog-transit-bar" style="width: 0%">
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
                         <div class="metric-foot mono"><span id="foot-transit-1">—</span><span class="text-cyan" id="foot-transit-2">—</span></div>
                     </div>
 
-                    <!-- Progress 4: AI CTI Attribution Confidence -->
+                    <!-- Progress 4: CVE Exposure Index -->
                     <div class="progress-metric-box">
                         <div class="metric-head">
-                            <span class="metric-name"><i class="fa-solid fa-brain text-purple"></i> <span data-i18n="progAiName">AI CTI ATTRIBUTION CONFIDENCE</span></span>
-                            <span class="metric-val mono text-purple" id="prog-ai-val">99.1%</span>
+                            <span class="metric-name"><i class="fa-solid fa-brain text-purple"></i> <span data-i18n="progAiName">CVE EXPOSURE INDEX</span></span>
+                            <span class="metric-val mono text-purple" id="prog-ai-val">—</span>
                         </div>
                         <div class="tactical-progress-track">
-                            <div class="tactical-progress-bar bar-purple" id="prog-ai-bar" style="width: 99.1%">
+                            <div class="tactical-progress-bar bar-purple" id="prog-ai-bar" style="width: 0%">
                                 <div class="bar-scanner"></div>
                             </div>
                         </div>
@@ -287,7 +327,7 @@
 
             <!-- Attack Vector Doughnut & Sector Telemetry -->
             <div class="vectors-row-grid">
-                <div class="card vector-chart-panel">
+                <div class="card vector-chart-panel reveal">
                     <div class="card-header mini-header">
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-chart-pie text-cyan"></i></span>
@@ -296,11 +336,11 @@
                         <span class="badge-intel" data-i18n="liveTelemetry">LIVE 24H</span>
                     </div>
                     <div class="canvas-wrapper-fixed">
-                        <canvas id="attackVectorChart"></canvas>
+                        <canvas id="attackVectorChart" role="img" aria-label="Doughnut chart of wire tag distribution"></canvas>
                     </div>
                 </div>
 
-                <div class="card industry-chart-panel">
+                <div class="card industry-chart-panel reveal">
                     <div class="card-header mini-header">
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-building-shield text-gold"></i></span>
@@ -309,13 +349,13 @@
                         <span class="badge-intel mono" data-i18n="cveSocStandards">CVSS / SOC</span>
                     </div>
                     <div class="canvas-wrapper-fixed">
-                        <canvas id="industryChart"></canvas>
+                        <canvas id="industryChart" role="img" aria-label="Bar chart of wire signals per infrastructure sector"></canvas>
                     </div>
                 </div>
             </div>
         </section>
 
-            <section id="threat-map-view" class="tab-panel glass-panel">
+            <section id="threat-map-view" class="tab-panel glass-panel" role="tabpanel" aria-labelledby="tab-threat-map-view" tabindex="0">
                     <!-- Map Card -->
                     <div class="card map-panel">
                         <div class="card-header">
@@ -331,6 +371,7 @@
                                     <span class="map-legend-item"><span class="legend-dot dot-critical"></span> <span data-i18n="legendCritical">Critical</span></span>
                                     <span class="map-legend-item"><span class="legend-dot dot-high"></span> <span data-i18n="legendHigh">High</span></span>
                                     <span class="map-legend-item"><span class="legend-dot dot-med"></span> <span data-i18n="legendMed">Medium</span></span>
+                                    <span class="map-legend-item"><span class="legend-dot dot-low"></span> <span data-i18n="legendLow">Low</span></span>
                                 </div>
                                 <button class="btn-reset-map" id="btnResetMap">
                                     <i class="fa-solid fa-crosshairs"></i> <span data-i18n="resetView">RESET</span>
@@ -360,7 +401,7 @@
                     </div>
             </section>
 
-            <section id="intel-wire" class="tab-panel glass-panel">
+            <section id="intel-wire" class="tab-panel glass-panel" role="tabpanel" aria-labelledby="tab-intel-wire" tabindex="0">
                 <!-- Live Intelligence Wire -->
                 <div class="card intel-wire-panel">
                         <div class="card-header">
@@ -371,7 +412,7 @@
                                     <div class="card-subtitle" id="wire-report-count" data-i18n="wireSubtitle">Real-time CTI & kinetic conflict intercepts</div>
                                 </div>
                             </div>
-                            <button class="btn-refresh" id="refresh-news-btn" title="Refresh Live Feeds">
+                            <button class="btn-refresh" id="refresh-news-btn" title="Refresh Live Feeds" aria-label="Refresh intelligence wire">
                                 <i class="fa-solid fa-arrows-rotate"></i>
                             </button>
                         </div>
@@ -380,9 +421,9 @@
                         <div class="wire-toolbar">
                             <div class="search-input-wrap">
                                 <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                                <input type="text" id="news-search" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" />
+                                <input type="text" id="news-search" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" aria-label="Filter intelligence wire" />
                             </div>
-                            <div class="tactical-tags-filter" id="wire-tags-filter">
+                            <div class="tactical-tags-filter" id="wire-tags-filter" role="group" aria-label="Wire tag filters">
                                 <button class="filter-pill active" data-tag="ALL" data-i18n="tagAll">ALL</button>
                                 <button class="filter-pill tag-pill-crimson" data-tag="RANSOMWARE" data-i18n="tagRansomware">RANSOMWARE</button>
                                 <button class="filter-pill tag-pill-purple" data-tag="ZERO-DAY" data-i18n="tagZeroday">ZERO-DAY</button>
@@ -393,7 +434,7 @@
                         </div>
 
                         <!-- Scrollable Feed Container -->
-                        <div class="intel-feed-scroller" id="news-container">
+                        <div class="intel-feed-scroller" id="news-container" aria-live="polite" aria-busy="false">
                             <div class="loading-state">
                                 <i class="fa-solid fa-spinner fa-spin"></i>
                                 <span data-i18n="loadingWire">Establishing secure telemetry to intelligence feeds...</span>
@@ -402,7 +443,7 @@
                     </div>
             </section>
 
-            <section id="cve-matrix" class="tab-panel glass-panel">
+            <section id="cve-matrix" class="tab-panel glass-panel" role="tabpanel" aria-labelledby="tab-cve-matrix" tabindex="0">
                 <!-- LEFT: Actively Exploited CVE Defense Matrix -->
                 <div class="card cve-matrix-panel">
                     <div class="card-header">
@@ -415,6 +456,20 @@
                         </div>
                         <span class="badge-intel mono text-crimson" data-i18n="mitreCveSync">CISA KEV / MITRE</span>
                     </div>
+
+                    <!-- Severity filter + sort controls -->
+                    <div class="cve-toolbar" role="group" aria-label="CVE matrix controls">
+                        <div class="tactical-tags-filter" id="cve-severity-filter">
+                            <button class="filter-pill active" data-severity="ALL" data-i18n="cveFilterAll">ALL</button>
+                            <button class="filter-pill tag-pill-crimson" data-severity="critical" data-i18n="sevCritical">CRITICAL</button>
+                            <button class="filter-pill tag-pill-gold" data-severity="high" data-i18n="sevHigh">HIGH</button>
+                            <button class="filter-pill tag-pill-cyan" data-severity="medium" data-i18n="sevMedium">MEDIUM</button>
+                        </div>
+                        <button class="filter-pill cve-sort-toggle" id="cve-sort-toggle" type="button" aria-pressed="false">
+                            <i class="fa-solid fa-arrow-down-wide-short"></i> <span data-i18n="cveSortCvss">SORT: CVSS</span>
+                        </button>
+                    </div>
+
                     <div class="table-container-scroller">
                         <table class="tactical-table" id="cve-table">
                             <thead>
@@ -422,6 +477,7 @@
                                     <th data-i18n="thCveId">CVE IDENTIFIER</th>
                                     <th data-i18n="thSystem">AFFECTED SYSTEM / VENDOR</th>
                                     <th data-i18n="thSeverity">SEVERITY</th>
+                                    <th data-i18n="thCvss">CVSS</th>
                                     <th data-i18n="thAdvisory">TACTICAL ADVISORY</th>
                                 </tr>
                             </thead>
@@ -433,7 +489,7 @@
                 </div>
             </section>
 
-            <section id="apt-dossiers" class="tab-panel glass-panel">
+            <section id="apt-dossiers" class="tab-panel glass-panel" role="tabpanel" aria-labelledby="tab-apt-dossiers" tabindex="0">
                 <!-- RIGHT: Threat Actor Dossiers -->
                 <div class="card actors-dossier-panel">
                     <div class="card-header">
@@ -446,7 +502,7 @@
                         </div>
                         <div class="search-input-wrap small-search">
                             <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                            <input type="text" id="actor-search" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" />
+                            <input type="text" id="actor-search" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" aria-label="Search threat actors" />
                         </div>
                     </div>
                     <div class="actors-grid-scroller" id="actors-grid">
@@ -471,13 +527,15 @@
     </div>
 
     <!-- Scripts -->
-    <!-- Leaflet.js -->
+    <!-- Leaflet.js (pinned + SRI) -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
+    <!-- Chart.js 4.4.7 UMD (pinned; SRI verified against the npm registry tarball) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.js"
+            integrity="sha384-zYPBGXwO4633CABX/5Spf6emCKUJCfoOkhOMYyxMsatqQZPnDblmmOewfjsIVWCM"
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- ES Modules -->
-    <script type="module" src="acid-squares-bg.js"></script>
-    <script type="module" src="app.js?v=16"></script>
+    <script type="module" src="acid-squares-bg.js?v=17"></script>
+    <script type="module" src="app.js?v=17"></script>
 </body>
 </html>

@@ -40,3 +40,16 @@
 .smart-confidence { color:var(--yas-cyan); font-size:10px; }
 .smart-briefing-foot { display:flex; justify-content:space-between; gap:12px; margin-top:12px; color:var(--text-muted); font:10px var(--font-mono); }
 @media (max-width:700px) { .smart-briefing-grid { grid-template-columns:1fr; } .smart-briefing-foot { flex-direction:column; } .smart-score-wrap { min-width:100px; } }
+
+/* ---- Signal timeline (14-day sparkline inside Smart Briefing) ---- */
+.smart-timeline { margin-top: 12px; padding: 11px 14px 8px; border: 1px solid rgba(255,255,255,.08); border-radius: 8px; background: rgba(0,0,0,.16); }
+.smart-timeline-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+#smart-timeline-delta { color: var(--yas-cyan); font-size: 10px; letter-spacing: .04em; }
+#smart-timeline-delta[data-direction="up"] { color: var(--yas-crimson); }
+#smart-timeline-delta[data-direction="down"] { color: var(--yas-green); }
+#smart-sparkline { display: block; width: 100%; height: 56px; }
+.smart-recommendation .smart-confidence { display: inline-block; margin-top: 2px; }
+
+/* ---- Command palette: visible focus ring for full keyboard parity ---- */
+.command-item:focus-visible { outline: 2px solid var(--yas-cyan); outline-offset: 1px; }
+.command-search:focus-visible { outline: 2px solid var(--yas-cyan); outline-offset: 1px; }

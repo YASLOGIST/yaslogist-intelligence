@@ -27,6 +27,9 @@ jobs:
       - name: Ingest Middle East intel wire, CVEs and target intensity
         run: node update_data.js
 
+      - name: Validate generated artifacts before committing
+        run: node scripts/validate-data.cjs
+
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
