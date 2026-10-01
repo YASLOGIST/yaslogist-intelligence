@@ -1,6 +1,6 @@
 {
   "name": "yaslogist-intelligence",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Static bilingual CTI and maritime logistics threat radar",
   "scripts": {
@@ -10,7 +10,8 @@
     "budget": "node scripts/perf-budget.cjs",
     "scan": "node scripts/security-scan.cjs",
     "ci": "npm run check && npm test && npm run validate:data && npm run budget && npm run scan",
-    "ingest": "node update_data.js"
+    "ingest": "node update_data.js",
+    "card": "python3 assets/generate-og-image.py"
   },
   "engines": {
     "node": ">=20"

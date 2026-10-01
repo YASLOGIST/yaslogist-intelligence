@@ -3,6 +3,44 @@
 All notable changes to YASLOGIST Intelligence are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.0] — 2026-10-01
+
+Branding & documentation release: data-honest animated social card, whitepaper README.
+
+### Added
+
+- **Animated OG card** `assets/og-image-animated.gif` (1200×630, 40 frames × 90 ms, ~308 KB)
+  — tactical HUD design with radar sweep + blips, scrolling wire, DEFCON band meter,
+  CVSS exposure bar, 14-day sparkline, live ECG heartbeat and system clock.
+  **Data-honest by construction**: the renderer reads the same committed JSON the app
+  serves (45 real wire titles, real peak CVE-2026-67367 at CVSS 9.2, real timeline
+  counts), so the card can never advertise fabricated intel. Latin typography only
+  (offline PIL build without Arabic shaping — deliberate, documented).
+- **OG renderer** `assets/generate-og-image.py` (PIL-only, fully offline) with static
+  fallback `assets/og-image.png`; regenerate post-ingest via `npm run card`.
+  Rendering note recorded in-source: PIL `ImageDraw` does not alpha-blend —
+  translucent elements are composited through RGBA overlays.
+- **Full OG/Twitter meta block** in `index.html`: absolute GitHub Pages URLs
+  (crawlers fail on relative `og:image`), GIF primary + PNG fallback entries with
+  `og:image:type|width|height|alt`, `summary_large_image` Twitter card, `og:url`.
+
+### Changed
+
+- **README rewritten as a technical whitepaper**: hero with the animated card,
+  Abstract, numbered chapters — System Architecture (design doctrine, data-plane
+  Mermaid, runtime sequence diagram, trust-boundary table), Feature Matrix (capability
+  × module × data path × verification × status), Core Workflows (ingestion cycle,
+  browser boot, operator loop, CI gate, card regeneration), Tech Stack (per-layer
+  rationale), Intelligence Dataset, Security & Integrity, Bilingual, Quick Start,
+  Repository Map, **Verification Ledger** (measured gate results, no estimates).
+- `package.json` version → 1.2.0; new `card` script.
+
+### Verified
+
+- Renderer output inspected frame-by-frame (frame 0/10/25): no text collisions,
+  shared 128-colour palette (no playback flicker), clock/sweep/cursor/meter animate.
+- `npm run ci` — all gates green (56/56 tests, 5/5 artifacts, budget, 33-file scan).
+
 ## [1.1.0] — 2026-10-01
 
 Full audit, hardening and capability upgrade. See `docs/AUDIT-2026-10.md` for the
