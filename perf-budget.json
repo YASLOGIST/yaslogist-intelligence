@@ -1,0 +1,33 @@
+{
+    "maxFileBytes": {
+        "index.html": 45056,
+        "styles.css": 133120,
+        "smart-operations.css": 12288,
+        "app.js": 129024,
+        "threat-map.js": 61440,
+        "acid-squares-bg.js": 25600,
+        "data/intel_wire.json": 524288,
+        "data/middle_east_cves.json": 32768,
+        "data/target_intensity.json": 16384,
+        "data/meta.json": 16384,
+        "data/signal_timeline.json": 8192
+    },
+    "localSurface": [
+        "index.html",
+        "styles.css",
+        "smart-operations.css",
+        "app.js",
+        "threat-map.js",
+        "acid-squares-bg.js",
+        "assets/yaslogist-logo-128.png",
+        "data/intel_wire.json",
+        "data/middle_east_cves.json",
+        "data/target_intensity.json",
+        "data/meta.json",
+        "data/signal_timeline.json"
+    ],
+    "maxTotalLocalBytes": 1048576,
+    "maxExternalScripts": 2,
+    "maxExternalStylesheets": 4,
+    "maxExternalPreconnects": 2
+}

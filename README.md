@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/yaslogist-logo.png" alt="YASLOGIST logo" width="128" />
+<img src="assets/yaslogist-logo-128.png" alt="YASLOGIST logo" width="128" />
 
 # YASLOGIST Intelligence
 
@@ -40,15 +40,20 @@ The browser receives preprocessed JSON—not API credentials or a server session
 | **CVE defense matrix** | Feed-extracted CVE identifiers enriched with MITRE CVE records, CVSS scores, severity, and affected products |
 | **Target intensity** | Rolling 7-day country-linked signal volume with comparison against the preceding window |
 | **Maritime awareness** | Focus on Suez, Bab el-Mandeb, the Red Sea, and the Strait of Hormuz |
-| **Operator console** | Searchable command palette, full-screen mode, intelligence snapshot export, and briefing recalculation |
-| **Resilient display** | Committed data artifacts, timeout-aware requests, offline state feedback, and safe fallback content |
+| **Operator console** | Searchable command palette, full-screen mode, JSON snapshot & Markdown briefing export, deep links, briefing recalculation |
+| **Provenance & freshness** | Every artifact carries a manifest (`data/meta.json`); the footer shows true pipeline age with stale-state escalation |
+| **Signal timeline** | Rolling 14-day signal-volume sparkline with honest 7-day vs prior-7-day delta |
+| **Resilient display** | Committed data artifacts, timeout-aware requests with retry/backoff, offline state feedback, safe fallback content |
+| **Accessible motion** | Progressive reveal, skeleton loading and KPI count-up — all disabled under `prefers-reduced-motion`; WebGL auto-tunes to the device frame rate |
 
 ### Command interface
 
 Press <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>K</kbd> to open the operator console.
 
 - Refresh the intelligence wire
-- Export the current intelligence snapshot
+- Export the current intelligence snapshot (JSON)
+- Export the smart threat briefing (Markdown hand-off)
+- Copy a deep link to the current view
 - Switch between Arabic and English
 - Jump directly to the threat map
 - Enter full-screen command-center mode
@@ -75,6 +80,8 @@ flowchart LR
         WIRE[intel_wire.json]
         CVE[middle_east_cves.json]
         HEAT[target_intensity.json]
+        META[meta.json provenance]
+        TIME[signal_timeline.json]
     end
 
     subgraph Edge[Static command surface]
@@ -93,6 +100,8 @@ flowchart LR
     ENRICH --> WIRE
     ENRICH --> CVE
     SCORE --> HEAT
+    FILTER --> TIME
+    COLLECT --> META
     WIRE --> UI
     CVE --> UI
     HEAT --> MAP
@@ -107,7 +116,8 @@ flowchart LR
 - **Versioned intelligence** — generated telemetry is committed as inspectable JSON with history and provenance.
 - **Failure tolerant** — individual feed failures do not terminate an ingestion cycle; existing data remains available when no fresh wire resolves.
 - **Untrusted-input aware** — feed values are HTML-escaped and outbound URLs are protocol allow-listed before rendering.
-- **Progressive visual stack** — core intelligence remains usable if the optional WebGL background cannot initialize.
+- **Schema-guarded artifacts** — every committed JSON is validated before commit (shared validators, CI-enforced).
+- **Progressive visual stack** — core intelligence remains usable if the optional WebGL background cannot initialize; an FPS watchdog steps the shader down before it can jank the interface.
 
 ## Intelligence pipeline
 
@@ -122,11 +132,13 @@ Filter for regional, cyber, and maritime relevance
         ↓
 Normalize · classify · deduplicate · sort
         ↓
-Extract CVE IDs and enrich against MITRE
+Extract CVE IDs and enrich against MITRE (capped concurrency)
         ↓
-Calculate rolling country intensity
+Calculate rolling country intensity + 14-day signal timeline
         ↓
-Write JSON artifacts and commit changed data
+Write 5 JSON artifacts (incl. provenance manifest)
+        ↓
+Validate artifacts against schema, then commit changed data
 ```
 
 ### Monitored source classes
@@ -147,7 +159,9 @@ Classification is deterministic and explainable. It is keyword-driven—not a cl
 | :--- | :--- | :--- |
 | [`data/intel_wire.json`](data/intel_wire.json) | Normalized intelligence stream | Titles, summaries, source, publication time, link, bilingual fields, tags |
 | [`data/middle_east_cves.json`](data/middle_east_cves.json) | Vulnerability matrix | CVE ID, product/vendor, severity, CVSS score, display badge |
-| [`data/target_intensity.json`](data/target_intensity.json) | Geographic signal telemetry | Country, current/previous volume, delta, intensity level |
+| [`data/target_intensity.json`](data/target_intensity.json) | Geographic signal telemetry | Country, current/previous volume, delta %, intensity level |
+| [`data/meta.json`](data/meta.json) | Provenance manifest | Generation time, per-feed health, artifact counts, newest wire timestamp |
+| [`data/signal_timeline.json`](data/signal_timeline.json) | 14-day trend | Daily UTC signal buckets (merged across cycles, never erased) |
 
 The collector retains up to **45 wire items** and **8 enriched CVE records** per generated snapshot. Country intensity currently evaluates Israel, Iran, Lebanon, Syria, Yemen, Jordan, and Egypt over rolling 7-day windows.
 
@@ -188,10 +202,15 @@ python3 -m http.server 8080
 
 Open **http://localhost:8080**.
 
-### 3. Validate the JavaScript
+### 3. Run the full verification gates
 
 ```bash
-npm run check
+npm run check          # syntax-check every JS artifact
+npm test               # 56 assertions: unit, integration, i18n, schema, static integrity
+npm run validate:data  # schema-validate committed intelligence artifacts
+npm run budget         # performance budget gate
+npm run scan           # security scan (secrets, sinks, external-script policy)
+npm run ci             # all of the above, one command
 ```
 
 ### 4. Refresh intelligence data locally
@@ -234,17 +253,29 @@ Use `.` as the publish directory and leave the build command empty. Ensure the h
 
 ```text
 .
-├── index.html                    # Command-center shell
-├── app.js                        # UI, i18n, telemetry, filtering, console
+├── index.html                    # Command-center shell (CSP, ARIA tabs, SRI pins)
+├── app.js                        # UI, i18n, telemetry, filtering, console (testable exports)
 ├── threat-map.js                 # Tactical geospatial layers
-├── acid-squares-bg.js            # WebGL visual engine
-├── styles.css                    # Core design system
+├── acid-squares-bg.js            # WebGL visual engine (FPS watchdog, reduced-motion frame)
+├── styles.css                    # Core design system + motion tokens
 ├── smart-operations.css          # Operator-console enhancements
-├── update_data.js                # Autonomous intelligence collector
-├── data/                         # Versioned generated intelligence
-├── assets/                       # Brand assets
+├── update_data.js                # Autonomous intelligence collector (thin orchestration)
+├── lib/
+│   ├── intel-core.cjs            # Pure pipeline logic (unit tested)
+│   └── validate-data.cjs         # Shared artefact validators
+├── scripts/
+│   ├── validate-data.cjs         # CLI: data gate
+│   ├── perf-budget.cjs           # CLI: performance budget gate
+│   └── security-scan.cjs         # CLI: secrets/sinks/pinning gate
+├── tests/                        # node:test suite (zero dependencies)
+├── docs/                         # Architecture, behavioural spec, audit
+├── data/                         # 5 versioned generated intelligence artefacts
+├── assets/                       # Brand assets (optimized 128px variant used in-app)
+├── archive/legacy/               # Retired one-off scripts & duplicates (not loaded)
+├── perf-budget.json              # Published performance budget
 └── .github/workflows/
-    └── update-data.yml           # Two-hour ingestion automation
+    ├── ci.yml                    # Verify matrix + hygiene (push/PR)
+    └── update-data.yml           # Two-hour ingestion + schema validation
 ```
 
 ## Security and data integrity
@@ -252,7 +283,9 @@ Use `.` as the publish directory and leave the build command empty. Ensure the h
 - No API keys are required by the deployed browser application.
 - External feed content is treated as untrusted and escaped before HTML rendering.
 - Article links are restricted to HTTP and HTTPS protocols.
-- Network requests use timeouts to avoid indefinite stalls.
+- A restrictive Content-Security-Policy is delivered via meta tag (no inline scripts, no forms, no objects).
+- External scripts are pinned to exact versions with Subresource Integrity; CI fails on violations.
+- Network requests use timeouts; the pipeline adds bounded retries with exponential backoff (transient errors only).
 - External map tiles, fonts, icons, charts, and WebGL modules remain subject to their providers' availability and terms.
 - The ingestion job writes only when useful data resolves; an empty collection does not overwrite the existing wire.
 
@@ -264,7 +297,7 @@ Contributions that improve source reliability, localization, accessibility, data
 
 1. Fork the repository and create a focused branch.
 2. Make the smallest coherent change.
-3. Run `npm run check`.
+3. Run `npm run ci` (syntax + tests + data schema + budget + security scan).
 4. If the collector changed, run `npm run ingest` and inspect generated data carefully.
 5. Open a pull request explaining the operational impact and test evidence.
 

@@ -2322,3 +2322,174 @@ body {
     0% { transform: scale(0.6); opacity: 0.9; }
     100% { transform: scale(2.0); opacity: 0; }
 }
+
+/* ===================================================================
+   YASLOGIST MOTION & OPERATOR SYSTEM v1.1 (2026-10)
+   Consistent motion tokens + progressive reveal + skeleton loading +
+   CVE matrix controls + pipeline-sync states + keyboard access.
+   Every animation here is transform/opacity only (no layout thrash),
+   and everything collapses to a calm static state under
+   prefers-reduced-motion via the global guard at the top of this file.
+   =================================================================== */
+
+:root {
+    --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+    --ease-expressive: cubic-bezier(0.16, 1, 0.3, 1);
+    --dur-fast: 160ms;
+    --dur-med: 320ms;
+    --dur-slow: 520ms;
+}
+
+/* ---- Progressive reveal (JS + IntersectionObserver driven) ---- */
+/* The hidden state only exists when scripts can run and the operator
+   has not requested reduced motion — content is never invisible in
+   no-JS or reduced-motion environments. */
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+    .reveal {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    .reveal.revealed {
+        opacity: 1;
+        transform: translateY(0);
+        transition:
+            opacity var(--dur-slow) var(--ease-standard),
+            transform var(--dur-slow) var(--ease-expressive);
+        transition-delay: calc(var(--reveal-index, 0) * 55ms);
+    }
+}
+
+/* ---- Wire loading skeleton ---- */
+.wire-skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 11px 13px;
+    margin-bottom: 8px;
+    border: 1px solid var(--panel-border, rgba(255, 255, 255, 0.07));
+    border-radius: 6px;
+    background: rgba(18, 24, 34, 0.5);
+}
+.wire-skeleton span {
+    display: block;
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg,
+        rgba(148, 163, 184, 0.08) 25%,
+        rgba(148, 163, 184, 0.22) 50%,
+        rgba(148, 163, 184, 0.08) 75%);
+    background-size: 200% 100%;
+    animation: skeletonShimmer 1.4s linear infinite;
+}
+.wire-skeleton span:nth-child(1) { width: 34%; }
+.wire-skeleton span:nth-child(2) { width: 82%; }
+.wire-skeleton span:nth-child(3) { width: 61%; }
+@keyframes skeletonShimmer {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .wire-skeleton span { animation: none; background: rgba(148, 163, 184, 0.14); }
+}
+
+/* ---- KPI trend states (data-derived) ---- */
+.kpi-trend { display: inline-flex; align-items: center; gap: 6px; }
+.kpi-trend.trend-up { color: var(--yas-crimson); }
+.kpi-trend.trend-down { color: var(--yas-green, #10B981); }
+.kpi-trend.trend-flat { color: var(--text-muted); }
+
+/* ---- CVE matrix controls ---- */
+.cve-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 14px 0;
+}
+.cve-sort-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+.cve-sort-toggle.sort-severity {
+    border-color: var(--yas-gold);
+    color: var(--yas-gold);
+    background: rgba(234, 179, 8, 0.10);
+}
+.cvss-cell { font-weight: 700; font-size: 12px; }
+.cvss-cell.cvss-critical { color: var(--yas-crimson); text-shadow: 0 0 12px rgba(239, 68, 68, 0.45); }
+.cvss-cell.cvss-high { color: var(--yas-gold); }
+.cvss-cell.cvss-muted { color: var(--text-muted); font-weight: 500; }
+.cve-empty-cell {
+    text-align: center;
+    padding: 28px 12px !important;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+/* ---- Pipeline freshness states in the footer ---- */
+#last-updated-footer[data-stale="fresh"] { color: var(--yas-green, #10B981); }
+#last-updated-footer[data-stale="warn"] { color: var(--yas-gold); }
+#last-updated-footer[data-stale="critical"] {
+    color: var(--yas-crimson);
+    animation: stalePulse 2.4s ease-in-out infinite;
+}
+@keyframes stalePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #last-updated-footer[data-stale="critical"] { animation: none; }
+}
+
+/* ---- Skip link (keyboard access) ---- */
+.skip-link {
+    position: fixed;
+    top: -64px;
+    inset-inline-start: 16px;
+    z-index: 10002;
+    padding: 10px 16px;
+    background: rgba(6, 34, 43, 0.97);
+    color: var(--yas-cyan);
+    border: 1px solid var(--yas-cyan);
+    border-radius: 8px;
+    font: 600 12px var(--font-mono, monospace);
+    text-decoration: none;
+    transition: top var(--dur-fast) var(--ease-standard);
+}
+.skip-link:focus-visible {
+    top: 12px;
+    outline: 2px solid var(--yas-cyan);
+    outline-offset: 2px;
+}
+
+/* ---- Map legend: Low tier dot (matches low-intensity markers) ---- */
+.dot-low { background: var(--yas-green, #10B981); box-shadow: 0 0 6px var(--yas-green, #10B981); }
+
+/* ---- Hover lifts: transform/opacity only, cheap on the compositor ---- */
+@media (prefers-reduced-motion: no-preference) {
+    .filter-pill,
+    .btn-reset-map,
+    .lang-toggle-btn,
+    .nav-tab {
+        transition:
+            transform var(--dur-fast) var(--ease-standard),
+            color var(--dur-fast) var(--ease-standard),
+            border-color var(--dur-fast) var(--ease-standard),
+            background-color var(--dur-fast) var(--ease-standard),
+            box-shadow var(--dur-fast) var(--ease-standard);
+    }
+    .filter-pill:hover,
+    .btn-reset-map:hover,
+    .lang-toggle-btn:hover {
+        transform: translateY(-1px);
+    }
+    .filter-pill:active,
+    .btn-reset-map:active,
+    .lang-toggle-btn:active,
+    .nav-tab:active {
+        transform: scale(0.97);
+    }
+}

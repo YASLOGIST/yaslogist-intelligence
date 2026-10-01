@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Verify (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20', '22']
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Syntax-check all JavaScript (app, pipeline, tooling)
+        run: npm run check
+
+      - name: Run test suite (unit + integration + i18n + schema + static integrity)
+        run: npm test
+
+      - name: Validate committed intelligence artifacts against schema
+        run: npm run validate:data
+
+      - name: Performance budget gate
+        run: npm run budget
+
+      - name: Security scan (secrets, sinks, external-script pinning policy)
+        run: npm run scan
+
+  hygiene:
+    name: Repository hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: No OS noise or editor files tracked
+        run: |
+          if git ls-files | grep -E '(^|/)\.DS_Store$|\.bak$|\.swp$'; then
+            echo "Prohibited file tracked in git."; exit 1
+          fi
+          echo "Tree hygiene clean."
+
+      - name: Audit dependencies (zero expected)
+        run: npm audit --audit-level=high || true

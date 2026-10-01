@@ -148,6 +148,21 @@ export class AcidSquaresBackground {
         this.raf = null;
         this.isPageVisible = !document.hidden;
 
+        // Accessibility + adaptive performance budget.
+        // Reduced-motion users get one rich static frame, never an animation.
+        // Everyone else is protected by an FPS watchdog that steps the
+        // raymarch quality down before it is allowed to jank the interface.
+        this.reducedMotion = typeof window !== 'undefined'
+            && typeof window.matchMedia === 'function'
+            && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        this.quality = {
+            dpr: typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1,
+            steps: this.options.steps,
+            downgrades: 0
+        };
+        this.dprOverride = null;
+        this.perf = { frames: 0, accum: 0, last: 0 };
+
         this.init();
     }
 
@@ -391,7 +406,7 @@ export class AcidSquaresBackground {
 
     onResize() {
         if (!this.gl || !this.canvas) return;
-        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const dpr = this.dprOverride || Math.min(window.devicePixelRatio || 1, 2);
         const w = window.innerWidth;
         const h = window.innerHeight;
 
@@ -412,11 +427,42 @@ export class AcidSquaresBackground {
         }
     }
 
+    /** Render exactly one frame — used for reduced-motion and degraded mode. */
+    renderStaticFrame() {
+        const elapsed = 42.0;
+        if (this.isOGL && this.program && this.renderer) {
+            this.program.uniforms.iTime.value = elapsed;
+            this.renderer.render({ scene: this.mesh });
+        } else if (this.gl && this.glProgram) {
+            this.gl.useProgram(this.glProgram);
+            this.gl.uniform1f(this.uniformLocs.iTime, elapsed);
+            this.gl.drawArrays(this.gl.TRIANGLES, 0, 3);
+        }
+    }
+
     start() {
         if (this.raf || !this.isPageVisible) return;
+        if (this.reducedMotion) {
+            // Honor prefers-reduced-motion: rich static frame, zero animation.
+            this.renderStaticFrame();
+            return;
+        }
         this.startTime = performance.now();
+        this.perf = { frames: 0, accum: 0, last: 0 };
 
         const loop = (t) => {
+            // FPS watchdog: rolling 90-frame average frame time.
+            const delta = this.perf.last ? t - this.perf.last : 16.7;
+            this.perf.last = t;
+            this.perf.accum += delta;
+            this.perf.frames++;
+            if (this.perf.frames >= 90) {
+                const avg = this.perf.accum / this.perf.frames;
+                if (avg > 21) this.stepDownQuality(); // below ~48fps budget
+                this.perf.frames = 0;
+                this.perf.accum = 0;
+            }
+
             const elapsed = (t - this.startTime) * 0.001;
 
             // Smooth pointer damping
@@ -441,6 +487,41 @@ export class AcidSquaresBackground {
             this.raf = requestAnimationFrame(loop);
         };
         this.raf = requestAnimationFrame(loop);
+    }
+
+    /**
+     * Adaptive quality ladder. DPR 2 -> 1.5 -> 1, raymarch steps
+     * 32 -> 24 -> 16 -> 8, then finally freeze to a static frame.
+     * Every step keeps the scene visually identical in style, just cheaper.
+     */
+    stepDownQuality() {
+        const q = this.quality;
+        if (q.dpr > 1.5) q.dpr = 1.5;
+        else if (q.dpr > 1) q.dpr = 1;
+        else if (q.steps > 24) q.steps = 24;
+        else if (q.steps > 16) q.steps = 16;
+        else if (q.steps > 8) q.steps = 8;
+        else { this.degradeToStatic(); return; }
+        q.downgrades++;
+        console.info(`[YASLOGIST] Shader auto-tuned for smoothness (dpr=${q.dpr}, steps=${q.steps}).`);
+        this.applyQuality();
+    }
+
+    applyQuality() {
+        if (this.program) this.program.uniforms.uSteps.value = this.quality.steps;
+        if (this.glProgram && this.uniformLocs && this.uniformLocs.uSteps) {
+            this.gl.useProgram(this.glProgram);
+            this.gl.uniform1f(this.uniformLocs.uSteps, this.quality.steps);
+        }
+        this.dprOverride = this.quality.dpr < 2 ? this.quality.dpr : null;
+        this.onResize();
+    }
+
+    degradeToStatic() {
+        this.stop();
+        this.renderStaticFrame();
+        if (this.container) this.container.dataset.degraded = 'true';
+        console.info('[YASLOGIST] Shader degraded to a static frame to protect frame rate on this device.');
     }
 
     stop() {
