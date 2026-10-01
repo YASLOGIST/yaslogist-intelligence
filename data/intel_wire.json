@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
-    "titleAr": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
-    "link": "https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly?traffic_source=rss",
+    "titleEn": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+    "titleAr": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+    "link": "https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790855425000,
-    "summaryEn": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
-    "summaryAr": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
+    "pubDate": 1790881394000,
+    "summaryEn": "At the same time in Yemen, the Saudi-backed government army says it is inflicting heavy losses on the Houthis in Taiz.",
+    "summaryAr": "At the same time in Yemen, the Saudi-backed government army says it is inflicting heavy losses on the Houthis in Taiz.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+    "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+    "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790880526000,
+    "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +32,13 @@
     ]
   },
   {
-    "titleEn": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
-    "titleAr": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
-    "link": "https://www.aljazeera.com/news/2026/10/1/uae-investigates-possible-terrorist-link-in-attack-on-flight-to-israel?traffic_source=rss",
+    "titleEn": "Palestinian children in Israeli military detention",
+    "titleAr": "Palestinian children in Israeli military detention",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/palestinian-children-in-israeli-military-detention?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790855168000,
-    "summaryEn": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
-    "summaryAr": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
+    "pubDate": 1790876691000,
+    "summaryEn": "Palestinian children in Israeli military detention",
+    "summaryAr": "Palestinian children in Israeli military detention",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +48,13 @@
     ]
   },
   {
-    "titleEn": "Jewish human rights barrister, 94, arrested for supporting Palestine Action",
-    "titleAr": "Jewish human rights barrister, 94, arrested for supporting Palestine Action",
-    "link": "https://www.aljazeera.com/news/2026/10/1/jewish-human-rights-barrister-94-arrested-for-supporting-palestine-action?traffic_source=rss",
+    "titleEn": "Israel’s Supreme Court advises Arab party leader to drop election bid",
+    "titleAr": "Israel’s Supreme Court advises Arab party leader to drop election bid",
+    "link": "https://www.aljazeera.com/news/2026/10/1/israels-supreme-court-advises-arab-party-leader-to-drop-election-bid?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790854947000,
-    "summaryEn": "Margaret Owen OBE, a celebrated human rights lawyer and friend of Ed Miliband’s late mother, talks to Al Jazeera.",
-    "summaryAr": "Margaret Owen OBE, a celebrated human rights lawyer and friend of Ed Miliband’s late mother, talks to Al Jazeera.",
+    "pubDate": 1790874567000,
+    "summaryEn": "Central Elections Committee voted last week to bar both main Arab lists and two candidates from parliamentary election.",
+    "summaryAr": "Central Elections Committee voted last week to bar both main Arab lists and two candidates from parliamentary election.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +64,29 @@
     ]
   },
   {
-    "titleEn": "Afghanistan says Pakistani airstrikes killed women and children",
-    "titleAr": "Afghanistan says Pakistani airstrikes killed women and children",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/afghanistan-says-pakistani-airstrikes-killed-women-and-children?traffic_source=rss",
+    "titleEn": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "titleAr": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "source": "The Hacker News",
+    "pubDate": 1790873757000,
+    "summaryEn": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threateni…",
+    "summaryAr": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threateni…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "British police arrest UK-Iranian national over airbase incident",
+    "titleAr": "British police arrest UK-Iranian national over airbase incident",
+    "link": "https://www.aljazeera.com/news/2026/10/1/british-police-arrest-uk-iranian-national-over-airbase-incident?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790854739000,
-    "summaryEn": "Afghan officials say at least nine women and children were killed and 11 people wounded by Pakistani air attacks.",
-    "summaryAr": "Afghan officials say at least nine women and children were killed and 11 people wounded by Pakistani air attacks.",
+    "pubDate": 1790873747000,
+    "summaryEn": "Counter Terrorism police also questioned a UK national, days after five others were arrested and released on bail.",
+    "summaryAr": "Counter Terrorism police also questioned a UK national, days after five others were arrested and released on bail.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,8 +96,285 @@
     ]
   },
   {
-    "titleEn": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-    "titleAr": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+    "titleEn": "Photos: Palestinians mourn more than 100 loved ones in mass Gaza funeral",
+    "titleAr": "Photos: Palestinians mourn more than 100 loved ones in mass Gaza funeral",
+    "link": "https://www.aljazeera.com/gallery/2026/10/1/photos-palestinians-mourn-more-than-100-loved-ones-in-mass-gaza-funeral?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790873441000,
+    "summaryEn": "The remains of 105 people were buried in the Sheikh Radwan cemetery, northwest of Gaza City.",
+    "summaryAr": "The remains of 105 people were buried in the Sheikh Radwan cemetery, northwest of Gaza City.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "titleAr": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "source": "The Hacker News",
+    "pubDate": 1790873138000,
+    "summaryEn": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than peopl…",
+    "summaryAr": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than peopl…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Netanyahu calls flight incident another 9/11",
+    "titleAr": "Jerusalem Daily: Netanyahu calls flight incident another 9/11",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/jerusalem-daily-netanyahu-calls-flight-incident-another-9?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790871575000,
+    "summaryEn": "Israeli officials claimed the Flydubai incident as a \"terror attack\", despite the airline’s ongoing investigation.",
+    "summaryAr": "Israeli officials claimed the Flydubai incident as a \"terror attack\", despite the airline’s ongoing investigation.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
+    "titleAr": "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
+    "link": "https://www.aljazeera.com/news/2026/10/1/flydubai-attack-gives-netanyahu-new-security-message-ahead-of-israel-vote?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790869643000,
+    "summaryEn": "Motive behind Flydubai incident still unclear, but Israeli PM is framing it within his warnings of threats to Israelis.",
+    "summaryAr": "Motive behind Flydubai incident still unclear, but Israeli PM is framing it within his warnings of threats to Israelis.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+    "titleAr": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+    "link": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790867072000,
+    "summaryEn": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
+    "summaryAr": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "titleAr": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+    "source": "BleepingComputer",
+    "pubDate": 1790864714000,
+    "summaryEn": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-…",
+    "summaryAr": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "What we know about stabbing on Flydubai flight to Israel",
+    "titleAr": "What we know about stabbing on Flydubai flight to Israel",
+    "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790864534000,
+    "summaryEn": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+    "summaryAr": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai passenger describes hugging his children as plane nosedived during attack",
+    "titleAr": "Flydubai passenger describes hugging his children as plane nosedived during attack",
+    "link": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790863048000,
+    "summaryEn": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
+    "summaryAr": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK PM Burnham says Iran likely behind RAF base incident: Is there evidence?",
+    "titleAr": "UK PM Burnham says Iran likely behind RAF base incident: Is there evidence?",
+    "link": "https://www.aljazeera.com/news/2026/10/1/uk-pm-burnham-says-iran-likely-behind-raf-base-incident-is-there-evidence?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790862718000,
+    "summaryEn": "UK, US and Israeli officials point to Iranian involvement but remain tight-lipped on details.",
+    "summaryAr": "UK, US and Israeli officials point to Iranian involvement but remain tight-lipped on details.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Russian drone hits school in Ukraine’s Kyiv as Moscow presses air assault",
+    "titleAr": "Russian drone hits school in Ukraine’s Kyiv as Moscow presses air assault",
+    "link": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790860002000,
+    "summaryEn": "Russian drone strikes hit a school in Kyiv and the main bridge, disrupting transport in the latest wave of attacks.",
+    "summaryAr": "Russian drone strikes hit a school in Kyiv and the main bridge, disrupting transport in the latest wave of attacks.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+    "titleAr": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
+    "source": "Dark Reading",
+    "pubDate": 1790859600000,
+    "summaryEn": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+    "summaryAr": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Armatura LLC Armatura One",
+    "titleAr": "Armatura LLC Armatura One",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the …",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the …",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Monta monta.app",
+    "titleAr": "Monta monta.app",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt c…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt c…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+    "titleAr": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks agains…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks agains…",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Meari IoT Cloud Platform OpenAPI Service",
+    "titleAr": "Meari IoT Cloud Platform OpenAPI Service",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ABB Protection and Control IED Manager PCM600",
+    "titleAr": "ABB Protection and Control IED Manager PCM600",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and C…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and C…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Malcolm",
+    "titleAr": "CISA Malcolm",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
+    "source": "CISA Advisories",
+    "pubDate": 1790856000000,
+    "summaryEn": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input Durin…",
+    "summaryAr": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input Durin…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+    "titleAr": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
     "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
     "pubDate": 1790854006000,
@@ -87,86 +396,6 @@
     "pubDate": 1790850796000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How will investigation into Flydubai flight attack unfold?",
-    "titleAr": "How will investigation into Flydubai flight attack unfold?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/how-will-investigation-into-flydubai-flight-attack-unfold?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790849800000,
-    "summaryEn": "Investigators are examining what happened inside the cockpit of Flydubai flight FZ1073 to Israel.",
-    "summaryAr": "Investigators are examining what happened inside the cockpit of Flydubai flight FZ1073 to Israel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Turkish fans show support for Palestine at friendly fixture",
-    "titleAr": "Turkish fans show support for Palestine at friendly fixture",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/01-10-sv-konyaspor-palestine-tifo-tr?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790847676000,
-    "summaryEn": "Turkish football fans displayed pro-Palestinian tifos and banners.",
-    "summaryAr": "Turkish football fans displayed pro-Palestinian tifos and banners.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-    "titleAr": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-    "link": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790843968000,
-    "summaryEn": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
-    "summaryAr": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Will Democrats move beyond rhetoric on Israel’s illegal settlements?",
-    "titleAr": "Will Democrats move beyond rhetoric on Israel’s illegal settlements?",
-    "link": "https://www.aljazeera.com/opinions/2026/10/1/will-democrats-move-beyond-rhetoric-on-israels-illegal-settlements?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790842395000,
-    "summaryEn": "A new E1 sanctions bill could test whether US objections are finally backed by consequences.",
-    "summaryAr": "A new E1 sanctions bill could test whether US objections are finally backed by consequences.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinians to bury remains of 105 people killed in Israeli attack on Gaza",
-    "titleAr": "Palestinians to bury remains of 105 people killed in Israeli attack on Gaza",
-    "link": "https://www.aljazeera.com/news/2026/10/1/palestinians-to-bury-remains-of-105-people-killed-in-israeli-attack-on-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790839398000,
-    "summaryEn": "Coffins containing the remains of those killed will be carried in a funeral procession involving family members.",
-    "summaryAr": "Coffins containing the remains of those killed will be carried in a funeral procession involving family members.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -208,22 +437,6 @@
     ]
   },
   {
-    "titleEn": "Gaza prepares to bury 105 Palestinians killed in October 2023",
-    "titleAr": "Gaza prepares to bury 105 Palestinians killed in October 2023",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790831068000,
-    "summaryEn": "The bodies of 105 Palestinians have been recovered from the rubble of a residential block destroyed by Israel.",
-    "summaryAr": "The bodies of 105 Palestinians have been recovered from the rubble of a residential block destroyed by Israel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Plummeting Israel flight like 'rollercoaster', says passenger",
     "titleAr": "Plummeting Israel flight like 'rollercoaster', says passenger",
     "link": "https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo?at_medium=RSS&at_campaign=rss",
@@ -231,22 +444,6 @@
     "pubDate": 1790826740000,
     "summaryEn": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
     "summaryAr": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What we know about stabbing on Flydubai flight to Israel",
-    "titleAr": "What we know about stabbing on Flydubai flight to Israel",
-    "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790821884000,
-    "summaryEn": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
-    "summaryAr": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -524,198 +721,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-    "titleAr": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-    "source": "Dark Reading",
-    "pubDate": 1790691583000,
-    "summaryEn": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
-    "summaryAr": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers attack West Bank village and block Palestinian family's return home",
-    "titleAr": "Israeli settlers attack West Bank village and block Palestinian family's return home",
-    "link": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790685558000,
-    "summaryEn": "Two homes belonging to the al-Tubasi family were set on fire and Israeli security forces were also targeted by settlers.",
-    "summaryAr": "Two homes belonging to the al-Tubasi family were set on fire and Israeli security forces were also targeted by settlers.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Baicells Nova 430H",
-    "titleAr": "Baicells Nova 430H",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following …",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "MikroTik RouterOS",
-    "titleAr": "MikroTik RouterOS",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service. The following versions of Mik…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service. The following versions of Mik…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "VIVOTEK Camera Firmware",
-    "titleAr": "VIVOTEK Camera Firmware",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leadi…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leadi…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Anjvision YSSD-RTMP-H5",
-    "titleAr": "Anjvision YSSD-RTMP-H5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Viidure Dashcam Android Application",
-    "titleAr": "Viidure Dashcam Android Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially com…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially com…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Lantronix G520 Series Cellular Gateway",
-    "titleAr": "Lantronix G520 Series Cellular Gateway",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges. The following versio…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges. The following versio…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Toptech TMS7 and TopHAT",
-    "titleAr": "Toptech TMS7 and TopHAT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
-    "source": "CISA Advisories",
-    "pubDate": 1790683200000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Egyptian officials convicted of kidnapping Italian student found dead in 2016",
-    "titleAr": "Egyptian officials convicted of kidnapping Italian student found dead in 2016",
-    "link": "https://www.bbc.co.uk/news/articles/cw7v4ppj9yd6o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790638755000,
-    "summaryEn": "Giulio Regeni's tortured body was found days after he went missing on a research trip to Egypt in 2016, while studying at Cambridge University.",
-    "summaryAr": "Giulio Regeni's tortured body was found days after he went missing on a research trip to Egypt in 2016, while studying at Cambridge University.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "titleAr": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1790623081000,
-    "summaryEn": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
-    "summaryAr": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerabili…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran court upholds lashes sentence for singer who performed without hijab",
-    "titleAr": "Iran court upholds lashes sentence for singer who performed without hijab",
-    "link": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790615700000,
-    "summaryEn": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
-    "summaryAr": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
