@@ -2742,11 +2742,25 @@ class YaslogistThreatRadarApp {
     }
 }
 
+// Offline shell registration is deliberately non-blocking: telemetry rendering
+// never waits for the service worker, and unsupported/private browsers degrade
+// to the existing network-only runtime.
+const registerOfflineRuntime = async () => {
+    if (typeof navigator === 'undefined' || !('serviceWorker' in navigator)) return null;
+    try {
+        return await navigator.serviceWorker.register('./sw.js', { scope: './' });
+    } catch (error) {
+        console.warn('YASLOGIST offline runtime unavailable:', error);
+        return null;
+    }
+};
+
 // Bootstrap (skipped under test harness)
 if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.__YASLOGIST_NO_AUTOBOOT__) {
     document.addEventListener('DOMContentLoaded', () => {
         window.yaslogistRadar = new YaslogistThreatRadarApp();
+        registerOfflineRuntime();
     });
 }
 
-export { YaslogistThreatRadarApp, I18N, escapeHTML, safeURL, SECTOR_BUCKETS, TAG_COLORS, FALLBACK_WIRE_ITEMS, THREAT_ACTORS_DB };
+export { YaslogistThreatRadarApp, I18N, escapeHTML, safeURL, registerOfflineRuntime, SECTOR_BUCKETS, TAG_COLORS, FALLBACK_WIRE_ITEMS, THREAT_ACTORS_DB };

@@ -46,8 +46,20 @@ test('Content-Security-Policy meta is present and restrictive', () => {
     assert.match(csp, /default-src 'self'/);
     assert.match(csp, /object-src 'none'/);
     assert.match(csp, /script-src[^;]*'self'/);
+    assert.match(csp, /worker-src 'self'/);
     assert.ok(!/script-src[^;]*'unsafe-inline'/.test(csp), 'script-src must not allow inline scripts');
     assert.match(csp, /form-action 'none'/);
+});
+
+test('offline runtime caches the complete shell and keeps intelligence network-first', () => {
+    const worker = read('sw.js');
+    assert.match(read('app.js'), /serviceWorker\.register\('\.\/sw\.js'/);
+    assert.match(worker, /request\.mode === 'navigate'/);
+    assert.match(worker, /url\.pathname\.includes\('\/data\/'\)/);
+    assert.match(worker, /fetch\(request\)[\s\S]*caches\.match\(request\)/);
+    for (const artifact of ['intel_wire.json', 'middle_east_cves.json', 'target_intensity.json', 'meta.json', 'signal_timeline.json']) {
+        assert.ok(worker.includes(`./data/${artifact}`), `offline shell missing ${artifact}`);
+    }
 });
 
 test('every external <script> is pinned to an exact version and carries SRI', () => {
