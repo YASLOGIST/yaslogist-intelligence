@@ -140,6 +140,20 @@ test('applyWireState syncs pills, search input, and storage', () => {
     assert.equal(window.localStorage.getItem('yaslogist.wireTag'), 'MARITIME');
 });
 
+test('map country handoff opens an escaped ALL-wire query without inventing a map result', () => {
+    const app = makeApp();
+    app.allWireItems = ITEMS;
+    let activated = null;
+    app.activateTab = (id, options) => { activated = [id, options]; return true; };
+    app.showToast = () => {};
+    app.focusWireForCountry('Iran');
+    assert.equal(app.activeWireTag, 'ALL');
+    assert.equal(app.wireSearchTerm, 'Iran');
+    assert.equal(document.getElementById('news-search').value, 'Iran');
+    assert.equal(activated[0], 'intel-wire');
+    assert.equal(activated[1].focus, true);
+});
+
 /* ------------------------------------------------------ CVE tooling */
 
 test('CVE search filter matches id, vendor, and advisory (EN + AR)', () => {

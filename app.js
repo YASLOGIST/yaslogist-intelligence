@@ -16,7 +16,7 @@
  */
 
 import { initAcidSquares } from './acid-squares-bg.js';
-import { initThreatMap } from './threat-map.js';
+import { initThreatMap } from './threat-map.js?v=21';
 
 // ===================================================================
 // Runtime safety helpers
@@ -113,18 +113,20 @@ const I18N = {
         progTransitName: 'MARITIME ALERT LOAD',
         progAiName: 'CVE EXPOSURE INDEX',
         mapTitle: 'REGIONAL & MARITIME OPERATIONS MAP',
-        mapSubtitle: 'Reference overlays + rolling 7-day signal intensity',
+        mapSubtitle: 'Observed country-linked reports · rolling 7 days · reference context is separately labelled',
+        mapObservedLabel: 'OBSERVED COUNTRY SERIES',
+        mapObservedSummary: 'LOADING SERIES',
         legendCritical: 'Critical',
         legendHigh: 'High',
         legendMed: 'Medium',
         legendLow: 'Low',
         resetView: 'RESET',
-        cpSuez: 'SUEZ CANAL (EGY)',
-        cpSuezState: '[MONITORED NODE]',
-        cpMandeb: 'BAB EL-MANDEB (RED SEA)',
-        cpMandebState: '[MONITORED NODE]',
+        cpSuez: 'SUEZ CANAL',
+        cpSuezState: '[REFERENCE CONTEXT]',
+        cpMandeb: 'BAB EL-MANDEB',
+        cpMandebState: '[REFERENCE CONTEXT]',
         cpHormuz: 'STRAIT OF HORMUZ',
-        cpHormuzState: '[MONITORED NODE]',
+        cpHormuzState: '[REFERENCE CONTEXT]',
         vectorChartTitle: 'WIRE TAG DISTRIBUTION',
         sectorChartTitle: 'SIGNALS BY INFRASTRUCTURE SECTOR',
         liveTelemetry: 'CURRENT WIRE',
@@ -230,18 +232,20 @@ const I18N = {
         progTransitName: 'كثافة الإنذارات البحرية',
         progAiName: 'مؤشر التعرض للثغرات',
         mapTitle: 'خريطة العمليات الإقليمية والبحرية',
-        mapSubtitle: 'طبقات مرجعية + كثافة الإشارات المتحركة خلال 7 أيام',
+        mapSubtitle: 'تقارير مرصودة مرتبطة بالدول خلال ٧ أيام، مع فصل واضح للسياق المرجعي',
+        mapObservedLabel: 'سلاسل الدول المرصودة',
+        mapObservedSummary: 'جاري تحميل السلاسل',
         legendCritical: 'حرج جداً',
         legendHigh: 'مرتفع',
         legendMed: 'متوسط',
         legendLow: 'منخفض',
         resetView: 'إعادة الضبط',
-        cpSuez: 'قناة السويس (مصر)',
-        cpSuezState: '[نقطة مرصودة]',
-        cpMandeb: 'باب المندب (البحر الأحمر)',
-        cpMandebState: '[نقطة مرصودة]',
+        cpSuez: 'قناة السويس',
+        cpSuezState: '[سياق مرجعي]',
+        cpMandeb: 'باب المندب',
+        cpMandebState: '[سياق مرجعي]',
         cpHormuz: 'مضيق هرمز',
-        cpHormuzState: '[نقطة مرصودة]',
+        cpHormuzState: '[سياق مرجعي]',
         vectorChartTitle: 'توزيع وسوم الشريط',
         sectorChartTitle: 'الإشارات حسب قطاع البنية التحتية',
         liveTelemetry: 'الشريط الحالي',
@@ -699,9 +703,11 @@ class YaslogistThreatRadarApp {
         document.body.appendChild(palette);
 
         const commands = this.buildCommandList();
+        const dialog = palette.querySelector('.command-palette-dialog');
         const list = palette.querySelector('#command-list');
         const search = palette.querySelector('#command-search');
         let selected = 0;
+        let returnFocus = null;
         const renderCommands = () => {
             const query = search.value.trim().toLowerCase();
             const visible = [];
@@ -713,8 +719,20 @@ class YaslogistThreatRadarApp {
                 `<button type="button" class="command-item ${i === selected ? 'selected' : ''}" role="menuitem" data-command-index="${idx}"><span>${escapeHTML(label)}</span><kbd>${key}</kbd></button>`
             ).join('') || '<div class="command-empty">No matching command</div>';
         };
-        const close = () => { palette.hidden = true; search.value = ''; };
-        const open = () => { palette.hidden = false; renderCommands(); requestAnimationFrame(() => search.focus()); };
+        const close = () => {
+            if (palette.hidden) return;
+            palette.hidden = true;
+            search.value = '';
+            const focusTarget = returnFocus;
+            returnFocus = null;
+            focusTarget?.focus?.({ preventScroll: true });
+        };
+        const open = () => {
+            returnFocus = document.activeElement?.focus ? document.activeElement : null;
+            palette.hidden = false;
+            renderCommands();
+            requestAnimationFrame(() => search.focus());
+        };
         palette.addEventListener('click', (event) => {
             if (event.target.closest('[data-command-close]')) return close();
             const item = event.target.closest('[data-command-index]');
@@ -729,6 +747,20 @@ class YaslogistThreatRadarApp {
                 event.preventDefault(); selected = (selected + (event.key === 'ArrowDown' ? 1 : items.length - 1)) % Math.max(items.length, 1); renderCommands();
             } else if (event.key === 'Enter' && items[selected]) items[selected].click();
             else if (event.key === 'Escape') close();
+        });
+        // Keep the modal keyboard boundary real rather than merely visual.
+        dialog?.addEventListener('keydown', (event) => {
+            if (event.key !== 'Tab') return;
+            const focusable = [...dialog.querySelectorAll('button:not([disabled]), input:not([disabled]), [href]')]
+                .filter(el => !el.hidden);
+            if (!focusable.length) return;
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault(); last.focus();
+            } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault(); first.focus();
+            }
         });
         document.addEventListener('keydown', (event) => {
             if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); open(); }
@@ -1317,14 +1349,38 @@ class YaslogistThreatRadarApp {
      * demand and immediately fed the already-loaded intensity data.
      */
     initMap() {
-        this.mapOptions = { center: [28.5, 40.0], zoom: 4, minZoom: 2, maxZoom: 18 };
+        this.mapOptions = {
+            center: [28.5, 40.0],
+            zoom: 4,
+            minZoom: 2,
+            maxZoom: 18,
+            // Marker → wire is a data-preserving handoff: the marker carries
+            // only a country key, then the existing escaped wire filter owns
+            // the resulting content. No map popup injects wire content.
+            onCountrySelect: (country) => this.focusWireForCountry(country)
+        };
+    }
+
+    /** Open the evidence trail for a country marker selected on the map. */
+    focusWireForCountry(country) {
+        const query = String(country || '').trim().slice(0, 48);
+        if (!query) return;
+        this.activeWireTag = 'ALL';
+        this.wireSearchTerm = query;
+        this.applyWireState({ tag: 'ALL', q: query });
+        this.renderIntelligenceWire();
+        this.activateTab('intel-wire', { focus: true });
+        this.showToast(this.currentLang === 'ar'
+            ? `تمت تصفية الشريط: ${query}`
+            : `Wire filtered: ${query}`);
     }
 
     ensureThreatMap() {
         if (this.threatMap) return this.threatMap;
         try {
             this.threatMap = initThreatMap('threat-map', this.mapOptions || {
-                center: [28.5, 40.0], zoom: 4, minZoom: 2, maxZoom: 18
+                center: [28.5, 40.0], zoom: 4, minZoom: 2, maxZoom: 18,
+                onCountrySelect: (country) => this.focusWireForCountry(country)
             });
             if (Array.isArray(this.intensityData)) {
                 this.threatMap.updateData(this.intensityData, this.currentLang);

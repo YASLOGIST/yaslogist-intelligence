@@ -29,8 +29,11 @@ test('WebGL and map resources have deterministic disposal paths', () => {
     const map = read('threat-map.js');
     assert.match(map, /preferCanvas:\s*true/);
     assert.match(map, /collapsed:\s*true/);
-    assert.match(map, /this\.aisVesselsLayer = L\.layerGroup\(\);/);
-    assert.match(map, /overlayadd[\s\S]*!this\.aisRendered[\s\S]*this\.renderAisVessels\(\)/);
+    assert.match(map, /this\.observedLayer = L\.layerGroup\(\)\.addTo\(this\.map\)/);
+    assert.match(map, /this\.referenceRoutesLayer = L\.layerGroup\(\)\.addTo\(this\.map\)/);
+    assert.match(map, /REFERENCE CONTEXT/);
+    assert.match(map, /not represent live vessel, cable, incident, or threat-condition telemetry/);
+    assert.doesNotMatch(map, /Simulated AIS/);
     assert.match(map, /destroy\(\)[\s\S]*this\.map\.off\(\)[\s\S]*this\.map\.remove\(\)/);
 });
 

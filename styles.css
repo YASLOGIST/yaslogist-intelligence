@@ -3269,3 +3269,91 @@ body {
     animation: none !important;
 }
 .radar-center-dot { box-shadow: none !important; }
+
+/* Evidence-map semantics: observed signals and reference geometry are visually
+   distinct. No pulsing or synthetic alert treatment is used for context. */
+.cp-observed { background: var(--yas-cyan); }
+.cp-reference { background: var(--text-muted); }
+.cp-state { color: var(--text-muted); }
+.map-observed-status .cp-state { color: var(--yas-cyan); }
+.observed-radar-marker { background: transparent; border: 0; }
+.observed-marker {
+    display: grid;
+    width: var(--marker-size);
+    height: var(--marker-size);
+    place-items: center;
+    border: 1px solid var(--marker-color);
+    border-radius: 50%;
+    background: #071018;
+    border-color: color-mix(in srgb, var(--marker-color) 76%, transparent);
+    background: color-mix(in srgb, var(--marker-color) 14%, #071018);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--marker-color) 9%, transparent);
+}
+.observed-marker > span {
+    display: block;
+    width: max(5px, calc(var(--marker-size) * .26));
+    height: max(5px, calc(var(--marker-size) * .26));
+    border-radius: 50%;
+    background: var(--marker-color);
+}
+.observed-marker.marker-critical { border-width: 2px; }
+.map-evidence-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 18px;
+    padding: 2px 6px;
+    border: 1px solid var(--panel-border);
+    border-radius: 2px;
+    font: 650 8px var(--font-mono);
+    letter-spacing: .06em;
+}
+.map-evidence-badge.observed {
+    color: var(--yas-cyan);
+    border-color: rgba(84, 184, 194, .38);
+    background: var(--yas-cyan-wash);
+}
+.map-evidence-badge.reference {
+    color: var(--text-secondary);
+    background: rgba(148, 163, 184, .10);
+}
+.map-change-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 8px;
+    padding: 7px 8px;
+    color: var(--text-secondary);
+    border: 1px solid var(--panel-border);
+    background: rgba(3, 8, 13, .35);
+    font-size: 10px;
+}
+.map-change-row strong[data-direction="up"] { color: var(--yas-crimson); }
+.map-change-row strong[data-direction="down"] { color: var(--yas-green); }
+.map-change-row strong[data-direction="flat"] { color: var(--text-secondary); }
+.map-popup-note {
+    margin: 9px 0 0;
+    color: var(--text-secondary);
+    font-size: 10px;
+    line-height: 1.5;
+}
+.map-wire-link {
+    width: 100%;
+    min-height: 31px;
+    margin-top: 10px;
+    padding: 6px 9px;
+    color: var(--text-primary);
+    border: 1px solid rgba(84, 184, 194, .42);
+    border-radius: 2px;
+    background: var(--yas-cyan-wash);
+    font: 650 9px var(--font-mono);
+    letter-spacing: .035em;
+    cursor: pointer;
+}
+.map-wire-link:hover { background: rgba(84, 184, 194, .22); }
+.map-reference-popup .tac-node-name { margin-top: 8px; }
+@media (max-width: 760px) {
+    .chokepoint-status-bar { gap: 7px; }
+    .cp-item { font-size: 9px; }
+    .cp-state { font-size: 8px; }
+    .map-observed-status { flex-basis: 100%; }
+}

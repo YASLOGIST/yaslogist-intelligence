@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=20">
+    <link rel="stylesheet" href="styles.css?v=21">
     <link rel="stylesheet" href="smart-operations.css?v=4">
 </head>
 <body class="yaslogist-terminal">
@@ -368,7 +368,7 @@
                                 <span class="header-icon"><i class="fa-solid fa-earth-americas text-gold"></i></span>
                                 <div>
                                     <h2 class="card-title" data-i18n="mapTitle">REGIONAL & MARITIME OPERATIONS MAP</h2>
-                                    <div class="card-subtitle" data-i18n="mapSubtitle">Reference overlays + rolling 7-day signal intensity</div>
+                                    <div class="card-subtitle" data-i18n="mapSubtitle">Observed country-linked reports · rolling 7 days · reference context is separately labelled</div>
                                 </div>
                             </div>
                             <div class="map-controls">
@@ -385,21 +385,26 @@
                         </div>
                         <div class="map-container-relative">
                             <div id="threat-map" class="tactical-map-viewport"></div>
-                            <div class="chokepoint-status-bar">
-                                <div class="cp-item">
-                                    <span class="cp-dot cp-warning"></span>
-                                    <span class="cp-name" data-i18n="cpSuez">SUEZ CANAL (EGY)</span>
-                                    <span class="cp-state text-gold mono" data-i18n="cpSuezState">[MONITORED NODE]</span>
+                            <div class="chokepoint-status-bar" aria-label="Map evidence legend">
+                                <div class="cp-item map-observed-status">
+                                    <span class="cp-dot cp-observed"></span>
+                                    <span class="cp-name" data-i18n="mapObservedLabel">OBSERVED COUNTRY SERIES</span>
+                                    <span class="cp-state text-cyan mono" id="map-observed-summary" data-i18n="mapObservedSummary">LOADING SERIES</span>
                                 </div>
                                 <div class="cp-item">
-                                    <span class="cp-dot cp-critical"></span>
-                                    <span class="cp-name" data-i18n="cpMandeb">BAB EL-MANDEB (RED SEA)</span>
-                                    <span class="cp-state text-crimson mono" data-i18n="cpMandebState">[MONITORED NODE]</span>
+                                    <span class="cp-dot cp-reference"></span>
+                                    <span class="cp-name" data-i18n="cpSuez">SUEZ CANAL</span>
+                                    <span class="cp-state mono" data-i18n="cpSuezState">[REFERENCE CONTEXT]</span>
                                 </div>
                                 <div class="cp-item">
-                                    <span class="cp-dot cp-warning"></span>
+                                    <span class="cp-dot cp-reference"></span>
+                                    <span class="cp-name" data-i18n="cpMandeb">BAB EL-MANDEB</span>
+                                    <span class="cp-state mono" data-i18n="cpMandebState">[REFERENCE CONTEXT]</span>
+                                </div>
+                                <div class="cp-item">
+                                    <span class="cp-dot cp-reference"></span>
                                     <span class="cp-name" data-i18n="cpHormuz">STRAIT OF HORMUZ</span>
-                                    <span class="cp-state text-gold mono" data-i18n="cpHormuzState">[MONITORED NODE]</span>
+                                    <span class="cp-state mono" data-i18n="cpHormuzState">[REFERENCE CONTEXT]</span>
                                 </div>
                             </div>
                         </div>
@@ -557,6 +562,6 @@
 
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js?v=20"></script>
-    <script type="module" src="app.js?v=20"></script>
+    <script type="module" src="app.js?v=21"></script>
 </body>
 </html>

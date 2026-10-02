@@ -1,107 +1,92 @@
 /**
- * YASLOGIST Threat Radar — Interactive Geopolitical & Maritime Threat Heatmap
- * Engine: Leaflet.js with CartoDB Dark Matter tiles (No API Key Required)
- * Dynamic CTI Intensity-Scaled Radar Pulsars bound to data/target_intensity.json
+ * YASLOGIST evidence map.
+ *
+ * This map deliberately separates two kinds of geometry:
+ * - OBSERVED country markers: the rolling country-linked report counts from
+ *   data/target_intensity.json.
+ * - REFERENCE context: strategic routes, cable paths, and range circles.
+ *
+ * Reference geometry never receives a synthetic severity, count, vessel, or
+ * operational-state claim. That distinction is visible in layer names,
+ * legends, popups, and the bottom map status strip.
  */
 
-const STRATEGIC_GEO_NODES = {
-    'Egypt': {
-        countryKey: 'egypt',
-        nameEn: 'Egypt (Suez Canal / Cairo Corridor)',
-        nameAr: 'مصر (ممر قناة السويس والقاهرة)',
-        coords: [29.9668, 32.5498],
-        type: 'maritime_corridor',
-        supplyChainImpactEn: 'Suez Canal Maritime Artery // Critical Trade Link Europe-Asia',
-        supplyChainImpactAr: 'شريان قناة السويس الملاحي // ممر تجارة حيوي يربط آسيا بأوروبا',
-        vectorsEn: ['Port SCADA Targeting', 'Edge Appliance Exploits', 'DDoS on Customs'],
-        vectorsAr: ['استهداف أنظمة الموانئ SCADA', 'ثغرات أجهزة وبوابات الحافة', 'هجمات حجب الخدمة على الجمارك'],
-        status: 'OPERATIONAL_WATCH'
+const COUNTRY_NODES = {
+    egypt: {
+        country: 'Egypt', coords: [29.9668, 32.5498],
+        nameEn: 'Egypt · Suez corridor', nameAr: 'مصر · ممر السويس'
     },
-    'Iran': {
-        countryKey: 'iran',
-        nameEn: 'Iran (Tehran Command & Persian Gulf)',
-        nameAr: 'إيران (قيادة طهران والخليج العربي)',
-        coords: [35.6892, 51.3890],
-        type: 'state_nexus',
-        supplyChainImpactEn: 'Strait of Hormuz Petro-Transit & Regional Telemetry',
-        supplyChainImpactAr: 'ممر مضيق هرمز لنقل النفط والغاز والاتصالات الإقليمية',
-        vectorsEn: ['State-Sponsored APTs', 'Industrial Wiper Payloads', 'ICS/OT Exploits'],
-        vectorsAr: ['مجموعات APT برعاية رسمية', 'برمجيات مسح البيانات الصناعية', 'استهداف أنظمة SCADA/OT'],
-        status: 'HIGH_ALERT'
+    iran: {
+        country: 'Iran', coords: [35.6892, 51.3890],
+        nameEn: 'Iran · Persian Gulf context', nameAr: 'إيران · سياق الخليج'
     },
-    'Israel': {
-        countryKey: 'israel',
-        nameEn: 'Israel (Tel Aviv & Coastal Terminals)',
-        nameAr: 'إسرائيل (تل أبيب ومحطات الساحل)',
-        coords: [32.0853, 34.7818],
-        type: 'conflict_hub',
-        supplyChainImpactEn: 'Haifa & Ashdod Port Terminals // Critical Tech & Energy Infra',
-        supplyChainImpactAr: 'موانئ حيفا وأسدود // بنية التكنولوجيا والطاقة الحيوية',
-        vectorsEn: ['Hacktivism Defacements', 'Ransomware Operations', 'Cloud Reconnaissance'],
-        vectorsAr: ['تشويه المواقع من الناشطين', 'عمليات برمجيات الفدية', 'استطلاع سحابي موسع'],
-        status: 'CRITICAL_CONTEST'
+    israel: {
+        country: 'Israel', coords: [32.0853, 34.7818],
+        nameEn: 'Israel · Eastern Mediterranean', nameAr: 'إسرائيل · شرق المتوسط'
     },
-    'Lebanon': {
-        countryKey: 'lebanon',
-        nameEn: 'Lebanon (Beirut Seaport & Eastern Med)',
-        nameAr: 'لبنان (مرفأ بيروت وشرق المتوسط)',
-        coords: [33.8938, 35.5018],
-        type: 'regional_node',
-        supplyChainImpactEn: 'Beirut Seaport Logistics & Subsea Communications Landing',
-        supplyChainImpactAr: 'لوجستيات مرفأ بيروت ومحطات الإنزال للكابلات البحرية',
-        vectorsEn: ['Telecom Surveillance', 'Volumetric DDoS', 'C2 Infrastructure'],
-        vectorsAr: ['مراقبة قطاع الاتصالات', 'هجمات حجب الخدمة الحجمية', 'خوادم تحكم C2'],
-        status: 'ELEVATED_VOLATILITY'
+    lebanon: {
+        country: 'Lebanon', coords: [33.8938, 35.5018],
+        nameEn: 'Lebanon · Beirut context', nameAr: 'لبنان · سياق بيروت'
     },
-    'Syria': {
-        countryKey: 'syria',
-        nameEn: 'Syria (Damascus & Coastal Terminals)',
-        nameAr: 'سوريا (دمشق وموانئ الساحل)',
-        coords: [33.5138, 36.2765],
-        type: 'regional_node',
-        supplyChainImpactEn: 'Levant Overland Freight Corridors & Coastal Energy Hubs',
-        supplyChainImpactAr: 'مسارات الشحن البري في المشرق ومراكز الطاقة الساحلية',
-        vectorsEn: ['Government Portal Probing', 'Counter-Hacktivism', 'Dark Web Intelligence'],
-        vectorsAr: ['فحص شبكات حكومية', 'حملات قرصنة مضادة', 'استخبارات الويب المظلم'],
-        status: 'MONITORED'
+    syria: {
+        country: 'Syria', coords: [33.5138, 36.2765],
+        nameEn: 'Syria · Levant context', nameAr: 'سوريا · سياق المشرق'
     },
-    'Jordan': {
-        countryKey: 'jordan',
-        nameEn: 'Jordan (Amman & Gulf-Levant Land Bridge)',
-        nameAr: 'الأردن (عمان وممر الجسر البري)',
-        coords: [31.9454, 35.9284],
-        type: 'transit_chokepoint',
-        supplyChainImpactEn: 'Port of Aqaba Terminal & Gulf-Levant Land Logistics',
-        supplyChainImpactAr: 'محطة ميناء العقبة والخدمات اللوجستية البرية بين الخليج والشام',
-        vectorsEn: ['Credential Stuffing', 'Banking Phishing', 'Gov Portal Probing'],
-        vectorsAr: ['هجمات حشو الاعتمادات', 'تصيد احتيالي مصرفي', 'فحص بوابات الخدمات الحكومية'],
-        status: 'STABLE_GUARD'
+    jordan: {
+        country: 'Jordan', coords: [31.9454, 35.9284],
+        nameEn: 'Jordan · Aqaba land bridge', nameAr: 'الأردن · ممر العقبة البري'
     },
-    'Red Sea': {
-        countryKey: 'redsea',
-        nameEn: 'Bab el-Mandeb (Southern Red Sea Chokepoint)',
-        nameAr: 'مضيق باب المندب (جنوب البحر الأحمر)',
-        coords: [12.5833, 43.3333],
-        type: 'maritime_chokepoint',
-        supplyChainImpactEn: 'Strategic maritime chokepoint // reference monitoring corridor',
-        supplyChainImpactAr: 'مضيق ملاحي استراتيجي // ممر مراقبة مرجعي',
-        vectorsEn: ['AIS Telemetry Spoofing', 'Kinetic-Cyber Hybrid Attacks', 'Vessel GPS Jamming'],
-        vectorsAr: ['تزييف إشارات AIS الملاحية', 'عمليات هجينة سيبرانية-عسكرية', 'تشويش إحداثيات GPS للسفن'],
-        status: 'CRITICAL_RISK'
-    },
-    'Strait of Hormuz': {
-        countryKey: 'hormuz',
-        nameEn: 'Strait of Hormuz (Gulf Arterial Passage)',
-        nameAr: 'مضيق هرمز (الشريان النفطي العالمي)',
-        coords: [26.5667, 56.2500],
-        type: 'maritime_chokepoint',
-        supplyChainImpactEn: 'Crude and LNG transit corridor // reference monitoring node',
-        supplyChainImpactAr: 'ممر عبور النفط والغاز المسال // نقطة مراقبة مرجعية',
-        vectorsEn: ['GPS Desynchronization', 'Satellite Comms Interception', 'Tanker AIS Tracking'],
-        vectorsAr: ['تشويش توقيت GPS', 'اعتراض اتصالات الأقمار الصناعية', 'تتبع ناقلات النفط'],
-        status: 'HIGH_ALERT'
+    yemen: {
+        country: 'Yemen', coords: [15.3694, 44.1910],
+        nameEn: 'Yemen · Southern Red Sea context', nameAr: 'اليمن · سياق جنوب البحر الأحمر'
     }
 };
+
+const REFERENCE_CHOKEPOINTS = [
+    { coords: [29.9668, 32.5498], nameEn: 'Suez Canal', nameAr: 'قناة السويس', radius: 180000, color: '#54b8c2' },
+    { coords: [12.5833, 43.3333], nameEn: 'Bab el-Mandeb', nameAr: 'باب المندب', radius: 220000, color: '#c9a85c' },
+    { coords: [26.5667, 56.2500], nameEn: 'Strait of Hormuz', nameAr: 'مضيق هرمز', radius: 200000, color: '#c9a85c' }
+];
+
+const REFERENCE_ROUTES = [
+    {
+        nameEn: 'Suez–Red Sea reference route', nameAr: 'مسار السويس والبحر الأحمر المرجعي', color: '#54b8c2',
+        points: [[31.3, 32.3], [29.9, 32.5], [27.8, 34.3], [20.0, 38.5], [12.5833, 43.3333]]
+    },
+    {
+        nameEn: 'Gulf reference route', nameAr: 'مسار الخليج المرجعي', color: '#c9a85c',
+        points: [[12.5833, 43.3333], [14.5, 49.5], [22.0, 53.0], [26.5667, 56.2500]]
+    }
+];
+
+const REFERENCE_CABLES = [
+    {
+        nameEn: 'AAE-1 reference geometry', nameAr: 'هندسة مرجعية لكابل AAE-1', color: '#8b7bc8',
+        points: [[12.1, 52.0], [12.6, 44.5], [17.5, 40.5], [22.2, 38.0], [29.9, 32.5], [31.5, 30.1], [35.0, 22.0]]
+    },
+    {
+        nameEn: 'SMW5 reference geometry', nameAr: 'هندسة مرجعية لكابل SMW5', color: '#8b7bc8',
+        points: [[25.3, 55.3], [22.5, 60.5], [17.8, 56.3], [12.7, 43.4], [18.1, 39.0], [29.8, 32.5], [36.1, 29.7]]
+    }
+];
+
+const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
+    '&': '&amp;', '<': '&lt;', '"': '&quot;', "'": '&#39;'
+}[char]));
+
+const safeCount = (value) => Math.max(0, Math.round(Number(value) || 0));
+
+const severity = (raw, count) => {
+    const value = String(raw || '').toLowerCase().trim();
+    if (value === 'critical') return { key: 'critical', color: '#ef6b6b', size: 28 };
+    if (value === 'high') return { key: 'high', color: '#c9a85c', size: 23 };
+    if (value === 'medium') return { key: 'medium', color: '#54b8c2', size: 19 };
+    // The pipeline's Low category can include an observed zero count. It is
+    // still a source observation, not an inferred threat condition.
+    return { key: 'low', color: '#55b58b', size: count > 0 ? 16 : 12 };
+};
+
+const language = (isAr, en, ar) => isAr ? ar : en;
 
 export class ThreatMap {
     constructor(containerId = 'threat-map', options = {}) {
@@ -110,42 +95,33 @@ export class ThreatMap {
             center: [28.5, 40.0],
             zoom: 4,
             minZoom: 2,
-            maxZoom: 18
+            maxZoom: 18,
+            onCountrySelect: null
         }, options);
-
         this.map = null;
-        this.markersLayer = null;
-        this.corridorsLayer = null;
-        this.radarRangesLayer = null;
-        this.subseaCablesLayer = null;
-        this.aisVesselsLayer = null;
-        this.aisRendered = false;
+        this.observedLayer = null;
+        this.referenceRoutesLayer = null;
+        this.referenceRangesLayer = null;
+        this.referenceCablesLayer = null;
+        this.layersControl = null;
         this.currentData = [];
         this.currentLang = 'en';
-
+        this.resizeTimer = null;
         this.init();
     }
 
     init() {
         const container = document.getElementById(this.containerId);
-        if (!container) {
-            console.warn(`[YASLOGIST] ThreatMap container #${this.containerId} not found.`);
+        if (!container || typeof L === 'undefined') {
+            console.warn('[YASLOGIST] Evidence map unavailable: container or Leaflet missing.');
             return;
         }
 
-        if (typeof L === 'undefined') {
-            console.error('[YASLOGIST] Leaflet library is not loaded on window.');
-            return;
-        }
-
-        // Initialize Leaflet Map with full tactile interactive control & extended zoom
         this.map = L.map(this.containerId, {
             center: this.options.center,
             zoom: this.options.zoom,
             minZoom: this.options.minZoom,
             maxZoom: this.options.maxZoom,
-            // Route/range layers share one Canvas renderer instead of creating
-            // an SVG node per path. DivIcon markers remain semantic DOM.
             preferCanvas: true,
             zoomControl: true,
             attributionControl: true,
@@ -156,889 +132,224 @@ export class ThreatMap {
             keyboard: true
         });
 
-        // 1. Sovereign Dark Gray Canvas (No API Key Required, Clean & Sharp)
-        const darkCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 16,
-            attribution: 'Esri Dark Gray'
-        });
-        
-        // 2. High-Resolution Satellite Recon (No API Key Required)
-        const satelliteIntel = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 19,
-            attribution: 'Esri Satellite'
-        });
-
-        // 3. Maritime Ocean & Bathymetry (Strategic Naval & Chokepoint Depths)
-        const oceanMaritime = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 16,
-            attribution: 'Esri Ocean Maritime'
-        });
-
-        // 4. Topographic Terrain Recon (Strategic Elevation & Border Corridors)
-        const topoRecon = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 18,
-            attribution: 'Esri Topo Recon'
-        });
-
-        // Default to Dark Canvas
-        darkCanvas.addTo(this.map);
-
-        // Attribution is a licence requirement of the tile providers
-        // (Esri services + Leaflet). Compact branded control, bottom-right.
-        if (this.map.attributionControl) {
-            this.map.attributionControl.setPrefix(
-                '<a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · YASLOGIST'
-            );
-        }
-
-        this.corridorsLayer = L.layerGroup().addTo(this.map);
-        this.markersLayer = L.layerGroup().addTo(this.map);
-        this.radarRangesLayer = L.layerGroup().addTo(this.map);
-        this.subseaCablesLayer = L.layerGroup().addTo(this.map);
-        // Simulated AIS is opt-in: do not spend DOM/memory or mix illustrative
-        // vessels into the evidence map until the operator enables the layer.
-        this.aisVesselsLayer = L.layerGroup();
-        this.aisRendered = false;
-
-        const baseMaps = {
-            "Tactical Dark": darkCanvas,
-            "Satellite Intel": satelliteIntel,
-            "Maritime Ocean": oceanMaritime,
-            "Topographic Recon": topoRecon
+        this.baseLayers = {
+            dark: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+                maxZoom: 16, attribution: 'Esri Dark Gray'
+            }),
+            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                maxZoom: 19, attribution: 'Esri World Imagery'
+            }),
+            ocean: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', {
+                maxZoom: 16, attribution: 'Esri Ocean'
+            }),
+            topo: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+                maxZoom: 18, attribution: 'Esri Topographic'
+            })
         };
+        this.baseLayers.dark.addTo(this.map);
+        this.map.attributionControl?.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · YASLOGIST');
 
-        const overlayMaps = {
-            "Sovereign Nav Paths": this.corridorsLayer,
-            "Threat Markers": this.markersLayer,
-            "Radar Range Rings": this.radarRangesLayer,
-            "Subsea Cyber Cables": this.subseaCablesLayer,
-            "Simulated AIS & Escort Watch": this.aisVesselsLayer
-        };
+        this.observedLayer = L.layerGroup().addTo(this.map);
+        this.referenceRoutesLayer = L.layerGroup().addTo(this.map);
+        this.referenceRangesLayer = L.layerGroup().addTo(this.map);
+        this.referenceCablesLayer = L.layerGroup().addTo(this.map);
 
-        // Keep the map legible on first paint; operators can expand the full
-        // layer inventory on demand. This also avoids a large permanent overlay.
-        this.layersControl = L.control.layers(baseMaps, overlayMaps, {
-            position: 'topright',
-            collapsed: true
-        }).addTo(this.map);
-        this.map.on('overlayadd', (event) => {
-            if (event.layer === this.aisVesselsLayer && !this.aisRendered) {
-                this.renderAisVessels();
-                this.aisRendered = true;
-            }
-        });
-
-        // Render strategic maritime supply chain routes
-        this.renderMaritimeCorridors();
-
-        // Render tactical operational coverage circles
-        this.renderRadarRangeRings();
-
-        // Render smart super intelligence: subsea telecommunications & fiber hubs
-        this.renderSubseaCables();
-
-        // Simulated AIS remains unrendered until its clearly labelled optional
-        // layer is enabled; it never enters the default evidence picture.
-
-        // One managed post-layout correction; released by destroy().
+        this.renderReferenceContext();
+        this.renderLayerControl();
+        this.bindMapEvents();
+        this.updateMapSummary(0);
         this.resizeTimer = setTimeout(() => {
-            if (this.map) this.map.invalidateSize();
+            this.map?.invalidateSize();
             this.resizeTimer = null;
         }, 150);
-
-        console.log('[YASLOGIST] Leaflet Tactical Threat Map initialized with Super Intelligence layers.');
     }
 
-    renderRadarRangeRings() {
-        if (!this.radarRangesLayer) return;
-        this.radarRangesLayer.clearLayers();
+    bindMapEvents() {
+        this.handleContainerClick = (event) => {
+            const button = event.target.closest?.('[data-map-country]');
+            const country = button?.getAttribute('data-map-country');
+            if (!country || typeof this.options.onCountrySelect !== 'function') return;
+            this.options.onCountrySelect(country);
+        };
+        this.map?.getContainer()?.addEventListener('click', this.handleContainerClick);
+    }
+
+    renderLayerControl() {
+        if (!this.map) return;
+        this.layersControl?.remove();
+        const isAr = this.currentLang === 'ar';
+        const baseMaps = {
+            [language(isAr, 'Tactical dark', 'الخريطة الداكنة')]: this.baseLayers.dark,
+            [language(isAr, 'Satellite', 'الأقمار الصناعية')]: this.baseLayers.satellite,
+            [language(isAr, 'Ocean', 'المحيط')]: this.baseLayers.ocean,
+            [language(isAr, 'Topographic', 'طبوغرافية')]: this.baseLayers.topo
+        };
+        const overlays = {
+            [language(isAr, 'Observed country signals', 'إشارات الدول المرصودة')]: this.observedLayer,
+            [language(isAr, 'Reference maritime routes', 'مسارات بحرية مرجعية')]: this.referenceRoutesLayer,
+            [language(isAr, 'Reference range circles', 'دوائر نطاق مرجعية')]: this.referenceRangesLayer,
+            [language(isAr, 'Reference cable paths', 'مسارات كابلات مرجعية')]: this.referenceCablesLayer
+        };
+        this.layersControl = L.control.layers(baseMaps, overlays, { position: 'topright', collapsed: true }).addTo(this.map);
+    }
+
+    referencePopup(title) {
+        const isAr = this.currentLang === 'ar';
+        return `
+            <div class="tac-map-popup ${isAr ? 'rtl' : 'ltr'} map-reference-popup">
+                <span class="map-evidence-badge reference">${language(isAr, 'REFERENCE CONTEXT', 'سياق مرجعي')}</span>
+                <h4 class="tac-node-name">${escapeHTML(title)}</h4>
+                <p class="map-popup-note">${language(
+                    isAr,
+                    'Reference geometry only. It does not represent live vessel, cable, incident, or threat-condition telemetry.',
+                    'هندسة مرجعية فقط. لا تمثل حركة سفن أو كابلات أو حوادث أو حالة تهديد حية.'
+                )}</p>
+            </div>`;
+    }
+
+    renderReferenceContext() {
+        if (!this.map) return;
+        this.referenceRoutesLayer?.clearLayers();
+        this.referenceRangesLayer?.clearLayers();
+        this.referenceCablesLayer?.clearLayers();
         const isAr = this.currentLang === 'ar';
 
-        const zones = [
-            { nameEn: 'SUEZ CANAL REFERENCE RADIUS', nameAr: 'النطاق المرجعي لقناة السويس', coords: [29.9668, 32.5498], radius: 180000, color: '#06B6D4' },
-            { nameEn: 'BAB EL-MANDEB REFERENCE RADIUS', nameAr: 'النطاق المرجعي لباب المندب', coords: [12.5855, 43.3328], radius: 240000, color: '#EF4444' },
-            { nameEn: 'STRAIT OF HORMUZ REFERENCE RADIUS', nameAr: 'النطاق المرجعي لمضيق هرمز', coords: [26.5667, 56.2500], radius: 220000, color: '#EAB308' },
-            { nameEn: 'EAST MED REFERENCE RADIUS', nameAr: 'النطاق المرجعي لشرق المتوسط', coords: [32.8191, 34.9983], radius: 160000, color: '#A855F7' }
-        ];
-
-        zones.forEach(z => {
-            const zName = isAr ? z.nameAr : z.nameEn;
-            const rangeText = isAr ? `نطاق مرجعي: ${z.radius / 1000} كم` : `REFERENCE RADIUS: ${z.radius / 1000} KM`;
-            // Outer range ring
-            L.circle(z.coords, {
-                radius: z.radius,
-                color: z.color,
-                weight: 1.5,
-                dashArray: '6, 8',
-                fillColor: z.color,
-                fillOpacity: 0.04
-            }).bindTooltip(`<strong>${zName}</strong><br><span style="font-size:10px">${rangeText}</span>`, { className: 'yaslogist-tactical-tooltip' }).addTo(this.radarRangesLayer);
-
-            // Inner core ring
-            L.circle(z.coords, {
-                radius: z.radius * 0.45,
-                color: z.color,
-                weight: 1,
-                dashArray: '3, 4',
-                fillColor: z.color,
-                fillOpacity: 0.08
-            }).addTo(this.radarRangesLayer);
+        REFERENCE_ROUTES.forEach((route) => {
+            const title = language(isAr, route.nameEn, route.nameAr);
+            const glow = L.polyline(route.points, { color: route.color, weight: 5, opacity: 0.10, interactive: false });
+            const line = L.polyline(route.points, { color: route.color, weight: 1.4, opacity: 0.65, dashArray: '7 7' });
+            line.bindTooltip(title, { sticky: true, className: 'yaslogist-tactical-tooltip' });
+            line.bindPopup(this.referencePopup(title), { className: 'yaslogist-dark-popup', maxWidth: 300 });
+            glow.addTo(this.referenceRoutesLayer);
+            line.addTo(this.referenceRoutesLayer);
         });
-    }
 
-    renderSubseaCables() {
-        if (!this.subseaCablesLayer) return;
-        this.subseaCablesLayer.clearLayers();
-        const isAr = this.currentLang === 'ar';
-
-        // 1. AAE-1 Cable Route (Asia-Africa-Europe 1)
-        const aae1Coords = [
-            [12.1, 52.0], [12.4, 48.0], [12.6, 44.5], [13.2, 43.1],
-            [17.5, 40.5], [22.2, 38.0], [27.9, 34.5], [29.9, 32.5],
-            [31.2, 32.3], [31.5, 30.1], [33.5, 27.5], [35.0, 22.0]
-        ];
-        const aae1Popup = isAr ? `
-            <div class="tac-map-popup rtl">
-                <div class="popup-header-row"><span class="badge-intel text-cyan">العمود الفقري للألياف الضوئية البحرية</span></div>
-                <div class="popup-title">كابل آسيا-أفريقيا-أوروبا 1 (AAE-1)</div>
-                <div class="popup-data-grid">
-                    <div><span>الطول الإجمالي:</span> <strong>25,000 كم</strong></div>
-                    <div><span>سعة التصميم:</span> <strong class="text-cyan">40 تيرابت/ثانية</strong></div>
-                    <div><span>الحالة التشغيلية:</span> <strong>غير مرصودة // مسار مرجعي</strong></div>
-                    <div><span>مستوى التهديد:</span> <strong class="text-gold">متوسط (مراقبة منطقة الانتظار)</strong></div>
-                </div>
-            </div>
-        ` : `
-            <div class="tac-map-popup ltr">
-                <div class="popup-header-row"><span class="badge-intel text-cyan">SUBSEA FIBER BACKBONE</span></div>
-                <div class="popup-title">AAE-1 (Asia-Africa-Europe 1)</div>
-                <div class="popup-data-grid">
-                    <div><span>LENGTH:</span> <strong>25,000 KM</strong></div>
-                    <div><span>DESIGN CAPACITY:</span> <strong class="text-cyan">40 Tbps</strong></div>
-                    <div><span>STATUS:</span> <strong>NOT MONITORED // REFERENCE ROUTE</strong></div>
-                    <div><span>THREAT LEVEL:</span> <strong class="text-gold">MEDIUM (Anchorage Watch)</strong></div>
-                </div>
-            </div>
-        `;
-        L.polyline(aae1Coords, {
-            color: '#06B6D4',
-            weight: 3.5,
-            opacity: 0.85,
-            dashArray: '8, 4'
-        }).bindPopup(aae1Popup, { className: 'yaslogist-dark-popup' }).addTo(this.subseaCablesLayer);
-
-        // 2. SEA-ME-WE 5 Cable Route
-        const smw5Coords = [
-            [11.5, 51.0], [12.0, 46.5], [12.8, 43.3], [19.5, 39.5],
-            [24.5, 36.8], [28.5, 33.8], [29.8, 32.4], [31.3, 30.0],
-            [33.8, 25.5], [35.5, 18.0]
-        ];
-        const smw5Popup = isAr ? `
-            <div class="tac-map-popup rtl">
-                <div class="popup-header-row"><span class="badge-intel text-gold">شريان الربط العابر للقارات</span></div>
-                <div class="popup-title">منظومة كابلات الربط القاري الخامسة (SEA-ME-WE 5)</div>
-                <div class="popup-data-grid">
-                    <div><span>الطول الإجمالي:</span> <strong>20,000 كم</strong></div>
-                    <div><span>سعة التصميم:</span> <strong class="text-cyan">24 تيرابت/ثانية</strong></div>
-                    <div><span>زمن الاستجابة:</span> <strong>أقل من 85 مللي ثانية (أوروبا-آسيا)</strong></div>
-                    <div><span>مستوى المخاطر:</span> <strong class="text-crimson">مرتفع (حساسية الممرات الضيقة)</strong></div>
-                </div>
-            </div>
-        ` : `
-            <div class="tac-map-popup ltr">
-                <div class="popup-header-row"><span class="badge-intel text-gold">INTERCONTINENTAL LINK</span></div>
-                <div class="popup-title">SEA-ME-WE 5 (Southeast Asia - Med - Europe)</div>
-                <div class="popup-data-grid">
-                    <div><span>LENGTH:</span> <strong>20,000 KM</strong></div>
-                    <div><span>CAPACITY:</span> <strong class="text-cyan">24 Tbps</strong></div>
-                    <div><span>LATENCY:</span> <strong>Sub-85ms Europe-Asia</strong></div>
-                    <div><span>RISK:</span> <strong class="text-crimson">ELEVATED (Chokepoint Vulnerability)</strong></div>
-                </div>
-            </div>
-        `;
-        L.polyline(smw5Coords, {
-            color: '#A855F7',
-            weight: 3.5,
-            opacity: 0.85,
-            dashArray: '10, 5'
-        }).bindPopup(smw5Popup, { className: 'yaslogist-dark-popup' }).addTo(this.subseaCablesLayer);
-
-        // 3. FALCON Gulf Loop
-        const falconCoords = [
-            [29.9, 32.5], [26.0, 36.0], [21.5, 39.0], [15.5, 41.5],
-            [12.6, 43.5], [13.0, 48.0], [16.5, 54.0], [23.6, 58.5],
-            [25.3, 56.4], [26.5, 56.3], [27.0, 52.0], [29.4, 48.0]
-        ];
-        const falconPopup = isAr ? `
-            <div class="tac-map-popup rtl">
-                <div class="popup-header-row"><span class="badge-intel text-gold">حلقة الربط الخليجي الإقليمية</span></div>
-                <div class="popup-title">شبكة فالكون لربط الخليج العربي والبحر الأحمر (FALCON)</div>
-                <div class="popup-data-grid">
-                    <div><span>الهيكل البنائي:</span> <strong>حلقة مزدوجة ذاتية التعافي</strong></div>
-                    <div><span>نقاط الإنزال:</span> <strong>14 محطة إنزال سيادية</strong></div>
-                    <div><span>طبيعة البيانات:</span> <strong>حركة المعاملات المصرفية وبيانات سكادا</strong></div>
-                </div>
-            </div>
-        ` : `
-            <div class="tac-map-popup ltr">
-                <div class="popup-header-row"><span class="badge-intel text-gold">REGIONAL GULF LOOP</span></div>
-                <div class="popup-title">GCX FALCON (Gulf Interconnect System)</div>
-                <div class="popup-data-grid">
-                    <div><span>TOPOLOGY:</span> <strong>Self-Healing Dual Ring</strong></div>
-                    <div><span>LANDINGS:</span> <strong>14 Sovereign Stations</strong></div>
-                    <div><span>TRAFFIC:</span> <strong>Regional Banking & SCADA Telemetry</strong></div>
-                </div>
-            </div>
-        `;
-        L.polyline(falconCoords, {
-            color: '#EAB308',
-            weight: 2.5,
-            opacity: 0.8,
-            dashArray: '4, 4'
-        }).bindPopup(falconPopup, { className: 'yaslogist-dark-popup' }).addTo(this.subseaCablesLayer);
-
-        // Strategic Cable Landing Hubs
-        const landingHubs = [
-            { nameEn: 'Alexandria Cable Landing Reference', nameAr: 'محطة الإنزال السيادية - الإسكندرية', coords: [31.2, 29.9], cablesEn: 'AAE-1, SMW-5, 2Africa', cablesAr: 'AAE-1, SMW-5, 2Africa' },
-            { nameEn: 'Zafarana / Suez Landing Reference', nameAr: 'شريان العبور المزدوج - الزعفرانة / السويس', coords: [29.1, 32.6], cablesEn: 'Suez Land Transit Route', cablesAr: 'مسار العبور البري لقناة السويس' },
-            { nameEn: 'Jeddah Cable Landing Reference', nameAr: 'محطة جدة الدولية للكابلات البحرية', coords: [21.5, 39.1], cablesEn: 'FALCON, AAE-1, SAS', cablesAr: 'FALCON, AAE-1, SAS' },
-            { nameEn: 'Fujairah Cable Landing Reference', nameAr: 'بوابة الفجيرة الذكية (تجاوز مضيق هرمز)', coords: [25.1, 56.3], cablesEn: 'FALCON, TW1, MENA', cablesAr: 'FALCON, TW1, MENA' },
-            { nameEn: 'Djibouti Cable Landing Reference', nameAr: 'محطة اتصال جيبوتي والقرن الأفريقي', coords: [11.6, 43.1], cablesEn: 'DARE-1, EASSy, SEACOM', cablesAr: 'DARE-1, EASSy, SEACOM' }
-        ];
-
-        landingHubs.forEach(hub => {
-            const hubIcon = L.divIcon({
-                className: 'subsea-hub-icon',
-                html: `<div class="hub-pulse-ring"></div><div class="hub-center-dot"></div>`,
-                iconSize: [20, 20],
-                iconAnchor: [10, 10]
+        REFERENCE_CHOKEPOINTS.forEach((zone) => {
+            const title = language(isAr, zone.nameEn, zone.nameAr);
+            const circle = L.circle(zone.coords, {
+                radius: zone.radius, color: zone.color, weight: 1, dashArray: '5 8', fillColor: zone.color, fillOpacity: 0.025
             });
-
-            const hName = isAr ? hub.nameAr : hub.nameEn;
-            const hCables = isAr ? hub.cablesAr : hub.cablesEn;
-
-            const hubPopup = isAr ? `
-                <div class="tac-map-popup rtl">
-                    <div class="popup-header-row"><span class="badge-intel text-cyan"><i class="fa-solid fa-network-wired"></i> محطة إنزال الكابلات البحرية</span></div>
-                    <div class="popup-title">${hName}</div>
-                    <div class="popup-data-grid">
-                        <div><span>نقاط الربط:</span> <strong>${hCables}</strong></div>
-                        <div><span>الحالة:</span> <strong>غير مرصودة // موقع مرجعي</strong></div>
-                        <div><span>المصدر:</span> <strong>مرجع عام لمسارات الكابلات</strong></div>
-                    </div>
-                </div>
-            ` : `
-                <div class="tac-map-popup ltr">
-                    <div class="popup-header-row"><span class="badge-intel text-cyan"><i class="fa-solid fa-network-wired"></i> CABLE LANDING STATION</span></div>
-                    <div class="popup-title">${hName}</div>
-                    <div class="popup-data-grid">
-                        <div><span>INTERCONNECTS:</span> <strong>${hCables}</strong></div>
-                        <div><span>STATUS:</span> <strong>NOT MONITORED // REFERENCE LOCATION</strong></div>
-                        <div><span>SOURCE:</span> <strong>PUBLIC CABLE-ROUTE REFERENCE</strong></div>
-                    </div>
-                </div>
-            `;
-
-            L.marker(hub.coords, { icon: hubIcon }).bindPopup(hubPopup, { className: 'yaslogist-dark-popup' }).addTo(this.subseaCablesLayer);
+            circle.bindTooltip(`${title} · ${language(isAr, 'reference radius', 'نطاق مرجعي')}`, { className: 'yaslogist-tactical-tooltip' });
+            circle.bindPopup(this.referencePopup(title), { className: 'yaslogist-dark-popup', maxWidth: 300 });
+            circle.addTo(this.referenceRangesLayer);
         });
-    }
 
-    renderAisVessels() {
-        if (!this.aisVesselsLayer) return;
-        this.aisVesselsLayer.clearLayers();
-        const isAr = this.currentLang === 'ar';
-
-        const vessels = [
-            {
-                name: 'M/V YASLOGIST SOVEREIGN',
-                typeEn: 'Ultra Large Container Vessel (24,000 TEU)',
-                typeAr: 'سفينة حاويات عملاقة (24,000 حاوية نمطية)',
-                coords: [28.2, 33.6],
-                heading: 155,
-                speedEn: '17.2 kts',
-                speedAr: '17.2 عقدة',
-                flagEn: 'Sovereign Fleet',
-                flagAr: 'الأسطول السيادي',
-                threatLevelEn: 'SECURE ESCORT',
-                threatLevelAr: 'مرافقة آمنة',
-                threatColor: '#06B6D4',
-                cargoEn: 'High-Value Semiconductor & Strategic Defense Hardware',
-                cargoAr: 'أشباه موصلات فائقة الأهمية وعتاد دفاع استراتيجي',
-                escortEn: 'Egyptian Naval Escort Unit (Frigate Escort Active)',
-                escortAr: 'وحدة مرافقة البحرية المصرية (حراسة فرقاطة نشطة)'
-            },
-            {
-                name: 'M/T ARABIAN TITAN',
-                typeEn: 'VLCC Supertanker (320,000 DWT)',
-                typeAr: 'ناقلة نفط خام عملاقة (320,000 طن ساكن)',
-                coords: [25.7, 57.0],
-                heading: 135,
-                speedEn: '13.4 kts',
-                speedAr: '13.4 عقدة',
-                flagEn: 'Liberia',
-                flagAr: 'ليبيريا',
-                threatLevelEn: 'HIGH CONTINGENCY',
-                threatLevelAr: 'طوارئ عالية',
-                threatColor: '#EAB308',
-                cargoEn: '2.18M Bbls Light Crude Oil (Ras Tanura -> Singapore)',
-                cargoAr: '2.18 مليون برميل نفط خام خفيف (رأس تنورة -> سنغافورة)',
-                escortEn: 'Coalition Combined Maritime Forces (CMF Task Force 152)',
-                escortAr: 'القوات البحرية المشتركة للتحالف (قوة المهام 152)'
-            },
-            {
-                name: 'ENS AL-GALALA (FFG-1002)',
-                typeEn: 'Egyptian Navy FREMM Bergamini Multi-Role Frigate',
-                typeAr: 'فرقاطة فريم برجاميني متعددة المهام - البحرية المصرية',
-                coords: [27.7, 34.2],
-                heading: 190,
-                speedEn: '23.5 kts',
-                speedAr: '23.5 عقدة',
-                flagEn: 'Egyptian Navy',
-                flagAr: 'القوات البحرية المصرية',
-                threatLevelEn: 'ACTIVE PATROL COMBATANT',
-                threatLevelAr: 'دورية قتالية نشطة',
-                threatColor: '#10B981',
-                cargoEn: 'Sovereign Anti-Air, Aster 30 & Anti-Drone Electronic Warfare Systems',
-                cargoAr: 'منظومات أستر 30 للدفاع الجوي وحرب إلكترونية مضادة للمسيرات',
-                escortEn: 'Leading Maritime Task Force 153',
-                escortAr: 'قيادة قوة المهام البحرية المشتركة 153'
-            },
-            {
-                name: 'C/V RED SEA SENTINEL',
-                typeEn: 'Bulk Grain & Sovereign Logistics Carrier',
-                typeAr: 'ناقلة صب للحبوب واللوجستيات الاستراتيجية',
-                coords: [13.4, 42.8],
-                heading: 325,
-                speedEn: '14.8 kts',
-                speedAr: '14.8 عقدة',
-                flagEn: 'Panama',
-                flagAr: 'بنما',
-                threatLevelEn: 'HOSTILE AIR/DRONE RISK',
-                threatLevelAr: 'خطر مسيرات وهجوم جوي معادٍ',
-                threatColor: '#EF4444',
-                cargoEn: '65,000 MT Sovereign Wheat Cargo (Direct Suez Corridor)',
-                cargoAr: '65,000 طن متري من القمح الاستراتيجي (ممر السويس المباشر)',
-                escortEn: 'Autonomous Anti-Drone Electronic Jamming Suite Armed',
-                escortAr: 'تفعيل منظومة التشويش الإلكتروني الذاتي المضاد للمسيرات'
-            },
-            {
-                name: 'USS LABOON (DDG-58)',
-                typeEn: 'US Navy Arleigh Burke Guided Missile Destroyer',
-                typeAr: 'مدمرة صواريخ موجهة فئة أرلي بيرك - البحرية الأمريكية',
-                coords: [12.6, 44.1],
-                heading: 80,
-                speedEn: '20.0 kts',
-                speedAr: '20.0 عقدة',
-                flagEn: 'US Navy',
-                flagAr: 'البحرية الأمريكية',
-                threatLevelEn: 'COMBAT AIR INTERCEPTION',
-                threatLevelAr: 'اعتراض جوي وقتالي',
-                threatColor: '#06B6D4',
-                cargoEn: 'Aegis Combat System / SM-2 / SM-6 Anti-Ballistic Interceptors',
-                cargoAr: 'نظام إيجيس القتالي / صواريخ اعتراض باليستية SM-2 و SM-6',
-                escortEn: 'Operation Prosperity Guardian Area Defense',
-                escortAr: 'دفاع قطاع عمليات حارس الازدهار'
-            }
-        ];
-
-        vessels.forEach(v => {
-            const shipIcon = L.divIcon({
-                className: 'ais-vessel-icon',
-                html: `
-                    <div class="vessel-marker-box" style="--v-color: ${v.threatColor}">
-                        <div class="vessel-heading-pointer" style="transform: rotate(${v.heading}deg)">
-                            <i class="fa-solid fa-location-arrow"></i>
-                        </div>
-                        <div class="vessel-ping"></div>
-                    </div>
-                `,
-                iconSize: [28, 28],
-                iconAnchor: [14, 14]
-            });
-
-            const vType = isAr ? v.typeAr : v.typeEn;
-            const vThreat = isAr ? v.threatLevelAr : v.threatLevelEn;
-            const vFlag = isAr ? v.flagAr : v.flagEn;
-            const vCargo = isAr ? v.cargoAr : v.cargoEn;
-            const vEscort = isAr ? v.escortAr : v.escortEn;
-            const vSpeed = isAr ? `${v.speedAr} // الاتجاه ${v.heading}°` : `${v.speedEn} // ${v.heading}°`;
-
-            const vesselPopup = isAr ? `
-                <div class="tac-map-popup rtl">
-                    <div class="popup-header-row">
-                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">قائمة مراقبة المرافقة البحرية // مواقع توضيحية محاكاة</span>
-                        <span class="mono" style="font-size:10px; color:${v.threatColor}">[${vThreat}]</span>
-                    </div>
-                    <div class="popup-title"><i class="fa-solid fa-ship"></i> ${v.name}</div>
-                    <div class="popup-subtitle mono" style="font-size:11px; color:#94A3B8">${vType}</div>
-                    <div class="popup-data-grid" style="margin-top:8px">
-                        <div><span>السرعة / الاتجاه:</span> <strong>${vSpeed}</strong></div>
-                        <div><span>العلم وسجل السفينة:</span> <strong>${vFlag}</strong></div>
-                        <div><span>الشحنة التكتيكية:</span> <strong style="color:#F1F5F9">${vCargo}</strong></div>
-                        <div><span>بروتوكول المرافقة:</span> <strong style="color:${v.threatColor}">${vEscort}</strong></div>
-                    </div>
-                </div>
-            ` : `
-                <div class="tac-map-popup ltr">
-                    <div class="popup-header-row">
-                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">AIS ESCORT WATCH // SIMULATED POSITIONS</span>
-                        <span class="mono" style="font-size:10px; color:${v.threatColor}">[${vThreat}]</span>
-                    </div>
-                    <div class="popup-title"><i class="fa-solid fa-ship"></i> ${v.name}</div>
-                    <div class="popup-subtitle mono" style="font-size:11px; color:#94A3B8">${vType}</div>
-                    <div class="popup-data-grid" style="margin-top:8px">
-                        <div><span>SPEED / HEADING:</span> <strong>${vSpeed}</strong></div>
-                        <div><span>FLAG & REGISTRY:</span> <strong>${vFlag}</strong></div>
-                        <div><span>TACTICAL CARGO:</span> <strong style="color:#F1F5F9">${vCargo}</strong></div>
-                        <div><span>ESCORT PROTOCOL:</span> <strong style="color:${v.threatColor}">${vEscort}</strong></div>
-                    </div>
-                </div>
-            `;
-
-            L.marker(v.coords, { icon: shipIcon }).bindPopup(vesselPopup, { className: 'yaslogist-dark-popup' }).addTo(this.aisVesselsLayer);
+        REFERENCE_CABLES.forEach((cable) => {
+            const title = language(isAr, cable.nameEn, cable.nameAr);
+            const line = L.polyline(cable.points, { color: cable.color, weight: 1.2, opacity: 0.56, dashArray: '2 7' });
+            line.bindTooltip(title, { sticky: true, className: 'yaslogist-tactical-tooltip' });
+            line.bindPopup(this.referencePopup(title), { className: 'yaslogist-dark-popup', maxWidth: 300 });
+            line.addTo(this.referenceCablesLayer);
         });
-    }
-
-    renderMaritimeCorridors() {
-        if (!this.corridorsLayer) return;
-        this.corridorsLayer.clearLayers();
-        const isAr = this.currentLang === 'ar';
-
-        // European-Asian Maritime Artery (Mediterranean -> Suez Canal -> Red Sea -> Bab el-Mandeb -> Gulf of Aden)
-        const suezRedSeaRoute = [
-            [32.2, 31.0],       // Med Approach
-            [31.2, 32.3],       // Port Said
-            [29.9668, 32.5498], // Suez Canal
-            [27.8, 34.3],       // Strait of Tiran
-            [20.0, 38.5],       // Central Red Sea
-            [12.5833, 43.3333], // Bab el-Mandeb
-            [11.8, 48.0]        // Gulf of Aden / Indian Ocean
-        ];
-
-        // Persian Gulf Energy Route (Kuwait/Basra -> Central Gulf -> Strait of Hormuz -> Gulf of Oman)
-        const hormuzRoute = [
-            [29.6, 49.0],       // Northern Gulf
-            [26.8, 51.5],       // Central Gulf
-            [26.5667, 56.2500], // Strait of Hormuz
-            [24.5, 58.5]        // Gulf of Oman
-        ];
-
-        const glowStyle = {
-            color: '#06B6D4',
-            weight: 5,
-            opacity: 0.18,
-            interactive: false
-        };
-
-        const coreLineStyle = {
-            color: '#EAB308',
-            weight: 2,
-            opacity: 0.55,
-            dashArray: '5, 8',
-            interactive: false
-        };
-
-        L.polyline(suezRedSeaRoute, glowStyle).addTo(this.corridorsLayer);
-        L.polyline(suezRedSeaRoute, coreLineStyle).addTo(this.corridorsLayer);
-
-        L.polyline(hormuzRoute, glowStyle).addTo(this.corridorsLayer);
-        L.polyline(hormuzRoute, coreLineStyle).addTo(this.corridorsLayer);
-
-        // Marine Watch Patrol Path — active naval surveillance route
-        const marineWatchPath = [
-            [29.9668, 32.5498], // Suez Canal
-            [27.8, 34.3],      // Strait of Tiran
-            [20.0, 38.5],      // Central Red Sea
-            [12.5833, 43.3333],// Bab el-Mandeb
-            [14.5, 49.5],      // Gulf of Aden midpoint
-            [22.0, 53.0],      // Arabian Sea approach
-            [26.5667, 56.2500] // Strait of Hormuz
-        ];
-
-        const watchPathGlow = {
-            color: '#EF4444',
-            weight: 4,
-            opacity: 0.15,
-            interactive: false
-        };
-
-        const watchPathCore = {
-            color: '#EF4444',
-            weight: 1.5,
-            opacity: 0.6,
-            dashArray: '8, 4, 2, 4',
-            interactive: true
-        };
-
-        L.polyline(marineWatchPath, watchPathGlow).addTo(this.corridorsLayer);
-        const watchLine = L.polyline(marineWatchPath, watchPathCore).addTo(this.corridorsLayer);
-
-        const watchTooltip = isAr
-            ? '<i class="fa-solid fa-route" style="color:#EF4444"></i> <strong>مسار المراقبة والدورية البحرية السيادية</strong>'
-            : '<i class="fa-solid fa-route" style="color:#EF4444"></i> <strong>SOVEREIGN MARINE WATCH PATROL PATH</strong>';
-
-        watchLine.bindTooltip(watchTooltip, { sticky: true, className: 'yaslogist-tactical-tooltip' });
     }
 
     updateData(intensityList = [], lang = 'en') {
-        this.currentData = intensityList;
-        this.currentLang = lang;
-        if (!this.markersLayer) return;
+        this.currentData = Array.isArray(intensityList) ? intensityList : [];
+        this.currentLang = lang === 'ar' ? 'ar' : 'en';
+        if (!this.observedLayer) return;
 
-        this.markersLayer.clearLayers();
-
-        // Build case-insensitive lookup table for intensity
-        const dataMap = new Map();
-        intensityList.forEach(item => {
-            if (item && item.country) {
-                dataMap.set(item.country.toLowerCase().trim(), item);
-            }
+        this.observedLayer.clearLayers();
+        const isAr = this.currentLang === 'ar';
+        const records = new Map();
+        this.currentData.forEach((item) => {
+            const key = String(item?.country || '').trim().toLowerCase();
+            if (key && COUNTRY_NODES[key]) records.set(key, item);
         });
 
-        // Calculate regional average to dynamically drive maritime chokepoint intensity
-        let maxAttacks = 0;
-        let totalAttacks = 0;
-        let countryCount = 0;
-        intensityList.forEach(item => {
-            const a = parseInt(item.attacks || '0', 10);
-            if (a > maxAttacks) maxAttacks = a;
-            totalAttacks += a;
-            countryCount++;
+        records.forEach((record, key) => this.createObservedMarker(COUNTRY_NODES[key], record, isAr));
+        this.renderReferenceContext();
+        this.renderLayerControl();
+        this.updateMapSummary(records.size);
+    }
+
+    createObservedMarker(node, record, isAr) {
+        const count = safeCount(record?.attacks);
+        const previous = Number.isFinite(Number(record?.previous)) ? safeCount(record.previous) : null;
+        const level = severity(record?.intensity, count);
+        const title = language(isAr, node.nameEn, node.nameAr);
+        const markerIcon = L.divIcon({
+            className: 'tactical-radar-marker observed-radar-marker',
+            html: `<span class="observed-marker marker-${level.key}" style="--marker-color:${level.color};--marker-size:${level.size}px"><span></span></span>`,
+            iconSize: [level.size, level.size],
+            iconAnchor: [level.size / 2, level.size / 2]
         });
-        const avgAttacks = countryCount > 0 ? Math.round(totalAttacks / countryCount) : 4;
-
-        Object.keys(STRATEGIC_GEO_NODES).forEach(nodeKey => {
-            const nodeMeta = STRATEGIC_GEO_NODES[nodeKey];
-            let dynamicData = dataMap.get(nodeMeta.countryKey) || dataMap.get(nodeKey.toLowerCase());
-
-            if (!dynamicData) {
-                // For maritime chokepoints, dynamically scale from active conflict telemetry
-                if (nodeKey === 'Red Sea') {
-                    // Bab el-Mandeb is critical if high conflict activity in region
-                    const attacks = Math.max(maxAttacks + 4, 18);
-                    dynamicData = {
-                        country: 'Red Sea / Bab el-Mandeb',
-                        attacks: attacks.toString(),
-                        intensity: 'Critical',
-                        trend: 'up'
-                    };
-                } else if (nodeKey === 'Strait of Hormuz') {
-                    // Strait of Hormuz scales with Iranian / regional telemetry
-                    const iranData = dataMap.get('iran');
-                    const attacks = iranData ? Math.max(parseInt(iranData.attacks || '0', 10), 8) : 8;
-                    dynamicData = {
-                        country: 'Strait of Hormuz',
-                        attacks: attacks.toString(),
-                        intensity: attacks >= 10 ? 'Critical' : 'High',
-                        trend: 'up'
-                    };
-                } else {
-                    dynamicData = {
-                        country: nodeKey,
-                        attacks: '0',
-                        intensity: 'Low',
-                        trend: 'down'
-                    };
-                }
-            }
-
-            this.createDynamicPulsarMarker(nodeMeta, dynamicData);
+        const marker = L.marker(node.coords, { icon: markerIcon, keyboard: true, title }).addTo(this.observedLayer);
+        const delta = this.deltaLabel(record, count, previous, isAr);
+        const levelLabel = language(isAr,
+            { critical: 'Critical', high: 'High', medium: 'Medium', low: 'Low' }[level.key],
+            { critical: 'حرج', high: 'مرتفع', medium: 'متوسط', low: 'منخفض' }[level.key]
+        );
+        const country = escapeHTML(node.country);
+        const popup = `
+            <div class="tac-map-popup ${isAr ? 'rtl' : 'ltr'}">
+                <div class="tac-popup-header">
+                    <span class="map-evidence-badge observed">${language(isAr, 'OBSERVED · ROLLING 7D', 'مرصود · ٧ أيام متحركة')}</span>
+                    <span class="tac-intensity-badge badge-${level.key}">${levelLabel}</span>
+                </div>
+                <h4 class="tac-node-name">${escapeHTML(title)}</h4>
+                <div class="tac-popup-grid">
+                    <div class="tac-grid-item"><span class="tac-k">${language(isAr, 'Country-linked reports', 'تقارير مرتبطة بالدولة')}</span><span class="tac-v mono">${count}</span></div>
+                    <div class="tac-grid-item"><span class="tac-k">${language(isAr, 'Prior 7d', 'السبعة أيام السابقة')}</span><span class="tac-v mono">${previous === null ? '—' : previous}</span></div>
+                </div>
+                <div class="map-change-row"><span>${language(isAr, 'Window change', 'التغير بين الفترتين')}</span><strong class="mono" data-direction="${escapeHTML(delta.direction)}">${escapeHTML(delta.label)}</strong></div>
+                <p class="map-popup-note">${language(
+                    isAr,
+                    'Counts reflect country-linked public-source reports. They are not incident totals or a physical threat condition.',
+                    'تعكس الأعداد تقارير مصادر مفتوحة مرتبطة بالدولة. لا تمثل إجمالي الحوادث أو حالة تهديد مادية.'
+                )}</p>
+                <button class="map-wire-link" type="button" data-map-country="${country}">${language(isAr, 'عرض التقارير المطابقة', 'View matching wire')}</button>
+            </div>`;
+        marker.bindPopup(popup, { className: 'yaslogist-dark-popup', offset: [0, -8], maxWidth: 340 });
+        marker.bindTooltip(`<strong>${escapeHTML(title)}</strong><br><span class="mono">${count} ${language(isAr, 'reports / 7d', 'تقارير / ٧ أيام')}</span>`, {
+            direction: 'top', offset: [0, -8], className: 'yaslogist-tactical-tooltip', sticky: true
         });
     }
 
-    createDynamicPulsarMarker(nodeMeta, data) {
-        const attacks = parseInt(data.attacks || '0', 10);
-        const rawIntensity = (data.intensity || '').toLowerCase().trim();
+    deltaLabel(record, count, previous, isAr) {
+        if (previous === null) return { direction: 'unknown', label: language(isAr, 'No baseline', 'لا خط أساس') };
+        if (previous === 0 && count === 0) return { direction: 'flat', label: language(isAr, 'No change', 'لا تغير') };
+        if (previous === 0) return { direction: 'up', label: language(isAr, `New activity (${count})`, `نشاط جديد (${count})`) };
+        const explicit = Number(record?.deltaPct);
+        const pct = Number.isFinite(explicit) ? Math.round(explicit) : Math.round(((count - previous) / previous) * 100);
+        if (pct === 0) return { direction: 'flat', label: language(isAr, 'No change', 'لا تغير') };
+        return {
+            direction: pct > 0 ? 'up' : 'down',
+            label: `${pct > 0 ? '▲' : '▼'} ${Math.abs(pct)}%`
+        };
+    }
 
-        // Strict Dynamic Scaling Rules based on CTI Data
-        let category = 'low';
-        let colorHex = '#10B981'; // Tactical Emerald Green for Normal/Low
-        let pulseSpeed = '3.5s';
-        let markerDiameter = 18;
-        let ringCount = 1;
-        let glowShadow = '0 0 8px rgba(16, 185, 129, 0.6)';
-
-        if (rawIntensity === 'critical' || attacks >= 14) {
-            category = 'critical';
-            colorHex = '#EF4444'; // Tactical Crimson Peak
-            pulseSpeed = '1.0s';
-            markerDiameter = 34;
-            ringCount = 3;
-            glowShadow = '0 0 18px rgba(239, 68, 68, 0.9)';
-        } else if (rawIntensity === 'high' || attacks >= 5) {
-            category = 'high';
-            colorHex = '#EAB308'; // YASLOGIST Gold Core
-            pulseSpeed = '1.6s';
-            markerDiameter = 28;
-            ringCount = 2;
-            glowShadow = '0 0 14px rgba(234, 179, 8, 0.8)';
-        } else if (rawIntensity === 'medium' || attacks >= 2) {
-            category = 'medium';
-            colorHex = '#06B6D4'; // Sovereign Cyan
-            pulseSpeed = '2.3s';
-            markerDiameter = 22;
-            ringCount = 2;
-            glowShadow = '0 0 10px rgba(6, 182, 212, 0.7)';
-        }
-
-        // Threat-Level-First Marker VFX — icon determined by severity, not node type
-        let markerType = 'kinetic';
-        let iconHtml = '';
-        let customIcon = null;
-
-        if (category === 'critical') {
-            // CRITICAL: Red pulsing beacon (kinetic alert effect)
-            markerType = 'kinetic';
-            iconHtml = `
-                <div class="radar-node node-kinetic" style="
-                    --node-color: ${colorHex};
-                    --node-glow: ${glowShadow};
-                    --pulse-duration: ${pulseSpeed};
-                    width: ${markerDiameter}px;
-                    height: ${markerDiameter}px;
-                ">
-                    <div class="kinetic-beacon"></div>
-                    <div class="radar-pulse-ring ring-1"></div>
-                    <div class="radar-pulse-ring ring-2"></div>
-                    <div class="radar-pulse-ring ring-3"></div>
-                    <div class="radar-center-dot"></div>
-                </div>
-            `;
-        } else if (category === 'high') {
-            // HIGH: Yellow/gold glitch square (cyber alert effect)
-            markerType = 'cyber';
-            iconHtml = `
-                <div class="radar-node node-cyber" style="
-                    --node-color: ${colorHex};
-                    --pulse-duration: ${pulseSpeed};
-                    width: ${markerDiameter}px;
-                    height: ${markerDiameter}px;
-                ">
-                    <div class="glitch-square"></div>
-                    <div class="radar-center-dot" style="border-radius: 0;"></div>
-                </div>
-            `;
-        } else if (category === 'medium') {
-            // MEDIUM: Blue sonar sweep (maritime surveillance effect)
-            markerType = 'maritime';
-            iconHtml = `
-                <div class="radar-node node-maritime" style="
-                    --node-color: ${colorHex};
-                    --pulse-duration: ${pulseSpeed};
-                    width: ${markerDiameter}px;
-                    height: ${markerDiameter}px;
-                ">
-                    <div class="sonar-sweep"></div>
-                    <div class="radar-center-dot"></div>
-                </div>
-            `;
-        } else {
-            // LOW: Simple dot
-            markerType = 'kinetic';
-            iconHtml = `
-                <div class="radar-node" style="
-                    --node-color: ${colorHex};
-                    width: ${markerDiameter}px;
-                    height: ${markerDiameter}px;
-                ">
-                    <div class="radar-center-dot"></div>
-                </div>
-            `;
-        }
-
-        if (!customIcon) {
-            customIcon = L.divIcon({
-                className: 'tactical-radar-marker',
-                html: iconHtml,
-                iconSize: [markerDiameter, markerDiameter],
-                iconAnchor: [markerDiameter / 2, markerDiameter / 2]
-            });
-        }
-
-        const marker = L.marker(nodeMeta.coords, { icon: customIcon }).addTo(this.markersLayer);
-
+    updateMapSummary(observedCount) {
+        const target = document.getElementById('map-observed-summary');
+        if (!target) return;
         const isAr = this.currentLang === 'ar';
-        const nodeName = isAr ? nodeMeta.nameAr : nodeMeta.nameEn;
-        const supplyChainStatus = isAr ? nodeMeta.supplyChainImpactAr : nodeMeta.supplyChainImpactEn;
-        const vectors = (isAr ? nodeMeta.vectorsAr : nodeMeta.vectorsEn) || [];
-        const vectorTags = vectors.map(v => `<span class="tac-tag">${v}</span>`).join('');
-
-        // Localized Intensity Title
-        let intensityLabelEn = category.toUpperCase();
-        let intensityLabelAr = 'منخفض';
-        if (category === 'critical') intensityLabelAr = 'حرج جداً';
-        else if (category === 'high') intensityLabelAr = 'مرتفع';
-        else if (category === 'medium') intensityLabelAr = 'متوسط';
-
-        const intensityBadgeText = isAr ? intensityLabelAr : intensityLabelEn;
-
-        // Tactical Advisory — localized ops intelligence text
-        const advisoryMap = {
-            'maritime_corridor': { en: 'Port Ops & Canal Transit Advisory', ar: 'عمليات موانئ الشواطئ ومرور القنوات' },
-            'maritime_chokepoint': { en: 'Maritime Chokepoint Interdiction Risk', ar: 'مخاطر اعتراض نقاط التضييق البحرية' },
-            'state_nexus': { en: 'State APT & Industrial Sabotage Watch', ar: 'مراقبة مجموعات APT الحكومية والتخريب الصناعي' },
-            'conflict_hub': { en: 'Active Conflict Zone — Cloud Recon Expanded', ar: 'منطقة صراع نشطة — استطلاع سحابي موسع' },
-            'regional_node': { en: 'Regional Volatility — C2 Infrastructure Detected', ar: 'تقلبات إقليمية — رصد خوادم تحكم C2' },
-            'transit_chokepoint': { en: 'Land Corridor & Freight Logistics Monitoring', ar: 'مراقبة الممرات البرية والشحن اللوجستي' }
-        };
-        const advisory = advisoryMap[nodeMeta.type] || { en: 'Standard Monitoring', ar: 'مراقبة قياسية' };
-        const advisoryText = isAr ? advisory.ar : advisory.en;
-
-        // Risk status icon per category
-        let riskIcon = '<i class="fa-solid fa-circle-check" style="color:#10B981"></i>';
-        if (category === 'critical') riskIcon = '<i class="fa-solid fa-skull-crossbones" style="color:#EF4444"></i>';
-        else if (category === 'high') riskIcon = '<i class="fa-solid fa-triangle-exclamation" style="color:#EAB308"></i>';
-        else if (category === 'medium') riskIcon = '<i class="fa-solid fa-circle-exclamation" style="color:#06B6D4"></i>';
-
-        // Localized node status
-        const statusMap = {
-            'OPERATIONAL_WATCH': { en: 'OPERATIONAL WATCH', ar: 'مراقبة تشغيلية' },
-            'HIGH_ALERT': { en: 'HIGH ALERT', ar: 'تأهب أمني مرتفع' },
-            'CRITICAL_CONTEST': { en: 'CRITICAL CONTEST', ar: 'نزاع حرج نشط' },
-            'ELEVATED_VOLATILITY': { en: 'ELEVATED VOLATILITY', ar: 'تقلبات أمنية متصاعدة' },
-            'MONITORED': { en: 'MONITORED', ar: 'تحت الرصد المستمر' },
-            'STABLE_GUARD': { en: 'STABLE GUARD', ar: 'حراسة أمنية مستقرة' },
-            'CRITICAL_RISK': { en: 'CRITICAL RISK', ar: 'خطر حرج ومباشر' }
-        };
-        const statusObj = statusMap[nodeMeta.status] || { en: nodeMeta.status.replace(/_/g, ' '), ar: nodeMeta.status.replace(/_/g, ' ') };
-        const statusText = isAr ? statusObj.ar : statusObj.en;
-        const brandFlag = isAr ? '◤ ياسلوجست // استخبارات' : '◤ YASLOGIST // INTEL';
-
-        // Rich Tactical Popup with enhanced detail
-        const popupContent = `
-            <div class="tac-map-popup ${isAr ? 'rtl' : 'ltr'}">
-                <div class="tac-popup-header">
-                    <span class="tac-popup-flag">${brandFlag}</span>
-                    <span class="tac-intensity-badge badge-${category}">${intensityBadgeText}</span>
-                </div>
-                <h4 class="tac-node-name">${nodeName}</h4>
-                <div class="tac-popup-grid">
-                    <div class="tac-grid-item">
-                        <span class="tac-k"><i class="fa-solid fa-chart-line" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'حجم الإشارة (7 أيام)' : 'Signal Volume (7D)'}</span>
-                        <span class="tac-v mono">${attacks} ${isAr ? 'تقرير مرتبط بالدولة' : 'country-linked reports'}</span>
-                    </div>
-                    <div class="tac-grid-item">
-                        <span class="tac-k"><i class="fa-solid fa-location-dot" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'الإحداثيات الجغرافية' : 'Geo Coordinates'}</span>
-                        <span class="tac-v mono">${nodeMeta.coords[0].toFixed(4)}°N, ${nodeMeta.coords[1].toFixed(4)}°E</span>
-                    </div>
-                </div>
-                <div class="tac-popup-grid" style="margin-top:4px">
-                    <div class="tac-grid-item">
-                        <span class="tac-k"><i class="fa-solid fa-shield-halved" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'حالة المخاطر' : 'Risk Status'}</span>
-                        <span class="tac-v">${riskIcon} ${statusText}</span>
-                    </div>
-                    <div class="tac-grid-item">
-                        <span class="tac-k"><i class="fa-solid fa-file-lines" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'عدد التقارير' : 'Report Count'}</span>
-                        <span class="tac-v mono">${Math.max(attacks, 1)} ${isAr ? 'تقرير' : 'reports'}</span>
-                    </div>
-                </div>
-                <div class="tac-supply-chain-impact">
-                    <div class="tac-impact-title">
-                        <i class="fa-solid fa-anchor"></i> ${isAr ? 'تأثير سلاسل الإمداد واللوجستيات' : 'Supply Chain & Chokepoint Status'}
-                    </div>
-                    <p class="tac-impact-desc">${supplyChainStatus}</p>
-                </div>
-                <div class="tac-supply-chain-impact" style="background:rgba(239,68,68,0.06);border-color:rgba(239,68,68,0.2);margin-top:4px">
-                    <div class="tac-impact-title" style="color:#EF4444">
-                        <i class="fa-solid fa-bullseye"></i> ${isAr ? 'إرشاد تكتيكي' : 'Tactical Advisory'}
-                    </div>
-                    <p class="tac-impact-desc">${advisoryText}</p>
-                </div>
-                <div class="tac-vector-strip">
-                    <span class="tac-k"><i class="fa-solid fa-bolt" style="margin-${isAr ? 'left' : 'right'}:4px"></i>${isAr ? 'نواقل التهديد النشطة:' : 'Threat Vectors:'}</span>
-                    <div class="tac-tags-wrap">${vectorTags}</div>
-                </div>
-            </div>
-        `;
-
-        marker.bindPopup(popupContent, {
-            className: 'yaslogist-dark-popup',
-            offset: [0, -10],
-            maxWidth: 340
-        });
-
-        // Tactical Hover Tooltip with vector-specific icons
-        let tooltipIcon = '<i class="fa-solid fa-crosshairs"></i>';
-        if (category === 'critical') tooltipIcon = '<i class="fa-solid fa-skull-crossbones" style="color:#EF4444"></i>';
-        else if (category === 'high') tooltipIcon = '<i class="fa-solid fa-triangle-exclamation" style="color:#EAB308"></i>';
-        else if (category === 'medium') tooltipIcon = '<i class="fa-solid fa-circle-exclamation" style="color:#06B6D4"></i>';
-
-        const tooltipText = isAr 
-            ? `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} تقرير خلال 7 أيام [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.ar}</span>`
-            : `<strong><span class="tac-vector-icon">${tooltipIcon}</span> ${nodeName}</strong><br><span class="mono">${attacks} reports / 7d [${intensityBadgeText}]</span><br><span style="font-size:9px;color:#94A3B8">${advisory.en}</span>`;
-
-        marker.bindTooltip(tooltipText, {
-            direction: 'auto',
-            offset: [0, -8],
-            className: 'yaslogist-tactical-tooltip',
-            sticky: true
-        });
+        target.textContent = language(isAr,
+            `${observedCount} COUNTRY SERIES LOADED`,
+            `${observedCount} سلاسل دول محملة`
+        );
     }
 
     setLanguage(lang) {
-        this.currentLang = lang;
-        if (this.currentData && this.currentData.length > 0) {
-            this.updateData(this.currentData, lang);
-        }
-        this.renderMaritimeCorridors();
-        this.renderRadarRangeRings();
-        this.renderSubseaCables();
-        if (this.aisRendered) this.renderAisVessels();
-        this.updateLayersControlLanguage(lang);
-    }
-
-    updateLayersControlLanguage(lang) {
-        const isAr = lang === 'ar';
-        const labelsMap = {
-            "Tactical Dark": "الخريطة التكتيكية الداكنة",
-            "Satellite Intel": "استطلاع الأقمار الصناعية",
-            "Maritime Ocean": "أعماق الملاحة البحرية",
-            "Topographic Recon": "تضاريس الاستطلاع الطبوغرافي",
-            "Sovereign Nav Paths": "مسارات الملاحة السيادية",
-            "Threat Markers": "مؤشرات التهديدات والإنذار",
-            "Radar Range Rings": "دوائر التغطية الرادارية",
-            "Subsea Cyber Cables": "كابلات الاتصالات البحرية",
-            "Simulated AIS & Escort Watch": "مراقبة المرافقة البحرية (محاكاة)"
-        };
-
-        const allLabels = document.querySelectorAll('.leaflet-control-layers label');
-        allLabels.forEach(lbl => {
-            for (let [enKey, arVal] of Object.entries(labelsMap)) {
-                if (lbl.textContent.includes(enKey) || lbl.textContent.includes(arVal)) {
-                    Array.from(lbl.childNodes).forEach(cn => {
-                        if (cn.nodeType === 3 && cn.nodeValue.trim().length > 0) {
-                            cn.nodeValue = ` ${isAr ? arVal : enKey}`;
-                        }
-                    });
-                    const innerSpan = lbl.querySelector('span');
-                    if (innerSpan) {
-                        innerSpan.textContent = ` ${isAr ? arVal : enKey}`;
-                    }
-                }
-            }
-        });
+        this.updateData(this.currentData, lang);
     }
 
     invalidateSize() {
-        if (this.map) this.map.invalidateSize();
+        this.map?.invalidateSize();
     }
 
-    /** Release tile listeners, Canvas/SVG renderers, controls, and DOM nodes. */
     destroy() {
         if (this.resizeTimer) clearTimeout(this.resizeTimer);
         this.resizeTimer = null;
+        this.map?.getContainer()?.removeEventListener('click', this.handleContainerClick);
         if (this.map) {
             this.map.off();
             this.map.remove();
         }
         this.map = null;
         this.layersControl = null;
-        this.markersLayer = null;
-        this.corridorsLayer = null;
-        this.radarRangesLayer = null;
-        this.subseaCablesLayer = null;
-        this.aisVesselsLayer = null;
-        this.aisRendered = false;
+        this.observedLayer = null;
+        this.referenceRoutesLayer = null;
+        this.referenceRangesLayer = null;
+        this.referenceCablesLayer = null;
         this.currentData = [];
     }
 }
