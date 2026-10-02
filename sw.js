@@ -4,15 +4,20 @@
  */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v1.4.0';
+// Shell-generation counter: bump when any precached asset changes. Kept
+// decoupled from the app release version so a new shell always replaces the
+// stale one atomically.
+const CACHE_VERSION = 'yaslogist-v2-shell';
+// Precache URLs match the exact requests index.html makes (cache keys are
+// query-sensitive), otherwise the versioned assets bypass the offline shell.
 const APP_SHELL = [
     './',
     './index.html',
-    './styles.css?v=18',
+    './styles.css?v=19',
     './smart-operations.css?v=3',
-    './app.js',
+    './app.js?v=19',
     './threat-map.js',
-    './acid-squares-bg.js',
+    './acid-squares-bg.js?v=19',
     './manifest.webmanifest',
     './assets/yaslogist-logo-128.png',
     './assets/yaslogist-icon-192.png',

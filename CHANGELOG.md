@@ -3,6 +3,61 @@
 All notable changes to YASLOGIST Intelligence are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.4.0] — 2026-10-02
+
+Rendering-budget release: the cockpit's GPU/compositor profile was audited and
+the full foreground-repaint surface was folded into the existing WebGL pass.
+Visual language unchanged; frame cost on the heaviest screens is materially
+lower, and the adaptive ladder finally does what the docs always said.
+
+### Changed
+
+- **Glass panels return to the design-doctrine blur cap** — `.glass-panel` ran
+  `backdrop-filter: blur(20px) saturate(200%)` on six viewport-scale panels
+  sitting over the animated shader background, forcing the compositor to
+  re-filter nearly the whole screen every frame. Doctrine (≤6px) restored as
+  `blur(5px) saturate(140%)` with slightly raised panel opacity; nested blurs
+  normalized (KPI cards 8/12px→3px, chokepoint bar 12→6px, popup 16→8px,
+  tooltip 8→6px, layers control 16→8px).
+- **Three fullscreen DOM overlay layers removed** — the `hud-container::before`
+  diagonal data-line weave (a 2×-viewport `background-position` animation
+  repainted **every frame**), the `body::before` atmosphere glows, and the
+  `body::after` CRT scanlines (two conflicting rules, one permanently dead)
+  are now computed inside the shader's `uOverlay` branch: the same visual
+  texture for ~30 ALU ops in a pass that already ran, and the data-line weave
+  is now seamless (the CSS version jumped mid-pattern every 15s).
+- **AcidSquares shader v2** — the `steps` quality option is real (uniform-
+  bounded march `8..32`, previously hardcoded 24 while the app asked for 32);
+  the adaptive ladder implements the documented doctrine end-to-end (DPR
+  2→1.5→1, then steps 32→24→16→8, then static frame) without recompiling the
+  program on downgrade; march energy normalizes by step count so every tier
+  holds the same exposure window (verified p50 luminance 0.196..0.217 across
+  32/24/16/8) and a cubic grade reserves crimson for true alert peaks;
+  a vignette anchors the composition;
+  brand palette corrected to gold-core/amber/crimson; OGL-era dead options
+  (`waveDepth`, `exposure: 2700`, `spread`, `stepSize`, `glow`, `grain`)
+  removed; static degraded/reduced-motion frames re-render after resize
+  (previously stretched); iResolution is re-uploaded after WebGL context
+  restore (previously a same-size restore rendered black); GLSL smoothstep
+  edges audited ascending (inverted edges are undefined behavior in GLSL ES).
+- **Lazy tactical map** — Leaflet, four base tile layers and five intelligence
+  overlays are now built on first activation of the map tab instead of at
+  boot, cutting landing-time network and main-thread work for dashboard-only
+  sessions; already-loaded intensity data is applied on creation.
+- **Chart.js discipline** — backing store capped at 2× DPR (was uncapped) and
+  chart-transition animations disabled under `prefers-reduced-motion`, closing
+  the last gap in motion doctrine §5.4.
+- **Compositing-friendly micro-scanners** — KPI bar-scan and cockpit bar-scan
+  shimmer now animate `transform` instead of `left` (was per-frame layout), and
+  `transition: all` on glass panels/KPI cards is scoped to animated properties.
+- **AIS layer relabelled for truthfulness** — the watchlist vessels are
+  simulated positions and are now labelled `SIMULATED POSITIONS /
+  مواقع توضيحية محاكاة` in both the layer control and every vessel popup;
+  nothing else on the map claims live telemetry.
+- **Offline shell alignment** — `sw.js` precache now mirrors the exact
+  versioned requests (`?v=19`) the page makes; previously the versioned
+  app/CSS/js requests bypassed the app-shell cache entirely.
+
 ## [1.3.0] — 2026-10-02
 
 Operator-toolkit release: the console gains a personal watchlist, background

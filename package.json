@@ -1,6 +1,6 @@
 {
   "name": "yaslogist-intelligence",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "description": "Static bilingual CTI and maritime logistics threat radar",
   "scripts": {
