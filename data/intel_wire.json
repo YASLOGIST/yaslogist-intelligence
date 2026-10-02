@@ -1,5 +1,341 @@
 [
   {
+    "titleEn": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "titleAr": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1790965981000,
+    "summaryEn": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gai…",
+    "summaryAr": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gai…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli barrier cuts off water to West Bank Palestinians before elections",
+    "titleAr": "Israeli barrier cuts off water to West Bank Palestinians before elections",
+    "link": "https://www.aljazeera.com/news/2026/10/2/israeli-barrier-cuts-off-water-to-west-bank-palestinians-before-elections?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790965122000,
+    "summaryEn": "Residents of Ras al-Ahmar say Israeli restrictions have cut access to water, animal feed, healthcare.",
+    "summaryAr": "Residents of Ras al-Ahmar say Israeli restrictions have cut access to water, animal feed, healthcare.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s Supreme Court overturns election panel ban on Arab parties",
+    "titleAr": "Israel’s Supreme Court overturns election panel ban on Arab parties",
+    "link": "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790964697000,
+    "summaryEn": "Court reinstates two Arab lists and Jewish Knesset member Ofer Cassif as Balad leader withdraws after pressure.",
+    "summaryAr": "Court reinstates two Arab lists and Jewish Knesset member Ofer Cassif as Balad leader withdraws after pressure.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Who gets to run in Israel’s elections?",
+    "titleAr": "Jerusalem Daily: Who gets to run in Israel’s elections?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/jerusalem-daily-who-gets-to-run-in-israels-elections?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790962206000,
+    "summaryEn": "Palestinians in Israel are asking whether they will have a fair say in the upcoming Israeli elections.",
+    "summaryAr": "Palestinians in Israel are asking whether they will have a fair say in the upcoming Israeli elections.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
+    "titleAr": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790961650000,
+    "summaryEn": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
+    "summaryAr": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "titleAr": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+    "source": "The Hacker News",
+    "pubDate": 1790960532000,
+    "summaryEn": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptibl…",
+    "summaryAr": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptibl…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+    "titleAr": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+    "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
+    "source": "Dark Reading",
+    "pubDate": 1790960190000,
+    "summaryEn": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its…",
+    "summaryAr": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
+    "titleAr": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkJSVEI3TWpXNlBROHk2RmowaVBxM0RhTlBEcmF0aVdwbnI5blc4R3hvV0J6QUo1UGxTMExXT0xtMnNqcXJrZEtjUG5fZGtnc1hSZjEtNWdSYTg4dGFxMlBneG5yMDhxTzdVVEdWenhsZmdnZl9WdFhqMEZVOEdiN0pINUp4djFQa0Y2SUV2R1MxRkdJbEwxTnVHN1JmTWVTb3B6RUMwMjVBZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790959063000,
+    "summaryEn": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf Reuters",
+    "summaryAr": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli Arab leader quits election under pressure from court over October 7 remarks - Reuters",
+    "titleAr": "Israeli Arab leader quits election under pressure from court over October 7 remarks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbWhEcEZzNmhPWTdsdHM1WTBaX0dsWmI0d2t3SGx2dTJPRldRcWstenNRcF9NSXpoSk5kVUpBV1MwRFhzakpWUVR5OVhfU2huek9TY2w5bjFpU2pFeXlXekdBcWpWX09Ldkd6VkRjMThDTFBVUjBaTy1kSzg0Ty1pMHktYzNXeVdhY2N3ajI2bkFCNW1CZ25uakpJOElSVWRVZG9oXzFYN2hNeWFYSEF3NnJCalNuNHBXZEo1UGo1MA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790957721000,
+    "summaryEn": "Israeli Arab leader quits election under pressure from court over October 7 remarks Reuters",
+    "summaryAr": "Israeli Arab leader quits election under pressure from court over October 7 remarks Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Three in four households go hungry in parts of Yemen amid fighting: UN",
+    "titleAr": "Three in four households go hungry in parts of Yemen amid fighting: UN",
+    "link": "https://www.aljazeera.com/news/2026/10/2/three-in-four-households-go-hungry-in-parts-of-yemen-amid-fighting-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790957185000,
+    "summaryEn": "World Food Programme warns of 'devastating' impact as conflict displaces thousands and cuts off food supplies.",
+    "summaryAr": "World Food Programme warns of 'devastating' impact as conflict displaces thousands and cuts off food supplies.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
+    "titleAr": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlBYYU5xTVlDbllsYjZsVUc2WnowTjltVFJUV3VPVTdNYlYwQlpPZTV6Mnh5dkluSUpQX1lKRUFDY3B6WFAwSzdLU3poUjE2a1BZMlUzcGRaSkJ6NlF2U0tuU0hIYklLcVFIOTlIUW1IMV9GRENnZ2lHb2N2VEh3cFFYQkxJSGlWMU5xUllsR3ZPd3J6YjVqcVdFZzdYN01SaEpYWExrSlAtZ1RKSFRabFJmVDQ3N2N2S2RqYVNB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790953664000,
+    "summaryEn": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
+    "summaryAr": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US issues sanctions against Hamas financing network, Treasury says - Reuters",
+    "titleAr": "US issues sanctions against Hamas financing network, Treasury says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkdRRkxGNHBqcFM5b0RNbjRMU2NXeXFWUXdselk3QVNzVkNqSWw1aWdJTjQyc0VWeFNqSjB3dGtjaWdpdHZuYzVxaVdKQmM4X0lMRC10UnlzRWFndmFWUVlrU2l4NG5nR2QyNnJ0Z3AwNE91QXlVV2IzNG5RcENFVTViWEw4ek5xank2YU80OGVGRWV5RGVOcXVwZi1xSXhzaElHMWxndFFqQXQ0Q01YeHFoSllfeTJ1TWJv?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790951625000,
+    "summaryEn": "US issues sanctions against Hamas financing network, Treasury says Reuters",
+    "summaryAr": "US issues sanctions against Hamas financing network, Treasury says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran readies harder retaliation if attacked as diplomacy faces long odds - Reuters",
+    "titleAr": "Iran readies harder retaliation if attacked as diplomacy faces long odds - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQTk2ZFJ4YklNcjZMNEJ3aWlPSG9HZlZ5RzF1Q3o1RW16emhJWUQ3VVFkV3luT3FjSG9EaFVpR1VpYjRnMElVWFR0SFJ2Y1FRT0lNVHV6bHExMmJlbGI2U2FKMkRDakE5clVydmdkUkRXY3plNE16ZHVMZEhGNWtwQ25Nd2lQRndnM1lPTnJOSkx2ODNjeUloUGhaemlLMTR5NGY4ZmZnWnBpVG45RGwzcGVjcTU4SjNaRjdVd0ZSdlI?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790951530000,
+    "summaryEn": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
+    "summaryAr": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "titleAr": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczZwcWhiS1lhelMwUWkyR3BrN3p6bUwtTXRIS0NWVDlJM2pLdzBHNHVmSjlWZjBMX3lZcndZN2I5cDVnY0c2YzNJN2I5WjVvX2V0ZVh3aURvME5ZRENGWEZTZmdINzFwenBORGJJUV9Oa3JxSXd4NFFZNXZKRlJYM09yVEVZUWk0MnRaSjRab2xNY1ZCUUZLZjR4NlBrYnVUMk1YMmxGdlJYcDFNLWlVZDRTLXc4Q0NWZXczS0VQWmtJSTc2OGoyU2x3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790951013000,
+    "summaryEn": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
+    "summaryAr": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis - Reuters",
+    "titleAr": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWExYaGpkaTdfbjMzM1pEc1EzVFA4emhFbVFYbEpteVNRMU94cG1lOG9WclVRQjdiaHJoSjlwcFU1M2Qxcnl1VndaM0h0c3pvZDdtOHEzQjNvLWhOYVM2a2tSZUw1MzRTV01Wb0hRVWMyVnNIbHdTY282MGFsWURpSGJfcUhuRDJHRjBpMU5xVzVOT1F6UFkwTnN1NFo4ckxNc3hWbzllUFZBYWItNGJRZEdITnFZV3A4aHh6RllfR0NXZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790950304000,
+    "summaryEn": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis Reuters",
+    "summaryAr": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli court pressure pushes Israeli Arab leader to quit election race - Reuters",
+    "titleAr": "Israeli court pressure pushes Israeli Arab leader to quit election race - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWlIWGpMWHF1TWRvVkR6WDI2WTdpb2Y4UGt4LWpRemwwSFNuYlUydGtQbDZ4Y2IzeVhhQ3RwLVhCbm1MUjRnOEhhSmx3Z3NQVWFJbjNpT2x1NnllcURjaEU5bFFFMmxSRThSbFowbm04WlhQcUppYktSb2R2OXFBTDVHUEY1bDJIZkZLUDh4VDF5VUVSd2t2RVZDeDRVZDVfRUhQYmxPUmNwc2NLd2VvWWtpVHQwVE4wT0F3R3kxc2hsanFoaERUelZWM0VhTElu?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790947783000,
+    "summaryEn": "Israeli court pressure pushes Israeli Arab leader to quit election race Reuters",
+    "summaryAr": "Israeli court pressure pushes Israeli Arab leader to quit election race Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Italy says EU naval mission in Red Sea still insufficient - Reuters",
+    "titleAr": "Italy says EU naval mission in Red Sea still insufficient - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWRiOHhGTEtYWUUyOVJ2WHlzZDNzdVJpdTFycHk4aDJwSm9lWFF3VEV4VkFUbmpYbjl1UG1zUTVaMkFyMHgzMm9oTlFxNjA1dDNnYnY4Qjd2S3dWNFBOeFpSMWtxYXVJMEIyeUFxZjdNQnRQV215UkhnMm5TRFlSVHZJYV9jZnRwLWk3UTF5SEJyTjh3V3NtNDlVam8?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790946463000,
+    "summaryEn": "Italy says EU naval mission in Red Sea still insufficient Reuters",
+    "summaryAr": "Italy says EU naval mission in Red Sea still insufficient Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say - Reuters",
+    "titleAr": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2J4Zm9OdTE5aTNUN1dqemFJaWxyamJKSXQ2WGpLeWhLMkgxbkVPU01vS2hVbXd5WEFhMDh5a21lcVNacXUyV0M5cEljbkJfRUdkcHJ0YTNBQVpHRENNRVVfZzQ3S3lwT3F0eUJNUmF5OGpXN1BKbG9Jc28tRGdZM0xVZFhMcFhTTktYbnVWQThvSXRjZ250enQ0Y1N2RHBSTTFZRkY5U2RJQ3Q0Zmk1X19yRDlrQ0phaUlkSDg2V3dTSXg2VzBqc2tacw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790945646000,
+    "summaryEn": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say Reuters",
+    "summaryAr": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ukraine calls for tighter sanctions as Russian attacks spark Kyiv gridlock",
+    "titleAr": "Ukraine calls for tighter sanctions as Russian attacks spark Kyiv gridlock",
+    "link": "https://www.aljazeera.com/news/2026/10/2/ukraine-calls-for-tighter-sanctions-as-russian-attacks-spark-kyiv-gridlock?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790945250000,
+    "summaryEn": "Closure of bridges struck by drones in Ukrainian capital causes traffic chaos.",
+    "summaryAr": "Closure of bridges struck by drones in Ukrainian capital causes traffic chaos.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "12 minutes of madness: How Flydubai pilot, passengers saved plane midfall",
+    "titleAr": "12 minutes of madness: How Flydubai pilot, passengers saved plane midfall",
+    "link": "https://www.aljazeera.com/news/2026/10/2/12-minutes-of-madness-how-flydubai-pilot-passengers-saved-plane-midfall?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1790944640000,
+    "summaryEn": "As it plunged 17,000ft in under two minutes, a quick-thinking captain and passengers saved plane from crashing.",
+    "summaryAr": "As it plunged 17,000ft in under two minutes, a quick-thinking captain and passengers saved plane from crashing.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "UAE stocks fall as US-Iran deadlock weighs - Reuters",
+    "titleAr": "UAE stocks fall as US-Iran deadlock weighs - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR1M2NDhZWmNvSmJVR0ctY3E4d2lMbGZ3Z0ZId1l2YVk5Ujc0XzVTZE1WbmM5QWlzejNSZ1RRYXhnY0RiSy0yaWtLWjAzNUxaajlpVi1vVTh4dFpHeno2RkJjcjkxVmJ5bkVkdUNuNks2WkxXaDIwOTBGNGp6M2IxRkNQUDNQSU1tOGxHd1l4RE9DT1dZODBLeA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790943369000,
+    "summaryEn": "UAE stocks fall as US-Iran deadlock weighs Reuters",
+    "summaryAr": "UAE stocks fall as US-Iran deadlock weighs Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
     "titleAr": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
     "link": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
@@ -16,13 +352,13 @@
     ]
   },
   {
-    "titleEn": "FlyDubai pilot describes opening cockpit door during attack",
-    "titleAr": "FlyDubai pilot describes opening cockpit door during attack",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-describes-opening-cockpit-door-during-attack?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790940207000,
-    "summaryEn": "The Indian pilot who was stabbed by his co-pilot on a Flydubai flight to Israel describes the attack.",
-    "summaryAr": "The Indian pilot who was stabbed by his co-pilot on a Flydubai flight to Israel describes the attack.",
+    "titleEn": "Syrian students get caught in rift between Druze leaders and Damascus - Reuters",
+    "titleAr": "Syrian students get caught in rift between Druze leaders and Damascus - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbXJxS2hDZzFPZWhJUVN3bFBNT0dSazhCeHJYOUxNblBEWVFzanM0X2wtX25VbkpRbnROYzZZSS1mQ091SFhOY0JiS3d6UmE1T29ucmhnV1RPMFJaZTBEM0xScHl4VHpJSW5pRjdfZExBLXgwcjZBRVZCT0dDOVpvOG5ncVh1Ynl3bUdra2ZSYjVlblRRbkVYTHFBY3JLX2tPOVhzUTl0eXJkM25MRGZ6b0lPdWZuNDA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790940824000,
+    "summaryEn": "Syrian students get caught in rift between Druze leaders and Damascus Reuters",
+    "summaryAr": "Syrian students get caught in rift between Druze leaders and Damascus Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +368,13 @@
     ]
   },
   {
-    "titleEn": "Explosions reported near military airport in Syria’s Idlib province",
-    "titleAr": "Explosions reported near military airport in Syria’s Idlib province",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790938820000,
-    "summaryEn": "Two explosions have occurred near Taftanaz military airport in Syria’s Idlib province, sending smoke into the sky.",
-    "summaryAr": "Two explosions have occurred near Taftanaz military airport in Syria’s Idlib province, sending smoke into the sky.",
+    "titleEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
+    "titleAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yZEJMT1dSMGY4a3FfNUVFNGRxVTRzU0hIRWlPMWJMNG1kMVV5VFhZMDVDbzNxQkhMUHVuS1VqR2NXaVdBQkRRSU1aQXJXR1ow?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790940255000,
+    "summaryEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
+    "summaryAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +384,29 @@
     ]
   },
   {
-    "titleEn": "Protests disrupt Ireland football match with ‘Palestine tennis balls’",
-    "titleAr": "Protests disrupt Ireland football match with ‘Palestine tennis balls’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/02-10-sv-ireland-austria-game-tennis-balls-ie?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790937321000,
-    "summaryEn": "Protesters interrupted Ireland’s match against Austria with tennis balls and Palestine flags.",
-    "summaryAr": "Protesters interrupted Ireland’s match against Austria with tennis balls and Palestine flags.",
+    "titleEn": "US-led maritime center raises threat level for Middle East to severe - Awani International",
+    "titleAr": "US-led maritime center raises threat level for Middle East to severe - Awani International",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd0FlWnpBaF9UcWNDTGJuc1FOcXFPR2R0TzV0WWlpUFZYWDhEY2djOGQ2M0JkMC0xQVBtRTRpQUszM1RUTG9DSjVzaU55RXVpZ2xaQXNEc1FIbS1vWXlOV25kUmh4dFp2UjY3RXJvNl9NMHNYUzBpNEFvZWsyWXQ0ankxRlJLNzlRVDY0VVBfOEp6SUlEdS1rRzJ3Mm9FVXp1TGxKX2RZSlRFUElIdl9V?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790938888000,
+    "summaryEn": "US-led maritime center raises threat level for Middle East to severe Awani International",
+    "summaryAr": "US-led maritime center raises threat level for Middle East to severe Awani International",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices stabilize — market assesses risks to supplies from the Middle East - Українські Національні Новини (УНН)",
+    "titleAr": "Oil prices stabilize — market assesses risks to supplies from the Middle East - Українські Національні Новини (УНН)",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMnlodEl5SGU4elhFVXFTd1I2S0tCb2lxOWIwNzhRU2xFRkxYbHY2X3B2NFNsaFdTcFhJWThnZmc2S3RGcFdwb2l0Z1YwYzlHWkVxWmpZVEFwdjBjVG1DbjZwUEhidXhhUEFpTUJQTl81Ui04VEFEbk5LQkVZVm1YSS1oTk5aV1QwX0dGYXZkbk5BaGhNbE51Wi1Fd2xfRjTSAZ4BQVVfeXFMUFNSTjliMV9nbTV4SkJuOFFuUk5VcGR3eXZjbkVRU1VPcVlzVmRLZ2xHSFF0amdxZkM4TGpmY0F3LVdmcExhcmRDS3o0aDgwMmFDYmZoVzFzOHpEVzdTRzJ1N0wzNi1pWjl5Nk5JUkhXWnpzYkZLNi13QWhORGxlTnV4Njg5ZWNlN0JPMV85YzlpWmtLTWNRd2g4T3VIYmc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790922983000,
+    "summaryEn": "Oil prices stabilize — market assesses risks to supplies from the Middle East Українські Національні Новини (УНН)",
+    "summaryAr": "Oil prices stabilize — market assesses risks to supplies from the Middle East Українські Національні Новини (УНН)",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,98 +416,18 @@
     ]
   },
   {
-    "titleEn": "How can Jordan respond to Israel’s escalation across the West Bank?",
-    "titleAr": "How can Jordan respond to Israel’s escalation across the West Bank?",
-    "link": "https://www.aljazeera.com/opinions/2026/10/2/how-can-jordan-respond-to-israels-escalation-across-the-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790936243000,
-    "summaryEn": "Settlement expansion, displacement and growing Israeli control would have direct consequences for Jordan.",
-    "summaryAr": "Settlement expansion, displacement and growing Israeli control would have direct consequences for Jordan.",
+    "titleEn": "Yemen carried out 20 strikes on Houthi targets in Taiz province, spokesperson says - Reuters",
+    "titleAr": "Yemen carried out 20 strikes on Houthi targets in Taiz province, spokesperson says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORk4tSFZmYTc1TmM0Nk9rT0QzQjBkdUJyWlFTTllHN3ZsSU5QZWd3eW42bjB4dHo4MzZoQm9yOFRBaE1fVF9nTFlxTWswMWRlZV9PZXFRZm13aUdpR1UtX2FZVzdTb21IcHFFbzBxdzlRY015TkE5bWlmNTdncGprWWZkRUMzWVR1Y3VfbnBCUlRuMTlvZ2NLTlpUaEFmUU9Ra1VoNDVKYVhJaVZQV3NCUVMzQlpjWEJlb2NzRkRySUNLUmxXQUN4Rg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790922060000,
+    "summaryEn": "Yemen carried out 20 strikes on Houthi targets in Taiz province, spokesperson says Reuters",
+    "summaryAr": "Yemen carried out 20 strikes on Houthi targets in Taiz province, spokesperson says Reuters",
     "tags": [
       {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?",
-    "titleAr": "New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?",
-    "link": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790935581000,
-    "summaryEn": "By the end of November, three US aircraft carriers and two amphibious landing groups will be positioned near Iran.",
-    "summaryAr": "By the end of November, three US aircraft carriers and two amphibious landing groups will be positioned near Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Arab party leader forced to withdraw from Israeli elections",
-    "titleAr": "Arab party leader forced to withdraw from Israeli elections",
-    "link": "https://www.aljazeera.com/news/2026/10/2/arab-party-leader-forced-to-withdraw-from-israeli-elections?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790933123000,
-    "summaryEn": "Palestinian participation in upcoming Knesset vote continues to shrink with withdrawal of Sami Abu Shehadeh.",
-    "summaryAr": "Palestinian participation in upcoming Knesset vote continues to shrink with withdrawal of Sami Abu Shehadeh.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli court ruling a ‘new threshold’ in Palestinian suppression",
-    "titleAr": "Israeli court ruling a ‘new threshold’ in Palestinian suppression",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-ziad-abu-rish-israel-politics-qt-mp4?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790933079000,
-    "summaryEn": "Israel’s top court told Palestinian politician Sami Abu Shehadeh to withdraw from the election or face disqualification.",
-    "summaryAr": "Israel’s top court told Palestinian politician Sami Abu Shehadeh to withdraw from the election or face disqualification.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
-    "titleAr": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
-    "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790931801000,
-    "summaryEn": "Police investigate 'possible foreign state involvement' as sixth man arrested over RAF Fairford incident.",
-    "summaryAr": "Police investigate 'possible foreign state involvement' as sixth man arrested over RAF Fairford incident.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia tries to freeze Ukraine as it suffers record casualties and retreats",
-    "titleAr": "Russia tries to freeze Ukraine as it suffers record casualties and retreats",
-    "link": "https://www.aljazeera.com/news/2026/10/2/russia-tries-to-freeze-ukraine-as-it-suffers-record-casualties-and-retreats?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790928182000,
-    "summaryEn": "Moscow has suffered further losses of occupied territory, but is using new drones to beat Ukraine's defences.",
-    "summaryAr": "Moscow has suffered further losses of occupied territory, but is using new drones to beat Ukraine's defences.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -176,6 +448,54 @@
     ]
   },
   {
+    "titleEn": "Evacuated in an incubator, now back in Gaza getting to know mama - Reuters",
+    "titleAr": "Evacuated in an incubator, now back in Gaza getting to know mama - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZDM4V3pPbTg0dzF0TmJ1c2IyRkl3Y29ZRTFCVmVEZ2cyUklzZHFzZTJ6eEJibmx5a2tvSEJaeFIwUW9nUE5kRktyQ0NRd1BOTW5MTG9iTmduN2Z1V2w1Y0FQLWhKSE9kZDVUeFFySlg3WmVISzcwUVBHck5GYW1zSFhiX29UZmZoQ21ONnBLazhRb3NwTjZ5ZHNweDFtRlVFMTlhamtlZmRHcGVmVDhDZ01naG8xWXdTcXJNbDh3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790917380000,
+    "summaryEn": "Evacuated in an incubator, now back in Gaza getting to know mama Reuters",
+    "summaryAr": "Evacuated in an incubator, now back in Gaza getting to know mama Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
+    "titleAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRzNDclZCX3E3NjE1Vl85S2dUTmRsLUZTYU5IRGxUQ0hOY3JDN3ZnSFRNVXlqWElnc3duN2F6N1FNMlpuWkMzTlduNm1JWFZsa0l1VDE0X3k4YXV4aUtobjdfVVlHaDdwNmU1RF9mRUVuZVNwX3dhUm1yNFBYLU5TZXNPcnZaZGJuVXdxV0FvbnQ2dWN2dFZLaDNtOTNDTk5vVDZLMFpSakFhcEJHR0E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790904900000,
+    "summaryEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
+    "summaryAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 - Reuters",
+    "titleAr": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUJvQTdsdmZqUk11SVRJM1JnckowZEh1bWEyMHpfYTFTQUJFQTVlcHZSZUp0WVVlMi1wR3ZJdXo4U3R5cGNnZnJPVXdWMG4yRnVSYjNUc1BfejVNdlNzakF4YnJHY3h4N1QwdV9LX0cxQkF5djZ2YkI5LVVEX3Zfd0QzWUpDdHVXdmlXWHpYMDJRQUlxZGg2U3JhNnMtdW5vaGtUbGd4UkxST1FYNWJnc2RWaWs?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790897265000,
+    "summaryEn": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 Reuters",
+    "summaryAr": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
     "titleAr": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
     "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -188,6 +508,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790893257000,
+    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -208,6 +544,38 @@
     ]
   },
   {
+    "titleEn": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - Reuters",
+    "titleAr": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGQ5cWhPbnlFT0hFQU1VME1qVVB2SndmZVROdUpzUU1sVGxRcDZndDN0R1BwdGVXRThreEJhTnV4WWQzZ19xUjlqZ3hqWjBWSEJWQ1JtcExJNVVRTG95UHQ1RjFsc21pbWQ4Q3c3dnhvYWZXUF9uNmQ0UHhWT1pJRXg3Yk42b0dOS0FJVmNsbGJLeFZTQkNKcW5ocVZVSzBlS2tnSnRpM044NEhMZW1FMG94N1U2dW1fUXJkbng1clJZSHpaZVVGLXFyeDBYcXM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790887933000,
+    "summaryEn": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes Reuters",
+    "summaryAr": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US coastal grades rise as tensions escalate in the Middle East - TradingView",
+    "titleAr": "US coastal grades rise as tensions escalate in the Middle East - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1RuRExsZUhDWXVSY0ktT3FmTDg4b0RTVUgtY0xWUC1zdkZ0ekJZdDBZRUpQVDRnRG9UQW1pMXh4Zkd0NzRFUGJWbFh2WVE2S05iZjZDTkRha2wyMVhlQWxZUlJqQUlaYWpNbjA4LVVpRHo5cGstQXh4QnRuazVtTEF3Smd5VnR5RFFPVHpyR0c4ajlQQURyR0pmSnQyWElNMUxRbVEtMGlOWnlnM2NYNlc5UlRRcmlESlp1YV9QNnFxRnQ5XzREOTE2N0M?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790886624000,
+    "summaryEn": "US coastal grades rise as tensions escalate in the Middle East TradingView",
+    "summaryAr": "US coastal grades rise as tensions escalate in the Middle East TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
     "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
     "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
@@ -215,6 +583,22 @@
     "pubDate": 1790884764000,
     "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
     "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Turkey echoes denial of Syria-Hezbollah meeting on its turf - middleeasteye.net",
+    "titleAr": "Turkey echoes denial of Syria-Hezbollah meeting on its turf - middleeasteye.net",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeVU2ZXpwVmdfMDVTQnNRMTlnRzJiS3hhV0hXZE90blRpU2dUT0EzcmNZaDFCVlhCSXNZM1I4Z28yd2FaUDdjLThXRHpNQkpVemVFNzFJRTJuek1GMzNRdW5lN2cwSjNTay11aVlUc0hQZmtmVDl4TkFqNDVadnMweFdWY1UxeFZxV3hja2l5YVJ3TGw2THRFU25oMHhVVHo0ZmJJVk04Z0lQOUxjeF9F?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790876040000,
+    "summaryEn": "Turkey echoes denial of Syria-Hezbollah meeting on its turf middleeasteye.net",
+    "summaryAr": "Turkey echoes denial of Syria-Hezbollah meeting on its turf middleeasteye.net",
     "tags": [
       {
         "textEn": "INTEL",
@@ -252,6 +636,38 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli airlines plan to resume Dubai flights after flydubai incident - Reuters",
+    "titleAr": "Israeli airlines plan to resume Dubai flights after flydubai incident - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTVCTm5OUGRQR0FhMF9DYW82eWVXNE5NUUNJWGtNT3VRUHNjRjY4dWlSMXJtbHpSZTRWa3lfUWpVeFQwSmIzbVlwY2oxSXBwd1VMZE9ZYzRvdEZrWjBsdGVyVE9VOXRXY0lhcmNYMVExdmE2dmd1ck0tQlZaUG5CcFVvY0pMWEpic0pkMndCWlNXZDZmNWx3UUd1VHJmdzZENUYwUmNYOEJLTkF6NFFYZDdJUmIzWXpKZDhHRw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790869993000,
+    "summaryEn": "Israeli airlines plan to resume Dubai flights after flydubai incident Reuters",
+    "summaryAr": "Israeli airlines plan to resume Dubai flights after flydubai incident Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "IMF says Lebanon needs key reforms for programme - Reuters",
+    "titleAr": "IMF says Lebanon needs key reforms for programme - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMUlKWFdoZVFnLXZjakJqOHl3TFNuNGNGdUNMTEpVWnkwbjhzbjRKYXpERjFSVHFWSUdsRmpEV1lhcHJ1SEVmTzNjSThsa3R0VXNmUHlSZjByaUJfZEtCN2I1aFl6dm5YTUtBOFN0emJoTW5OSl9KdXVsd1FyTUttZ3Nua1JhZnpSdG5Xdm1LMVhvZkluUWlDa1NJTXljN2c?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790867649000,
+    "summaryEn": "IMF says Lebanon needs key reforms for programme Reuters",
+    "summaryAr": "IMF says Lebanon needs key reforms for programme Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -295,427 +711,6 @@
     "pubDate": 1790863048000,
     "summaryEn": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
     "summaryAr": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-    "titleAr": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
-    "source": "Dark Reading",
-    "pubDate": 1790859600000,
-    "summaryEn": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
-    "summaryAr": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Armatura LLC Armatura One",
-    "titleAr": "Armatura LLC Armatura One",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the …",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the …",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Meari IoT Cloud Platform OpenAPI Service",
-    "titleAr": "Meari IoT Cloud Platform OpenAPI Service",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive i…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Monta monta.app",
-    "titleAr": "Monta monta.app",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt c…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt c…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-    "titleAr": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks agains…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks agains…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traver…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traver…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "ABB Protection and Control IED Manager PCM600",
-    "titleAr": "ABB Protection and Control IED Manager PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and C…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and C…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Malcolm",
-    "titleAr": "CISA Malcolm",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
-    "source": "CISA Advisories",
-    "pubDate": 1790856000000,
-    "summaryEn": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input Durin…",
-    "summaryAr": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input Durin…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-    "titleAr": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-    "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790854006000,
-    "summaryEn": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
-    "summaryAr": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "titleAr": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-    "source": "The Hacker News",
-    "pubDate": 1790850796000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Explo…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "titleAr": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "source": "The Hacker News",
-    "pubDate": 1790834081000,
-    "summaryEn": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targe…",
-    "summaryAr": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targe…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "titleAr": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "source": "The Hacker News",
-    "pubDate": 1790832070000,
-    "summaryEn": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing i…",
-    "summaryAr": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing i…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Plummeting Israel flight like 'rollercoaster', says passenger",
-    "titleAr": "Plummeting Israel flight like 'rollercoaster', says passenger",
-    "link": "https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790826740000,
-    "summaryEn": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
-    "summaryAr": "An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
-    "titleAr": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
-    "link": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790804334000,
-    "summaryEn": "Other passengers on the Israel-bound flight described the \"terrifying\" moment the plane dropped.",
-    "summaryAr": "Other passengers on the Israel-bound flight described the \"terrifying\" moment the plane dropped.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK believes Iran involved in RAF Fairford incident, Burnham says",
-    "titleAr": "UK believes Iran involved in RAF Fairford incident, Burnham says",
-    "link": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790803619000,
-    "summaryEn": "Iran's foreign minister has responded, saying the PM was \"barking up the wrong tree\".",
-    "summaryAr": "Iran's foreign minister has responded, saying the PM was \"barking up the wrong tree\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
-    "titleAr": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
-    "link": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
-    "source": "Dark Reading",
-    "pubDate": 1790801475000,
-    "summaryEn": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
-    "summaryAr": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "titleAr": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "source": "BleepingComputer",
-    "pubDate": 1790797755000,
-    "summaryEn": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Za…",
-    "summaryAr": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Za…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "'Shaken and emotional' passengers arrive at Israeli airport",
-    "titleAr": "'Shaken and emotional' passengers arrive at Israeli airport",
-    "link": "https://www.bbc.co.uk/news/videos/cmx2z29wx32vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790795480000,
-    "summaryEn": "The BBC's Yogita Limaye is at Ben Gurion Airport as passengers from the Flydubai flight arrive in Israel.",
-    "summaryAr": "The BBC's Yogita Limaye is at Ben Gurion Airport as passengers from the Flydubai flight arrive in Israel.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "'I pulled the controls': Passenger tells Israeli PM how he helped stop attacker",
-    "titleAr": "'I pulled the controls': Passenger tells Israeli PM how he helped stop attacker",
-    "link": "https://www.bbc.co.uk/news/videos/c6rered722j5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790793636000,
-    "summaryEn": "The man says he \"pulled the controls\" of the plane after it plummeted during the attack.",
-    "summaryAr": "The man says he \"pulled the controls\" of the plane after it plummeted during the attack.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "titleAr": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-    "source": "The Hacker News",
-    "pubDate": 1790786789000,
-    "summaryEn": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft…",
-    "summaryAr": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-    "titleAr": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-    "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-    "source": "The Hacker News",
-    "pubDate": 1790781894000,
-    "summaryEn": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on…",
-    "summaryAr": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Passengers describe stabbing on Israel-bound plane",
-    "titleAr": "Passengers describe stabbing on Israel-bound plane",
-    "link": "https://www.bbc.co.uk/news/videos/cv70d22kd34do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790780820000,
-    "summaryEn": "Passengers on the Flydubai flight bound for Israel filmed the moments following the stabbing.",
-    "summaryAr": "Passengers on the Flydubai flight bound for Israel filmed the moments following the stabbing.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-    "titleAr": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "pubDate": 1790779600000,
-    "summaryEn": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admi…",
-    "summaryAr": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admi…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-    "titleAr": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-    "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790768183000,
-    "summaryEn": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
-    "summaryAr": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "titleAr": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
-    "source": "Dark Reading",
-    "pubDate": 1790751600000,
-    "summaryEn": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "summaryAr": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-    "titleAr": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-    "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-    "source": "The Hacker News",
-    "pubDate": 1790746230000,
-    "summaryEn": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation …",
-    "summaryAr": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation …",
     "tags": [
       {
         "textEn": "INTEL",
