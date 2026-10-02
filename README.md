@@ -13,7 +13,7 @@
 [![Live Operations](https://img.shields.io/badge/LIVE_OPERATIONS-OPEN_CONSOLE-00E5FF?style=for-the-badge&logo=github)](https://yaslogist.github.io/yaslogist-intelligence/)
 [![Pipeline](https://img.shields.io/badge/INTEL_PIPELINE-EVERY_2_HOURS-8B5CF6?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/update-data.yml)
 
-[![Version](https://img.shields.io/badge/Release-v1.1.0-EAB308?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Release-v1.3.0-EAB308?style=flat-square)](CHANGELOG.md)
 [![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](package.json)
 [![Arabic + English](https://img.shields.io/badge/Interface-AR_%2F_EN-EAB308?style=flat-square)](#bilingual-by-design)
 [![Zero Build](https://img.shields.io/badge/Frontend-Zero_Build-06B6D4?style=flat-square)](#1-system-architecture)
@@ -140,20 +140,25 @@ Operational capabilities, where each lives, and how it is proven. Nothing in thi
 
 | Capability | Surface / Module | Data path | Verification | Status |
 | :--- | :--- | :--- | :--- | :-: |
-| **Live intelligence wire** — deduplicated, searchable by keyword / CVE / region / tag | `app.js` wire renderer | `data/intel_wire.json` (≤45 items) | Schema gate + dedup unit tests | ✅ |
+| **Live intelligence wire** — deduplicated, searchable by keyword / CVE / region / tag, with match highlighting and a NEW badge for intercepts < 3 h | `app.js` wire renderer | `data/intel_wire.json` (≤45 items) | Schema gate + dedup unit tests | ✅ |
+| **Operator watchlist** — star any intercept; PINNED filter, persisted pins, watchlist section in the Markdown briefing | `app.js` watchlist layer | `localStorage` (bounded, sanitized) | Watchlist unit tests | ✅ |
+| **Background live sync** — wire re-fetch every 10 min while visible; stale-tab refresh on focus; new-intercept toast | `app.js` live-sync scheduler | Wire feeds + committed JSON | Sync-state unit tests | ✅ |
 | **Tactical threat map** — dark/satellite/ocean/topo basemaps, chokepoints, subsea infrastructure, corridors, range rings | `threat-map.js` (Leaflet) | `data/target_intensity.json` | Map-layer unit tests | ✅ |
-| **CVE defense matrix** — feed-extracted CVEs enriched with MITRE records, CVSS, severity, product | `app.js` matrix view | `data/middle_east_cves.json` (≤8 records) | Schema gate + CVSS range assertions | ✅ |
+| **CVE defense matrix** — feed-extracted CVEs enriched with MITRE records, CVSS, severity, product; live search + CVSS meters + CSV export | `app.js` matrix view | `data/middle_east_cves.json` (≤8 records) | Schema gate + CVSS/CSV unit tests | ✅ |
+| **Actor × wire fusion** — APT dossiers cross-referenced against the live wire (alias matching), activity chips, threat-level meters, MITRE ATT&CK links | `app.js` dossier renderer | Live wire + dossier DB | Fusion unit tests | ✅ |
+| **Shareable views** — wire filter state in the URL hash (`#wire?tag=APT&q=hormuz`), deep links carry it | `app.js` hash-state layer | URL hash (sanitized on parse) | Round-trip + hostile-input tests | ✅ |
 | **Target intensity** — rolling 7-day country signal volume vs prior window (IL, IR, LB, SY, YE, JO, EG) | KPI band + map heat | `data/target_intensity.json` | Intensity-math unit tests | ✅ |
 | **Signal timeline** — 14-day daily buckets, honest WoW delta | Header sparkline | `data/signal_timeline.json` (merged across cycles, never erased) | Merge-logic unit tests | ✅ |
 | **Provenance & freshness** — pipeline age with stale-state escalation | Footer status | `data/meta.json` manifest | Meta-schema assertions | ✅ |
-| **Operator console** — command palette, full-screen mode, JSON snapshot + Markdown briefing export, deep links | `app.js` console (<kbd>Ctrl/⌘</kbd>+<kbd>K</kbd>) | In-memory snapshot | Export-shape unit tests | ✅ |
+| **Operator console** — command palette, full-screen mode, JSON snapshot + Markdown briefing export, deep links, eight global hotkeys | `app.js` console (<kbd>Ctrl/⌘</kbd>+<kbd>K</kbd>) | In-memory snapshot | Export-shape unit tests | ✅ |
 | **Bilingual cockpit** — instant AR/EN switch, runtime `dir` flip, localized states | `app.js` i18n layer | Translation table, persisted preference | i18n parity tests | ✅ |
 | **Resilient display** — timeout-aware fetch, bounded retry with backoff (transient errors only), offline feedback | `app.js` fetch layer | Any `data/*` fetch | Retry-policy unit tests | ✅ |
 | **Accessible motion** — reveal, skeletons, count-up; all disabled under `prefers-reduced-motion`; WebGL FPS watchdog | `styles.css` + `acid-squares-bg.js` | n/a | Static-integrity tests | ✅ |
 | **Maritime focus** — Suez, Bab el-Mandeb, Red Sea, Strait of Hormuz situational layers | `threat-map.js` | Wire geo-tags + intensity | Layer assertions | ✅ |
 | **Data-honest social card** — animated OG image rendered from the *same* committed JSON the app reads | `assets/generate-og-image.py` | `data/*` at generation time | Regenerate via `npm run card` | ✅ |
+| **Installable cockpit (PWA)** — manifest, generated radar-reticle app icons (192/512), favicon + touch icon | `manifest.webmanifest` + `assets/generate-app-icon.py` | n/a | Icon structure verified in-script | ✅ |
 
-> **Command console cheat-sheet** — refresh wire · export JSON snapshot · export Markdown briefing · copy deep link · switch AR/EN · jump to map · full-screen mode · recalculate briefing.
+> **Command console cheat-sheet** — refresh wire · export JSON snapshot · export Markdown briefing · copy deep link · switch AR/EN · jump to map · full-screen mode · recalculate briefing. All eight also run as single-key hotkeys (R E D C L M F B) when you are not typing.
 
 ---
 
@@ -294,7 +299,7 @@ python3 -m http.server 8080        # → http://localhost:8080
 **Operator commands**
 
 ```bash
-npm run ci             # full gate: syntax + 56 tests + schema + budget + scan
+npm run ci             # full gate: syntax + 76 tests + schema + budget + scan
 npm test               # test suite only
 npm run ingest         # refresh intelligence data (makes outbound requests)
 npm run card           # regenerate the animated OG card from current data
@@ -327,13 +332,17 @@ No build step — publish the repository root to any static host.
 │   ├── validate-data.cjs         # CLI: data schema gate
 │   ├── perf-budget.cjs           # CLI: performance budget gate
 │   └── security-scan.cjs         # CLI: secrets/sinks/pinning gate
-├── tests/                        # node:test suite (56 assertions, zero deps)
+├── tests/                        # node:test suite (76 assertions, zero deps)
 ├── docs/
 │   ├── ARCHITECTURE.md           # Behavioural spec: 10 invariants + evidence table
 │   └── AUDIT-2026-10.md          # Latest audit: 10 findings, all closed
 ├── data/                         # 5 versioned intelligence artifacts
+├── manifest.webmanifest          # PWA install surface (icons, theme, standalone)
 ├── assets/
 │   ├── generate-og-image.py      # Data-honest OG renderer (PIL, offline)
+│   ├── generate-app-icon.py      # Zero-dependency radar-reticle icon renderer
+│   ├── yaslogist-icon-512.png    # Generated app icon 512 (also maskable)
+│   ├── yaslogist-icon-192.png    # Generated app icon 192
 │   ├── og-image-animated.gif     # Animated social card (1200×630, 40f × 90 ms)
 │   └── og-image.png              # Static social fallback
 ├── archive/legacy/               # Retired scripts & duplicates (not loaded)
@@ -351,8 +360,8 @@ Numbers below are measured by the gates in CI, not estimated.
 
 | Metric | Measured | Gate |
 | :--- | :--- | :--- |
-| Test suite | **56/56 assertions passing** | `node --test` |
-| Local runtime surface | **338.7 KB / 1,024 KB budget** | `perf-budget.cjs` |
+| Test suite | **76/76 assertions passing** | `node --test` |
+| Local runtime surface | **397.7 KB / 1,024 KB budget** | `perf-budget.cjs` |
 | Data artifacts | **5/5 schema-valid** | `validate-data.cjs` |
 | Security scan | **33 files clean** (tracked + untracked) | `security-scan.cjs` |
 | External scripts | **2/2 SRI-pinned** (≤2 allowed) | budget + scan |

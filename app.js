@@ -165,7 +165,27 @@ const I18N = {
         sevCritical: 'CRITICAL',
         sevHigh: 'HIGH',
         sevMedium: 'MEDIUM',
-        sevLow: 'LOW'
+        sevLow: 'LOW',
+        tagPinned: 'PINNED',
+        pinItem: 'Pin to operator watchlist',
+        unpinItem: 'Remove from operator watchlist',
+        newBadge: 'NEW',
+        pinnedEmptyState: 'No pinned reports yet. Star intercepts on the wire to build your personal watchlist.',
+        cveSearchPlaceholder: 'Filter CVEs by id, vendor, advisory...',
+        cveExportCsvTitle: 'Export the filtered CVE matrix as CSV',
+        cveExportToast: 'CVE matrix exported as CSV',
+        actorLevelLabel: 'THREAT LEVEL',
+        actorActivityLabel: 'ACTIVE ON WIRE',
+        actorNoActivity: 'NO LIVE SIGNAL',
+        actorMitreLink: 'MITRE ATT&CK',
+        sourceBreakdownLabel: 'SOURCE BREAKDOWN',
+        sourceFilterTitle: 'Click to filter the wire by this source',
+        wireSyncIdle: 'AUTO SYNC · 10M',
+        wireSyncedAt: 'OVERLAY SYNCED',
+        kpiBarCountries: 'Monitored countries currently reporting signals',
+        kpiBarAptShare: 'Share of the live wire tagged APT / state-linked',
+        kpiBarPeakCvss: 'Peak CVSS base score of tracked CVEs',
+        kpiBarMaritimeShare: 'Share of the live wire tagged maritime'
     },
     ar: {
         commandKicker: 'البنية السيادية لاستخبارات التهديدات وسلاسل الإمداد',
@@ -262,7 +282,27 @@ const I18N = {
         sevCritical: 'حرجة جداً',
         sevHigh: 'مرتفعة',
         sevMedium: 'متوسطة',
-        sevLow: 'منخفضة'
+        sevLow: 'منخفضة',
+        tagPinned: 'المثبتة',
+        pinItem: 'تثبيت في قائمة مراقبة المحلل',
+        unpinItem: 'إزالة من قائمة المراقبة',
+        newBadge: 'جديد',
+        pinnedEmptyState: 'لا توجد تقارير مثبتة بعد. قم بتمييز الاعتراضات بنجمة لبناء قائمة مراقبتك الشخصية.',
+        cveSearchPlaceholder: 'تصفية الثغرات بالرمز، الشركة، أو التوجيه...',
+        cveExportCsvTitle: 'تصدير مصفوفة الثغرات المصفاة بصيغة CSV',
+        cveExportToast: 'تم تصدير مصفوفة الثغرات بصيغة CSV',
+        actorLevelLabel: 'مستوى التهديد',
+        actorActivityLabel: 'نشط على الشريط',
+        actorNoActivity: 'لا إشارة حية',
+        actorMitreLink: 'MITRE ATT&CK',
+        sourceBreakdownLabel: 'توزيع المصادر',
+        sourceFilterTitle: 'انقر لتصفية الشريط حسب هذا المصدر',
+        wireSyncIdle: 'مزامنة تلقائية · 10 د',
+        wireSyncedAt: 'آخر مزامنة للبث الحي',
+        kpiBarCountries: 'الدول المرصودة التي ترسل إشارات حالياً',
+        kpiBarAptShare: 'نسبة الشريط الحي الموسومة كنشاط APT أو مدعوم من دولة',
+        kpiBarPeakCvss: 'أعلى درجة CVSS أساسية بين الثغرات المرصودة',
+        kpiBarMaritimeShare: 'نسبة الشريط الحي الموسومة كإشارات بحرية'
     }
 };
 
@@ -277,7 +317,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Wiper payloads, critical infrastructure extortion, and logistics sabotage",
         motivationAr: "برمجيات مسح البيانات، ابتزاز البنية التحتية، وتخريب الموانئ واللوجستيات",
         targetsEn: ["Port Systems", "Fuel Supply", "Defense Tech"],
-        targetsAr: ["أنظمة الموانئ", "إمدادات الوقود", "التكنولوجيا الدفاعية"]
+        targetsAr: ["أنظمة الموانئ", "إمدادات الوقود", "التكنولوجيا الدفاعية"],
+        aliases: ["handala hack", "handala"],
+        level: 4,
+        mitreUrl: null
     },
     {
         name: "APT33 (Elfin)",
@@ -286,7 +329,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Aerospace, petrochemical facilities, and supply chain espionage",
         motivationAr: "تجسس استراتيجي على قطاعات الطيران، البتروكيماويات، وسلاسل الإمداد",
         targetsEn: ["Aerospace", "Energy", "Maritime Logistics"],
-        targetsAr: ["صناعة الطيران", "قطاع الطاقة", "اللوجستيات البحرية"]
+        targetsAr: ["صناعة الطيران", "قطاع الطاقة", "اللوجستيات البحرية"],
+        aliases: ["apt33", "apt 33", "elfin", "refined kitten"],
+        level: 5,
+        mitreUrl: "https://attack.mitre.org/groups/G0064/"
     },
     {
         name: "APT34 (OilRig)",
@@ -295,7 +341,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Long-term persistent cyber espionage across telecommunications and state ministries",
         motivationAr: "تجسس سيبراني متقدم ومستمر على قطاعات الاتصالات والوزارات الحكومية",
         targetsEn: ["Telecom", "Finance", "Government"],
-        targetsAr: ["الاتصالات", "القطاع المالي", "الوزارات السيادية"]
+        targetsAr: ["الاتصالات", "القطاع المالي", "الوزارات السيادية"],
+        aliases: ["apt34", "apt 34", "oilrig", "oil rig", "cobalt gypsy", "helix kitten"],
+        level: 5,
+        mitreUrl: "https://attack.mitre.org/groups/G0049/"
     },
     {
         name: "Cyber Av3ngers",
@@ -304,7 +353,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Targeting programmable logic controllers (PLCs) in municipal and water infrastructure",
         motivationAr: "استهداف وحدات التحكم المنطقي PLC في شبكات المياه والخدمات العامة",
         targetsEn: ["Water Utilities", "ICS/SCADA", "Pipelines"],
-        targetsAr: ["محطات المياه", "أنظمة SCADA/ICS", "خطوط الأنابيب"]
+        targetsAr: ["محطات المياه", "أنظمة SCADA/ICS", "خطوط الأنابيب"],
+        aliases: ["cyber av3ngers", "cyberavengers"],
+        level: 4,
+        mitreUrl: "https://attack.mitre.org/groups/G1011/"
     },
     {
         name: "Predatory Sparrow",
@@ -313,7 +365,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Precision destructive wiper attacks targeting industrial and financial networks",
         motivationAr: "هجمات مسح تخريبية دقيقة تستهدف مصانع الصلب والبنوك ومحطات الوقود",
         targetsEn: ["Steel Industry", "Fuel Distribution", "Banking"],
-        targetsAr: ["صناعة الصلب", "توزيع الوقود", "القطاع المصرفي"]
+        targetsAr: ["صناعة الصلب", "توزيع الوقود", "القطاع المصرفي"],
+        aliases: ["predatory sparrow"],
+        level: 4,
+        mitreUrl: "https://attack.mitre.org/groups/G1033/"
     },
     {
         name: "MuddyWater",
@@ -322,7 +377,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Espionage, credential harvesting, and destructive wipers across Middle East and Med",
         motivationAr: "سرقة الاعتمادات، التجسس الحكومي، ونشر برمجيات المسح التخريبي",
         targetsEn: ["Government", "Maritime Logistics", "Telecom"],
-        targetsAr: ["المقرات الحكومية", "الشحن البحري", "الاتصالات"]
+        targetsAr: ["المقرات الحكومية", "الشحن البحري", "الاتصالات"],
+        aliases: ["muddywater", "muddy water", "mercury", "static kitten", "powerstats"],
+        level: 5,
+        mitreUrl: "https://attack.mitre.org/groups/G0059/"
     },
     {
         name: "Fox Kitten (Parisite)",
@@ -331,7 +389,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Weaponizing edge VPN appliances and selling access to ransomware operators",
         motivationAr: "استغلال ثغرات بوابات VPN وبيع الوصول الأولي لمشغلي الفدية",
         targetsEn: ["Enterprise Gateways", "Defense Contractors"],
-        targetsAr: ["بوابات الحافة المؤسسية", "متعاقدو الدفاع"]
+        targetsAr: ["بوابات الحافة المؤسسية", "متعاقدو الدفاع"],
+        aliases: ["fox kitten", "parisite", "temp.zagros", "pioneer kitten"],
+        level: 4,
+        mitreUrl: "https://attack.mitre.org/groups/G0117/"
     },
     {
         name: "Moses Staff",
@@ -340,7 +401,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Politically motivated hack-and-leak, disk wiper deployments, zero financial ransom",
         motivationAr: "اختراق وتسريب بهوافع سياسية، مسح الأقراص، بدون أي مطالب مالية",
         targetsEn: ["Infrastructure", "Defense Contractors", "Aviation"],
-        targetsAr: ["البنية التحتية", "شركات الدفاع", "الملاحة الجوية"]
+        targetsAr: ["البنية التحتية", "شركات الدفاع", "الملاحة الجوية"],
+        aliases: ["moses staff"],
+        level: 3,
+        mitreUrl: "https://attack.mitre.org/groups/G1009/"
     },
     {
         name: "DarkStorm Team",
@@ -349,7 +413,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Volumetric DDoS floods against maritime navigation portals, banks, and media",
         motivationAr: "هجمات حجب خدمة الحجمية على بوابات الموانئ والمصارف والمؤسسات الإعلامية",
         targetsEn: ["Port Authorities", "Banks", "Gov Portals"],
-        targetsAr: ["إدارات الموانئ", "البنوك", "البوابات الرسمية"]
+        targetsAr: ["إدارات الموانئ", "البنوك", "البوابات الرسمية"],
+        aliases: ["darkstorm"],
+        level: 3,
+        mitreUrl: null
     },
     {
         name: "NoName057(16)",
@@ -358,7 +425,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "DDoS swarm targeting Mediterranean shipping corridors, logistics, and allied portals",
         motivationAr: "هجمات حجب خدمة مكثفة على مسارات الشحن في المتوسط واللوجستيات",
         targetsEn: ["Maritime Shipping", "Logistics Hubs", "Telecom"],
-        targetsAr: ["الشحن الملاحي", "المراكز اللوجستية", "شبكات الاتصال"]
+        targetsAr: ["الشحن الملاحي", "المراكز اللوجستية", "شبكات الاتصال"],
+        aliases: ["noname057", "noname 057", "noname"],
+        level: 3,
+        mitreUrl: "https://attack.mitre.org/groups/G0115/"
     },
     {
         name: "Moroccan Black Cyber Army",
@@ -367,7 +437,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Subsea cable telemetry, telecom-layer targeting, and state defacements",
         motivationAr: "استهداف قياسات الكابلات البحرية والاتصالات وتشويه المواقع الحكومية",
         targetsEn: ["Telecom Infrastructure", "Airports"],
-        targetsAr: ["بنية الاتصالات", "المطارات والمنافذ"]
+        targetsAr: ["بنية الاتصالات", "المطارات والمنافذ"],
+        aliases: ["moroccan black cyber army"],
+        level: 2,
+        mitreUrl: null
     },
     {
         name: "AnonGhost",
@@ -376,7 +449,10 @@ const THREAT_ACTORS_DB = [
         motivationEn: "Automated vulnerability scanning, ICS reconnaissance, and SCADA probes",
         motivationAr: "فحص آلي للثغرات، استطلاع لمنظومات التحكم الصناعي ICS والشبكات الذكية",
         targetsEn: ["Industrial Routers", "Utilities"],
-        targetsAr: ["الموجهات الصناعية", "شبكات المرافق"]
+        targetsAr: ["الموجهات الصناعية", "شبكات المرافق"],
+        aliases: ["anonghost"],
+        level: 2,
+        mitreUrl: null
     }
 ];
 
@@ -532,8 +608,12 @@ class YaslogistThreatRadarApp {
         this.wireSearchTerm = '';
         this.cveFilter = 'ALL';
         this.cveSort = 'cvss';
+        this.cveSearchTerm = '';
         this.pipelineMeta = null;
         this.timelineData = null;
+        this.pinnedIds = this.loadPinnedIds();
+        this.lastWireSyncAt = 0;
+        this.liveSyncTimer = null;
         this.charts = {
             vectors: null,
             industry: null
@@ -564,10 +644,12 @@ class YaslogistThreatRadarApp {
         await safe('charts',       () => this.initCharts());
         await safe('tabs',         () => this.bindTabs());
         await safe('interactions', () => this.bindInteractions());
+        await safe('hotkeys',      () => this.bindGlobalHotkeys());
         await safe('cti-data',     () => this.loadData());
         await safe('intel-wire',   () => this.fetchWire());
         await safe('dossiers',     () => this.renderThreatActors());
         await safe('telemetry',    () => this.startLiveProgressTelemetry());
+        await safe('live-sync',    () => this.startLiveSync());
         await safe('motion',       () => this.initMotionSystem());
 
         console.log('[YASLOGIST] Sovereign Threat Radar online.');
@@ -670,6 +752,219 @@ class YaslogistThreatRadarApp {
         else document.exitFullscreen?.().catch(() => {});
     }
 
+    /* ------------------------------------------------- operator watchlist */
+
+    /** Stable per-item id: link is unique across feeds; title is the floor. */
+    static wireItemId(item) {
+        const link = String(item?.link || '').trim();
+        if (link && link !== '#') return `l:${link}`;
+        return `t:${String(item?.titleEn || item?.titleAr || '').trim().toLowerCase()}`;
+    }
+
+    loadPinnedIds() {
+        try {
+            const raw = storage.get('yaslogist.pinned', '[]');
+            const parsed = JSON.parse(raw);
+            return Array.isArray(parsed) ? new Set(parsed.filter(x => typeof x === 'string').slice(0, 200)) : new Set();
+        } catch { return new Set(); }
+    }
+
+    persistPinnedIds() {
+        try { storage.set('yaslogist.pinned', JSON.stringify([...this.pinnedIds])); } catch { /* storage unavailable */ }
+    }
+
+    isWirePinned(item) { return this.pinnedIds.has(YaslogistThreatRadarApp.wireItemId(item)); }
+
+    toggleWirePin(item) {
+        const id = YaslogistThreatRadarApp.wireItemId(item);
+        const pinned = this.pinnedIds.has(id);
+        if (pinned) this.pinnedIds.delete(id); else this.pinnedIds.add(id);
+        this.persistPinnedIds();
+        return !pinned;
+    }
+
+    wirePinnedItems() {
+        return (this.allWireItems || []).filter(i => this.pinnedIds.has(YaslogistThreatRadarApp.wireItemId(i)));
+    }
+
+    /* ------------------------------------------------ pure text utilities */
+
+    /**
+     * Escape `text`, then wrap case-insensitive matches of `term` in
+     * <mark class="wire-hl">. Matches are located on the RAW string so offsets
+     * stay byte-stable between locating and escaping (Arabic needs no case fold;
+     * Latin folds via toLowerCase on both sides).
+     */
+    static highlightHTML(text, term) {
+        const raw = String(text ?? '');
+        const needle = String(term || '').trim().toLowerCase();
+        if (!needle || needle.length < 2) return escapeHTML(raw);
+        const lower = raw.toLowerCase();
+        const ranges = [];
+        let idx = lower.indexOf(needle);
+        while (idx !== -1 && ranges.length < 24) {
+            ranges.push([idx, idx + needle.length]);
+            idx = lower.indexOf(needle, idx + needle.length);
+        }
+        if (!ranges.length) return escapeHTML(raw);
+        let out = '', cursor = 0;
+        for (const [start, end] of ranges) {
+            if (start < cursor) continue; // overlap guard
+            out += escapeHTML(raw.slice(cursor, start));
+            out += `<mark class="wire-hl">${escapeHTML(raw.slice(start, end))}</mark>`;
+            cursor = end;
+        }
+        out += escapeHTML(raw.slice(cursor));
+        return out;
+    }
+
+    /* ---------------------------------------------- shareable wire state */
+
+    /** Serialize the wire filter into a compact hash query: `tag=APT&q=hormuz`. */
+    static serializeWireState({ tag = 'ALL', q = '' } = {}) {
+        const params = [];
+        if (tag && tag !== 'ALL') params.push(`tag=${encodeURIComponent(tag)}`);
+        if (q) params.push(`q=${encodeURIComponent(q)}`);
+        return params.join('&');
+    }
+
+    /** Parse a hash query string back into wire filter state. */
+    static parseWireState(query) {
+        const state = { tag: 'ALL', q: '' };
+        String(query || '').split('&').forEach(pair => {
+            const [rawKey, ...rest] = pair.split('=');
+            let key = '', value = '';
+            try {
+                key = decodeURIComponent(rawKey || '').toLowerCase();
+                value = decodeURIComponent(rest.join('=') || '');
+            } catch { return; /* malformed percent-encoding — ignore pair */ }
+            if (key === 'tag' && value) {
+                // Tags only ever compare against A-Z0-9 literals; keep them that way.
+                const clean = value.toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
+                state.tag = clean || 'ALL';
+            } else if (key === 'q') {
+                state.q = value.replace(/[<>"'`]/g, '').slice(0, 80);
+            }
+        });
+        return state;
+    }
+
+    /** Push current wire filter into the URL hash without spamming history. */
+    syncWireHash() {
+        if (typeof window === 'undefined' || !window.history?.replaceState) return;
+        const target = document.querySelector('.nav-tab.active');
+        const tabId = target ? target.getAttribute('data-target') : 'dashboard';
+        const slug = YaslogistThreatRadarApp.TAB_SLUGS[tabId] || 'dashboard';
+        const query = YaslogistThreatRadarApp.serializeWireState({ tag: this.activeWireTag, q: this.wireSearchTerm });
+        const hash = `#${slug}${query ? `?${query}` : ''}`;
+        try {
+            if (window.location.hash !== hash) window.history.replaceState(null, '', hash);
+        } catch { /* file:// */ }
+    }
+
+    /* -------------------------------------------------- CVE CSV export */
+
+    /** RFC-4180-safe CSV of the CVE matrix (filter applied by the caller). */
+    static buildCveCSV(cves) {
+        const esc = (v) => {
+            const s = String(v ?? '');
+            return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+        };
+        const header = ['cve_id', 'affected_system', 'severity', 'cvss', 'advisory'];
+        const rows = (cves || []).map(c => [
+            esc(c.id), esc(c.systemEn || c.system), esc(String(c.severity || '').toUpperCase()),
+            Number.isFinite(Number(c.cvss)) ? Number(c.cvss).toFixed(1) : 'N/A',
+            esc(c.advisoryEn || c.advisory || '')
+        ].join(','));
+        return [header.join(','), ...rows].join('\r\n');
+    }
+
+    exportCveCSV() {
+        const rows = this.filteredCVEs();
+        this.downloadBlob(YaslogistThreatRadarApp.buildCveCSV(rows), 'text/csv', `yaslogist-cve-matrix-${new Date().toISOString().slice(0, 10)}.csv`);
+        this.showToast(I18N[this.currentLang].cveExportToast);
+    }
+
+    /* ---------------------------------------------- actor × wire fusion */
+
+    /** Count live wire items whose text matches any actor alias. */
+    static actorWireActivity(actor, items) {
+        const aliases = Array.isArray(actor?.aliases)
+            ? actor.aliases.map(a => String(a).toLowerCase()).filter(Boolean)
+            : [];
+        if (!aliases.length) return 0;
+        return (items || []).reduce((count, item) => {
+            const text = `${item?.titleEn || ''} ${item?.summaryEn || ''} ${item?.titleAr || ''}`.toLowerCase();
+            return aliases.some(a => text.includes(a)) ? count + 1 : count;
+        }, 0);
+    }
+
+    /** Actor card ATT&CK link: known group page, else a MITRE search fallback. */
+    static actorMitreHref(actor) {
+        if (actor?.mitreUrl) return actor.mitreUrl;
+        return `https://attack.mitre.org/search/?q=${encodeURIComponent(actor?.name || '')}`;
+    }
+
+    /* ------------------------------------------------------- live sync */
+
+    /**
+     * Background wire refresh every 10 minutes while the console is visible.
+     * Hidden tabs skip the cycle (no wasted quota); returning to a stale tab
+     * (>= 10 minutes since last sync) triggers an immediate refresh. New
+     * intercepts surface as an operator toast, never a modal.
+     */
+    startLiveSync(intervalMs = 10 * 60 * 1000) {
+        if (typeof window === 'undefined' || this.liveSyncTimer) return;
+        this.liveSyncInterval = intervalMs;
+        this.liveSyncTimer = setInterval(() => {
+            if (document.hidden || this.networkOnline === false) return;
+            this.fetchWire({ background: true });
+        }, intervalMs);
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden || this.lastWireSyncAt === 0 || this.networkOnline === false) return;
+            if (Date.now() - this.lastWireSyncAt >= this.liveSyncInterval) {
+                this.fetchWire({ background: true });
+            }
+        }, { passive: true });
+        this.updateWireSyncChip();
+    }
+
+    stopLiveSync() {
+        if (this.liveSyncTimer) clearInterval(this.liveSyncTimer);
+        this.liveSyncTimer = null;
+    }
+
+    updateWireSyncChip(synced = false) {
+        const chip = document.getElementById('wire-sync-chip');
+        if (!chip) return;
+        const dict = I18N[this.currentLang];
+        const time = this.lastWireSyncAt
+            ? new Date(this.lastWireSyncAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+            : null;
+        chip.textContent = synced && time
+            ? `${dict.wireSyncedAt} ${time}`
+            : dict.wireSyncIdle;
+        chip.dataset.state = synced ? 'synced' : 'idle';
+    }
+
+    /** Source contribution strip: one chip per top feed, click filters by it. */
+    updateSourceBreakdown() {
+        const wrap = document.getElementById('wire-source-strip');
+        if (!wrap) return;
+        const dist = this.wireSourceDistribution();
+        const dict = I18N[this.currentLang];
+        if (!dist.length) { wrap.innerHTML = ''; wrap.hidden = true; return; }
+        wrap.hidden = false;
+        const max = dist[0][1] || 1;
+        wrap.innerHTML = dist.map(([source, count]) =>
+            `<button type="button" class="source-chip" data-source-filter="${escapeHTML(source)}" title="${escapeHTML(dict.sourceFilterTitle)}" aria-label="${escapeHTML(dict.sourceFilterTitle)}: ${escapeHTML(source)}">` +
+            `<span class="source-chip-name">${escapeHTML(source)}</span>` +
+            `<span class="source-chip-count mono">${count}</span>` +
+            `<span class="source-chip-bar" style="width:${Math.max(8, Math.round((count / max) * 100))}%"></span>` +
+            `</button>`
+        ).join('');
+    }
+
     downloadBlob(content, mimeType, filename) {
         const blob = content instanceof Blob ? content : new Blob([content], { type: mimeType });
         const link = document.createElement('a');
@@ -698,6 +993,11 @@ class YaslogistThreatRadarApp {
         const now = new Date();
         const items = this.allWireItems || [];
         const cves = [...(this.cveData || [])].sort((a, b) => (Number(b.cvss) || 0) - (Number(a.cvss) || 0));
+        const pinned = this.wirePinnedItems();
+        const activeActors = THREAT_ACTORS_DB
+            .map(actor => [actor.name, YaslogistThreatRadarApp.actorWireActivity(actor, items)])
+            .filter(([, count]) => count > 0)
+            .sort((a, b) => b[1] - a[1]);
         const score = document.getElementById('smart-risk-score')?.textContent || '--';
         const trend = document.getElementById('smart-risk-trend')?.textContent || '--';
         const action = document.getElementById('smart-action')?.textContent || '--';
@@ -720,6 +1020,16 @@ class YaslogistThreatRadarApp {
             '## WIRE SNAPSHOT (10 most recent)',
             ...items.slice(0, 10).map(i => `- [${i.titleEn}](${safeURL(i.link, '#', 'https://localhost/')}) — ${i.source}, ${this.formatTimeAgo(i.pubDate)}`),
             '',
+            ...(pinned.length ? [
+                '## OPERATOR WATCHLIST (pinned intercepts)',
+                ...pinned.map(i => `- [${i.titleEn}](${safeURL(i.link, '#', 'https://localhost/')}) — ${i.source}, ${this.formatTimeAgo(i.pubDate)}`),
+                ''
+            ] : []),
+            ...(activeActors.length ? [
+                '## THREAT ACTORS CURRENTLY ACTIVE ON THE WIRE',
+                ...activeActors.map(([name, count]) => `- **${name}** — ${count} matching wire report${count === 1 ? '' : 's'}`),
+                ''
+            ] : []),
             '## COUNTRY SIGNAL INTENSITY (7D)',
             ...(this.intensityData || []).map(d => `- ${d.country}: ${d.attacks} reports (prior window ${d.previous ?? 'n/a'}) → ${d.intensity}`),
             '',
@@ -734,7 +1044,8 @@ class YaslogistThreatRadarApp {
         const active = document.querySelector('.nav-tab.active');
         const target = active ? active.getAttribute('data-target') : 'dashboard';
         const slug = YaslogistThreatRadarApp.TAB_SLUGS[target] || 'dashboard';
-        const url = `${window.location.origin}${window.location.pathname}#${slug}`;
+        const query = YaslogistThreatRadarApp.serializeWireState({ tag: this.activeWireTag, q: this.wireSearchTerm });
+        const url = `${window.location.origin}${window.location.pathname}#${slug}${query ? `?${query}` : ''}`;
         const done = () => this.showToast(this.currentLang === 'ar' ? 'تم نسخ الرابط المباشر' : 'Deep link copied to clipboard');
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(url).then(done).catch(() => this.fallbackCopy(url, done));
@@ -902,11 +1213,76 @@ class YaslogistThreatRadarApp {
         ctx.arc(lx, ly, 4.6, 0, Math.PI * 2);
         ctx.strokeStyle = 'rgba(241, 245, 249, 0.35)';
         ctx.stroke();
+
+        // Hover cursor overlay (see bindSparklineHover) — drawn on top.
+        const hoverIdx = this._sparklineHoverIdx;
+        if (Number.isInteger(hoverIdx) && hoverIdx >= 0 && hoverIdx < points.length) {
+            const [cx, cy] = points[hoverIdx];
+            ctx.strokeStyle = 'rgba(6, 182, 212, 0.85)';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            ctx.beginPath();
+            ctx.moveTo(cx, 4);
+            ctx.lineTo(cx, h - 6);
+            ctx.stroke();
+            ctx.setLineDash([]);
+            ctx.beginPath();
+            ctx.arc(cx, cy, 3.4, 0, Math.PI * 2);
+            ctx.fillStyle = '#06B6D4';
+            ctx.fill();
+        }
+
+        // Persist geometry for the hover readout (see bindSparklineHover).
+        this._sparkline = { canvas, days, points, padX, stepX, w, h };
+        this.bindSparklineHover();
+    }
+
+    /** Hover readout on the 14-day sparkline: exact date + count per day. */
+    bindSparklineHover() {
+        const first = this._sparkline;
+        if (!first || !first.canvas || first.canvas.dataset.hoverBound === '1') return;
+        first.canvas.dataset.hoverBound = '1';
+        let hintEl = null;
+        first.canvas.addEventListener('mousemove', (event) => {
+            const s = this._sparkline; // always the freshest geometry
+            if (!s) return;
+            const rect = s.canvas.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const idx = Math.max(0, Math.min(s.days.length - 1, Math.round((x - s.padX) / s.stepX)));
+            const day = s.days[idx];
+            if (!day) return;
+            const isAr = this.currentLang === 'ar';
+            const label = isAr ? `${day.date} · ${day.count || 0} إشارة` : `${day.date} · ${day.count || 0} signal${(day.count || 0) === 1 ? '' : 's'}`;
+            if (!hintEl || !hintEl.isConnected) {
+                hintEl = document.createElement('div');
+                hintEl.id = 'sparkline-hint';
+                hintEl.className = 'sparkline-hint mono';
+                hintEl.hidden = true;
+                s.canvas.parentElement?.appendChild?.(hintEl);
+            }
+            hintEl.textContent = label;
+            hintEl.hidden = false;
+            hintEl.style.left = `${Math.max(0, Math.min((s.w || 260) - 140, x - 65))}px`;
+            this._sparklineHoverIdx = idx;
+            this.renderSignalTimeline(); // full redraw incl. cursor (14 points — trivial cost)
+        }, { passive: true });
+        first.canvas.addEventListener('mouseleave', () => {
+            if (hintEl) hintEl.hidden = true;
+            this._sparklineHoverIdx = -1;
+            this.renderSignalTimeline();
+        }, { passive: true });
     }
 
     showToast(message) {
         let toast = document.getElementById('yaslogist-toast');
-        if (!toast) { toast = document.createElement('div'); toast.id = 'yaslogist-toast'; toast.className = 'operator-toast'; document.body.appendChild(toast); }
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'yaslogist-toast';
+            toast.className = 'operator-toast';
+            toast.setAttribute('role', 'status');
+            toast.setAttribute('aria-live', 'polite');
+            document.body.appendChild(toast);
+        }
         toast.textContent = message; toast.classList.add('visible'); clearTimeout(this.toastTimer);
         this.toastTimer = setTimeout(() => toast.classList.remove('visible'), 2800);
     }
@@ -1104,6 +1480,9 @@ class YaslogistThreatRadarApp {
                 this.renderCVEs();
                 this.renderThreatActors();
                 this.renderIntelligenceWire();
+                this.updateWireCount();
+                this.updateSourceBreakdown();
+                this.updateWireSyncChip();
                 this.updateChartsLanguage();
                 this.updateKPIs();
                 this.updateFooterSync();
@@ -1146,6 +1525,11 @@ class YaslogistThreatRadarApp {
                 const ariaKey = node.getAttribute('data-i18n-aria-label');
                 if (ariaKey && dict[ariaKey]) {
                     node.setAttribute('aria-label', dict[ariaKey]);
+                }
+
+                const titleKey = node.getAttribute('data-i18n-title');
+                if (titleKey && dict[titleKey] && typeof dict[titleKey] === 'string') {
+                    node.setAttribute('title', dict[titleKey]);
                 }
 
                 // Need to convert to array before iterating since we might modify childNodes
@@ -1193,12 +1577,9 @@ class YaslogistThreatRadarApp {
             refreshBtn2.setAttribute('title', dict.refreshFeedsTitle || (isAr ? 'تحديث البث الحي' : 'Refresh Live Feeds'));
         }
 
-        // Update dynamic report count in wire subtitle if items exist
-        const countEl = document.getElementById('wire-report-count');
-        if (countEl && this.allWireItems && this.allWireItems.length > 0) {
-            countEl.textContent = isAr
-                ? `${this.allWireItems.length} تقارير معترضة // تدفق حي متواصل`
-                : `${this.allWireItems.length} intercepted reports // Active streams`;
+        // Update dynamic report count (+ watchlist count) in wire subtitle
+        if (this.allWireItems && this.allWireItems.length > 0) {
+            this.updateWireCount();
         }
 
         // DEFCON readout uses level-resolved localized strings.
@@ -1368,6 +1749,31 @@ class YaslogistThreatRadarApp {
             logisticsTrend.className = `kpi-trend mono ${level[2]}`;
         }
 
+        // KPI progress bars are telemetry, not decoration: every width below
+        // is derived from the same committed artefacts that feed the counters.
+        const dict = I18N[this.currentLang];
+        const setKpiBar = (cardId, pct, tooltip) => {
+            const card = document.getElementById(cardId);
+            const bar = card?.querySelector?.('.kpi-progress-bar');
+            if (!bar) return;
+            const width = Math.max(2, Math.min(100, Math.round(pct)));
+            bar.style.width = `${width}%`;
+            bar.setAttribute('role', 'progressbar');
+            bar.setAttribute('aria-valuenow', String(width));
+            bar.setAttribute('aria-valuemin', '0');
+            bar.setAttribute('aria-valuemax', '100');
+            bar.setAttribute('aria-label', tooltip);
+            card.setAttribute('title', `${tooltip} — ${width}%`);
+        };
+        const countries = this.intensityData || [];
+        const activeCountries = countries.filter(c => (parseInt(c.attacks || '0', 10) || 0) > 0).length;
+        setKpiBar('kpi-attacks-card', countries.length ? (activeCountries / countries.length) * 100 : 0, dict.kpiBarCountries);
+        const wireN = (this.allWireItems || []).length;
+        setKpiBar('kpi-campaigns-card', wireN ? (aptCount / wireN) * 100 : 0, dict.kpiBarAptShare);
+        const cvssScores = (this.cveData || []).map(c => Number(c.cvss)).filter(Number.isFinite);
+        setKpiBar('kpi-cve-card', cvssScores.length ? Math.max(...cvssScores) * 10 : 0, dict.kpiBarPeakCvss);
+        setKpiBar('kpi-logistics-card', wireN ? (maritimeCount / wireN) * 100 : 0, dict.kpiBarMaritimeShare);
+
         // DEFCON from the real severity mix of tracked CVEs.
         const sev = (this.cveData || []).map(c => (c.severity || '').toLowerCase());
         const criticalCount = sev.filter(x => x === 'critical').length;
@@ -1402,23 +1808,39 @@ class YaslogistThreatRadarApp {
         readoutEl.style.color = r.color;
     }
 
-    renderCVEs() {
-        const tbody = document.querySelector('#cve-table tbody');
-        if (!tbody) return;
-
-        const isAr = this.currentLang === 'ar';
-        const dict = I18N[this.currentLang];
-
+    /** Severity + search + sort pipeline shared by the table and the CSV export. */
+    filteredCVEs() {
         const RANK = { critical: 0, high: 1, medium: 2, low: 3 };
         let rows = [...(this.cveData || [])];
         if (this.cveFilter !== 'ALL') {
             rows = rows.filter(c => String(c.severity || '').toLowerCase() === this.cveFilter.toLowerCase());
+        }
+        if (this.cveSearchTerm) {
+            const term = this.cveSearchTerm.toLowerCase();
+            rows = rows.filter(c =>
+                (c.id && String(c.id).toLowerCase().includes(term)) ||
+                (c.system && String(c.system).toLowerCase().includes(term)) ||
+                (c.systemEn && String(c.systemEn).toLowerCase().includes(term)) ||
+                (c.systemAr && String(c.systemAr).includes(term)) ||
+                (c.advisoryEn && String(c.advisoryEn).toLowerCase().includes(term)) ||
+                (c.advisoryAr && String(c.advisoryAr).includes(term))
+            );
         }
         if (this.cveSort === 'cvss') {
             rows.sort((a, b) => (Number(b.cvss) || -1) - (Number(a.cvss) || -1));
         } else {
             rows.sort((a, b) => (RANK[String(a.severity).toLowerCase()] ?? 4) - (RANK[String(b.severity).toLowerCase()] ?? 4));
         }
+        return rows;
+    }
+
+    renderCVEs() {
+        const tbody = document.querySelector('#cve-table tbody');
+        if (!tbody) return;
+
+        const isAr = this.currentLang === 'ar';
+        const dict = I18N[this.currentLang];
+        const rows = this.filteredCVEs();
 
         if (!rows.length) {
             tbody.innerHTML = `<tr><td colspan="5" class="cve-empty-cell">${escapeHTML(dict.cveEmptyState)}</td></tr>`;
@@ -1456,7 +1878,10 @@ class YaslogistThreatRadarApp {
                     </td>
                     <td><strong style="color: #FFFFFF;">${escapeHTML(sysName)}</strong></td>
                     <td><span class="cve-badge ${badgeClass}">${sevText}</span></td>
-                    <td class="mono cvss-cell ${cvssClass}">${cvss}</td>
+                    <td class="mono cvss-cell ${cvssClass}">
+                        <span class="cvss-value">${cvss}</span>
+                        <span class="cvss-meter" role="img" aria-label="CVSS ${cvss} of 10"><span class="cvss-meter-fill ${severity}" style="width:${Math.max(0, Math.min(100, (Number(cve.cvss) || 0) * 10))}%"></span></span>
+                    </td>
                     <td style="font-size: 11.5px; color: var(--text-secondary);">${escapeHTML(advisory)}</td>
                 </tr>
             `;
@@ -1468,20 +1893,53 @@ class YaslogistThreatRadarApp {
         if (!container) return;
 
         const isAr = this.currentLang === 'ar';
-        const actors = filteredList || THREAT_ACTORS_DB;
+        const dict = I18N[this.currentLang];
+        let actors;
+        if (filteredList) {
+            actors = filteredList;
+        } else {
+            // Default ordering: actors actually echoing on the live wire come
+            // first (activity desc), then by assessed threat level.
+            actors = [...THREAT_ACTORS_DB].map(actor => ({
+                actor,
+                activity: YaslogistThreatRadarApp.actorWireActivity(actor, this.allWireItems)
+            })).sort((a, b) =>
+                (b.activity > 0) - (a.activity > 0) || b.activity - a.activity ||
+                (b.actor.level || 0) - (a.actor.level || 0)
+            ).map(entry => entry.actor);
+        }
 
         container.innerHTML = actors.map(actor => {
             const origin = isAr ? actor.originAr : actor.originEn;
             const motivation = isAr ? actor.motivationAr : actor.motivationEn;
             const targets = isAr ? actor.targetsAr : actor.targetsEn;
+            const activity = YaslogistThreatRadarApp.actorWireActivity(actor, this.allWireItems);
+            const level = Math.max(1, Math.min(5, Number(actor.level) || 3));
 
             return `
-                <div class="actor-dossier-card">
+                <div class="actor-dossier-card ${activity ? 'actor-card-live' : ''}">
                     <div class="actor-head-row">
                         <span class="actor-title">${escapeHTML(actor.name)}</span>
                         <span class="actor-origin-badge">${escapeHTML(origin)}</span>
                     </div>
+                    <div class="actor-signal-row">
+                        <span class="actor-activity-chip ${activity ? 'live' : ''}" title="${escapeHTML(dict.actorActivityLabel)}">
+                            <i class="fa-solid ${activity ? 'fa-tower-broadcast' : 'fa-slash'}" aria-hidden="true"></i>
+                            ${activity
+                                ? `${escapeHTML(dict.actorActivityLabel)}: <strong>${activity}</strong>`
+                                : escapeHTML(dict.actorNoActivity)}
+                        </span>
+                        <a class="actor-mitre-link mono" href="${safeURL(YaslogistThreatRadarApp.actorMitreHref(actor))}" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> ${escapeHTML(dict.actorMitreLink)}
+                        </a>
+                    </div>
                     <p class="actor-motivation">${escapeHTML(motivation)}</p>
+                    <div class="actor-level-row" title="${escapeHTML(dict.actorLevelLabel)}">
+                        <span class="actor-level-label mono">${escapeHTML(dict.actorLevelLabel)}</span>
+                        <span class="actor-level-meter" role="img" aria-label="${escapeHTML(dict.actorLevelLabel)} ${level}/5">
+                            ${[1, 2, 3, 4, 5].map(seg => `<span class="level-seg ${seg <= level ? `on lvl-${level}` : ''}"></span>`).join('')}
+                        </span>
+                    </div>
                     <div class="actor-target-tags">
                         ${targets.map(t => `<span class="actor-target-pill">${escapeHTML(t)}</span>`).join('')}
                     </div>
@@ -1579,9 +2037,15 @@ class YaslogistThreatRadarApp {
         if (!countEl) return;
         const isAr = this.currentLang === 'ar';
         const n = (this.allWireItems || []).length;
+        const pinned = this.wirePinnedItems().length;
+        const pinnedText = pinned
+            ? (isAr ? ` · ${pinned} مثبتة` : ` · ${pinned} pinned`)
+            : '';
         countEl.textContent = isAr
-            ? `${n} تقارير معترضة // تدفق حي متواصل`
-            : `${n} intercepted reports // Active streams`;
+            ? `${n} تقارير معترضة // تدفق حي متواصل${pinnedText}`
+            : `${n} intercepted reports // Active streams${pinnedText}`;
+        const pinnedCount = document.getElementById('wire-pinned-count');
+        if (pinnedCount) pinnedCount.textContent = String(pinned);
     }
 
     async fetchSingleFeed(feed, timeoutMs = 9000) {
@@ -1626,9 +2090,12 @@ class YaslogistThreatRadarApp {
         }
     }
 
-    async fetchWire() {
+    async fetchWire({ background = false } = {}) {
         const container = document.getElementById('news-container');
-        if (container) {
+        const previousIds = (this.allWireItems || []).map(YaslogistThreatRadarApp.wireItemId);
+        const seenBefore = new Set(previousIds);
+        const isFirstSync = this.lastWireSyncAt === 0;
+        if (container && !background) {
             container.classList.add('wire-loading');
             container.innerHTML = `
                 <div class="loading-state">
@@ -1676,14 +2143,34 @@ class YaslogistThreatRadarApp {
         const merged = this.dedupeWireItems(liveItems.concat(baseItems));
         this.allWireItems = merged.length > 0 ? merged : FALLBACK_WIRE_ITEMS;
         this.feedHealth = { ok: feedsOk, total: feedsTotal, syncedAt: Date.now() };
+        this.lastWireSyncAt = Date.now();
+
+        // New-intercept callout: items whose ids were not on the previous wire.
+        if (!isFirstSync) {
+            const fresh = this.allWireItems.filter(i => !seenBefore.has(YaslogistThreatRadarApp.wireItemId(i)));
+            if (fresh.length) {
+                const isAr = this.currentLang === 'ar';
+                const label = isAr
+                    ? `${fresh.length} اعتراض${fresh.length === 1 ? '' : 'ات'} جديد منذ آخر مزامنة`
+                    : `${fresh.length} new intercept${fresh.length === 1 ? '' : 's'} since last sync`;
+                this.showToast(`▲ ${label}`);
+            }
+        }
 
         if (container) container.classList.remove('wire-loading');
+        // Screen-reader courtesy: background syncs announce only the summary
+        // toast (a proper live region), not the entire re-rendered wire list.
+        if (container && background) container.setAttribute('aria-live', 'off');
         this.updateWireCount();
         this.renderIntelligenceWire();
+        this.updateSourceBreakdown();
+        this.updateWireSyncChip(true);
+        this.renderThreatActors(); // activity chips depend on the fresh wire
         this.updateKPIs();
         this.updateRealTelemetry();
         this.updateChartsFromData();
         this.renderSmartBriefing();
+        if (container && background) container.setAttribute('aria-live', 'polite');
     }
 
     // ---- Derived metrics. Every figure below traces to live wire or CVE data. ----
@@ -1734,10 +2221,13 @@ class YaslogistThreatRadarApp {
         if (!container) return;
 
         const isAr = this.currentLang === 'ar';
+        const dict = I18N[this.currentLang];
         let filtered = this.allWireItems;
 
-        // Apply Tag Filter
-        if (this.activeWireTag !== 'ALL') {
+        // Apply Tag Filter (PINNED is the operator watchlist pseudo-tag).
+        if (this.activeWireTag === 'PINNED') {
+            filtered = filtered.filter(item => this.isWirePinned(item));
+        } else if (this.activeWireTag !== 'ALL') {
             filtered = filtered.filter(item =>
                 item.tags.some(t => t.textEn.toUpperCase() === this.activeWireTag.toUpperCase())
             );
@@ -1756,30 +2246,43 @@ class YaslogistThreatRadarApp {
         }
 
         if (filtered.length === 0) {
+            const pinnedMode = this.activeWireTag === 'PINNED';
+            const message = pinnedMode ? dict.pinnedEmptyState
+                : (isAr ? 'لا توجد تقارير استخباراتية تطابق التصفية الحالية.' : 'No intelligence reports match the current tactical filter.');
+            const icon = pinnedMode ? 'fa-star' : 'fa-filter-circle-xmark';
             container.innerHTML = `
                 <div style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 12px;">
-                    <i class="fa-solid fa-filter-circle-xmark" style="font-size: 24px; margin-bottom: 8px; color: var(--yas-gold);"></i>
-                    <p>${isAr ? 'لا توجد تقارير استخباراتية تطابق التصفية الحالية.' : 'No intelligence reports match the current tactical filter.'}</p>
+                    <i class="fa-solid ${icon}" style="font-size: 24px; margin-bottom: 8px; color: var(--yas-gold);"></i>
+                    <p>${escapeHTML(message)}</p>
                 </div>
             `;
             return;
         }
 
+        const term = this.wireSearchTerm;
         container.innerHTML = filtered.map((item, idx) => {
             const timeAgo = this.formatTimeAgo(item.pubDate);
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
             const summary = isAr ? (item.summaryAr || item.summaryEn) : item.summaryEn;
+            const pinned = this.isWirePinned(item);
+            const isNew = Date.now() - Number(item.pubDate || 0) < 3 * 3600 * 1000;
 
             return `
-                <div class="wire-item reveal" style="--reveal-index: ${Math.min(idx, 12)}">
+                <div class="wire-item reveal ${pinned ? 'wire-item-pinned' : ''}" style="--reveal-index: ${Math.min(idx, 12)}">
                     <div class="wire-item-header">
-                        <span class="wire-source">${escapeHTML(item.source)}</span>
-                        <span class="wire-timestamp mono">${escapeHTML(timeAgo)}</span>
+                        <span class="wire-source">${escapeHTML(item.source)}${isNew ? ` <span class="wire-new-badge">${escapeHTML(dict.newBadge)}</span>` : ''}</span>
+                        <span class="wire-item-tools">
+                            <span class="wire-timestamp mono">${escapeHTML(timeAgo)}</span>
+                            <button type="button" class="wire-pin-btn ${pinned ? 'pinned' : ''}" data-pin-id="${escapeHTML(YaslogistThreatRadarApp.wireItemId(item))}"
+                                aria-pressed="${pinned}" aria-label="${escapeHTML(pinned ? dict.unpinItem : dict.pinItem)}" title="${escapeHTML(pinned ? dict.unpinItem : dict.pinItem)}">
+                                <i class="fa-${pinned ? 'solid' : 'regular'} fa-star" aria-hidden="true"></i>
+                            </button>
+                        </span>
                     </div>
                     <h3 class="wire-title">
-                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHTML(title)}</a>
+                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
                     </h3>
-                    <p class="wire-summary">${escapeHTML(summary)}</p>
+                    <p class="wire-summary">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
                     <div class="wire-tags">
                         ${item.tags.map(tag => `
                             <span class="wire-tag ${escapeHTML(String(tag.class || "").replace(/[^a-z0-9_-]/gi, ""))}">${escapeHTML(isAr ? tag.textAr : tag.textEn)}</span>
@@ -1794,7 +2297,8 @@ class YaslogistThreatRadarApp {
 
     formatTimeAgo(timestamp) {
         const isAr = this.currentLang === 'ar';
-        const seconds = Math.floor((Date.now() - timestamp) / 1000);
+        // Clock-skewed feeds can publish "future" timestamps — clamp to now.
+        const seconds = Math.max(0, Math.floor((Date.now() - Number(timestamp) || 0) / 1000));
 
         if (seconds < 60) {
             return isAr ? `منذ ${Math.max(seconds, 1)} ث` : `${Math.max(seconds, 1)}s ago`;
@@ -1845,7 +2349,8 @@ class YaslogistThreatRadarApp {
         }
         if (pushHash) {
             const slug = YaslogistThreatRadarApp.TAB_SLUGS[targetId];
-            try { history.replaceState(null, '', `#${slug}`); } catch { /* file:// */ }
+            const query = YaslogistThreatRadarApp.serializeWireState({ tag: this.activeWireTag, q: this.wireSearchTerm });
+            try { history.replaceState(null, '', `#${slug}${query ? `?${query}` : ''}`); } catch { /* file:// */ }
             storage.set('yaslogist.tab', targetId);
         }
         if (focus) tab.focus({ preventScroll: true });
@@ -1881,12 +2386,19 @@ class YaslogistThreatRadarApp {
             this.activateTab(tabs[clamped].getAttribute('data-target'), { focus: true });
         });
 
-        // Deep links: #map | #wire | #cves | #actors | #dashboard (full ids also accepted).
+        // Deep links: #map | #wire?tag=APT&q=hormuz | #cves | #actors | #dashboard
+        // (full tab ids are also accepted; query params carry wire filter state).
         const fromHash = () => {
             const raw = (window.location.hash || '').replace(/^#/, '');
             if (!raw) return null;
+            const slug = raw.split('?')[0];
+            const query = raw.includes('?') ? raw.slice(raw.indexOf('?') + 1) : '';
+            if (query) {
+                const state = YaslogistThreatRadarApp.parseWireState(query);
+                this.applyWireState(state);
+            }
             const entry = Object.entries(YaslogistThreatRadarApp.TAB_SLUGS)
-                .find(([id, slug]) => slug === raw || id === raw);
+                .find(([id, slugValue]) => slugValue === slug || id === slug);
             return entry ? entry[0] : null;
         };
         const initial = fromHash() || storage.get('yaslogist.tab', 'dashboard');
@@ -1894,6 +2406,49 @@ class YaslogistThreatRadarApp {
         window.addEventListener('hashchange', () => {
             const target = fromHash();
             if (target) this.activateTab(target, { pushHash: true });
+        });
+    }
+
+    /** Apply wire filter state coming from a shared link (tag + search). */
+    applyWireState({ tag, q }) {
+        this.activeWireTag = tag || 'ALL';
+        this.wireSearchTerm = q || '';
+        const tagBar = document.getElementById('wire-tags-filter');
+        if (tagBar) {
+            tagBar.querySelectorAll('.filter-pill').forEach(b => {
+                b.classList.toggle('active', (b.getAttribute('data-tag') || 'ALL') === this.activeWireTag);
+            });
+        }
+        const searchInput = document.getElementById('news-search');
+        if (searchInput) searchInput.value = this.wireSearchTerm;
+        storage.set('yaslogist.wireTag', this.activeWireTag);
+    }
+
+    /**
+     * Global single-key hotkeys mirroring the command palette shortcuts.
+     * Never fires while the operator is typing (inputs, textareas, selects,
+     * contentEditable) or while a modifier is held.
+     */
+    bindGlobalHotkeys() {
+        const HOTKEYS = {
+            r: () => this.fetchWire(),
+            e: () => this.exportSnapshot(),
+            d: () => this.exportMarkdownBriefing(),
+            c: () => this.copyDeepLink(),
+            l: () => document.getElementById('langToggleBtn')?.click(),
+            m: () => this.activateTab('threat-map-view', { focus: true }),
+            f: () => this.toggleFullscreen(),
+            b: () => { this.renderSmartBriefing(); this.showToast(this.currentLang === 'ar' ? 'تم تحديث الموجز الذكي' : 'Smart briefing recalculated'); }
+        };
+        document.addEventListener('keydown', (event) => {
+            if (event.ctrlKey || event.metaKey || event.altKey) return;
+            if (event.key === 'Escape' || event.key === 'Tab' || event.key.length !== 1) return;
+            const target = event.target;
+            const tag = target?.tagName?.toLowerCase?.() || '';
+            if (tag === 'input' || tag === 'textarea' || tag === 'select' || target?.isContentEditable) return;
+            if (document.getElementById('command-palette')?.hidden === false) return;
+            const action = HOTKEYS[event.key.toLowerCase()];
+            if (action) { event.preventDefault(); action(); }
         });
     }
 
@@ -1915,8 +2470,36 @@ class YaslogistThreatRadarApp {
                 this.activeWireTag = btn.getAttribute('data-tag') || 'ALL';
                 storage.set('yaslogist.wireTag', this.activeWireTag);
                 this.renderIntelligenceWire();
+                this.syncWireHash();
             });
         }
+
+        // Watchlist star toggles (delegated — survives wire re-renders).
+        const wireContainer = document.getElementById('news-container');
+        wireContainer?.addEventListener('click', (e) => {
+            const btn = e.target.closest?.('.wire-pin-btn');
+            if (!btn) return;
+            const id = btn.getAttribute('data-pin-id');
+            const item = (this.allWireItems || []).find(i => YaslogistThreatRadarApp.wireItemId(i) === id);
+            if (!item) return;
+            const nowPinned = this.toggleWirePin(item);
+            if (nowPinned) this.showToast(this.currentLang === 'ar' ? 'تم التثبيت في قائمة المراقبة' : 'Pinned to operator watchlist');
+            this.updateWireCount();
+            this.renderIntelligenceWire();
+        });
+
+        // Source contribution strip: clicking a chip filters the wire by source.
+        const sourceStrip = document.getElementById('wire-source-strip');
+        sourceStrip?.addEventListener('click', (e) => {
+            const chip = e.target.closest?.('.source-chip');
+            if (!chip) return;
+            const source = chip.getAttribute('data-source-filter') || '';
+            const input = document.getElementById('news-search');
+            if (input) input.value = source;
+            this.wireSearchTerm = source;
+            this.renderIntelligenceWire();
+            this.syncWireHash();
+        });
 
         // Search Input on Wire
         const newsSearchInput = document.getElementById('news-search');
@@ -1927,9 +2510,27 @@ class YaslogistThreatRadarApp {
                 searchTimer = setTimeout(() => {
                     this.wireSearchTerm = e.target.value.trim();
                     this.renderIntelligenceWire();
+                    this.syncWireHash();
                 }, 120);
             });
         }
+
+        // CVE search filter (id / vendor / advisory, EN + AR).
+        const cveSearchInput = document.getElementById('cve-search');
+        if (cveSearchInput) {
+            let cveSearchTimer;
+            cveSearchInput.addEventListener('input', (e) => {
+                clearTimeout(cveSearchTimer);
+                cveSearchTimer = setTimeout(() => {
+                    this.cveSearchTerm = e.target.value.trim();
+                    this.renderCVEs();
+                }, 120);
+            });
+        }
+
+        // CVE CSV export (respects the active severity + search filters).
+        const cveExportBtn = document.getElementById('cve-export-btn');
+        cveExportBtn?.addEventListener('click', () => this.exportCveCSV());
 
         // Threat Actor Search
         const actorSearchInput = document.getElementById('actor-search');
@@ -2148,4 +2749,4 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.
     });
 }
 
-export { YaslogistThreatRadarApp, I18N, escapeHTML, safeURL, SECTOR_BUCKETS, TAG_COLORS, FALLBACK_WIRE_ITEMS };
+export { YaslogistThreatRadarApp, I18N, escapeHTML, safeURL, SECTOR_BUCKETS, TAG_COLORS, FALLBACK_WIRE_ITEMS, THREAT_ACTORS_DB };

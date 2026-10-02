@@ -2493,3 +2493,387 @@ body {
         transform: scale(0.97);
     }
 }
+
+/* ===================================================================
+   OPERATOR TOOLKIT v1.3 — watchlist, live sync, source strip,
+   CVE search/export, actor wire-fusion, search highlighting
+   =================================================================== */
+
+/* -- Wire header actions (sync chip + refresh) ---------------------- */
+.wire-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wire-sync-chip {
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    padding: 5px 9px;
+    background: rgba(13, 17, 23, 0.6);
+    white-space: nowrap;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.wire-sync-chip[data-state="synced"] {
+    color: var(--yas-green);
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
+/* -- Watchlist star -------------------------------------------------- */
+.wire-item-tools {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wire-pin-btn {
+    appearance: none;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: var(--text-faint);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+    padding: 4px 5px;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.wire-pin-btn:hover {
+    color: var(--yas-gold);
+    border-color: var(--panel-border-gold);
+    background: var(--yas-gold-wash);
+}
+
+.wire-pin-btn:focus-visible {
+    outline: 2px solid var(--yas-gold);
+    outline-offset: 1px;
+}
+
+.wire-pin-btn.pinned {
+    color: var(--yas-gold);
+}
+
+.wire-item-pinned {
+    border-color: var(--panel-border-gold) !important;
+}
+
+.wire-item-pinned::before {
+    opacity: 0.55;
+}
+
+.filter-pill.tag-pill-pin.active {
+    background: var(--yas-gold-wash);
+    border-color: var(--yas-gold);
+    color: var(--yas-gold);
+}
+
+/* -- NEW intercept badge ---------------------------------------------- */
+.wire-new-badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 8.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--yas-green);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-radius: 2px;
+    padding: 1px 4px;
+    margin-inline-start: 6px;
+    vertical-align: 1px;
+    background: var(--yas-green-wash);
+    animation: newBadgePulse 2.4s ease-in-out infinite;
+}
+
+@keyframes newBadgePulse {
+    0%, 100% { box-shadow: 0 0 0 rgba(16, 185, 129, 0); }
+    50% { box-shadow: 0 0 8px rgba(16, 185, 129, 0.45); }
+}
+
+/* -- Search term highlighting ----------------------------------------- */
+mark.wire-hl {
+    background: rgba(234, 179, 8, 0.22);
+    color: var(--yas-gold);
+    border-bottom: 1px solid rgba(234, 179, 8, 0.6);
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+/* -- Source contribution strip ---------------------------------------- */
+.wire-source-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.07);
+}
+
+.source-chip {
+    position: relative;
+    overflow: hidden;
+    appearance: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(13, 17, 23, 0.65);
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    padding: 5px 10px 6px;
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
+}
+
+.source-chip::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--yas-cyan), transparent);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.source-chip:hover {
+    border-color: var(--panel-border-cyan);
+    transform: translateY(-1px);
+}
+
+.source-chip:hover::after { opacity: 1; }
+
+.source-chip:focus-visible {
+    outline: 2px solid var(--yas-cyan);
+    outline-offset: 1px;
+}
+
+.source-chip-name {
+    font-size: 10px;
+    color: var(--text-secondary);
+    letter-spacing: 0.04em;
+    position: relative;
+    z-index: 1;
+}
+
+.source-chip-count {
+    font-size: 10px;
+    color: var(--yas-cyan);
+    position: relative;
+    z-index: 1;
+}
+
+.source-chip-bar {
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 100%;
+    background: rgba(6, 182, 212, 0.10);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* -- CVE toolbar upgrades (search + export) --------------------------- */
+.cve-toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cve-export-btn {
+    cursor: pointer;
+}
+
+.cve-export-btn:hover {
+    border-color: var(--yas-green);
+    color: var(--yas-green);
+    background: var(--yas-green-wash);
+}
+
+/* -- CVSS meter inside matrix cells ----------------------------------- */
+.cvss-cell {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.cvss-value {
+    min-width: 3ch;
+    display: inline-block;
+    text-align: center;
+}
+
+.cvss-meter {
+    display: inline-block;
+    width: 52px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.cvss-meter-fill {
+    display: block;
+    height: 100%;
+    border-radius: 2px;
+    background: var(--yas-cyan);
+    transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cvss-meter-fill.critical { background: var(--yas-crimson); }
+.cvss-meter-fill.high { background: var(--yas-gold); }
+.cvss-meter-fill.medium { background: var(--yas-cyan); }
+.cvss-meter-fill.low { background: var(--yas-green); }
+
+/* -- Actor dossier: wire fusion elements ------------------------------ */
+.actor-signal-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 9px;
+    flex-wrap: wrap;
+}
+
+.actor-activity-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    padding: 4px 8px;
+    background: rgba(13, 17, 23, 0.6);
+}
+
+.actor-activity-chip.live {
+    color: var(--yas-crimson);
+    border-color: rgba(239, 68, 68, 0.4);
+    background: var(--yas-crimson-wash);
+    animation: actorLivePulse 2.6s ease-in-out infinite;
+}
+
+.actor-activity-chip.live strong {
+    color: #FCA5A5;
+    font-weight: 700;
+}
+
+@keyframes actorLivePulse {
+    0%, 100% { box-shadow: 0 0 0 rgba(239, 68, 68, 0); }
+    50% { box-shadow: 0 0 10px rgba(239, 68, 68, 0.35); }
+}
+
+.actor-mitre-link {
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 4px 6px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.actor-mitre-link:hover {
+    color: var(--yas-cyan);
+    border-color: var(--panel-border-cyan);
+}
+
+.actor-level-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0 4px;
+}
+
+.actor-level-label {
+    font-size: 8.5px;
+    letter-spacing: 0.1em;
+    color: var(--text-faint);
+}
+
+.actor-level-meter {
+    display: inline-flex;
+    gap: 3px;
+}
+
+.level-seg {
+    width: 16px;
+    height: 5px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: background-color 0.3s ease;
+}
+
+.level-seg.on.lvl-5 { background: var(--yas-crimson); box-shadow: 0 0 6px rgba(239, 68, 68, 0.5); }
+.level-seg.on.lvl-4 { background: #F97316; box-shadow: 0 0 6px rgba(249, 115, 22, 0.4); }
+.level-seg.on.lvl-3 { background: var(--yas-gold); box-shadow: 0 0 6px rgba(234, 179, 8, 0.35); }
+.level-seg.on.lvl-2 { background: var(--yas-cyan); box-shadow: 0 0 6px rgba(6, 182, 212, 0.3); }
+.level-seg.on.lvl-1 { background: var(--yas-green); }
+
+.actor-card-live {
+    border-color: rgba(239, 68, 68, 0.28) !important;
+}
+
+/* -- RTL niceties ------------------------------------------------------ */
+html[dir="rtl"] .wire-sync-chip,
+html[dir="rtl"] .actor-activity-chip {
+    letter-spacing: 0;
+}
+
+/* -- Sparkline hover readout ------------------------------------------ */
+.smart-timeline {
+    position: relative;
+}
+
+.sparkline-hint {
+    position: absolute;
+    top: 0;
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    color: var(--text-primary);
+    background: rgba(13, 17, 23, 0.95);
+    border: 1px solid var(--panel-border-cyan);
+    border-radius: 3px;
+    padding: 3px 7px;
+    pointer-events: none;
+    z-index: 3;
+    white-space: nowrap;
+}
+
+/* -- Reduced motion: kill all new decorative animation ----------------- */
+@media (prefers-reduced-motion: reduce) {
+    .wire-new-badge,
+    .actor-activity-chip.live {
+        animation: none;
+    }
+    .cvss-meter-fill {
+        transition: none;
+    }
+}
+
+/* -- Small screens: keep the new controls usable ----------------------- */
+@media (max-width: 720px) {
+    .wire-header-actions {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+    }
+    .cve-toolbar-right {
+        width: 100%;
+    }
+    .cve-toolbar-right .search-input-wrap {
+        flex: 1 1 160px;
+    }
+    .source-chip-bar {
+        display: none;
+    }
+}

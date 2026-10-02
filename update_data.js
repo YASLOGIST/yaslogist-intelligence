@@ -37,7 +37,11 @@ const TIMELINE_FILE = path.join(DATA_DIR, 'signal_timeline.json');
 const FEEDS = [
     { url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', source: 'BBC Middle East', alwaysRelevant: true },
     { url: 'https://www.aljazeera.com/xml/rss/all.xml', source: 'Al Jazeera' },
-    { url: 'https://www.reutersagency.com/feed/?best-topics=middle-east&post_type=best', source: 'Reuters' },
+    // Reuters retired their public RSS in 2024 (the legacy agency feed now
+    // returns HTTP 404 every cycle). Mirror their Middle East coverage via
+    // the stable Google News RSS search endpoint instead; per-feed isolation
+    // keeps the cycle safe if this endpoint ever degrades too.
+    { url: 'https://news.google.com/rss/search?q=Reuters+Middle+East+when:2d&hl=en-US&gl=US&ceid=US:en', source: 'Reuters (Google News)' },
     { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer' },
     { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News' },
     { url: 'https://www.darkreading.com/rss.xml', source: 'Dark Reading' },
