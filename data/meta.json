@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-01T23:46:30.525Z",
+  "generatedAt": "2026-10-02T04:47:37.140Z",
   "source": "pipeline",
   "counts": {
     "wire": 45,
     "cves": 8,
     "countries": 7
   },
-  "wireNewestAt": "2026-10-01T23:44:39.000Z",
+  "wireNewestAt": "2026-10-02T04:41:21.000Z",
   "feeds": [
     {
       "source": "BBC Middle East",
