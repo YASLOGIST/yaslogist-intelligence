@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#07090e">
+    <meta name="theme-color" content="#05090e">
     <meta name="color-scheme" content="dark">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="description" content="YASLOGIST bilingual cyber threat intelligence and maritime logistics radar.">
-    <meta property="og:title" content="YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR">
-    <meta property="og:description" content="Bilingual sovereign CTI cockpit: live intelligence wire, tactical threat map, CVE matrix and maritime chokepoint telemetry.">
+    <meta name="description" content="YASLOGIST bilingual open-source threat and maritime supply-chain operations picture.">
+    <meta property="og:title" content="YASLOGIST // REGIONAL THREAT & SUPPLY-CHAIN OPERATIONS PICTURE">
+    <meta property="og:description" content="Bilingual open-source operations picture: intelligence wire, regional map, CVE exposure and maritime corridor monitoring.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yaslogist.github.io/yaslogist-intelligence/">
     <meta property="og:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image-animated.gif">
     <meta property="og:image:type" content="image/gif">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Animated tactical HUD: YASLOGIST Defense Systems — sovereign CTI & logistics radar with live intel wire, DEFCON meter, CVE exposure and 14-day signal sparkline.">
+    <meta property="og:image:alt" content="YASLOGIST regional operations picture with intelligence wire, analytical posture model, CVE exposure and 14-day signal trend.">
     <meta property="og:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR">
-    <meta name="twitter:description" content="Bilingual sovereign CTI cockpit: live intelligence wire, tactical threat map, CVE matrix and maritime chokepoint telemetry.">
+    <meta name="twitter:title" content="YASLOGIST // REGIONAL THREAT & SUPPLY-CHAIN OPERATIONS PICTURE">
+    <meta name="twitter:description" content="Bilingual open-source operations picture: intelligence wire, regional map, CVE exposure and maritime corridor monitoring.">
     <meta name="twitter:image" content="https://yaslogist.github.io/yaslogist-intelligence/assets/og-image-animated.gif">
     <!--
       Content-Security-Policy (meta-delivered, static host):
@@ -44,7 +44,7 @@
         base-uri 'self';
         form-action 'none';
     ">
-    <title>YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR</title>
+    <title>YASLOGIST // REGIONAL THREAT & SUPPLY-CHAIN OPERATIONS PICTURE</title>
 
     <!-- Identity / install surfaces -->
     <link rel="icon" type="image/png" sizes="128x128" href="assets/yaslogist-logo-128.png">
@@ -65,13 +65,13 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=19">
-    <link rel="stylesheet" href="smart-operations.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=20">
+    <link rel="stylesheet" href="smart-operations.css?v=4">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
 
-    <!-- Background Canvas Container for OGL <AcidSquares /> -->
+    <!-- Demand-driven WebGL2 spatial substrate -->
     <div id="acid-squares-bg" aria-hidden="true"></div>
 
     <!-- Master Application Container -->
@@ -80,58 +80,58 @@
         <header class="command-header">
             <!-- Left: Brand Identity & Logo -->
             <div class="brand-block">
-                <div class="logo-container" title="YASLOGIST Sovereign Operations">
+                <div class="logo-container" title="YASLOGIST operations picture">
                     <img src="assets/yaslogist-logo-128.png" alt="YASLOGIST Logo" class="brand-logo" width="64" height="64" />
                 </div>
                 <div class="title-meta">
                     <div class="kicker-tag">
                         <span class="kicker-bullet">◤</span>
-                        <span class="kicker-text" data-i18n="commandKicker">SOVEREIGN CTI & LOGISTICS INFRASTRUCTURE</span>
+                        <span class="kicker-text" data-i18n="commandKicker">REGIONAL THREAT & SUPPLY-CHAIN INTELLIGENCE</span>
                     </div>
                     <h1 class="main-title">
-                        <span class="title-brand" data-i18n="titleBrand">YASLOGIST DEFENSE SYSTEMS</span>
+                        <span class="title-brand" data-i18n="titleBrand">YASLOGIST / OPERATIONS PICTURE</span>
                     </h1>
-                    <div class="arabic-subtext" data-i18n="arabicSubtext">[ SOVEREIGN CYBER & MARITIME THREAT INTELLIGENCE SYSTEM ]</div>
+                    <div class="arabic-subtext" data-i18n="arabicSubtext">[ OPEN-SOURCE MONITORING · VALIDATE AGAINST PRIMARY SOURCES ]</div>
                 </div>
             </div>
 
-            <!-- Center: Global DEFCON Threat Meter + Kinetic Pulse -->
+            <!-- Center: analytical posture model -->
             <div class="defcon-center-block">
                 <div class="defcon-header-label">
                     <span class="kinetic-indicator">
                         <span class="kinetic-dot"></span>
                         <span class="kinetic-ring"></span>
                     </span>
-                    <span class="defcon-title" data-i18n="threatConditionLabel">DEFCON THREAT STATUS</span>
+                    <span class="defcon-title" data-i18n="threatConditionLabel">ANALYTICAL RISK POSTURE</span>
                 </div>
                 <div class="defcon-meter">
-                    <div class="defcon-tier d5" data-level="5" title="DEFCON 5: Normal Readiness">
+                    <div class="defcon-tier d5" data-level="5" title="Model tier 5: routine monitoring">
                         <span class="mono">5</span>
                         <span class="tier-label" data-i18n="defconLow">NORMAL</span>
                     </div>
-                    <div class="defcon-tier d4" data-level="4" title="DEFCON 4: Guarded Readiness">
+                    <div class="defcon-tier d4" data-level="4" title="Model tier 4: guarded monitoring">
                         <span class="mono">4</span>
                         <span class="tier-label" data-i18n="defconGuarded">GUARDED</span>
                     </div>
-                    <div class="defcon-tier d3" data-level="3" title="DEFCON 3: Elevated Readiness">
+                    <div class="defcon-tier d3" data-level="3" title="Model tier 3: elevated analytical posture">
                         <span class="mono">3</span>
                         <span class="tier-label" data-i18n="defconElevated">ELEVATED</span>
                     </div>
-                    <div class="defcon-tier d2 active" data-level="2" title="DEFCON 2: High Threat Readiness">
+                    <div class="defcon-tier d2 active" data-level="2" title="Model tier 2: high analytical posture">
                         <span class="mono">2</span>
                         <span class="tier-label" data-i18n="defconHigh">HIGH</span>
                     </div>
-                    <div class="defcon-tier d1" data-level="1" title="DEFCON 1: Maximum Threat Readiness">
+                    <div class="defcon-tier d1" data-level="1" title="Model tier 1: critical analytical posture">
                         <span class="mono">1</span>
                         <span class="tier-label" data-i18n="defconCritical">CRITICAL</span>
                     </div>
                 </div>
                 <div class="defcon-readout">
-                    <span class="readout-tag" id="defcon-readout-text" data-i18n="defconReadout">DEFCON 2 // SEVERE REGIONAL TARGETING</span>
+                    <span class="readout-tag" id="defcon-readout-text" data-i18n="defconReadout">MODEL TIER 2 // HIGH ANALYTICAL POSTURE</span>
                 </div>
             </div>
 
-            <!-- Right: Real-Time Dual Clocks & Live Status Badge -->
+            <!-- Right: time references and network status -->
             <div class="telemetry-right-block">
                 <div class="dual-clocks">
                     <div class="clock-cell">
@@ -148,7 +148,7 @@
                 <div class="header-controls">
                     <div class="status-pill live" id="live-connection-badge">
                         <span class="status-signal-dot"></span>
-                        <span class="status-pill-text mono" data-i18n="statusLiveFeed">FEED: LIVE ENCRYPTED</span>
+                        <span class="status-pill-text mono" data-i18n="statusLiveFeed">NETWORK: ONLINE</span>
                     </div>
                     <button class="lang-toggle-btn" id="langToggleBtn" type="button" title="Toggle Language / تبديل اللغة" aria-label="Toggle interface language">
                         <i class="fa-solid fa-language"></i>
@@ -173,7 +173,7 @@
         </nav>
 
         <section id="dashboard" class="tab-panel glass-panel active" role="tabpanel" aria-labelledby="tab-dashboard" tabindex="0">
-            <!-- TOP KPI STRIP (4 CARDS) WITH LIVE METRIC PROGRESS -->
+            <!-- KPI strip with data-derived progress -->
             <section class="kpi-strip" aria-label="Key Performance Threat Indicators">
                 <!-- KPI 1: Regional Signal Volume (7d) -->
                 <div class="kpi-card reveal" id="kpi-attacks-card">
@@ -220,7 +220,7 @@
                 <!-- KPI 3: Critical Vulnerabilities -->
                 <div class="kpi-card reveal" id="kpi-cve-card">
                     <div class="kpi-top">
-                        <span class="kpi-label" data-i18n="kpiCveLabel">WEAPONIZED CVEs TRACKED</span>
+                        <span class="kpi-label" data-i18n="kpiCveLabel">FEED-OBSERVED CVEs</span>
                         <i class="fa-solid fa-bug-slash kpi-icon text-cyan"></i>
                     </div>
                     <div class="kpi-value-row">
@@ -260,15 +260,15 @@
                 </div>
             </section>
 
-            <!-- LIVE SOVEREIGN TELEMETRY & DEFENSE PROGRESS GRID -->
+            <!-- SOURCE COVERAGE AND EXPOSURE GRID -->
             <div class="live-progress-cockpit-panel reveal">
                 <div class="cockpit-header">
                     <div class="cockpit-title-group">
                         <span class="cockpit-beacon-pulse"></span>
-                        <h3 class="cockpit-title" data-i18n="cockpitTitle">SOVEREIGN DEFENSE GRID // LIVE TELEMETRY & THREAT MITIGATION ENGINE</h3>
-                        <span class="cockpit-live-tag mono"><i class="fa-solid fa-circle-dot live-blinker"></i> <span data-i18n="cockpitLiveTag">LIVE 24/7 STREAM</span></span>
+                        <h3 class="cockpit-title" data-i18n="cockpitTitle">SOURCE HEALTH // COVERAGE & EXPOSURE</h3>
+                        <span class="cockpit-live-tag mono"><i class="fa-solid fa-circle-dot live-blinker"></i> <span data-i18n="cockpitLiveTag">COMMITTED DATA</span></span>
                     </div>
-                    <div class="cockpit-engine-meta mono" id="cockpit-engine-meta" data-i18n="cockpitEngineMeta">INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H</div>
+                    <div class="cockpit-engine-meta mono" id="cockpit-engine-meta" data-i18n="cockpitEngineMeta">INGEST PIPELINE // 7 PUBLIC SOURCES // 2H CADENCE</div>
                 </div>
 
                 <div class="cockpit-progress-grid">
@@ -336,9 +336,9 @@
                     <div class="card-header mini-header">
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-chart-pie text-cyan"></i></span>
-                            <h3 class="card-title-sm" data-i18n="vectorChartTitle">ATTACK VECTORS DISTRIBUTION</h3>
+                            <h3 class="card-title-sm" data-i18n="vectorChartTitle">WIRE TAG DISTRIBUTION</h3>
                         </div>
-                        <span class="badge-intel" data-i18n="liveTelemetry">LIVE 24H</span>
+                        <span class="badge-intel" data-i18n="liveTelemetry">CURRENT WIRE</span>
                     </div>
                     <div class="canvas-wrapper-fixed">
                         <canvas id="attackVectorChart" role="img" aria-label="Doughnut chart of wire tag distribution"></canvas>
@@ -349,7 +349,7 @@
                     <div class="card-header mini-header">
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-building-shield text-gold"></i></span>
-                            <h3 class="card-title-sm" data-i18n="sectorChartTitle">TARGETED INFRASTRUCTURE SECTORS</h3>
+                            <h3 class="card-title-sm" data-i18n="sectorChartTitle">SIGNALS BY INFRASTRUCTURE SECTOR</h3>
                         </div>
                         <span class="badge-intel mono" data-i18n="cveSocStandards">CVSS / SOC</span>
                     </div>
@@ -367,8 +367,8 @@
                             <div class="header-title-group">
                                 <span class="header-icon"><i class="fa-solid fa-earth-americas text-gold"></i></span>
                                 <div>
-                                    <h2 class="card-title" data-i18n="mapTitle">GEOPOLITICAL & MARITIME THREAT RADAR</h2>
-                                    <div class="card-subtitle" data-i18n="mapSubtitle">Tactical telemetry: Middle East & Global Maritime Trade Chokepoints</div>
+                                    <h2 class="card-title" data-i18n="mapTitle">REGIONAL & MARITIME OPERATIONS MAP</h2>
+                                    <div class="card-subtitle" data-i18n="mapSubtitle">Reference overlays + rolling 7-day signal intensity</div>
                                 </div>
                             </div>
                             <div class="map-controls">
@@ -389,17 +389,17 @@
                                 <div class="cp-item">
                                     <span class="cp-dot cp-warning"></span>
                                     <span class="cp-name" data-i18n="cpSuez">SUEZ CANAL (EGY)</span>
-                                    <span class="cp-state text-gold mono" data-i18n="cpSuezState">[WATCH]</span>
+                                    <span class="cp-state text-gold mono" data-i18n="cpSuezState">[MONITORED NODE]</span>
                                 </div>
                                 <div class="cp-item">
                                     <span class="cp-dot cp-critical"></span>
                                     <span class="cp-name" data-i18n="cpMandeb">BAB EL-MANDEB (RED SEA)</span>
-                                    <span class="cp-state text-crimson mono" data-i18n="cpMandebState">[INTERDICTED]</span>
+                                    <span class="cp-state text-crimson mono" data-i18n="cpMandebState">[MONITORED NODE]</span>
                                 </div>
                                 <div class="cp-item">
                                     <span class="cp-dot cp-warning"></span>
                                     <span class="cp-name" data-i18n="cpHormuz">STRAIT OF HORMUZ</span>
-                                    <span class="cp-state text-gold mono" data-i18n="cpHormuzState">[ESCORT_REC]</span>
+                                    <span class="cp-state text-gold mono" data-i18n="cpHormuzState">[MONITORED NODE]</span>
                                 </div>
                             </div>
                         </div>
@@ -413,8 +413,8 @@
                             <div class="header-title-group">
                                 <span class="header-icon"><i class="fa-solid fa-satellite-dish text-crimson"></i></span>
                                 <div>
-                                    <h2 class="card-title" data-i18n="wireTitle">LIVE INTELLIGENCE WIRE</h2>
-                                    <div class="card-subtitle" id="wire-report-count" data-i18n="wireSubtitle">Real-time CTI & kinetic conflict intercepts</div>
+                                    <h2 class="card-title" data-i18n="wireTitle">PRIORITY INTELLIGENCE WIRE</h2>
+                                    <div class="card-subtitle" id="wire-report-count" data-i18n="wireSubtitle">Committed reports with optional public-source overlay</div>
                                 </div>
                             </div>
                             <div class="wire-header-actions">
@@ -449,7 +449,7 @@
                         <div class="intel-feed-scroller" id="news-container" aria-live="polite" aria-busy="false">
                             <div class="loading-state">
                                 <i class="fa-solid fa-spinner fa-spin"></i>
-                                <span data-i18n="loadingWire">Establishing secure telemetry to intelligence feeds...</span>
+                                <span data-i18n="loadingWire">Loading committed intelligence and public-source overlay…</span>
                             </div>
                         </div>
                     </div>
@@ -462,11 +462,11 @@
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-shield-halved text-crimson"></i></span>
                             <div>
-                                <h2 class="card-title" data-i18n="cveMatrixTitle">ACTIVELY EXPLOITED CVE DEFENSE MATRIX</h2>
-                                <div class="card-subtitle" data-i18n="cveMatrixSubtitle">Weaponized zero-days & known exploited vulnerabilities (KEV)</div>
+                                <h2 class="card-title" data-i18n="cveMatrixTitle">OBSERVED CVE EXPOSURE</h2>
+                                <div class="card-subtitle" data-i18n="cveMatrixSubtitle">Feed-observed vulnerabilities enriched with MITRE records</div>
                             </div>
                         </div>
-                        <span class="badge-intel mono text-crimson" data-i18n="mitreCveSync">CISA KEV / MITRE</span>
+                        <span class="badge-intel mono text-crimson" data-i18n="mitreCveSync">MITRE ENRICHED</span>
                     </div>
 
                     <!-- Severity filter + search + sort + export controls -->
@@ -517,8 +517,8 @@
                         <div class="header-title-group">
                             <span class="header-icon"><i class="fa-solid fa-user-secret text-gold"></i></span>
                             <div>
-                                <h2 class="card-title" data-i18n="actorsTitle">THREAT ACTOR DOSSIERS (APTs & PROXIES)</h2>
-                                <div class="card-subtitle" data-i18n="actorsSubtitle">State-backed clusters, wiper collectives & hacktivists</div>
+                                <h2 class="card-title" data-i18n="actorsTitle">THREAT ACTOR CONTEXT</h2>
+                                <div class="card-subtitle" data-i18n="actorsSubtitle">Reference profiles cross-matched against current wire aliases</div>
                             </div>
                         </div>
                         <div class="search-input-wrap small-search">
@@ -535,14 +535,14 @@
         <!-- Command HUD Footer -->
         <footer class="hud-footer">
             <div class="footer-left">
-                <span class="footer-brand" data-i18n="footerBrand">◤ YASLOGIST SOVEREIGN DEFENSE SYSTEMS</span>
+                <span class="footer-brand" data-i18n="footerBrand">◤ YASLOGIST OPERATIONS PICTURE</span>
                 <span class="footer-dot">•</span>
-                <span class="footer-desc" data-i18n="footerDesc">Real-Time Threat Intelligence & Maritime Supply Chain Radar</span>
+                <span class="footer-desc" data-i18n="footerDesc">Open-source regional threat and maritime supply-chain monitoring</span>
             </div>
             <div class="footer-right">
-                <span id="last-updated-footer" data-i18n="footerSync">SYSTEM SYNC: ACTIVE</span>
+                <span id="last-updated-footer" data-i18n="footerSync">PIPELINE: LOADING PROVENANCE</span>
                 <span class="footer-dot">•</span>
-                <span data-i18n="footerConfidential">CONFIDENTIAL // TACTICAL DISTRIBUTION ONLY</span>
+                <span data-i18n="footerConfidential">ANALYTICAL AID // VERIFY CONSEQUENCES AGAINST PRIMARY SOURCES</span>
             </div>
         </footer>
     </div>
@@ -556,7 +556,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- ES Modules -->
-    <script type="module" src="acid-squares-bg.js?v=19"></script>
-    <script type="module" src="app.js?v=19"></script>
+    <script type="module" src="acid-squares-bg.js?v=20"></script>
+    <script type="module" src="app.js?v=20"></script>
 </body>
 </html>

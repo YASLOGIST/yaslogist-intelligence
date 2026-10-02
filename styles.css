@@ -1723,231 +1723,14 @@ html[dir="rtl"] .telemetry-right-block {
 
 .tab-panel.active { display: block !important; }
 
-/* Atmosphere glows, diagonal data-line weave and CRT scanlines now render
-   inside the WebGL background pass (acid-squares-bg.js v2, uOverlay branch).
-   The previous DOM overlays were three permanent fullscreen layers — one of
-   them repainted every frame via a background-position animation — with the
-   same visual language now computed for free in the fragment shader. */
+/* Fullscreen atmosphere, weave, and CRT overlays were retired. The v1.5
+   WebGL substrate is a quiet loop-free grid and renders only on demand. */
 
-/* The animated z-index:9999 scanline sweep was removed: it forced a
-   fullscreen composited layer over the entire UI on every frame. An
-   equivalent (and seamless) texture now lives in the shader overlay. */
+/* Legacy glow-heavy table/card overrides removed in v1.5. The final
+   operational-clarity layer below owns these surfaces without animated
+   sweeps, faux perspective, or redundant box-shadow stacks. */
 
-/* Futuristic Table Overhauls */
-.tactical-table {
-    border-collapse: separate;
-    border-spacing: 0 8px;
-    width: 100%;
-}
-.tactical-table thead th {
-    background: rgba(6, 182, 212, 0.15);
-    color: #06B6D4;
-    text-shadow: 0 0 8px rgba(6, 182, 212, 0.8);
-    border-bottom: 2px solid #06B6D4;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 12px;
-}
-.tactical-table tbody tr {
-    background: rgba(10, 15, 25, 0.8);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 5px rgba(239, 68, 68, 0.2);
-    transition: all 0.3s;
-}
-.tactical-table tbody tr:hover {
-    transform: scale(1.01) translateX(5px);
-    background: rgba(239, 68, 68, 0.1);
-    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4), inset 0 0 10px rgba(239, 68, 68, 0.3);
-    border-left: 4px solid #EF4444;
-}
-
-/* Extreme Glowing UI for Actors / Wire */
-.actor-dossier-card, .wire-item {
-    background: linear-gradient(180deg, rgba(16, 20, 30, 0.9), rgba(5, 8, 12, 0.95));
-    border: 1px solid rgba(234, 179, 8, 0.3);
-    box-shadow: inset 0 0 15px rgba(234, 179, 8, 0.05), 0 4px 10px rgba(0,0,0,0.8);
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-}
-.actor-dossier-card::before, .wire-item::before {
-    content: '';
-    position: absolute;
-    top: 0; left: -100%;
-    width: 50%; height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-    transform: skewX(-20deg);
-    transition: 0.5s;
-}
-.actor-dossier-card:hover::before, .wire-item:hover::before {
-    left: 150%;
-}
-.actor-dossier-card:hover {
-    border-color: var(--yas-gold);
-    box-shadow: 0 0 20px rgba(234, 179, 8, 0.4), inset 0 0 20px rgba(234, 179, 8, 0.2);
-}
-.wire-item:hover {
-    border-color: var(--yas-cyan);
-    box-shadow: 0 0 20px rgba(6, 182, 212, 0.4), inset 0 0 20px rgba(6, 182, 212, 0.2);
-}
-
-
-/* ===================================================================
-   EXTREME FUTURISTIC OVERRIDES
-   =================================================================== */
-
-/* Master Background & Holographic Scanlines */
-body {
-    background: transparent !important;
-}
-
-.hud-container::after {
-    content: '';
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: repeating-linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1) 1px,
-        transparent 1px,
-        transparent 2px
-    );
-    pointer-events: none;
-    z-index: 9999;
-}
-
-/* Data-line weave moved into the WebGL pass. The DOM version painted a
-   2x-viewport fixed element via background-position every frame for the
-   whole 15s loop — the single most expensive main-thread repaint in the app,
-   now replaced by ~15 ALU ops in the fragment shader. */
-
-/* INTEL WIRE OVERHAUL */
-.intel-wire-panel {
-    background: rgba(10, 15, 25, 0.6) !important;
-    border: 2px solid rgba(239, 68, 68, 0.6) !important;
-    box-shadow: 0 0 40px rgba(239, 68, 68, 0.2), inset 0 0 20px rgba(239, 68, 68, 0.1) !important;
-}
-
-.wire-item {
-    background: linear-gradient(90deg, rgba(239,68,68,0.05) 0%, rgba(10,15,25,0.8) 100%) !important;
-    border-left: 4px solid var(--yas-crimson) !important;
-    border-top: 1px solid rgba(239, 68, 68, 0.3) !important;
-    border-bottom: 1px solid rgba(239, 68, 68, 0.3) !important;
-    border-right: none !important;
-    transform: perspective(500px) rotateY(-2deg);
-    transition: all 0.3s ease-out;
-}
-
-.wire-item:hover {
-    transform: perspective(500px) rotateY(0deg) scale(1.02) translateX(10px);
-    background: linear-gradient(90deg, rgba(239,68,68,0.15) 0%, rgba(10,15,25,0.95) 100%) !important;
-    box-shadow: 0 0 25px rgba(239, 68, 68, 0.4) !important;
-}
-
-.wire-timestamp {
-    color: var(--yas-crimson) !important;
-    text-shadow: 0 0 8px var(--yas-crimson) !important;
-}
-
-/* CVE MATRIX OVERHAUL */
-.cve-matrix-panel {
-    background: rgba(5, 10, 15, 0.8) !important;
-    border: 2px solid rgba(6, 182, 212, 0.6) !important;
-    box-shadow: 0 0 40px rgba(6, 182, 212, 0.2), inset 0 0 20px rgba(6, 182, 212, 0.1) !important;
-}
-
-.tactical-table {
-    border-collapse: separate !important;
-    border-spacing: 0 6px !important;
-}
-
-.tactical-table thead th {
-    background: rgba(6, 182, 212, 0.1) !important;
-    color: #0ff !important;
-    border-bottom: 2px solid #0ff !important;
-    text-shadow: 0 0 10px #0ff !important;
-    font-size: 14px !important;
-}
-
-.tactical-table tbody tr {
-    background: linear-gradient(90deg, rgba(6, 182, 212, 0.05), transparent) !important;
-    border: 1px solid rgba(6, 182, 212, 0.2) !important;
-    transition: all 0.2s !important;
-}
-
-.tactical-table tbody tr:hover {
-    background: linear-gradient(90deg, rgba(6, 182, 212, 0.15), rgba(6, 182, 212, 0.05)) !important;
-    box-shadow: 0 0 15px rgba(6, 182, 212, 0.4) !important;
-    transform: scale(1.01) !important;
-}
-
-.cve-id-cell {
-    color: #0ff !important;
-    text-shadow: 0 0 8px #0ff !important;
-}
-
-/* APT DOSSIERS OVERHAUL */
-.actors-dossier-panel {
-    background: rgba(15, 10, 5, 0.8) !important;
-    border: 2px solid rgba(234, 179, 8, 0.6) !important;
-    box-shadow: 0 0 40px rgba(234, 179, 8, 0.2), inset 0 0 20px rgba(234, 179, 8, 0.1) !important;
-}
-
-.actor-dossier-card {
-    background: linear-gradient(135deg, rgba(234, 179, 8, 0.05) 0%, rgba(10, 10, 10, 0.9) 100%) !important;
-    border: 1px solid rgba(234, 179, 8, 0.4) !important;
-    box-shadow: 0 0 15px rgba(234, 179, 8, 0.1) !important;
-    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
-}
-
-.actor-dossier-card:hover {
-    background: linear-gradient(135deg, rgba(234, 179, 8, 0.15) 0%, rgba(20, 15, 5, 0.9) 100%) !important;
-    box-shadow: 0 0 25px rgba(234, 179, 8, 0.4), inset 0 0 15px rgba(234, 179, 8, 0.2) !important;
-    border-color: #EAB308 !important;
-    transform: translateY(-5px) scale(1.03) !important;
-}
-
-.actor-title {
-    color: #EAB308 !important;
-    text-shadow: 0 0 10px #EAB308 !important;
-}
-
-.actor-origin-badge {
-    background: rgba(234, 179, 8, 0.2) !important;
-    border: 1px solid #EAB308 !important;
-    color: #fff !important;
-}
-
-/* Tactical Tags Filter Holographic Effect */
-.filter-pill {
-    background: rgba(0,0,0,0.5) !important;
-    border: 1px solid rgba(255,255,255,0.2) !important;
-    position: relative;
-    overflow: hidden;
-}
-.filter-pill::before {
-    content: '';
-    position: absolute;
-    top: 0; left: -100%;
-    width: 100%; height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    transition: 0.4s;
-}
-.filter-pill:hover::before {
-    left: 100%;
-}
-.filter-pill.active {
-    background: rgba(255,255,255,0.1) !important;
-    box-shadow: 0 0 15px rgba(255,255,255,0.5) !important;
-    border-color: #fff !important;
-}
-
-/* Ensure Tabs Match */
-.nav-tab {
-    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
-}
-
-/* Cyberpunk Map Layers Control */
+/* Leaflet map controls */
 .leaflet-top.leaflet-right {
     position: absolute !important;
     top: 14px !important;
@@ -1960,7 +1743,7 @@ body {
     pointer-events: auto !important;
 }
 
-/* Cyberpunk Map Layers Control */
+/* Leaflet map controls */
 .leaflet-control-layers {
     background: rgba(10, 15, 25, 0.94) !important;
     border: 1px solid rgba(6, 182, 212, 0.6) !important;
@@ -2845,3 +2628,644 @@ html[dir="rtl"] .actor-activity-chip {
         display: none;
     }
 }
+
+/* ===================================================================
+   OPERATIONAL CLARITY SYSTEM v1.5
+   Restrained data-native surface: crisp hierarchy, static state cues,
+   bounded compositing, and zero decorative full-screen DOM layers.
+   =================================================================== */
+:root {
+    --bg-obsidian: #05090e;
+    --bg-surface: #0a1017;
+    --panel-bg: rgba(10, 16, 23, 0.93);
+    --panel-border: rgba(172, 190, 204, 0.15);
+    --panel-border-gold: rgba(185, 151, 82, 0.36);
+    --panel-border-cyan: rgba(63, 166, 179, 0.34);
+    --panel-border-crimson: rgba(224, 94, 86, 0.38);
+    --yas-gold: #c9a85c;
+    --yas-gold-dark: #a8863f;
+    --yas-gold-wash: rgba(201, 168, 92, 0.10);
+    --yas-gold-glow: none;
+    --yas-cyan: #54b8c2;
+    --yas-cyan-wash: rgba(84, 184, 194, 0.10);
+    --yas-cyan-glow: none;
+    --yas-crimson: #e0645c;
+    --yas-crimson-wash: rgba(224, 100, 92, 0.10);
+    --yas-crimson-glow: none;
+    --yas-green: #55b58b;
+    --yas-green-wash: rgba(85, 181, 139, 0.10);
+    --yas-purple: #9b8ac5;
+    --yas-purple-wash: rgba(155, 138, 197, 0.10);
+    --text-primary: #e7edf2;
+    --text-secondary: #a8b4be;
+    --text-muted: #788692;
+    --text-faint: #53616d;
+    --glass-blur: none;
+    --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+}
+
+html { background: var(--bg-obsidian); }
+body {
+    background: transparent !important;
+    color: var(--text-primary);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* The shader is the only fullscreen decorative layer. */
+.hud-container::after,
+.hud-container::before,
+.glass-panel::after,
+.glass-panel::before,
+.wire-item::before,
+.actor-dossier-card::before,
+.filter-pill::before {
+    content: none !important;
+    display: none !important;
+}
+
+#acid-squares-bg { background: var(--bg-obsidian) !important; }
+
+.hud-container {
+    max-width: 1760px;
+    padding: 14px 20px 20px;
+    gap: 12px;
+}
+
+.glass-panel {
+    background: var(--panel-bg) !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    border: 1px solid var(--panel-border) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--glass-shadow) !important;
+    transition: border-color var(--dur-fast, 160ms) ease !important;
+}
+.glass-panel:hover {
+    background: var(--panel-bg) !important;
+    border-color: rgba(172, 190, 204, 0.22) !important;
+    box-shadow: var(--glass-shadow) !important;
+}
+
+/* Command header: three factual zones, no floating glass or ambient glow. */
+.command-header {
+    display: grid;
+    grid-template-columns: minmax(330px, 1.15fr) minmax(420px, 1fr) minmax(320px, .85fr);
+    align-items: center;
+    gap: 24px;
+    padding: 12px 16px;
+    background: rgba(7, 12, 18, 0.94);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border: 1px solid var(--panel-border);
+    border-block-start: 2px solid var(--yas-gold);
+    border-radius: 4px;
+    box-shadow: 0 14px 42px rgba(0, 0, 0, .24);
+    transition: border-color var(--dur-fast, 160ms) ease;
+}
+.command-header:hover {
+    background: rgba(7, 12, 18, 0.94);
+    border-color: rgba(201, 168, 92, .32);
+    box-shadow: 0 14px 42px rgba(0, 0, 0, .24);
+}
+.logo-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    border-color: rgba(201, 168, 92, .34);
+    background: #080d13;
+    box-shadow: none;
+    filter: none;
+}
+.brand-logo { width: 31px; height: 31px; }
+.brand-block { gap: 13px; min-width: 0; }
+.title-meta { min-width: 0; }
+.kicker-tag {
+    font-size: 9px;
+    color: var(--yas-gold);
+    letter-spacing: .14em;
+}
+.kicker-bullet { font-size: 8px; }
+.main-title {
+    font-size: 1.02rem;
+    letter-spacing: .065em;
+    line-height: 1.3;
+}
+.title-brand { color: var(--text-primary); text-shadow: none; }
+.arabic-subtext {
+    color: var(--text-muted);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.defcon-center-block { gap: 5px; }
+.defcon-header-label { color: var(--text-muted); font-size: 9px; letter-spacing: .13em; }
+.kinetic-indicator { width: 8px; height: 8px; }
+.kinetic-dot {
+    width: 5px;
+    height: 5px;
+    background: var(--yas-crimson);
+    box-shadow: none;
+}
+.kinetic-ring { display: none; }
+.defcon-meter {
+    width: 100%;
+    max-width: 310px;
+    gap: 2px;
+    padding: 2px;
+    background: #060b10;
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+}
+.defcon-tier {
+    flex: 1;
+    width: auto;
+    min-width: 48px;
+    padding: 4px 3px;
+    border-radius: 2px;
+    background: transparent;
+    border-block-end: 2px solid transparent;
+    transition: color var(--dur-fast, 160ms) ease, border-color var(--dur-fast, 160ms) ease, background-color var(--dur-fast, 160ms) ease;
+}
+.defcon-tier .mono { font-size: 11px; }
+.defcon-tier .tier-label { font-size: 7px; letter-spacing: .05em; }
+.defcon-tier.d5.active,
+.defcon-tier.d4.active,
+.defcon-tier.d3.active,
+.defcon-tier.d2.active,
+.defcon-tier.d1.active {
+    box-shadow: none;
+    animation: none;
+    background: rgba(255, 255, 255, .045);
+}
+.defcon-tier.d5.active { border-color: var(--yas-green); }
+.defcon-tier.d4.active { border-color: var(--yas-cyan); }
+.defcon-tier.d3.active { border-color: var(--yas-gold); }
+.defcon-tier.d2.active { border-color: #dc8a51; }
+.defcon-tier.d1.active { border-color: var(--yas-crimson); }
+.defcon-readout { color: #dc8a51; font-size: 9px; letter-spacing: .045em; }
+
+.telemetry-right-block { gap: 7px; }
+.dual-clocks {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 4px 9px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+.dual-clocks:hover { background: transparent; border-color: transparent; box-shadow: none; }
+.clock-label { font-size: 8px; color: var(--text-faint); }
+.clock-time { font-size: 12px; }
+.header-controls { gap: 6px; }
+.status-pill {
+    border-radius: 3px;
+    padding: 4px 8px;
+    background: var(--yas-green-wash);
+    border-color: rgba(85, 181, 139, .26);
+    font-size: 9px;
+    transition: border-color var(--dur-fast, 160ms) ease;
+}
+.status-pill:hover { background: var(--yas-green-wash); border-color: rgba(85, 181, 139, .42); box-shadow: none; }
+.status-signal-dot {
+    width: 5px;
+    height: 5px;
+    background: var(--yas-green);
+    box-shadow: none;
+    animation: none;
+}
+.lang-toggle-btn {
+    min-height: 28px;
+    padding: 4px 8px;
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    font-size: 11px;
+    background: rgba(255,255,255,.025);
+}
+.lang-toggle-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--panel-border-cyan);
+    text-shadow: none;
+    transform: none;
+}
+
+/* Sticky context rail. Numbering improves scan speed without extra markup. */
+.tactical-navbar {
+    counter-reset: operation-tab;
+    position: sticky;
+    top: 10px;
+    z-index: 1200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 2px;
+    width: 100%;
+    margin: 0 !important;
+    padding: 4px;
+    overflow-x: auto;
+    border-radius: 4px !important;
+    background: rgba(7, 12, 18, .96) !important;
+    box-shadow: 0 10px 32px rgba(0,0,0,.28) !important;
+    scrollbar-width: none;
+}
+.tactical-navbar::-webkit-scrollbar { display: none; }
+.nav-tab {
+    counter-increment: operation-tab;
+    min-height: 36px;
+    padding: 7px 14px;
+    border: 0;
+    border-inline-start: 1px solid rgba(255,255,255,.055);
+    border-radius: 2px;
+    clip-path: none;
+    background: transparent;
+    color: var(--text-muted);
+    font: 650 10px var(--font-mono);
+    letter-spacing: .075em;
+    transition: color var(--dur-fast, 160ms) ease, background-color var(--dur-fast, 160ms) ease;
+}
+.nav-tab::before {
+    content: "0" counter(operation-tab);
+    margin-inline-end: 8px;
+    color: var(--text-faint);
+    font-size: 8px;
+}
+.nav-tab:hover {
+    background: rgba(255,255,255,.035);
+    color: var(--text-primary);
+    border-color: rgba(255,255,255,.055);
+    box-shadow: none;
+    transform: none;
+}
+.nav-tab.active {
+    background: var(--yas-gold-wash);
+    color: var(--text-primary);
+    border-color: rgba(201, 168, 92, .42);
+    box-shadow: inset 0 -2px 0 var(--yas-gold);
+}
+.nav-tab.active::before { color: var(--yas-gold); }
+
+.tab-panel { border-radius: 5px !important; }
+.tab-panel:not(#dashboard) { max-width: 1660px; width: 100%; margin-inline: auto; padding: 10px; }
+#dashboard.tab-panel.active {
+    display: grid !important;
+    gap: 14px;
+    max-width: 1660px;
+    padding: 18px;
+    border-radius: 5px;
+    background: rgba(7, 12, 18, .82) !important;
+    box-shadow: 0 18px 50px rgba(0,0,0,.22) !important;
+}
+
+/* KPI band: one continuous information surface instead of four floating cards. */
+.kpi-strip {
+    gap: 1px;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    background: var(--panel-border);
+}
+.kpi-card,
+#kpi-attacks-card,
+#kpi-campaigns-card,
+#kpi-cve-card,
+#kpi-logistics-card {
+    min-height: 126px;
+    padding: 14px 16px;
+    gap: 8px;
+    border: 0 !important;
+    border-block-start: 2px solid var(--text-faint) !important;
+    border-radius: 0;
+    background: rgba(10, 16, 23, .96);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: none !important;
+    transition: background-color var(--dur-fast, 160ms) ease !important;
+}
+#kpi-attacks-card { border-block-start-color: var(--yas-crimson) !important; }
+#kpi-campaigns-card { border-block-start-color: var(--yas-gold) !important; }
+#kpi-cve-card { border-block-start-color: var(--yas-cyan) !important; }
+#kpi-logistics-card { border-block-start-color: #dc8a51 !important; }
+.kpi-card:hover,
+#kpi-attacks-card:hover,
+#kpi-campaigns-card:hover,
+#kpi-cve-card:hover,
+#kpi-logistics-card:hover {
+    transform: none;
+    background: rgba(15, 22, 30, .98);
+    box-shadow: none !important;
+}
+.kpi-label { font: 650 9px var(--font-mono); letter-spacing: .07em; }
+.kpi-value { font-size: 1.85rem; font-weight: 650; color: var(--text-primary) !important; }
+.kpi-icon { font-size: 12px; opacity: .75; }
+.kpi-subtext { font-size: 10px; line-height: 1.45; }
+.kpi-progress-wrap {
+    height: 2px;
+    margin: 1px 0 4px;
+    border-radius: 0;
+    background: rgba(255,255,255,.07);
+}
+.kpi-progress-bar { border-radius: 0; box-shadow: none !important; }
+.kpi-scanner, .bar-scanner { display: none; animation: none; }
+
+/* Coverage and exposure metrics. */
+.live-progress-cockpit-panel {
+    padding: 14px 16px;
+    gap: 12px;
+    background: rgba(9, 15, 22, .94);
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    box-shadow: none;
+}
+.cockpit-header { padding-bottom: 9px; border-color: var(--panel-border); }
+.cockpit-title { font: 650 10px var(--font-mono); letter-spacing: .08em; }
+.cockpit-beacon-pulse {
+    width: 6px;
+    height: 6px;
+    background: var(--yas-cyan);
+    box-shadow: none;
+    animation: none;
+}
+.cockpit-live-tag {
+    border-radius: 2px;
+    color: var(--yas-green);
+    background: var(--yas-green-wash);
+    border-color: rgba(85,181,139,.28);
+    font-size: 8px;
+}
+.live-blinker { animation: none; }
+.cockpit-engine-meta { font-size: 9px; }
+.cockpit-progress-grid { gap: 8px; }
+.progress-metric-box {
+    padding: 10px 11px;
+    border-radius: 3px;
+    background: rgba(3, 8, 13, .34);
+    border-color: var(--panel-border);
+    transition: border-color var(--dur-fast, 160ms) ease;
+}
+.progress-metric-box:hover {
+    transform: none;
+    background: rgba(3, 8, 13, .34);
+    border-color: rgba(172, 190, 204, .28);
+    box-shadow: none;
+}
+.tactical-progress-track { height: 3px; border-radius: 0; }
+.tactical-progress-bar { border-radius: 0; box-shadow: none; }
+.metric-name { font-size: 9px; letter-spacing: .04em; }
+.metric-val { font-size: 12px; }
+.metric-foot { font-size: 8px; }
+
+.card {
+    background: rgba(9, 15, 22, .95);
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: none;
+}
+.card-header { min-height: 54px; padding: 11px 14px; border-color: var(--panel-border); }
+.header-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    background: rgba(255,255,255,.035);
+}
+.card-title, .card-title-sm { font: 650 11px var(--font-mono); letter-spacing: .05em; }
+.card-subtitle { font-size: 10px; }
+.badge-intel { border-radius: 2px; font: 600 8px var(--font-mono); letter-spacing: .05em; }
+.canvas-wrapper-fixed { height: 205px; }
+
+/* High-density content remains crisp and static during scroll. */
+.intel-wire-panel,
+.cve-matrix-panel,
+.actors-dossier-panel {
+    background: rgba(9, 15, 22, .96) !important;
+    border: 1px solid var(--panel-border) !important;
+    border-block-start: 2px solid var(--yas-cyan) !important;
+    box-shadow: none !important;
+}
+.actors-dossier-panel { border-block-start-color: var(--yas-gold) !important; }
+.intel-wire-panel { border-block-start-color: var(--yas-crimson) !important; }
+.search-input-wrap input {
+    min-height: 34px;
+    background: rgba(3, 8, 13, .72);
+    border-color: var(--panel-border);
+    border-radius: 3px;
+    font-size: 11px;
+}
+.search-input-wrap input:focus { border-color: var(--yas-cyan); box-shadow: 0 0 0 2px var(--yas-cyan-wash); }
+.filter-pill {
+    min-height: 28px;
+    padding: 4px 9px;
+    border-radius: 2px;
+    background: rgba(255,255,255,.025) !important;
+    border: 1px solid var(--panel-border) !important;
+    color: var(--text-muted);
+    font: 600 9px var(--font-mono);
+    box-shadow: none !important;
+}
+.filter-pill:hover { background: rgba(255,255,255,.055) !important; color: var(--text-primary); box-shadow: none !important; transform: none; }
+.filter-pill.active { background: var(--yas-cyan-wash) !important; border-color: var(--yas-cyan) !important; color: var(--text-primary) !important; box-shadow: none !important; }
+.intel-feed-scroller,
+.actors-grid-scroller,
+.table-container-scroller { scrollbar-gutter: stable; }
+.intel-feed-scroller { gap: 7px; padding: 10px 12px; max-height: min(68vh, 760px); }
+.wire-item {
+    content-visibility: auto;
+    contain: layout paint style;
+    contain-intrinsic-size: 118px;
+    padding: 11px 12px;
+    gap: 6px;
+    transform: none !important;
+    background: rgba(7, 13, 19, .76) !important;
+    border: 1px solid var(--panel-border) !important;
+    border-inline-start: 2px solid rgba(84, 184, 194, .50) !important;
+    border-radius: 3px;
+    box-shadow: none !important;
+    transition: border-color var(--dur-fast, 160ms) ease, background-color var(--dur-fast, 160ms) ease !important;
+}
+.wire-item:hover {
+    transform: none !important;
+    background: rgba(13, 21, 29, .92) !important;
+    border-color: rgba(84, 184, 194, .34) !important;
+    border-inline-start-color: var(--yas-cyan) !important;
+    box-shadow: none !important;
+}
+.wire-timestamp { color: var(--text-muted) !important; text-shadow: none !important; }
+.wire-source { font: 650 9px var(--font-mono); letter-spacing: .05em; }
+.wire-title { font-size: 12px; line-height: 1.45; }
+.wire-summary { font-size: 10.5px; line-height: 1.5; }
+.wire-tag { border-radius: 2px; font: 650 8px var(--font-mono); }
+.wire-new-badge, .actor-activity-chip.live { animation: none; box-shadow: none; }
+.source-chip { border-radius: 2px; transform: none !important; }
+.source-chip:hover { transform: none; }
+.btn-refresh:hover { transform: none; box-shadow: none; }
+
+.tactical-table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+.tactical-table thead th {
+    padding: 11px 13px !important;
+    background: #0d151e !important;
+    color: var(--text-muted) !important;
+    border-block-end: 1px solid var(--panel-border) !important;
+    font: 650 9px var(--font-mono) !important;
+    letter-spacing: .07em !important;
+    text-shadow: none !important;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+.tactical-table tbody tr {
+    transform: none !important;
+    background: rgba(7, 13, 19, .66) !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+.tactical-table tbody tr:hover {
+    transform: none !important;
+    background: rgba(15, 24, 33, .88) !important;
+    box-shadow: inset 2px 0 0 var(--yas-cyan) !important;
+}
+.tactical-table td { padding: 12px 13px; border-color: rgba(172,190,204,.10); }
+.cve-id-cell { color: var(--yas-cyan) !important; text-shadow: none !important; }
+.cvss-cell.cvss-critical { text-shadow: none; }
+
+.actors-grid-scroller {
+    max-height: min(68vh, 760px);
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 8px;
+    padding: 10px 12px;
+}
+.actor-dossier-card {
+    content-visibility: auto;
+    contain: layout paint style;
+    contain-intrinsic-size: 210px;
+    padding: 13px 14px;
+    transform: none !important;
+    clip-path: none;
+    background: rgba(7, 13, 19, .76) !important;
+    border: 1px solid var(--panel-border) !important;
+    border-block-start: 2px solid rgba(201, 168, 92, .55) !important;
+    border-radius: 3px;
+    box-shadow: none !important;
+    transition: border-color var(--dur-fast, 160ms) ease, background-color var(--dur-fast, 160ms) ease !important;
+}
+.actor-dossier-card:hover {
+    transform: none !important;
+    background: rgba(13, 21, 29, .92) !important;
+    border-color: rgba(201,168,92,.40) !important;
+    box-shadow: none !important;
+}
+.actor-title { color: var(--text-primary) !important; text-shadow: none !important; font-size: 12px; }
+.actor-origin-badge { background: var(--yas-cyan-wash) !important; border-color: rgba(84,184,194,.24) !important; color: var(--yas-cyan) !important; }
+.actor-motivation { font-size: 10.5px; line-height: 1.5; }
+.level-seg.on { box-shadow: none !important; }
+
+/* Map reads as an operational layer, not a faux 3D object. */
+.map-container-relative {
+    min-height: 560px;
+    height: calc(100vh - 250px);
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    perspective: none;
+    transform-style: flat;
+    box-shadow: none;
+}
+.tactical-map-viewport { border-radius: 2px; box-shadow: none; background: #071018; }
+.chokepoint-status-bar {
+    inset-inline: 10px;
+    bottom: 10px;
+    padding: 7px 10px;
+    border-color: var(--panel-border);
+    border-radius: 3px;
+    background: rgba(7, 12, 18, .93);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+.cp-dot, .legend-dot { box-shadow: none !important; animation: none !important; }
+.leaflet-control-layers {
+    padding: 8px 10px !important;
+    background: rgba(7, 12, 18, .94) !important;
+    border-color: var(--panel-border) !important;
+    border-radius: 3px !important;
+    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(3px) !important;
+    box-shadow: 0 8px 26px rgba(0,0,0,.3) !important;
+}
+.leaflet-bar { border-color: var(--panel-border) !important; border-radius: 3px !important; box-shadow: none !important; }
+.leaflet-bar a { color: var(--text-secondary) !important; background: rgba(7,12,18,.94) !important; border-color: var(--panel-border) !important; }
+.leaflet-bar a:hover { color: var(--text-primary) !important; background: rgba(15,24,33,.98) !important; }
+.subsea-hub-icon .hub-pulse-ring,
+.ais-vessel-icon .vessel-ping { display: none; animation: none; }
+.vessel-heading-pointer { filter: none; }
+
+.hud-footer {
+    padding: 10px 4px 4px;
+    border-color: var(--panel-border);
+    font: 9px var(--font-mono);
+    letter-spacing: .035em;
+}
+.footer-brand { color: var(--text-secondary); }
+
+@media (max-width: 1240px) {
+    .command-header {
+        grid-template-columns: minmax(320px, 1fr) minmax(390px, 1fr);
+    }
+    .telemetry-right-block {
+        grid-column: 1 / -1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-block-start: 1px solid var(--panel-border);
+        padding-block-start: 7px;
+    }
+    .dual-clocks { width: auto; }
+}
+
+@media (max-width: 900px) {
+    .hud-container { padding: 8px; gap: 8px; }
+    .command-header { grid-template-columns: 1fr; gap: 12px; }
+    .defcon-center-block { align-items: stretch; }
+    .defcon-header-label, .defcon-readout { justify-content: center; text-align: center; }
+    .defcon-meter { max-width: none; }
+    .telemetry-right-block { grid-column: auto; }
+    .tactical-navbar { top: 6px; }
+    .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    .vectors-row-grid { grid-template-columns: 1fr; }
+    #dashboard.tab-panel.active { padding: 10px; }
+    .map-container-relative { min-height: 520px; height: 68vh; }
+}
+
+@media (max-width: 600px) {
+    .command-header { padding: 10px; }
+    .brand-logo { width: 28px; height: 28px; }
+    .logo-container { width: 38px; height: 38px; }
+    .arabic-subtext { display: none; }
+    .telemetry-right-block { align-items: stretch; flex-direction: column; }
+    .dual-clocks { justify-content: space-between; width: 100%; }
+    .header-controls { justify-content: space-between; }
+    .status-pill { margin-inline-end: auto; }
+    .nav-tab { padding-inline: 10px; }
+    .nav-tab::before { display: none; }
+    .kpi-strip { grid-template-columns: 1fr; }
+    .kpi-card, #kpi-attacks-card, #kpi-campaigns-card, #kpi-cve-card, #kpi-logistics-card { min-height: 112px; }
+    .cockpit-title-group { flex-wrap: wrap; }
+    .map-container-relative { min-height: 480px; }
+    .chokepoint-status-bar { align-items: flex-start; flex-direction: column; }
+    .card-header { align-items: flex-start; }
+}
+
+/* Static cartographic markers: intensity is encoded by size/color, not loops. */
+.radar-pulse-ring,
+.sonar-sweep,
+.glitch-square,
+.kinetic-beacon {
+    display: none !important;
+    animation: none !important;
+}
+.radar-center-dot { box-shadow: none !important; }

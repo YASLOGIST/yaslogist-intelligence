@@ -8,12 +8,12 @@
 
 **A bilingual, zero-build intelligence cockpit that turns open-source cyber, geopolitical, and maritime signals into an operator-ready common picture.**
 
-<img src="assets/og-image-animated.gif" alt="YASLOGIST animated tactical HUD — intel wire, DEFCON meter, CVE exposure, signal sparkline" width="1080" />
+<img src="assets/og-image-animated.gif" alt="YASLOGIST regional operations picture — current wire, risk model, CVE exposure, signal trend" width="1080" />
 
 [![Live Operations](https://img.shields.io/badge/LIVE_OPERATIONS-OPEN_CONSOLE-00E5FF?style=for-the-badge&logo=github)](https://yaslogist.github.io/yaslogist-intelligence/)
 [![Pipeline](https://img.shields.io/badge/INTEL_PIPELINE-EVERY_2_HOURS-8B5CF6?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/update-data.yml)
 
-[![Version](https://img.shields.io/badge/Release-v1.3.0-EAB308?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Release-v1.5.0-EAB308?style=flat-square)](CHANGELOG.md)
 [![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](package.json)
 [![Arabic + English](https://img.shields.io/badge/Interface-AR_%2F_EN-EAB308?style=flat-square)](#bilingual-by-design)
 [![Zero Build](https://img.shields.io/badge/Frontend-Zero_Build-06B6D4?style=flat-square)](#1-system-architecture)
@@ -32,7 +32,7 @@ YASLOGIST Intelligence is a high-density command interface for monitoring Middle
 The design premise is inversion: instead of the browser calling live APIs, a **scheduled Node.js pipeline** collects and structures public intelligence on a two-hour cadence and commits the result as versioned JSON. The browser receives preprocessed artifacts — not credentials, sessions, or API keys — and GitHub Pages serves the finished cockpit at the edge. Every screen can be regenerated or rolled back from Git history alone.
 
 > [!IMPORTANT]
-> YASLOGIST is an **open-source situational-awareness tool**, not a classified feed or an emergency warning system. Automated tags, scores, map layers, and DEFCON-style UI indicators are analytical aids. Validate consequential decisions against authoritative primary sources.
+> YASLOGIST is an **open-source situational-awareness tool**, not a classified feed or an emergency warning system. Automated tags, scores, map layers, and model-tier indicators are analytical aids. Validate consequential decisions against authoritative primary sources.
 
 **Document map** — §1 [System Architecture](#1-system-architecture) · §2 [Feature Matrix](#2-feature-matrix) · §3 [Core Workflows](#3-core-workflows) · §4 [Tech Stack](#4-tech-stack) · §5 [Intelligence Dataset](#5-intelligence-dataset) · §6 [Security & Integrity](#6-security--integrity-model) · §7 [Bilingual Design](#7-bilingual-by-design) · §8 [Quick Start](#8-quick-start) · §9 [Repository Map](#9-repository-map) · §10 [Verification Ledger](#10-verification-ledger)
 
@@ -130,7 +130,7 @@ sequenceDiagram
 | Feed XML / third-party APIs | **Zero** | Parsed defensively, escaped before DOM, links protocol-allow-listed |
 | Committed `data/*.json` | **Validated** | Schema gate in CI; parsed with shape guards at render time |
 | External scripts (Leaflet, Chart.js) | **Pinned** | Exact version + Subresource Integrity; CI fails on unpinned additions |
-| First-party modules | **Audited** | `node --check`, 56-assertion test suite, security scanner per commit |
+| First-party modules | **Audited** | `node --check`, 80-assertion test suite, security scanner per commit |
 
 ---
 
@@ -153,7 +153,7 @@ Operational capabilities, where each lives, and how it is proven. Nothing in thi
 | **Operator console** — command palette, full-screen mode, JSON snapshot + Markdown briefing export, deep links, eight global hotkeys | `app.js` console (<kbd>Ctrl/⌘</kbd>+<kbd>K</kbd>) | In-memory snapshot | Export-shape unit tests | ✅ |
 | **Bilingual cockpit** — instant AR/EN switch, runtime `dir` flip, localized states | `app.js` i18n layer | Translation table, persisted preference | i18n parity tests | ✅ |
 | **Resilient display** — timeout-aware fetch, bounded retry with backoff (transient errors only), offline feedback | `app.js` fetch layer | Any `data/*` fetch | Retry-policy unit tests | ✅ |
-| **Accessible motion** — reveal, skeletons, count-up; all disabled under `prefers-reduced-motion`; WebGL FPS watchdog | `styles.css` + `acid-squares-bg.js` | n/a | Static-integrity tests | ✅ |
+| **Accessible motion** — reveal, skeletons, count-up; all disabled under `prefers-reduced-motion`; demand-driven WebGL is static at rest | `styles.css` + `acid-squares-bg.js` | n/a | Static-integrity tests | ✅ |
 | **Maritime focus** — Suez, Bab el-Mandeb, Red Sea, Strait of Hormuz situational layers | `threat-map.js` | Wire geo-tags + intensity | Layer assertions | ✅ |
 | **Data-honest social card** — animated OG image rendered from the *same* committed JSON the app reads | `assets/generate-og-image.py` | `data/*` at generation time | Regenerate via `npm run card` | ✅ |
 | **Installable cockpit (PWA)** — manifest, generated radar-reticle app icons (192/512), favicon + touch icon | `manifest.webmanifest` + `assets/generate-app-icon.py` | n/a | Icon structure verified in-script | ✅ |
@@ -190,7 +190,7 @@ Scheduled at `0 */2 * * *` ([`update-data.yml`](.github/workflows/update-data.ym
 2  SRI-pinned modules load (fail-closed on integrity mismatch)
 3  Parallel fetch of the 5 artifacts with timeout + retry/backoff
 4  Values escaped → classified → rendered; KPIs count up; WebGL background
-   initializes last and steps down automatically if the FPS watchdog trips
+   initializes last and submits frames only while pointer parallax is settling
 5  Footer stamps true pipeline age; stale state escalates visually
 ```
 
@@ -212,7 +212,7 @@ Scheduled at `0 */2 * * *` ([`update-data.yml`](.github/workflows/update-data.ym
 ```text
 npm run ci =
   check          syntax-check all 9 JS artifacts
-  test           56 assertions (unit · integration · i18n · schema · static)
+  test           80 assertions (unit · integration · i18n · schema · static)
   validate:data  schema gate on all 5 committed artifacts
   budget         local surface ≤ 1 MiB; ≤2 external scripts; ≤4 stylesheets
   scan           secrets · dangerous sinks · external-script pinning policy
@@ -237,13 +237,13 @@ Every dependency earns its place; the list is intentionally short.
 | Interface | Semantic HTML5 + CSS3 + vanilla JS ES modules | Entire UI | Zero build = zero supply-chain build surface; the repo *is* the artifact |
 | Mapping | Leaflet 1.9.4 + Esri basemaps | Tactical layers | Battle-tested, tiny, declarative layer model |
 | Telemetry | Chart.js (SRI-pinned 4.4.7) | Intensity & timeline charts | Canvas-native, themeable, no framework tax |
-| Visual engine | OGL / WebGL | Ambient shader background | Full graceful degradation; FPS watchdog guards interaction |
+| Visual engine | Native WebGL2 | Single-pass analytical grid | One draw call, no textures/loops; demand-driven rendering reaches zero idle submissions |
 | Typography & icons | Cairo + IBM Plex Sans Arabic, Font Awesome | Bilingual type system | True Arabic shaping; consistent operator iconography |
 | Ingestion | Node.js 20 native `fetch` + fs + hand-rolled XML parse | Collector | No parser deps to audit; bounded retries on transient failures only |
 | Automation | GitHub Actions (cron + dispatch) | Pipeline & CI | Zero-cost scheduling; logs and diffs are public evidence |
 | Hosting | GitHub Pages (root, no build) | Edge delivery | Immutable static serving; rollback = `git revert` |
 | Social card | Python 3 + Pillow (offline) | OG image renderer | Data-honest card generated from the same committed JSON |
-| Testing | Node `node:test`, zero dependencies | 56-assertion suite | No test-framework lock-in; runs anywhere Node 20 runs |
+| Testing | Node `node:test`, zero dependencies | 80-assertion suite | No test-framework lock-in; runs anywhere Node 20 runs |
 
 ---
 
@@ -321,7 +321,7 @@ No build step — publish the repository root to any static host.
 ├── index.html                    # Command-center shell (CSP, OG/Twitter meta, SRI pins)
 ├── app.js                        # UI, i18n, telemetry, filtering, console (testable exports)
 ├── threat-map.js                 # Tactical geospatial layers
-├── acid-squares-bg.js            # WebGL engine (FPS watchdog, reduced-motion frame)
+├── acid-squares-bg.js            # Demand-driven WebGL2 grid (one draw call, explicit disposal)
 ├── styles.css                    # Core design system + motion tokens
 ├── smart-operations.css          # Operator-console enhancements
 ├── update_data.js                # Autonomous intelligence collector (thin orchestration)
@@ -332,7 +332,7 @@ No build step — publish the repository root to any static host.
 │   ├── validate-data.cjs         # CLI: data schema gate
 │   ├── perf-budget.cjs           # CLI: performance budget gate
 │   └── security-scan.cjs         # CLI: secrets/sinks/pinning gate
-├── tests/                        # node:test suite (76 assertions, zero deps)
+├── tests/                        # node:test suite (80 assertions, zero deps)
 ├── docs/
 │   ├── ARCHITECTURE.md           # Behavioural spec: 10 invariants + evidence table
 │   └── AUDIT-2026-10.md          # Latest audit: 10 findings, all closed
@@ -388,7 +388,7 @@ Please avoid presenting simulated or inferred telemetry as verified fact. New so
 
 <div align="center">
 
-**YASLOGIST DEFENSE SYSTEMS**
+**YASLOGIST / OPERATIONS PICTURE**
 
 `OBSERVE // CORRELATE // ANTICIPATE`
 
