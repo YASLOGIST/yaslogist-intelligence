@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-91018",
-    "system": "lwIP API",
+    "id": "CVE-2026-31431",
+    "system": "Linux",
     "severity": "High",
-    "cvss": 8.7,
+    "cvss": 7.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-50093",
-    "system": "Siveillance Control Pro V3.0",
-    "severity": "High",
-    "cvss": 8.9,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-34223",
-    "system": "Desigo CC ClickOnce Client V6",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-71362",
-    "system": "Adobe Commerce",
-    "severity": "Critical",
-    "cvss": 9.1,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-5430",
-    "system": "WSO2 Universal Gateway",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-88956",
+    "id": "CVE-2026-79959",
     "system": "G980H",
     "severity": "High",
     "cvss": 7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-82585",
+    "id": "CVE-2026-82708",
     "system": "G980H",
     "severity": "High",
     "cvss": 7.1,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-88761",
+    "id": "CVE-2026-87118",
+    "system": "G980H",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-81630",
+    "system": "G980H",
+    "severity": "Critical",
+    "cvss": 9.2,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-75558",
     "system": "G980H",
     "severity": "Medium",
     "cvss": 6,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-84403",
+    "system": "G980H",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-82716",
+    "system": "G980H",
+    "severity": "Medium",
+    "cvss": 5.1,
     "badge": "badge-medium"
   }
 ]
