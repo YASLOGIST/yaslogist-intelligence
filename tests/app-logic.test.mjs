@@ -158,7 +158,10 @@ test('search matches Arabic titles and summaries (RTL operator parity)', () => {
     app.wireSearchTerm = 'إسرائيل';
     app.renderIntelligenceWire();
     const html = document.getElementById('news-container').innerHTML;
-    assert.ok(html.includes('إسرائيل تطلق منظومة دفاع جديدة'));
+    // Search highlighting wraps matches in <mark>; compare on tag-stripped text.
+    const text = html.replace(/<[^>]+>/g, '');
+    assert.ok(text.includes('إسرائيل تطلق منظومة دفاع جديدة'));
+    assert.ok(html.includes('mark class="wire-hl"'), 'Arabic match is highlighted');
     assert.ok(!html.includes('Hormuz'), 'non-matching items filtered out');
 });
 

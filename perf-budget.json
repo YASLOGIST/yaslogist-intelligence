@@ -1,9 +1,9 @@
 {
     "maxFileBytes": {
         "index.html": 45056,
-        "styles.css": 133120,
+        "styles.css": 139264,
         "smart-operations.css": 12288,
-        "app.js": 129024,
+        "app.js": 148480,
         "threat-map.js": 61440,
         "acid-squares-bg.js": 25600,
         "data/intel_wire.json": 524288,
@@ -24,7 +24,9 @@
         "data/middle_east_cves.json",
         "data/target_intensity.json",
         "data/meta.json",
-        "data/signal_timeline.json"
+        "data/signal_timeline.json",
+        "manifest.webmanifest",
+        "assets/yaslogist-icon-192.png"
     ],
     "maxTotalLocalBytes": 1048576,
     "maxExternalScripts": 2,

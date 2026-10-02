@@ -119,3 +119,22 @@ Tabs are a WAI-ARIA tablist (roving tabindex, arrows/Home/End, RTL-aware). Selec
 | rss2json quota/ToS for production volume | Replace with tiny CORS-friendly worker or drop Stage 2 (Stage 1 wire stays live via Actions) |
 | Esri tile ToS for sustained traffic | Register Esri developer key or migrate to self-hosted tiles; attribution now compliant |
 | Arabic feed parity (currently EN-heavy upstream) | Add Arabic RSS sources to `FEEDS` (one-line config each) |
+
+## 9. v1.3 operator layer (addendum, 2026-10-02)
+
+Added on top of the specification above, all client-side and zero-build:
+
+| Layer | Contract | Invariant kept |
+| :-- | :-- | :-- |
+| Watchlist (`PINNED`) | Star toggles on wire items; ids persisted in `localStorage` (`yaslogist.pinned`, ≤200, sanitized on load) | Static by default — no server state; hostile storage cannot crash boot |
+| Live sync | `setInterval` 10 min, skipped when `document.hidden` or offline; stale-on-focus triggers one immediate fetch | Failure tolerant — a failed cycle leaves the last wire untouched |
+| Hash wire state | `#wire?tag=X&q=Y` via `serializeWireState`/`parseWireState`; `history.replaceState` (no history spam) | Untrusted-input aware — tag restricted to `A-Z0-9_-`, query stripped of markup, both length-bounded; unit-tested |
+| CVE tooling | `filteredCVEs()` single pipeline for table + CSV export (RFC 4180 quoting) | Every number traces to committed CVE artefacts |
+| Actor × wire fusion | `actorWireActivity(actor, items)` alias match over live wire; ATT&CK links use known group pages, search fallback otherwise | Dossier claims stay data-derived: activity chips count real wire text matches |
+| Search highlighting | `highlightHTML(text, term)` — offsets located on the raw string, then escaped; matches wrapped in `<mark>` | Untrusted-input aware — XSS containment unit-tested |
+| Honest KPI bars | Widths = active-country share / APT share / peak CVSS / maritime share, each with `role="progressbar"` + bilingual tooltip | Same doctrine that removed the fabricated trend constants in v1.1 |
+| PWA surface | `manifest.webmanifest` + generated icons (`assets/generate-app-icon.py`, pure-Python PNG encoder) | Zero-build, zero dependencies, no CSP change (same-origin fetch only) |
+
+Pipeline note: Reuters public RSS was retired upstream (404 every cycle); the feed now
+mirrors their Middle East coverage via Google News RSS. Per-feed isolation (unchanged)
+means a dead mirror degrades exactly like the dead original did — never fatally.

@@ -46,6 +46,11 @@
     ">
     <title>YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR</title>
 
+    <!-- Identity / install surfaces -->
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/yaslogist-logo-128.png">
+    <link rel="apple-touch-icon" href="assets/yaslogist-logo-128.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
     <!-- Google Fonts: Cairo, IBM Plex Sans Arabic, JetBrains Mono, Fira Code, Orbitron -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,8 +65,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=17">
-    <link rel="stylesheet" href="smart-operations.css?v=2">
+    <link rel="stylesheet" href="styles.css?v=18">
+    <link rel="stylesheet" href="smart-operations.css?v=3">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
@@ -412,9 +417,12 @@
                                     <div class="card-subtitle" id="wire-report-count" data-i18n="wireSubtitle">Real-time CTI & kinetic conflict intercepts</div>
                                 </div>
                             </div>
-                            <button class="btn-refresh" id="refresh-news-btn" title="Refresh Live Feeds" aria-label="Refresh intelligence wire">
-                                <i class="fa-solid fa-arrows-rotate"></i>
-                            </button>
+                            <div class="wire-header-actions">
+                                <span class="wire-sync-chip mono" id="wire-sync-chip" data-state="idle">AUTO SYNC · 10M</span>
+                                <button class="btn-refresh" id="refresh-news-btn" title="Refresh Live Feeds" aria-label="Refresh intelligence wire">
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                </button>
+                            </div>
                         </div>
 
                         <!-- Wire Search & Filter Tags -->
@@ -430,8 +438,12 @@
                                 <button class="filter-pill tag-pill-cyan" data-tag="MARITIME" data-i18n="tagMaritime">MARITIME</button>
                                 <button class="filter-pill tag-pill-gold" data-tag="DDoS" data-i18n="tagDdos">DDoS</button>
                                 <button class="filter-pill tag-pill-warn" data-tag="APT" data-i18n="tagApt">APT</button>
+                                <button class="filter-pill tag-pill-pin" data-tag="PINNED" title="Operator watchlist" aria-label="Filter to pinned intercepts">★ <span data-i18n="tagPinned">PINNED</span> <span class="mono" id="wire-pinned-count">0</span></button>
                             </div>
                         </div>
+
+                        <!-- Feed contribution strip: click a source to filter by it -->
+                        <div class="wire-source-strip" id="wire-source-strip" hidden aria-label="Source breakdown"></div>
 
                         <!-- Scrollable Feed Container -->
                         <div class="intel-feed-scroller" id="news-container" aria-live="polite" aria-busy="false">
@@ -457,7 +469,7 @@
                         <span class="badge-intel mono text-crimson" data-i18n="mitreCveSync">CISA KEV / MITRE</span>
                     </div>
 
-                    <!-- Severity filter + sort controls -->
+                    <!-- Severity filter + search + sort + export controls -->
                     <div class="cve-toolbar" role="group" aria-label="CVE matrix controls">
                         <div class="tactical-tags-filter" id="cve-severity-filter">
                             <button class="filter-pill active" data-severity="ALL" data-i18n="cveFilterAll">ALL</button>
@@ -465,9 +477,18 @@
                             <button class="filter-pill tag-pill-gold" data-severity="high" data-i18n="sevHigh">HIGH</button>
                             <button class="filter-pill tag-pill-cyan" data-severity="medium" data-i18n="sevMedium">MEDIUM</button>
                         </div>
-                        <button class="filter-pill cve-sort-toggle" id="cve-sort-toggle" type="button" aria-pressed="false">
-                            <i class="fa-solid fa-arrow-down-wide-short"></i> <span data-i18n="cveSortCvss">SORT: CVSS</span>
-                        </button>
+                        <div class="cve-toolbar-right">
+                            <div class="search-input-wrap small-search">
+                                <i class="fa-solid fa-magnifying-glass search-ic"></i>
+                                <input type="text" id="cve-search" placeholder="Filter CVEs by id, vendor, advisory..." data-i18n-placeholder="cveSearchPlaceholder" aria-label="Filter CVE matrix" />
+                            </div>
+                            <button class="filter-pill cve-sort-toggle" id="cve-sort-toggle" type="button" aria-pressed="false">
+                                <i class="fa-solid fa-arrow-down-wide-short"></i> <span data-i18n="cveSortCvss">SORT: CVSS</span>
+                            </button>
+                            <button class="filter-pill cve-export-btn" id="cve-export-btn" type="button" data-i18n-title="cveExportCsvTitle" title="Export the filtered CVE matrix as CSV">
+                                <i class="fa-solid fa-file-csv"></i> CSV
+                            </button>
+                        </div>
                     </div>
 
                     <div class="table-container-scroller">
@@ -535,7 +556,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- ES Modules -->
-    <script type="module" src="acid-squares-bg.js?v=17"></script>
-    <script type="module" src="app.js?v=17"></script>
+    <script type="module" src="acid-squares-bg.js?v=18"></script>
+    <script type="module" src="app.js?v=18"></script>
 </body>
 </html>
