@@ -1116,7 +1116,25 @@ class YaslogistThreatRadarApp {
                 <div class="smart-score-wrap"><span class="smart-score-label" data-smart-risk-label>RISK MODEL INDEX</span><strong id="smart-risk-score">--</strong><span id="smart-risk-trend" class="mono">CALCULATING</span></div>
             </div>
             <div class="smart-briefing-grid">
-                <div class="smart-signal-list" id="smart-signals"></div>
+                <div class="smart-signal-list" aria-label="Evidence channel vector">
+                    <div class="smart-field-head"><span class="smart-section-label">EVIDENCE VECTOR</span><span id="smart-vector-state" class="mono">3 AXES · LIVE</span></div>
+                    <div class="smart-field-body">
+                        <div class="smart-orbit" aria-hidden="true">
+                            <svg viewBox="0 0 120 120" focusable="false">
+                                <circle class="orbit-ring orbit-ring-outer" cx="60" cy="60" r="48"></circle>
+                                <circle class="orbit-ring" cx="60" cy="60" r="32"></circle>
+                                <circle class="orbit-ring orbit-ring-inner" cx="60" cy="60" r="16"></circle>
+                                <path class="orbit-axis" d="M60 12V108M12 60H108M18.4 36L101.6 84M18.4 84L101.6 36"></path>
+                                <polygon id="smart-vector-shape" points="60,22 93,79 27,79"></polygon>
+                                <circle id="smart-vector-cyber" class="vector-point point-cyber" cx="60" cy="22" r="3"></circle>
+                                <circle id="smart-vector-maritime" class="vector-point point-maritime" cx="93" cy="79" r="3"></circle>
+                                <circle id="smart-vector-recency" class="vector-point point-recency" cx="27" cy="79" r="3"></circle>
+                                <circle class="orbit-core" cx="60" cy="60" r="2.5"></circle>
+                            </svg>
+                        </div>
+                        <div id="smart-signals" role="list"></div>
+                    </div>
+                </div>
                 <div class="smart-recommendation"><span class="smart-section-label" data-smart-action-label>PRIORITY ACTION</span><p id="smart-action">Waiting for evidence…</p><span id="smart-confidence" class="mono smart-confidence">EVIDENCE COVERAGE --</span></div>
             </div>
             <div class="smart-timeline">
@@ -1147,13 +1165,47 @@ class YaslogistThreatRadarApp {
         const risk = Math.max(0, Math.min(100, Math.round(critical * 9 + high * 3 + Math.min(maritime * 2, 16) + Math.min(apt * 2, 14) + Math.min(avgCvss * 2, 20) + Math.min(intensityScore / 15, 14))));
         const confidence = Math.round(Math.min(99, 45 + (items.length ? 20 : 0) + (cves.length ? 20 : 0) + (this.feedHealth?.ok || 0) * 3));
         const ar = this.currentLang === 'ar';
-        const signals = [
-            [risk >= 70 ? 'critical' : risk >= 45 ? 'high' : 'stable', ar ? `${critical} ثغرات حرجة · ${high} مرتفعة` : `${critical} critical CVEs · ${high} high severity`],
-            [maritime >= 4 ? 'critical' : 'high', ar ? `${maritime} إنذارات بحرية · ${apt} تقارير APT` : `${maritime} maritime alerts · ${apt} APT reports`],
-            [fresh >= Math.max(3, items.length * .35) ? 'stable' : 'high', ar ? `${fresh} تقارير حديثة خلال 24 ساعة` : `${fresh} reports observed in the last 24 hours`]
+        const clamp = (value) => Math.max(0, Math.min(100, Math.round(Number(value) || 0)));
+        // Three evidence axes make the brief legible at a glance without
+        // pretending that a single score is an attribution or forecast.
+        const cyberVector = clamp(critical * 22 + high * 8 + avgCvss * 3 + apt * 2);
+        const maritimeVector = clamp(items.length ? (maritime / items.length) * 100 : 0);
+        const recencyVector = clamp(items.length ? (fresh / items.length) * 100 : 0);
+        const vectors = [
+            {
+                level: cyberVector >= 70 ? 'critical' : cyberVector >= 45 ? 'high' : 'stable',
+                channel: ar ? 'الضغط السيبراني' : 'CYBER PRESSURE', value: cyberVector,
+                detail: ar ? `${critical} حرجة · ${high} مرتفعة · CVSS ${avgCvss.toFixed(1)}` : `${critical} critical · ${high} high · CVSS ${avgCvss.toFixed(1)}`,
+                tone: 'cyber'
+            },
+            {
+                level: maritimeVector >= 55 ? 'critical' : maritimeVector >= 25 ? 'high' : 'stable',
+                channel: ar ? 'التعرض البحري' : 'MARITIME EXPOSURE', value: maritimeVector,
+                detail: ar ? `${maritime} من ${items.length} تقارير · السويس / المندب / هرمز` : `${maritime} of ${items.length} wire items · SUEZ / MANDEB / HORMUZ`,
+                tone: 'maritime'
+            },
+            {
+                level: recencyVector >= 65 ? 'stable' : recencyVector >= 35 ? 'high' : 'critical',
+                channel: ar ? 'حداثة الإشارة' : 'SIGNAL RECENCY', value: recencyVector,
+                detail: ar ? `${fresh} من ${items.length} خلال 24 ساعة` : `${fresh} of ${items.length} observed in the last 24h`,
+                tone: 'recency'
+            }
         ];
         const signalEl = document.getElementById('smart-signals');
-        if (signalEl) signalEl.innerHTML = signals.map(([level, text]) => `<div class="smart-signal"><span class="smart-signal-dot ${level}"></span><span>${escapeHTML(text)}</span></div>`).join('');
+        if (signalEl) signalEl.innerHTML = vectors.map(({ level, channel, value, detail, tone }) => `<div class="smart-signal evidence-channel channel-${tone}" role="listitem"><div class="evidence-channel-head"><span class="smart-signal-dot ${level}"></span><span class="evidence-channel-name">${escapeHTML(channel)}</span><strong class="evidence-channel-value mono">${value}%</strong></div><div class="evidence-channel-track"><span style="width:${value}%"></span></div><span class="evidence-channel-detail mono">${escapeHTML(detail)}</span></div>`).join('');
+        const vectorPoints = [
+            [60, 60 - (cyberVector * 0.38)],
+            [60 + (maritimeVector * 0.38) * 0.866, 60 + (maritimeVector * 0.38) * 0.5],
+            [60 - (recencyVector * 0.38) * 0.866, 60 + (recencyVector * 0.38) * 0.5]
+        ];
+        const vectorShape = document.getElementById('smart-vector-shape');
+        if (vectorShape) vectorShape.setAttribute('points', vectorPoints.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' '));
+        [["smart-vector-cyber", vectorPoints[0]], ["smart-vector-maritime", vectorPoints[1]], ["smart-vector-recency", vectorPoints[2]]].forEach(([id, [x, y]]) => {
+            const point = document.getElementById(id);
+            if (point) { point.setAttribute('cx', x.toFixed(1)); point.setAttribute('cy', y.toFixed(1)); }
+        });
+        const vectorState = document.getElementById('smart-vector-state');
+        if (vectorState) vectorState.textContent = ar ? '٣ محاور · مباشر' : '3 AXES · LIVE';
         const scoreEl = document.getElementById('smart-risk-score');
         if (scoreEl) scoreEl.textContent = `${risk}/100`;
         const trendEl = document.getElementById('smart-risk-trend');

@@ -38,6 +38,18 @@ float gridLine(vec2 p, float weight) {
     return 1.0 - min(min(cell.x, cell.y) / weight, 1.0);
 }
 
+float contour(vec2 p, float radius, float width) {
+    float distanceToRing = abs(length(p) - radius);
+    return 1.0 - smoothstep(width * 0.25, width, distanceToRing);
+}
+
+float vectorRay(vec2 p, float angle, float width) {
+    vec2 axis = vec2(cos(angle), sin(angle));
+    float distanceToAxis = abs(dot(p, vec2(-axis.y, axis.x)));
+    float extent = 1.0 - smoothstep(0.32, 0.72, abs(dot(p, axis)));
+    return (1.0 - smoothstep(width * 0.25, width, distanceToAxis)) * extent;
+}
+
 void main() {
     vec2 pixel = gl_FragCoord.xy;
     vec2 plane = (pixel - 0.5 * uResolution) / uResolution.y;
@@ -46,8 +58,9 @@ void main() {
         uPointer.y * 0.5
     );
 
-    // Pointer parallax has a finite influence radius and settles to a static
-    // frame. It communicates depth without moving the operator's content.
+    // The substrate reads like a quiet operations chart: orthographic grid,
+    // three evidence orbits, and a pointer-local parallax field. It is all
+    // analytic geometry, so there are no textures or dynamic fragment loops.
     vec2 offset = plane - pointer;
     float focus = exp(-dot(offset, offset) * 2.6) * uPointerActive;
     vec2 field = plane + offset * focus * 0.018;
@@ -57,20 +70,31 @@ void main() {
     float axisX = 1.0 - smoothstep(0.0, fwidth(field.x) * 1.2 + 0.0004, abs(field.x));
     float axisY = 1.0 - smoothstep(0.0, fwidth(field.y) * 1.2 + 0.0004, abs(field.y));
 
-    // Quiet navy depth ramp. Accent energy remains below foreground contrast.
-    float vertical = clamp(plane.y * 0.34 + 0.5, 0.0, 1.0);
-    vec3 color = mix(vec3(0.018, 0.030, 0.045), vec3(0.033, 0.050, 0.066), vertical);
-    color += uAccent * minorGrid * 0.022;
-    color += uAccent * majorGrid * 0.050;
-    color += mix(uAccent, uWarm, 0.35) * (axisX + axisY) * 0.035;
+    float orbitOuter = contour(field, 0.43, 0.006);
+    float orbitMiddle = contour(field, 0.29, 0.004);
+    float orbitInner = contour(field, 0.145, 0.003);
+    float vectorNorth = vectorRay(field, 1.5708, 0.0035);
+    float vectorEast = vectorRay(field, 0.0, 0.0025);
+    float vectorWest = vectorRay(field, 3.14159, 0.0025);
+    float orbitEnergy = orbitOuter * 0.72 + orbitMiddle * 0.46 + orbitInner * 0.28;
+    float rayEnergy = vectorNorth * 0.50 + vectorEast * 0.30 + vectorWest * 0.18;
 
-    // A causal focus ring appears only while the pointer is inside the page.
-    float radius = length(plane - pointer);
-    float ring = 1.0 - smoothstep(0.002, 0.010, abs(radius - 0.145));
-    color += uAccent * ring * focus * 0.055;
+    float vertical = clamp(plane.y * 0.34 + 0.5, 0.0, 1.0);
+    vec3 color = mix(vec3(0.012, 0.023, 0.036), vec3(0.030, 0.052, 0.067), vertical);
+    color += uAccent * minorGrid * 0.018;
+    color += uAccent * majorGrid * 0.043;
+    color += mix(uAccent, uWarm, 0.35) * (axisX + axisY) * 0.028;
+    color += uAccent * orbitEnergy * 0.034;
+    color += uWarm * rayEnergy * 0.024;
+
+    // The cursor only reveals the local evidence field while it is active;
+    // when idle the canvas is a single stable frame.
+    float cursorRing = 1.0 - smoothstep(0.002, 0.010, abs(length(plane - pointer) - 0.145));
+    float cursorHalo = exp(-dot(offset, offset) * 14.0);
+    color += uAccent * (cursorRing * 0.055 + cursorHalo * 0.018) * focus;
 
     float vignette = 1.0 - smoothstep(0.62, 1.32, length(plane * vec2(0.76, 1.08)));
-    color *= mix(0.70, 1.0, vignette);
+    color *= mix(0.66, 1.0, vignette);
     color += (hash12(pixel) - 0.5) * uGrain;
 
     fragColor = vec4(clamp(color, 0.0, 1.0), 1.0);
