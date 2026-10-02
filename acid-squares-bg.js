@@ -1,8 +1,7 @@
 /**
  * YASLOGIST Threat Radar — AcidSquares Background Shader
- * Native Vanilla JS ES Module using OGL (https://cdn.jsdelivr.net/npm/ogl@0.0.116/+esm)
- * With zero-build resilient WebGL 2 fallback for 100% offline & local server portability
- * Optimized for Apple Silicon (M1 Pro) & multi-threaded GPUs
+ * Native WebGL2 ES module with a deterministic offline path.
+ * Optimized for Apple Silicon (M1 Pro) and safe DPR scaling.
  */
 
 // Utility: Convert Hex color to [r, g, b] in range 0..1
@@ -24,23 +23,13 @@ void main() {
 `;
 
 const fragmentShaderSource = `#version 300 es
-precision highp float;
+precision mediump float;
 
 uniform vec2 iResolution;
 uniform float iTime;
 uniform float uSpeed;
-uniform float uWaveDepth;
 uniform float uZoom;
 uniform float uDensity;
-uniform float uSpread;
-uniform float uStepSize;
-uniform float uGlow;
-uniform float uExposure;
-uniform float uColorShift;
-uniform float uContrast;
-uniform float uBrightness;
-uniform float uOpacity;
-uniform float uSteps;
 uniform vec3 uColor1;
 uniform vec3 uColor2;
 uniform vec3 uColor3;
@@ -49,70 +38,58 @@ uniform float uMouseStrength;
 uniform float uMouseRadius;
 uniform float uEnableMouse;
 uniform float uMouseActive;
-uniform float uGrain;
+uniform float uOpacity;
+uniform float uContrast;
+uniform float uBrightness;
 uniform float uGrainIntensity;
-uniform float uLightMode;
-
 out vec4 fragColor;
 
-void main() {
-    vec2 frag = gl_FragCoord.xy;
-    float zoom = max(uZoom, 0.05);
-    float aspect = iResolution.x / iResolution.y;
-    vec2 ndc = (2.0 * frag - iResolution.xy) / iResolution.y;
-    vec2 dir = ndc * (0.5 / zoom);
-
-    vec2 mouseNdc = vec2(uMouse.x * aspect, uMouse.y);
-    float mr = max(uMouseRadius, 0.01);
-    vec2 md = ndc - mouseNdc;
-    float dent = exp(-dot(md, md) / (mr * mr)) * (3.0 * uMouseStrength * uEnableMouse * uMouseActive);
-
-    float travel = sin(iTime * uSpeed) * uWaveDepth;
-    float density = max(uDensity, 1.0);
-    float spread = clamp(uSpread, 0.05, 0.6);
-    float stepSize = max(uStepSize, 0.0005);
-    float glowGain = max(uGlow, 0.0);
-
-    vec3 tOffset = vec3(0.0, dent, travel);
-    vec3 p = vec3(0.0);
-    float s = 0.0;
-    float glow = 0.0;
-
-    for (int i = 0; i < 64; i++) {
-        if (float(i) >= uSteps) break;
-        p += vec3(dir * s, s);
-        vec3 q = p + tOffset;
-        s += density - length(q.xz) + length(ceil(q).xy);
-        s = stepSize + abs(s) * spread;
-        glow += glowGain / s;
-    }
-
-    float e = glow / max(uExposure, 1.0);
-    float shimmer = 0.5 + 0.5 * dot(cos(iTime * uColorShift + p), vec3(0.3333));
-    float v = tanh(e * uBrightness * mix(0.7, 1.05, shimmer));
-    v = clamp((v - 0.5) * uContrast + 0.5, 0.0, 1.0);
-
-    // Color gradient mapping: YASLOGIST Gold -> Tactical Amber -> Crimson Peak
-    vec3 col = mix(uColor1, uColor2, smoothstep(0.0, 0.55, v));
-    col = mix(col, uColor3, smoothstep(0.55, 1.0, v));
-    col *= v;
-
-    float a = clamp(v, 0.0, 1.0) * uOpacity;
-
-    // Grain texture for tactical HUD depth
-    if (uGrain > 0.5) {
-        float gv = (fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233)) + iTime) * 43758.5453) - 0.5) * uGrainIntensity;
-        col = clamp(col + gv, 0.0, 1.0);
-        a = clamp(a + gv, 0.0, 1.0);
-    }
-
-    // Base obsidian background (#07090e)
-    vec3 bgObsidian = vec3(0.027, 0.035, 0.055);
-    vec3 finalRgb = mix(bgObsidian, col, a);
-
-    fragColor = vec4(finalRgb, 1.0);
+// A bounded 3D lattice: one fullscreen triangle, fixed 24-step march.
+// The fold keeps detail near the camera without unbounded ray distance.
+float lattice(vec3 p) {
+    vec3 cell = abs(fract(p) - 0.5);
+    float edge = min(min(cell.x, cell.y), cell.z);
+    float seam = 1.0 - smoothstep(0.015, 0.055, edge);
+    float face = 1.0 - smoothstep(0.11, 0.48, max(cell.x, max(cell.y, cell.z)));
+    return seam * 0.72 + face * 0.12;
 }
-`;
+
+void main() {
+    vec2 uv = (2.0 * gl_FragCoord.xy - iResolution.xy) / iResolution.y;
+    vec2 mouse = vec2(uMouse.x * iResolution.x / iResolution.y, uMouse.y);
+    float focus = exp(-dot(uv - mouse, uv - mouse) / max(uMouseRadius * uMouseRadius, 0.02));
+    uv += (uv - mouse) * focus * uMouseStrength * uEnableMouse * uMouseActive;
+
+    float time = iTime * uSpeed;
+    vec3 ray = normalize(vec3(uv / max(uZoom, 0.2), 1.15));
+    float depth = 0.0;
+    float glow = 0.0;
+    float bands = 0.0;
+    for (int i = 0; i < 24; i++) {
+        float fi = float(i);
+        vec3 p = ray * depth;
+        p.z += time * 0.16;
+        p.xy += vec2(sin(time * 0.18), cos(time * 0.14)) * 0.12;
+        p *= max(uDensity * 0.085, 0.35);
+        p += vec3(sin(fi * 1.7), cos(fi * 1.3), fi * 0.21);
+        float field = lattice(p);
+        float weight = 1.0 - fi / 27.0;
+        glow += field * weight;
+        bands += smoothstep(0.2, 0.9, field) * weight;
+        depth += 0.045 + field * 0.018;
+    }
+
+    float value = clamp(glow * 0.22 + bands * 0.035, 0.0, 1.0);
+    value = clamp((value - 0.35) * uContrast + 0.35, 0.0, 1.0) * uBrightness;
+    vec3 col = mix(uColor1, uColor2, smoothstep(0.08, 0.62, value));
+    col = mix(col, uColor3, smoothstep(0.58, 1.0, value));
+    float grain = (fract(sin(dot(gl_FragCoord.xy + iTime, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * uGrainIntensity;
+    col = clamp(col + grain, 0.0, 1.0);
+    vec3 base = vec3(0.012, 0.021, 0.035);
+    float alpha = clamp(value * uOpacity + bands * 0.025, 0.0, 1.0);
+    fragColor = vec4(mix(base, col, alpha), 1.0);
+}
+`
 
 export class AcidSquaresBackground {
     constructor(options = {}) {
@@ -130,7 +107,7 @@ export class AcidSquaresBackground {
             stepSize: 0.002,
             grain: 1.0,
             grainIntensity: 0.05,
-            steps: 32,             // detail: medium (32 steps)
+            steps: 24,             // retained for compatibility with saved configs
             opacity: 0.85,
             brightness: 1.0,
             contrast: 1.0,
@@ -201,21 +178,9 @@ export class AcidSquaresBackground {
             this.container.innerHTML = '';
             this.container.appendChild(this.canvas);
 
-            // Attempt OGL ES Module from CDN, with native WebGL2 fallback
-            let useOGL = false;
-            try {
-                const oglModule = await import('https://cdn.jsdelivr.net/npm/ogl@0.0.116/+esm');
-                if (oglModule && oglModule.Renderer && oglModule.Program) {
-                    this.initOGL(oglModule);
-                    useOGL = true;
-                }
-            } catch (cdnErr) {
-                console.warn('[YASLOGIST] OGL CDN remote import unreachable, switching to native WebGL2 pipeline:', cdnErr.message || cdnErr);
-            }
-
-            if (!useOGL) {
-                this.initNativeWebGL2();
-            }
+            // Native WebGL2 is deliberately the primary path: one context, no
+            // runtime CDN import, and a deterministic CSP/offline surface.
+            this.initNativeWebGL2();
 
             this.bindEvents();
             this.onResize();
@@ -224,61 +189,6 @@ export class AcidSquaresBackground {
         } catch (err) {
             console.error('[YASLOGIST] WebGL Shader initialization failed:', err);
         }
-    }
-
-    initOGL(ogl) {
-        const { Renderer, Program, Mesh, Triangle } = ogl;
-        const dpr = Math.min(window.devicePixelRatio || 1, 2);
-
-        this.renderer = new Renderer({
-            canvas: this.canvas,
-            webgl: 2,
-            alpha: false,
-            antialias: false,
-            dpr: dpr
-        });
-
-        this.gl = this.renderer.gl;
-        const c1 = hexToRgb(this.options.color1);
-        const c2 = hexToRgb(this.options.color2);
-        const c3 = hexToRgb(this.options.color3);
-
-        const geometry = new Triangle(this.gl);
-        this.program = new Program(this.gl, {
-            vertex: vertexShaderSource,
-            fragment: fragmentShaderSource,
-            uniforms: {
-                iTime: { value: 0 },
-                iResolution: { value: new Float32Array([window.innerWidth, window.innerHeight]) },
-                uSpeed: { value: this.options.speed },
-                uWaveDepth: { value: this.options.waveDepth },
-                uZoom: { value: this.options.zoom },
-                uDensity: { value: this.options.density },
-                uSpread: { value: this.options.spread },
-                uStepSize: { value: this.options.stepSize },
-                uGlow: { value: this.options.glow },
-                uExposure: { value: this.options.exposure },
-                uColorShift: { value: this.options.colorShift },
-                uContrast: { value: this.options.contrast },
-                uBrightness: { value: this.options.brightness },
-                uOpacity: { value: this.options.opacity },
-                uSteps: { value: this.options.steps },
-                uColor1: { value: new Float32Array(c1) },
-                uColor2: { value: new Float32Array(c2) },
-                uColor3: { value: new Float32Array(c3) },
-                uMouse: { value: new Float32Array([0, 0]) },
-                uMouseStrength: { value: this.options.mouseStrength },
-                uMouseRadius: { value: this.options.mouseRadius },
-                uEnableMouse: { value: this.options.mouseInteraction ? 1.0 : 0.0 },
-                uMouseActive: { value: 0.0 },
-                uGrain: { value: this.options.grain },
-                uGrainIntensity: { value: this.options.grainIntensity },
-                uLightMode: { value: 0.0 }
-            }
-        });
-
-        this.mesh = new Mesh(this.gl, { geometry, program: this.program });
-        this.isOGL = true;
     }
 
     initNativeWebGL2() {
@@ -314,6 +224,9 @@ export class AcidSquaresBackground {
         gl.attachShader(prog, vs);
         gl.attachShader(prog, fs);
         gl.linkProgram(prog);
+        // Shader objects are no longer needed after linking; release them now.
+        gl.deleteShader(vs);
+        gl.deleteShader(fs);
 
         if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
             console.error('[YASLOGIST] Program link error:', gl.getProgramInfoLog(prog));
@@ -325,6 +238,7 @@ export class AcidSquaresBackground {
         // Fullscreen Triangle Geometry
         const quad = new Float32Array([-1, -1, 3, -1, -1, 3]);
         const vbo = gl.createBuffer();
+        this.vertexBuffer = vbo;
         gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
         gl.bufferData(gl.ARRAY_BUFFER, quad, gl.STATIC_DRAW);
 
@@ -335,11 +249,10 @@ export class AcidSquaresBackground {
         // Cache uniform locations
         this.uniformLocs = {};
         const uNames = [
-            'iResolution', 'iTime', 'uSpeed', 'uWaveDepth', 'uZoom', 'uDensity',
-            'uSpread', 'uStepSize', 'uGlow', 'uExposure', 'uColorShift', 'uContrast',
-            'uBrightness', 'uOpacity', 'uSteps', 'uColor1', 'uColor2', 'uColor3',
-            'uMouse', 'uMouseStrength', 'uMouseRadius', 'uEnableMouse', 'uMouseActive',
-            'uGrain', 'uGrainIntensity', 'uLightMode'
+            'iResolution', 'iTime', 'uSpeed', 'uZoom', 'uDensity', 'uContrast',
+            'uBrightness', 'uOpacity', 'uColor1', 'uColor2', 'uColor3', 'uMouse',
+            'uMouseStrength', 'uMouseRadius', 'uEnableMouse', 'uMouseActive',
+            'uGrainIntensity'
         ];
         uNames.forEach(name => {
             this.uniformLocs[name] = gl.getUniformLocation(prog, name);
@@ -351,30 +264,36 @@ export class AcidSquaresBackground {
         const c3 = hexToRgb(this.options.color3);
 
         gl.uniform1f(this.uniformLocs.uSpeed, this.options.speed);
-        gl.uniform1f(this.uniformLocs.uWaveDepth, this.options.waveDepth);
         gl.uniform1f(this.uniformLocs.uZoom, this.options.zoom);
         gl.uniform1f(this.uniformLocs.uDensity, this.options.density);
-        gl.uniform1f(this.uniformLocs.uSpread, this.options.spread);
-        gl.uniform1f(this.uniformLocs.uStepSize, this.options.stepSize);
-        gl.uniform1f(this.uniformLocs.uGlow, this.options.glow);
-        gl.uniform1f(this.uniformLocs.uExposure, this.options.exposure);
-        gl.uniform1f(this.uniformLocs.uColorShift, this.options.colorShift);
         gl.uniform1f(this.uniformLocs.uContrast, this.options.contrast);
         gl.uniform1f(this.uniformLocs.uBrightness, this.options.brightness);
         gl.uniform1f(this.uniformLocs.uOpacity, this.options.opacity);
-        gl.uniform1f(this.uniformLocs.uSteps, this.options.steps);
         gl.uniform3fv(this.uniformLocs.uColor1, c1);
         gl.uniform3fv(this.uniformLocs.uColor2, c2);
         gl.uniform3fv(this.uniformLocs.uColor3, c3);
         gl.uniform1f(this.uniformLocs.uMouseStrength, this.options.mouseStrength);
         gl.uniform1f(this.uniformLocs.uMouseRadius, this.options.mouseRadius);
         gl.uniform1f(this.uniformLocs.uEnableMouse, this.options.mouseInteraction ? 1.0 : 0.0);
-        gl.uniform1f(this.uniformLocs.uGrain, this.options.grain);
         gl.uniform1f(this.uniformLocs.uGrainIntensity, this.options.grainIntensity);
-        gl.uniform1f(this.uniformLocs.uLightMode, 0.0);
     }
 
     bindEvents() {
+        this.handleContextLost = (event) => {
+            event.preventDefault();
+            this.stop();
+            if (this.container) this.container.dataset.context = 'lost';
+        };
+        this.handleContextRestored = () => {
+            if (!this.canvas || !this.isPageVisible) return;
+            this.destroyGL();
+            this.initNativeWebGL2();
+            this.onResize();
+            if (this.container) delete this.container.dataset.context;
+            this.start();
+        };
+        this.canvas.addEventListener('webglcontextlost', this.handleContextLost, false);
+        this.canvas.addEventListener('webglcontextrestored', this.handleContextRestored, false);
         this.handleResize = () => this.onResize();
         window.addEventListener('resize', this.handleResize, { passive: true });
 
@@ -490,17 +409,13 @@ export class AcidSquaresBackground {
     }
 
     /**
-     * Adaptive quality ladder. DPR 2 -> 1.5 -> 1, raymarch steps
-     * 32 -> 24 -> 16 -> 8, then finally freeze to a static frame.
-     * Every step keeps the scene visually identical in style, just cheaper.
+     * Adaptive quality ladder. DPR 2 -> 1.5 -> 1, then freeze to a
+     * static frame. The shader itself uses a fixed bounded loop.
      */
     stepDownQuality() {
         const q = this.quality;
         if (q.dpr > 1.5) q.dpr = 1.5;
         else if (q.dpr > 1) q.dpr = 1;
-        else if (q.steps > 24) q.steps = 24;
-        else if (q.steps > 16) q.steps = 16;
-        else if (q.steps > 8) q.steps = 8;
         else { this.degradeToStatic(); return; }
         q.downgrades++;
         console.info(`[YASLOGIST] Shader auto-tuned for smoothness (dpr=${q.dpr}, steps=${q.steps}).`);
@@ -508,11 +423,6 @@ export class AcidSquaresBackground {
     }
 
     applyQuality() {
-        if (this.program) this.program.uniforms.uSteps.value = this.quality.steps;
-        if (this.glProgram && this.uniformLocs && this.uniformLocs.uSteps) {
-            this.gl.useProgram(this.glProgram);
-            this.gl.uniform1f(this.uniformLocs.uSteps, this.quality.steps);
-        }
         this.dprOverride = this.quality.dpr < 2 ? this.quality.dpr : null;
         this.onResize();
     }
@@ -522,6 +432,33 @@ export class AcidSquaresBackground {
         this.renderStaticFrame();
         if (this.container) this.container.dataset.degraded = 'true';
         console.info('[YASLOGIST] Shader degraded to a static frame to protect frame rate on this device.');
+    }
+
+    destroyGL() {
+        if (!this.gl) return;
+        if (this.isOGL) return; // kept for backwards-compatible instances
+        const gl = this.gl;
+        if (this.glProgram) gl.deleteProgram(this.glProgram);
+        if (this.vertexBuffer) gl.deleteBuffer(this.vertexBuffer);
+        this.glProgram = null;
+        this.vertexBuffer = null;
+    }
+
+    /** Release the context-facing resources and every global listener. */
+    destroy() {
+        this.stop();
+        if (this.handleResize) window.removeEventListener('resize', this.handleResize);
+        if (this.handlePointerMove) window.removeEventListener('pointermove', this.handlePointerMove);
+        if (this.handlePointerLeave) window.removeEventListener('mouseleave', this.handlePointerLeave);
+        if (this.handleVisibility) document.removeEventListener('visibilitychange', this.handleVisibility);
+        if (this.canvas) {
+            this.canvas.removeEventListener('webglcontextlost', this.handleContextLost);
+            this.canvas.removeEventListener('webglcontextrestored', this.handleContextRestored);
+        }
+        this.destroyGL();
+        this.gl = null;
+        this.canvas?.remove();
+        this.canvas = null;
     }
 
     stop() {

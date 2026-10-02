@@ -18,7 +18,7 @@ Operators open one static URL and see a **honest, current, bilingual** common pi
 | Vanilla ES modules, no bundler | `index.html` script tags; no build config | CONFIRMED |
 | Leaflet 1.9.4 + Esri tiles | `index.html`, `threat-map.js` tile URLs | CONFIRMED |
 | Chart.js 4.4.7 UMD | `index.html` (pinned + SRI) | CONFIRMED |
-| OGL 0.0.116 (optional) + native WebGL2 fallback | `acid-squares-bg.js` dynamic import | CONFIRMED |
+| Native WebGL2 fullscreen triangle | `acid-squares-bg.js` | CONFIRMED |
 | Node >= 20 pipeline, native fetch | `update_data.js`, `package.json` engines | CONFIRMED |
 | GitHub Actions cron `0 */2 * * *` | `.github/workflows/update-data.yml` | CONFIRMED |
 | rss2json browser overlay (read-only proxy) | `app.js fetchSingleFeed` | CONFIRMED |

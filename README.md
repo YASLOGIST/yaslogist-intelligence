@@ -81,7 +81,7 @@ flowchart LR
         UI[Vanilla ES modules]
         MAP[Leaflet tactical map]
         CHART[Chart.js telemetry]
-        VFX[OGL / WebGL visuals]
+        VFX[Native WebGL2 visuals]
     end
 
     RSS --> COLLECT
@@ -194,7 +194,7 @@ Scheduled at `0 */2 * * *` ([`update-data.yml`](.github/workflows/update-data.ym
 5  Footer stamps true pipeline age; stale state escalates visually
 ```
 
-**Degraded path:** no connectivity, artifact 404, or rejected CDN → last committed picture stays, status flags the cause. Core intelligence never depends on the WebGL layer.
+**Degraded path:** no connectivity, artifact 404, or rejected dependency → last committed picture stays, status flags the cause. Core intelligence never depends on the WebGL layer.
 
 ### 3.3 Operator loop — common on-shift actions
 
