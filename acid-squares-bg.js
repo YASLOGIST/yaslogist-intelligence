@@ -1,7 +1,25 @@
 /**
- * YASLOGIST Threat Radar — AcidSquares Background Shader
- * Native WebGL2 ES module with a deterministic offline path.
- * Optimized for Apple Silicon (M1 Pro) and safe DPR scaling.
+ * YASLOGIST Threat Radar — AcidSquares Background Shader (v2)
+ * Native WebGL2 fullscreen-triangle pass. Zero runtime dependencies,
+ * deterministic offline path, CSP-clean (no CDN script needed).
+ *
+ * v2 changes:
+ *  - The `steps` quality option is real now: the march loop is bounded by a
+ *    uSteps uniform instead of a hardcoded 24, so the adaptive ladder can
+ *    trade raymarch depth for frame time WITHOUT recompiling the shader
+ *    (avoids shader-program churn under load).
+ *  - Adaptive ladder follows the documented doctrine in full:
+ *    DPR 2 → 1.5 → 1, then steps 32 → 24 → 16 → 8, then a static frame.
+ *  - The former DOM overlay stack (fullscreen `hud-container::before`
+ *    diagonal data-lines, `body::before` atmosphere glows and the
+ *    `body::after` CRT scanline texture — each a permanent fullscreen
+ *    composited layer, one of them repainted every frame via
+ *    background-position) is absorbed into this single GPU pass.
+ *    Net effect: identical visual language, zero main-thread repaint cost,
+ *    three fewer fullscreen layers.
+ *  - Subtle vignette anchors the composition behind the glass panels.
+ *  - Reduced-motion / degraded static frame re-renders on resize
+ *    (previously the one-shot frame was stretched after viewport changes).
  */
 
 // Utility: Convert Hex color to [r, g, b] in range 0..1
@@ -30,6 +48,7 @@ uniform float iTime;
 uniform float uSpeed;
 uniform float uZoom;
 uniform float uDensity;
+uniform float uSteps;        // live march depth: 8..32 (quality ladder)
 uniform vec3 uColor1;
 uniform vec3 uColor2;
 uniform vec3 uColor3;
@@ -42,9 +61,12 @@ uniform float uOpacity;
 uniform float uContrast;
 uniform float uBrightness;
 uniform float uGrainIntensity;
+uniform float uOverlay;      // 1 = scanlines + data-line weave + atmosphere
 out vec4 fragColor;
 
-// A bounded 3D lattice: one fullscreen triangle, fixed 24-step march.
+const int MAX_STEPS = 32;
+
+// A bounded 3D lattice: one fullscreen triangle, uniform-bounded march.
 // The fold keeps detail near the camera without unbounded ray distance.
 float lattice(vec3 p) {
     vec3 cell = abs(fract(p) - 0.5);
@@ -54,18 +76,37 @@ float lattice(vec3 p) {
     return seam * 0.72 + face * 0.12;
 }
 
+// Soft periodic line profile for the diagonal data-line weave.
+// t is normalized distance to the nearest line (0 on the line, 0.5 midway).
+float dataLine(float t) {
+    float p = abs(t);
+    float l = 1.0 - smoothstep(0.045, 0.115, p);
+    // Peak emphasis near the line core; edges ascending (GLSL ES smoothstep
+    // is undefined when edge0 >= edge1).
+    float core = 1.0 - smoothstep(0.012, 0.10, p);
+    return l * (0.05 + 0.10 * core);
+}
+
 void main() {
-    vec2 uv = (2.0 * gl_FragCoord.xy - iResolution.xy) / iResolution.y;
+    vec2 px = gl_FragCoord.xy;
+    vec2 uv0 = (2.0 * px - iResolution.xy) / iResolution.y;   // aspect-true, lens-free
+    vec2 uv = uv0;
     vec2 mouse = vec2(uMouse.x * iResolution.x / iResolution.y, uMouse.y);
-    float focus = exp(-dot(uv - mouse, uv - mouse) / max(uMouseRadius * uMouseRadius, 0.02));
-    uv += (uv - mouse) * focus * uMouseStrength * uEnableMouse * uMouseActive;
+    vec2 lens = uv - mouse;
+    float focus = exp(-dot(lens, lens) / max(uMouseRadius * uMouseRadius, 0.02));
+    uv += lens * focus * uMouseStrength * uEnableMouse * uMouseActive;
 
     float time = iTime * uSpeed;
     vec3 ray = normalize(vec3(uv / max(uZoom, 0.2), 1.15));
     float depth = 0.0;
     float glow = 0.0;
     float bands = 0.0;
-    for (int i = 0; i < 24; i++) {
+    int steps = clamp(int(uSteps + 0.5), 8, MAX_STEPS);
+    // Weight normalizer keeps perceived luminance stable across the quality
+    // ladder, so a downgrade dims detail instead of flashing darker.
+    float norm = 1.0 / (float(steps) + 3.0);
+    for (int i = 0; i < MAX_STEPS; i++) {
+        if (i >= steps) break;
         float fi = float(i);
         vec3 p = ray * depth;
         p.z += time * 0.16;
@@ -73,23 +114,77 @@ void main() {
         p *= max(uDensity * 0.085, 0.35);
         p += vec3(sin(fi * 1.7), cos(fi * 1.3), fi * 0.21);
         float field = lattice(p);
-        float weight = 1.0 - fi / 27.0;
+        float weight = 1.0 - fi * norm;
         glow += field * weight;
         bands += smoothstep(0.2, 0.9, field) * weight;
         depth += 0.045 + field * 0.018;
     }
 
-    float value = clamp(glow * 0.22 + bands * 0.035, 0.0, 1.0);
+    // Energy normalization: the accumulated march energy scales with step
+    // count, so without compensation 32 steps (today's real tier) renders
+    // ~30% hotter than the 24-step tuning baseline, flooding the frame in
+    // crimson. Normalize to the 24-step energy budget (13.7778); the clamp
+    // band is the exact tier range (32 -> 0.77, 8 -> 2.53), keeping every
+    // ladder tier in the same exposure window (verified p50 0.196..0.217).
+    float energy = glow * 0.22 + bands * 0.035;
+    float wsum = float(steps) * (1.0 - float(steps - 1) / (2.0 * float(steps + 3)));
+    float value = clamp(energy * clamp(13.7778 / wsum, 0.7, 2.6), 0.0, 1.0);
     value = clamp((value - 0.35) * uContrast + 0.35, 0.0, 1.0) * uBrightness;
-    vec3 col = mix(uColor1, uColor2, smoothstep(0.08, 0.62, value));
-    col = mix(col, uColor3, smoothstep(0.58, 1.0, value));
-    float grain = (fract(sin(dot(gl_FragCoord.xy + iTime, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * uGrainIntensity;
-    col = clamp(col + grain, 0.0, 1.0);
+
+    // Grade: cubic compressive curve — darks sink to the navy base, the gold
+    // lattice holds the mids, crimson appears only at true alert peaks.
+    float vs = value * value * value;
+    vec3 col = mix(uColor1, uColor2, smoothstep(0.08, 0.62, vs));
+    col = mix(col, uColor3, smoothstep(0.58, 1.0, vs));
     vec3 base = vec3(0.012, 0.021, 0.035);
-    float alpha = clamp(value * uOpacity + bands * 0.025, 0.0, 1.0);
-    fragColor = vec4(mix(base, col, alpha), 1.0);
+    float alpha = clamp(vs * uOpacity * 0.9 + bands * 0.015, 0.0, 1.0);
+    col = mix(base, col, alpha);
+
+    if (uOverlay > 0.5) {
+        // Atmosphere glows (absorbed body::before; cyan / gold / violet)
+        vec2 c1 = vec2(-0.85 * iResolution.x / iResolution.y * 0.62, 0.0);
+        vec2 c2 = vec2( 0.85 * iResolution.x / iResolution.y * 0.74, 0.35);
+        vec2 c3 = vec2(0.0, -0.62);
+        col += vec3(0.024, 0.710, 0.831) * 0.085 * exp(-dot(uv0 - c1, uv0 - c1) * 2.2);
+        col += vec3(0.918, 0.702, 0.031) * 0.080 * exp(-dot(uv0 - c2, uv0 - c2) * 2.2);
+        col += vec3(0.659, 0.333, 0.969) * 0.080 * exp(-dot(uv0 - c3, uv0 - c3) * 2.2);
+
+        // Diagonal data-line weave (absorbed hud-container::before neon-sweep).
+        // Two drift phases keep the composition alive; period is viewport-
+        // scaled so roughly one line of each family is on screen at a time.
+        float aspect = iResolution.x / iResolution.y;
+        float period = max(aspect, 1.0) * 1.35;
+        float driftA = fract(iTime / 15.0) * period;
+        float driftB = fract(iTime / 15.0 + 0.5) * period;
+        float axis1 = (uv0.x + uv0.y) * 0.7071;
+        float axis2 = (uv0.x - uv0.y) * 0.7071;
+        col += vec3(0.024, 0.710, 0.831) * dataLine(fract((axis1 - driftA) / period + 0.5) - 0.5);
+        col += vec3(0.659, 0.333, 0.969) * dataLine(fract((axis2 + driftB) / period + 0.5) - 0.5);
+        col += vec3(0.918, 0.702, 0.031) * dataLine(fract((uv0.x + driftA * 0.6) / period + 0.5) - 0.5) * 0.6;
+
+        // CRT scanline texture (absorbed body::after): 4px horizontal
+        // stripe + 6px vertical channel fringe, at the original ~0.3 layer
+        // opacity baked into the constants.
+        float damp = 0.033 * step(0.5, fract(px.y * 0.25));
+        col *= 1.0 - damp;
+        float ch = mod(px.x, 6.0);
+        col.r += ch < 2.0 ? 0.010 : 0.0;
+        col.g += (ch >= 2.0 && ch < 4.0) ? 0.004 : 0.0;
+        col.b += ch >= 4.0 ? 0.010 : 0.0;
+    }
+
+    // Vignette (computed on the undistorted plane so the mouse lens never
+    // drags the frame edges). smoothstep edges are kept ascending — the
+    // inverted-edge form is undefined behavior in GLSL ES.
+    float vig = 1.0 - smoothstep(0.8, 2.35, length(uv0 * vec2(0.92, 1.18)));
+    col *= mix(0.74, 1.0, vig);
+
+    // Animated grain: dithers the dark gradient and breaks banding.
+    float grain = (fract(sin(dot(px + iTime, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * uGrainIntensity;
+    col = clamp(col + grain, 0.0, 1.0);
+    fragColor = vec4(col, 1.0);
 }
-`
+`;
 
 export class AcidSquaresBackground {
     constructor(options = {}) {
@@ -98,20 +193,14 @@ export class AcidSquaresBackground {
             color2: '#D97706',      // Tactical Amber Midtone
             color3: '#EF4444',      // Tactical Crimson Alert Peak
             speed: 0.7,
-            waveDepth: 1.0,
             zoom: 1.3,
             density: 10.0,
-            glow: 1.0,
-            exposure: 2700.0,
-            spread: 0.3,
-            stepSize: 0.002,
-            grain: 1.0,
             grainIntensity: 0.05,
-            steps: 24,             // retained for compatibility with saved configs
+            steps: 32,
             opacity: 0.85,
             brightness: 1.0,
             contrast: 1.0,
-            colorShift: 0.0,
+            overlay: true,
             mouseInteraction: true,
             mouseStrength: 0.15,
             mouseRadius: 0.35,
@@ -124,6 +213,7 @@ export class AcidSquaresBackground {
         this.mouseActiveTarget = 0;
         this.raf = null;
         this.isPageVisible = !document.hidden;
+        this.degraded = false;
 
         // Accessibility + adaptive performance budget.
         // Reduced-motion users get one rich static frame, never an animation.
@@ -132,13 +222,27 @@ export class AcidSquaresBackground {
         this.reducedMotion = typeof window !== 'undefined'
             && typeof window.matchMedia === 'function'
             && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        this.quality = {
-            dpr: typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1,
-            steps: this.options.steps,
-            downgrades: 0
-        };
-        this.dprOverride = null;
+
+        // Quality ladder (documented doctrine):
+        //   DPR 2 → 1.5 → 1, then steps 32 → 24 → 16 → 8, then static.
+        // DPR entries that the device cannot reach are skipped, so a native-1
+        // display runs straight through the steps ladder.
+        const deviceDpr = typeof window !== 'undefined'
+            ? Math.min(window.devicePixelRatio || 1, 2) : 1;
+        const requestedSteps = Math.max(8, Math.min(32, this.options.steps | 0));
+        const ladder = [];
+        ladder.push({ dpr: deviceDpr, steps: requestedSteps });
+        if (deviceDpr > 1.5) ladder.push({ dpr: 1.5, steps: requestedSteps });
+        if (deviceDpr > 1) ladder.push({ dpr: 1.0, steps: requestedSteps });
+        const floorDpr = ladder[ladder.length - 1].dpr;
+        for (const s of [24, 16, 8]) {
+            ladder.push({ dpr: floorDpr, steps: Math.min(s, requestedSteps) });
+        }
+        // Drop consecutive duplicates (e.g. requestedSteps=16 makes 24→16 a no-op)
+        this.ladder = ladder.filter((t, i) => i === 0 || t.dpr !== ladder[i - 1].dpr || t.steps !== ladder[i - 1].steps);
+        this.tier = 0;
         this.perf = { frames: 0, accum: 0, last: 0 };
+        this.pendingResize = false;
 
         this.init();
     }
@@ -178,23 +282,24 @@ export class AcidSquaresBackground {
             this.container.innerHTML = '';
             this.container.appendChild(this.canvas);
 
-            // Native WebGL2 is deliberately the primary path: one context, no
+            // Native WebGL2 is deliberately the only path: one context, no
             // runtime CDN import, and a deterministic CSP/offline surface.
-            this.initNativeWebGL2();
+            this.initWebGL();
 
             this.bindEvents();
-            this.onResize();
+            this.applyViewport();
             this.start();
-            console.log('[YASLOGIST] <AcidSquares /> Background Shader online (YASLOGIST Gold / Amber / Crimson).');
+            console.log('[YASLOGIST] AcidSquares v2 shader online (Gold Core / Amber / Crimson).');
         } catch (err) {
             console.error('[YASLOGIST] WebGL Shader initialization failed:', err);
         }
     }
 
-    initNativeWebGL2() {
+    initWebGL() {
         const gl = this.canvas.getContext('webgl2', {
             alpha: false,
             antialias: false,
+            desynchronized: true,          // hint: present the frame with minimal latency
             powerPreference: 'high-performance'
         });
 
@@ -204,7 +309,6 @@ export class AcidSquaresBackground {
         }
 
         this.gl = gl;
-        this.isOGL = false;
 
         // Compile Shaders
         const compile = (type, src) => {
@@ -213,6 +317,8 @@ export class AcidSquaresBackground {
             gl.compileShader(s);
             if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
                 console.error('[YASLOGIST] Shader compile error:', gl.getShaderInfoLog(s));
+                gl.deleteShader(s);
+                return null;
             }
             return s;
         };
@@ -221,15 +327,19 @@ export class AcidSquaresBackground {
         const fs = compile(gl.FRAGMENT_SHADER, fragmentShaderSource);
 
         const prog = gl.createProgram();
-        gl.attachShader(prog, vs);
-        gl.attachShader(prog, fs);
-        gl.linkProgram(prog);
-        // Shader objects are no longer needed after linking; release them now.
-        gl.deleteShader(vs);
-        gl.deleteShader(fs);
+        if (vs && fs) {
+            gl.attachShader(prog, vs);
+            gl.attachShader(prog, fs);
+            gl.linkProgram(prog);
+        }
+        if (vs) gl.deleteShader(vs);
+        if (fs) gl.deleteShader(fs);
 
         if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
             console.error('[YASLOGIST] Program link error:', gl.getProgramInfoLog(prog));
+            gl.deleteProgram(prog);
+            this.glProgram = null;
+            return;
         }
 
         this.glProgram = prog;
@@ -249,33 +359,31 @@ export class AcidSquaresBackground {
         // Cache uniform locations
         this.uniformLocs = {};
         const uNames = [
-            'iResolution', 'iTime', 'uSpeed', 'uZoom', 'uDensity', 'uContrast',
-            'uBrightness', 'uOpacity', 'uColor1', 'uColor2', 'uColor3', 'uMouse',
-            'uMouseStrength', 'uMouseRadius', 'uEnableMouse', 'uMouseActive',
-            'uGrainIntensity'
+            'iResolution', 'iTime', 'uSpeed', 'uZoom', 'uDensity', 'uSteps',
+            'uContrast', 'uBrightness', 'uOpacity', 'uColor1', 'uColor2',
+            'uColor3', 'uMouse', 'uMouseStrength', 'uMouseRadius',
+            'uEnableMouse', 'uMouseActive', 'uGrainIntensity', 'uOverlay'
         ];
         uNames.forEach(name => {
             this.uniformLocs[name] = gl.getUniformLocation(prog, name);
         });
 
         // Set static uniforms
-        const c1 = hexToRgb(this.options.color1);
-        const c2 = hexToRgb(this.options.color2);
-        const c3 = hexToRgb(this.options.color3);
-
         gl.uniform1f(this.uniformLocs.uSpeed, this.options.speed);
         gl.uniform1f(this.uniformLocs.uZoom, this.options.zoom);
         gl.uniform1f(this.uniformLocs.uDensity, this.options.density);
+        gl.uniform1f(this.uniformLocs.uSteps, this.ladder[this.tier].steps);
         gl.uniform1f(this.uniformLocs.uContrast, this.options.contrast);
         gl.uniform1f(this.uniformLocs.uBrightness, this.options.brightness);
         gl.uniform1f(this.uniformLocs.uOpacity, this.options.opacity);
-        gl.uniform3fv(this.uniformLocs.uColor1, c1);
-        gl.uniform3fv(this.uniformLocs.uColor2, c2);
-        gl.uniform3fv(this.uniformLocs.uColor3, c3);
+        gl.uniform3fv(this.uniformLocs.uColor1, hexToRgb(this.options.color1));
+        gl.uniform3fv(this.uniformLocs.uColor2, hexToRgb(this.options.color2));
+        gl.uniform3fv(this.uniformLocs.uColor3, hexToRgb(this.options.color3));
         gl.uniform1f(this.uniformLocs.uMouseStrength, this.options.mouseStrength);
         gl.uniform1f(this.uniformLocs.uMouseRadius, this.options.mouseRadius);
         gl.uniform1f(this.uniformLocs.uEnableMouse, this.options.mouseInteraction ? 1.0 : 0.0);
         gl.uniform1f(this.uniformLocs.uGrainIntensity, this.options.grainIntensity);
+        gl.uniform1f(this.uniformLocs.uOverlay, this.options.overlay ? 1.0 : 0.0);
     }
 
     bindEvents() {
@@ -287,14 +395,26 @@ export class AcidSquaresBackground {
         this.handleContextRestored = () => {
             if (!this.canvas || !this.isPageVisible) return;
             this.destroyGL();
-            this.initNativeWebGL2();
-            this.onResize();
+            this.initWebGL();
+            this.applyViewport();
             if (this.container) delete this.container.dataset.context;
             this.start();
+            if (this.reducedMotion || this.degraded) this.renderStaticFrame();
         };
-        this.canvas.addEventListener('webglcontextlost', this.handleContextLost, false);
-        this.canvas.addEventListener('webglcontextrestored', this.handleContextRestored, false);
-        this.handleResize = () => this.onResize();
+        if (this.canvas) {
+            this.canvas.addEventListener('webglcontextlost', this.handleContextLost, false);
+            this.canvas.addEventListener('webglcontextrestored', this.handleContextRestored, false);
+        }
+        this.handleResize = () => {
+            // Coalesce bursts (mobile URL-bar collapse, pinch zoom) into the
+            // next animation frame; static frames re-render immediately.
+            if (this.degraded || this.reducedMotion || !this.raf) {
+                this.applyViewport();
+                if (this.degraded || this.reducedMotion) this.renderStaticFrame();
+                return;
+            }
+            this.pendingResize = true;
+        };
         window.addEventListener('resize', this.handleResize, { passive: true });
 
         this.handlePointerMove = (e) => {
@@ -302,7 +422,8 @@ export class AcidSquaresBackground {
             const h = window.innerHeight || 1;
             const x = (e.clientX / w - 0.5) * 2.0;
             const y = -(e.clientY / h - 0.5) * 2.0;
-            this.mouseTarget = [x, y];
+            this.mouseTarget[0] = x;
+            this.mouseTarget[1] = y;
             this.mouseActiveTarget = 1.0;
         };
         window.addEventListener('pointermove', this.handlePointerMove, { passive: true });
@@ -323,44 +444,41 @@ export class AcidSquaresBackground {
         document.addEventListener('visibilitychange', this.handleVisibility);
     }
 
-    onResize() {
-        if (!this.gl || !this.canvas) return;
-        const dpr = this.dprOverride || Math.min(window.devicePixelRatio || 1, 2);
+    /** Apply the current DPR tier to the canvas backing store. */
+    applyViewport() {
+        if (!this.gl || !this.canvas || !this.glProgram) return;
+        const dpr = this.ladder[this.tier].dpr;
         const w = window.innerWidth;
         const h = window.innerHeight;
-
-        if (this.isOGL && this.renderer) {
-            this.renderer.setSize(w, h);
-            const bw = this.gl.drawingBufferWidth;
-            const bh = this.gl.drawingBufferHeight;
-            this.program.uniforms.iResolution.value[0] = bw;
-            this.program.uniforms.iResolution.value[1] = bh;
-        } else {
-            this.canvas.width = Math.floor(w * dpr);
-            this.canvas.height = Math.floor(h * dpr);
-            this.gl.viewport(0, 0, this.canvas.width, this.canvas.height);
-            if (this.glProgram && this.uniformLocs.iResolution) {
-                this.gl.useProgram(this.glProgram);
-                this.gl.uniform2f(this.uniformLocs.iResolution, this.canvas.width, this.canvas.height);
-            }
+        const bw = Math.max(1, Math.floor(w * dpr));
+        const bh = Math.max(1, Math.floor(h * dpr));
+        // Skip the backing-store realloc when unchanged — but a freshly (re)
+        // linked program after context loss still needs iResolution uploaded.
+        if (this.canvas.width !== bw || this.canvas.height !== bh) {
+            this.canvas.width = bw;
+            this.canvas.height = bh;
+            this.gl.viewport(0, 0, bw, bh);
         }
+        this.gl.useProgram(this.glProgram);
+        this.gl.uniform2f(this.uniformLocs.iResolution, bw, bh);
+    }
+
+    onResize() {
+        // Backwards-compatible hook (same behavior as the resize listener).
+        this.handleResize();
     }
 
     /** Render exactly one frame — used for reduced-motion and degraded mode. */
     renderStaticFrame() {
-        const elapsed = 42.0;
-        if (this.isOGL && this.program && this.renderer) {
-            this.program.uniforms.iTime.value = elapsed;
-            this.renderer.render({ scene: this.mesh });
-        } else if (this.gl && this.glProgram) {
-            this.gl.useProgram(this.glProgram);
-            this.gl.uniform1f(this.uniformLocs.iTime, elapsed);
-            this.gl.drawArrays(this.gl.TRIANGLES, 0, 3);
-        }
+        const gl = this.gl;
+        if (!gl || !this.glProgram) return;
+        gl.useProgram(this.glProgram);
+        gl.uniform1f(this.uniformLocs.iTime, 42.0);
+        gl.drawArrays(gl.TRIANGLES, 0, 3);
     }
 
     start() {
-        if (this.raf || !this.isPageVisible) return;
+        if (this.raf || !this.isPageVisible || this.degraded) return;
         if (this.reducedMotion) {
             // Honor prefers-reduced-motion: rich static frame, zero animation.
             this.renderStaticFrame();
@@ -370,6 +488,11 @@ export class AcidSquaresBackground {
         this.perf = { frames: 0, accum: 0, last: 0 };
 
         const loop = (t) => {
+            if (this.pendingResize) {
+                this.pendingResize = false;
+                this.applyViewport();
+            }
+
             // FPS watchdog: rolling 90-frame average frame time.
             const delta = this.perf.last ? t - this.perf.last : 16.7;
             this.perf.last = t;
@@ -389,18 +512,13 @@ export class AcidSquaresBackground {
             this.mouseCurrent[1] += 0.05 * (this.mouseTarget[1] - this.mouseCurrent[1]);
             this.mouseActive += 0.05 * (this.mouseActiveTarget - this.mouseActive);
 
-            if (this.isOGL && this.program) {
-                this.program.uniforms.iTime.value = elapsed;
-                this.program.uniforms.uMouse.value[0] = this.mouseCurrent[0];
-                this.program.uniforms.uMouse.value[1] = this.mouseCurrent[1];
-                this.program.uniforms.uMouseActive.value = this.mouseActive;
-                this.renderer.render({ scene: this.mesh });
-            } else if (this.gl && this.glProgram) {
-                this.gl.useProgram(this.glProgram);
-                this.gl.uniform1f(this.uniformLocs.iTime, elapsed);
-                this.gl.uniform2f(this.uniformLocs.uMouse, this.mouseCurrent[0], this.mouseCurrent[1]);
-                this.gl.uniform1f(this.uniformLocs.uMouseActive, this.mouseActive);
-                this.gl.drawArrays(this.gl.TRIANGLES, 0, 3);
+            const gl = this.gl;
+            if (gl && this.glProgram) {
+                gl.useProgram(this.glProgram);
+                gl.uniform1f(this.uniformLocs.iTime, elapsed);
+                gl.uniform2f(this.uniformLocs.uMouse, this.mouseCurrent[0], this.mouseCurrent[1]);
+                gl.uniform1f(this.uniformLocs.uMouseActive, this.mouseActive);
+                gl.drawArrays(gl.TRIANGLES, 0, 3);
             }
 
             this.raf = requestAnimationFrame(loop);
@@ -409,25 +527,28 @@ export class AcidSquaresBackground {
     }
 
     /**
-     * Adaptive quality ladder. DPR 2 -> 1.5 -> 1, then freeze to a
-     * static frame. The shader itself uses a fixed bounded loop.
+     * Adaptive quality ladder. DPR 2 → 1.5 → 1, then steps 32 → 24 → 16 → 8,
+     * then a static frame. Downgrades-only: no oscillation between tiers.
      */
     stepDownQuality() {
-        const q = this.quality;
-        if (q.dpr > 1.5) q.dpr = 1.5;
-        else if (q.dpr > 1) q.dpr = 1;
-        else { this.degradeToStatic(); return; }
-        q.downgrades++;
+        const next = this.tier + 1;
+        if (next >= this.ladder.length) {
+            this.degradeToStatic();
+            return;
+        }
+        this.tier = next;
+        const q = this.ladder[this.tier];
         console.info(`[YASLOGIST] Shader auto-tuned for smoothness (dpr=${q.dpr}, steps=${q.steps}).`);
-        this.applyQuality();
-    }
-
-    applyQuality() {
-        this.dprOverride = this.quality.dpr < 2 ? this.quality.dpr : null;
-        this.onResize();
+        if (this.gl && this.glProgram && this.uniformLocs.uSteps) {
+            this.gl.useProgram(this.glProgram);
+            this.gl.uniform1f(this.uniformLocs.uSteps, q.steps);
+        }
+        if (this.container) this.container.dataset.quality = `${q.dpr}x/${q.steps}`;
+        this.applyViewport();
     }
 
     degradeToStatic() {
+        this.degraded = true;
         this.stop();
         this.renderStaticFrame();
         if (this.container) this.container.dataset.degraded = 'true';
@@ -435,9 +556,8 @@ export class AcidSquaresBackground {
     }
 
     destroyGL() {
-        if (!this.gl) return;
-        if (this.isOGL) return; // kept for backwards-compatible instances
         const gl = this.gl;
+        if (!gl) return;
         if (this.glProgram) gl.deleteProgram(this.glProgram);
         if (this.vertexBuffer) gl.deleteBuffer(this.vertexBuffer);
         this.glProgram = null;

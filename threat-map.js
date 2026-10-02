@@ -205,7 +205,7 @@ export class ThreatMap {
             "Threat Markers": this.markersLayer,
             "Radar Range Rings": this.radarRangesLayer,
             "Subsea Cyber Cables": this.subseaCablesLayer,
-            "Live AIS Vessels & Escorts": this.aisVesselsLayer
+            "Simulated AIS & Escort Watch": this.aisVesselsLayer
         };
 
         // Always show the expanded tactical layer control in the top-right
@@ -223,7 +223,9 @@ export class ThreatMap {
         // Render smart super intelligence: subsea telecommunications & fiber hubs
         this.renderSubseaCables();
 
-        // Render smart super intelligence: live simulated AIS vessel tracking & escort combatants
+        // Simulated AIS watchlist: illustrative escort/chokepoint vessels.
+        // Positions are NOT live telemetry — the layer is labelled SIMULATED
+        // everywhere so it can never be read as real-time tracking data.
         this.renderAisVessels();
 
         // Invalidate size to guarantee perfect tile rendering
@@ -551,7 +553,7 @@ export class ThreatMap {
             const vesselPopup = isAr ? `
                 <div class="tac-map-popup rtl">
                     <div class="popup-header-row">
-                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">نظام التتبع الملاحي الحي // قياس الأقمار الصناعية</span>
+                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">قائمة مراقبة المرافقة البحرية // مواقع توضيحية محاكاة</span>
                         <span class="mono" style="font-size:10px; color:${v.threatColor}">[${vThreat}]</span>
                     </div>
                     <div class="popup-title"><i class="fa-solid fa-ship"></i> ${v.name}</div>
@@ -566,7 +568,7 @@ export class ThreatMap {
             ` : `
                 <div class="tac-map-popup ltr">
                     <div class="popup-header-row">
-                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">LIVE AIS // SATELLITE TELEMETRY</span>
+                        <span class="badge-intel" style="color: ${v.threatColor}; border-color: ${v.threatColor}">AIS ESCORT WATCH // SIMULATED POSITIONS</span>
                         <span class="mono" style="font-size:10px; color:${v.threatColor}">[${vThreat}]</span>
                     </div>
                     <div class="popup-title"><i class="fa-solid fa-ship"></i> ${v.name}</div>
@@ -983,7 +985,7 @@ export class ThreatMap {
             "Threat Markers": "مؤشرات التهديدات والإنذار",
             "Radar Range Rings": "دوائر التغطية الرادارية",
             "Subsea Cyber Cables": "كابلات الاتصالات البحرية",
-            "Live AIS Vessels & Escorts": "تتبع السفن وقوافل الحماية"
+            "Simulated AIS & Escort Watch": "مراقبة المرافقة البحرية (محاكاة)"
         };
 
         const allLabels = document.querySelectorAll('.leaflet-control-layers label');

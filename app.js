@@ -1289,19 +1289,15 @@ class YaslogistThreatRadarApp {
 
     initShader() {
         try {
+            // v2 shader: brand palette (gold core → amber → crimson peak) and
+            // only live options — the OGL-era wave/exposure knobs are gone.
             this.acidSquares = initAcidSquares({
-                color1: '#06B6D4',
-                color2: '#F97316',
-                color3: '#A855F7',
+                color1: '#EAB308',
+                color2: '#D97706',
+                color3: '#EF4444',
                 speed: 0.7,
-                waveDepth: 1.0,
                 zoom: 1.3,
                 density: 10.0,
-                glow: 1.0,
-                exposure: 2700.0,
-                spread: 0.3,
-                stepSize: 0.002,
-                grain: 1.0,
                 grainIntensity: 0.05,
                 steps: 32
             });
@@ -1310,17 +1306,29 @@ class YaslogistThreatRadarApp {
         }
     }
 
+    /**
+     * The tactical map is built lazily on first activation of its tab.
+     * Booting Leaflet eagerly costs the landing experience (tile fetches,
+     * four base layers, five intelligence overlays) even though most
+     * sessions never leave the dashboard; the map is therefore created on
+     * demand and immediately fed the already-loaded intensity data.
+     */
     initMap() {
-        try {
-            this.threatMap = initThreatMap('threat-map', {
-                center: [28.5, 40.0],
-                zoom: 4,
-                minZoom: 2,
-                maxZoom: 18
-            });
+        this.mapOptions = { center: [28.5, 40.0], zoom: 4, minZoom: 2, maxZoom: 18 };
+    }
 
+    ensureThreatMap() {
+        if (this.threatMap) return this.threatMap;
+        try {
+            this.threatMap = initThreatMap('threat-map', this.mapOptions || {
+                center: [28.5, 40.0], zoom: 4, minZoom: 2, maxZoom: 18
+            });
+            if (Array.isArray(this.intensityData)) {
+                this.threatMap.updateData(this.intensityData, this.currentLang);
+            }
             const btnReset = document.getElementById('btnResetMap');
-            if (btnReset) {
+            if (btnReset && !btnReset.dataset.bound) {
+                btnReset.dataset.bound = '1';
                 btnReset.addEventListener('click', () => {
                     if (this.threatMap && this.threatMap.map) {
                         this.threatMap.map.flyTo([28.5, 40.0], 4, { duration: 1.2 });
@@ -1329,7 +1337,9 @@ class YaslogistThreatRadarApp {
             }
         } catch (e) {
             console.error('[YASLOGIST] Map initialization error:', e);
+            this.threatMap = null;
         }
+        return this.threatMap;
     }
 
     startDualClocks() {
@@ -2343,9 +2353,12 @@ class YaslogistThreatRadarApp {
         });
         panes.forEach(p => p.classList.toggle('active', p === pane));
 
-        if (targetId === 'threat-map-view' && this.threatMap && this.threatMap.map) {
-            setTimeout(() => { this.threatMap.map.invalidateSize(); }, 100);
-            setTimeout(() => { this.threatMap.map.invalidateSize(); }, 350);
+        if (targetId === 'threat-map-view') {
+            const mapNow = this.ensureThreatMap();
+            if (mapNow && mapNow.map) {
+                setTimeout(() => { mapNow.map.invalidateSize(); }, 100);
+                setTimeout(() => { mapNow.map.invalidateSize(); }, 350);
+            }
         }
         if (pushHash) {
             const slug = YaslogistThreatRadarApp.TAB_SLUGS[targetId];
@@ -2636,6 +2649,12 @@ class YaslogistThreatRadarApp {
 
         const PLACEHOLDER = this.currentLang === 'ar' ? ['بانتظار القياس'] : ['AWAITING TELEMETRY'];
 
+        // Rendering discipline shared with the WebGL background: cap the
+        // backing store at 2x DPR, and honor prefers-reduced-motion by
+        // disabling chart-transition animations (motion doctrine §5.4).
+        const chartDpr = Math.min(window.devicePixelRatio || 1, 2);
+        const chartAnimation = prefersReducedMotion() ? false : { duration: 700, easing: 'easeOutQuart' };
+
         // 1. Attack Vectors Doughnut — placeholder until the real wire resolves.
         const ctxVector = document.getElementById('attackVectorChart');
         if (ctxVector) {
@@ -2654,6 +2673,8 @@ class YaslogistThreatRadarApp {
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    devicePixelRatio: chartDpr,
+                    animation: chartAnimation,
                     plugins: {
                         legend: {
                             position: 'right',
@@ -2699,6 +2720,8 @@ class YaslogistThreatRadarApp {
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    devicePixelRatio: chartDpr,
+                    animation: chartAnimation,
                     plugins: {
                         legend: { display: false },
                         tooltip: {
