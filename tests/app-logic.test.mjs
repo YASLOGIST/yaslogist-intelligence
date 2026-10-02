@@ -2,7 +2,7 @@
  * Integration-level tests for the browser controller (app.js), driven
  * headlessly through a minimal DOM stub. Covers the real user flows:
  * wire fetch/normalize/dedupe/render, filtering and search (incl. Arabic),
- * XSS containment, KPI + DEFCON derivation, CVE filtering/sorting.
+ * XSS containment, KPI + model-tier derivation, CVE filtering/sorting.
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -188,7 +188,7 @@ test('countWireTag and distributions trace to wire content', () => {
     assert.ok(sectors[0] >= 1, 'maritime sector must register the Hormuz item');
 });
 
-test('updateKPIs computes DEFCON from real CVE mix and honest trends', () => {
+test('updateKPIs computes model tier from real CVE mix and honest trends', () => {
     const app = makeApp();
     app.cveData = [
         { id: 'CVE-1', severity: 'Critical', cvss: 9.8 },
@@ -202,7 +202,7 @@ test('updateKPIs computes DEFCON from real CVE mix and honest trends', () => {
     app.allWireItems = [];
     app.updateKPIs();
     const readout = document.getElementById('defcon-readout-text');
-    assert.ok(readout.innerHTML.includes('DEFCON 2'), `expected DEFCON 2, got: ${readout.innerHTML}`);
+    assert.ok(readout.innerHTML.includes('MODEL TIER 2'), `expected model tier 2, got: ${readout.innerHTML}`);
     // 12 current vs 13 previous -> honest negative delta
     const trendHtml = document.getElementById('kpi-attacks-trend').innerHTML;
     assert.ok(trendHtml.includes('%'), 'renders a computed percentage');
@@ -211,12 +211,12 @@ test('updateKPIs computes DEFCON from real CVE mix and honest trends', () => {
     assert.equal(document.getElementById('kpi-cves-count').textContent, '3');
 });
 
-test('setDefconLevel resolves localized strings for every level 1..5', () => {
+test('setDefconLevel resolves localized model strings for every level 1..5', () => {
     const app = makeApp();
     document.querySelectorAll = () => [];
     for (const lvl of [1, 2, 3, 4, 5]) {
         app.setDefconLevel(lvl);
-        assert.ok(document.getElementById('defcon-readout-text').innerHTML.includes(`DEFCON ${lvl}`));
+        assert.ok(document.getElementById('defcon-readout-text').innerHTML.includes(`MODEL TIER ${lvl}`));
     }
     app.currentLang = 'ar';
     app.setDefconLevel(4);

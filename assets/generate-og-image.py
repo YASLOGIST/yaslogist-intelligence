@@ -40,12 +40,12 @@ F_TINY = font(11, mono=True)
 F_MID = font(21, mono=True, bold=True)
 F_BIG = font(32, mono=True, bold=True)
 
-GOLD = (234, 179, 8)
-CYAN = (6, 182, 212)
-CRIMSON = (239, 68, 68)
-PURPLE = (168, 85, 247)
-GREEN = (16, 185, 129)
-INK = (7, 9, 14)
+GOLD = (201, 168, 92)
+CYAN = (84, 184, 194)
+CRIMSON = (224, 100, 92)
+PURPLE = (155, 138, 197)
+GREEN = (85, 181, 139)
+INK = (5, 9, 14)
 PAPER = (244, 240, 230)
 MUTE = (110, 122, 142)
 
@@ -104,20 +104,20 @@ def glow(img, draw_group):
     img.paste(comp, (0, 0), comp)
 
 def panel(od, x0, y0, x1, y1, accent, title):
-    od.rounded_rectangle([x0, y0, x1, y1], radius=6, fill=(13, 21, 36, 238), outline=(34, 48, 74, 255), width=1)
+    od.rounded_rectangle([x0, y0, x1, y1], radius=6, fill=(10, 16, 23, 244), outline=(48, 61, 72, 255), width=1)
     od.rectangle([x0 + 12, y0 - 1, x0 + 56, y0 + 1], fill=accent + (255,))
     tracked(od, (x0 + 12, y0 + 9), title, F_TINY, accent, tracking=2)
 
 # ------------------------------------------------------------ static chrome
 def header(d, f):
     gold_a = mix(GOLD, (255, 214, 90), 0.5 + 0.5 * math.sin(2 * math.pi * 0 / FRAMES))
-    d.text((56, 44), "YASLOGIST DEFENSE SYSTEMS", font=F_HERO, fill=gold_a)
+    d.text((56, 44), "YASLOGIST / OPERATIONS PICTURE", font=F_HERO, fill=gold_a)
     hx0 = 58
-    hx1 = hx0 + d.textlength("YASLOGIST DEFENSE SYSTEMS", font=F_HERO)
+    hx1 = hx0 + d.textlength("YASLOGIST / OPERATIONS PICTURE", font=F_HERO)
     d.line([(hx0, 128), (hx1, 128)], fill=gold_a, width=4)
     d.line([(hx1 + 10, 128), (W - 56, 128)], fill=(31, 41, 58), width=2)
     x = 58
-    for seg, col in [("SOVEREIGN CTI & LOGISTICS RADAR", CYAN), ("  ::  ", MUTE), ("GULF / LEVANT / RED SEA", GOLD)]:
+    for seg, col in [("REGIONAL THREAT & SUPPLY-CHAIN", CYAN), ("  ::  ", MUTE), ("GULF / LEVANT / RED SEA", GOLD)]:
         tracked(d, (x, 142), seg, F_KICK, col, tracking=3)
         x += d.textlength(seg, font=F_KICK) + 3 * len(seg)
 
@@ -150,12 +150,12 @@ def build_frame0():
         sx, sy = random.randint(0, W - 1), random.randint(0, H - 1)
         b = random.randint(60, 130)
         od.point((sx, sy), fill=(b + 60, b + 64, b + 76, 255))
-    panel(od, 48, 168, 410, 476, CYAN, "TACTICAL THREAT SCOPE")
-    panel(od, 430, 168, 896, 476, GOLD, "LIVE INTEL WIRE — VERIFIED MULTI-SOURCE")
-    panel(od, 922, 168, 1150, 274, CRIMSON, "THREAT CONDITION")
+    panel(od, 48, 168, 410, 476, CYAN, "REGIONAL REFERENCE SCOPE")
+    panel(od, 430, 168, 896, 476, GOLD, "CURRENT WIRE — PUBLIC SOURCES")
+    panel(od, 922, 168, 1150, 274, CRIMSON, "RISK MODEL")
     panel(od, 922, 286, 1150, 402, PURPLE, "PEAK CVE EXPOSURE")
     panel(od, 922, 414, 1150, 476, GREEN, "SIGNAL // 14D")
-    panel(od, 48, 492, 698, 584, GOLD, "DIFFICULTY OF PEACE — LIVE HEARTBEAT")
+    panel(od, 48, 492, 698, 584, GOLD, "SIGNAL TREND — 14 DAYS")
     od.rounded_rectangle([444, 192, 882, 216], radius=4, fill=(9, 15, 26, 255), outline=(34, 48, 74, 255))
     commit(img, ov)
     d = ImageDraw.Draw(img)
@@ -168,7 +168,7 @@ def build_frame0():
 
     for i, c in enumerate([CRIMSON, GOLD, GREEN]):
         d.ellipse([452 + i * 16, 199, 460 + i * 16, 207], fill=c)
-    d.text((516, 198), "wire --tail -f --lang=ar/en --verify", font=F_TINY, fill=MUTE)
+    d.text((516, 198), "wire --current --lang=ar/en --sources", font=F_TINY, fill=MUTE)
 
     # radar static geometry
     cx, cy, r = 229, 322, 92
@@ -245,19 +245,19 @@ def render_frame(f, template, pts):
     commit(img, ov)
     d = ImageDraw.Draw(img)
 
-    # --- DEFCON meter (band from real peak severity)
+    # --- Analytical risk tier (band from real peak severity)
     _, _, _, sev = peak_cve()
     lvl = {"CRITICAL": 2, "HIGH": 2, "MEDIUM": 3, "LOW": 4}.get(sev, 3)
     chip = CRIMSON if lvl <= 2 else GOLD
     cc = mix(chip, (255, 121, 40), 0.5 + 0.5 * math.sin(t * 1.3))
-    d.text((936, 194), f"DEFCON {lvl}", font=F_BIG, fill=cc)
+    d.text((936, 194), f"RISK TIER {lvl}", font=F_BIG, fill=cc)
     bx = 936
     for n in range(5, 0, -1):
         on = n >= lvl
         d.rectangle([bx, 236, bx + 36, 254], fill=cc if on else None, outline=cc if on else (51, 65, 85), width=1)
         d.text((bx + 15, 239), str(n), font=F_TINY, fill=(7, 9, 14) if on else MUTE)
         bx += 42
-    d.text((936, 258), "SEVERE REGIONAL TARGETING" if lvl <= 2 else "ELEVATED REGIONAL SIGNAL", font=F_TINY, fill=cc)
+    d.text((936, 258), "HIGH ANALYTICAL POSTURE" if lvl <= 2 else "ELEVATED SIGNAL LOAD", font=F_TINY, fill=cc)
 
     # --- CVSS bar (real peak score)
     score, _, _, _ = peak_cve()
@@ -304,7 +304,7 @@ def render_frame(f, template, pts):
     d.text((W - 260, 72), f"{secs // 3600:02d}:{(secs // 60) % 60:02d}:{secs % 60:02d}Z", font=F_MID, fill=CYAN)
     if (f // 5) % 2 == 0:
         d.ellipse([W - 64, 90, W - 52, 102], fill=GREEN)
-        d.text((W - 94, 88), "LIVE", font=F_TINY, fill=GREEN)
+        d.text((W - 94, 88), "READY", font=F_TINY, fill=GREEN)
 
     return img
 

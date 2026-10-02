@@ -72,13 +72,13 @@ sequenceDiagram
 ```
 
 ### 5.2 Wire render (browser, two-stage)
-Stage 1: `data/intel_wire.json` paints immediately → Stage 2: rss2json overlay merges in parallel `Promise.allSettled` → dedupe (newest wins, Unicode keys) → render with `escapeHTML` + `safeURL` → KPIs/DEFCON/charts/briefing recompute from the same in-memory items (never independent numbers).
+Stage 1: `data/intel_wire.json` paints immediately → Stage 2: rss2json overlay merges in parallel `Promise.allSettled` → dedupe (newest wins, Unicode keys) → render with `escapeHTML` + `safeURL` → KPIs/model tier/charts/briefing recompute from the same in-memory items (never independent numbers).
 
-### 5.3 DEFCON derivation
-`critical >= 3 → DEFCON 2 · critical >= 1 or high >= 5 → DEFCON 3 · else DEFCON 4`. Readout + tier + tooltip resolve per level in both languages (5 levels mapped).
+### 5.3 Analytical model-tier derivation
+`critical >= 3 → tier 2 · critical >= 1 or high >= 5 → tier 3 · else tier 4`. This is an internal prioritization heuristic, not an official readiness condition. Readout + tier + tooltip resolve per level in both languages (5 levels mapped).
 
 ### 5.4 Motion discipline
-Transform/opacity only. `prefers-reduced-motion` → CSS animations ~0ms, shader renders one static frame, reveals instant-show. FPS watchdog (rolling 90-frame avg > 21ms) steps DPR 2→1.5→1 then steps 32→24→16→8 → static frame fallback.
+Transform/opacity only. `prefers-reduced-motion` → CSS animations ~0ms, shader renders one static frame, reveals instant-show. The WebGL2 substrate is demand-driven: one fullscreen triangle renders on boot, resize, and while pointer parallax settles, then cancels its RAF. It has no textures, render targets, fragment loops, or recurring idle submissions; DPR is capped at 2.
 
 ### 5.5 Tab + deep-link flow
 Tabs are a WAI-ARIA tablist (roving tabindex, arrows/Home/End, RTL-aware). Selection maps to `#dashboard|map|wire|cves|actors` hashes (replaceState, hashchange listener) and persists to localStorage with the wire filter and language.
@@ -115,7 +115,7 @@ Tabs are a WAI-ARIA tablist (roving tabindex, arrows/Home/End, RTL-aware). Selec
 
 | Unknown | Cheapest resolution |
 | :-- | :-- |
-| True browser FPS on low-end devices | Run Lighthouse/WebPageTest from CI runner (no browser available in this sandbox); watchdog thresholds are conservative by design |
+| True browser FPS on low-end devices | Run Lighthouse/WebPageTest from CI runner; the renderer has a conservative one-pass/demand-driven budget but device-specific compositing still needs measurement |
 | rss2json quota/ToS for production volume | Replace with tiny CORS-friendly worker or drop Stage 2 (Stage 1 wire stays live via Actions) |
 | Esri tile ToS for sustained traffic | Register Esri developer key or migrate to self-hosted tiles; attribution now compliant |
 | Arabic feed parity (currently EN-heavy upstream) | Add Arabic RSS sources to `FEEDS` (one-line config each) |

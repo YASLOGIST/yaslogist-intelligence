@@ -3,6 +3,42 @@
 All notable changes to YASLOGIST Intelligence are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.5.0] — 2026-10-02
+
+Operational-clarity release: the interface moves from glow-heavy cyberpunk
+ornament to a restrained, data-native operations picture, while the animated
+raymarch is replaced by a demand-driven analytical substrate.
+
+### Changed
+
+- **Demand-driven WebGL2 substrate** — replaced the 8–32 step per-pixel
+  raymarch, animated grain, scanline, and atmosphere branch with one
+  loop-free fullscreen-triangle grid pass. It renders on boot/resize and only
+  while pointer parallax settles, then cancels RAF (zero recurring idle GPU
+  submissions). The pass uses no textures, render targets, blending, depth, or
+  per-frame allocations; DPR remains capped at 2.
+- **Deterministic GPU teardown** — VAO, VBO, program, context, and global input
+  listeners are explicitly released. WebGL context loss/restoration rebuilds
+  resources without shader-program churn.
+- **Operational visual system** — replaced large cyan borders, glass blur,
+  scanline overlays, glow stacks, 3D card tilts, and looping scanners with
+  crisp 1px structure, a continuous KPI band, restrained state color, and a
+  sticky numbered context rail. Wire and actor rows use `content-visibility`
+  and containment to bound off-screen paint.
+- **Map density reduction** — route/range paths now share Leaflet's Canvas
+  renderer (`preferCanvas`), the layer inventory is collapsed on first paint,
+  and the simulated AIS layer is opt-in/lazy-rendered. Non-evidenced
+  operational/security claims were relabelled as reference data. The map now
+  has an explicit `destroy()` lifecycle.
+- **Truthful interface language** — “encrypted live feed,” “24/7 stream,”
+  “actively exploited,” and hard-coded interdiction/escort claims were
+  replaced with precise labels for committed data, optional public overlays,
+  analytical model tiers, and monitored reference nodes.
+- **App lifecycle discipline** — clocks, freshness telemetry, sync intervals,
+  debounce timers, map resize timers, chart instances, observers, map, and
+  shader are released by a single idempotent `destroy()` path on `pagehide`.
+  Cairo's `Intl.DateTimeFormat` is cached instead of reconstructed each second.
+
 ## [1.4.0] — 2026-10-02
 
 Rendering-budget release: the cockpit's GPU/compositor profile was audited and

@@ -71,65 +71,65 @@ const prefersReducedMotion = () =>
 // ===================================================================
 const I18N = {
     en: {
-        commandKicker: 'SOVEREIGN CTI & LOGISTICS INFRASTRUCTURE',
-        titleBrand: 'YASLOGIST DEFENSE SYSTEMS',
-        navDashboard: 'DASHBOARD',
+        commandKicker: 'REGIONAL THREAT & SUPPLY-CHAIN INTELLIGENCE',
+        titleBrand: 'YASLOGIST / OPERATIONS PICTURE',
+        navDashboard: 'OPERATIONS',
         navThreatMap: 'THREAT MAP',
         navIntelWire: 'INTEL WIRE',
         navCveMatrix: 'CVE MATRIX',
         navAptDossiers: 'APT DOSSIERS',
-        threatRadarTitle: 'YASLOGIST COMMAND INTEL GRID',
-        arabicSubtext: '[ SOVEREIGN CYBER & MARITIME THREAT INTELLIGENCE SYSTEM ]',
-        threatConditionLabel: 'DEFCON THREAT STATUS',
+        threatRadarTitle: 'YASLOGIST REGIONAL OPERATIONS PICTURE',
+        arabicSubtext: '[ OPEN-SOURCE MONITORING · VALIDATE AGAINST PRIMARY SOURCES ]',
+        threatConditionLabel: 'ANALYTICAL RISK POSTURE',
         defconLow: 'NORMAL',
         defconGuarded: 'GUARDED',
         defconElevated: 'ELEVATED',
         defconHigh: 'HIGH',
         defconCritical: 'CRITICAL',
-        defconReadout: 'DEFCON 2 // SEVERE REGIONAL TARGETING',
+        defconReadout: 'MODEL TIER 2 // HIGH ANALYTICAL POSTURE',
         utcClockLabel: 'UTC',
         cairoClockLabel: 'CAIRO (EEST)',
-        statusLiveFeed: 'FEED: LIVE ENCRYPTED',
-        statusOfflineCached: 'FEED: OFFLINE / CACHED',
+        statusLiveFeed: 'NETWORK: ONLINE',
+        statusOfflineCached: 'NETWORK: OFFLINE / CACHED',
         langBtnText: 'العربية',
         kpiAttacksLabel: 'REGIONAL SIGNAL VOLUME (7D)',
         kpiAttacksSub: 'Country-linked reports across monitored OSINT feeds',
         kpiCampaignsLabel: 'APT / STATE-LINKED REPORTS',
         kpiCampaignsSub: 'Wire items tagged APT or state-sponsored activity',
-        kpiCveLabel: 'WEAPONIZED CVEs TRACKED',
+        kpiCveLabel: 'FEED-OBSERVED CVEs',
         kpiCveSub: 'Extracted from feeds, enriched via MITRE CVE API',
-        kpiLogisticsLabel: 'MARITIME CHOKEPOINT ALERTS',
+        kpiLogisticsLabel: 'MARITIME-SIGNAL REPORTS',
         kpiLogisticsSub: 'Suez · Bab el-Mandeb · Strait of Hormuz',
         kpiCveTrend: 'MITRE',
-        kpiLogisticsTrend: 'LIVE',
+        kpiLogisticsTrend: 'WIRE',
         cveSocStandards: 'CVSS / SOC',
-        refreshFeedsTitle: 'Refresh Live Feeds',
+        refreshFeedsTitle: 'Check Public-Source Overlay',
         switchLangTitle: 'تبديل إلى العربية',
-        cockpitTitle: 'SOVEREIGN DEFENSE GRID // LIVE TELEMETRY & THREAT MITIGATION ENGINE',
-        cockpitLiveTag: 'LIVE 24/7 STREAM',
-        cockpitEngineMeta: 'INGEST PIPELINE // 7 OSINT FEEDS // AUTO-REFRESH 2H',
+        cockpitTitle: 'SOURCE HEALTH // COVERAGE & EXPOSURE',
+        cockpitLiveTag: 'COMMITTED DATA',
+        cockpitEngineMeta: 'INGEST PIPELINE // 7 PUBLIC SOURCES // 2H CADENCE',
         progGridName: 'INGEST FEED INTEGRITY',
         progInterceptName: 'WIRE FRESHNESS (24H)',
         progTransitName: 'MARITIME ALERT LOAD',
         progAiName: 'CVE EXPOSURE INDEX',
-        mapTitle: 'GEOPOLITICAL & MARITIME THREAT RADAR',
-        mapSubtitle: 'Tactical telemetry: Middle East & Global Maritime Trade Chokepoints',
+        mapTitle: 'REGIONAL & MARITIME OPERATIONS MAP',
+        mapSubtitle: 'Reference overlays + rolling 7-day signal intensity',
         legendCritical: 'Critical',
         legendHigh: 'High',
         legendMed: 'Medium',
         legendLow: 'Low',
         resetView: 'RESET',
         cpSuez: 'SUEZ CANAL (EGY)',
-        cpSuezState: '[WATCH]',
+        cpSuezState: '[MONITORED NODE]',
         cpMandeb: 'BAB EL-MANDEB (RED SEA)',
-        cpMandebState: '[INTERDICTED]',
+        cpMandebState: '[MONITORED NODE]',
         cpHormuz: 'STRAIT OF HORMUZ',
-        cpHormuzState: '[ESCORT_REC]',
-        vectorChartTitle: 'ATTACK VECTORS DISTRIBUTION',
-        sectorChartTitle: 'TARGETED INFRASTRUCTURE SECTORS',
-        liveTelemetry: 'LIVE 24H',
-        wireTitle: 'LIVE INTELLIGENCE WIRE',
-        wireSubtitle: 'Real-time CTI & kinetic conflict intercepts',
+        cpHormuzState: '[MONITORED NODE]',
+        vectorChartTitle: 'WIRE TAG DISTRIBUTION',
+        sectorChartTitle: 'SIGNALS BY INFRASTRUCTURE SECTOR',
+        liveTelemetry: 'CURRENT WIRE',
+        wireTitle: 'PRIORITY INTELLIGENCE WIRE',
+        wireSubtitle: 'Committed reports with optional public-source overlay',
         searchWirePlaceholder: 'Filter wire by keyword, CVE, or region...',
         tagAll: 'ALL',
         tagRansomware: 'RANSOMWARE',
@@ -137,10 +137,10 @@ const I18N = {
         tagMaritime: 'MARITIME',
         tagDdos: 'DDoS',
         tagApt: 'APT',
-        loadingWire: 'Establishing secure telemetry to intelligence feeds...',
-        cveMatrixTitle: 'ACTIVELY EXPLOITED CVE DEFENSE MATRIX',
-        cveMatrixSubtitle: 'Weaponized zero-days & known exploited vulnerabilities (KEV)',
-        mitreCveSync: 'CISA KEV / MITRE',
+        loadingWire: 'Loading committed intelligence and public-source overlay…',
+        cveMatrixTitle: 'OBSERVED CVE EXPOSURE',
+        cveMatrixSubtitle: 'Feed-observed vulnerabilities enriched with MITRE records',
+        mitreCveSync: 'MITRE ENRICHED',
         thCveId: 'CVE IDENTIFIER',
         thSystem: 'AFFECTED SYSTEM / VENDOR',
         thSeverity: 'SEVERITY',
@@ -152,13 +152,13 @@ const I18N = {
         smartTimelineLabel: 'SIGNAL VOLUME // 14 DAYS',
         skipToContent: 'Skip to main dashboard',
         navAriaLabel: 'Primary tactical navigation',
-        actorsTitle: 'THREAT ACTOR DOSSIERS (APTs & PROXIES)',
-        actorsSubtitle: 'State-backed clusters, wiper collectives & hacktivists',
+        actorsTitle: 'THREAT ACTOR CONTEXT',
+        actorsSubtitle: 'Reference profiles cross-matched against current wire aliases',
         searchActorsPlaceholder: 'Search actor by alias, origin, target...',
-        footerBrand: '◤ YASLOGIST SOVEREIGN DEFENSE SYSTEMS',
-        footerDesc: 'Real-Time Threat Intelligence & Maritime Supply Chain Radar',
-        footerSync: 'SYSTEM SYNC: ACTIVE',
-        footerConfidential: 'CONFIDENTIAL // TACTICAL DISTRIBUTION ONLY',
+        footerBrand: '◤ YASLOGIST OPERATIONS PICTURE',
+        footerDesc: 'Open-source regional threat and maritime supply-chain monitoring',
+        footerSync: 'PIPELINE: LOADING PROVENANCE',
+        footerConfidential: 'ANALYTICAL AID // VERIFY CONSEQUENCES AGAINST PRIMARY SOURCES',
         advisoryImmediate: 'Immediate Patch / Restrict C2 Gateways',
         advisoryIsolate: 'Isolate Edge Device / Enforce WAF Filters',
         advisoryMonitor: 'Zero-Trust Telemetry & Continuous Auditing',
@@ -175,78 +175,78 @@ const I18N = {
         cveExportCsvTitle: 'Export the filtered CVE matrix as CSV',
         cveExportToast: 'CVE matrix exported as CSV',
         actorLevelLabel: 'THREAT LEVEL',
-        actorActivityLabel: 'ACTIVE ON WIRE',
-        actorNoActivity: 'NO LIVE SIGNAL',
+        actorActivityLabel: 'WIRE ALIAS MATCHES',
+        actorNoActivity: 'NO CURRENT MATCH',
         actorMitreLink: 'MITRE ATT&CK',
         sourceBreakdownLabel: 'SOURCE BREAKDOWN',
         sourceFilterTitle: 'Click to filter the wire by this source',
-        wireSyncIdle: 'AUTO SYNC · 10M',
-        wireSyncedAt: 'OVERLAY SYNCED',
+        wireSyncIdle: 'OVERLAY CHECK · 10M',
+        wireSyncedAt: 'OVERLAY CHECKED',
         kpiBarCountries: 'Monitored countries currently reporting signals',
-        kpiBarAptShare: 'Share of the live wire tagged APT / state-linked',
+        kpiBarAptShare: 'Share of the current wire tagged APT / state-linked',
         kpiBarPeakCvss: 'Peak CVSS base score of tracked CVEs',
-        kpiBarMaritimeShare: 'Share of the live wire tagged maritime'
+        kpiBarMaritimeShare: 'Share of the current wire tagged maritime'
     },
     ar: {
-        commandKicker: 'البنية السيادية لاستخبارات التهديدات وسلاسل الإمداد',
-        titleBrand: 'أنظمة دفاع ياسلوجست',
-        navDashboard: 'لوحة القيادة',
+        commandKicker: 'استخبارات التهديدات الإقليمية وسلاسل الإمداد',
+        titleBrand: 'ياسلوجست / صورة العمليات',
+        navDashboard: 'العمليات',
         navThreatMap: 'خريطة التهديدات',
         navIntelWire: 'شريط الاستخبارات',
         navCveMatrix: 'مصفوفة الثغرات',
         navAptDossiers: 'ملفات المجموعات',
-        threatRadarTitle: 'شبكة استخبارات القيادة السيادية - ياسلوجست',
-        arabicSubtext: '[نظام الاستخبارات والإنذار المبكر للتهديدات]',
-        threatConditionLabel: 'حالة التأهب والجاهزية DEFCON',
+        threatRadarTitle: 'صورة العمليات الإقليمية - ياسلوجست',
+        arabicSubtext: '[مراقبة المصادر المفتوحة · تحقق من المصادر الأولية]',
+        threatConditionLabel: 'مؤشر المخاطر التحليلي',
         defconLow: 'عادي',
         defconGuarded: 'محترس',
         defconElevated: 'مرتفع',
         defconHigh: 'حرج',
         defconCritical: 'طوارئ قصوى',
-        defconReadout: 'DEFCON 2 // استهداف إقليمي حرج لمنشآت الطاقة والنقل',
+        defconReadout: 'النموذج المستوى 2 // وضع تحليلي مرتفع',
         utcClockLabel: 'توقيت عالمي UTC',
         cairoClockLabel: 'القاهرة (EEST)',
-        statusLiveFeed: 'البث: مشفر ومباشر',
-        statusOfflineCached: 'البث: غير متصل / مخزن مؤقت',
+        statusLiveFeed: 'الشبكة: متصلة',
+        statusOfflineCached: 'الشبكة: غير متصلة / بيانات مخزنة',
         langBtnText: 'ENGLISH',
         kpiAttacksLabel: 'حجم الإشارة الإقليمية (7 أيام)',
         kpiAttacksSub: 'تقارير مرتبطة بالدول عبر مصادر OSINT المرصودة',
         kpiCampaignsLabel: 'تقارير APT ومدعومة من دول',
         kpiCampaignsSub: 'أخبار موسومة كنشاط APT أو مدعوم من دولة',
-        kpiCveLabel: 'ثغرات CVE مستغلة مرصودة',
+        kpiCveLabel: 'ثغرات CVE مرصودة في المصادر',
         kpiCveSub: 'مستخرجة من المصادر ومُثراة عبر MITRE CVE API',
-        kpiLogisticsLabel: 'إنذارات المضائق البحرية',
+        kpiLogisticsLabel: 'تقارير الإشارات البحرية',
         kpiLogisticsSub: 'السويس · باب المندب · مضيق هرمز',
         kpiCveTrend: 'MITRE',
-        kpiLogisticsTrend: 'مباشر',
+        kpiLogisticsTrend: 'الشريط',
         cveSocStandards: 'معايير CVSS / SOC',
-        refreshFeedsTitle: 'تحديث البث الحي',
+        refreshFeedsTitle: 'فحص طبقة المصادر العامة',
         switchLangTitle: 'Switch to English',
-        cockpitTitle: 'منظومة الدفاع السيادي // بث القياس الآني ومحرك تحييد التهديدات',
-        cockpitLiveTag: 'بث حي 24/7',
-        cockpitEngineMeta: 'خط المعالجة // 7 مصادر OSINT // تحديث كل ساعتين',
+        cockpitTitle: 'سلامة المصادر // التغطية والتعرض',
+        cockpitLiveTag: 'بيانات مثبتة',
+        cockpitEngineMeta: 'خط المعالجة // 7 مصادر عامة // دورة كل ساعتين',
         progGridName: 'سلامة مصادر التغذية',
         progInterceptName: 'حداثة البث (24 ساعة)',
         progTransitName: 'كثافة الإنذارات البحرية',
         progAiName: 'مؤشر التعرض للثغرات',
-        mapTitle: 'رادار التهديدات الجيوسياسية والممرات الملاحية',
-        mapSubtitle: 'قياس آني: الشرق الأوسط ومضائق التجارة الدولية الحيوية',
+        mapTitle: 'خريطة العمليات الإقليمية والبحرية',
+        mapSubtitle: 'طبقات مرجعية + كثافة الإشارات المتحركة خلال 7 أيام',
         legendCritical: 'حرج جداً',
         legendHigh: 'مرتفع',
         legendMed: 'متوسط',
         legendLow: 'منخفض',
         resetView: 'إعادة الضبط',
         cpSuez: 'قناة السويس (مصر)',
-        cpSuezState: '[مراقبة]',
+        cpSuezState: '[نقطة مرصودة]',
         cpMandeb: 'باب المندب (البحر الأحمر)',
-        cpMandebState: '[تهديد ملاحي مباشر]',
+        cpMandebState: '[نقطة مرصودة]',
         cpHormuz: 'مضيق هرمز',
-        cpHormuzState: '[توصية بمرافقة أمنية]',
-        vectorChartTitle: 'توزيع نواقل الهجمات السيبرانية',
-        sectorChartTitle: 'القطاعات التحتية المستهدفة',
-        liveTelemetry: 'بث حي (24س)',
-        wireTitle: 'شريط الاستخبارات المباشر',
-        wireSubtitle: 'اعتراضات وتحليلات فورية للتهديدات السيبرانية والحركية',
+        cpHormuzState: '[نقطة مرصودة]',
+        vectorChartTitle: 'توزيع وسوم الشريط',
+        sectorChartTitle: 'الإشارات حسب قطاع البنية التحتية',
+        liveTelemetry: 'الشريط الحالي',
+        wireTitle: 'شريط الاستخبارات ذي الأولوية',
+        wireSubtitle: 'تقارير مثبتة مع طبقة اختيارية من المصادر العامة',
         searchWirePlaceholder: 'ابحث بالكلمة المفتاحية، رمز الثغرة أو الإقليم...',
         tagAll: 'الكل',
         tagRansomware: 'برمجيات الفدية',
@@ -254,10 +254,10 @@ const I18N = {
         tagMaritime: 'ملاحة بحرية',
         tagDdos: 'حجب الخدمة',
         tagApt: 'مجموعات متقدمة',
-        loadingWire: 'جاري الاتصال الآمن بالأقمار ومصادر التغذية الاستخباراتية...',
-        cveMatrixTitle: 'مصفوفة الدفاع ضد الثغرات المستغلة (CVEs)',
-        cveMatrixSubtitle: 'ثغرات يوم-الصفر المستغلة والمسجلة بقوائم CISA KEV',
-        mitreCveSync: 'مزامنة CISA KEV / MITRE',
+        loadingWire: 'جاري تحميل التقارير المثبتة وطبقة المصادر العامة…',
+        cveMatrixTitle: 'التعرض المرصود للثغرات CVE',
+        cveMatrixSubtitle: 'ثغرات مرصودة في المصادر ومُثراة بسجلات MITRE',
+        mitreCveSync: 'إثراء MITRE',
         thCveId: 'رمز الثغرة CVE',
         thSystem: 'النظام المتأثر / الشركة المصنعة',
         thSeverity: 'مستوى الخطورة',
@@ -269,13 +269,13 @@ const I18N = {
         smartTimelineLabel: 'حجم الإشارة // 14 يوماً',
         skipToContent: 'تخطي إلى لوحة القيادة الرئيسية',
         navAriaLabel: 'التنقل التكتيكي الرئيسي',
-        actorsTitle: 'ملفات الفاعلين والمجموعات المهددة (APTs)',
-        actorsSubtitle: 'مجموعات برعاية دول، خلايا تخريب، ومجموعات ناشطين',
+        actorsTitle: 'سياق الجهات الفاعلة',
+        actorsSubtitle: 'ملفات مرجعية مطابقة للأسماء البديلة في الشريط الحالي',
         searchActorsPlaceholder: 'ابحث عن فاعل، دولة المنشأ، أو قطاع...',
-        footerBrand: '◤ منظومة ياسلوجست للدفاع السيادي',
-        footerDesc: 'رادار استخبارات التهديدات وسلاسل الإمداد اللوجستية البحرية والبرية',
-        footerSync: 'مزامنة النظام: نشطة',
-        footerConfidential: 'سري للغاية // للاستخدام التكتيكي الداخلي فقط',
+        footerBrand: '◤ ياسلوجست / صورة العمليات',
+        footerDesc: 'مراقبة مفتوحة المصدر للتهديدات الإقليمية وسلاسل الإمداد البحرية',
+        footerSync: 'خط المعالجة: تحميل بيانات المصدر',
+        footerConfidential: 'أداة تحليلية // تحقق من المصادر الأولية قبل اتخاذ القرار',
         advisoryImmediate: 'تحديث فوري عاجل / قطع خوادم C2 فوراً',
         advisoryIsolate: 'عزل أجهزة الحافة / تفعيل جدار الحماية WAF',
         advisoryMonitor: 'تفعيل المراقبة الصارمة لبيئة الثقة الصفرية Zero-Trust',
@@ -292,12 +292,12 @@ const I18N = {
         cveExportCsvTitle: 'تصدير مصفوفة الثغرات المصفاة بصيغة CSV',
         cveExportToast: 'تم تصدير مصفوفة الثغرات بصيغة CSV',
         actorLevelLabel: 'مستوى التهديد',
-        actorActivityLabel: 'نشط على الشريط',
-        actorNoActivity: 'لا إشارة حية',
+        actorActivityLabel: 'مطابقات الأسماء في الشريط',
+        actorNoActivity: 'لا تطابق حالي',
         actorMitreLink: 'MITRE ATT&CK',
         sourceBreakdownLabel: 'توزيع المصادر',
         sourceFilterTitle: 'انقر لتصفية الشريط حسب هذا المصدر',
-        wireSyncIdle: 'مزامنة تلقائية · 10 د',
+        wireSyncIdle: 'فحص الطبقة · 10 د',
         wireSyncedAt: 'آخر مزامنة للبث الحي',
         kpiBarCountries: 'الدول المرصودة التي ترسل إشارات حالياً',
         kpiBarAptShare: 'نسبة الشريط الحي الموسومة كنشاط APT أو مدعوم من دولة',
@@ -614,6 +614,11 @@ class YaslogistThreatRadarApp {
         this.pinnedIds = this.loadPinnedIds();
         this.lastWireSyncAt = 0;
         this.liveSyncTimer = null;
+        this.clockTimer = null;
+        this.telemetryTimer = null;
+        this.mapResizeTimers = [];
+        this.lifecycle = typeof AbortController === 'function' ? new AbortController() : null;
+        this.destroyed = false;
         this.charts = {
             vectors: null,
             industry: null
@@ -672,8 +677,8 @@ class YaslogistThreatRadarApp {
 
     initSmartOperations() {
         this.networkOnline = typeof navigator === 'undefined' ? true : navigator.onLine;
-        window.addEventListener('online', () => { this.networkOnline = true; this.updateNetworkBadge(); }, { passive: true });
-        window.addEventListener('offline', () => { this.networkOnline = false; this.updateNetworkBadge(); }, { passive: true });
+        window.addEventListener('online', () => { this.networkOnline = true; this.updateNetworkBadge(); }, { passive: true, signal: this.lifecycle?.signal });
+        window.addEventListener('offline', () => { this.networkOnline = false; this.updateNetworkBadge(); }, { passive: true, signal: this.lifecycle?.signal });
         this.updateNetworkBadge();
 
         const palette = document.createElement('div');
@@ -728,7 +733,7 @@ class YaslogistThreatRadarApp {
         document.addEventListener('keydown', (event) => {
             if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); open(); }
             else if (event.key === 'Escape' && !palette.hidden) close();
-        });
+        }, { signal: this.lifecycle?.signal });
         document.getElementById('commandLauncher')?.addEventListener('click', open);
         this.initSmartBriefingPanel();
         window.yaslogistCommands = { open, close };
@@ -925,7 +930,7 @@ class YaslogistThreatRadarApp {
             if (Date.now() - this.lastWireSyncAt >= this.liveSyncInterval) {
                 this.fetchWire({ background: true });
             }
-        }, { passive: true });
+        }, { passive: true, signal: this.lifecycle?.signal });
         this.updateWireSyncChip();
     }
 
@@ -1007,7 +1012,7 @@ class YaslogistThreatRadarApp {
         const lines = [
             `# YASLOGIST SMART THREAT BRIEFING — ${now.toISOString()}`,
             '',
-            `> RISK INDEX: ${score} (${trend}) · DEFCON: ${defcon}`,
+            `> RISK MODEL INDEX: ${score} (${trend}) · POSTURE MODEL: ${defcon}`,
             `> PIPELINE: ${sync}`,
             `> METHOD: explainable heuristics over committed artefacts (CVE severity · wire velocity · maritime exposure · feed health). Not automated attribution.`,
             '',
@@ -1075,12 +1080,12 @@ class YaslogistThreatRadarApp {
         panel.setAttribute('aria-live', 'polite');
         panel.innerHTML = `
             <div class="smart-briefing-head">
-                <div><span class="eyebrow">NEURAL-CTI // EXPLAINABLE ANALYSIS</span><h2 data-smart-title>Smart Threat Briefing</h2></div>
-                <div class="smart-score-wrap"><span class="smart-score-label">RISK INDEX</span><strong id="smart-risk-score">--</strong><span id="smart-risk-trend" class="mono">CALCULATING</span></div>
+                <div><span class="eyebrow" data-smart-kicker>EVIDENCE MODEL // EXPLAINABLE HEURISTICS</span><h2 data-smart-title>Analytical Decision Brief</h2></div>
+                <div class="smart-score-wrap"><span class="smart-score-label" data-smart-risk-label>RISK MODEL INDEX</span><strong id="smart-risk-score">--</strong><span id="smart-risk-trend" class="mono">CALCULATING</span></div>
             </div>
             <div class="smart-briefing-grid">
                 <div class="smart-signal-list" id="smart-signals"></div>
-                <div class="smart-recommendation"><span class="smart-section-label">PRIORITY ACTION</span><p id="smart-action">Waiting for telemetry…</p><span id="smart-confidence" class="mono smart-confidence">CONFIDENCE --</span></div>
+                <div class="smart-recommendation"><span class="smart-section-label" data-smart-action-label>PRIORITY ACTION</span><p id="smart-action">Waiting for evidence…</p><span id="smart-confidence" class="mono smart-confidence">EVIDENCE COVERAGE --</span></div>
             </div>
             <div class="smart-timeline">
                 <div class="smart-timeline-head">
@@ -1120,12 +1125,15 @@ class YaslogistThreatRadarApp {
         const scoreEl = document.getElementById('smart-risk-score');
         if (scoreEl) scoreEl.textContent = `${risk}/100`;
         const trendEl = document.getElementById('smart-risk-trend');
-        if (trendEl) { trendEl.textContent = risk >= 70 ? (ar ? 'تصعيد' : 'ESCALATING') : risk >= 45 ? (ar ? 'مراقبة' : 'WATCH') : (ar ? 'مستقر' : 'STABLE'); trendEl.dataset.level = risk >= 70 ? 'critical' : risk >= 45 ? 'high' : 'stable'; }
-        const action = critical > 0 ? (ar ? 'تحديد وعزل الأصول المتأثرة بالثغرات الحرجة فوراً.' : 'Prioritize isolation and emergency patching of critical CVE exposure.') : maritime >= 3 ? (ar ? 'رفع مراقبة الممرات البحرية وتحقق من إشارات AIS.' : 'Elevate maritime corridor monitoring and validate AIS anomalies.') : (ar ? 'استمرار المراقبة وجمع الأدلة من المصادر.' : 'Maintain continuous monitoring and preserve collection coverage.');
+        if (trendEl) { trendEl.textContent = risk >= 70 ? (ar ? 'حرج' : 'CRITICAL') : risk >= 45 ? (ar ? 'مرتفع' : 'ELEVATED') : (ar ? 'اعتيادي' : 'ROUTINE'); trendEl.dataset.level = risk >= 70 ? 'critical' : risk >= 45 ? 'high' : 'stable'; }
+        const action = critical > 0 ? (ar ? 'طابق الثغرات الحرجة مع سجل الأصول قبل تحديد أولوية المعالجة.' : 'Match critical CVEs against the asset inventory before prioritizing remediation.') : maritime >= 3 ? (ar ? 'راجع التقارير البحرية الحالية مقابل الإخطارات الرسمية للممرات.' : 'Review current maritime reports against authoritative corridor notices.') : (ar ? 'حافظ على تغطية الجمع وراجع حداثة المصادر.' : 'Maintain collection coverage and review source freshness.');
         const actionEl = document.getElementById('smart-action'); if (actionEl) actionEl.textContent = action;
-        const confEl = document.getElementById('smart-confidence'); if (confEl) confEl.textContent = `${ar ? 'الثقة' : 'CONFIDENCE'} ${confidence}%`;
+        const confEl = document.getElementById('smart-confidence'); if (confEl) confEl.textContent = `${ar ? 'تغطية الأدلة' : 'EVIDENCE COVERAGE'} ${confidence}%`;
         const updated = document.getElementById('smart-updated'); if (updated) updated.textContent = `${ar ? 'مزامنة' : 'UPDATED'} ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
-        const title = panel.querySelector('[data-smart-title]'); if (title) title.textContent = ar ? 'الموجز الذكي للتهديدات' : 'Smart Threat Briefing';
+        const title = panel.querySelector('[data-smart-title]'); if (title) title.textContent = ar ? 'موجز القرار التحليلي' : 'Analytical Decision Brief';
+        const kicker = panel.querySelector('[data-smart-kicker]'); if (kicker) kicker.textContent = ar ? 'نموذج الأدلة // قواعد قابلة للتفسير' : 'EVIDENCE MODEL // EXPLAINABLE HEURISTICS';
+        const riskLabel = panel.querySelector('[data-smart-risk-label]'); if (riskLabel) riskLabel.textContent = ar ? 'مؤشر نموذج المخاطر' : 'RISK MODEL INDEX';
+        const actionLabel = panel.querySelector('[data-smart-action-label]'); if (actionLabel) actionLabel.textContent = ar ? 'الإجراء ذو الأولوية' : 'PRIORITY ACTION';
         const timelineLabel = panel.querySelector('[data-smart-timeline-label]');
         if (timelineLabel) timelineLabel.textContent = I18N[this.currentLang].smartTimelineLabel;
         this.renderSignalTimeline();
@@ -1289,20 +1297,15 @@ class YaslogistThreatRadarApp {
 
     initShader() {
         try {
-            // v2 shader: brand palette (gold core → amber → crimson peak) and
-            // only live options — the OGL-era wave/exposure knobs are gone.
+            // One demand-driven analytical grid pass. It submits frames only
+            // while pointer parallax is settling; idle dashboard GPU cost is 0.
             this.acidSquares = initAcidSquares({
-                color1: '#EAB308',
-                color2: '#D97706',
-                color3: '#EF4444',
-                speed: 0.7,
-                zoom: 1.3,
-                density: 10.0,
-                grainIntensity: 0.05,
-                steps: 32
+                accent: '#3FA6B3',
+                warm: '#B99752',
+                grainIntensity: 0.018
             });
         } catch (e) {
-            console.warn('[YASLOGIST] Shader bootstrap note:', e);
+            console.warn('[YASLOGIST] Spatial substrate bootstrap note:', e);
         }
     }
 
@@ -1345,6 +1348,13 @@ class YaslogistThreatRadarApp {
     startDualClocks() {
         const utcEl = document.getElementById('clock-utc');
         const cairoEl = document.getElementById('clock-cairo');
+        let cairoFormatter = null;
+        try {
+            cairoFormatter = new Intl.DateTimeFormat('en-GB', {
+                timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit',
+                second: '2-digit', hour12: false
+            });
+        } catch { /* fixed-offset fallback below */ }
 
         const tick = () => {
             const now = new Date();
@@ -1357,16 +1367,9 @@ class YaslogistThreatRadarApp {
             }
 
             if (cairoEl) {
-                try {
-                    const cairoFormatter = new Intl.DateTimeFormat('en-GB', {
-                        timeZone: 'Africa/Cairo',
-                        hour: '2-digit',
-                        minute: '2-digit',
-                        second: '2-digit',
-                        hour12: false
-                    });
+                if (cairoFormatter) {
                     cairoEl.textContent = cairoFormatter.format(now);
-                } catch (e) {
+                } else {
                     const cDate = new Date(now.getTime() + (2 * 3600 * 1000));
                     const cH = String(cDate.getUTCHours()).padStart(2, '0');
                     const cM = String(cDate.getUTCMinutes()).padStart(2, '0');
@@ -1377,7 +1380,8 @@ class YaslogistThreatRadarApp {
         };
 
         tick();
-        setInterval(tick, 1000);
+        if (this.clockTimer) clearInterval(this.clockTimer);
+        this.clockTimer = setInterval(tick, 1000);
     }
 
     updateRealTelemetry() {
@@ -1432,15 +1436,16 @@ class YaslogistThreatRadarApp {
         const engineMeta = document.getElementById('cockpit-engine-meta');
         if (engineMeta) {
             engineMeta.textContent = isAr
-                ? `خط المعالجة // ${fh.ok} من ${fh.total} مصادر نشطة // تحديث تلقائي كل ساعتين`
-                : `INGEST PIPELINE // ${fh.ok}/${fh.total} SOURCES LIVE // AUTO-REFRESH 2H`;
+                ? `خط المعالجة // ${fh.ok} من ${fh.total} مصادر مستجيبة // دورة كل ساعتين`
+                : `INGEST PIPELINE // ${fh.ok}/${fh.total} SOURCES RESPONDING // 2H CADENCE`;
         }
     }
 
     startLiveProgressTelemetry() {
         this.updateRealTelemetry();
         // Freshness genuinely decays with time, so recompute on a slow tick.
-        setInterval(() => this.updateRealTelemetry(), 30000);
+        if (this.telemetryTimer) clearInterval(this.telemetryTimer);
+        this.telemetryTimer = setInterval(() => this.updateRealTelemetry(), 30000);
     }
 
     updateChartsFromData() {
@@ -1550,24 +1555,24 @@ class YaslogistThreatRadarApp {
 
         // Update browser document title
         document.title = isAr
-            ? "أنظمة دفاع ياسلوجست // رادار الاستخبارات السيادية وسلاسل الإمداد"
-            : "YASLOGIST DEFENSE SYSTEMS // SOVEREIGN CTI & LOGISTICS RADAR";
+            ? "ياسلوجست // صورة العمليات الإقليمية وسلاسل الإمداد"
+            : "YASLOGIST // REGIONAL THREAT & SUPPLY-CHAIN OPERATIONS PICTURE";
 
-        // Update DEFCON tooltips
+        // Update analytical model-tier tooltips
         const defconTitles = {
             en: {
-                5: "DEFCON 5: Normal Readiness",
-                4: "DEFCON 4: Guarded Readiness",
-                3: "DEFCON 3: Elevated Readiness",
-                2: "DEFCON 2: High Threat Readiness",
-                1: "DEFCON 1: Maximum Threat Readiness"
+                5: "Model tier 5: routine monitoring",
+                4: "Model tier 4: guarded monitoring",
+                3: "Model tier 3: elevated analytical posture",
+                2: "Model tier 2: high analytical posture",
+                1: "Model tier 1: critical analytical posture"
             },
             ar: {
-                5: "DEFCON 5: جاهزية عادية",
-                4: "DEFCON 4: جاهزية محترسة",
-                3: "DEFCON 3: جاهزية مرتفعة",
-                2: "DEFCON 2: تأهب أمني حرج",
-                1: "DEFCON 1: طوارئ قصوى"
+                5: "النموذج المستوى 5: مراقبة روتينية",
+                4: "النموذج المستوى 4: مراقبة حذرة",
+                3: "النموذج المستوى 3: وضع تحليلي مرتفع",
+                2: "النموذج المستوى 2: وضع تحليلي عالٍ",
+                1: "النموذج المستوى 1: وضع تحليلي حرج"
             }
         };
         document.querySelectorAll('.defcon-tier').forEach(tier => {
@@ -1592,7 +1597,7 @@ class YaslogistThreatRadarApp {
             this.updateWireCount();
         }
 
-        // DEFCON readout uses level-resolved localized strings.
+        // Model-tier readout uses level-resolved localized strings.
         const activeTier = document.querySelector('.defcon-tier.active');
         if (activeTier) this.setDefconLevel(parseInt(activeTier.getAttribute('data-level'), 10) || 4);
     }
@@ -1636,7 +1641,7 @@ class YaslogistThreatRadarApp {
         // Render CVE Table
         this.renderCVEs();
 
-        // Update KPIs & DEFCON & pipeline freshness
+        // Update KPIs, model tier, and pipeline freshness
         this.updateKPIs();
         this.updateFooterSync();
         this.renderSmartBriefing();
@@ -1784,7 +1789,7 @@ class YaslogistThreatRadarApp {
         setKpiBar('kpi-cve-card', cvssScores.length ? Math.max(...cvssScores) * 10 : 0, dict.kpiBarPeakCvss);
         setKpiBar('kpi-logistics-card', wireN ? (maritimeCount / wireN) * 100 : 0, dict.kpiBarMaritimeShare);
 
-        // DEFCON from the real severity mix of tracked CVEs.
+        // Analytical tier from the real severity mix of tracked CVEs.
         const sev = (this.cveData || []).map(c => (c.severity || '').toLowerCase());
         const criticalCount = sev.filter(x => x === 'critical').length;
         const highCount = sev.filter(x => x === 'high').length;
@@ -1794,7 +1799,7 @@ class YaslogistThreatRadarApp {
         this.setDefconLevel(defcon);
     }
 
-    /** Full 1..5 DEFCON readout — every level resolves its own localized string. */
+    /** Full 1..5 model-tier readout — every level resolves its own localized string. */
     setDefconLevel(level = 2) {
         document.querySelectorAll('.defcon-tier').forEach(tier => {
             const tierLevel = parseInt(tier.getAttribute('data-level'), 10);
@@ -1805,11 +1810,11 @@ class YaslogistThreatRadarApp {
         if (!readoutEl) return;
         const isAr = this.currentLang === 'ar';
         const READOUTS = {
-            1: { en: 'DEFCON 1 // IMMINENT KINETIC / CYBER ESCALATION', ar: 'DEFCON 1 // تصعيد عسكري وسيبراني وشيك', color: 'var(--yas-crimson)' },
-            2: { en: 'DEFCON 2 // SEVERE REGIONAL TARGETING', ar: 'DEFCON 2 // استهداف إقليمي حرج لمنشآت الطاقة والنقل', color: '#F97316' },
-            3: { en: 'DEFCON 3 // ELEVATED MILITARY READINESS', ar: 'DEFCON 3 // جاهزية أمنية واستخباراتية مرتفعة', color: 'var(--yas-gold)' },
-            4: { en: 'DEFCON 4 // GUARDED REGIONAL POSTURE', ar: 'DEFCON 4 // وضع إقليمي محترس ومراقبة مستمرة', color: 'var(--yas-cyan)' },
-            5: { en: 'DEFCON 5 // ROUTINE MONITORING', ar: 'DEFCON 5 // مراقبة روتينية اعتيادية', color: 'var(--yas-green)' }
+            1: { en: 'MODEL TIER 1 // CRITICAL ANALYTICAL POSTURE', ar: 'النموذج المستوى 1 // وضع تحليلي حرج', color: 'var(--yas-crimson)' },
+            2: { en: 'MODEL TIER 2 // HIGH ANALYTICAL POSTURE', ar: 'النموذج المستوى 2 // وضع تحليلي عالٍ', color: '#D88A51' },
+            3: { en: 'MODEL TIER 3 // ELEVATED ANALYTICAL POSTURE', ar: 'النموذج المستوى 3 // وضع تحليلي مرتفع', color: 'var(--yas-gold)' },
+            4: { en: 'MODEL TIER 4 // GUARDED MONITORING', ar: 'النموذج المستوى 4 // مراقبة إقليمية محترسة', color: 'var(--yas-cyan)' },
+            5: { en: 'MODEL TIER 5 // ROUTINE MONITORING', ar: 'النموذج المستوى 5 // مراقبة روتينية', color: 'var(--yas-green)' }
         };
         const r = READOUTS[level] || READOUTS[4];
         const label = isAr ? r.ar : r.en;
@@ -2350,14 +2355,18 @@ class YaslogistThreatRadarApp {
             t.classList.toggle('active', active);
             t.setAttribute('aria-selected', active ? 'true' : 'false');
             t.setAttribute('tabindex', active ? '0' : '-1');
+            if (active) t.setAttribute('aria-current', 'page');
+            else t.removeAttribute('aria-current');
         });
         panes.forEach(p => p.classList.toggle('active', p === pane));
 
         if (targetId === 'threat-map-view') {
             const mapNow = this.ensureThreatMap();
             if (mapNow && mapNow.map) {
-                setTimeout(() => { mapNow.map.invalidateSize(); }, 100);
-                setTimeout(() => { mapNow.map.invalidateSize(); }, 350);
+                this.mapResizeTimers.forEach(clearTimeout);
+                this.mapResizeTimers.length = 0;
+                this.mapResizeTimers.push(setTimeout(() => mapNow.map?.invalidateSize(), 100));
+                this.mapResizeTimers.push(setTimeout(() => mapNow.map?.invalidateSize(), 350));
             }
         }
         if (pushHash) {
@@ -2419,7 +2428,7 @@ class YaslogistThreatRadarApp {
         window.addEventListener('hashchange', () => {
             const target = fromHash();
             if (target) this.activateTab(target, { pushHash: true });
-        });
+        }, { signal: this.lifecycle?.signal });
     }
 
     /** Apply wire filter state coming from a shared link (tag + search). */
@@ -2462,7 +2471,7 @@ class YaslogistThreatRadarApp {
             if (document.getElementById('command-palette')?.hidden === false) return;
             const action = HOTKEYS[event.key.toLowerCase()];
             if (action) { event.preventDefault(); action(); }
-        });
+        }, { signal: this.lifecycle?.signal });
     }
 
     bindInteractions() {
@@ -2517,10 +2526,9 @@ class YaslogistThreatRadarApp {
         // Search Input on Wire
         const newsSearchInput = document.getElementById('news-search');
         if (newsSearchInput) {
-            let searchTimer;
             newsSearchInput.addEventListener('input', (e) => {
-                clearTimeout(searchTimer);
-                searchTimer = setTimeout(() => {
+                clearTimeout(this.searchTimer);
+                this.searchTimer = setTimeout(() => {
                     this.wireSearchTerm = e.target.value.trim();
                     this.renderIntelligenceWire();
                     this.syncWireHash();
@@ -2531,10 +2539,9 @@ class YaslogistThreatRadarApp {
         // CVE search filter (id / vendor / advisory, EN + AR).
         const cveSearchInput = document.getElementById('cve-search');
         if (cveSearchInput) {
-            let cveSearchTimer;
             cveSearchInput.addEventListener('input', (e) => {
-                clearTimeout(cveSearchTimer);
-                cveSearchTimer = setTimeout(() => {
+                clearTimeout(this.cveSearchTimer);
+                this.cveSearchTimer = setTimeout(() => {
                     this.cveSearchTerm = e.target.value.trim();
                     this.renderCVEs();
                 }, 120);
@@ -2614,7 +2621,7 @@ class YaslogistThreatRadarApp {
         this.reducedMotion = prefersReducedMotion();
         if (typeof window !== 'undefined' && typeof window.matchMedia === 'function') {
             const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-            mq.addEventListener?.('change', () => { this.reducedMotion = mq.matches; });
+            mq.addEventListener?.('change', () => { this.reducedMotion = mq.matches; }, { signal: this.lifecycle?.signal });
         }
         if (this.reducedMotion || typeof IntersectionObserver !== 'function') {
             this.revealObserver = null;
@@ -2763,6 +2770,47 @@ class YaslogistThreatRadarApp {
         this.updateChartsFromData();
         this.updateRealTelemetry();
     }
+
+    /** Deterministic teardown for embeds, hot reload, and page lifecycle. */
+    destroy() {
+        if (this.destroyed) return;
+        this.destroyed = true;
+        this.lifecycle?.abort();
+        this.stopLiveSync();
+        clearInterval(this.clockTimer);
+        clearInterval(this.telemetryTimer);
+        clearTimeout(this.searchTimer);
+        clearTimeout(this.cveSearchTimer);
+        clearTimeout(this.toastTimer);
+        this.mapResizeTimers.forEach(clearTimeout);
+        this.mapResizeTimers.length = 0;
+        this.clockTimer = null;
+        this.telemetryTimer = null;
+
+        if (this._kpiAnims && typeof cancelAnimationFrame === 'function') {
+            Object.values(this._kpiAnims).forEach(cancelAnimationFrame);
+        }
+        this._kpiAnims = {};
+        this.revealObserver?.disconnect();
+        this.revealObserver = null;
+        this.charts.vectors?.destroy?.();
+        this.charts.industry?.destroy?.();
+        this.charts.vectors = null;
+        this.charts.industry = null;
+        this.threatMap?.destroy?.();
+        this.threatMap = null;
+        this.acidSquares?.destroy?.();
+        this.acidSquares = null;
+        this._sparkline = null;
+
+        document.getElementById('command-palette')?.remove();
+        document.getElementById('yaslogist-toast')?.remove();
+        document.getElementById('sparkline-hint')?.remove();
+        if (typeof window !== 'undefined') {
+            if (window.yaslogistRadar === this) window.yaslogistRadar = null;
+            delete window.yaslogistCommands;
+        }
+    }
 }
 
 // Offline shell registration is deliberately non-blocking: telemetry rendering
@@ -2782,6 +2830,7 @@ const registerOfflineRuntime = async () => {
 if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.__YASLOGIST_NO_AUTOBOOT__) {
     document.addEventListener('DOMContentLoaded', () => {
         window.yaslogistRadar = new YaslogistThreatRadarApp();
+        window.addEventListener('pagehide', () => window.yaslogistRadar?.destroy?.(), { once: true });
         registerOfflineRuntime();
     });
 }

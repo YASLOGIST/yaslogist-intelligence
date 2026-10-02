@@ -1,15 +1,15 @@
 {
-    "name": "YASLOGIST Intelligence — Sovereign CTI & Logistics Radar",
+    "name": "YASLOGIST Intelligence — Regional Operations Picture",
     "short_name": "YASLOGIST",
-    "description": "Bilingual sovereign cyber-threat-intelligence and maritime logistics radar: live intel wire, tactical threat map, CVE matrix and APT dossiers.",
+    "description": "Bilingual open-source regional threat and maritime supply-chain operations picture.",
     "lang": "en",
     "dir": "auto",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",
     "orientation": "any",
-    "background_color": "#07090e",
-    "theme_color": "#07090e",
+    "background_color": "#05090e",
+    "theme_color": "#05090e",
     "icons": [
         {
             "src": "assets/yaslogist-icon-192.png",

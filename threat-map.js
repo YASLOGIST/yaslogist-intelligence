@@ -83,8 +83,8 @@ const STRATEGIC_GEO_NODES = {
         nameAr: 'مضيق باب المندب (جنوب البحر الأحمر)',
         coords: [12.5833, 43.3333],
         type: 'maritime_chokepoint',
-        supplyChainImpactEn: 'Strategic Maritime Chokepoint // 12% Global Trade Under Direct Interdiction',
-        supplyChainImpactAr: 'مضيق ملاحي استراتيجي // 12% من التجارة العالمية تحت خطر الاعتراض',
+        supplyChainImpactEn: 'Strategic maritime chokepoint // reference monitoring corridor',
+        supplyChainImpactAr: 'مضيق ملاحي استراتيجي // ممر مراقبة مرجعي',
         vectorsEn: ['AIS Telemetry Spoofing', 'Kinetic-Cyber Hybrid Attacks', 'Vessel GPS Jamming'],
         vectorsAr: ['تزييف إشارات AIS الملاحية', 'عمليات هجينة سيبرانية-عسكرية', 'تشويش إحداثيات GPS للسفن'],
         status: 'CRITICAL_RISK'
@@ -95,8 +95,8 @@ const STRATEGIC_GEO_NODES = {
         nameAr: 'مضيق هرمز (الشريان النفطي العالمي)',
         coords: [26.5667, 56.2500],
         type: 'maritime_chokepoint',
-        supplyChainImpactEn: 'Global Crude & LNG Superhighway // 21 Million Barrels/Day Throughput',
-        supplyChainImpactAr: 'شريان النفط والغاز المسال // عبور 21 مليون برميل نفط يومياً',
+        supplyChainImpactEn: 'Crude and LNG transit corridor // reference monitoring node',
+        supplyChainImpactAr: 'ممر عبور النفط والغاز المسال // نقطة مراقبة مرجعية',
         vectorsEn: ['GPS Desynchronization', 'Satellite Comms Interception', 'Tanker AIS Tracking'],
         vectorsAr: ['تشويش توقيت GPS', 'اعتراض اتصالات الأقمار الصناعية', 'تتبع ناقلات النفط'],
         status: 'HIGH_ALERT'
@@ -119,6 +119,7 @@ export class ThreatMap {
         this.radarRangesLayer = null;
         this.subseaCablesLayer = null;
         this.aisVesselsLayer = null;
+        this.aisRendered = false;
         this.currentData = [];
         this.currentLang = 'en';
 
@@ -143,6 +144,9 @@ export class ThreatMap {
             zoom: this.options.zoom,
             minZoom: this.options.minZoom,
             maxZoom: this.options.maxZoom,
+            // Route/range layers share one Canvas renderer instead of creating
+            // an SVG node per path. DivIcon markers remain semantic DOM.
+            preferCanvas: true,
             zoomControl: true,
             attributionControl: true,
             dragging: true,
@@ -191,7 +195,10 @@ export class ThreatMap {
         this.markersLayer = L.layerGroup().addTo(this.map);
         this.radarRangesLayer = L.layerGroup().addTo(this.map);
         this.subseaCablesLayer = L.layerGroup().addTo(this.map);
-        this.aisVesselsLayer = L.layerGroup().addTo(this.map);
+        // Simulated AIS is opt-in: do not spend DOM/memory or mix illustrative
+        // vessels into the evidence map until the operator enables the layer.
+        this.aisVesselsLayer = L.layerGroup();
+        this.aisRendered = false;
 
         const baseMaps = {
             "Tactical Dark": darkCanvas,
@@ -208,11 +215,18 @@ export class ThreatMap {
             "Simulated AIS & Escort Watch": this.aisVesselsLayer
         };
 
-        // Always show the expanded tactical layer control in the top-right
-        L.control.layers(baseMaps, overlayMaps, { 
+        // Keep the map legible on first paint; operators can expand the full
+        // layer inventory on demand. This also avoids a large permanent overlay.
+        this.layersControl = L.control.layers(baseMaps, overlayMaps, {
             position: 'topright',
-            collapsed: false 
+            collapsed: true
         }).addTo(this.map);
+        this.map.on('overlayadd', (event) => {
+            if (event.layer === this.aisVesselsLayer && !this.aisRendered) {
+                this.renderAisVessels();
+                this.aisRendered = true;
+            }
+        });
 
         // Render strategic maritime supply chain routes
         this.renderMaritimeCorridors();
@@ -223,14 +237,13 @@ export class ThreatMap {
         // Render smart super intelligence: subsea telecommunications & fiber hubs
         this.renderSubseaCables();
 
-        // Simulated AIS watchlist: illustrative escort/chokepoint vessels.
-        // Positions are NOT live telemetry — the layer is labelled SIMULATED
-        // everywhere so it can never be read as real-time tracking data.
-        this.renderAisVessels();
+        // Simulated AIS remains unrendered until its clearly labelled optional
+        // layer is enabled; it never enters the default evidence picture.
 
-        // Invalidate size to guarantee perfect tile rendering
-        setTimeout(() => {
+        // One managed post-layout correction; released by destroy().
+        this.resizeTimer = setTimeout(() => {
             if (this.map) this.map.invalidateSize();
+            this.resizeTimer = null;
         }, 150);
 
         console.log('[YASLOGIST] Leaflet Tactical Threat Map initialized with Super Intelligence layers.');
@@ -242,15 +255,15 @@ export class ThreatMap {
         const isAr = this.currentLang === 'ar';
 
         const zones = [
-            { nameEn: 'SUEZ CANAL OP-ZONE', nameAr: 'نطاق عمليات قناة السويس', coords: [29.9668, 32.5498], radius: 180000, color: '#06B6D4' },
-            { nameEn: 'BAB EL-MANDEB INTERDICTION ZONE', nameAr: 'نطاق اعتراض باب المندب', coords: [12.5855, 43.3328], radius: 240000, color: '#EF4444' },
-            { nameEn: 'STRAIT OF HORMUZ ESCORT ZONE', nameAr: 'منطقة المرافقة الأمنية بمضيق هرمز', coords: [26.5667, 56.2500], radius: 220000, color: '#EAB308' },
-            { nameEn: 'EAST MED MARITIME ZONE', nameAr: 'نطاق عمليات شرق المتوسط', coords: [32.8191, 34.9983], radius: 160000, color: '#A855F7' }
+            { nameEn: 'SUEZ CANAL REFERENCE RADIUS', nameAr: 'النطاق المرجعي لقناة السويس', coords: [29.9668, 32.5498], radius: 180000, color: '#06B6D4' },
+            { nameEn: 'BAB EL-MANDEB REFERENCE RADIUS', nameAr: 'النطاق المرجعي لباب المندب', coords: [12.5855, 43.3328], radius: 240000, color: '#EF4444' },
+            { nameEn: 'STRAIT OF HORMUZ REFERENCE RADIUS', nameAr: 'النطاق المرجعي لمضيق هرمز', coords: [26.5667, 56.2500], radius: 220000, color: '#EAB308' },
+            { nameEn: 'EAST MED REFERENCE RADIUS', nameAr: 'النطاق المرجعي لشرق المتوسط', coords: [32.8191, 34.9983], radius: 160000, color: '#A855F7' }
         ];
 
         zones.forEach(z => {
             const zName = isAr ? z.nameAr : z.nameEn;
-            const rangeText = isAr ? `مدى التغطية الرادارية: ${z.radius / 1000} كم` : `RADAR RANGE: ${z.radius / 1000} KM`;
+            const rangeText = isAr ? `نطاق مرجعي: ${z.radius / 1000} كم` : `REFERENCE RADIUS: ${z.radius / 1000} KM`;
             // Outer range ring
             L.circle(z.coords, {
                 radius: z.radius,
@@ -291,7 +304,7 @@ export class ThreatMap {
                 <div class="popup-data-grid">
                     <div><span>الطول الإجمالي:</span> <strong>25,000 كم</strong></div>
                     <div><span>سعة التصميم:</span> <strong class="text-cyan">40 تيرابت/ثانية</strong></div>
-                    <div><span>الحالة التشغيلية:</span> <strong style="color:#10B981">يعمل بكامل الكفاءة (100%)</strong></div>
+                    <div><span>الحالة التشغيلية:</span> <strong>غير مرصودة // مسار مرجعي</strong></div>
                     <div><span>مستوى التهديد:</span> <strong class="text-gold">متوسط (مراقبة منطقة الانتظار)</strong></div>
                 </div>
             </div>
@@ -302,7 +315,7 @@ export class ThreatMap {
                 <div class="popup-data-grid">
                     <div><span>LENGTH:</span> <strong>25,000 KM</strong></div>
                     <div><span>DESIGN CAPACITY:</span> <strong class="text-cyan">40 Tbps</strong></div>
-                    <div><span>STATUS:</span> <strong style="color:#10B981">OPERATIONAL (100%)</strong></div>
+                    <div><span>STATUS:</span> <strong>NOT MONITORED // REFERENCE ROUTE</strong></div>
                     <div><span>THREAT LEVEL:</span> <strong class="text-gold">MEDIUM (Anchorage Watch)</strong></div>
                 </div>
             </div>
@@ -386,11 +399,11 @@ export class ThreatMap {
 
         // Strategic Cable Landing Hubs
         const landingHubs = [
-            { nameEn: 'Alexandria Sovereign Landing Hub', nameAr: 'محطة الإنزال السيادية - الإسكندرية', coords: [31.2, 29.9], cablesEn: 'AAE-1, SMW-5, 2Africa', cablesAr: 'AAE-1, SMW-5, 2Africa' },
-            { nameEn: 'Zafarana / Suez Landing Corridor', nameAr: 'شريان العبور المزدوج - الزعفرانة / السويس', coords: [29.1, 32.6], cablesEn: 'Suez Land Transit Route', cablesAr: 'مسار العبور البري لقناة السويس' },
-            { nameEn: 'Jeddah International Teleport', nameAr: 'محطة جدة الدولية للكابلات البحرية', coords: [21.5, 39.1], cablesEn: 'FALCON, AAE-1, SAS', cablesAr: 'FALCON, AAE-1, SAS' },
-            { nameEn: 'Fujairah Smart Gateway Hub', nameAr: 'بوابة الفجيرة الذكية (تجاوز مضيق هرمز)', coords: [25.1, 56.3], cablesEn: 'FALCON, TW1, MENA', cablesAr: 'FALCON, TW1, MENA' },
-            { nameEn: 'Djibouti Horn Data Interchange', nameAr: 'محطة اتصال جيبوتي والقرن الأفريقي', coords: [11.6, 43.1], cablesEn: 'DARE-1, EASSy, SEACOM', cablesAr: 'DARE-1, EASSy, SEACOM' }
+            { nameEn: 'Alexandria Cable Landing Reference', nameAr: 'محطة الإنزال السيادية - الإسكندرية', coords: [31.2, 29.9], cablesEn: 'AAE-1, SMW-5, 2Africa', cablesAr: 'AAE-1, SMW-5, 2Africa' },
+            { nameEn: 'Zafarana / Suez Landing Reference', nameAr: 'شريان العبور المزدوج - الزعفرانة / السويس', coords: [29.1, 32.6], cablesEn: 'Suez Land Transit Route', cablesAr: 'مسار العبور البري لقناة السويس' },
+            { nameEn: 'Jeddah Cable Landing Reference', nameAr: 'محطة جدة الدولية للكابلات البحرية', coords: [21.5, 39.1], cablesEn: 'FALCON, AAE-1, SAS', cablesAr: 'FALCON, AAE-1, SAS' },
+            { nameEn: 'Fujairah Cable Landing Reference', nameAr: 'بوابة الفجيرة الذكية (تجاوز مضيق هرمز)', coords: [25.1, 56.3], cablesEn: 'FALCON, TW1, MENA', cablesAr: 'FALCON, TW1, MENA' },
+            { nameEn: 'Djibouti Cable Landing Reference', nameAr: 'محطة اتصال جيبوتي والقرن الأفريقي', coords: [11.6, 43.1], cablesEn: 'DARE-1, EASSy, SEACOM', cablesAr: 'DARE-1, EASSy, SEACOM' }
         ];
 
         landingHubs.forEach(hub => {
@@ -410,8 +423,8 @@ export class ThreatMap {
                     <div class="popup-title">${hName}</div>
                     <div class="popup-data-grid">
                         <div><span>نقاط الربط:</span> <strong>${hCables}</strong></div>
-                        <div><span>الدفاع السيبراني:</span> <strong style="color:#10B981">معزول ماديًا (Zero-Trust)</strong></div>
-                        <div><span>الحماية الميدانية:</span> <strong>تأمين وحراسة عسكرية سيادية</strong></div>
+                        <div><span>الحالة:</span> <strong>غير مرصودة // موقع مرجعي</strong></div>
+                        <div><span>المصدر:</span> <strong>مرجع عام لمسارات الكابلات</strong></div>
                     </div>
                 </div>
             ` : `
@@ -420,8 +433,8 @@ export class ThreatMap {
                     <div class="popup-title">${hName}</div>
                     <div class="popup-data-grid">
                         <div><span>INTERCONNECTS:</span> <strong>${hCables}</strong></div>
-                        <div><span>CYBER DEFENSE:</span> <strong style="color:#10B981">Zero-Trust Air-Gapped</strong></div>
-                        <div><span>PHYSICAL SECURITY:</span> <strong>Sovereign Military Escort</strong></div>
+                        <div><span>STATUS:</span> <strong>NOT MONITORED // REFERENCE LOCATION</strong></div>
+                        <div><span>SOURCE:</span> <strong>PUBLIC CABLE-ROUTE REFERENCE</strong></div>
                     </div>
                 </div>
             `;
@@ -970,7 +983,7 @@ export class ThreatMap {
         this.renderMaritimeCorridors();
         this.renderRadarRangeRings();
         this.renderSubseaCables();
-        this.renderAisVessels();
+        if (this.aisRendered) this.renderAisVessels();
         this.updateLayersControlLanguage(lang);
     }
 
@@ -1007,9 +1020,26 @@ export class ThreatMap {
     }
 
     invalidateSize() {
+        if (this.map) this.map.invalidateSize();
+    }
+
+    /** Release tile listeners, Canvas/SVG renderers, controls, and DOM nodes. */
+    destroy() {
+        if (this.resizeTimer) clearTimeout(this.resizeTimer);
+        this.resizeTimer = null;
         if (this.map) {
-            this.map.invalidateSize();
+            this.map.off();
+            this.map.remove();
         }
+        this.map = null;
+        this.layersControl = null;
+        this.markersLayer = null;
+        this.corridorsLayer = null;
+        this.radarRangesLayer = null;
+        this.subseaCablesLayer = null;
+        this.aisVesselsLayer = null;
+        this.aisRendered = false;
+        this.currentData = [];
     }
 }
 
