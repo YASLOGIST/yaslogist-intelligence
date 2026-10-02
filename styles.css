@@ -3357,3 +3357,174 @@ body {
     .cp-state { font-size: 8px; }
     .map-observed-status { flex-basis: 100%; }
 }
+
+/* =====================================================================
+   2026 COMMAND SURFACE // cartographic hierarchy pass
+   A restrained finish layer: less glow, stronger measurement, clearer
+   evidence grouping. It intentionally leaves all existing contracts intact.
+   ===================================================================== */
+:root {
+    --surface-0: #05090e;
+    --surface-1: rgba(8, 14, 21, .9);
+    --surface-2: rgba(12, 20, 29, .72);
+    --line-soft: rgba(166, 190, 202, .14);
+    --line-strong: rgba(6, 182, 212, .34);
+    --signal-white: #e7eef2;
+    --grid-line: rgba(102, 151, 166, .1);
+}
+
+html { background: var(--surface-0); }
+body.yaslogist-terminal { background: var(--surface-0) !important; }
+#acid-squares-bg {
+    z-index: 0;
+    background: var(--surface-0) !important;
+    opacity: .94;
+}
+.hud-container {
+    z-index: 1;
+    width: min(100%, 1840px);
+    padding: 20px 30px 24px;
+    gap: 14px;
+}
+.command-header {
+    display: grid;
+    grid-template-columns: minmax(310px, 1.35fr) minmax(300px, .85fr) auto;
+    min-height: 84px;
+    padding: 12px 20px;
+    border: 1px solid var(--line-soft);
+    border-top-color: rgba(234, 179, 8, .4);
+    border-radius: 5px;
+    background: linear-gradient(110deg, rgba(5, 10, 16, .94), rgba(9, 19, 27, .8));
+    box-shadow: 0 16px 44px rgba(0, 0, 0, .35), inset 0 1px rgba(255, 255, 255, .05);
+}
+.command-header:hover {
+    border-color: rgba(6, 182, 212, .35);
+    background: linear-gradient(110deg, rgba(5, 10, 16, .96), rgba(9, 19, 27, .84));
+    box-shadow: 0 16px 44px rgba(0, 0, 0, .38), inset 0 1px rgba(255, 255, 255, .05);
+}
+.logo-container { border-radius: 4px; background: rgba(234, 179, 8, .035); }
+.main-title { font-size: clamp(1.05rem, 1.5vw, 1.35rem); letter-spacing: .06em; }
+.kicker-tag { font-size: 9px; letter-spacing: .16em; }
+.defcon-center-block {
+    padding-inline: 24px;
+    border-inline: 1px solid var(--line-soft);
+}
+.telemetry-right-block { min-width: 248px; }
+.tactical-navbar {
+    justify-content: flex-start;
+    align-self: flex-start;
+    gap: 2px;
+    padding: 4px;
+    margin: 0 !important;
+    border-radius: 5px;
+    background: rgba(4, 9, 14, .84) !important;
+    border-color: var(--line-soft) !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, .25) !important;
+}
+.nav-tab {
+    border: 0;
+    border-radius: 3px;
+    padding: 9px 15px;
+    font-size: 10px;
+    letter-spacing: .08em;
+}
+.nav-tab:hover { transform: none; box-shadow: none; }
+.nav-tab.active {
+    box-shadow: inset 0 -2px var(--yas-gold), inset 0 0 18px rgba(234, 179, 8, .08);
+}
+.glass-panel {
+    border-radius: 5px;
+    border-color: var(--line-soft);
+    background: linear-gradient(135deg, rgba(5, 10, 16, .91), rgba(8, 16, 24, .79));
+    box-shadow: 0 16px 44px rgba(0, 0, 0, .3), inset 0 1px rgba(255, 255, 255, .035);
+}
+.glass-panel::after { opacity: .45; }
+.glass-panel::before { display: none; }
+#dashboard.tab-panel {
+    max-width: 1680px;
+    gap: 14px;
+    padding: 18px 20px 22px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, rgba(6, 12, 18, .9), rgba(4, 8, 13, .82)) !important;
+    border-color: var(--line-soft) !important;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, .34), inset 0 1px rgba(255, 255, 255, .045) !important;
+}
+.kpi-strip { gap: 8px; }
+.kpi-card {
+    min-height: 132px;
+    padding: 14px 15px 12px;
+    border: 1px solid var(--line-soft);
+    border-inline-start: 2px solid var(--yas-cyan);
+    border-radius: 3px;
+    background: linear-gradient(160deg, rgba(13, 23, 31, .72), rgba(5, 10, 16, .88));
+    box-shadow: none;
+}
+.kpi-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--line-strong);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .26);
+}
+.kpi-label { letter-spacing: .11em; color: #9cafb8; }
+.kpi-value { font-size: clamp(1.8rem, 3vw, 2.3rem); }
+.live-progress-cockpit-panel {
+    gap: 12px;
+    border-radius: 4px;
+    padding: 14px 16px;
+    border-color: var(--line-strong);
+    background: rgba(5, 12, 18, .7);
+    box-shadow: none;
+}
+.progress-metric-box { border-radius: 3px; background: rgba(2, 8, 13, .55); }
+.progress-metric-box:hover { transform: translateY(-1px); }
+.vectors-row-grid { gap: 10px; }
+.card {
+    border-radius: 4px;
+    border-color: var(--line-soft);
+    background: rgba(6, 12, 18, .78);
+    box-shadow: none;
+}
+.card-header { padding: 13px 15px; border-bottom-color: var(--line-soft); }
+.card-title { letter-spacing: .06em; font-size: 13px; }
+.card-subtitle { color: #7c919c; }
+.map-panel, .intel-wire-panel, .cve-matrix-panel, .actors-dossier-panel { border-top: 2px solid rgba(6, 182, 212, .32); }
+.wire-item, .actor-dossier-card {
+    border-radius: 3px;
+    border-color: rgba(166, 190, 202, .13);
+    background: rgba(8, 16, 23, .72);
+    box-shadow: none;
+}
+.wire-item:hover, .actor-dossier-card:hover { box-shadow: 0 8px 22px rgba(0, 0, 0, .25); }
+.filter-pill, .search-input-wrap input, .btn-refresh, .btn-reset-map, .lang-toggle-btn {
+    border-radius: 3px;
+}
+.search-input-wrap input { background: rgba(2, 7, 11, .8); }
+.hud-footer {
+    width: min(100%, 1680px);
+    margin: 0 auto;
+    padding-top: 11px;
+    border-top-color: var(--line-soft);
+}
+
+/* Active tab enters as a change in the picture, not a modal jump. */
+@media (prefers-reduced-motion: no-preference) {
+    .tab-panel.active { animation: panelIn .24s var(--ease-standard) both; }
+}
+@keyframes panelIn { from { opacity: .45; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 1060px) {
+    .command-header { grid-template-columns: 1fr auto; }
+    .defcon-center-block { grid-column: 1 / -1; grid-row: 2; border-inline: 0; border-top: 1px solid var(--line-soft); padding: 11px 0 0; }
+    .telemetry-right-block { grid-column: 2; grid-row: 1; min-width: 0; }
+}
+@media (max-width: 700px) {
+    .hud-container { padding: 10px 10px 16px; }
+    .command-header { display: flex; flex-wrap: wrap; padding: 11px 12px; gap: 12px; }
+    .brand-block { flex: 1 1 100%; }
+    .telemetry-right-block { width: 100%; }
+    .dual-clocks { justify-content: space-between; }
+    .defcon-center-block { width: 100%; }
+    .tactical-navbar { max-width: 100%; overflow-x: auto; align-self: stretch; }
+    .nav-tab { padding-inline: 12px; }
+    #dashboard.tab-panel { padding: 12px 10px 16px; }
+    .kpi-card { min-height: 118px; }
+}

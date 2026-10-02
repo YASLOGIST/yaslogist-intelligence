@@ -7,7 +7,7 @@
 // Shell-generation counter: bump when any precached asset changes. Kept
 // decoupled from the app release version so a new shell always replaces the
 // stale one atomically.
-const CACHE_VERSION = 'yaslogist-v4-shell';
+const CACHE_VERSION = 'yaslogist-v5-shell';
 // Precache URLs match the exact requests index.html makes (cache keys are
 // query-sensitive), otherwise the versioned assets bypass the offline shell.
 const APP_SHELL = [
