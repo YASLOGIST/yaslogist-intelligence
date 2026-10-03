@@ -1,12 +1,193 @@
 [
   {
-    "titleEn": "Two Iranians charged over alleged plot targeting Jewish community in UK",
-    "titleAr": "Two Iranians charged over alleged plot targeting Jewish community in UK",
-    "link": "https://www.aljazeera.com/news/2026/10/3/two-iranians-charged-over-alleged-plot-targeting-jewish-community-in-uk?traffic_source=rss",
+    "titleEn": "Palestinians gather for football amid Gaza’s ruins",
+    "titleAr": "Palestinians gather for football amid Gaza’s ruins",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1790999770000,
-    "summaryEn": "Two Iranian men are accused of preparing to commit an act of terrorism in Manchester ahead of Yom Kippur.",
-    "summaryAr": "Two Iranian men are accused of preparing to commit an act of terrorism in Manchester ahead of Yom Kippur.",
+    "pubDate": 1791025697000,
+    "summaryEn": "Displaced Palestinians gathered to watch a friendly football match in Gaza’s Khan Younis.",
+    "summaryAr": "Displaced Palestinians gathered to watch a friendly football match in Gaza’s Khan Younis.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "A Yemeni family spends a week on the road fleeing another Houthi offensive",
+    "titleAr": "A Yemeni family spends a week on the road fleeing another Houthi offensive",
+    "link": "https://www.aljazeera.com/features/2026/10/3/a-yemeni-family-spend-a-week-on-the-road-fleeing-another-houthi-offensive?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791024508000,
+    "summaryEn": "Displaced Yemenis are fleeing again, as the Houthis capture the Red Sea coast.",
+    "summaryAr": "Displaced Yemenis are fleeing again, as the Houthis capture the Red Sea coast.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
+    "titleAr": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmwtU1dvSVNubGRlbFl6OE9ObzN4MFVRYkUtMFVueTVRbE5KWGx5RTR4T1NFS2oyN1J3V0YxOEVhU3ZTeXAwX0ppOHNKRWE1S1NNYXl3UWt3WGQ2SWFJbkdHMmJLTVRNanp6THZ1R1VPUmRoR1lLSGRvYWtLRWk4bjJnTGJsLWlqMklpeVhPbUx2dTBpN2Z2YVpkOE83Rm8waTdaNmtDaWpxdTlHb0FzQkE5RnFiWFhk?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791023503000,
+    "summaryEn": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
+    "summaryAr": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "titleAr": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791021604000,
+    "summaryEn": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "summaryAr": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
+    "titleAr": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
+    "link": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791019658000,
+    "summaryEn": "Global energy prices have soared due to the US and Israel's war on Iran and Russia's war on Ukraine.",
+    "summaryAr": "Global energy prices have soared due to the US and Israel's war on Iran and Russia's war on Ukraine.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
+    "titleAr": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
+    "link": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791016577000,
+    "summaryEn": "Government forces close a key crossing connecting Houthi-held al-Houban to government-held Taiz city.",
+    "summaryAr": "Government forces close a key crossing connecting Houthi-held al-Houban to government-held Taiz city.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
+    "titleAr": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-air-attack-on-residential-apartment-in-gaza-kills-5-palestinians?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791014267000,
+    "summaryEn": "An Israeli air attack on a residential apartment in Gaza City has killed at least five Palestinians.",
+    "summaryAr": "An Israeli air attack on a residential apartment in Gaza City has killed at least five Palestinians.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Singer Zach Bryan wears Free Palestine shirt at Gillette Stadium",
+    "titleAr": "Singer Zach Bryan wears Free Palestine shirt at Gillette Stadium",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/10-3-zach-byran-free-palestine-clip-mp4?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791010389000,
+    "summaryEn": "US singer Zach Bryan wore a ‘Free Palestine’ shirt while performing at Gillette Stadium, owned by Robert Kraft.",
+    "summaryAr": "US singer Zach Bryan wore a ‘Free Palestine’ shirt while performing at Gillette Stadium, owned by Robert Kraft.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza voters want jobs and security as Palestinian elections approach",
+    "titleAr": "Gaza voters want jobs and security as Palestinian elections approach",
+    "link": "https://www.aljazeera.com/news/2026/10/3/gaza-voters-want-jobs-and-security-as-palestinian-elections-approach?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791005969000,
+    "summaryEn": "Ahead of first Palestinian national elections in 20 years, people in Gaza hope to rebuild after Israeli destruction.",
+    "summaryAr": "Ahead of first Palestinian national elections in 20 years, people in Gaza hope to rebuild after Israeli destruction.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - tbsnews.net",
+    "titleAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - tbsnews.net",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRzNDclZCX3E3NjE1Vl85S2dUTmRsLUZTYU5IRGxUQ0hOY3JDN3ZnSFRNVXlqWElnc3duN2F6N1FNMlpuWkMzTlduNm1JWFZsa0l1VDE0X3k4YXV4aUtobjdfVVlHaDdwNmU1RF9mRUVuZVNwX3dhUm1yNFBYLU5TZXNPcnZaZGJuVXdxV0FvbnQ2dWN2dFZLaDNtOTNDTk5vVDZLMFpSakFhcEJHR0E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791005696000,
+    "summaryEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East tbsnews.net",
+    "summaryAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East tbsnews.net",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New claims that Netanyahu rejected Hamas offer to release captives",
+    "titleAr": "New claims that Netanyahu rejected Hamas offer to release captives",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/new-claims-that-netanyahu-rejected-hamas-offer-to-release-captives?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791003523000,
+    "summaryEn": "Reports are building that Israel rejected a Hamas offer to release all civilian hostages taken on October 7, 2023.",
+    "summaryAr": "Reports are building that Israel rejected a Hamas offer to release all civilian hostages taken on October 7, 2023.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "WHO warns of ‘devastating consequences’ due to delayed aid entry into Gaza",
+    "titleAr": "WHO warns of ‘devastating consequences’ due to delayed aid entry into Gaza",
+    "link": "https://www.aljazeera.com/news/2026/10/3/who-warns-of-devastating-consequences-due-to-delayed-aid-entry-into-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791003260000,
+    "summaryEn": "The WHO's representative in Palestine calls on Israeli authorities to 'release the pressure on medical supplies'.",
+    "summaryAr": "The WHO's representative in Palestine calls on Israeli authorities to 'release the pressure on medical supplies'.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -20,57 +201,9 @@
     "titleAr": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QRzZzb0dzS2VqTEZ4QjU3MzRlQUFvdTdEMnc4QzZjR29nVTNmSVc4R0JIMXg3bDNqV0Z1eDdMczlxZE9KVnFOek1RcDY3TldqdlJ4bFdYZzdZNDEwQ01seDk4bHpTakdjMUp0clVSNWRzOGk2eFN5ZmxCcmlfNGs?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1790996405000,
+    "pubDate": 1790985605000,
     "summaryEn": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
     "summaryAr": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli air attack on Gaza City apartment kills at least five",
-    "titleAr": "Israeli air attack on Gaza City apartment kills at least five",
-    "link": "https://www.aljazeera.com/news/2026/10/3/israeli-air-attack-on-gaza-city-apartment-kills-at-least-five?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790994323000,
-    "summaryEn": "No warning was given before the deadly Israeli attack hit Remal, one of Gaza City's most crowded neighbourhoods.",
-    "summaryAr": "No warning was given before the deadly Israeli attack hit Remal, one of Gaza City's most crowded neighbourhoods.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
-    "titleAr": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790985600000,
-    "summaryEn": "Fighting intensifies across Yemen as the army says 474 attacks in 24 hours killed or wounded 1,540 Houthi fighters.",
-    "summaryAr": "Fighting intensifies across Yemen as the army says 474 attacks in 24 hours killed or wounded 1,540 Houthi fighters.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "North Korea fires ballistic missile towards the sea, South Korea says",
-    "titleAr": "North Korea fires ballistic missile towards the sea, South Korea says",
-    "link": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790985324000,
-    "summaryEn": "A ballistic missile fired from the North Korean port city of Wonsan flies more than 700km, South Korea's military says.",
-    "summaryAr": "A ballistic missile fired from the North Korean port city of Wonsan flies more than 700km, South Korea's military says.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -96,13 +229,13 @@
     ]
   },
   {
-    "titleEn": "Israeli strike kills five in Gaza, health officials say - Reuters",
-    "titleAr": "Israeli strike kills five in Gaza, health officials say - Reuters",
+    "titleEn": "Israeli strike kills five, including four women, in Gaza, health officials say - Reuters",
+    "titleAr": "Israeli strike kills five, including four women, in Gaza, health officials say - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTRBdWs0UERVMW05RGtXdHdNWGJKajVmSkFZQVdpamVzQ0VqMkNqdjBmWHp6ZGUtZkozbXpnbEREeXBSeDZ6dXJJWC05UXc4UDBGTk1iOWZ6Y0hUR0NBWDZETkxCNGJOTURYUGhpRG9TVzRJTndvX3hieVczbzZHLU9aN21CV2J5cXYxLU4xVHVvcEIyTVVTbmlYem1QRGszQ1Ztbg?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1790985000000,
-    "summaryEn": "Israeli strike kills five in Gaza, health officials say Reuters",
-    "summaryAr": "Israeli strike kills five in Gaza, health officials say Reuters",
+    "summaryEn": "Israeli strike kills five, including four women, in Gaza, health officials say Reuters",
+    "summaryAr": "Israeli strike kills five, including four women, in Gaza, health officials say Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -128,13 +261,13 @@
     ]
   },
   {
-    "titleEn": "Why Carney’s economic overhaul is clashing with Canada’s unions",
-    "titleAr": "Why Carney’s economic overhaul is clashing with Canada’s unions",
-    "link": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790979274000,
-    "summaryEn": "Unions say proposed changes to Canada's labour laws could weaken workers’ right to strike.",
-    "summaryAr": "Unions say proposed changes to Canada's labour laws could weaken workers’ right to strike.",
+    "titleEn": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply - EnergyNow.com",
+    "titleAr": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamczazBVQWd3UXkyWGdFMkp5U1lCd3gxRlB2ZGlTUXI5OUxsMkhkLThEcVhlSDMzcU1OdlgyQzNITlIteDFsNXd5NmEtdkFxVlVEOVB0RVotRmhfYm9INV9aeW1HanNNc2g3OUozdktwTzQzWFliQzBLNjVkUTZxUjNCREJvYkVhdTByT3Q0cTVYQXcxTWtB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790979199000,
+    "summaryEn": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply EnergyNow.com",
+    "summaryAr": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -144,61 +277,13 @@
     ]
   },
   {
-    "titleEn": "Israel could’ve ended Gaza war, freed captives sooner: Israel ex-negotiator",
-    "titleAr": "Israel could’ve ended Gaza war, freed captives sooner: Israel ex-negotiator",
-    "link": "https://www.aljazeera.com/news/2026/10/2/israel-couldve-ended-gaza-war-freed-captives-sooner-israel-ex-negotiator?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790977997000,
-    "summaryEn": "Retired General Nitzan Alon says more captives could have returned alive and a deal was possible 'maybe a year earlier'.",
-    "summaryAr": "Retired General Nitzan Alon says more captives could have returned alive and a deal was possible 'maybe a year earlier'.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli general: Gaza captives could have been freed a year earlier",
-    "titleAr": "Israeli general: Gaza captives could have been freed a year earlier",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/israeli-general-gaza-captives-could-have-been-freed-a-year-earlier?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790975758000,
-    "summaryEn": "Israeli Gen. Nitzan Alon told a Washington Institute forum that all Gaza captives could've been freed a year earlier.",
-    "summaryAr": "Israeli Gen. Nitzan Alon told a Washington Institute forum that all Gaza captives could've been freed a year earlier.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iraq grants Iranian airlines 40 daily Najaf flights after US exemption",
-    "titleAr": "Iraq grants Iranian airlines 40 daily Najaf flights after US exemption",
-    "link": "https://www.aljazeera.com/news/2026/10/2/iraq-grants-iranian-airlines-40-daily-najaf-flights-after-us-exemption?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790973122000,
-    "summaryEn": "Mahan Air is excluded from the agreement as Baghdad says Washington granted its request for a waiver.",
-    "summaryAr": "Mahan Air is excluded from the agreement as Baghdad says Washington granted its request for a waiver.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Arab party leader withdraws from Israeli elections",
-    "titleAr": "Arab party leader withdraws from Israeli elections",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1790968223000,
-    "summaryEn": "Palestinian politician Sami Abu Shehadeh withdrew from Israel’s upcoming election.",
-    "summaryAr": "Palestinian politician Sami Abu Shehadeh withdrew from Israel’s upcoming election.",
+    "titleEn": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "titleAr": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGxxTlpqUHE0NEg5VG14WnhFcU54UVJnSjV4SUdEdGxUVXlUSTVUMkNRQWtDand4UmUxdWtONDlfU2Z5QW5kSVc5NTJrekxscVdoQ0hvT2UyaWdFNHA0dnozZHVHcVViZkJxZmdhTE1zMDAyQlpXOERLMm1NU2pHckFpakUwRWR0V1NfTXRfSTlaQlBjSHNJdXVueGgzd2hUSUl3ZUtSZVA2ZDJ2QzBNdTdMeXdoUDVI?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790972450000,
+    "summaryEn": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
+    "summaryAr": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -304,6 +389,22 @@
     ]
   },
   {
+    "titleEn": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+    "titleAr": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
+    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1790954968000,
+    "summaryEn": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
+    "summaryAr": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
     "titleAr": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlBYYU5xTVlDbllsYjZsVUc2WnowTjltVFJUV3VPVTdNYlYwQlpPZTV6Mnh5dkluSUpQX1lKRUFDY3B6WFAwSzdLU3poUjE2a1BZMlUzcGRaSkJ6NlF2U0tuU0hIYklLcVFIOTlIUW1IMV9GRENnZ2lHb2N2VEh3cFFYQkxJSGlWMU5xUllsR3ZPd3J6YjVqcVdFZzdYN01SaEpYWExrSlAtZ1RKSFRabFJmVDQ3N2N2S2RqYVNB?oc=5",
@@ -359,22 +460,6 @@
     "pubDate": 1790951530000,
     "summaryEn": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
     "summaryAr": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
-    "titleAr": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczZwcWhiS1lhelMwUWkyR3BrN3p6bUwtTXRIS0NWVDlJM2pLdzBHNHVmSjlWZjBMX3lZcndZN2I5cDVnY0c2YzNJN2I5WjVvX2V0ZVh3aURvME5ZRENGWEZTZmdINzFwenBORGJJUV9Oa3JxSXd4NFFZNXZKRlJYM09yVEVZUWk0MnRaSjRab2xNY1ZCUUZLZjR4NlBrYnVUMk1YMmxGdlJYcDFNLWlVZDRTLXc4Q0NWZXczS0VQWmtJSTc2OGoyU2x3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790951013000,
-    "summaryEn": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
-    "summaryAr": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -512,13 +597,13 @@
     ]
   },
   {
-    "titleEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - The Edge Malaysia",
-    "titleAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - The Edge Malaysia",
+    "titleEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
+    "titleAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yZEJMT1dSMGY4a3FfNUVFNGRxVTRzU0hIRWlPMWJMNG1kMVV5VFhZMDVDbzNxQkhMUHVuS1VqR2NXaVdBQkRRSU1aQXJXR1ow?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1790940255000,
-    "summaryEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters The Edge Malaysia",
-    "summaryAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters The Edge Malaysia",
+    "summaryEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
+    "summaryAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -608,22 +693,6 @@
     ]
   },
   {
-    "titleEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
-    "titleAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRzNDclZCX3E3NjE1Vl85S2dUTmRsLUZTYU5IRGxUQ0hOY3JDN3ZnSFRNVXlqWElnc3duN2F6N1FNMlpuWkMzTlduNm1JWFZsa0l1VDE0X3k4YXV4aUtobjdfVVlHaDdwNmU1RF9mRUVuZVNwX3dhUm1yNFBYLU5TZXNPcnZaZGJuVXdxV0FvbnQ2dWN2dFZLaDNtOTNDTk5vVDZLMFpSakFhcEJHR0E?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790904900000,
-    "summaryEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
-    "summaryAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 - Reuters",
     "titleAr": "COMMENTARY: From cyber to Middle East, US and allies take stark lessons from 2026 - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUJvQTdsdmZqUk11SVRJM1JnckowZEh1bWEyMHpfYTFTQUJFQTVlcHZSZUp0WVVlMi1wR3ZJdXo4U3R5cGNnZnJPVXdWMG4yRnVSYjNUc1BfejVNdlNzakF4YnJHY3h4N1QwdV9LX0cxQkF5djZ2YkI5LVVEX3Zfd0QzWUpDdHVXdmlXWHpYMDJRQUlxZGg2U3JhNnMtdW5vaGtUbGd4UkxST1FYNWJnc2RWaWs?oc=5",
@@ -652,70 +721,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "titleAr": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
-    "source": "Dark Reading",
-    "pubDate": 1790890670000,
-    "summaryEn": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "summaryAr": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - Reuters",
-    "titleAr": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGQ5cWhPbnlFT0hFQU1VME1qVVB2SndmZVROdUpzUU1sVGxRcDZndDN0R1BwdGVXRThreEJhTnV4WWQzZ19xUjlqZ3hqWjBWSEJWQ1JtcExJNVVRTG95UHQ1RjFsc21pbWQ4Q3c3dnhvYWZXUF9uNmQ0UHhWT1pJRXg3Yk42b0dOS0FJVmNsbGJLeFZTQkNKcW5ocVZVSzBlS2tnSnRpM044NEhMZW1FMG94N1U2dW1fUXJkbng1clJZSHpaZVVGLXFyeDBYcXM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790887933000,
-    "summaryEn": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes Reuters",
-    "summaryAr": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US coastal grades rise as tensions escalate in the Middle East - TradingView",
-    "titleAr": "US coastal grades rise as tensions escalate in the Middle East - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1RuRExsZUhDWXVSY0ktT3FmTDg4b0RTVUgtY0xWUC1zdkZ0ekJZdDBZRUpQVDRnRG9UQW1pMXh4Zkd0NzRFUGJWbFh2WVE2S05iZjZDTkRha2wyMVhlQWxZUlJqQUlaYWpNbjA4LVVpRHo5cGstQXh4QnRuazVtTEF3Smd5VnR5RFFPVHpyR0c4ajlQQURyR0pmSnQyWElNMUxRbVEtMGlOWnlnM2NYNlc5UlRRcmlESlp1YV9QNnFxRnQ5XzREOTE2N0M?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790886624000,
-    "summaryEn": "US coastal grades rise as tensions escalate in the Middle East TradingView",
-    "summaryAr": "US coastal grades rise as tensions escalate in the Middle East TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790884764000,
-    "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
