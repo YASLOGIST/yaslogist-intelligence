@@ -1,7 +1,7 @@
 [
   {
     "country": "Israel",
-    "attacks": "28",
+    "attacks": "21",
     "previous": "0",
     "intensity": "Critical",
     "trend": "up",
@@ -10,20 +10,20 @@
   },
   {
     "country": "Iran",
-    "attacks": "16",
+    "attacks": "15",
     "previous": "2",
     "intensity": "Critical",
     "trend": "up",
-    "deltaPct": 700,
+    "deltaPct": 650,
     "class": "intensity-high"
   },
   {
     "country": "Yemen",
-    "attacks": "6",
+    "attacks": "5",
     "previous": "2",
     "intensity": "High",
     "trend": "up",
-    "deltaPct": 200,
+    "deltaPct": 150,
     "class": "intensity-high"
   },
   {
@@ -36,7 +36,7 @@
     "class": "intensity-med"
   },
   {
-    "country": "Lebanon",
+    "country": "Egypt",
     "attacks": "1",
     "previous": "0",
     "intensity": "Low",
@@ -45,12 +45,12 @@
     "class": "intensity-low"
   },
   {
-    "country": "Egypt",
-    "attacks": "1",
+    "country": "Lebanon",
+    "attacks": "0",
     "previous": "0",
     "intensity": "Low",
-    "trend": "up",
-    "deltaPct": null,
+    "trend": "down",
+    "deltaPct": 0,
     "class": "intensity-low"
   },
   {

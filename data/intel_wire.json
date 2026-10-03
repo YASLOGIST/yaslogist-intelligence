@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "titleAr": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+    "source": "The Hacker News",
+    "pubDate": 1791038193000,
+    "summaryEn": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organi…",
+    "summaryAr": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organi…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "titleAr": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791037653000,
+    "summaryEn": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "summaryAr": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel election double standard: Arab leader forced out, far right cleared",
+    "titleAr": "Israel election double standard: Arab leader forced out, far right cleared",
+    "link": "https://www.aljazeera.com/news/2026/10/3/israel-election-double-standard-arab-leader-forced-out-far-right-cleared?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791036407000,
+    "summaryEn": "Palestinian Israeli leader forced to withdraw candidature while far-right Israeli leaders allowed to run in polls.",
+    "summaryAr": "Palestinian Israeli leader forced to withdraw candidature while far-right Israeli leaders allowed to run in polls.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
+    "titleAr": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
+    "link": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791032154000,
+    "summaryEn": "Russia has also attacked another key bridge in Kyiv, the second such strike in two days.",
+    "summaryAr": "Russia has also attacked another key bridge in Kyiv, the second such strike in two days.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers attack farmers in West Bank pogrom, soldiers hit reporters",
+    "titleAr": "Israeli settlers attack farmers in West Bank pogrom, soldiers hit reporters",
+    "link": "https://www.aljazeera.com/news/2026/10/3/israeli-settlers-attack-palestinian-olive-pickers-in-the-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791029904000,
+    "summaryEn": "Israeli forces detain and assault journalists in Jabal Qamass area in Beita, south of Nablus.",
+    "summaryAr": "Israeli forces detain and assault journalists in Jabal Qamass area in Beita, south of Nablus.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza man decries Israeli killing of Christian neighbors, as truce nears a year - Reuters",
+    "titleAr": "Gaza man decries Israeli killing of Christian neighbors, as truce nears a year - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hS1dTVk45QzVNVmJqQkcyUi1DeHFmZ2EySzAtaXQxV29obTRtTnBwdGpWdzRjYy1ndGdDNDZuMi1zUVRrODd2QnZWbktqemlBMFkxeWRWSmZSUDZna0luWFJtekNYVmJYU3hkWU1VaEV3Njd5M1N1UFd3ZkY?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791029282000,
+    "summaryEn": "Gaza man decries Israeli killing of Christian neighbors, as truce nears a year Reuters",
+    "summaryAr": "Gaza man decries Israeli killing of Christian neighbors, as truce nears a year Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "The double standards of a failed execution",
+    "titleAr": "The double standards of a failed execution",
+    "link": "https://www.aljazeera.com/opinions/2026/10/3/the-double-standards-of-a-failed-execution?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791027162000,
+    "summaryEn": "Had Christa Pike faced the death penalty in the Middle East, there would be relentless outrage and condemnations.",
+    "summaryAr": "Had Christa Pike faced the death penalty in the Middle East, there would be relentless outrage and condemnations.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Palestinians gather for football amid Gaza’s ruins",
     "titleAr": "Palestinians gather for football amid Gaza’s ruins",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
@@ -53,18 +165,18 @@
     ]
   },
   {
-    "titleEn": "Flydubai co-pilot attacked captain with axe, UAE official says",
-    "titleAr": "Flydubai co-pilot attacked captain with axe, UAE official says",
-    "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791021604000,
-    "summaryEn": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
-    "summaryAr": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+    "titleEn": "Iran executes detainee over January protests, judiciary says - Reuters",
+    "titleAr": "Iran executes detainee over January protests, judiciary says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGdCTURnWkJyS1ZoczFjQWo3VF9BaXVrdm1tZV8wR0pwSmxYSFZMNVl0V19fU2NIWGRxNG0zSl9vM3BnRWVDUGpzRG5jM28tTmVibEZuNG5UeTZ1elJ1eVgzVFhQQ21GOXVVUFJqbEppZFMzTld0dExWXy16X245eTVrc2htcWl0dkxsNFMwQUdpSHEyTUFSX0Y4cEwyNXVHODdoUjV6VXF3QlR2bHNsYjFzVQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791021367000,
+    "summaryEn": "Iran executes detainee over January protests, judiciary says Reuters",
+    "summaryAr": "Iran executes detainee over January protests, judiciary says Reuters",
     "tags": [
       {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -85,109 +197,13 @@
     ]
   },
   {
-    "titleEn": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
-    "titleAr": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
-    "link": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791016577000,
-    "summaryEn": "Government forces close a key crossing connecting Houthi-held al-Houban to government-held Taiz city.",
-    "summaryAr": "Government forces close a key crossing connecting Houthi-held al-Houban to government-held Taiz city.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
-    "titleAr": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-air-attack-on-residential-apartment-in-gaza-kills-5-palestinians?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791014267000,
-    "summaryEn": "An Israeli air attack on a residential apartment in Gaza City has killed at least five Palestinians.",
-    "summaryAr": "An Israeli air attack on a residential apartment in Gaza City has killed at least five Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Singer Zach Bryan wears Free Palestine shirt at Gillette Stadium",
-    "titleAr": "Singer Zach Bryan wears Free Palestine shirt at Gillette Stadium",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/10-3-zach-byran-free-palestine-clip-mp4?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791010389000,
-    "summaryEn": "US singer Zach Bryan wore a ‘Free Palestine’ shirt while performing at Gillette Stadium, owned by Robert Kraft.",
-    "summaryAr": "US singer Zach Bryan wore a ‘Free Palestine’ shirt while performing at Gillette Stadium, owned by Robert Kraft.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza voters want jobs and security as Palestinian elections approach",
-    "titleAr": "Gaza voters want jobs and security as Palestinian elections approach",
-    "link": "https://www.aljazeera.com/news/2026/10/3/gaza-voters-want-jobs-and-security-as-palestinian-elections-approach?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791005969000,
-    "summaryEn": "Ahead of first Palestinian national elections in 20 years, people in Gaza hope to rebuild after Israeli destruction.",
-    "summaryAr": "Ahead of first Palestinian national elections in 20 years, people in Gaza hope to rebuild after Israeli destruction.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - tbsnews.net",
-    "titleAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - tbsnews.net",
+    "titleEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
+    "titleAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - The Business Standard",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRzNDclZCX3E3NjE1Vl85S2dUTmRsLUZTYU5IRGxUQ0hOY3JDN3ZnSFRNVXlqWElnc3duN2F6N1FNMlpuWkMzTlduNm1JWFZsa0l1VDE0X3k4YXV4aUtobjdfVVlHaDdwNmU1RF9mRUVuZVNwX3dhUm1yNFBYLU5TZXNPcnZaZGJuVXdxV0FvbnQ2dWN2dFZLaDNtOTNDTk5vVDZLMFpSakFhcEJHR0E?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791005696000,
-    "summaryEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East tbsnews.net",
-    "summaryAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East tbsnews.net",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "New claims that Netanyahu rejected Hamas offer to release captives",
-    "titleAr": "New claims that Netanyahu rejected Hamas offer to release captives",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/new-claims-that-netanyahu-rejected-hamas-offer-to-release-captives?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791003523000,
-    "summaryEn": "Reports are building that Israel rejected a Hamas offer to release all civilian hostages taken on October 7, 2023.",
-    "summaryAr": "Reports are building that Israel rejected a Hamas offer to release all civilian hostages taken on October 7, 2023.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "WHO warns of ‘devastating consequences’ due to delayed aid entry into Gaza",
-    "titleAr": "WHO warns of ‘devastating consequences’ due to delayed aid entry into Gaza",
-    "link": "https://www.aljazeera.com/news/2026/10/3/who-warns-of-devastating-consequences-due-to-delayed-aid-entry-into-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791003260000,
-    "summaryEn": "The WHO's representative in Palestine calls on Israeli authorities to 'release the pressure on medical supplies'.",
-    "summaryAr": "The WHO's representative in Palestine calls on Israeli authorities to 'release the pressure on medical supplies'.",
+    "summaryEn": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
+    "summaryAr": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East The Business Standard",
     "tags": [
       {
         "textEn": "INTEL",
@@ -229,13 +245,13 @@
     ]
   },
   {
-    "titleEn": "Israeli strike kills five, including four women, in Gaza, health officials say - Reuters",
-    "titleAr": "Israeli strike kills five, including four women, in Gaza, health officials say - Reuters",
+    "titleEn": "Israeli strike kills five in Gaza, including four women, health officials say - Reuters",
+    "titleAr": "Israeli strike kills five in Gaza, including four women, health officials say - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTRBdWs0UERVMW05RGtXdHdNWGJKajVmSkFZQVdpamVzQ0VqMkNqdjBmWHp6ZGUtZkozbXpnbEREeXBSeDZ6dXJJWC05UXc4UDBGTk1iOWZ6Y0hUR0NBWDZETkxCNGJOTURYUGhpRG9TVzRJTndvX3hieVczbzZHLU9aN21CV2J5cXYxLU4xVHVvcEIyTVVTbmlYem1QRGszQ1Ztbg?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1790985000000,
-    "summaryEn": "Israeli strike kills five, including four women, in Gaza, health officials say Reuters",
-    "summaryAr": "Israeli strike kills five, including four women, in Gaza, health officials say Reuters",
+    "summaryEn": "Israeli strike kills five in Gaza, including four women, health officials say Reuters",
+    "summaryAr": "Israeli strike kills five in Gaza, including four women, health officials say Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -277,22 +293,6 @@
     ]
   },
   {
-    "titleEn": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
-    "titleAr": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGxxTlpqUHE0NEg5VG14WnhFcU54UVJnSjV4SUdEdGxUVXlUSTVUMkNRQWtDand4UmUxdWtONDlfU2Z5QW5kSVc5NTJrekxscVdoQ0hvT2UyaWdFNHA0dnozZHVHcVViZkJxZmdhTE1zMDAyQlpXOERLMm1NU2pHckFpakUwRWR0V1NfTXRfSTlaQlBjSHNJdXVueGgzd2hUSUl3ZUtSZVA2ZDJ2QzBNdTdMeXdoUDVI?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790972450000,
-    "summaryEn": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
-    "summaryAr": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
     "titleAr": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
     "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
@@ -313,7 +313,7 @@
     "titleAr": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1790964821000,
+    "pubDate": 1790964780000,
     "summaryEn": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
     "summaryAr": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
     "tags": [
@@ -405,22 +405,6 @@
     ]
   },
   {
-    "titleEn": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
-    "titleAr": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlBYYU5xTVlDbllsYjZsVUc2WnowTjltVFJUV3VPVTdNYlYwQlpPZTV6Mnh5dkluSUpQX1lKRUFDY3B6WFAwSzdLU3poUjE2a1BZMlUzcGRaSkJ6NlF2U0tuU0hIYklLcVFIOTlIUW1IMV9GRENnZ2lHb2N2VEh3cFFYQkxJSGlWMU5xUllsR3ZPd3J6YjVqcVdFZzdYN01SaEpYWExrSlAtZ1RKSFRabFJmVDQ3N2N2S2RqYVNB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1790953664000,
-    "summaryEn": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
-    "summaryAr": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "US issues sanctions against Hamas financing network, Treasury says - Reuters",
     "titleAr": "US issues sanctions against Hamas financing network, Treasury says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkdRRkxGNHBqcFM5b0RNbjRMU2NXeXFWUXdselk3QVNzVkNqSWw1aWdJTjQyc0VWeFNqSjB3dGtjaWdpdHZuYzVxaVdKQmM4X0lMRC10UnlzRWFndmFWUVlrU2l4NG5nR2QyNnJ0Z3AwNE91QXlVV2IzNG5RcENFVTViWEw4ek5xank2YU80OGVGRWV5RGVOcXVwZi1xSXhzaElHMWxndFFqQXQ0Q01YeHFoSllfeTJ1TWJv?oc=5",
@@ -437,13 +421,13 @@
     ]
   },
   {
-    "titleEn": "Israeli officials to question co pilot of flydubai flight: Reuters -... - lbcgroup.tv",
-    "titleAr": "Israeli officials to question co pilot of flydubai flight: Reuters -... - lbcgroup.tv",
+    "titleEn": "Israeli officials to question co pilot of flydubai flight: Reuters -... - LBCI",
+    "titleAr": "Israeli officials to question co pilot of flydubai flight: Reuters -... - LBCI",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQldpOUthTE05RVRfZXNnN3ZRVkxrSnFTcGthbU1yTWU3cDZBWHlhVm5KTHA4SncweG1iMDZSckQ3NTNQWHdLczFDOS15OVdWQzdpSjVLMTVxOE52bjFITUJNbHFmM0tCbDExaU50aVB3Y0x4YTBQZWEyMjFKZ1Uzei11cEhid09VZVFwbmVxZkRXbzVwYlVud1RnVWxxWHpZNUpfb2lwRzJSNnFFWWRlaXZDYTItcmZoQjFz?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1790951550000,
-    "summaryEn": "Israeli officials to question co pilot of flydubai flight: Reuters -... lbcgroup.tv",
-    "summaryAr": "Israeli officials to question co pilot of flydubai flight: Reuters -... lbcgroup.tv",
+    "summaryEn": "Israeli officials to question co pilot of flydubai flight: Reuters -... LBCI",
+    "summaryAr": "Israeli officials to question co pilot of flydubai flight: Reuters -... LBCI",
     "tags": [
       {
         "textEn": "INTEL",
@@ -460,6 +444,22 @@
     "pubDate": 1790951530000,
     "summaryEn": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
     "summaryAr": "Iran readies harder retaliation if attacked as diplomacy faces long odds Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "titleAr": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczZwcWhiS1lhelMwUWkyR3BrN3p6bUwtTXRIS0NWVDlJM2pLdzBHNHVmSjlWZjBMX3lZcndZN2I5cDVnY0c2YzNJN2I5WjVvX2V0ZVh3aURvME5ZRENGWEZTZmdINzFwenBORGJJUV9Oa3JxSXd4NFFZNXZKRlJYM09yVEVZUWk0MnRaSjRab2xNY1ZCUUZLZjR4NlBrYnVUMk1YMmxGdlJYcDFNLWlVZDRTLXc4Q0NWZXczS0VQWmtJSTc2OGoyU2x3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790951013000,
+    "summaryEn": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
+    "summaryAr": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -597,13 +597,13 @@
     ]
   },
   {
-    "titleEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
-    "titleAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - theedgemalaysia.com",
+    "titleEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - The Edge Malaysia",
+    "titleAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters - The Edge Malaysia",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yZEJMT1dSMGY4a3FfNUVFNGRxVTRzU0hIRWlPMWJMNG1kMVV5VFhZMDVDbzNxQkhMUHVuS1VqR2NXaVdBQkRRSU1aQXJXR1ow?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1790940255000,
-    "summaryEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
-    "summaryAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters theedgemalaysia.com",
+    "summaryEn": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters The Edge Malaysia",
+    "summaryAr": "Opec+ delays oil capacity review after Iran war disrupts expansion plans — Reuters The Edge Malaysia",
     "tags": [
       {
         "textEn": "INTEL",
@@ -625,6 +625,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
+    "titleAr": "Three in four families go hungry in parts of Yemen from new fighting - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlBYYU5xTVlDbllsYjZsVUc2WnowTjltVFJUV3VPVTdNYlYwQlpPZTV6Mnh5dkluSUpQX1lKRUFDY3B6WFAwSzdLU3poUjE2a1BZMlUzcGRaSkJ6NlF2U0tuU0hIYklLcVFIOTlIUW1IMV9GRENnZ2lHb2N2VEh3cFFYQkxJSGlWMU5xUllsR3ZPd3J6YjVqcVdFZzdYN01SaEpYWExrSlAtZ1RKSFRabFJmVDQ3N2N2S2RqYVNB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1790936760000,
+    "summaryEn": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
+    "summaryAr": "Three in four families go hungry in parts of Yemen from new fighting Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -705,22 +721,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "titleAr": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "pubDate": 1790894569000,
-    "summaryEn": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
-    "summaryAr": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   }
