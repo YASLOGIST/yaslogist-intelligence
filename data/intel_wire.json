@@ -1,12 +1,60 @@
 [
   {
-    "titleEn": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
-    "titleAr": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
+    "titleEn": "Middle East oil exports surpass pre-war levels as crude prices ease - وكالة الأنباء السورية – سانا",
+    "titleAr": "Middle East oil exports surpass pre-war levels as crude prices ease - وكالة الأنباء السورية – سانا",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3Z3ktSlNXOUdFcHVvSWRnRFBJNlkxdm5Ya1IxblFPRDVFNHk3dExVMlhob3ZpVHg4dV8zdGxNdkY5S2tHRXB4bFV4bG0?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791186418000,
+    "summaryEn": "Middle East oil exports surpass pre-war levels as crude prices ease وكالة الأنباء السورية – سانا",
+    "summaryAr": "Middle East oil exports surpass pre-war levels as crude prices ease وكالة الأنباء السورية – سانا",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "titleAr": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+    "source": "The Hacker News",
+    "pubDate": 1791182419000,
+    "summaryEn": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. T…",
+    "summaryAr": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. T…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "October 7 families join election race with hope of healing Israel - Reuters",
+    "titleAr": "October 7 families join election race with hope of healing Israel - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3MtOGJzaEhpeWM1YkJMcE40dzJkdkZpdXhZd1pLZG5ZT0dlYlpiVnRfTTRWbUF1YTRxdkktUW05WE1MZTZCOG15N2YxOHZydDRmdk1Fd3hrNWxQbTNuQ0ZXcHFEbnEzQ2s1VTE1OFU2Tk44YWF4ODhNTWowc3RCX01STk1vajhKNHJHN1VYaVRSTmxtdHM1V0FvQ0VTMDhxeW5WWC1jeEZOTnliN19fRl82M25POWc1TjQ2Z1hibEw0YVB2bDZCNw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791180120000,
+    "summaryEn": "October 7 families join election race with hope of healing Israel Reuters",
+    "summaryAr": "October 7 families join election race with hope of healing Israel Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+    "titleAr": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+    "link": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1791158400000,
-    "summaryEn": "Yemeni government announces major offensive against Houthis as Iran says it is ready to defend itself if the US attacks.",
-    "summaryAr": "Yemeni government announces major offensive against Houthis as Iran says it is ready to defend itself if the US attacks.",
+    "pubDate": 1791177657000,
+    "summaryEn": "IRGC commander says oil flows through US-supervised route in Hormuz are ‘negligible’.",
+    "summaryAr": "IRGC commander says oil flows through US-supervised route in Hormuz are ‘negligible’.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -16,8 +64,104 @@
     ]
   },
   {
-    "titleEn": "Israel face spitting allegation as Ireland boss ‘delighted’ ties after over",
-    "titleAr": "Israel face spitting allegation as Ireland boss ‘delighted’ ties after over",
+    "titleEn": "Yemen gov’t forces commence major combat operation against Houthis",
+    "titleAr": "Yemen gov’t forces commence major combat operation against Houthis",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/yemen-govt-forces-commence-major-combat-operation-against-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791169863000,
+    "summaryEn": "Yemeni government forces have declared a ‘battle for liberation’ to retake remaining territory held by the Houthis.",
+    "summaryAr": "Yemeni government forces have declared a ‘battle for liberation’ to retake remaining territory held by the Houthis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Spitting allegations as Ireland and Israel fight out ill-tempered draw",
+    "titleAr": "Spitting allegations as Ireland and Israel fight out ill-tempered draw",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/spitting-allegations-as-ireland-and-israel-fight-out-ill-tempered-draw?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791167328000,
+    "summaryEn": "Ireland and Israel drew 1-1 in a second ill-tempered Nations League match.",
+    "summaryAr": "Ireland and Israel drew 1-1 in a second ill-tempered Nations League match.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil slips as Middle East crude exports rise, G7 to release stocks - TradingView",
+    "titleAr": "Oil slips as Middle East crude exports rise, G7 to release stocks - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUtjSUVydDBVbExLN01SUWNlSUNCbXB6aHdWdlZNbktzQ0ZmM3QtcEVOVkdMUDBhSE9pTV9FVS1JZGRvZUliY29ONkMtWHd2eGZWMDJxM0RsMU4zMU9wYTR4Yjl2cnFwWXBWVEZlVGVNN1Z6eV9ZT3BjSGp5cDlaWFlnWThBMmlHbU54dF9QNmdRcjJjNGJvNl9HaDE5dWxNdVJoZm11czZrVTZ0OFJiWEFqZy1ua2hjNkFjWWJuR3RaTmx0VFdxTzZTdjI0T28?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791164100000,
+    "summaryEn": "Oil slips as Middle East crude exports rise, G7 to release stocks TradingView",
+    "summaryAr": "Oil slips as Middle East crude exports rise, G7 to release stocks TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase - Reuters",
+    "titleAr": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMDlnRmFJc1NCRTRsSVNmNTRtMnh2dmJiNWdMbnF2YVZRU0g1WXpERld1Qm0xbW5MQzNnTUhYTjFCUWVadVlWbmdwZjJSTUdSUkpGU2FrMzRmRW80RWRDcGpidUNVUHd1aVloWkFKZFRVNllUMEhVczNJNjNSZkR2VmZrU1hIbGRzZmZpeTF1TUNsMFp4ZFVuVE16RjlnYVBmUGhtRG94Z0VOTk13b2Y4ZUhpTElPSTctdlJQTmdCWnNnamhrVkE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791162540000,
+    "summaryEn": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase Reuters",
+    "summaryAr": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+    "titleAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUERRVnN2QjBRRGRfc3ZELVlQY0FMZUhwVlJnajRWR2NSRDcxQktKQ1VWdXpTT3cxd2FoVXFwMkhGTnpOODJnWi1lSjJzUDRJbHczM1gyV3JIb0U2bHhwTWNmY1FtV2FJckpqcEw4NEVtN2VUbWU5Mi0tV2VtbjZoWFRWUnVTekJfMEVoa1NBYWxsdThWeFRBVkVJODl1OWZuMmx2cmRzYm9XYTB4?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791161340000,
+    "summaryEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? Reuters",
+    "summaryAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
+    "titleAr": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791158400000,
+    "summaryEn": "Yemeni government announces major offensive against Houthis, as Iran says it is ready to defend itself if US attacks.",
+    "summaryAr": "Yemeni government announces major offensive against Houthis, as Iran says it is ready to defend itself if US attacks.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel face spitting allegation as Ireland boss ‘delighted’ games are over",
+    "titleAr": "Israel face spitting allegation as Ireland boss ‘delighted’ games are over",
     "link": "https://www.aljazeera.com/sports/2026/10/4/israel-face-spitting-allegation-as-ireland-boss-delighted-ties-after-over?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1791157969000,
@@ -32,29 +176,13 @@
     ]
   },
   {
-    "titleEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - reuters.com",
-    "titleAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUERRVnN2QjBRRGRfc3ZELVlQY0FMZUhwVlJnajRWR2NSRDcxQktKQ1VWdXpTT3cxd2FoVXFwMkhGTnpOODJnWi1lSjJzUDRJbHczM1gyV3JIb0U2bHhwTWNmY1FtV2FJckpqcEw4NEVtN2VUbWU5Mi0tV2VtbjZoWFRWUnVTekJfMEVoa1NBYWxsdThWeFRBVkVJODl1OWZuMmx2cmRzYm9XYTB4?oc=5",
+    "titleEn": "Oil falls as Middle East crude exports rise, G7 to release stocks - Reuters",
+    "titleAr": "Oil falls as Middle East crude exports rise, G7 to release stocks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZm4yN3lGTlZFWFRCMmNTSFJSUWE4MnJqSGc5aGVKMXBWR3lrcXYtSEpTRWpncXNuUHc5QVVKeDVRa0NuTWpuXzBSRUxqXzcyUklYUlU2NUdLNTkwS2FndzlLdXBaQThKZThGT2d3cjRkN0FBVjFQcEJzR2NrbEpDa1RvSlJ3a3d2bUoxcnAwSF9jVnZXY0J4V0s4WjM5Y3hRVWlhY3dSQ0J0WkMxZ3c?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791155266000,
-    "summaryEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? reuters.com",
-    "summaryAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? reuters.com",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US withdraws B-1 bomber aircraft from UK’s Fairford base amid Iran fears",
-    "titleAr": "US withdraws B-1 bomber aircraft from UK’s Fairford base amid Iran fears",
-    "link": "https://www.aljazeera.com/news/2026/10/4/us-withdraws-b-1-bomber-aircraft-from-uks-fairford-base-amid-iran-fears?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791152610000,
-    "summaryEn": "The abrupt redeployment to the US comes after several 'terrorism-related' arrests were made outside RAF Fairford.",
-    "summaryAr": "The abrupt redeployment to the US comes after several 'terrorism-related' arrests were made outside RAF Fairford.",
+    "pubDate": 1791152220000,
+    "summaryEn": "Oil falls as Middle East crude exports rise, G7 to release stocks Reuters",
+    "summaryAr": "Oil falls as Middle East crude exports rise, G7 to release stocks Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,77 +208,13 @@
     ]
   },
   {
-    "titleEn": "Ireland refuse handshake with Israel and don armbands in Nations League tie",
-    "titleAr": "Ireland refuse handshake with Israel and don armbands in Nations League tie",
-    "link": "https://www.aljazeera.com/sports/2026/10/4/ireland-refuse-handshake-with-israel-and-don-armbands-in-nations-league-tie?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791149422000,
-    "summaryEn": "Republic of Ireland football players again wear black armbands and refuse handshakes with Israel in UEFA Nations League.",
-    "summaryAr": "Republic of Ireland football players again wear black armbands and refuse handshakes with Israel in UEFA Nations League.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel lashes out as UK’s Green Party formally defines Zionism as ‘racism’",
-    "titleAr": "Israel lashes out as UK’s Green Party formally defines Zionism as ‘racism’",
-    "link": "https://www.aljazeera.com/news/2026/10/4/israel-lashes-out-as-uks-green-party-formally-defines-zionism-as-racism?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791146336000,
-    "summaryEn": "Israel's president declared that the 'antisemitic lie' deliberately endangers Jews and Israelis.",
-    "summaryAr": "Israel's president declared that the 'antisemitic lie' deliberately endangers Jews and Israelis.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's oil minister resigns for personal reasons, state media reports - reuters.com",
-    "titleAr": "Iran's oil minister resigns for personal reasons, state media reports - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdHdEN1VYYjFqdkJyRThRQ2ZheFQzeElqRHRBNVR2N1UwV2lWbi1CcDdQYk9IV0ZuSURnc29jZXNDM1hmV0YzMDNRN0xlR055WlhBS0M2SVNJVW9NNE0yYlUyc3F0YVJma1JhQ0RnX096YjlGMTRiUmhVSDE4VGlOZ2MwMjljcVhNZnhER2gtYWk4QUYxZGpzZ202dVJLUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791140007000,
-    "summaryEn": "Iran's oil minister resigns for personal reasons, state media reports reuters.com",
-    "summaryAr": "Iran's oil minister resigns for personal reasons, state media reports reuters.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "War on Iran: Is escalation more likely than a deal?",
-    "titleAr": "War on Iran: Is escalation more likely than a deal?",
-    "link": "https://www.aljazeera.com/video/the-bottom-line/2026/10/4/war-on-iran-is-escalation-more-likely-than-a-deal-2?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791139642000,
-    "summaryEn": "Former Iranian and US diplomats agree that the war on Iran is likely to get worse in the coming weeks.",
-    "summaryAr": "Former Iranian and US diplomats agree that the war on Iran is likely to get worse in the coming weeks.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen leader announces new military operations against Iran-backed Houthis - reuters.com",
-    "titleAr": "Yemen leader announces new military operations against Iran-backed Houthis - reuters.com",
+    "titleEn": "Yemen leader announces new military operations against Iran-backed Houthis - Reuters",
+    "titleAr": "Yemen leader announces new military operations against Iran-backed Houthis - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dmluUDNxNGR5Q0ZNN0NhNF9yNW9EZjBSTElQSUhyNk5iYU5RZmktclVCQnN4WjhSN3RPbTA4NEktU2xtXzVBVVgyMTZBRFBnd05BXzFwY1kwcUJUVnE1YXNtMUt0X3c?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791137134000,
-    "summaryEn": "Yemen leader announces new military operations against Iran-backed Houthis reuters.com",
-    "summaryAr": "Yemen leader announces new military operations against Iran-backed Houthis reuters.com",
+    "pubDate": 1791137135000,
+    "summaryEn": "Yemen leader announces new military operations against Iran-backed Houthis Reuters",
+    "summaryAr": "Yemen leader announces new military operations against Iran-backed Houthis Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -160,13 +224,13 @@
     ]
   },
   {
-    "titleEn": "Air strike in Sudan kills UN aid truck driver: WFP",
-    "titleAr": "Air strike in Sudan kills UN aid truck driver: WFP",
-    "link": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791131323000,
-    "summaryEn": "Trucks were 'clearly marked as humanitarian vehicles', UN agency says.",
-    "summaryAr": "Trucks were 'clearly marked as humanitarian vehicles', UN agency says.",
+    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791134037000,
+    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -176,13 +240,45 @@
     ]
   },
   {
-    "titleEn": "Haunted by grief, Gaza's displaced still wait overseas for return - reuters.com",
-    "titleAr": "Haunted by grief, Gaza's displaced still wait overseas for return - reuters.com",
+    "titleEn": "Iran's oil minister resigns for personal reasons, state media reports - Reuters",
+    "titleAr": "Iran's oil minister resigns for personal reasons, state media reports - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdHdEN1VYYjFqdkJyRThRQ2ZheFQzeElqRHRBNVR2N1UwV2lWbi1CcDdQYk9IV0ZuSURnc29jZXNDM1hmV0YzMDNRN0xlR055WlhBS0M2SVNJVW9NNE0yYlUyc3F0YVJma1JhQ0RnX096YjlGMTRiUmhVSDE4VGlOZ2MwMjljcVhNZnhER2gtYWk4QUYxZGpzZ202dVJLUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791133800000,
+    "summaryEn": "Iran's oil minister resigns for personal reasons, state media reports Reuters",
+    "summaryAr": "Iran's oil minister resigns for personal reasons, state media reports Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen's government announces all-out war to reclaim land from Houthis",
+    "titleAr": "Yemen's government announces all-out war to reclaim land from Houthis",
+    "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791132690000,
+    "summaryEn": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+    "summaryAr": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Haunted by grief, Gaza's displaced still wait overseas for return - Reuters",
+    "titleAr": "Haunted by grief, Gaza's displaced still wait overseas for return - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVA4aW4yZm9obXNLWVl2RGItRkE4cUwxUHFucmpkQ2NzU2JzNDc1SXF1bkxtb1hQZmRYYjVxVU9aMmVRb2xBVi1oLXFKd2RDTmo3UUJ2M1I2Ym02X0lzVUVNcUh5c2hISjMwVHBQOFVrVkhhZlZNQjRrNElrNXEyYWR6blZnenpPTG5pLXpYNGFQcjZ2MmlUUklBRTg0ZlA2QWtEVlNJRHFxTXdIUjMyM0FpZw?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791122124000,
-    "summaryEn": "Haunted by grief, Gaza's displaced still wait overseas for return reuters.com",
-    "summaryAr": "Haunted by grief, Gaza's displaced still wait overseas for return reuters.com",
+    "summaryEn": "Haunted by grief, Gaza's displaced still wait overseas for return Reuters",
+    "summaryAr": "Haunted by grief, Gaza's displaced still wait overseas for return Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -192,29 +288,13 @@
     ]
   },
   {
-    "titleEn": "Yemen leader announces major military operations against Iran-backed Houthis - NBC News",
-    "titleAr": "Yemen leader announces major military operations against Iran-backed Houthis - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTzlDdHR1c3VEMmVyMnNMWnVGT2VuNS05NHdxU3dmNTROY2Y1U1l1WXQ3cUJLelpkOTB3OW9wZDBFNm5iTEp3NDl0TVJMUG1pNFZxclF4Q09rMGNKZjMzRzlfdmpkcjF3NnZvUkhjRXBac1J5VFBTNkRHRWtHclo1ZWxLZmIybzIxVGEyai1RSE1VMGd2TGM1YWVzMzFCbGs2OXFvLXpsSlpRVU43cGxmYg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791118950000,
-    "summaryEn": "Yemen leader announces major military operations against Iran-backed Houthis NBC News",
-    "summaryAr": "Yemen leader announces major military operations against Iran-backed Houthis NBC News",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran says Strait of Hormuz will not reopen until conditions are met - reuters.com",
-    "titleAr": "Iran says Strait of Hormuz will not reopen until conditions are met - reuters.com",
+    "titleEn": "Iran says Strait of Hormuz will not reopen until conditions are met - Reuters",
+    "titleAr": "Iran says Strait of Hormuz will not reopen until conditions are met - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUEhSM2E2MkI0TDU0LXVLZl9GLWY5d3FoTU1PdS1ON0xUV1NNQ3FnUlZGRFhOYkVHTVp5RDFaN3pxZ1pVeVNJdTdhemxsNkdRaHJBTWNtRDEwWjg2cnlKb3F5VmpEN25tTHNmV2hLTnFkc1IxSEhLVGplNTJJSnBXMDFmOUN1V3NpRmxoVnJkcmRxd1hmbzBRTHZjd05rWlhUbDBfQmFCZWRkS0pHUTJNa041QlRtSkd5YUE?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791118781000,
-    "summaryEn": "Iran says Strait of Hormuz will not reopen until conditions are met reuters.com",
-    "summaryAr": "Iran says Strait of Hormuz will not reopen until conditions are met reuters.com",
+    "summaryEn": "Iran says Strait of Hormuz will not reopen until conditions are met Reuters",
+    "summaryAr": "Iran says Strait of Hormuz will not reopen until conditions are met Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -240,6 +320,22 @@
     ]
   },
   {
+    "titleEn": "Iran to increase the range of its missiles, army spokesperson tells Fars - Middle East Eye",
+    "titleAr": "Iran to increase the range of its missiles, army spokesperson tells Fars - Middle East Eye",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQ01IOEdiVlVNQUx3SnQ5TTJ5U3dDWjJsWE9EaUZnUFBraW0zVGhyejNRclMtMm9PaEE5V25iX0FhVDhseUx4aGtIRnNMOUdUQzVoSHFiWFJQVVNYRDE5cVBRMjdLTDFzZTBVQUE2M0tGdGFpWV9INnBhOVJfZG1meFpha1FycUVmYUNyY3BkYzgxaElMbkd3X2pPazd4c1l4ZTdXbkdOZVVPZjd1QzlsaUYxcGR3WHhDdWZfN2MxejBOaTA3bG9MS3ZuUG5rVkhReC1KSWtOTEV0dEsxR091TXRwZ3JNSW9VV3dXbnk5elhReVl5N2x6UlVn?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791112320000,
+    "summaryEn": "Iran to increase the range of its missiles, army spokesperson tells Fars Middle East Eye",
+    "summaryAr": "Iran to increase the range of its missiles, army spokesperson tells Fars Middle East Eye",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi Arabia shelves $2.5bn Neom stadium planned for 2034 World Cup, report says - Middle East Eye",
     "titleAr": "Saudi Arabia shelves $2.5bn Neom stadium planned for 2034 World Cup, report says - Middle East Eye",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZGF6MS1ZSmhkUnY2N3RyTnd2ejBuLWxpdlk2cXRQTzB0d1NsQmsyXzBfMnhCQ3I3SnQ1NklnR3VJanRlQW93TEJEVU9PWkh5cXJyYzhzVWJyZUFHSXZ5WUFud0NPNk0yc2JVMEREOW9SVVRPN1hHV3RtcS05VGRtUU8zaHVTakpwQTNhZUxtWEFpVWJ5b2V6SFphc056OXZmbm05SnRzV3BMdHY0?oc=5",
@@ -252,6 +348,22 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran says Strait of Hormuz will not reopen until conditions are met - Arab News",
+    "titleAr": "Iran says Strait of Hormuz will not reopen until conditions are met - Arab News",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUxtY0hKLVdybkV6bDludWJUbkJZRWZpWlVQVUdiQWhub2oxN1BPNG5pbmNETHRneE5CVlNqcl9fcVNYNFFKdFBKMW5xblBQcWF4LUJ2TVNHczhOSjRrbldGUktpMnlOcnlIRkZtR3ZXSk9XRmozeEludXVQRm9wOVVPT2pvb1JNNmhSNjZKSEZwQ0VIdWt4cW9hSzdzUXZXS3Fxc2dXT1VWSzFVSWtvbTl3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791096581000,
+    "summaryEn": "Iran says Strait of Hormuz will not reopen until conditions are met Arab News",
+    "summaryAr": "Iran says Strait of Hormuz will not reopen until conditions are met Arab News",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -288,13 +400,29 @@
     ]
   },
   {
-    "titleEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment - Arab News",
-    "titleAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment - Arab News",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaklXc18wT0ljeTNUanE4RDVfUVZiWUJZb0t0RVQ5ZlBKMFJ2Yll4Uml5OFhkeThTYTJTNmJRU19ZQkdISU4xOWRNXzNtV2gyd3p4UXotUWNtRmZqV2lvZmZyVkoyQjNiTkI4VTNzLWVpQTIyZlpla0dlQ3hkVm5Zd0pLTG0xUXQzek9CQXBLN1NZU3BYTnI5VE9XNU1JekRxRXNrS1dVeV9IVkh4WEE?oc=5",
+    "titleEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment - bellinghamherald.com",
+    "titleAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment - bellinghamherald.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkUteVVsRnZ1QmEyYWVNN09CUXpDclVxVjJjTkdKYTlvc3V1Q3dSLUdMYW1kNng3b3BaaWs5Wm1NLTRWWXVDNk4zdkNNNGJ3bWN2clBGdzV1RUktOTJ4M1oxT1FFRjAxelpIQ1dxbHhLS3UzMjZCY3IycVRaa1loQ2NpUDk?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791088876000,
-    "summaryEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment Arab News",
-    "summaryAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment Arab News",
+    "pubDate": 1791089165000,
+    "summaryEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment bellinghamherald.com",
+    "summaryAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment bellinghamherald.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment - Tri-City Herald",
+    "titleAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment - Tri-City Herald",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXdxcTB0NnMxeGFUMHp2amtUZ19FOTZVajVBc3JISjJQbjF0S0JrbThKaE93Q1o2bjNCMHVZN2wtMzg0b3NQM3MwNlBXa2d0eGpubVMyUWNGTElxZWU1aXdGaTRZTllhS2ExQzlfcnJiT0tobTZ6ODIxYWU4R0Z6eU93?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791089165000,
+    "summaryEn": "US carrier George H.W. Bush visits Thailand after Middle East deployment Tri-City Herald",
+    "summaryAr": "US carrier George H.W. Bush visits Thailand after Middle East deployment Tri-City Herald",
     "tags": [
       {
         "textEn": "INTEL",
@@ -320,13 +448,13 @@
     ]
   },
   {
-    "titleEn": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment - reuters.com",
-    "titleAr": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment - reuters.com",
+    "titleEn": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment - Reuters",
+    "titleAr": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbWhHeDg5NW5BTHJadnJyWm1xOHJYZlhzTjRCZWRBd1pyY1lHYU81OVFxbUJaM0syV2pUYThaWUNrVV9XTmFuck5QQW41cHFuSGNfbWhCb2dkZ25iMTFpTUxpZG5IM1RVWGhiUWIzb1NZaXZCc1prQVhRanROZFphWjJnaUUybTdGNktkTUdkMGxER3IyQUNYY0ZZWVZoeGo2OUltZDdpWFhIcjVmb0JJbFhxSzgyOHFCcmNRX2JnanBJY1U?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791088320000,
-    "summaryEn": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment reuters.com",
-    "summaryAr": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment reuters.com",
+    "summaryEn": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment Reuters",
+    "summaryAr": "US carrier George H.W. Bush visits Thailand after six-month Middle East deployment Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -336,13 +464,13 @@
     ]
   },
   {
-    "titleEn": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB - Astro Awani",
-    "titleAr": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB - Astro Awani",
+    "titleEn": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB - astroawani.com",
+    "titleAr": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB - astroawani.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEVvZkJJT1c5MmhrUHp2WVcyMXFYNFRJbmhITHdORUNVN2JHdXRRc0xtdU5Ta2pPaTlaV0VoU3ZFeGtyM0VrblBwYmZTWkpWcDJOVVVrVEp4YTlVaThCd3dhODVBNHQ5dnpVLUpMTlpPSVpJcVVXV09PY1ZOdkdmR29ISnFaWGROYkwwamlNMWNNc0JlaUVIb0RLc0dQd2p4TzdjSk9VRDZfaTVYY3FvdThLVkV1YWp4MF9pNg?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791070554000,
-    "summaryEn": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB Astro Awani",
-    "summaryAr": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB Astro Awani",
+    "summaryEn": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB astroawani.com",
+    "summaryAr": "Asia Pacific faces weaker growth and higher inflation from Middle East crisis, says ADB astroawani.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -352,13 +480,29 @@
     ]
   },
   {
-    "titleEn": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa - reuters.com",
-    "titleAr": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa - reuters.com",
+    "titleEn": "Political tensions disrupt Ireland-Israel football press conference - Reuters",
+    "titleAr": "Political tensions disrupt Ireland-Israel football press conference - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpZ3dQWHNqcDFKX0xYdE5OOXZXQ3dhTFBWN3JPeFBWYy0wdDZUaGxEVGFqMnpfZnF1OHJ3SUE4N1dBTVc3dkZXSXp5OHl0R0FnZkRNVGpsM2RqdnA1cVpzYnVOOTdPVk0?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791068502000,
+    "summaryEn": "Political tensions disrupt Ireland-Israel football press conference Reuters",
+    "summaryAr": "Political tensions disrupt Ireland-Israel football press conference Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa - Reuters",
+    "titleAr": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa - Reuters",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSkIwVGxoRmNUOUdVNi1wUjAxOVhxSVJCd25wY1d0aWVOWEdVZmNHZ240U3Q5Tl9jY1U4MHdQX1RHU3ZNZXpiaDdUQklpRlRNLUVSNXRNYW5KcENkSUNGVU9DX0ltLU1laHpGaWlVcnA4NzNnTEItLUFwZ2ZEZ3VWZEo1Nl91T1V2aF82alNUbF9uX1hob3BFXzU1X20tTEREVU9ra25PblhBMXlSMUVrMDctdGhNblBtZTJYY2xPVXl1eHF4ZTlPc0VvWFF1SGxPWEl3?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791067235000,
-    "summaryEn": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa reuters.com",
-    "summaryAr": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa reuters.com",
+    "summaryEn": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa Reuters",
+    "summaryAr": "Yemen's armed forces say it is conducting strikes against Houthis in Sanaa Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -368,13 +512,29 @@
     ]
   },
   {
-    "titleEn": "Iranian rial at new low, as cenbank sells dollars to support currency - reuters.com",
-    "titleAr": "Iranian rial at new low, as cenbank sells dollars to support currency - reuters.com",
+    "titleEn": "Israeli strike kills five in Gaza, including four women, health officials say - Reuters",
+    "titleAr": "Israeli strike kills five in Gaza, including four women, health officials say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTRBdWs0UERVMW05RGtXdHdNWGJKajVmSkFZQVdpamVzQ0VqMkNqdjBmWHp6ZGUtZkozbXpnbEREeXBSeDZ6dXJJWC05UXc4UDBGTk1iOWZ6Y0hUR0NBWDZETkxCNGJOTURYUGhpRG9TVzRJTndvX3hieVczbzZHLU9aN21CV2J5cXYxLU4xVHVvcEIyTVVTbmlYem1QRGszQ1Ztbg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791062470000,
+    "summaryEn": "Israeli strike kills five in Gaza, including four women, health officials say Reuters",
+    "summaryAr": "Israeli strike kills five in Gaza, including four women, health officials say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranian rial at new low, as cenbank sells dollars to support currency - Reuters",
+    "titleAr": "Iranian rial at new low, as cenbank sells dollars to support currency - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnE1RzhlNDNiUXdROTBBZS1SaEExN2JJb1hNX1huaXl3TFcwVTBKWGVVRlJVQWpYdVdwMnZwLV9kMWpIMHV5UWZIc0ZVVVdjQ180RE9sTTRIUmp2R0JNY3h2MXlyVzBfZGFSbTFWd19QREdkYkwyOEN2Nl9Xcm9xOWg4VlNRQ3ZQRkN2T0JDU296UFpfTzlfS2Y0NV9RbFEydmdWOTEwUERyUnBZNUM2Y3c4MA?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791056624000,
-    "summaryEn": "Iranian rial at new low, as cenbank sells dollars to support currency reuters.com",
-    "summaryAr": "Iranian rial at new low, as cenbank sells dollars to support currency reuters.com",
+    "summaryEn": "Iranian rial at new low, as cenbank sells dollars to support currency Reuters",
+    "summaryAr": "Iranian rial at new low, as cenbank sells dollars to support currency Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -432,22 +592,6 @@
     ]
   },
   {
-    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
-    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791039616000,
-    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
-    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
     "titleAr": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
     "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
@@ -459,6 +603,22 @@
       {
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi-Houthi conflict escalates with reported strikes on one another - The Jerusalem Post",
+    "titleAr": "Saudi-Houthi conflict escalates with reported strikes on one another - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nbE11TTREeDdqS1dUdHpvakdqRU9vMjhCdWdqU0VULTJKZHZvUDRHekV3X2tySVpFQW1RZTE2d0N4RExpUEk4QlFSYXFCSmlCQzNKNUxFMVJVTjA1?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791033694000,
+    "summaryEn": "Saudi-Houthi conflict escalates with reported strikes on one another The Jerusalem Post",
+    "summaryAr": "Saudi-Houthi conflict escalates with reported strikes on one another The Jerusalem Post",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
       }
     ]
@@ -480,13 +640,13 @@
     ]
   },
   {
-    "titleEn": "Aboard the USS George Washington, young sailors adjust to war with Iran - reuters.com",
-    "titleAr": "Aboard the USS George Washington, young sailors adjust to war with Iran - reuters.com",
+    "titleEn": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
+    "titleAr": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmwtU1dvSVNubGRlbFl6OE9ObzN4MFVRYkUtMFVueTVRbE5KWGx5RTR4T1NFS2oyN1J3V0YxOEVhU3ZTeXAwX0ppOHNKRWE1S1NNYXl3UWt3WGQ2SWFJbkdHMmJLTVRNanp6THZ1R1VPUmRoR1lLSGRvYWtLRWk4bjJnTGJsLWlqMklpeVhPbUx2dTBpN2Z2YVpkOE83Rm8waTdaNmtDaWpxdTlHb0FzQkE5RnFiWFhk?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791023503000,
-    "summaryEn": "Aboard the USS George Washington, young sailors adjust to war with Iran reuters.com",
-    "summaryAr": "Aboard the USS George Washington, young sailors adjust to war with Iran reuters.com",
+    "summaryEn": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
+    "summaryAr": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -496,29 +656,13 @@
     ]
   },
   {
-    "titleEn": "Iran executes detainee over January protests, judiciary says - reuters.com",
-    "titleAr": "Iran executes detainee over January protests, judiciary says - reuters.com",
+    "titleEn": "Iran executes detainee over January protests, judiciary says - Reuters",
+    "titleAr": "Iran executes detainee over January protests, judiciary says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGdCTURnWkJyS1ZoczFjQWo3VF9BaXVrdm1tZV8wR0pwSmxYSFZMNVl0V19fU2NIWGRxNG0zSl9vM3BnRWVDUGpzRG5jM28tTmVibEZuNG5UeTZ1elJ1eVgzVFhQQ21GOXVVUFJqbEppZFMzTld0dExWXy16X245eTVrc2htcWl0dkxsNFMwQUdpSHEyTUFSX0Y4cEwyNXVHODdoUjV6VXF3QlR2bHNsYjFzVQ?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791021367000,
-    "summaryEn": "Iran executes detainee over January protests, judiciary says reuters.com",
-    "summaryAr": "Iran executes detainee over January protests, judiciary says reuters.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "From cyber to Middle East, US and allies take stark lessons from 2026 - Awani International",
-    "titleAr": "From cyber to Middle East, US and allies take stark lessons from 2026 - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM3pzeExfQkxOWFd4R202OHZkRnNUY0tGWHQ3Rzh6SE10LUx6endoUXNMODBNdEZESjRZeWJycFVVMnZzcFY5NzVpWV9CSHFoWHJHOXp6NXA4Rko1aFlVOGl6dVFKNXJnbl9JVk0yUFlvaTNVYUFNNXJ0elRGaXRGUzFtbGJrVDBMSktLRFVubkoxLTlRaWs2Sk5lTXRNYlBVRGpydUlrdw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791009200000,
-    "summaryEn": "From cyber to Middle East, US and allies take stark lessons from 2026 Awani International",
-    "summaryAr": "From cyber to Middle East, US and allies take stark lessons from 2026 Awani International",
+    "summaryEn": "Iran executes detainee over January protests, judiciary says Reuters",
+    "summaryAr": "Iran executes detainee over January protests, judiciary says Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -572,150 +716,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
-    "titleAr": "Three reasons Middle East oil supply is nearly back to pre-Iran war levels",
-    "link": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790954968000,
-    "summaryEn": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
-    "summaryAr": "Experts say US military assistance, using shuttle tankers and pipelines bypassing the Strait of Hormuz mean exports have rebounded.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1790942400000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session F…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session F…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-    "titleAr": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-    "link": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790941924000,
-    "summaryEn": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
-    "summaryAr": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-    "titleAr": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-    "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790932086000,
-    "summaryEn": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-    "summaryAr": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "titleAr": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1790920190000,
-    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (K…",
-    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (K…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "titleAr": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "pubDate": 1790894569000,
-    "summaryEn": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
-    "summaryAr": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code o…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "titleAr": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
-    "source": "Dark Reading",
-    "pubDate": 1790890670000,
-    "summaryEn": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "summaryAr": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "titleAr": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "link": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1790884764000,
-    "summaryEn": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "summaryAr": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "titleAr": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
-    "source": "The Hacker News",
-    "pubDate": 1790873757000,
-    "summaryEn": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threateni…",
-    "summaryAr": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threateni…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
       }
     ]
   }
