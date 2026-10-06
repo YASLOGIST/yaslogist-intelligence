@@ -1,399 +1,283 @@
 <div align="center">
+  <img src="assets/yaslogist-logo-128.png" width="104" alt="YASLOGIST radar reticle" />
 
-<img src="assets/yaslogist-logo-128.png" alt="YASLOGIST logo" width="128" />
+# YASLOGIST // INTELLIGENCE
 
-# YASLOGIST Intelligence
+<a href="https://yaslogist.github.io/yaslogist-intelligence/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1450&pause=620&color=00E5FF&background=050B1200&center=true&vCenter=true&repeat=true&width=900&height=112&lines=%24+boot+yaslogist-intelligence+--edge;%3E+normalizing+OSINT+%2F+CVE+%2F+maritime+signals;%3E+validating+canonical+event+contracts;%3E+publishing+bilingual+operations+picture;%E2%96%88+SYSTEM_READY+%2F%2F+OPEN_CONSOLE" alt="Animated YASLOGIST terminal boot sequence" /></a>
 
-### Sovereign CTI & Maritime Logistics Radar — Technical Whitepaper
+**SOVEREIGN CTI · MARITIME LOGISTICS RADAR · ZERO-BUILD EDGE RUNTIME**
 
-**A bilingual, zero-build intelligence cockpit that turns open-source cyber, geopolitical, and maritime signals into an operator-ready common picture.**
+[![OPEN CONSOLE](https://img.shields.io/badge/OPEN_CONSOLE-LIVE-00E5FF?style=for-the-badge&logo=githubpages&logoColor=061018)](https://yaslogist.github.io/yaslogist-intelligence/)
+[![CI](https://img.shields.io/github/actions/workflow/status/YASLOGIST/yaslogist-intelligence/ci.yml?branch=main&style=for-the-badge&label=CI%20GATE&logo=githubactions&logoColor=white&color=00E5FF)](https://github.com/YASLOGIST/yaslogist-intelligence/actions/workflows/ci.yml)
+[![INGEST](https://img.shields.io/github/actions/workflow/status/YASLOGIST/yaslogist-intelligence/update-data.yml?branch=main&style=for-the-badge&label=2H%20INGEST&logo=radar&logoColor=white&color=8B5CF6)](https://github.com/YASLOGIST/yaslogist-intelligence/actions/workflows/update-data.yml)
+[![KINETIC](https://img.shields.io/github/actions/workflow/status/YASLOGIST/yaslogist-intelligence/kinetic-readme.yml?branch=main&style=for-the-badge&label=12H%20MOTION&logo=githubactions&logoColor=white&color=00E5FF)](https://github.com/YASLOGIST/yaslogist-intelligence/actions/workflows/kinetic-readme.yml)
 
-<img src="assets/og-image-animated.gif" alt="YASLOGIST regional operations picture — current wire, risk model, CVE exposure, signal trend" width="1080" />
-
-[![Live Operations](https://img.shields.io/badge/LIVE_OPERATIONS-OPEN_CONSOLE-00E5FF?style=for-the-badge&logo=github)](https://yaslogist.github.io/yaslogist-intelligence/)
-[![Pipeline](https://img.shields.io/badge/INTEL_PIPELINE-EVERY_2_HOURS-8B5CF6?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/update-data.yml)
-
-[![Version](https://img.shields.io/badge/Release-v1.5.0-EAB308?style=flat-square)](CHANGELOG.md)
-[![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](package.json)
-[![Arabic + English](https://img.shields.io/badge/Interface-AR_%2F_EN-EAB308?style=flat-square)](#bilingual-by-design)
-[![Zero Build](https://img.shields.io/badge/Frontend-Zero_Build-06B6D4?style=flat-square)](#1-system-architecture)
-[![Static Deployment](https://img.shields.io/badge/Runtime-Static-10B981?style=flat-square)](#deployment)
-
-[**Launch Dashboard**](https://yaslogist.github.io/yaslogist-intelligence/) · [System Architecture](#1-system-architecture) · [Feature Matrix](#2-feature-matrix) · [Core Workflows](#3-core-workflows) · [Tech Stack](#4-tech-stack)
-
+`OBSERVE` **//** `CORRELATE` **//** `ANTICIPATE`
 </div>
 
 ---
 
-## Abstract
+<div align="center">
+<table>
+<tr>
+<td align="center"><b>INTEL WIRE</b><br/><a href="data/meta.json"><img alt="Live wire item count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fdata%2Fmeta.json&query=%24.counts.wire&label=EVENTS&color=00E5FF&style=flat-square"/></a></td>
+<td align="center"><b>CVE MATRIX</b><br/><a href="data/meta.json"><img alt="Live CVE count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fdata%2Fmeta.json&query=%24.counts.cves&label=ENRICHED&color=8B5CF6&style=flat-square"/></a></td>
+<td align="center"><b>GEO COVERAGE</b><br/><a href="data/meta.json"><img alt="Live country count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fdata%2Fmeta.json&query=%24.counts.countries&label=COUNTRIES&color=00E5FF&style=flat-square"/></a></td>
+<td align="center"><b>EDGE STATUS</b><br/><img alt="GitHub Pages availability" src="https://img.shields.io/website?url=https%3A%2F%2Fyaslogist.github.io%2Fyaslogist-intelligence%2F&up_message=ONLINE&down_message=OFFLINE&label=PAGES&style=flat-square&color=10B981"/></td>
+</tr>
+<tr>
+<td align="center"><b>EDGE TTFB</b><br/><a href="assets/readme-telemetry/site-latency.json"><img alt="Measured edge time to first byte" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fassets%2Freadme-telemetry%2Fsite-latency.json&style=flat-square"/></a></td>
+<td align="center"><b>QUALITY FLOOR</b><br/><a href="assets/readme-telemetry/quality.json"><img alt="Latest verified test count" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fassets%2Freadme-telemetry%2Fquality.json&style=flat-square"/></a></td>
+<td align="center"><b>SURFACE BUDGET</b><br/><a href="assets/readme-telemetry/surface.json"><img alt="Runtime surface against performance budget" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fassets%2Freadme-telemetry%2Fsurface.json&style=flat-square"/></a></td>
+<td align="center"><b>RUNTIME</b><br/><a href="package.json"><img alt="Node engine version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fpackage.json&query=%24.engines.node&label=NODE&color=339933&logo=nodedotjs&logoColor=white&style=flat-square"/></a></td>
+</tr>
+</table>
 
-YASLOGIST Intelligence is a high-density command interface for monitoring Middle East cyber activity, geopolitical developments, critical vulnerabilities, and maritime supply-chain risk. It fuses a tactical map, a normalized OSINT wire, CVE enrichment, target-intensity telemetry, and threat-actor context into **one static application with no server component**.
-
-The design premise is inversion: instead of the browser calling live APIs, a **scheduled Node.js pipeline** collects and structures public intelligence on a two-hour cadence and commits the result as versioned JSON. The browser receives preprocessed artifacts — not credentials, sessions, or API keys — and GitHub Pages serves the finished cockpit at the edge. Every screen can be regenerated or rolled back from Git history alone.
+[![last commit](https://img.shields.io/github/last-commit/YASLOGIST/yaslogist-intelligence?style=flat-square&label=LAST%20SYNC&color=00E5FF)](https://github.com/YASLOGIST/yaslogist-intelligence/commits/main)
+[![commit activity](https://img.shields.io/github/commit-activity/m/YASLOGIST/yaslogist-intelligence?style=flat-square&label=30D%20ACTIVITY&color=8B5CF6)](https://github.com/YASLOGIST/yaslogist-intelligence/graphs/commit-activity)
+[![version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYASLOGIST%2Fyaslogist-intelligence%2Fmain%2Fpackage.json&query=%24.version&label=RELEASE&color=EAB308&style=flat-square)](CHANGELOG.md)
+[![top language](https://img.shields.io/github/languages/top/YASLOGIST/yaslogist-intelligence?style=flat-square&label=CORE&color=00E5FF)](https://github.com/YASLOGIST/yaslogist-intelligence)
+</div>
 
 > [!IMPORTANT]
-> YASLOGIST is an **open-source situational-awareness tool**, not a classified feed or an emergency warning system. Automated tags, scores, map layers, and model-tier indicators are analytical aids. Validate consequential decisions against authoritative primary sources.
+> Open-source situational awareness, not a classified feed or emergency warning system. Scores and tags are analytical aids; verify consequential decisions against primary sources.
 
-**Document map** — §1 [System Architecture](#1-system-architecture) · §2 [Feature Matrix](#2-feature-matrix) · §3 [Core Workflows](#3-core-workflows) · §4 [Tech Stack](#4-tech-stack) · §5 [Intelligence Dataset](#5-intelligence-dataset) · §6 [Security & Integrity](#6-security--integrity-model) · §7 [Bilingual Design](#7-bilingual-by-design) · §8 [Quick Start](#8-quick-start) · §9 [Repository Map](#9-repository-map) · §10 [Verification Ledger](#10-verification-ledger)
+## `01 // OPERATING PICTURE`
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>SIGNAL PLANE</h3>
+<ul>
+<li>7 public cyber/regional feeds</li>
+<li>RSS/Atom normalization and deduplication</li>
+<li>MITRE CVE enrichment with bounded concurrency</li>
+<li>7-day geographic intensity delta</li>
+<li>14-day persistent signal timeline</li>
+<li>Five schema-validated, versioned JSON artifacts</li>
+</ul>
+</td>
+<td width="50%" valign="top">
+<h3>OPERATOR PLANE</h3>
+<ul>
+<li>EN/AR interface with runtime LTR/RTL flip</li>
+<li>Tactical map, chokepoints, corridors, range rings</li>
+<li>Search, watchlist, URL-state sharing, CSV export</li>
+<li>Actor × wire correlation and CVSS matrix</li>
+<li>Offline shell with freshness escalation</li>
+<li>Command palette and briefing/snapshot export</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>TRUST PLANE</h3>
+<ul>
+<li>No browser secrets, app server, or database</li>
+<li>Hostile feed text escaped before DOM insertion</li>
+<li>HTTP(S)-only outbound link policy</li>
+<li>CSP + exact-version SRI controls</li>
+<li>Empty ingestion never replaces known-good wire</li>
+<li>Git history is the rollback and audit ledger</li>
+</ul>
+</td>
+<td width="50%" valign="top">
+<h3>RENDER PLANE</h3>
+<ul>
+<li>Semantic HTML5 + vanilla ES modules</li>
+<li>Leaflet 1.9.4 and Chart.js 4.4.7</li>
+<li>Demand-driven native WebGL2 substrate</li>
+<li><code>prefers-reduced-motion</code> honored end-to-end</li>
+<li>GitHub Pages static edge deployment</li>
+<li>Zero bundler; repository root is the artifact</li>
+</ul>
+</td>
+</tr>
+</table>
 
-## 1. System Architecture
-
-### 1.1 Design doctrine
-
-Five principles govern every subsystem; nothing ships that violates one:
-
-| # | Principle | Enforcement |
-| :-: | :--- | :--- |
-| 1 | **Static by default** — no application server, database, or runtime secret | Deployed artifact is the repository root; no server code exists to attack |
-| 2 | **Zero-build frontend** — standards-based HTML/CSS/ES modules | `node --check` syntax gate; no bundler config anywhere in the tree |
-| 3 | **Versioned intelligence** — telemetry committed as inspectable JSON | 5 artifacts under `data/`, schema-validated pre-commit, full history in Git |
-| 4 | **Failure tolerant** — partial collection never blocks the picture | Per-feed isolation; empty collection never overwrites the existing wire |
-| 5 | **Untrusted-input aware** — all feed content is hostile until escaped | HTML escaping + protocol allow-listing verified in the test suite |
-
-### 1.2 Data-plane overview
+## `02 // CANONICAL EVENT MODEL`
 
 ```mermaid
-flowchart LR
-    subgraph Sources[Public intelligence sources]
-        RSS[Regional + cyber RSS]
-        CISA[CISA advisories]
-        MITRE[MITRE CVE API]
+flowchart TB
+    classDef source fill:#09141d,stroke:#8b5cf6,color:#f4f7fa,stroke-width:1px
+    classDef process fill:#071923,stroke:#00e5ff,color:#f4f7fa,stroke-width:2px
+    classDef artifact fill:#0b2028,stroke:#22d3ee,color:#f4f7fa
+    classDef guard fill:#251d08,stroke:#eab308,color:#fff7d6
+    classDef edge fill:#082018,stroke:#10b981,color:#ecfdf5
+
+    subgraph SOURCE[UNTRUSTED SOURCE ZONE]
+      RSS[Regional + cyber RSS/Atom]:::source
+      CISA[CISA advisories]:::source
+      MITRE[MITRE CVE API]:::source
     end
 
-    subgraph Pipeline[Autonomous ingestion · every 2 hours]
-        COLLECT[Collect + normalize]
-        FILTER[Relevance filter + deduplication]
-        ENRICH[CVE + CVSS enrichment]
-        SCORE[7-day intensity analysis]
+    subgraph NORMALIZE[CANONICALIZATION PIPELINE · 0 */2 * * *]
+      FETCH[parallel fetch<br/>timeout + bounded retry]:::process
+      PARSE[parse + decode + relevance filter]:::process
+      EVENT[CanonicalEvent<br/>titleEn · titleAr · link · source<br/>pubDate · summaryEn · summaryAr · tags]:::artifact
+      DEDUPE[Unicode-stable key<br/>newest wins · cap 45]:::process
+      ENRICH[CVE extraction + CVSS enrichment]:::process
+      SCORE[7d intensity delta<br/>14d timeline merge]:::process
+      VALIDATE{all contracts valid?}:::guard
     end
 
-    subgraph Data[Versioned intelligence artifacts]
-        WIRE[intel_wire.json]
-        CVE[middle_east_cves.json]
-        HEAT[target_intensity.json]
-        META[meta.json provenance]
-        TIME[signal_timeline.json]
+    subgraph LEDGER[VERSIONED DATA LEDGER]
+      WIRE[intel_wire.json]:::artifact
+      CVE[middle_east_cves.json]:::artifact
+      HEAT[target_intensity.json]:::artifact
+      TIME[signal_timeline.json]:::artifact
+      META[meta.json<br/>provenance + feed health]:::artifact
     end
 
-    subgraph Edge[Static command surface]
-        UI[Vanilla ES modules]
-        MAP[Leaflet tactical map]
-        CHART[Chart.js telemetry]
-        VFX[Native WebGL2 visuals]
+    subgraph EDGE[ZERO-BUILD EDGE]
+      LOAD[network-first artifact load<br/>timeout + backoff]:::edge
+      SAFE[shape guard + escapeHTML<br/>safeURL allow-list]:::edge
+      FUSE[wire × CVE × actor × geography]:::edge
+      UI[EN/AR operations picture<br/>map · charts · console · exports]:::edge
+      CACHE[offline known-good shell]:::edge
     end
 
-    RSS --> COLLECT
-    CISA --> COLLECT
-    COLLECT --> FILTER
-    FILTER --> ENRICH
+    RSS & CISA --> FETCH --> PARSE --> EVENT --> DEDUPE
     MITRE --> ENRICH
-    FILTER --> SCORE
-    ENRICH --> WIRE
-    ENRICH --> CVE
-    SCORE --> HEAT
-    FILTER --> TIME
-    COLLECT --> META
-    WIRE --> UI
-    CVE --> UI
-    HEAT --> MAP
-    UI --> CHART
-    UI --> VFX
+    DEDUPE --> ENRICH --> SCORE --> VALIDATE
+    VALIDATE -- PASS --> WIRE & CVE & HEAT & TIME & META
+    VALIDATE -- FAIL --> HOLD[abort write<br/>retain known-good state]:::guard
+    WIRE & CVE & HEAT & TIME & META --> LOAD --> SAFE --> FUSE --> UI
+    CACHE -. degraded path .-> UI
 ```
 
-### 1.3 Runtime request path
+<details>
+<summary><b><code>EVENT_STATE_MACHINE // EXPAND</code></b></summary>
 
-What happens between a visitor opening the URL and a live picture on screen — every hop is observable in DevTools, none involves a YASLOGIST server:
+```mermaid
+stateDiagram-v2
+    [*] --> Fetched
+    Fetched --> Parsed: XML/Atom decoded
+    Fetched --> IsolatedFailure: timeout / permanent error
+    Parsed --> Rejected: irrelevant or malformed
+    Parsed --> Normalized: canonical fields + safe URL
+    Normalized --> Deduplicated: Unicode key / newest wins
+    Deduplicated --> Enriched: CVE/CVSS lookup complete
+    Deduplicated --> Enriched: no CVE present
+    Enriched --> Validated: artifact contracts pass
+    Enriched --> Quarantined: schema violation
+    Validated --> Versioned: atomic JSON write
+    Versioned --> Published: Git commit + Pages edge
+    Published --> Rendered: escape → correlate → display
+    IsolatedFailure --> Provenance: feed health recorded
+    Quarantined --> [*]
+    Rejected --> [*]
+    Rendered --> [*]
+```
+
+**Hard invariants:** empty cycles never overwrite the wire · every link is HTTP(S) · every external string is escaped · malformed artifacts fail before commit · stale data remains visible and explicitly marked.
+</details>
+
+## `03 // AUTONOMOUS DATA PATH`
 
 ```mermaid
 sequenceDiagram
+    autonumber
+    participant G as GitHub Actions
+    participant P as Node 20 pipeline
+    participant S as 7 public feeds
+    participant M as MITRE CVE
+    participant D as data/*.json
+    participant E as GitHub Pages
     participant B as Browser
-    participant P as GitHub Pages (edge)
-    participant D as data/*.json (committed)
-    participant C as Pinned CDNs (SRI)
 
-    B->>P: GET / (index.html, ~34 KB)
-    P-->>B: Shell + CSP meta + SRI pins
-    B->>C: Leaflet · Chart.js · fonts (integrity-checked)
-    C-->>B: Modules (fail-closed on hash mismatch)
-    B->>D: fetch intel_wire · cves · intensity · meta · timeline
-    D-->>B: Validated JSON artifacts
-    B->>B: Escape → classify → render → KPI count-up
-    Note over B: Offline/stale? Footer escalates provenance age,<br/>last committed picture stays on screen
+    G->>P: schedule / workflow_dispatch
+    P->>S: parallel fetch + isolated retries
+    S-->>P: RSS / Atom
+    P->>P: normalize → dedupe → classify
+    P->>M: bounded CVE enrichment
+    M-->>P: CVSS + product records
+    P->>P: intensity + timeline + provenance
+    P->>D: schema gate then write five artifacts
+    G->>E: commit changed artifacts
+    B->>E: GET static shell + versioned JSON
+    E-->>B: immutable code + latest picture
+    B->>B: guard → escape → fuse → render
 ```
 
-### 1.4 Trust boundaries
+## `04 // KINETIC ACTIVITY STREAM`
 
-| Boundary | Trust level | Control |
-| :--- | :--- | :--- |
-| Feed XML / third-party APIs | **Zero** | Parsed defensively, escaped before DOM, links protocol-allow-listed |
-| Committed `data/*.json` | **Validated** | Schema gate in CI; parsed with shape guards at render time |
-| External scripts (Leaflet, Chart.js) | **Pinned** | Exact version + Subresource Integrity; CI fails on unpinned additions |
-| First-party modules | **Audited** | `node --check`, 80-assertion test suite, security scanner per commit |
+<div align="center">
+  <img src="assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Autogenerated animated GitHub contribution stream" />
+  <br/>
+  <sub><code>Platane/snk SVG factory · generated in-repository every 12 hours · no recorded media</code></sub>
+</div>
 
----
+<details>
+<summary><b><code>QUALITY_GATE // 84 ASSERTIONS</code></b></summary>
 
-## 2. Feature Matrix
+| Gate | Command | Contract |
+|:--|:--|:--|
+| Syntax | `npm run check` | Application, ingestion, service worker, and tooling parse cleanly |
+| Tests | `npm test` | 84 unit/integration/i18n/schema/static assertions; zero test dependencies |
+| Data | `npm run validate:data` | 5/5 committed intelligence artifacts satisfy schema |
+| Budget | `npm run budget` | Local runtime ≤ 1 MiB; scripts ≤ 2; stylesheets ≤ 4 |
+| Security | `npm run scan` | Secret patterns, dangerous sinks, and external-script policy clean |
+| Full lock | `npm run ci` | All gates execute serially; any defect returns non-zero |
 
-Operational capabilities, where each lives, and how it is proven. Nothing in this table is aspirational — **Status ✅ means shipped, wired, and covered by an automated gate.**
+</details>
 
-| Capability | Surface / Module | Data path | Verification | Status |
-| :--- | :--- | :--- | :--- | :-: |
-| **Live intelligence wire** — deduplicated, searchable by keyword / CVE / region / tag, with match highlighting and a NEW badge for intercepts < 3 h | `app.js` wire renderer | `data/intel_wire.json` (≤45 items) | Schema gate + dedup unit tests | ✅ |
-| **Operator watchlist** — star any intercept; PINNED filter, persisted pins, watchlist section in the Markdown briefing | `app.js` watchlist layer | `localStorage` (bounded, sanitized) | Watchlist unit tests | ✅ |
-| **Background live sync** — wire re-fetch every 10 min while visible; stale-tab refresh on focus; new-intercept toast | `app.js` live-sync scheduler | Wire feeds + committed JSON | Sync-state unit tests | ✅ |
-| **Tactical threat map** — dark/satellite/ocean/topo basemaps, chokepoints, subsea infrastructure, corridors, range rings | `threat-map.js` (Leaflet) | `data/target_intensity.json` | Map-layer unit tests | ✅ |
-| **CVE defense matrix** — feed-extracted CVEs enriched with MITRE records, CVSS, severity, product; live search + CVSS meters + CSV export | `app.js` matrix view | `data/middle_east_cves.json` (≤8 records) | Schema gate + CVSS/CSV unit tests | ✅ |
-| **Actor × wire fusion** — APT dossiers cross-referenced against the live wire (alias matching), activity chips, threat-level meters, MITRE ATT&CK links | `app.js` dossier renderer | Live wire + dossier DB | Fusion unit tests | ✅ |
-| **Shareable views** — wire filter state in the URL hash (`#wire?tag=APT&q=hormuz`), deep links carry it | `app.js` hash-state layer | URL hash (sanitized on parse) | Round-trip + hostile-input tests | ✅ |
-| **Target intensity** — rolling 7-day country signal volume vs prior window (IL, IR, LB, SY, YE, JO, EG) | KPI band + map heat | `data/target_intensity.json` | Intensity-math unit tests | ✅ |
-| **Signal timeline** — 14-day daily buckets, honest WoW delta | Header sparkline | `data/signal_timeline.json` (merged across cycles, never erased) | Merge-logic unit tests | ✅ |
-| **Provenance & freshness** — pipeline age with stale-state escalation | Footer status | `data/meta.json` manifest | Meta-schema assertions | ✅ |
-| **Operator console** — command palette, full-screen mode, JSON snapshot + Markdown briefing export, deep links, eight global hotkeys | `app.js` console (<kbd>Ctrl/⌘</kbd>+<kbd>K</kbd>) | In-memory snapshot | Export-shape unit tests | ✅ |
-| **Bilingual cockpit** — instant AR/EN switch, runtime `dir` flip, localized states | `app.js` i18n layer | Translation table, persisted preference | i18n parity tests | ✅ |
-| **Resilient display** — timeout-aware fetch, bounded retry with backoff (transient errors only), offline feedback | `app.js` fetch layer | Any `data/*` fetch | Retry-policy unit tests | ✅ |
-| **Accessible motion** — reveal, skeletons, count-up; all disabled under `prefers-reduced-motion`; demand-driven WebGL is static at rest | `styles.css` + `acid-squares-bg.js` | n/a | Static-integrity tests | ✅ |
-| **Maritime focus** — Suez, Bab el-Mandeb, Red Sea, Strait of Hormuz situational layers | `threat-map.js` | Wire geo-tags + intensity | Layer assertions | ✅ |
-| **Data-honest social card** — animated OG image rendered from the *same* committed JSON the app reads | `assets/generate-og-image.py` | `data/*` at generation time | Regenerate via `npm run card` | ✅ |
-| **Installable cockpit (PWA)** — manifest, generated radar-reticle app icons (192/512), favicon + touch icon | `manifest.webmanifest` + `assets/generate-app-icon.py` | n/a | Icon structure verified in-script | ✅ |
-
-> **Command console cheat-sheet** — refresh wire · export JSON snapshot · export Markdown briefing · copy deep link · switch AR/EN · jump to map · full-screen mode · recalculate briefing. All eight also run as single-key hotkeys (R E D C L M F B) when you are not typing.
-
----
-
-## 3. Core Workflows
-
-### 3.1 Ingestion cycle — every 2 hours, zero human touch
-
-Scheduled at `0 */2 * * *` ([`update-data.yml`](.github/workflows/update-data.yml)); also manually dispatchable.
+<details>
+<summary><b><code>REPOSITORY_MAP // EXPAND</code></b></summary>
 
 ```text
-1  Fetch all feeds in parallel (isolated — one dead source ≠ dead cycle)
-2  Parse RSS / Atom directly from source XML (no parser dependency)
-3  Filter for regional, cyber, maritime relevance (deterministic keywords,
-   explainable labels: RANSOMWARE · ZERO-DAY · MARITIME · DDoS · APT · INTEL)
-4  Normalize → classify → deduplicate → sort
-5  Extract CVE IDs → enrich against MITRE (capped concurrency)
-6  Compute rolling 7-day country intensity + 14-day signal timeline
-7  Write 5 JSON artifacts incl. provenance manifest (skip write on empty collection)
-8  Schema-validate every artifact — failure aborts before commit
-9  Commit only if content changed
+index.html                  semantic command surface + CSP/SRI pins
+app.js                      controller, i18n, wire, CVE, actors, exports
+threat-map.js               Leaflet tactical/geospatial layer
+acid-squares-bg.js          demand-driven WebGL2 substrate
+styles.css                  dark operator design system
+smart-operations.css        console and analytical UI layer
+update_data.js              autonomous ingestion orchestrator
+lib/intel-core.cjs          pure canonicalization/scoring functions
+lib/validate-data.cjs       shared artifact contracts
+scripts/                    validation, budget, and security gates
+tests/                      84 zero-dependency assertions
+data/                       five committed intelligence artifacts
+assets/                     generated UI, social, motion, and telemetry assets
+.github/workflows/          CI, 2h ingest, and 12h kinetic factory
+docs/ARCHITECTURE.md        verified behavioral specification
 ```
 
-**Guarantees:** partial failure degrades gracefully (per-feed health is recorded in `meta.json`); the operator always sees either fresh data or clearly-staled data — never silent junk.
+</details>
 
-### 3.2 Browser boot — from URL to live picture
-
-```text
-1  index.html shell paints immediately (dark design tokens, skeleton panels)
-2  SRI-pinned modules load (fail-closed on integrity mismatch)
-3  Parallel fetch of the 5 artifacts with timeout + retry/backoff
-4  Values escaped → classified → rendered; KPIs count up; WebGL background
-   initializes last and submits frames only while pointer parallax is settling
-5  Footer stamps true pipeline age; stale state escalates visually
-```
-
-**Degraded path:** no connectivity, artifact 404, or rejected dependency → last committed picture stays, status flags the cause. Core intelligence never depends on the WebGL layer.
-
-### 3.3 Operator loop — common on-shift actions
-
-| Intent | Path |
-| :--- | :--- |
-| Triage new items | Wire panel → keyword/CVE/region filter chips |
-| Brief leadership | <kbd>Ctrl/⌘</kbd>+<kbd>K</kbd> → *Export Markdown briefing* |
-| Archive the moment | Console → *Export JSON snapshot* |
-| Share a view | Console → *Copy deep link* (state encoded in URL) |
-| Arabic hand-over | Language toggle — instant, persisted, full `dir` flip |
-| Force recalculation | Console → *Recalculate smart threat briefing* |
-
-### 3.4 Quality gate — every push and PR
-
-```text
-npm run ci =
-  check          syntax-check all 9 JS artifacts
-  test           80 assertions (unit · integration · i18n · schema · static)
-  validate:data  schema gate on all 5 committed artifacts
-  budget         local surface ≤ 1 MiB; ≤2 external scripts; ≤4 stylesheets
-  scan           secrets · dangerous sinks · external-script pinning policy
-```
-
-### 3.5 Social card regeneration
-
-The animated OG card embeds **real wire titles, the real peak CVSS, and the real 14-day sparkline** read from committed JSON at render time — it can never advertise capabilities the build doesn't have:
-
-```bash
-npm run card   # assets/generate-og-image.py → og-image-animated.gif (40f · 90 ms · ≤256-colour shared palette) + og-image.png fallback
-```
-
----
-
-## 4. Tech Stack
-
-Every dependency earns its place; the list is intentionally short.
-
-| Layer | Technology | Role | Why this choice |
-| :--- | :--- | :--- | :--- |
-| Interface | Semantic HTML5 + CSS3 + vanilla JS ES modules | Entire UI | Zero build = zero supply-chain build surface; the repo *is* the artifact |
-| Mapping | Leaflet 1.9.4 + Esri basemaps | Tactical layers | Battle-tested, tiny, declarative layer model |
-| Telemetry | Chart.js (SRI-pinned 4.4.7) | Intensity & timeline charts | Canvas-native, themeable, no framework tax |
-| Visual engine | Native WebGL2 | Single-pass analytical grid | One draw call, no textures/loops; demand-driven rendering reaches zero idle submissions |
-| Typography & icons | Cairo + IBM Plex Sans Arabic, Font Awesome | Bilingual type system | True Arabic shaping; consistent operator iconography |
-| Ingestion | Node.js 20 native `fetch` + fs + hand-rolled XML parse | Collector | No parser deps to audit; bounded retries on transient failures only |
-| Automation | GitHub Actions (cron + dispatch) | Pipeline & CI | Zero-cost scheduling; logs and diffs are public evidence |
-| Hosting | GitHub Pages (root, no build) | Edge delivery | Immutable static serving; rollback = `git revert` |
-| Social card | Python 3 + Pillow (offline) | OG image renderer | Data-honest card generated from the same committed JSON |
-| Testing | Node `node:test`, zero dependencies | 80-assertion suite | No test-framework lock-in; runs anywhere Node 20 runs |
-
----
-
-## 5. Intelligence Dataset
-
-| Artifact | Purpose | Key contents |
-| :--- | :--- | :--- |
-| [`data/intel_wire.json`](data/intel_wire.json) | Normalized intelligence stream | Titles, summaries, source, publication time, link, bilingual fields, tags |
-| [`data/middle_east_cves.json`](data/middle_east_cves.json) | Vulnerability matrix | CVE ID, product/vendor, severity, CVSS score, display badge |
-| [`data/target_intensity.json`](data/target_intensity.json) | Geographic signal telemetry | Country, current/previous volume, delta %, intensity level |
-| [`data/meta.json`](data/meta.json) | Provenance manifest | Generation time, per-feed health, artifact counts, newest wire timestamp |
-| [`data/signal_timeline.json`](data/signal_timeline.json) | 14-day trend | Daily UTC signal buckets (merged across cycles, never erased) |
-
-**Retention & coverage:** ≤45 wire items and ≤8 enriched CVEs per snapshot; intensity windows cover Israel, Iran, Lebanon, Syria, Yemen, Jordan, Egypt. **Sources (current collector):** BBC Middle East, Al Jazeera, Reuters, BleepingComputer, The Hacker News, Dark Reading, CISA advisories — extensible via the collector's source table.
-
----
-
-## 6. Security & Integrity Model
-
-- **No secrets in the browser** — the deployed app requires zero API keys.
-- **Untrusted-input pipeline** — all feed content HTML-escaped; outbound links restricted to HTTP/HTTPS.
-- **CSP by meta tag** — no inline scripts, no forms, no objects; `upgrade-insecure-requests` ready.
-- **SRI pinning** — external scripts locked to exact content hashes; the scanner fails CI on violations and on any new `<script src>` outside policy.
-- **Network discipline** — timeouts everywhere; retries with exponential backoff on transient errors only.
-- **Write-safety** — empty collections never overwrite the existing wire.
-- **Scan coverage** — every tracked *and* untracked file scanned for secrets, dangerous sinks, and pin violations on each commit.
-
-Found an issue? Report it privately to the repository owner rather than opening a public exploit report.
-
----
-
-## 7. Bilingual by Design
-
-Arabic and English are first-class interface modes, not separate builds:
-
-- Instant switch with no reload; `dir="rtl"` / `dir="ltr"` flips at runtime.
-- Localized navigation, metrics, map labels, advisories, filters, and operator states.
-- Arabic-first typography (Cairo, IBM Plex Sans Arabic); preference persisted locally.
-- Upstream articles may remain in source language — interface localization does not imply machine translation of third-party reporting.
-
----
-
-## 8. Quick Start
-
-**Requirements:** a modern browser; Node.js 20+ only for validation/ingestion; any static file server (ES modules must not run from `file://`).
+<details>
+<summary><b><code>LOCAL_EXECUTION // EXPAND</code></b></summary>
 
 ```bash
 git clone https://github.com/YASLOGIST/yaslogist-intelligence.git
 cd yaslogist-intelligence
-python3 -m http.server 8080        # → http://localhost:8080
+npm run ci
+python3 -m http.server 8080
+# open http://localhost:8080
 ```
 
-**Operator commands**
+| Command | Effect |
+|:--|:--|
+| `npm run ingest` | Refresh the five intelligence artifacts from public sources |
+| `npm run card` | Regenerate the data-backed social card |
+| `npm run icon` | Regenerate deterministic PWA icon assets |
+| `npm run ci` | Execute the complete release gate |
 
-```bash
-npm run ci             # full gate: syntax + 76 tests + schema + budget + scan
-npm test               # test suite only
-npm run ingest         # refresh intelligence data (makes outbound requests)
-npm run card           # regenerate the animated OG card from current data
-```
+</details>
 
-## Deployment
+## `05 // LIVE REPOSITORY TELEMETRY`
 
-No build step — publish the repository root to any static host.
-
-- **GitHub Pages:** Settings → Pages → deploy from branch, root directory; keep the ingestion workflow enabled so telemetry stays current.
-- **Other static platforms:** publish dir `.`, empty build command, standard MIME types for `.json` / `.mjs`.
-
----
-
-## 9. Repository Map
-
-```text
-.
-├── index.html                    # Command-center shell (CSP, OG/Twitter meta, SRI pins)
-├── app.js                        # UI, i18n, telemetry, filtering, console (testable exports)
-├── threat-map.js                 # Tactical geospatial layers
-├── acid-squares-bg.js            # Demand-driven WebGL2 grid (one draw call, explicit disposal)
-├── styles.css                    # Core design system + motion tokens
-├── smart-operations.css          # Operator-console enhancements
-├── update_data.js                # Autonomous intelligence collector (thin orchestration)
-├── lib/
-│   ├── intel-core.cjs            # Pure pipeline logic (unit tested)
-│   └── validate-data.cjs         # Shared artifact validators
-├── scripts/
-│   ├── validate-data.cjs         # CLI: data schema gate
-│   ├── perf-budget.cjs           # CLI: performance budget gate
-│   └── security-scan.cjs         # CLI: secrets/sinks/pinning gate
-├── tests/                        # node:test suite (80 assertions, zero deps)
-├── docs/
-│   ├── ARCHITECTURE.md           # Behavioural spec: 10 invariants + evidence table
-│   └── AUDIT-2026-10.md          # Latest audit: 10 findings, all closed
-├── data/                         # 5 versioned intelligence artifacts
-├── manifest.webmanifest          # PWA install surface (icons, theme, standalone)
-├── assets/
-│   ├── generate-og-image.py      # Data-honest OG renderer (PIL, offline)
-│   ├── generate-app-icon.py      # Zero-dependency radar-reticle icon renderer
-│   ├── yaslogist-icon-512.png    # Generated app icon 512 (also maskable)
-│   ├── yaslogist-icon-192.png    # Generated app icon 192
-│   ├── og-image-animated.gif     # Animated social card (1200×630, 40f × 90 ms)
-│   └── og-image.png              # Static social fallback
-├── archive/legacy/               # Retired scripts & duplicates (not loaded)
-├── perf-budget.json              # Published performance budget
-└── .github/workflows/
-    ├── ci.yml                    # Verify matrix + hygiene (push/PR)
-    └── update-data.yml           # Two-hour ingestion + schema validation
-```
-
----
-
-## 10. Verification Ledger
-
-Numbers below are measured by the gates in CI, not estimated.
-
-| Metric | Measured | Gate |
-| :--- | :--- | :--- |
-| Test suite | **76/76 assertions passing** | `node --test` |
-| Local runtime surface | **397.7 KB / 1,024 KB budget** | `perf-budget.cjs` |
-| Data artifacts | **5/5 schema-valid** | `validate-data.cjs` |
-| Security scan | **33 files clean** (tracked + untracked) | `security-scan.cjs` |
-| External scripts | **2/2 SRI-pinned** (≤2 allowed) | budget + scan |
-| Served assets | **12/12 HTTP 200** on live preview | preview probe |
-| OG card size | **~300 KB GIF + ~88 KB PNG fallback** | `npm run card` |
-
-> [!NOTE]
-> OG/social images are crawler-only assets: they are referenced from `<meta>` tags and are **not** fetched by the runtime, so they are deliberately excluded from the local-surface budget.
-
----
-
-## Contributing
-
-Contributions that improve source reliability, localization, accessibility, data validation, mapping accuracy, and operator experience are welcome.
-
-1. Fork and branch; make the smallest coherent change.
-2. `npm run ci` must pass locally.
-3. If the collector changed, run `npm run ingest` and inspect the data diff.
-4. Open a PR describing operational impact and test evidence.
-
-Please avoid presenting simulated or inferred telemetry as verified fact. New sources must be public, attributable, legally accessible, and resilient enough for automated collection.
+<div align="center">
+  <a href="https://github.com/YASLOGIST/yaslogist-intelligence/actions"><img height="165" alt="GitHub repository statistics" src="https://github-readme-stats.vercel.app/api?username=YASLOGIST&show_icons=true&hide_border=true&bg_color=050B12&title_color=00E5FF&icon_color=00E5FF&text_color=E8F0F5&ring_color=8B5CF6" /></a>
+  <a href="https://github.com/YASLOGIST/yaslogist-intelligence"><img height="165" alt="Repository language statistics" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YASLOGIST&layout=compact&hide_border=true&bg_color=050B12&title_color=00E5FF&text_color=E8F0F5&langs_count=6" /></a>
+</div>
 
 ---
 
 <div align="center">
-
-**YASLOGIST / OPERATIONS PICTURE**
-
-`OBSERVE // CORRELATE // ANTICIPATE`
-
-Built for cyber, geopolitical, and maritime situational awareness.
-
-© 2026 YASLOGIST. All rights reserved.
-
+  <code>STATIC BY DEFAULT // VERSIONED INTELLIGENCE // HOSTILE-INPUT AWARE // FAILURE TOLERANT</code><br/><br/>
+  <a href="https://yaslogist.github.io/yaslogist-intelligence/">CONSOLE</a> ·
+  <a href="docs/ARCHITECTURE.md">ARCHITECTURE</a> ·
+  <a href="docs/AUDIT-2026-10.md">AUDIT</a> ·
+  <a href="CHANGELOG.md">CHANGELOG</a>
 </div>
