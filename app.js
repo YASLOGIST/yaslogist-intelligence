@@ -86,7 +86,7 @@ const I18N = {
         defconElevated: 'ELEVATED',
         defconHigh: 'HIGH',
         defconCritical: 'CRITICAL',
-        defconReadout: 'MODEL TIER 2 // HIGH ANALYTICAL POSTURE',
+        defconReadout: 'MODEL TIER — // AWAITING COMMITTED DATA',
         utcClockLabel: 'UTC',
         cairoClockLabel: 'CAIRO (EEST)',
         statusLiveFeed: 'NETWORK: ONLINE',
@@ -140,6 +140,8 @@ const I18N = {
         tagDdos: 'DDoS',
         tagApt: 'APT',
         loadingWire: 'Loading committed intelligence and public-source overlay…',
+        wireUnavailable: 'Committed intelligence is unavailable. Retry when the connection returns.',
+        dataDegraded: 'DATA DEGRADED // one or more committed artefacts are unavailable; no synthetic values are shown',
         cveMatrixTitle: 'OBSERVED CVE EXPOSURE',
         cveMatrixSubtitle: 'Feed-observed vulnerabilities enriched with MITRE records',
         mitreCveSync: 'MITRE ENRICHED',
@@ -205,7 +207,7 @@ const I18N = {
         defconElevated: 'مرتفع',
         defconHigh: 'حرج',
         defconCritical: 'طوارئ قصوى',
-        defconReadout: 'النموذج المستوى 2 // وضع تحليلي مرتفع',
+        defconReadout: 'النموذج — // بانتظار البيانات المثبتة',
         utcClockLabel: 'توقيت عالمي UTC',
         cairoClockLabel: 'القاهرة (EEST)',
         statusLiveFeed: 'الشبكة: متصلة',
@@ -259,6 +261,8 @@ const I18N = {
         tagDdos: 'حجب الخدمة',
         tagApt: 'مجموعات متقدمة',
         loadingWire: 'جاري تحميل التقارير المثبتة وطبقة المصادر العامة…',
+        wireUnavailable: 'بيانات الاستخبارات المثبتة غير متاحة. أعد المحاولة عند عودة الاتصال.',
+        dataDegraded: 'تدهور البيانات // بعض القطع المثبتة غير متاحة؛ لا تُعرض قيم اصطناعية',
         cveMatrixTitle: 'التعرض المرصود للثغرات CVE',
         cveMatrixSubtitle: 'ثغرات مرصودة في المصادر ومُثراة بسجلات MITRE',
         mitreCveSync: 'إثراء MITRE',
@@ -460,115 +464,13 @@ const THREAT_ACTORS_DB = [
     }
 ];
 
-// Fallback CVE Data with Complete Arabic Support.
-// CVSS values are the publicly published NVD/MITRE base scores, kept as an
-// offline floor only; live pipeline records always take precedence.
-const DEFAULT_CVES = [
-    {
-        id: "CVE-2024-3400",
-        system: "Palo Alto PAN-OS",
-        systemAr: "بالو ألتو PAN-OS (بوابات الحافة)",
-        severity: "Critical",
-        cvss: 10.0,
-        badge: "badge-critical",
-        advisoryEn: "Patch PAN-OS GlobalProtect Gateway immediately.",
-        advisoryAr: "تحديث عاجل وفوري لبوابات GlobalProtect وسد ثغرة الحقن."
-    },
-    {
-        id: "CVE-2023-34362",
-        system: "MOVEit Transfer",
-        systemAr: "نظام نقل الملفات MOVEit Transfer",
-        severity: "Critical",
-        cvss: 9.8,
-        badge: "badge-critical",
-        advisoryEn: "Apply vendor SQLi mitigations and isolate storage endpoints.",
-        advisoryAr: "تطبيق معالجة ثغرة SQLi وعزل نقاط التخزين عن الإنترنت العام."
-    },
-    {
-        id: "CVE-2024-21412",
-        system: "Windows Defender SmartScreen",
-        systemAr: "نظام الحماية Windows Defender",
-        severity: "High",
-        cvss: 8.1,
-        badge: "badge-high",
-        advisoryEn: "Enforce MSFT security patch to halt zero-day shortcut execution.",
-        advisoryAr: "تطبيق حزمة تحديث مايكروسوفت لوقف تنفيذ ملفات الاختصار الخبيثة."
-    },
-    {
-        id: "CVE-2023-46805",
-        system: "Ivanti Connect Secure (ICS)",
-        systemAr: "بوابات إيفانتي Ivanti Connect Secure",
-        severity: "High",
-        cvss: 8.2,
-        badge: "badge-high",
-        advisoryEn: "Run external integrity verification tool; revoke all API tokens.",
-        advisoryAr: "تشغيل أداة التحقق من النزاهة الخارجية وإلغاء كافة مفاتيح API."
-    },
-    {
-        id: "CVE-2023-4966",
-        system: "Citrix NetScaler ADC",
-        systemAr: "موزع الأحمال Citrix NetScaler ADC",
-        severity: "High",
-        cvss: 9.4,
-        badge: "badge-high",
-        advisoryEn: "Clear persistent session tokens and deploy firmware update.",
-        advisoryAr: "تطهير كافة رموز الجلسات النشطة وتحديث البرنامج الثابت فوراً."
-    }
-];
-
-// Fallback Intensity Data (previous window included for honest trends)
-const DEFAULT_INTENSITY = [
-    { country: "Iran", attacks: "14", previous: "11", intensity: "Critical", trend: "up", deltaPct: 27.3, class: "intensity-high" },
-    { country: "Israel", attacks: "11", previous: "9", intensity: "High", trend: "up", deltaPct: 22.2, class: "intensity-high" },
-    { country: "Lebanon", attacks: "5", previous: "3", intensity: "High", trend: "up", deltaPct: 66.7, class: "intensity-high" },
-    { country: "Egypt", attacks: "3", previous: "4", intensity: "Medium", trend: "down", deltaPct: -25.0, class: "intensity-med" },
-    { country: "Syria", attacks: "1", previous: "2", intensity: "Low", trend: "down", deltaPct: -50.0, class: "intensity-low" },
-    { country: "Jordan", attacks: "1", previous: "1", intensity: "Low", trend: "down", deltaPct: 0, class: "intensity-low" }
-];
-
-// Fallback Live Wire News with Full Arabic Localization
-const FALLBACK_WIRE_ITEMS = [
-    {
-        titleEn: "Houthis Threaten Renewed Drone Interdictions Near Bab el-Mandeb Chokepoint",
-        titleAr: "تهديدات متجددة باعتراض الملاحة واستخدام المسيرات قرب مضيق باب المندب",
-        source: "Maritime Executive",
-        link: "https://maritime-executive.com",
-        pubDate: Date.now() - 1000 * 60 * 35,
-        summaryEn: "Naval task force reports anomalous GPS spoofing and AIS telemetry interference affecting commercial cargo vessels transiting the southern Red Sea corridor.",
-        summaryAr: "رصد تشويش إلكتروني على إشارات GPS ونظام التعرف الآلي AIS يؤثر على سفن الحاويات التجارية في الممر الجنوبي للبحر الأحمر.",
-        tags: [{ textEn: "MARITIME", textAr: "ملاحة بحرية", class: "tag-urgent" }, { textEn: "ZERO-DAY", textAr: "يوم-الصفر", class: "tag-urgent" }]
-    },
-    {
-        titleEn: "State-Sponsored Wiper Campaign Detected Targeting Gulf Petrochemical SCADA Systems",
-        titleAr: "رصد حملة برمجيات مسح موجهة تستهدف أنظمة التحكم SCADA لقطاع البتروكيماويات بالخليج",
-        source: "Dark Reading",
-        link: "https://darkreading.com",
-        pubDate: Date.now() - 1000 * 60 * 75,
-        summaryEn: "Threat intelligence analysts observe weaponized payloads utilizing novel living-off-the-land techniques to compromise industrial telemetry sensors.",
-        summaryAr: "اكتشاف برمجيات خبيثة تستخدم أدوات النظام الأصلية لتعطيل وحدات القياس الصناعية وأجهزة الاستشعار عن بعد في معامل الغاز.",
-        tags: [{ textEn: "APT", textAr: "مجموعات متقدمة", class: "tag-warn" }, { textEn: "RANSOMWARE", textAr: "برمجيات الفدية", class: "tag-urgent" }]
-    },
-    {
-        titleEn: "Massive Volumetric DDoS Barrage Hits Mediterranean Seaport Cargo Logistics Network",
-        titleAr: "هجوم حجب خدمة هائل (DDoS) يضرب شبكات الشحن واللوجستيات في موانئ البحر المتوسط",
-        source: "BleepingComputer",
-        link: "https://bleepingcomputer.com",
-        pubDate: Date.now() - 1000 * 60 * 140,
-        summaryEn: "Automated botnet floods exceed 1.2 Tbps against regional container dispatch platforms, triggering automated failover protocols.",
-        summaryAr: "سيل هجمات حجب خدمة يفوق 1.2 تيرابت في الثانية يستهدف منصات تفريغ الحاويات، مما استدعى تفعيل خطط الطوارئ.",
-        tags: [{ textEn: "DDoS", textAr: "حجب الخدمة", class: "tag-warn" }, { textEn: "MARITIME", textAr: "ملاحة بحرية", class: "tag-urgent" }]
-    },
-    {
-        titleEn: "CISA Flags Exploitation of Edge VPN Gateway Zero-Day in Middle East Telecom",
-        titleAr: "وكالة CISA تحذر من استغلال ثغرة يوم-الصفر في بوابات VPN بقطاع الاتصالات الإقليمي",
-        source: "The Hacker News",
-        link: "https://thehackernews.com",
-        pubDate: Date.now() - 1000 * 60 * 220,
-        summaryEn: "Advisory warns that nation-state operators have bypassed multi-factor authentication on unpatched appliances to maintain persistent backdoors.",
-        summaryAr: "تحذير استخباري رسمي يفيد بتجاوز المصادقة الثنائية عبر بوابات غير محدثة لزرع أبواب خلفية مستمرة في شبكات التوجيه.",
-        tags: [{ textEn: "ZERO-DAY", textAr: "يوم-الصفر", class: "tag-urgent" }, { textEn: "APT", textAr: "مجموعات متقدمة", class: "tag-warn" }]
-    }
-];
+// Empty degraded-state data. The runtime must never invent a live report,
+// country count, or CVE when a committed artefact is unavailable. The service
+// worker normally supplies the last committed snapshot; if that cache is also
+// missing, the UI renders an explicit unavailable state instead.
+const DEFAULT_INTENSITY = [];
+const DEFAULT_CVES = [];
+const FALLBACK_WIRE_ITEMS = [];
 
 // ===================================================================
 // 2b. TARGETED SECTOR CLASSIFIER (deterministic, explainable)
@@ -618,6 +520,9 @@ class YaslogistThreatRadarApp {
         this.pinnedIds = this.loadPinnedIds();
         this.lastWireSyncAt = 0;
         this.liveSyncTimer = null;
+        this.wireFetchPromise = null;
+        this.dataAvailability = { wire: false, intensity: false, cves: false, meta: false, timeline: false };
+        this.dataLoaded = false;
         this.clockTimer = null;
         this.telemetryTimer = null;
         this.mapResizeTimers = [];
@@ -1708,51 +1613,65 @@ class YaslogistThreatRadarApp {
         // Model-tier readout uses level-resolved localized strings.
         const activeTier = document.querySelector('.defcon-tier.active');
         if (activeTier) this.setDefconLevel(parseInt(activeTier.getAttribute('data-level'), 10) || 4);
+        this.updateDataIntegrityStatus();
+    }
+
+    /** Surface degraded committed-data state without substituting made-up telemetry. */
+    updateDataIntegrityStatus() {
+        const status = document.getElementById('data-integrity-status');
+        if (!status) return;
+        // Keep the shell quiet while the first parallel load is in flight;
+        // only announce a degraded state once there is a result to assess.
+        if (!this.dataLoaded && !this.dataAvailability.wire) {
+            status.hidden = true;
+            return;
+        }
+        const complete = Object.values(this.dataAvailability).every(Boolean);
+        status.hidden = complete;
+        status.dataset.state = complete ? 'ready' : 'degraded';
+        if (!complete) {
+            status.textContent = I18N[this.currentLang].dataDegraded;
+            status.setAttribute('aria-live', 'assertive');
+        } else {
+            status.removeAttribute('aria-live');
+        }
     }
 
     async loadData() {
-        // Load target intensity data
-        try {
-            const data = await fetchJSONWithTimeout('./data/target_intensity.json', { cache: 'no-store' });
-            this.intensityData = Array.isArray(data) ? data : DEFAULT_INTENSITY;
-        } catch (e) {
-            this.intensityData = DEFAULT_INTENSITY;
-        }
+        // These artefacts are independent and same-origin. Fetch them together
+        // so a slow or missing optional manifest cannot delay the useful picture.
+        const requests = [
+            fetchJSONWithTimeout('./data/target_intensity.json', { cache: 'no-store' }),
+            fetchJSONWithTimeout('./data/middle_east_cves.json', { cache: 'no-store' }),
+            fetchJSONWithTimeout('./data/meta.json', { cache: 'no-store' }),
+            fetchJSONWithTimeout('./data/signal_timeline.json', { cache: 'no-store' })
+        ];
+        const [intensityResult, cveResult, metaResult, timelineResult] = await Promise.allSettled(requests);
+        const fulfilled = (result) => result?.status === 'fulfilled' ? result.value : null;
 
-        // Load CVE data
-        try {
-            const data = await fetchJSONWithTimeout('./data/middle_east_cves.json', { cache: 'no-store' });
-            this.cveData = Array.isArray(data) ? data : DEFAULT_CVES;
-        } catch (e) {
-            this.cveData = DEFAULT_CVES;
-        }
+        const intensity = fulfilled(intensityResult);
+        const cves = fulfilled(cveResult);
+        const meta = fulfilled(metaResult);
+        const timeline = fulfilled(timelineResult);
+        this.dataAvailability.intensity = Array.isArray(intensity);
+        this.dataAvailability.cves = Array.isArray(cves);
+        this.dataAvailability.meta = Boolean(meta && typeof meta === 'object' && !Array.isArray(meta));
+        this.dataAvailability.timeline = Boolean(timeline && Array.isArray(timeline.days));
+        this.intensityData = this.dataAvailability.intensity ? intensity : DEFAULT_INTENSITY;
+        this.cveData = this.dataAvailability.cves ? cves : DEFAULT_CVES;
+        this.pipelineMeta = this.dataAvailability.meta ? meta : null;
+        this.timelineData = this.dataAvailability.timeline ? timeline : null;
+        this.dataLoaded = true;
 
-        // Load pipeline provenance manifest + signal timeline (additive artefacts).
-        try {
-            const meta = await fetchJSONWithTimeout('./data/meta.json', { cache: 'no-store' });
-            if (meta && typeof meta === 'object') this.pipelineMeta = meta;
-        } catch (e) {
-            this.pipelineMeta = null;
-        }
-        try {
-            const timeline = await fetchJSONWithTimeout('./data/signal_timeline.json', { cache: 'no-store' });
-            if (timeline && Array.isArray(timeline.days)) this.timelineData = timeline;
-        } catch (e) {
-            this.timelineData = null;
-        }
-
-        // Update Map with Intensity
         if (this.threatMap) {
             this.threatMap.updateData(this.intensityData, this.currentLang);
         }
 
-        // Render CVE Table
         this.renderCVEs();
-
-        // Update KPIs, model tier, and pipeline freshness
         this.updateKPIs();
         this.updateFooterSync();
         this.renderSmartBriefing();
+        this.updateDataIntegrityStatus();
     }
 
     /** Footer sync chip: honest pipeline age, stale-state colouring. */
@@ -1879,7 +1798,7 @@ class YaslogistThreatRadarApp {
             const card = document.getElementById(cardId);
             const bar = card?.querySelector?.('.kpi-progress-bar');
             if (!bar) return;
-            const width = Math.max(2, Math.min(100, Math.round(pct)));
+            const width = Math.max(0, Math.min(100, Math.round(Number(pct) || 0)));
             bar.style.width = `${width}%`;
             bar.setAttribute('role', 'progressbar');
             bar.setAttribute('aria-valuenow', String(width));
@@ -1898,10 +1817,17 @@ class YaslogistThreatRadarApp {
         setKpiBar('kpi-logistics-card', wireN ? (maritimeCount / wireN) * 100 : 0, dict.kpiBarMaritimeShare);
 
         // Analytical tier from the real severity mix of tracked CVEs.
+        // If the committed model inputs failed, keep the posture explicitly
+        // unscored rather than presenting a default tier as live analysis.
+        if (this.dataLoaded && (!this.dataAvailability.intensity || !this.dataAvailability.cves)) {
+            this.setDefconLevel(null);
+            return;
+        }
         const sev = (this.cveData || []).map(c => (c.severity || '').toLowerCase());
         const criticalCount = sev.filter(x => x === 'critical').length;
         const highCount = sev.filter(x => x === 'high').length;
-        let defcon = 4;
+        const totalSignals = (this.intensityData || []).reduce((sum, item) => sum + (parseInt(item.attacks || '0', 10) || 0), 0);
+        let defcon = totalSignals === 0 && sev.length === 0 ? 5 : 4;
         if (criticalCount >= 3) defcon = 2;
         else if (criticalCount >= 1 || highCount >= 5) defcon = 3;
         this.setDefconLevel(defcon);
@@ -1911,12 +1837,17 @@ class YaslogistThreatRadarApp {
     setDefconLevel(level = 2) {
         document.querySelectorAll('.defcon-tier').forEach(tier => {
             const tierLevel = parseInt(tier.getAttribute('data-level'), 10);
-            tier.classList.toggle('active', tierLevel === level);
+            tier.classList.toggle('active', Number.isFinite(level) && tierLevel === level);
         });
 
         const readoutEl = document.getElementById('defcon-readout-text');
         if (!readoutEl) return;
         const isAr = this.currentLang === 'ar';
+        if (!Number.isFinite(level)) {
+            readoutEl.textContent = I18N[this.currentLang].defconReadout;
+            readoutEl.style.color = 'var(--text-muted)';
+            return;
+        }
         const READOUTS = {
             1: { en: 'MODEL TIER 1 // CRITICAL ANALYTICAL POSTURE', ar: 'النموذج المستوى 1 // وضع تحليلي حرج', color: 'var(--yas-crimson)' },
             2: { en: 'MODEL TIER 2 // HIGH ANALYTICAL POSTURE', ar: 'النموذج المستوى 2 // وضع تحليلي عالٍ', color: '#D88A51' },
@@ -2110,29 +2041,37 @@ class YaslogistThreatRadarApp {
         return raw.map(item => {
             if (!item || typeof item !== 'object') return null;
 
-            const titleEn = item.titleEn || item.title || '';
+            const titleEn = String(item.titleEn ?? item.title ?? '').trim();
             if (!titleEn) return null;
 
-            let pubDate = item.pubDate;
-            if (typeof pubDate !== 'number') {
+            let pubDate = Number(item.pubDate);
+            if (!Number.isFinite(pubDate)) {
                 const parsed = Date.parse(item.pubDate || item.timestamp || '');
-                pubDate = isNaN(parsed) ? Date.now() : parsed;
+                pubDate = Number.isFinite(parsed) ? parsed : Date.now();
             }
 
-            const summaryEn = item.summaryEn || item.summary || '';
-            let tags = Array.isArray(item.tags) ? item.tags.filter(t => t && t.textEn) : [];
+            const titleAr = String(item.titleAr ?? titleEn);
+            const summaryEn = String(item.summaryEn ?? item.summary ?? '');
+            const summaryAr = String(item.summaryAr ?? summaryEn);
+            let tags = Array.isArray(item.tags)
+                ? item.tags.filter(t => t && t.textEn).map(t => ({
+                    textEn: String(t.textEn).slice(0, 32),
+                    textAr: String(t.textAr ?? t.textEn).slice(0, 64),
+                    class: String(t.class || '').replace(/[^a-z0-9_-]/gi, '').slice(0, 24)
+                }))
+                : [];
             if (tags.length === 0) {
-                tags = this.buildWireTags(`${titleEn} ${summaryEn} ${item.category || ''}`.toLowerCase());
+                tags = this.buildWireTags(`${titleEn} ${summaryEn} ${String(item.category || '')}`.toLowerCase());
             }
 
             return {
                 titleEn,
-                titleAr: item.titleAr || titleEn,
-                link: item.link || item.url || '#',
-                source: item.source || 'YASLOGIST CTI',
+                titleAr,
+                link: String(item.link ?? item.url ?? '#'),
+                source: String(item.source || 'YASLOGIST CTI'),
                 pubDate,
                 summaryEn,
-                summaryAr: item.summaryAr || summaryEn,
+                summaryAr,
                 tags
             };
         }).filter(Boolean);
@@ -2180,9 +2119,9 @@ class YaslogistThreatRadarApp {
                 `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`,
                 { signal: controller.signal }
             );
-            if (!response.ok) return [];
+            if (!response.ok) return { items: [], ok: false };
             const data = await response.json();
-            if (!data || !Array.isArray(data.items)) return [];
+            if (!data || !Array.isArray(data.items)) return { items: [], ok: false };
 
             const keywords = YaslogistThreatRadarApp.WIRE_KEYWORDS;
             const out = [];
@@ -2205,21 +2144,36 @@ class YaslogistThreatRadarApp {
                     tags: this.buildWireTags(contentStr)
                 });
             });
-            return out;
+            return { items: out, ok: true };
         } catch (err) {
-            return [];
+            return { items: [], ok: false };
         } finally {
             clearTimeout(timer);
         }
     }
 
-    async fetchWire({ background = false } = {}) {
+    fetchWire(options = {}) {
+        if (this.destroyed) return Promise.resolve(null);
+        // A manual refresh, hotkey, and visibility callback can all arrive at
+        // once. Share one in-flight cycle instead of multiplying proxy traffic.
+        if (this.wireFetchPromise) return this.wireFetchPromise;
+        this.wireFetchPromise = this._fetchWire(options)
+            .catch(error => {
+                console.warn('[YASLOGIST] Wire refresh degraded:', error);
+                return null;
+            })
+            .finally(() => { this.wireFetchPromise = null; });
+        return this.wireFetchPromise;
+    }
+
+    async _fetchWire({ background = false } = {}) {
         const container = document.getElementById('news-container');
         const previousIds = (this.allWireItems || []).map(YaslogistThreatRadarApp.wireItemId);
         const seenBefore = new Set(previousIds);
         const isFirstSync = this.lastWireSyncAt === 0;
         if (container && !background) {
             container.classList.add('wire-loading');
+            container.setAttribute('aria-busy', 'true');
             container.innerHTML = `
                 <div class="loading-state">
                     <i class="fa-solid fa-satellite-dish fa-spin"></i>
@@ -2254,9 +2208,9 @@ class YaslogistThreatRadarApp {
                 YaslogistThreatRadarApp.WIRE_FEEDS.map(feed => this.fetchSingleFeed(feed))
             );
             results.forEach(r => {
-                if (r.status === 'fulfilled' && Array.isArray(r.value)) {
-                    if (r.value.length > 0) feedsOk++;
-                    liveItems = liveItems.concat(r.value);
+                if (r.status === 'fulfilled' && r.value && r.value.ok === true) {
+                    feedsOk++;
+                    liveItems = liveItems.concat(r.value.items || []);
                 }
             });
         } catch (err) {
@@ -2264,7 +2218,9 @@ class YaslogistThreatRadarApp {
         }
 
         const merged = this.dedupeWireItems(liveItems.concat(baseItems));
-        this.allWireItems = merged.length > 0 ? merged : FALLBACK_WIRE_ITEMS;
+        const retained = merged.length > 0 ? merged : (this.allWireItems || []);
+        this.allWireItems = retained;
+        this.dataAvailability.wire = retained.length > 0;
         this.feedHealth = { ok: feedsOk, total: feedsTotal, syncedAt: Date.now() };
         this.lastWireSyncAt = Date.now();
 
@@ -2280,7 +2236,11 @@ class YaslogistThreatRadarApp {
             }
         }
 
-        if (container) container.classList.remove('wire-loading');
+        if (container) {
+            container.classList.remove('wire-loading');
+            container.setAttribute('aria-busy', 'false');
+        }
+        this.updateDataIntegrityStatus();
         // Screen-reader courtesy: background syncs announce only the summary
         // toast (a proper live region), not the entire re-rendered wire list.
         if (container && background) container.setAttribute('aria-live', 'off');
@@ -2369,10 +2329,13 @@ class YaslogistThreatRadarApp {
         }
 
         if (filtered.length === 0) {
+            const unavailable = !(this.allWireItems || []).length;
             const pinnedMode = this.activeWireTag === 'PINNED';
-            const message = pinnedMode ? dict.pinnedEmptyState
+            const message = unavailable ? dict.wireUnavailable
+                : pinnedMode ? dict.pinnedEmptyState
                 : (isAr ? 'لا توجد تقارير استخباراتية تطابق التصفية الحالية.' : 'No intelligence reports match the current tactical filter.');
-            const icon = pinnedMode ? 'fa-star' : 'fa-filter-circle-xmark';
+            const icon = unavailable ? 'fa-cloud-arrow-down' : pinnedMode ? 'fa-star' : 'fa-filter-circle-xmark';
+            container.dataset.state = unavailable ? 'unavailable' : 'filtered-empty';
             container.innerHTML = `
                 <div style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 12px;">
                     <i class="fa-solid ${icon}" style="font-size: 24px; margin-bottom: 8px; color: var(--yas-gold);"></i>
@@ -2383,6 +2346,7 @@ class YaslogistThreatRadarApp {
         }
 
         const term = this.wireSearchTerm;
+        container.dataset.state = 'ready';
         container.innerHTML = filtered.map((item, idx) => {
             const timeAgo = this.formatTimeAgo(item.pubDate);
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
@@ -2531,8 +2495,9 @@ class YaslogistThreatRadarApp {
                 .find(([id, slugValue]) => slugValue === slug || id === slug);
             return entry ? entry[0] : null;
         };
-        const initial = fromHash() || storage.get('yaslogist.tab', 'dashboard');
-        this.activateTab(initial, { pushHash: Boolean(fromHash()) });
+        const hashTarget = fromHash();
+        const initial = hashTarget || storage.get('yaslogist.tab', 'dashboard');
+        this.activateTab(initial, { pushHash: Boolean(hashTarget) });
         window.addEventListener('hashchange', () => {
             const target = fromHash();
             if (target) this.activateTab(target, { pushHash: true });
@@ -2540,9 +2505,13 @@ class YaslogistThreatRadarApp {
     }
 
     /** Apply wire filter state coming from a shared link (tag + search). */
-    applyWireState({ tag, q }) {
-        this.activeWireTag = tag || 'ALL';
-        this.wireSearchTerm = q || '';
+    applyWireState({ tag, q } = {}) {
+        const allowedTags = new Set(['ALL', 'PINNED', 'RANSOMWARE', 'ZERO-DAY', 'MARITIME', 'DDoS', 'APT']);
+        const requestedTag = String(tag || 'ALL').toUpperCase();
+        this.activeWireTag = allowedTags.has(requestedTag)
+            ? (requestedTag === 'DDOS' ? 'DDoS' : requestedTag)
+            : 'ALL';
+        this.wireSearchTerm = String(q || '').replace(/[<>\"'`]/g, '').slice(0, 80);
         const tagBar = document.getElementById('wire-tags-filter');
         if (tagBar) {
             tagBar.querySelectorAll('.filter-pill').forEach(b => {

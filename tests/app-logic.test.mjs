@@ -140,6 +140,36 @@ test('fetchWire full flow: committed wire -> render -> KPIs -> feed health', asy
 
 /* --------------------------------------------------- filtering flows */
 
+test('wire refresh retains the last committed picture during a transient outage', async (t) => {
+    const app = makeApp();
+    const realFetch = global.fetch;
+    let cycle = 0;
+    global.fetch = async (url) => {
+        if (cycle === 0 && String(url).includes('intel_wire.json')) {
+            return { ok: true, json: async () => WIRE_FIXTURE };
+        }
+        throw new Error('network unavailable');
+    };
+    t.after(() => { global.fetch = realFetch; });
+
+    await app.fetchWire();
+    const firstTitles = app.allWireItems.map(item => item.titleEn);
+    assert.equal(firstTitles.length, 3);
+    assert.equal(app.dataAvailability.wire, true);
+
+    cycle = 1;
+    await app.fetchWire();
+    assert.deepEqual(app.allWireItems.map(item => item.titleEn), firstTitles);
+    assert.equal(app.dataAvailability.wire, true);
+});
+
+test('applyWireState rejects unknown persisted tags instead of producing an empty view', () => {
+    const app = makeApp();
+    app.applyWireState({ tag: '<script>alert(1)</script>', q: '<img>' });
+    assert.equal(app.activeWireTag, 'ALL');
+    assert.equal(app.wireSearchTerm, 'img');
+});
+
 test('tag filter narrows the rendered wire', () => {
     const app = makeApp();
     app.allWireItems = WIRE_FIXTURE;
