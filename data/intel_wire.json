@@ -1,10 +1,42 @@
 [
   {
+    "titleEn": "Yemen war: What’s the latest on the battlefield?",
+    "titleAr": "Yemen war: What’s the latest on the battlefield?",
+    "link": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791275271000,
+    "summaryEn": "The internationally recognised government retakes territories from the Houthis as fighting rages on the western coast.",
+    "summaryAr": "The internationally recognised government retakes territories from the Houthis as fighting rages on the western coast.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Engineer sentenced for locking over 3,000 devices on employer network",
+    "titleAr": "Engineer sentenced for locking over 3,000 devices on employer network",
+    "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+    "source": "BleepingComputer",
+    "pubDate": 1791274764000,
+    "summaryEn": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's n…",
+    "summaryAr": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's n…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Yemeni military says it has 'secured' Red Sea waterway",
     "titleAr": "Yemeni military says it has 'secured' Red Sea waterway",
     "link": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1791248700000,
+    "pubDate": 1791272587000,
     "summaryEn": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
     "summaryAr": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
     "tags": [
@@ -12,6 +44,118 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Children brave snipers and mortars to go to school near Yemen front line",
+    "titleAr": "Children brave snipers and mortars to go to school near Yemen front line",
+    "link": "https://www.bbc.co.uk/news/articles/c670pzpv9gk4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791271404000,
+    "summaryEn": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
+    "summaryAr": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump jokes about letting Iran bomb Los Angeles and San Diego",
+    "titleAr": "Trump jokes about letting Iran bomb Los Angeles and San Diego",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/trump-jokes-about-letting-iran-bomb-los-angeles-and-san-diego?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791270720000,
+    "summaryEn": "At a campaign rally in Nebraska, US President Donald Trump joked about letting Iran bomb Los Angeles and San Diego.",
+    "summaryAr": "At a campaign rally in Nebraska, US President Donald Trump joked about letting Iran bomb Los Angeles and San Diego.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Southeast Asia’s energy chiefs meet against backdrop of Iran war",
+    "titleAr": "Southeast Asia’s energy chiefs meet against backdrop of Iran war",
+    "link": "https://www.aljazeera.com/economy/2026/10/6/southeast-asias-energy-chiefs-meet-against-backdrop-of-iran-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791270467000,
+    "summaryEn": "ASEAN ministers to discuss energy security amid energy crunch caused by the war on Iran.",
+    "summaryAr": "ASEAN ministers to discuss energy security amid energy crunch caused by the war on Iran.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+    "titleAr": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+    "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+    "source": "The Hacker News",
+    "pubDate": 1791269936000,
+    "summaryEn": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web applicati…",
+    "summaryAr": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web applicati…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Widowed twice: A Gaza mother’s story of loss and survival",
+    "titleAr": "Widowed twice: A Gaza mother’s story of loss and survival",
+    "link": "https://www.aljazeera.com/features/2026/10/6/widowed-twice-a-gaza-mothers-story-of-loss-and-survival?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791265479000,
+    "summaryEn": "A young mother has lost two husbands and two children during Israel's genocidal war on Gaza.",
+    "summaryAr": "A young mother has lost two husbands and two children during Israel's genocidal war on Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Mexican and Colombian cartel mercenaries filmed fighting in Ukraine",
+    "titleAr": "Mexican and Colombian cartel mercenaries filmed fighting in Ukraine",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/mexican-and-colombian-cartel-mercenaries-filmed-fighting-in-ukraine?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791259668000,
+    "summaryEn": "Members of Mexican and Colombian cartels are reportedly joining Ukraine’s International Legion to learn drone warfare.",
+    "summaryAr": "Members of Mexican and Colombian cartels are reportedly joining Ukraine’s International Legion to learn drone warfare.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows",
+    "titleAr": "Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-6-yemen-war-update-sv?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791250794000,
+    "summaryEn": "During emergency talks in Riyadh, Turkiye and Pakistan agreed to send rapid deployment forces to Saudi Arabia.",
+    "summaryAr": "During emergency talks in Riyadh, Turkiye and Pakistan agreed to send rapid deployment forces to Saudi Arabia.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -32,29 +176,29 @@
     ]
   },
   {
-    "titleEn": "Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis",
-    "titleAr": "Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791244800000,
-    "summaryEn": "Turkiye and Pakistan agree to rapidly deploy militaries to bolster Saudi security as part of the Mecca defence pact.",
-    "summaryAr": "Turkiye and Pakistan agree to rapidly deploy militaries to bolster Saudi security as part of the Mecca defence pact.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Middle East war sharpens focus on ASEAN energy security plans - Reuters",
     "titleAr": "Middle East war sharpens focus on ASEAN energy security plans - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeWVfcU16VFlBWk1oS3lYM2tXM2tGZEFyaUpVdzgwVzEzOHpYYm5kaXJ6T0FOQlBzTUh5Y0UteU9rUlJ0RHZRWk83SmV2ZnlxdlhadXhPZmZ2Q08yNVU2V293MFRuT0pPTG0tS2ZMMXRGNHlxbWVXVHNsODdSUEtkdjBDMzBSOFB2MVJhb2Qwam9Dd3FYRi1VMDJDM3pDeWVGb0h3RFZ5MFJIUjZWMzNZ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791241783000,
+    "pubDate": 1791241740000,
     "summaryEn": "Middle East war sharpens focus on ASEAN energy security plans Reuters",
     "summaryAr": "Middle East war sharpens focus on ASEAN energy security plans Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+    "titleAr": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+    "link": "https://www.bbc.co.uk/news/articles/cq14d438vx24o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791239282000,
+    "summaryEn": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
+    "summaryAr": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -71,54 +215,6 @@
     "pubDate": 1791235720000,
     "summaryEn": "Grades mixed as Middle East exports recover, US refinery demand slips TradingView",
     "summaryAr": "Grades mixed as Middle East exports recover, US refinery demand slips TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ethiopia’s Abiy demands access to Red Sea as tensions with neighbours rise",
-    "titleAr": "Ethiopia’s Abiy demands access to Red Sea as tensions with neighbours rise",
-    "link": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791234643000,
-    "summaryEn": "Neighbouring countries say coastal states must govern Red Sea as fighting escalates in northern Ethiopia.",
-    "summaryAr": "Neighbouring countries say coastal states must govern Red Sea as fighting escalates in northern Ethiopia.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Can Yemen retake territory seized by Houthis?",
-    "titleAr": "Can Yemen retake territory seized by Houthis?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791233544000,
-    "summaryEn": "The group has taken control of much of the Red Sea coast.",
-    "summaryAr": "The group has taken control of much of the Red Sea coast.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli forces kill one, injure several in occupied West Bank",
-    "titleAr": "Israeli forces kill one, injure several in occupied West Bank",
-    "link": "https://www.aljazeera.com/news/2026/10/5/israeli-forces-kill-one-injure-several-in-occupied-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791233375000,
-    "summaryEn": "Palestinians in West Bank are suffering increasing Israeli violence and repression.",
-    "summaryAr": "Palestinians in West Bank are suffering increasing Israeli violence and repression.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -160,86 +256,6 @@
     ]
   },
   {
-    "titleEn": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
-    "titleAr": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791231455000,
-    "summaryEn": "Turkiye, Saudi Arabia and Pakistan have agreed to trigger collective deterrence measures in response to Houthi attacks.",
-    "summaryAr": "Turkiye, Saudi Arabia and Pakistan have agreed to trigger collective deterrence measures in response to Houthi attacks.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Ukraine says Russian drone attack sinks ship in Romanian waters",
-    "titleAr": "Ukraine says Russian drone attack sinks ship in Romanian waters",
-    "link": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791230586000,
-    "summaryEn": "The latest suspected incursion on NATO's eastern flank increases fears that the war in Ukraine threatens to spill over.",
-    "summaryAr": "The latest suspected incursion on NATO's eastern flank increases fears that the war in Ukraine threatens to spill over.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Freed Syrians recount torture in Israeli detention centre",
-    "titleAr": "Freed Syrians recount torture in Israeli detention centre",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/freed-syrians-recount-torture-in-israeli-detention-centre?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791230249000,
-    "summaryEn": "Syrians released from Israeli detention have described abuse behind bars.",
-    "summaryAr": "Syrians released from Israeli detention have described abuse behind bars.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
-    "titleAr": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
-    "link": "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791226892000,
-    "summaryEn": "Trump shifts blame for fuel price hikes to blue states like California and Ukraine strikes on Russian oil refineries.",
-    "summaryAr": "Trump shifts blame for fuel price hikes to blue states like California and Ukraine strikes on Russian oil refineries.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK ‘threatens to expel 27 Israeli diplomats’ over Jerusalem consulate",
-    "titleAr": "UK ‘threatens to expel 27 Israeli diplomats’ over Jerusalem consulate",
-    "link": "https://www.aljazeera.com/news/2026/10/5/uk-threatens-to-expel-27-israeli-diplomats-over-jerusalem-consulate?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791225756000,
-    "summaryEn": "Israel ordered East Jerusalem consulate to be closed after Britain sanctioned settlements in the occupied West Bank.",
-    "summaryAr": "Israel ordered East Jerusalem consulate to be closed after Britain sanctioned settlements in the occupied West Bank.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "A breath of fresh air for the oil market! Middle East oil exports exceed pre-Iran war levels ᐉ News from Fakti.bg - World - fakti.bg",
     "titleAr": "A breath of fresh air for the oil market! Middle East oil exports exceed pre-Iran war levels ᐉ News from Fakti.bg - World - fakti.bg",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2ZlZnZKejlEZGFtODZIZVF4MEQtYUU4d2FHWUNpX1AzVXJkOHJSNGR1N25KbUJuTDZ6NTRJS1pudFM4SVNTMVp6eEpxeF9HRGxmVktSUXZwdWJ2dW9SOS1Fd3FhblVudnR2Tmk5a05rOVpyTTJTc2hET1MwQVFuMWRRSHF4NXp1M3ViQnpUNmFmN0hJM0laVnFaMW5WbTg5RExZY1h1bU10OVVaNDM2c042NEc2TXJZZGR1M0swV191Tk0?oc=5",
@@ -256,6 +272,38 @@
     ]
   },
   {
+    "titleEn": "COMMENTARY: Energy Watch: Has Iran's Hormuz control slipped? - Reuters",
+    "titleAr": "COMMENTARY: Energy Watch: Has Iran's Hormuz control slipped? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQXzQ1Mk9lNjVEdTdPd0VmYU16c2JPVWFLOExkdFVZbVNwNF9tYTVLYkJfWjZWT2gxaGVjQWJzb0dCcC1ZYlBCc3YtS1pQQTZQWVJOeERINkdJeGxmenlHeHRYZ3drd3hybkF6WllJMGE2SHlMMDRKSVJuTDhzM0dVNEFWRUQ3MGFtd2kwem8xTElrR3VLcUZwRktsYlV6aDhjb1VzNElMWmxMSl9GalROOUlMYnA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791223059000,
+    "summaryEn": "COMMENTARY: Energy Watch: Has Iran's Hormuz control slipped? Reuters",
+    "summaryAr": "COMMENTARY: Energy Watch: Has Iran's Hormuz control slipped? Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions - thenationalnews.com",
+    "titleAr": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions - thenationalnews.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUl1WGtONFVheWxSWlRGN2tFY0NKZ0V3N1J1eGxqRFlzaUZWVDVzWFBtUmQtWFJRcGo0emhsUFYxdzJNWUQ5QTJ1WFliTUNpSENqc0J4U01RZGJ2eEcwYmtqZGJCbU1mQV9xdG1FRnd1Wl9xcFUwYUpfVnpGMkEtdGVKLTZpVTYxTU1GbF9R?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791222680000,
+    "summaryEn": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions thenationalnews.com",
+    "summaryAr": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions thenationalnews.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Oil slips on rise in Middle East crude exports and G7 stocks release - The Lufkin Daily News",
     "titleAr": "Oil slips on rise in Middle East crude exports and G7 stocks release - The Lufkin Daily News",
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUU9rcWVqVDBFRnRqenk3NmFRRWpmdGRaZ29QdEkwa0RTcEF1TGVJLURVa0NqTENPc2dITU9ZMlphU3JPSlJEMlpoNnRlZTZoSldfUnJWeVE0M3lUR3NzRUhUWjdJS2JLYXp5dEw2UHhVT2I4TEVzMlZPOUdMUlNHSWx1ZVdidmNEV3pfeWNBNzk2X0thWHNmclRmYnlnOVIzaU16R3llcHRKWTBfUENaUXRqOXZjbk10M0k2aHdDWGViRGpxVHBEQU83U3Z4ek1VUnQ2dm1SSFpMWHRRS3dlQ2NhMFN2RUZhamE5SVlzNXhDdWlvRFhTbHhZaFA?oc=5",
@@ -263,6 +311,22 @@
     "pubDate": 1791218833000,
     "summaryEn": "Oil slips on rise in Middle East crude exports and G7 stocks release The Lufkin Daily News",
     "summaryAr": "Oil slips on rise in Middle East crude exports and G7 stocks release The Lufkin Daily News",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Teenager shows BBC life inside Gaza displacement camp",
+    "titleAr": "Teenager shows BBC life inside Gaza displacement camp",
+    "link": "https://www.bbc.co.uk/news/videos/c3x2w5dd21eyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791217893000,
+    "summaryEn": "13-year-old Lara lives in a displacement camp in Gaza City.",
+    "summaryAr": "13-year-old Lara lives in a displacement camp in Gaza City.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -304,22 +368,6 @@
     ]
   },
   {
-    "titleEn": "COMMENTARY: ENERGY WATCH: Has Iran's Hormuz control slipped? - Reuters",
-    "titleAr": "COMMENTARY: ENERGY WATCH: Has Iran's Hormuz control slipped? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQXzQ1Mk9lNjVEdTdPd0VmYU16c2JPVWFLOExkdFVZbVNwNF9tYTVLYkJfWjZWT2gxaGVjQWJzb0dCcC1ZYlBCc3YtS1pQQTZQWVJOeERINkdJeGxmenlHeHRYZ3drd3hybkF6WllJMGE2SHlMMDRKSVJuTDhzM0dVNEFWRUQ3MGFtd2kwem8xTElrR3VLcUZwRktsYlV6aDhjb1VzNElMWmxMSl9GalROOUlMYnA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791216124000,
-    "summaryEn": "COMMENTARY: ENERGY WATCH: Has Iran's Hormuz control slipped? Reuters",
-    "summaryAr": "COMMENTARY: ENERGY WATCH: Has Iran's Hormuz control slipped? Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
     "titleAr": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
     "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
@@ -353,6 +401,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil slips as Middle East crude exports rise, G7 to release stocks - The Express Tribune",
+    "titleAr": "Oil slips as Middle East crude exports rise, G7 to release stocks - The Express Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnhsWU9GcXU0Um9xNHlOaEdKbXdoTmxMSUsySTdZNUVNR0ZwX1JqdTdqQThyYlZCNUN4NG1LZEdWSnhMZHFmbjRPYkhwM0c2SEsxMUV5NHVBX0dsUnpKVjU0eW82UGpPNmx1RnhzVllNRXE4NW5WQ3Y4TklHMUV6QTktQzkwdGJWZnpQelpWcVVhNkFwQlV5UHd4cDk4cjgtb1pF0gGrAUFVX3lxTE1BakRTWjctZUJaMkVhOXpSbms2TENKZDlBVko1WTZmLWVlNXZXYUZVVFhjRHlYdER4ZEs4VDZpS1ZJeHZoQ0VWTDdRSTZKaVM3SjBqQS1DZ1dFajhRM2Z0OVQzSUZDX2luM0pKOVJNZUNiOGJQZ1gyOS1TMFNlLVBVeDR1M0s2SGxiZmJwQWV6RmxtblRsbkdJNzRJNGxfWkZ0VjZDLXNSOU9VOA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791206325000,
+    "summaryEn": "Oil slips as Middle East crude exports rise, G7 to release stocks The Express Tribune",
+    "summaryAr": "Oil slips as Middle East crude exports rise, G7 to release stocks The Express Tribune",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -396,22 +460,6 @@
     "pubDate": 1791198378000,
     "summaryEn": "Iran executes two men arrested over January 2026 protests, Mizan reports Reuters",
     "summaryAr": "Iran executes two men arrested over January 2026 protests, Mizan reports Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Brent Crude Oil Price Today (October 5): Brent Holds Above $102, WTI Near $91 As Middle East Supply Rises; Check Latest Brent Crude & WTI Oil Rates Today - The Sunday Guardian",
-    "titleAr": "Brent Crude Oil Price Today (October 5): Brent Holds Above $102, WTI Near $91 As Middle East Supply Rises; Check Latest Brent Crude & WTI Oil Rates Today - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQk5CaWRITENEM3VQcTd2ZEFFWGpYVDl3RWJWb2ROaGIyeVlodkR3bl9mZzZsS0VFeFlyNW1kM18tMUNtUTJPYnE4blh0ZGh3NUl2SWp1Vmp6LTFhZ1Bud1k1bHJ4Y2p1ajhGU0ZIOElCeklOd3k3RHdjY28ySHlydTk4dWFyOEtUMHROai1MOGVrVVg0c1ZNa2M2UFpqTXNleUZ4dXpub2UwQm9fWEVRbTJnd0ZLOUc4ZnMzX1lzSzJWU2U5LU9McWJ5MzNEelQ2dUVVdVFuTF9iekZPYXR3dWxsNjBjaVJwek5ZY25KM2ZlVXgzN1VJaTRNSUJfR2prenpZbTlwc3pPSTdPSmRJWUhtVkt2X19VakQ4Y9IBogJBVV95cUxQQTNudTdXbFNydjBtZkM4VmUtcl95bXZXaVZwdzFHVEd5Q1RNRDVYSjQyOUZzRnNTUnZXWGExVDNXalNvRXZEcXBMVUVOUDhrT0hBbmZxRlFYb28wS1VMZUxLTzYzdmROY1dpeXYxMXlHUXNvNVhVTnZDZHJvSkxDb2I2ejRfcVU1c25fU21kVlJucHhidjlLT1B1MG1LelVjajVDV2x6UTJXRnYyV1dEN05vZ2JzcXU0Wk8xM0dLaDlNdEU0SVpBYV9feG10MDBzZVJVNnl0Y2pFQ3VYUEZybVNhcW42SVlvY3pfWE45OEFlWlg1RkxNVTRTMm5PNlBtNjdaX3dRSEo2ZVRVTHJVS2hzVTlXMGdyUGo4dE5TR2dEQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791198180000,
-    "summaryEn": "Brent Crude Oil Price Today (October 5): Brent Holds Above $102, WTI Near $91 As Middle East Supply Rises; Check Latest Brent Crude & WTI Oil Rates Today The Sunday Guardian",
-    "summaryAr": "Brent Crude Oil Price Today (October 5): Brent Holds Above $102, WTI Near $91 As Middle East Supply Rises; Check Latest Brent Crude & WTI Oil Rates Today The Sunday Guardian",
     "tags": [
       {
         "textEn": "INTEL",
@@ -501,13 +549,13 @@
     ]
   },
   {
-    "titleEn": "Oil slips as Middle East crude exports rise, G7 to release stocks - tribune.com.pk",
-    "titleAr": "Oil slips as Middle East crude exports rise, G7 to release stocks - tribune.com.pk",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnhsWU9GcXU0Um9xNHlOaEdKbXdoTmxMSUsySTdZNUVNR0ZwX1JqdTdqQThyYlZCNUN4NG1LZEdWSnhMZHFmbjRPYkhwM0c2SEsxMUV5NHVBX0dsUnpKVjU0eW82UGpPNmx1RnhzVllNRXE4NW5WQ3Y4TklHMUV6QTktQzkwdGJWZnpQelpWcVVhNkFwQlV5UHd4cDk4cjgtb1pF0gGrAUFVX3lxTE1BakRTWjctZUJaMkVhOXpSbms2TENKZDlBVko1WTZmLWVlNXZXYUZVVFhjRHlYdER4ZEs4VDZpS1ZJeHZoQ0VWTDdRSTZKaVM3SjBqQS1DZ1dFajhRM2Z0OVQzSUZDX2luM0pKOVJNZUNiOGJQZ1gyOS1TMFNlLVBVeDR1M0s2SGxiZmJwQWV6RmxtblRsbkdJNzRJNGxfWkZ0VjZDLXNSOU9VOA?oc=5",
+    "titleEn": "Oil falls as Middle East crude exports rise, G7 to release stocks - Yahoo Finance",
+    "titleAr": "Oil falls as Middle East crude exports rise, G7 to release stocks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR1hyYTBRNzVPX1kzWnBPdS14MXk3dVRlM2F4MzE3ZkRvR0YxaDNaMWxZTEh5SS1LTjBlaktZMkV0a0VRUU1YejRacDJnTDZUdzhMbzJFRFpOZ0VXNllRempjOXMteWJqOUVkM0xqMTFxbnppR0p0aEtocVNVQ2xGRXBPaHMyWDRkLTNaag?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791184387000,
-    "summaryEn": "Oil slips as Middle East crude exports rise, G7 to release stocks tribune.com.pk",
-    "summaryAr": "Oil slips as Middle East crude exports rise, G7 to release stocks tribune.com.pk",
+    "pubDate": 1791183480000,
+    "summaryEn": "Oil falls as Middle East crude exports rise, G7 to release stocks Yahoo Finance",
+    "summaryAr": "Oil falls as Middle East crude exports rise, G7 to release stocks Yahoo Finance",
     "tags": [
       {
         "textEn": "INTEL",
@@ -597,13 +645,13 @@
     ]
   },
   {
-    "titleEn": "Oil slips on rise in Middle East crude exports and G7 stocks release - TradingView",
-    "titleAr": "Oil slips on rise in Middle East crude exports and G7 stocks release - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUG5yVElNcXY1aUVhR2F4Z0NrVmktQnQ5Um5sWHY0Qnhwbjc4Wmk2ZzRKRU1aY1ZuY200VjBmVWIwVFdrVk92bFJ1MlJRSnlLV1ZpUkk0SXpIdEY0QVlEdVRQV0xNRW50LUFCTzRoRm9mVEZQMUJzSUNiXzRDMmhCeDVzRnAxcGhkNi0yU1hyWUFCczNWazNDTjNueWVlOGpzcnRLTDVraUpEV1c1MmtHeUdEZ3NwbkFPaDVRUEdDcWRmTnJydUdFeEtPUFJDQ3d6bFNMOA?oc=5",
+    "titleEn": "Oil steadies as Middle East crude exports rise and G7 to release stocks - TradingView",
+    "titleAr": "Oil steadies as Middle East crude exports rise and G7 to release stocks - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZDVweTF2dHU2Y2YxMG9CT216REVYREdCekp1RnE2eFdYYi1LSE1qUDQ3OUhycHh5aTlibVJmYzZiek9OSEo5TjZybkt1dWFMVjBKOEQ4MUZpT0xORUp3QXk2QnNFX21MUkVyNXo0c2F4SVI1R19RazIwaG44WDcyeWxabmcweDZYZlJrOHJSeWxrN1lQNjJBRU5DZUo1X296NFAydFprb3NxY01zMDBoMzl0aHpoTHc4ZjJLSnlmR1RZeEpNeG5wZmlRNWxWVTQ?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791164100000,
-    "summaryEn": "Oil slips on rise in Middle East crude exports and G7 stocks release TradingView",
-    "summaryAr": "Oil slips on rise in Middle East crude exports and G7 stocks release TradingView",
+    "summaryEn": "Oil steadies as Middle East crude exports rise and G7 to release stocks TradingView",
+    "summaryAr": "Oil steadies as Middle East crude exports rise and G7 to release stocks TradingView",
     "tags": [
       {
         "textEn": "INTEL",
@@ -613,13 +661,13 @@
     ]
   },
   {
-    "titleEn": "Oil steadies as Middle East crude exports rise and G7 to release stocks - TradingView",
-    "titleAr": "Oil steadies as Middle East crude exports rise and G7 to release stocks - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMnZjcHJJczI3cEEteVlQdWNvUTFFZl8yYVhxaHR4Y1RuZ0tsNFdEbTRWT1JKRGl6Sk11dU5xNmxPTXUtb3BNQTR1dUhSUFo0SjdwNEJ0dXVybGFQZ1N2c0huMEJzcVJiLUIwMmlwUlpvVkRqRlRHOFpkWWx1LVlVNUhUc01CRFFVZ25ybmxtaTVyRUF2UkZmWXd5YWhWSHNHUk8yQkRPbmZZSmpJYVN6enlBeXBaeU55WXhwMnJ0czZKVW0tYXFJN2hsLVIxcUtGS1FJLU5YdFE?oc=5",
+    "titleEn": "Oil slips on rise in Middle East crude exports and G7 stocks release - TradingView",
+    "titleAr": "Oil slips on rise in Middle East crude exports and G7 stocks release - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUG5yVElNcXY1aUVhR2F4Z0NrVmktQnQ5Um5sWHY0Qnhwbjc4Wmk2ZzRKRU1aY1ZuY200VjBmVWIwVFdrVk92bFJ1MlJRSnlLV1ZpUkk0SXpIdEY0QVlEdVRQV0xNRW50LUFCTzRoRm9mVEZQMUJzSUNiXzRDMmhCeDVzRnAxcGhkNi0yU1hyWUFCczNWazNDTjNueWVlOGpzcnRLTDVraUpEV1c1MmtHeUdEZ3NwbkFPaDVRUEdDcWRmTnJydUdFeEtPUFJDQ3d6bFNMOA?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791164100000,
-    "summaryEn": "Oil steadies as Middle East crude exports rise and G7 to release stocks TradingView",
-    "summaryAr": "Oil steadies as Middle East crude exports rise and G7 to release stocks TradingView",
+    "summaryEn": "Oil slips on rise in Middle East crude exports and G7 stocks release TradingView",
+    "summaryAr": "Oil slips on rise in Middle East crude exports and G7 stocks release TradingView",
     "tags": [
       {
         "textEn": "INTEL",
@@ -661,22 +709,6 @@
     ]
   },
   {
-    "titleEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
-    "titleAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUERRVnN2QjBRRGRfc3ZELVlQY0FMZUhwVlJnajRWR2NSRDcxQktKQ1VWdXpTT3cxd2FoVXFwMkhGTnpOODJnWi1lSjJzUDRJbHczM1gyV3JIb0U2bHhwTWNmY1FtV2FJckpqcEw4NEVtN2VUbWU5Mi0tV2VtbjZoWFRWUnVTekJfMEVoa1NBYWxsdThWeFRBVkVJODl1OWZuMmx2cmRzYm9XYTB4?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791161340000,
-    "summaryEn": "Explainer: Who are the Houthis, Iran’s allies in Yemen? Reuters",
-    "summaryAr": "Explainer: Who are the Houthis, Iran’s allies in Yemen? Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Citrix patches NetScaler SAML zero-day exploited in attacks",
     "titleAr": "Citrix patches NetScaler SAML zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -689,38 +721,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's oil minister resigns for personal reasons, state media reports - Reuters",
-    "titleAr": "Iran's oil minister resigns for personal reasons, state media reports - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdHdEN1VYYjFqdkJyRThRQ2ZheFQzeElqRHRBNVR2N1UwV2lWbi1CcDdQYk9IV0ZuSURnc29jZXNDM1hmV0YzMDNRN0xlR055WlhBS0M2SVNJVW9NNE0yYlUyc3F0YVJma1JhQ0RnX096YjlGMTRiUmhVSDE4VGlOZ2MwMjljcVhNZnhER2gtYWk4QUYxZGpzZ202dVJLUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791133800000,
-    "summaryEn": "Iran's oil minister resigns for personal reasons, state media reports Reuters",
-    "summaryAr": "Iran's oil minister resigns for personal reasons, state media reports Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen's government announces all-out war to reclaim land from Houthis",
-    "titleAr": "Yemen's government announces all-out war to reclaim land from Houthis",
-    "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791132690000,
-    "summaryEn": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
-    "summaryAr": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
