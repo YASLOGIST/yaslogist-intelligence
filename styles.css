@@ -3528,3 +3528,30 @@ body.yaslogist-terminal { background: var(--surface-0) !important; }
     #dashboard.tab-panel { padding: 12px 10px 16px; }
     .kpi-card { min-height: 118px; }
 }
+
+/* Honest degraded states: a missing artifact is visible, never replaced with a guessed number. */
+.data-integrity-status {
+    max-width: 100%;
+    padding: 5px 8px;
+    color: var(--yas-gold);
+    border-inline-start: 2px solid var(--yas-gold);
+    background: var(--yas-gold-wash);
+    font-size: 8px;
+    letter-spacing: .04em;
+    line-height: 1.4;
+}
+.data-integrity-status[data-state="degraded"] { display: block; }
+.no-script-notice {
+    display: block;
+    margin: 0 0 10px;
+    padding: 12px 14px;
+    color: var(--text-primary);
+    border: 1px solid var(--panel-border-gold);
+    border-inline-start: 3px solid var(--yas-gold);
+    background: rgba(10, 16, 23, .96);
+    font: 11px/1.5 var(--font-mono);
+}
+@media (max-width: 600px) {
+    .data-integrity-status { font-size: 8.5px; }
+}
+.data-integrity-status[hidden] { display: none !important; }

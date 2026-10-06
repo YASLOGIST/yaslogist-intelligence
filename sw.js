@@ -1,19 +1,15 @@
 /* YASLOGIST offline runtime
- * App-shell assets are versioned atomically. Intelligence JSON remains
- * network-first so an installed cockpit never hides a fresher common picture.
+ * The shell is cache-first for instant startup. Committed intelligence is
+ * network-first while online, then served from the last successful snapshot.
  */
 'use strict';
 
-// Shell-generation counter: bump when any precached asset changes. Kept
-// decoupled from the app release version so a new shell always replaces the
-// stale one atomically.
-const CACHE_VERSION = 'yaslogist-v5-shell';
-// Precache URLs match the exact requests index.html makes (cache keys are
-// query-sensitive), otherwise the versioned assets bypass the offline shell.
+const CACHE_VERSION = 'yaslogist-v7-shell';
+const RUNTIME_CACHE = 'yaslogist-v7-runtime';
 const APP_SHELL = [
     './',
     './index.html',
-    './styles.css?v=21',
+    './styles.css?v=22',
     './smart-operations.css?v=4',
     './app.js?v=21',
     './threat-map.js?v=21',
@@ -28,6 +24,10 @@ const APP_SHELL = [
     './data/meta.json',
     './data/signal_timeline.json'
 ];
+const RUNTIME_HOSTS = new Set([
+    'unpkg.com', 'cdn.jsdelivr.net', 'cdnjs.cloudflare.com',
+    'fonts.googleapis.com', 'fonts.gstatic.com'
+]);
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
@@ -38,18 +38,27 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
+    const keep = new Set([CACHE_VERSION, RUNTIME_CACHE]);
     event.waitUntil(
         caches.keys()
             .then((keys) => Promise.all(keys
-                .filter((key) => key.startsWith('yaslogist-') && key !== CACHE_VERSION)
+                .filter((key) => key.startsWith('yaslogist-') && !keep.has(key))
                 .map((key) => caches.delete(key))))
             .then(() => self.clients.claim())
     );
 });
 
 const cachedFallback = async (request, fallback = './index.html') => {
-    const cached = await caches.match(request, { ignoreSearch: false });
-    return cached || caches.match(fallback);
+    const cached = await caches.match(request, { ignoreSearch: true });
+    return cached || caches.match(fallback, { ignoreSearch: true });
+};
+
+const dataCacheKey = (url) => new Request(`${url.origin}${url.pathname}`);
+const cachedData = async (request) => caches.match(request, { ignoreSearch: true });
+const cacheData = async (request, response) => {
+    const url = new URL(request.url);
+    const cache = await caches.open(CACHE_VERSION);
+    await cache.put(dataCacheKey(url), response);
 };
 
 self.addEventListener('fetch', (event) => {
@@ -57,33 +66,36 @@ self.addEventListener('fetch', (event) => {
     if (request.method !== 'GET') return;
 
     const url = new URL(request.url);
-    if (url.origin !== self.location.origin) return;
+    if (url.origin !== self.location.origin) {
+        // CDN assets are optional enhancements, but cache them after the first
+        // online visit so icons, fonts, charts, and Leaflet survive offline.
+        if (!RUNTIME_HOSTS.has(url.hostname)) return;
+        event.respondWith(caches.open(RUNTIME_CACHE).then(async (cache) => {
+            const hit = await cache.match(request);
+            if (hit) return hit;
+            const response = await fetch(request);
+            if (response.ok || response.type === 'opaque') await cache.put(request, response.clone());
+            return response;
+        }));
+        return;
+    }
 
     if (request.mode === 'navigate') {
-        event.respondWith(fetch(request)
-            .then((response) => {
-                if (response.ok) {
-                    const copy = response.clone();
-                    caches.open(CACHE_VERSION).then((cache) => cache.put('./index.html', copy));
-                }
-                return response;
-            })
-            .catch(() => cachedFallback(request)));
+        // Cache-first is intentional: the installed shell paints immediately
+        // while every data artifact below independently resolves from cache.
+        event.respondWith(cachedFallback(request).then((cached) => cached || fetch(request)));
         return;
     }
 
     if (url.pathname.includes('/data/') && url.pathname.endsWith('.json')) {
         event.respondWith(fetch(request)
-            .then((response) => {
-                if (response.ok) {
-                    const copy = response.clone();
-                    caches.open(CACHE_VERSION).then((cache) => cache.put(request, copy));
-                }
+            .then(async (response) => {
+                if (response.ok) await cacheData(request, response.clone());
                 return response;
             })
-            .catch(async () => (await caches.match(request)) || new Response(
+            .catch(async () => (await cachedData(request)) || new Response(
                 JSON.stringify({ error: 'offline-cache-miss' }),
-                { status: 503, headers: { 'Content-Type': 'application/json' } }
+                { status: 503, headers: { 'Content-Type': 'application/json', 'X-YASLOGIST-Cache': 'miss' } }
             )));
         return;
     }

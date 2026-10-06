@@ -62,6 +62,17 @@ test('offline runtime caches the complete shell and keeps intelligence network-f
     }
 });
 
+test('offline runtime serves cache-busted committed data and marks the shell mode clearly', () => {
+    const worker = read('sw.js');
+    const app = read('app.js');
+    assert.match(worker, /ignoreSearch:\s*true/, 'cache-busted data requests must fall back to the base snapshot');
+    assert.match(worker, /dataCacheKey/, 'successful data must be stored under a queryless cache key');
+    assert.match(worker, /CACHE_VERSION = 'yaslogist-v7-shell'/);
+    assert.match(worker, /RUNTIME_CACHE = 'yaslogist-v7-runtime'/);
+    assert.match(app, /OFFLINE MODE \/\/ CACHED SNAPSHOT/);
+    assert.match(read('index.html'), /id="live-connection-badge"[^>]*role="status"/);
+});
+
 test('every external <script> is pinned to an exact version and carries SRI', () => {
     const tags = html.match(/<script[^>]*src="https?:\/\/[^"]+"[^>]*>/g) || [];
     assert.ok(tags.length >= 2, 'expected Leaflet + Chart.js CDN scripts');

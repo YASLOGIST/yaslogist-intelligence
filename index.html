@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=21">
+    <link rel="stylesheet" href="styles.css?v=22">
     <link rel="stylesheet" href="smart-operations.css?v=4">
 </head>
 <body class="yaslogist-terminal">
@@ -76,6 +76,9 @@
 
     <!-- Master Application Container -->
     <div class="hud-container" id="main-content">
+        <noscript class="no-script-notice">
+            YASLOGIST requires JavaScript to load the committed intelligence artifacts and interactive map. No live or synthetic telemetry is shown in this fallback.
+        </noscript>
         <!-- 1. Tactical Command Header -->
         <header class="command-header">
             <!-- Left: Brand Identity & Logo -->
@@ -117,7 +120,7 @@
                         <span class="mono">3</span>
                         <span class="tier-label" data-i18n="defconElevated">ELEVATED</span>
                     </div>
-                    <div class="defcon-tier d2 active" data-level="2" title="Model tier 2: high analytical posture">
+                    <div class="defcon-tier d2" data-level="2" title="Model tier 2: high analytical posture">
                         <span class="mono">2</span>
                         <span class="tier-label" data-i18n="defconHigh">HIGH</span>
                     </div>
@@ -127,7 +130,7 @@
                     </div>
                 </div>
                 <div class="defcon-readout">
-                    <span class="readout-tag" id="defcon-readout-text" data-i18n="defconReadout">MODEL TIER 2 // HIGH ANALYTICAL POSTURE</span>
+                    <span class="readout-tag" id="defcon-readout-text" data-i18n="defconReadout">MODEL TIER — // AWAITING COMMITTED DATA</span>
                 </div>
             </div>
 
@@ -146,7 +149,7 @@
                 </div>
 
                 <div class="header-controls">
-                    <div class="status-pill live" id="live-connection-badge">
+                    <div class="status-pill live" id="live-connection-badge" role="status" aria-live="polite">
                         <span class="status-signal-dot"></span>
                         <span class="status-pill-text mono" data-i18n="statusLiveFeed">NETWORK: ONLINE</span>
                     </div>
@@ -189,7 +192,7 @@
                     </div>
                     <!-- Micro Live Progress Bar -->
                     <div class="kpi-progress-wrap">
-                        <div class="kpi-progress-bar bar-crimson" style="width: 88%">
+                        <div class="kpi-progress-bar bar-crimson" style="width: 0%">
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
@@ -210,7 +213,7 @@
                     </div>
                     <!-- Micro Live Progress Bar -->
                     <div class="kpi-progress-wrap">
-                        <div class="kpi-progress-bar bar-gold" style="width: 92%">
+                        <div class="kpi-progress-bar bar-gold" style="width: 0%">
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
@@ -231,7 +234,7 @@
                     </div>
                     <!-- Micro Live Progress Bar -->
                     <div class="kpi-progress-wrap">
-                        <div class="kpi-progress-bar bar-cyan" style="width: 76%">
+                        <div class="kpi-progress-bar bar-cyan" style="width: 0%">
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
@@ -252,7 +255,7 @@
                     </div>
                     <!-- Micro Live Progress Bar -->
                     <div class="kpi-progress-wrap">
-                        <div class="kpi-progress-bar bar-crimson" style="width: 95%">
+                        <div class="kpi-progress-bar bar-crimson" style="width: 0%">
                             <div class="kpi-scanner"></div>
                         </div>
                     </div>
@@ -269,6 +272,7 @@
                         <span class="cockpit-live-tag mono"><i class="fa-solid fa-circle-dot live-blinker"></i> <span data-i18n="cockpitLiveTag">COMMITTED DATA</span></span>
                     </div>
                     <div class="cockpit-engine-meta mono" id="cockpit-engine-meta" data-i18n="cockpitEngineMeta">INGEST PIPELINE // 7 PUBLIC SOURCES // 2H CADENCE</div>
+                    <div class="data-integrity-status mono" id="data-integrity-status" role="status" hidden></div>
                 </div>
 
                 <div class="cockpit-progress-grid">
@@ -378,7 +382,7 @@
                                     <span class="map-legend-item"><span class="legend-dot dot-med"></span> <span data-i18n="legendMed">Medium</span></span>
                                     <span class="map-legend-item"><span class="legend-dot dot-low"></span> <span data-i18n="legendLow">Low</span></span>
                                 </div>
-                                <button class="btn-reset-map" id="btnResetMap">
+                                <button class="btn-reset-map" id="btnResetMap" type="button" aria-label="Reset map view">
                                     <i class="fa-solid fa-crosshairs"></i> <span data-i18n="resetView">RESET</span>
                                 </button>
                             </div>
