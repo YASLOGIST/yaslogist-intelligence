@@ -1,0 +1,113 @@
+name: Kinetic README
+
+on:
+  schedule:
+    - cron: '17 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kinetic-readme-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    name: Render motion and telemetry
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout active branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Verify zero-defect quality floor
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm ci --ignore-scripts
+          npm run ci | tee /tmp/yaslogist-ci.log
+
+      - name: Generate electric-cyan contribution motion
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: >-
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00E5FF&color_dots=#111827,#0B2530,#007A8C,#00B8D4,#00E5FF
+
+      - name: Measure edge and build Shields endpoint payloads
+        shell: bash
+        env:
+          SITE_URL: https://yaslogist.github.io/yaslogist-intelligence/
+        run: |
+          set -euo pipefail
+          mkdir -p assets/readme-telemetry
+
+          TESTS="$(awk '/^# tests [0-9]+$/ { value=$3 } END { print value+0 }' /tmp/yaslogist-ci.log)"
+          SURFACE_KB="$(awk '/TOTAL local surface/ { value=$5 } END { print value+0 }' /tmp/yaslogist-ci.log)"
+
+          if TTFB_SECONDS="$(curl --silent --show-error --location --retry 2 --max-time 20 --output /dev/null --write-out '%{time_starttransfer}' "$SITE_URL")"; then
+            TTFB_MS="$(node -e 'process.stdout.write(String(Math.round(Number(process.argv[1]) * 1000)))' "$TTFB_SECONDS")"
+            LATENCY_MESSAGE="${TTFB_MS} ms"
+            LATENCY_COLOR="00E5FF"
+          else
+            LATENCY_MESSAGE="UNREACHABLE"
+            LATENCY_COLOR="E11D48"
+          fi
+
+          export TESTS SURFACE_KB LATENCY_MESSAGE LATENCY_COLOR
+          node <<'NODE'
+          const fs = require('node:fs');
+          const path = 'assets/readme-telemetry';
+          const write = (name, payload) => fs.writeFileSync(
+            `${path}/${name}.json`,
+            `${JSON.stringify({ schemaVersion: 1, ...payload }, null, 2)}\n`,
+          );
+
+          write('site-latency', {
+            label: 'EDGE TTFB',
+            message: process.env.LATENCY_MESSAGE,
+            color: process.env.LATENCY_COLOR,
+            namedLogo: 'githubpages',
+          });
+          write('quality', {
+            label: 'QUALITY FLOOR',
+            message: `${process.env.TESTS}/${process.env.TESTS} passing`,
+            color: '10B981',
+            namedLogo: 'checkmarx',
+          });
+          write('surface', {
+            label: 'RUNTIME SURFACE',
+            message: `${process.env.SURFACE_KB} / 1024 KiB`,
+            color: '8B5CF6',
+            namedLogo: 'speedtest',
+          });
+          NODE
+
+      - name: Commit generated assets
+        shell: bash
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-contribution-grid-snake-dark.svg assets/readme-telemetry/
+
+          if git diff --staged --quiet; then
+            echo 'Kinetic assets are already current.'
+            exit 0
+          fi
+
+          git commit -m 'chore(readme): refresh kinetic motion and telemetry'
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
