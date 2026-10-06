@@ -90,7 +90,7 @@ const I18N = {
         utcClockLabel: 'UTC',
         cairoClockLabel: 'CAIRO (EEST)',
         statusLiveFeed: 'NETWORK: ONLINE',
-        statusOfflineCached: 'NETWORK: OFFLINE / CACHED',
+        statusOfflineCached: 'OFFLINE MODE // CACHED SNAPSHOT',
         langBtnText: 'العربية',
         kpiAttacksLabel: 'REGIONAL SIGNAL VOLUME (7D)',
         kpiAttacksSub: 'Country-linked reports across monitored OSINT feeds',
@@ -211,7 +211,7 @@ const I18N = {
         utcClockLabel: 'توقيت عالمي UTC',
         cairoClockLabel: 'القاهرة (EEST)',
         statusLiveFeed: 'الشبكة: متصلة',
-        statusOfflineCached: 'الشبكة: غير متصلة / بيانات مخزنة',
+        statusOfflineCached: 'وضع عدم الاتصال // نسخة مخزنة',
         langBtnText: 'ENGLISH',
         kpiAttacksLabel: 'حجم الإشارة الإقليمية (7 أيام)',
         kpiAttacksSub: 'تقارير مرتبطة بالدول عبر مصادر OSINT المرصودة',
@@ -576,7 +576,7 @@ class YaslogistThreatRadarApp {
         if (!badge) return;
         const online = this.networkOnline !== false;
         badge.classList.toggle('offline', !online);
-        badge.setAttribute('aria-label', online ? 'Network online' : 'Network offline; showing cached intelligence');
+        badge.setAttribute('aria-label', online ? 'Network online' : 'Offline mode; showing the last cached committed snapshot');
         const text = badge.querySelector('.status-pill-text');
         if (text) text.textContent = online
             ? I18N[this.currentLang].statusLiveFeed
