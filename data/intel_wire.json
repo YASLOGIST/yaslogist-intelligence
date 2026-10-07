@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Israelis pause to mark October 7 Hamas-attack anniversary",
-    "titleAr": "Israelis pause to mark October 7 Hamas-attack anniversary",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/israelis-pause-to-mark-october-7-hamas-attack-anniversary?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791348182000,
-    "summaryEn": "Israelis gathered at memorials to mark the moment the Hamas-led attack began on October 7, 2023.",
-    "summaryAr": "Israelis gathered at memorials to mark the moment the Hamas-led attack began on October 7, 2023.",
+    "titleEn": "Hackers exploit critical Atlassian flaw after public PoC release",
+    "titleAr": "Hackers exploit critical Atlassian flaw after public PoC release",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+    "source": "BleepingComputer",
+    "pubDate": 1791377341000,
+    "summaryEn": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not requir…",
+    "summaryAr": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not requir…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +16,13 @@
     ]
   },
   {
-    "titleEn": "What Israeli schools teach",
-    "titleAr": "What Israeli schools teach",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/what-israeli-schools-teach?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791345600000,
-    "summaryEn": "What Israeli schools teach",
-    "summaryAr": "What Israeli schools teach",
+    "titleEn": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+    "titleAr": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+    "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+    "source": "The Hacker News",
+    "pubDate": 1791373766000,
+    "summaryEn": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain condi…",
+    "summaryAr": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain condi…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +32,45 @@
     ]
   },
   {
-    "titleEn": "Oman evacuates injured crew from attacked tanker in Strait of Hormuz",
-    "titleAr": "Oman evacuates injured crew from attacked tanker in Strait of Hormuz",
-    "link": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz?traffic_source=rss",
+    "titleEn": "More than 200,000 people displaced since fighting in Yemen began, says UN agency - Reuters",
+    "titleAr": "More than 200,000 people displaced since fighting in Yemen began, says UN agency - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVBuYVlIVGdyckYyTHF4dXZHbFBnTC1VSjZPak91TWRLbGpiMS1nR1dkU2hPRjE1dkZNR2dMOEtyblQ5SWczSHgtNFlKMlR1R1J1NlNNLXl4MmdGbTdSOFN5VzNFY1BQNVozcmg1aXpWUTgyT0VfLU1SS2hIaGVyd1BCc2tBc3BydEhTS0FabzRyVFk1TEdHeG92cXA5ZTJJejdtd1dRZXJ0a25mbnNpOGhxYTJVS0pJbFNxQjB6djhLWXRRb2s1bg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791372586000,
+    "summaryEn": "More than 200,000 people displaced since fighting in Yemen began, says UN agency Reuters",
+    "summaryAr": "More than 200,000 people displaced since fighting in Yemen began, says UN agency Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US military aid to Israel continues three years into Gaza genocide",
+    "titleAr": "US military aid to Israel continues three years into Gaza genocide",
+    "link": "https://www.aljazeera.com/news/2026/10/7/how-us-military-aid-to-israel-continues-three-years-into-gaza-genocide?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1791342992000,
-    "summaryEn": "India's Foreign Ministry says 11 out of 12 injured crew members on board the On Peace are Indian nationals.",
-    "summaryAr": "India's Foreign Ministry says 11 out of 12 injured crew members on board the On Peace are Indian nationals.",
+    "pubDate": 1791372228000,
+    "summaryEn": "US military aid and arms transfer continue unchanged, as US public sentiment shifts.",
+    "summaryAr": "US military aid and arms transfer continue unchanged, as US public sentiment shifts.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemeni forces advance as offensive against Houthis intensifies - Reuters",
+    "titleAr": "Yemeni forces advance as offensive against Houthis intensifies - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01ZGptNDk5LW81YWpqUGo3em1CbGRnVy1vNFJ5RE4wR0JSbEFGalp4UGVhaU9zdjN6UXZteTZ2d2Zoamw2dXJtWnlBRXJrR1FuYWU5SkwxN182U3poY294dzc1U1BBUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791371700000,
+    "summaryEn": "Yemeni forces advance as offensive against Houthis intensifies Reuters",
+    "summaryAr": "Yemeni forces advance as offensive against Houthis intensifies Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -48,18 +80,290 @@
     ]
   },
   {
-    "titleEn": "Two Houthi missiles target Yemen’s Aden International Airport",
-    "titleAr": "Two Houthi missiles target Yemen’s Aden International Airport",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/two-houthi-missiles-target-yemens-aden-international-airport?traffic_source=rss",
+    "titleEn": "Israeli attacks across Gaza kill at least four Palestinians",
+    "titleAr": "Israeli attacks across Gaza kill at least four Palestinians",
+    "link": "https://www.aljazeera.com/news/2026/10/7/israeli-attacks-across-gaza-kill-at-least-four-palestinians?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1791338355000,
-    "summaryEn": "Explosions near Aden International Airport after Yemen’s Saudi-backed gov't said two missiles were fired by the Houthis.",
-    "summaryAr": "Explosions near Aden International Airport after Yemen’s Saudi-backed gov't said two missiles were fired by the Houthis.",
+    "pubDate": 1791371612000,
+    "summaryEn": "Israeli air strike kills Palestinian Civil Defence rescue volunteer in northern Gaza.",
+    "summaryAr": "Israeli air strike kills Palestinian Civil Defence rescue volunteer in northern Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US sets new demands for Iran deal: What are they?",
+    "titleAr": "US sets new demands for Iran deal: What are they?",
+    "link": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791370703000,
+    "summaryEn": "US Vice President Vance’s call for reduced nuclear enrichment suggests room for compromise, but major obstacles remain.",
+    "summaryAr": "US Vice President Vance’s call for reduced nuclear enrichment suggests room for compromise, but major obstacles remain.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Advantest confirms personal information stolen in ransomware attack",
+    "titleAr": "Advantest confirms personal information stolen in ransomware attack",
+    "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+    "source": "BleepingComputer",
+    "pubDate": 1791368872000,
+    "summaryEn": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+    "summaryAr": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Bulgaria ends search for missing crew after drone strike sinks cargo ship",
+    "titleAr": "Bulgaria ends search for missing crew after drone strike sinks cargo ship",
+    "link": "https://www.aljazeera.com/news/2026/10/7/bulgaria-ends-search-for-missing-crew-after-drone-strike-sinks-cargo-ship?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791367924000,
+    "summaryEn": "Rescuers halt operation off the coast after finding no survivors.",
+    "summaryAr": "Rescuers halt operation off the coast after finding no survivors.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Photos: Three years of Israel’s war on Gaza as tent cities spread amid ruin",
+    "titleAr": "Photos: Three years of Israel’s war on Gaza as tent cities spread amid ruin",
+    "link": "https://www.aljazeera.com/gallery/2026/10/7/photos-three-years-of-israels-war-on-gaza-as-tent-cities-spread-amid-ruin?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791366926000,
+    "summaryEn": "Tent cities in Gaza grow as families mourn the dead, care for the injured, and endure relentless displacement.",
+    "summaryAr": "Tent cities in Gaza grow as families mourn the dead, care for the injured, and endure relentless displacement.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Crude-Benchmarks slip for third session - TradingView",
+    "titleAr": "Middle East Crude-Benchmarks slip for third session - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHl3TmFERkd6SmNkVXZCRWRJamFaS0otQ0drV1ZUWkVjOFJjVjc2TW0weG9BanlGcUVwRVlIRS1OVjVxX1RfVy1XUGw4ZHowbEpUQzFGbVQ2Rm9QdDcxMXNlUE5VeEVNd0J2eC1wbDJYVGYzT2JITE9heWs2eDExeVJBbDROdmlkWkk5VXpzUWdpV3NnbVhxWk5lTF9HT0w5UDhIVGV1WUdHOElDejlWWWx5LUNxcHhMRXhfOEtB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791366405000,
+    "summaryEn": "Middle East Crude-Benchmarks slip for third session TradingView",
+    "summaryAr": "Middle East Crude-Benchmarks slip for third session TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What does a year-long ceasefire in Gaza look like?",
+    "titleAr": "What does a year-long ceasefire in Gaza look like?",
+    "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/7/what-does-a-year-long-ceasefire-in-gaza-look-like?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791363312000,
+    "summaryEn": "Israel attacked Gaza nine days out of 10 during a so-called ceasefire.",
+    "summaryAr": "Israel attacked Gaza nine days out of 10 during a so-called ceasefire.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Fear and a far-right lurch: How October 7 reshaped Israel",
+    "titleAr": "Fear and a far-right lurch: How October 7 reshaped Israel",
+    "link": "https://www.aljazeera.com/news/2026/10/7/fear-and-a-far-right-lurch-how-october-7-reshaped-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791363203000,
+    "summaryEn": "Three years on, the trauma of October 7, 2023, continues to reshape Israel’s politics, wars and place in the world.",
+    "summaryAr": "Three years on, the trauma of October 7, 2023, continues to reshape Israel’s politics, wars and place in the world.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Three years of Israel’s mass dispossession of West Bank Palestinians",
+    "titleAr": "Three years of Israel’s mass dispossession of West Bank Palestinians",
+    "link": "https://www.aljazeera.com/features/2026/10/7/three-years-of-israels-mass-dispossession-of-west-bank-palestinians?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791361339000,
+    "summaryEn": "Bedouin families uprooted by Israeli settlers describe a state-backed project of forced transfer in the West Bank.",
+    "summaryAr": "Bedouin families uprooted by Israeli settlers describe a state-backed project of forced transfer in the West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gulf bourses subdued as Saudi-Houthi hostilities escalate - Reuters",
+    "titleAr": "Gulf bourses subdued as Saudi-Houthi hostilities escalate - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ3ZoZm9mWnJZVmNoNFVQOUI4YWVkcFo3cV96cGlOYlNSQUl0cWdoQ0d2NFlCZ2R0cHFmTEZTZml0R19LM0VBNFE4YWJkVHoxV1lIUzQycUFIOWd3N2lsTTdWcjUtRXc5TWdUNVlPN1MyeUhUVFlGU1FFWnp2c2l5bzc3YktLSmxTUlJ3ZVJaQjRONXpteGZHSS04elBBRG9xVGladmF3RHdQS0ZV?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791361249000,
+    "summaryEn": "Gulf bourses subdued as Saudi-Houthi hostilities escalate Reuters",
+    "summaryAr": "Gulf bourses subdued as Saudi-Houthi hostilities escalate Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestine: The Lost Team",
+    "titleAr": "Palestine: The Lost Team",
+    "link": "https://www.aljazeera.com/video/al-jazeera-world/2026/10/7/palestine-the-lost-team?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791361022000,
+    "summaryEn": "The forgotten story of the football team that played as Palestine in 1934 — without Arab Palestinian players.",
+    "summaryAr": "The forgotten story of the football team that played as Palestine in 1934 — without Arab Palestinian players.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli troops seen smashing memorial in occupied West Bank",
+    "titleAr": "Israeli troops seen smashing memorial in occupied West Bank",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/israeli-troops-seen-smashing-memorial-in-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791360977000,
+    "summaryEn": "An Israeli soldier was spotted smashing a memorial to Palestinians during raids in the occupied West Bank.",
+    "summaryAr": "An Israeli soldier was spotted smashing a memorial to Palestinians during raids in the occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh",
+    "titleAr": "Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh",
+    "link": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791355271000,
+    "summaryEn": "Yemeni government says one of the missiles hit Aden airport's runway minutes before a flight from Cairo was due to land.",
+    "summaryAr": "Yemeni government says one of the missiles hit Aden airport's runway minutes before a flight from Cairo was due to land.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia says it launched 'massive' strikes on Kyiv, other areas of Ukraine - Reuters",
+    "titleAr": "Russia says it launched 'massive' strikes on Kyiv, other areas of Ukraine - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWo5VGZVUlJEaE94Znd5ZF8wa1lNbl9kaWhza3lwRWxSdWdadVFma2lyT0FxZWI3U3ZCajhpZmk5YlhRajFMdGtpa01qVDF3TDdpX2JSSXFRMFZvVGh2VTZrZjlnOXBQMGljZE15NGRtVW5mMG1CT3lGTEFpSTdGYjEwV3I4aFUzT0wzUlNfblRaNDlxQ3ZmNkFPa2R0MG42bXV6YlNSYXM3OWpMTVBrTzVKLThkNnU2TGZLQXBDNTRaR2xX?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791350220000,
+    "summaryEn": "Russia says it launched 'massive' strikes on Kyiv, other areas of Ukraine Reuters",
+    "summaryAr": "Russia says it launched 'massive' strikes on Kyiv, other areas of Ukraine Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israelis mark three years since October 7 as Palestinians mourn Gaza's destruction - Reuters",
+    "titleAr": "Israelis mark three years since October 7 as Palestinians mourn Gaza's destruction - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEc3R0oyN1N1QkF0Q09Zb1hfWURTdDRRSnFvaVNlQU42cXJCNEhNNXdLOW11NTRsVi1VVlJKV0NSTm1CMVg3c3RMQ3pHcEV3VGpCNGF1UHBobHVhYkFQY0pNS2NvMXBQMWxSTEVhQTF6a01jRzBpXzFKajQ2NWxIZm5BdGQ4azhfYnBwVnh1enVzc04xeElNSTZFMHcyNmlfUElEM2s3RVFRXzFScUcyNUlfbFVrSjA5LVNjMlhQZzVBUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791349380000,
+    "summaryEn": "Israelis mark three years since October 7 as Palestinians mourn Gaza's destruction Reuters",
+    "summaryAr": "Israelis mark three years since October 7 as Palestinians mourn Gaza's destruction Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israelis mark three years since Hamas attack that set off Gaza assault - Reuters",
+    "titleAr": "Israelis mark three years since Hamas attack that set off Gaza assault - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU21LdTN3LTdQamRjcU9KeENjQVBuYjJ4bVRlT3VKdGZRY2c3MXZXdjlCYnYyVURSX1BNcUZqZ2FaNS1ONWtxUHI0SjBBVzhqajh0eTdFRThzalZPUzBNRDROSm45Z3VwQy1DYWphUERzU1BpZE5SNE9UN2tTQXl3bVpsaHV4Ym5ldV9QXzZCMll2VUhvcXlsUFBCSG1HNTdUUHcxTmxnNE1tT0txdVVXODY3NVEzdGV0Zlc0WV95dTJ0T3JGclotYzZUUzNzZUFpOXBR?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791349380000,
+    "summaryEn": "Israelis mark three years since Hamas attack that set off Gaza assault Reuters",
+    "summaryAr": "Israelis mark three years since Hamas attack that set off Gaza assault Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+    "titleAr": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+    "link": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791349338000,
+    "summaryEn": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+    "summaryAr": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil stable as higher Middle East exports offset supply threats - TradingView",
+    "titleAr": "Oil stable as higher Middle East exports offset supply threats - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaW9pV29yaU83czZRVnNRNDlDQnZkWllwelc4ZVJBYkpfR2Q2ZG80ck1MWGNwTEdGSnMxRGl2LWpITXM3OFJMQmJQNzFha1o5ZjBhT1BmNHpfbjlxejNHZ1Q1MHNfaWFWVXRCWF9UcjJ5a1NRUW5Dam1LUjRpbzNtUE5aWkNuLWJ0cS1OVFByMFVjN1VWanMyZ2ttRDJ0TUFJbi1ma1g0MGVBSzlfV0I1WWNXZHVOVnNodkc4NjJoN3hkRXBYdFBqOE1CMGc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791347700000,
+    "summaryEn": "Oil stable as higher Middle East exports offset supply threats TradingView",
+    "summaryAr": "Oil stable as higher Middle East exports offset supply threats TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -80,98 +384,18 @@
     ]
   },
   {
-    "titleEn": "Syrian embassy returns seized passport after 43 years",
-    "titleAr": "Syrian embassy returns seized passport after 43 years",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/syrian-embassy-returns-seized-passport-after-43-years?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791336011000,
-    "summaryEn": "Syria's embassy in Berlin has returned the passport of a citizen that the former Assad government seized 43 years ago.",
-    "summaryAr": "Syria's embassy in Berlin has returned the passport of a citizen that the former Assad government seized 43 years ago.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Politicians slam Trump’s suggestion that Iran ‘take’ San Diego, Los Angeles",
-    "titleAr": "Politicians slam Trump’s suggestion that Iran ‘take’ San Diego, Los Angeles",
-    "link": "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791335241000,
-    "summaryEn": "Both Democrats and Republicans have expressed outrage at Trump's remarks that cities could be sacrificed in Iran war.",
-    "summaryAr": "Both Democrats and Republicans have expressed outrage at Trump's remarks that cities could be sacrificed in Iran war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What’s behind Israel’s growing shift to the right?",
-    "titleAr": "What’s behind Israel’s growing shift to the right?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/whats-behind-israels-growing-shift-to-the-right?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791334701000,
-    "summaryEn": "Three years after the October 7 attacks, the politics of Israeli society has shifted further right.",
-    "summaryAr": "Three years after the October 7 attacks, the politics of Israeli society has shifted further right.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices rise as storms and air strikes threaten supply - Reuters",
-    "titleAr": "Oil prices rise as storms and air strikes threaten supply - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHYwa2g1N1NQR1ZHcFR2eVJ3cjJySlZLVlA1UjBQeU9yNl81Z2tGYTk3TVk4V3JMcXh1LVpscTVDdTdrZGFOZjd4VWNzeXNEM1lHYmV5bDFzV2ZrN3NuQUE4VXV6cE16enQzSi1ZU3l1aXVPa00yVDkxeDRYbFI5WjhOVGR0VHFUMWNkWFMtNmxDSW9YRUtHY2pKWTlxTFRPclRzTA?oc=5",
+    "titleEn": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+    "titleAr": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeFpxWkNNYlVBb1pyTDBwaHFjaFdDbTFtaXV4RFRyYzc1NVg4cy1xbjNvTHM5Q25UWEM4NXpnTXE5a3lGYV9fRHhzZUQyTlJ1blRtN291Smw2RTkzZzMyRkFndWJGS3Ffc1lkRkZNOGZGS3NYUkE?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791334080000,
-    "summaryEn": "Oil prices rise as storms and air strikes threaten supply Reuters",
-    "summaryAr": "Oil prices rise as storms and air strikes threaten supply Reuters",
+    "pubDate": 1791327523000,
+    "summaryEn": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events EnergyNow.com",
+    "summaryAr": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemeni forces launch offensive to retake Houthi-held al-Waziiya in Taiz",
-    "titleAr": "Yemeni forces launch offensive to retake Houthi-held al-Waziiya in Taiz",
-    "link": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791333357000,
-    "summaryEn": "The mountainous district is key to control of Mocha, the Red Sea port the Houthis seized last month.",
-    "summaryAr": "The mountainous district is key to control of Mocha, the Red Sea port the Houthis seized last month.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Houthi missiles hit Aden airport, another downed over Riyadh",
-    "titleAr": "Iran war live: Houthi missiles hit Aden airport, another downed over Riyadh",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/7/iran-war-live-yemen-forces-claim-control-over-strategic-taiz-mountain-peak?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791331200000,
-    "summaryEn": "Yemeni forces claim they have tightened control over the highest peak in the Jabal Habashi district of Taiz.",
-    "summaryAr": "Yemeni forces claim they have tightened control over the highest peak in the Jabal Habashi district of Taiz.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -183,6 +407,22 @@
     "pubDate": 1791325964000,
     "summaryEn": "Trump says nobody knows who is running Iran Reuters",
     "summaryAr": "Trump says nobody knows who is running Iran Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
+    "titleAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUNpeEtweXR5czNHU2pBcjE2MV9GdjZaclZtdTdST2RtUnBNNUhjVGhiZFNXQUF2RkxyaE9HYTYzeVEyekw4TTVsU2NZdGVMb3NjdkNyc2pHZHFsLXFOQ1B1Mm8xTVhwMDZVWmJtVkd0V3hOUnJORF84OUhSalJoTlhFcTlPWjdidjFoUzBHWEZqejIyckcyOWxKcTJ2WEc2?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791325441000,
+    "summaryEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
+    "summaryAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -204,22 +444,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis, Saudi-led forces claim victories as Yemen fighting rages on",
-    "titleAr": "Houthis, Saudi-led forces claim victories as Yemen fighting rages on",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/6/houthis-saudi-led-forces-claim-victories-as-yemen-fighting-rages-on?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791323823000,
-    "summaryEn": "Saudi Arabia’s Jazan and Najran airports were attacked as Saudi-led gov’t forces launched air strikes on the Houthis.",
-    "summaryAr": "Saudi Arabia’s Jazan and Najran airports were attacked as Saudi-led gov’t forces launched air strikes on the Houthis.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -263,6 +487,38 @@
     "pubDate": 1791314264000,
     "summaryEn": "Israel has threatened to close the consulate, which handles UK relations with Palestinians in the city, over British sanctions on Israeli settlements.",
     "summaryAr": "Israel has threatened to close the consulate, which handles UK relations with Palestinians in the city, over British sanctions on Israeli settlements.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices stable as market weighs supply risks, rising Middle East exports - Miami Herald",
+    "titleAr": "Oil prices stable as market weighs supply risks, rising Middle East exports - Miami Herald",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeVFRcHVzcmFVeFRLRlNLUnYyOWdnZGFCVGpFS2d6X05rZk0yc050ZVk4R0ZBVXg4OENqX0Q5X3pzdXB4RXlXSzZDRmxLYlpsaFQwZ2llZy1EelpVcnZGWWIwYVhiVFRIcDk1M3c4QTZ4MEpJV0FIZGdGd3dVWEJPMmxn?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791308347000,
+    "summaryEn": "Oil prices stable as market weighs supply risks, rising Middle East exports Miami Herald",
+    "summaryAr": "Oil prices stable as market weighs supply risks, rising Middle East exports Miami Herald",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices stable as market weighs supply risks, rising Middle East exports - Idaho Statesman",
+    "titleAr": "Oil prices stable as market weighs supply risks, rising Middle East exports - Idaho Statesman",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPREFKMG9JVmJZUjFNNzZFcTJjV2xXTV9FNUdrUFZDUFRDQjlZdkNseEtSVWhtbjc4eVlkXzNuWmg5di1mOTQxdk9kcS1VbUVNeW5VNU81YUZfV3JLUERzeWp4VFdhWm5OWWphYWxVOU9nXzU3N0xRUXBpN3NhN1FPdU5fdUx1UQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791308347000,
+    "summaryEn": "Oil prices stable as market weighs supply risks, rising Middle East exports Idaho Statesman",
+    "summaryAr": "Oil prices stable as market weighs supply risks, rising Middle East exports Idaho Statesman",
     "tags": [
       {
         "textEn": "INTEL",
@@ -455,262 +711,6 @@
     "pubDate": 1791288000000,
     "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following ve…",
     "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following ve…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hitachi Energy RTU500",
-    "titleAr": "Hitachi Energy RTU500",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
-    "source": "CISA Advisories",
-    "pubDate": 1791288000000,
-    "summaryEn": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version…",
-    "summaryAr": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Around 14 million barrels per day leaving Middle East, Vitol CEO says - Reuters",
-    "titleAr": "Around 14 million barrels per day leaving Middle East, Vitol CEO says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODdCU3pBSFpicFlEQXRDelcyUFlmYnhBRk1uODNfbEpuS1pSYktaT183TjZ5OTFxY3BGUmItajNNNmItOVNOMGtiYmZMNlY4bXo0RjBWRlBGejZobHJlNGhZWldGTm9hdWlaak53TkppWlozNDFXcW5ReE4zNUcyUlpGOGxBVUhVUF96TUVfLW5HZWNLVkpqYS1ZUXBUYkV0RDBhTWhGYjByS0ZzSjhv?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791286256000,
-    "summaryEn": "Around 14 million barrels per day leaving Middle East, Vitol CEO says Reuters",
-    "summaryAr": "Around 14 million barrels per day leaving Middle East, Vitol CEO says Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say - Reuters",
-    "titleAr": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeVpJd0hveEZLT295UHBsdlFzX0U5MnRpMHVrcGZYMXZmSzMzeXlfMGd3TmRBdlNwYl9lWW1EeDNWVy1ZRGppc21oSElzWG9ONVpRWjhHS1NERTFkczJTMlhWQVlVVEQyM0RKRkZTVDNHQ3lsRXBJbUs5ZmE3VHYxU1hPb09TUlR3Y1g5T3FLVWJnWEJLR2VPOFR5VFVhZi1saF9kMTNlQ2RVM0NETUthX1hBaHNHOXM2RDh5TmhaY2hwZ2s?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791285420000,
-    "summaryEn": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say Reuters",
-    "summaryAr": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions - The National",
-    "titleAr": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions - The National",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUl1WGtONFVheWxSWlRGN2tFY0NKZ0V3N1J1eGxqRFlzaUZWVDVzWFBtUmQtWFJRcGo0emhsUFYxdzJNWUQ5QTJ1WFliTUNpSENqc0J4U01RZGJ2eEcwYmtqZGJCbU1mQV9xdG1FRnd1Wl9xcFUwYUpfVnpGMkEtdGVKLTZpVTYxTU1GbF9R?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791283080000,
-    "summaryEn": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions The National",
-    "summaryAr": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions The National",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions - TradingView",
-    "titleAr": "UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcXFwNkNpemloODVmajBBUnFDbm5TZ1dJaldiLXlrbF9iVzJNZHpNcFo4cGRHU2llYkdpZklZS3hGNGxYNEl1ZFY0ZGE1V2lwMkRvd25sZHJURFllRFVCNlpMaVFxZHREMVlDWHpZRkVyVFFkemo1dEprT1NZWG5uVGtkQjAzSWFzQnFKNWlWQVFRblBid193SmppNkMwQ01OVmg3LVRKcnJJLWxocFJ5ZjNVN2M2RTdEUmVKSktOYkZDRmxoSG5pdkdQZmd6UktsVy15MEdzTkJ2dXhyWUFUQ2JIRlc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791282340000,
-    "summaryEn": "UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions TradingView",
-    "summaryAr": "UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "From incubator to war zone: a Gazan girl's journey home - Reuters",
-    "titleAr": "From incubator to war zone: a Gazan girl's journey home - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UblVkSVBmSExQTFJ2Rm5KMUxNZC1vTmVoZnVORlZSTFhaMW9HeksybXRPek5uV1ZVLVJaUWlmZHZueHZWRHoxZFo5ZlRTQjFQQ0NkcU51ZmdDTGw0dUh2Q3Z1M0lPSnBKMzI2cm12YWtNcWphdU16ZHJzM1U?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791280575000,
-    "summaryEn": "From incubator to war zone: a Gazan girl's journey home Reuters",
-    "summaryAr": "From incubator to war zone: a Gazan girl's journey home Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says - Reuters",
-    "titleAr": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaWJWU2xXSFpjTHEtWi1hZUZwNnFaWWk0OTVoNGJYWE1wdHp3cFdVWXdibnlUdWV2MmhhakJDWV9fLW1ZSDNEZ0tCZlRzaVRWYlVFbFNZa2poZjB2ZnVVSVQ1emFNVnFWUVJmYUptU3pYNGN5MzQ1UVVUSjlLeGppcHM2THJIbHNCV2FPSmhPREZMdWY1aDFzZ084SUJCaTA1WTd5eDRhQnh5U1BON01wSzltLVFsbXpva3JieExQb19jYTZiYXNpRjJR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791278582000,
-    "summaryEn": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says Reuters",
-    "summaryAr": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says - TradingView",
-    "titleAr": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOHVMbnFvQVBvVjNHb2RaM3NOcnhvdzh1WVJkQWhYY2NHRDM3QWFuMElnWEhnbUY2Q0xEWGJXcDcxQ2dYU1doMXRrdjVOaTlhekJRcWd1UVVmQXdqN1ZfUENMQWdIZC1zNFhxaDRjRnk5em5Zb0lYTk4xZVdQdkpHTk1xUS1rWlRlLU0wVzhyQ3BfM3dNU1RMN1QwRE9mVEJ4enRkZWN4Uk02QlpyR2JkSEphTS1IMGQtQTdNcXkyeVRHUkFRTmdseGJ2Q0hXaWVTdE9NMHBySXpMWWl3dXFBZVFUekpUSVFpRl9fTjln?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791275732000,
-    "summaryEn": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says TradingView",
-    "summaryAr": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates - Reuters",
-    "titleAr": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWGFEc1RqT0d3WGh1LV9WMUNxNDhDdElPXzJ1eDRDS21lcHhZWUJwYnNLOElMQmJmWm9ZYnZ5YVhSSmtsZUtGZko3ejNka3B0UUppcHJ1SVdwM0ZGa0VlWU93eWVaREp2dURzVFZmaS05N3VBWTIzcERZTGtfXzFXX1dKMGl4RDlnMENxY3Rjb1gydHl4R3BuYWwwS3NOUE9VMXFGT25JUHpCVVZRQXN6SmpJUHY3eFFQUFpsMXZ0ZGFVZ0dMOHc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791275077000,
-    "summaryEn": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates Reuters",
-    "summaryAr": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Engineer sentenced for locking over 3,000 devices on employer network",
-    "titleAr": "Engineer sentenced for locking over 3,000 devices on employer network",
-    "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
-    "source": "BleepingComputer",
-    "pubDate": 1791274764000,
-    "summaryEn": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's n…",
-    "summaryAr": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's n…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemeni military says it has 'secured' Red Sea waterway",
-    "titleAr": "Yemeni military says it has 'secured' Red Sea waterway",
-    "link": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791272587000,
-    "summaryEn": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
-    "summaryAr": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "One year on, Trump's Gaza plan has not stopped Israeli fire or disarmed Hamas - Reuters",
-    "titleAr": "One year on, Trump's Gaza plan has not stopped Israeli fire or disarmed Hamas - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkkydUtZMjRTUWluN2N4ajJ6RkhqclYxTUxUeF9oMGZoN09jc3huX0RSQXdmUXFNWVlPdWozU0tyZkJta19mS0Y5c1UtZ3FvcjlvZXBEZkp2eTYyd2hPN1BOV1E3bWdDNFczSXdmZzJhTmRzYlczUzM2dERubjgwMGRlQWhMNmxWMGtkQWpyYUplVTh3dmxQdjU4YjlncmVsT1hFalV1emdpb1ZyLXhpYm1wVXNvTnNiR0VPY1ptVEduU3FB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791272009000,
-    "summaryEn": "One year on, Trump's Gaza plan has not stopped Israeli fire or disarmed Hamas Reuters",
-    "summaryAr": "One year on, Trump's Gaza plan has not stopped Israeli fire or disarmed Hamas Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Children brave snipers and mortars to go to school near Yemen front line",
-    "titleAr": "Children brave snipers and mortars to go to school near Yemen front line",
-    "link": "https://www.bbc.co.uk/news/articles/c670pzpv9gk4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791271404000,
-    "summaryEn": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
-    "summaryAr": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-    "titleAr": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-    "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-    "source": "The Hacker News",
-    "pubDate": 1791269936000,
-    "summaryEn": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web applicati…",
-    "summaryAr": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web applicati…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices fall nearly 2% as Middle East supply concerns ease - TradingView",
-    "titleAr": "Oil prices fall nearly 2% as Middle East supply concerns ease - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU25BYjIzVk0wRTFzWnFRZzlQbVpDaVc1eVhUQVVhWFViNVB3d2diM2pTLXFBZjZfd082TXRHUFZpblg3VWFKWkUtVE1rM2JVdk1HdnhJMzRVemFkQ1Z6ZjdjOFd5OTRKVkRJNlk4dno4b3p3VGVKS21zUEVaYXA3bHh4TnRVSmtydkJKTDlUT1AyNmI1WkFjR29NQVo5Slp4UFRERDI0bFdqQjhNQ1pSYzJoUG9YcFpiVVN1VzcxSVJtYTNzc09iRzhjcEJSQzdzQXZDY3JweWRWbWpZ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791269580000,
-    "summaryEn": "Oil prices fall nearly 2% as Middle East supply concerns ease TradingView",
-    "summaryAr": "Oil prices fall nearly 2% as Middle East supply concerns ease TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "VIDEO: From incubator to war zone: a Gazan girl's journey home - Reuters",
-    "titleAr": "VIDEO: From incubator to war zone: a Gazan girl's journey home - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeko1UHRMbEQ5eDhNajl1MXNDRC1reXQtV1huYk4wYjVnY1RLcFFwMExGTFFYMXNDcUZFQXFsMGVKa1I1LTZ5Q3pOdExKdDRrOF9NTTBIWFpFTjhDbUxiYmxVam1SOTZqNDZrSEFvamN4NVh4Zk5PMllJSlpGSUQ5b1NkYlJOMm9zQXZqT19qcXJTX1dyUndvdEppWGpodw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791262800000,
-    "summaryEn": "VIDEO: From incubator to war zone: a Gazan girl's journey home Reuters",
-    "summaryAr": "VIDEO: From incubator to war zone: a Gazan girl's journey home Reuters",
     "tags": [
       {
         "textEn": "INTEL",
