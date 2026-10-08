@@ -1,12 +1,268 @@
 [
   {
-    "titleEn": "US imposes fresh Iran-related sanctions - Reuters",
-    "titleAr": "US imposes fresh Iran-related sanctions - Reuters",
+    "titleEn": "Putin pledges Russia’s support to end US-led war on Iran",
+    "titleAr": "Putin pledges Russia’s support to end US-led war on Iran",
+    "link": "https://www.aljazeera.com/news/2026/10/8/putin-pledges-russias-support-to-end-us-led-war-on-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791498637000,
+    "summaryEn": "The Russian and Iranian presidents met in Turkmenistan ahead of regional summit.",
+    "summaryAr": "The Russian and Iranian presidents met in Turkmenistan ahead of regional summit.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+    "titleAr": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "pubDate": 1791495771000,
+    "summaryEn": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached cr…",
+    "summaryAr": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached cr…",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "What is the Mecca defence pact?",
+    "titleAr": "What is the Mecca defence pact?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/8/what-is-the-mecca-defence-pact?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791493488000,
+    "summaryEn": "Saudi Arabia, Turkiye and Pakistan are activating their defence pact to counter attacks from Yemen’s Houthis.",
+    "summaryAr": "Saudi Arabia, Turkiye and Pakistan are activating their defence pact to counter attacks from Yemen’s Houthis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel shuts down British consulate in occupied East Jerusalem",
+    "titleAr": "Israel shuts down British consulate in occupied East Jerusalem",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/8/israel-shuts-down-british-consulate-in-occupied-east-jerusalem?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791491640000,
+    "summaryEn": "The British government says it will retain its presence in occupied East Jerusalem after Israel removed its consulate.",
+    "summaryAr": "The British government says it will retain its presence in occupied East Jerusalem after Israel removed its consulate.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+    "titleAr": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+    "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+    "source": "BleepingComputer",
+    "pubDate": 1791490185000,
+    "summaryEn": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data c…",
+    "summaryAr": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data c…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "How much worse can Yemen’s humanitarian crisis become?",
+    "titleAr": "How much worse can Yemen’s humanitarian crisis become?",
+    "link": "https://www.aljazeera.com/video/inside-story/2026/10/8/how-much-worse-can-yemens-humanitarian-crisis-become?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791489968000,
+    "summaryEn": "UN says fighting has displaced more than 200,000 people in five weeks.",
+    "summaryAr": "UN says fighting has displaced more than 200,000 people in five weeks.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers take Palestinian olives, and their harvest traditions",
+    "titleAr": "Israeli settlers take Palestinian olives, and their harvest traditions",
+    "link": "https://www.aljazeera.com/features/2026/10/8/israeli-settlers-take-palestinian-olives-and-their-harvest-traditions?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791489449000,
+    "summaryEn": "As Israeli settlers harvest olives on Palestinian land, farmers face growing violence and loss of an ancient tradition.",
+    "summaryAr": "As Israeli settlers harvest olives on Palestinian land, farmers face growing violence and loss of an ancient tradition.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers systematically target the Palestinian olive harvest",
+    "titleAr": "Israeli settlers systematically target the Palestinian olive harvest",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/8/israeli-settlers-systematically-target-the-palestinian-olive-harvest?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791488990000,
+    "summaryEn": "Israeli settlers in the occupied West Bank are destroying olive trees.",
+    "summaryAr": "Israeli settlers in the occupied West Bank are destroying olive trees.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 81 US aircraft worth up to $3.3bn lost or damaged in Iran war",
+    "titleAr": "At least 81 US aircraft worth up to $3.3bn lost or damaged in Iran war",
+    "link": "https://www.aljazeera.com/news/2026/10/8/at-least-81-us-aircraft-worth-up-to-3-3bn-lost-or-damaged-in-iran-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791488619000,
+    "summaryEn": "The damage, documented in a Congressional Budget Office report, comes as Trump faces criticism over war's cost.",
+    "summaryAr": "The damage, documented in a Congressional Budget Office report, comes as Trump faces criticism over war's cost.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘War lives in me’: Gaza playwright Ali Abu Yasin wins English PEN award",
+    "titleAr": "‘War lives in me’: Gaza playwright Ali Abu Yasin wins English PEN award",
+    "link": "https://www.aljazeera.com/news/2026/10/8/gaza-playwright-award?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791486753000,
+    "summaryEn": "Honoured for his artistic resilience, Ali Abu Yasin continued writing for theatre amid the rubble.",
+    "summaryAr": "Honoured for his artistic resilience, Ali Abu Yasin continued writing for theatre amid the rubble.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US imposes fresh sanctions on Iran's shadow fleet - Reuters",
+    "titleAr": "US imposes fresh sanctions on Iran's shadow fleet - Reuters",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUm45bHRGMFlmNEV2d2lTTkFvQURQckhMSGhYRlhxWUtOb1d2cGhCTnVXUEJaMF94S2xZNXFWMF9ONTVraWdWdnVOME04c2xyMk5tRnhHVjI3YVFmQTZIWVR6MXhDUUNram9tRjlsejRlRXVQUERDX3NkY2ZIVmlsOV9Ic0wxOVNPSmVCRmtVVExGcWZNY0tCTw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791478763000,
-    "summaryEn": "US imposes fresh Iran-related sanctions Reuters",
-    "summaryAr": "US imposes fresh Iran-related sanctions Reuters",
+    "pubDate": 1791484524000,
+    "summaryEn": "US imposes fresh sanctions on Iran's shadow fleet Reuters",
+    "summaryAr": "US imposes fresh sanctions on Iran's shadow fleet Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel opens first-ever pavilion at Morocco defence show",
+    "titleAr": "Israel opens first-ever pavilion at Morocco defence show",
+    "link": "https://www.aljazeera.com/news/2026/10/8/israel-opens-first-ever-pavilion-at-morocco-defence-show?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791483074000,
+    "summaryEn": "Israel opened its first national pavilion at Morocco's Marrakech Air Show, joined by Israel's top military contractors.",
+    "summaryAr": "Israel opened its first national pavilion at Morocco's Marrakech Air Show, joined by Israel's top military contractors.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Colombian embassy to open in Jerusalem, Israeli FM says",
+    "titleAr": "Colombian embassy to open in Jerusalem, Israeli FM says",
+    "link": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791482826000,
+    "summaryEn": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail.",
+    "summaryAr": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hurricane Isaias charges towards the US Gulf Coast with dangerous winds",
+    "titleAr": "Hurricane Isaias charges towards the US Gulf Coast with dangerous winds",
+    "link": "https://www.aljazeera.com/news/2026/10/8/hurricane-isaias-charges-towards-the-us-gulf-coast-with-dangerous-winds?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791482287000,
+    "summaryEn": "The storm is forecast to strike Florida, Alabama and Mississippi with up to 10 inches of rain this weekend.",
+    "summaryAr": "The storm is forecast to strike Florida, Alabama and Mississippi with up to 10 inches of rain this weekend.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+    "titleAr": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+    "source": "The Hacker News",
+    "pubDate": 1791482282000,
+    "summaryEn": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and…",
+    "summaryAr": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Syria calls for independent probe into sinking of ship in Black Sea",
+    "titleAr": "Syria calls for independent probe into sinking of ship in Black Sea",
+    "link": "https://www.aljazeera.com/news/2026/10/8/syria-calls-for-independent-probe-into-sinking-of-ship-in-black-sea?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791480467000,
+    "summaryEn": "Syrian authorities questioned why search and rescue operations were called off before the fate of 10 sailors was known.",
+    "summaryAr": "Syrian authorities questioned why search and rescue operations were called off before the fate of 10 sailors was known.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791479713000,
+    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,22 +288,6 @@
     ]
   },
   {
-    "titleEn": "Tanker Attacks in Strait of Hormuz Hit Record Weekly High Since War Began - Haaretz",
-    "titleAr": "Tanker Attacks in Strait of Hormuz Hit Record Weekly High Since War Began - Haaretz",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWXFVREROWXdLUDlZdVN0OF9Tdm5ISUJRMVcyVy1YREE3ZXhOUlFLM3Yya2FQX2xoNWlYcE8xaFZUZk1nV2ZnZUtlSXpPdEJLSVNiVjhKbXFXNkFlRmNvR2JWazJrQkJqTDFyLVhfT2hGM2xRd3JkUGtyUWUyVkVxYW5BYjFBN1JJNmhXWWJrTGRJNGd1Rk5OcTFPS1lRSUp2bWtXUVk2TnZFbzNWblUtZm1UdnhoNjQ1OElqYVBwWGJWT0tnWGZiTl9iSThJa3k5SlJsTFVXaDY0NkdndUFLeF9BeGNqVXFtRF9QbEotdGlGS1B5NWx3WTRlS0RXSVdTem1N?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791475800000,
-    "summaryEn": "Tanker Attacks in Strait of Hormuz Hit Record Weekly High Since War Began Haaretz",
-    "summaryAr": "Tanker Attacks in Strait of Hormuz Hit Record Weekly High Since War Began Haaretz",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
     "titleAr": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
     "link": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
@@ -64,18 +304,18 @@
     ]
   },
   {
-    "titleEn": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-    "titleAr": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-    "link": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791470599000,
-    "summaryEn": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh.",
-    "summaryAr": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh.",
+    "titleEn": "What we saw in Lebanon's 'model town', surrounded by Israelis - Reuters",
+    "titleAr": "What we saw in Lebanon's 'model town', surrounded by Israelis - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PTGVfY1NPSFlxc1NVa056VmxTV0lOVjFyNUk4RWZQYmV4OTZFR1Q4VGtNd2FfckxBZDBla2JBV1BlWFNkd0tCTXJzODRkR1VDMDE5UWdzSDVmZmlsUmpLVFpReFRQWUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791469476000,
+    "summaryEn": "What we saw in Lebanon's 'model town', surrounded by Israelis Reuters",
+    "summaryAr": "What we saw in Lebanon's 'model town', surrounded by Israelis Reuters",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -112,54 +352,6 @@
     ]
   },
   {
-    "titleEn": "What we saw in Lebanon's 'model town', surrounded by Israelis - Reuters",
-    "titleAr": "What we saw in Lebanon's 'model town', surrounded by Israelis - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PTGVfY1NPSFlxc1NVa056VmxTV0lOVjFyNUk4RWZQYmV4OTZFR1Q4VGtNd2FfckxBZDBla2JBV1BlWFNkd0tCTXJzODRkR1VDMDE5UWdzSDVmZmlsUmpLVFpReFRQWUE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791468465000,
-    "summaryEn": "What we saw in Lebanon's 'model town', surrounded by Israelis Reuters",
-    "summaryAr": "What we saw in Lebanon's 'model town', surrounded by Israelis Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "King David Hotel bombing to consulate row: A timeline of UK-Israel tension",
-    "titleAr": "King David Hotel bombing to consulate row: A timeline of UK-Israel tension",
-    "link": "https://www.aljazeera.com/news/2026/10/8/king-david-hotel-bombing-to-consulate-row-a-timeline-of-uk-israel-tension?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791468114000,
-    "summaryEn": "Israel's order to shut UK's Jerusalem consulate is the latest downturn in a relationship strained since before 1948.",
-    "summaryAr": "Israel's order to shut UK's Jerusalem consulate is the latest downturn in a relationship strained since before 1948.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "‘This is a crisis of hope’: Echoes of 1968 as France’s students rise up",
-    "titleAr": "‘This is a crisis of hope’: Echoes of 1968 as France’s students rise up",
-    "link": "https://www.aljazeera.com/news/2026/10/8/echoes-of-may-1968-frances-students-rise-up-again?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791468073000,
-    "summaryEn": "As in 1968, when student protests triggered nationwide strikes, today’s crisis is about generational discontent.",
-    "summaryAr": "As in 1968, when student protests triggered nationwide strikes, today’s crisis is about generational discontent.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Syria calls for independent probe into sinking of ship in Black Sea - Reuters",
     "titleAr": "Syria calls for independent probe into sinking of ship in Black Sea - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNmd2WjdINXQ3blY4Vm5YUENHaGdaRVhpUDJNNWdRZTBiNGVreEh2ejh4Qi1hclRGVTMtLU1LQW4yNndfU0NyQXlnTFI4NFM4ekh6ZlFpVkIwb3IxRXV3cERIdEZkNE0yLW5HNWFYdVFtRTFMVG9HdC1DMUJFSHB1WldseDUyMS1uTDMtbDZjdHBTZ0VRa1FkaFhfTUJESFJVY3hMQzB3SWgtY1lzYTFsaQ?oc=5",
@@ -167,38 +359,6 @@
     "pubDate": 1791467884000,
     "summaryEn": "Syria calls for independent probe into sinking of ship in Black Sea Reuters",
     "summaryAr": "Syria calls for independent probe into sinking of ship in Black Sea Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Has Israel shut the UK consulate in East Jerusalem – or downgraded it?",
-    "titleAr": "Has Israel shut the UK consulate in East Jerusalem – or downgraded it?",
-    "link": "https://www.aljazeera.com/news/2026/10/8/has-israel-shut-the-uk-consulate-in-east-jerusalem-or-downgraded?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791466352000,
-    "summaryEn": "British Foreign Secretary Miliband said the consulate building would remain but would be called 'UK Mission, Jerusalem'.",
-    "summaryAr": "British Foreign Secretary Miliband said the consulate building would remain but would be called 'UK Mission, Jerusalem'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Moroccan-Israeli defense firm MMI targets turret deliveries in March 2027 - Reuters",
-    "titleAr": "Moroccan-Israeli defense firm MMI targets turret deliveries in March 2027 - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOGtuWDhETzgwLUI4QlB0cnVKQWtuZjIybG1ROF9HVHVpRGR2S0Z6Q1dGeUFENnZDa0l3SzNGaUNpX05nOUNaQTV0NGUwMGdyQ01fSEw2ZzQ5eGhPWVZuOUpRTlVfSHM0WlluMDZRc0tBR2hDcXFIMVJCcUg4MnE2bDdORmxiV1ItVDBCNkN3UU5RZktvcTh0eVdadExMTUdIRDZ5dGg1U0t0Z3VBTXhMZzc4b3RKa3pqZElMNmJEM0pyQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791466303000,
-    "summaryEn": "Moroccan-Israeli defense firm MMI targets turret deliveries in March 2027 Reuters",
-    "summaryAr": "Moroccan-Israeli defense firm MMI targets turret deliveries in March 2027 Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -231,38 +391,6 @@
     "pubDate": 1791464756000,
     "summaryEn": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Reuters",
     "summaryAr": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption - Belleville News-Democrat",
-    "titleAr": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption - Belleville News-Democrat",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MLTNEdW5IZm55cENLWkIxaGUwTEFoaTdEWFBnZXZGSXBWeTcyM0JweENMNm5OdWxzRkJURHcxZGdJNWRWTjRWaXNEVGNnWWtEY1YzOVJpajhFVVBVWElvZlY1amlqeUxRdzI2OF9CbjBVVnlHYmxZ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791464520000,
-    "summaryEn": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Belleville News-Democrat",
-    "summaryAr": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Belleville News-Democrat",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption - Hilton Head Island Packet",
-    "titleAr": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption - Hilton Head Island Packet",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVcza0dwNFhfcG5aZWtacHoyR2xkNTM4RFdjNmNLUXk2dHk5Q011VUJYOUxqUEF5QWJuNWRPTjRaRnFiN1h2S3RUQ3RNbk9ITUFDdkRtblFyUFFiYVk5SXQtM2JuZHdoTFNSbHNCOWdFX0M0aGNFOUt0S1ZvNTFtc0Rwdw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791464520000,
-    "summaryEn": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Hilton Head Island Packet",
-    "summaryAr": "WTO upgrades goods trade forecast as AI boom offsets Middle East disruption Hilton Head Island Packet",
     "tags": [
       {
         "textEn": "INTEL",
@@ -320,38 +448,6 @@
     ]
   },
   {
-    "titleEn": "Sri Lanka arrests ex-President Rajapaksa’s wife in graft case",
-    "titleAr": "Sri Lanka arrests ex-President Rajapaksa’s wife in graft case",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/8/sri-lanka-arrests-ex-president-rajapaksas-wife-in-graft-case?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791460949000,
-    "summaryEn": "Sri Lanka’s former first lady Shiranthi Rajapaksa, wife of Mahinda Rajapaksa, has been arrested in a corruption case.",
-    "summaryAr": "Sri Lanka’s former first lady Shiranthi Rajapaksa, wife of Mahinda Rajapaksa, has been arrested in a corruption case.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Red Lion Controls N-Tron 700 Series",
-    "titleAr": "Red Lion Controls N-Tron 700 Series",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
-    "source": "CISA Advisories",
-    "pubDate": 1791460800000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the use…",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the use…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Satel Netco Design",
     "titleAr": "Satel Netco Design",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
@@ -376,6 +472,48 @@
     "summaryEn": "View CSAF Summary The following versions of Grid Protection Alliance openPDC and openHistorian are affected: openPDC <2.9.477, <2.9.482 (CVE-2026-104629, CVE-2026-100730, CVE-2026-…",
     "summaryAr": "View CSAF Summary The following versions of Grid Protection Alliance openPDC and openHistorian are affected: openPDC <2.9.477, <2.9.482 (CVE-2026-104629, CVE-2026-100730, CVE-2026-…",
     "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Red Lion Controls N-Tron 700 Series",
+    "titleAr": "Red Lion Controls N-Tron 700 Series",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+    "source": "CISA Advisories",
+    "pubDate": 1791460800000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the use…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the use…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+    "titleAr": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+    "source": "CISA Advisories",
+    "pubDate": 1791460800000,
+    "summaryEn": "Advisory at a Glance Title Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data Original Publication October 8, 2026 E…",
+    "summaryAr": "Advisory at a Glance Title Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data Original Publication October 8, 2026 E…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "DDoS",
+        "textAr": "حجب الخدمة",
+        "class": "tag-warn"
+      },
       {
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
@@ -480,22 +618,6 @@
     ]
   },
   {
-    "titleEn": "Oil jumps as Middle East supply concerns persist amid shipping attacks By Reuters - Investing.com",
-    "titleAr": "Oil jumps as Middle East supply concerns persist amid shipping attacks By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN2I0M1BzVFk4M3B6cWRUUmg3MkNqb0NjcmZZeEdkY3QyUW51Q1ZtMW5nOHFmQnQ1eGQ2bEZOS2VNUGo2YjUtS0Nnek5vWDJJM3VrVWFiS3VISWh0bUpqWjdNSi00S2Y4NTc0dlpGVE1UX0VXTkpZRzBNWE9lcExMOE5IZ3FzcnljX1U2TFFfdW5rYktIaWRrMGwxNW5RNTdZMmhMelNiMjVTaVJ1VkVOZkZKeWFkZFpUQVk1dVZyNm9rbkxF?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791453402000,
-    "summaryEn": "Oil jumps as Middle East supply concerns persist amid shipping attacks By Reuters Investing.com",
-    "summaryAr": "Oil jumps as Middle East supply concerns persist amid shipping attacks By Reuters Investing.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "German year-ahead power contract hits 3-year high on Middle East worries - TradingView",
     "titleAr": "German year-ahead power contract hits 3-year high on Middle East worries - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcTJnUnZwUENuXzl1TWhpZm9jUkNlUnBxZjZjR3R1RVUzc29ZVVE4YlZxRXR1NDVZVTJTclhQQ0ZFLXVtd2RKQnNrcmw4VDBTRTJhUnQ5Q2J4NXlzYVhrTWFEV3pfTjhvSnVfX2lrQVBldXRyT2RoQnYwanNkVFBYX3hHN3RwSnlabG8yMThzRnFoblQ5Qm1uNkVXQ2VkeVNVQnZhNFVOQ0RtLUxyZklpbGgyRTl2ZTdlbnMwS04zaGZHRmVTaWs2ekZwRmt2ajdad3hRbmlDS1daQQ?oc=5",
@@ -560,6 +682,22 @@
     ]
   },
   {
+    "titleEn": "Oil Prices Rise Above $102 as Middle East Supply Concerns Persist - PUKmedia یەکێتیی نیشتمانیی کوردستان",
+    "titleAr": "Oil Prices Rise Above $102 as Middle East Supply Concerns Persist - PUKmedia یەکێتیی نیشتمانیی کوردستان",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBMU3IyV0gzS05yRVlzSUd0R0hicTZVYTNkMXc1dzFDRXFFNVg5TUdCNngxRDZFVXJUMTFuV2NlRmVDaEFQd3JnY21nMkpydw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791444407000,
+    "summaryEn": "Oil Prices Rise Above $102 as Middle East Supply Concerns Persist PUKmedia یەکێتیی نیشتمانیی کوردستان",
+    "summaryAr": "Oil Prices Rise Above $102 as Middle East Supply Concerns Persist PUKmedia یەکێتیی نیشتمانیی کوردستان",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
     "titleAr": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
     "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
@@ -583,134 +721,6 @@
     "pubDate": 1791440667000,
     "summaryEn": "Oil rises as Middle East supply concerns persist amid shipping attacks The Mighty 790 KFGO",
     "summaryAr": "Oil rises as Middle East supply concerns persist amid shipping attacks The Mighty 790 KFGO",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
-    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791440390000,
-    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
-    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "'Every day there is killing': Gazans face Israeli strikes despite ceasefire as peace deal stalls",
-    "titleAr": "'Every day there is killing': Gazans face Israeli strikes despite ceasefire as peace deal stalls",
-    "link": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791435969000,
-    "summaryEn": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
-    "summaryAr": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US and Lebanon protecting wanted Syrian general, BBC finds",
-    "titleAr": "US and Lebanon protecting wanted Syrian general, BBC finds",
-    "link": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791435644000,
-    "summaryEn": "Bassam al-Hassan is being sheltered in return for information - including about abducted US reporter Austin Tice.",
-    "summaryAr": "Bassam al-Hassan is being sheltered in return for information - including about abducted US reporter Austin Tice.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hormuz transits at lowest in over two months after attacks, data shows - Reuters",
-    "titleAr": "Hormuz transits at lowest in over two months after attacks, data shows - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnAtMmE4Vi10TWlqTFQ0MkFXdzJCNlQzYlFSbXBkOVg5YW9Qd0YwcG5vZnVQS21ETGdLVnllV2RxRFZmZUZyaV8xZWtzVXNLMUxVV1BhQXc3Qm4wVjFaOTB4US1mR0MwWmxoTzdvSV9tUmxvbkx6cWppUkZPMnpHaXNPWjBTMmhBN1p5NDhmSkI1VWtiNEJQcjJLbEJPa2Jhc1VqLWNhR19JcEFkZk5kTmRjaEFnUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791430740000,
-    "summaryEn": "Hormuz transits at lowest in over two months after attacks, data shows Reuters",
-    "summaryAr": "Hormuz transits at lowest in over two months after attacks, data shows Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
-    "titleAr": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
-    "link": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791430355000,
-    "summaryEn": "The Houthis have claimed responsibility for the attacks, which mark an escalation in the conflict.",
-    "summaryAr": "The Houthis have claimed responsibility for the attacks, which mark an escalation in the conflict.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile - Reuters",
-    "titleAr": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPREc3b1M4OVVFbEtXWE45ZWpjeDNiNGpGVnZIdEJQSUU2R2dmdzF4V3hFZ1RMSlgyX0Fmc295aXo3bGtsbHpYSlM5MUVjLXJsM1ZISFV4NVFQN04wY0M4ZFRud3pzVUd2ZjN4S1dRSzNkenVacC1naWFmdUMtRUVYUlQ3MWY4dHRyOHRkTThCcUYxV0NFOU9qNE5fUW92RmlfYmk3Z0ZqWDlfc2VmNVhHS0tPX2k2Ql94SHlCeThTUzJBUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791428580000,
-    "summaryEn": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile Reuters",
-    "summaryAr": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil rises as Middle East supply concerns persist amid shipping attacks - NST Online",
-    "titleAr": "Oil rises as Middle East supply concerns persist amid shipping attacks - NST Online",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWg5WmZWcDhQdUFDTVZOUHFpMl96cEtqRU1lOUtjZUFpYzQ0NnJjajdnSTA1OFNMODRHQjNTeUFibUNac2NxTl82dE5KdGRGMGlqMVc0ZTVDejdmN2RmXzJBLVd1a01MaGNsQnAxU0Vzd1NYdWFxd0VWNURpQnVrbHI2M0U4N01HdTRXU3FYRkRMNzN6OGhSYmhlc2NmOTVQX29Cc3VWMDdkaEtXdWh4bHNIdkd6MTNLWDI0VXNn0gG-AUFVX3lxTFAxaDlaZlZwOFB1QUNNVk5QcWkyX3pwS2pFTWU5S2NlQWljNDQ2cmNqN2dJMDU4U0w4NEdCM1N5QWJtQ1pzY3FOXzZ0Tkp0ZEYwaWoxVzRlNUN6N2Y3ZGZfMkEtV3VrTUxoY2xCcDFTRXN3U1h1YXF3RVY1RGlCdWtscjYzRTg3TUd1NFdTcVhGREw3M3o4aFJiaGVzY2Y5NVBfb0JzdVYwN2RoS1d1aHhsc0h2R3oxM0tYMjRVc2c?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791424053000,
-    "summaryEn": "Oil rises as Middle East supply concerns persist amid shipping attacks NST Online",
-    "summaryAr": "Oil rises as Middle East supply concerns persist amid shipping attacks NST Online",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil rises as Middle East supply concerns persist amid shipping attacks - Merced Sun-Star",
-    "titleAr": "Oil rises as Middle East supply concerns persist amid shipping attacks - Merced Sun-Star",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYmo1Y19DbHR4MkNqYXd2ZFhYaXVxOURQZzhMV085cm5BazVTUGgybDQzSVM3YUVIZVVrV1ZOMjdNb05VaUd4Smh5UElyVloxejdkS1htdHJOem1HVzlVdVpsVkFPZWxGQ3VuRlZBYXl1aUw2cVphdE93cnRJYi1hZWhQczk?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791423067000,
-    "summaryEn": "Oil rises as Middle East supply concerns persist amid shipping attacks Merced Sun-Star",
-    "summaryAr": "Oil rises as Middle East supply concerns persist amid shipping attacks Merced Sun-Star",
     "tags": [
       {
         "textEn": "INTEL",
