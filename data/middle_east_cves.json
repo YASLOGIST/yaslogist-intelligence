@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-7891",
-    "system": "Unknown System",
+    "id": "CVE-2026-88774",
+    "system": "ADC",
     "severity": "High",
-    "cvss": null,
+    "cvss": 7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-87902",
-    "system": "WordPress",
+    "id": "CVE-2026-88773",
+    "system": "ADC",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-88772",
+    "system": "ADC",
+    "severity": "Critical",
+    "cvss": 9.5,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-88771",
+    "system": "ADC",
+    "severity": "Critical",
+    "cvss": 9.5,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-96587",
+    "system": "Dashcam Android Application",
+    "severity": "Critical",
+    "cvss": 10,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-94204",
+    "system": "Dashcam Android Application",
     "severity": "High",
-    "cvss": 8.1,
+    "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-67279",
-    "system": "RouterOS",
+    "id": "CVE-2026-71189",
+    "system": "TMS7",
     "severity": "Medium",
-    "cvss": 6.9,
+    "cvss": 4.8,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-65660",
-    "system": "Microsoft SharePoint Enterprise Server 2016",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-88778",
-    "system": "ADC",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-88777",
-    "system": "ADC",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-88776",
-    "system": "ADC",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-88775",
-    "system": "ADC",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
+    "id": "CVE-2026-69662",
+    "system": "TMS7",
+    "severity": "Low",
+    "cvss": 2.1,
+    "badge": "badge-low"
   }
 ]
