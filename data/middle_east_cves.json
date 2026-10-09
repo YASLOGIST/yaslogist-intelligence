@@ -1,55 +1,55 @@
 [
   {
-    "id": "CVE-2026-88774",
+    "id": "CVE-2026-88778",
     "system": "ADC",
     "severity": "High",
-    "cvss": 7,
+    "cvss": 8.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-88773",
+    "id": "CVE-2026-88777",
     "system": "ADC",
-    "severity": "Critical",
-    "cvss": 9.3,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-88772",
-    "system": "ADC",
-    "severity": "Critical",
-    "cvss": 9.5,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-88771",
-    "system": "ADC",
-    "severity": "Critical",
-    "cvss": 9.5,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-71189",
-    "system": "TMS7",
-    "severity": "Medium",
-    "cvss": 4.8,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-69662",
-    "system": "TMS7",
-    "severity": "Low",
-    "cvss": 2.1,
-    "badge": "badge-low"
-  },
-  {
-    "id": "CVE-2026-71302",
-    "system": "TMS7",
     "severity": "High",
-    "cvss": 7.5,
+    "cvss": 8.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-72507",
+    "id": "CVE-2026-88776",
+    "system": "ADC",
+    "severity": "High",
+    "cvss": 8.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-88775",
+    "system": "ADC",
+    "severity": "High",
+    "cvss": 8.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-91191",
+    "system": "G520 Series",
+    "severity": "High",
+    "cvss": 7.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-84409",
+    "system": "G520 Series",
+    "severity": "High",
+    "cvss": 7.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-96274",
+    "system": "Nova 430H eNodeB  (model pBS3101SH)",
+    "severity": "High",
+    "cvss": 8.3,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-68068",
     "system": "TMS7",
     "severity": "High",
     "cvss": 8.5,
