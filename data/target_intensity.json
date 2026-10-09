@@ -1,7 +1,7 @@
 [
   {
-    "country": "Israel",
-    "attacks": "15",
+    "country": "Iran",
+    "attacks": "16",
     "previous": "0",
     "intensity": "Critical",
     "trend": "up",
@@ -9,8 +9,8 @@
     "class": "intensity-high"
   },
   {
-    "country": "Iran",
-    "attacks": "13",
+    "country": "Israel",
+    "attacks": "11",
     "previous": "0",
     "intensity": "High",
     "trend": "up",
@@ -19,11 +19,11 @@
   },
   {
     "country": "Yemen",
-    "attacks": "9",
+    "attacks": "7",
     "previous": "1",
     "intensity": "High",
     "trend": "up",
-    "deltaPct": 800,
+    "deltaPct": 600,
     "class": "intensity-high"
   },
   {
@@ -37,7 +37,7 @@
   },
   {
     "country": "Syria",
-    "attacks": "4",
+    "attacks": "3",
     "previous": "0",
     "intensity": "Medium",
     "trend": "up",
