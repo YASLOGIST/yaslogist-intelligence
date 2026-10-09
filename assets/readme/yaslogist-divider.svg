@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="img" aria-label="Luminous section divider">
+  <defs>
+    <linearGradient id="yl-div-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E7490" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#0E7490" stop-opacity="0.55"/>
+      <stop offset="0.88" stop-color="#0E7490" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0E7490" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="yl-div-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="yl-div-halo-v" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <line x1="60" y1="12" x2="1140" y2="12" stroke="url(#yl-div-fade)" stroke-width="1"/>
+
+  <line x1="60" y1="7" x2="60" y2="17" stroke="#0E7490" stroke-opacity="0.7" stroke-width="1"/>
+  <line x1="1140" y1="7" x2="1140" y2="17" stroke="#0E7490" stroke-opacity="0.7" stroke-width="1"/>
+  <circle cx="60" cy="12" r="1.6" fill="#0E7490"/>
+  <circle cx="1140" cy="12" r="1.6" fill="#0E7490"/>
+
+  <circle cx="60" cy="12" r="9" fill="url(#yl-div-halo)">
+    <animate attributeName="cx" values="60;1140" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="12" r="2.6" fill="#00E5FF">
+    <animate attributeName="cx" values="60;1140" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1140" cy="12" r="8" fill="url(#yl-div-halo-v)">
+    <animate attributeName="cx" values="1140;60" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1140" cy="12" r="2.1" fill="#8B5CF6">
+    <animate attributeName="cx" values="1140;60" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

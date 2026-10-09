@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 110" width="760" height="110" role="img" aria-label="YASLOGIST signature wordmark">
+  <defs>
+    <linearGradient id="yl-sig-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F7FA"/>
+      <stop offset="0.55" stop-color="#C7D0DA"/>
+      <stop offset="1" stop-color="#8FA1B3"/>
+    </linearGradient>
+    <linearGradient id="yl-sig-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9FF3FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="yl-sig-mask">
+      <text x="380" y="66" text-anchor="middle" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="54" font-weight="700" letter-spacing="10" fill="#ffffff">YASLOGIST</text>
+    </mask>
+  </defs>
+
+  <line x1="100" y1="14" x2="660" y2="14" stroke="#0E7490" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="100" y1="96" x2="660" y2="96" stroke="#0E7490" stroke-opacity="0.5" stroke-width="1"/>
+  <rect x="374" y="10.5" width="12" height="7" transform="rotate(45 380 14)" fill="#0E7490" fill-opacity="0.8"/>
+  <rect x="374" y="92.5" width="12" height="7" transform="rotate(45 380 96)" fill="#0E7490" fill-opacity="0.8"/>
+
+  <text x="380" y="66" text-anchor="middle" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="54" font-weight="700" letter-spacing="10" fill="url(#yl-sig-silver)">YASLOGIST</text>
+
+  <g mask="url(#yl-sig-mask)">
+    <rect x="-220" y="20" width="150" height="70" fill="url(#yl-sig-sweep)">
+      <animate attributeName="x" values="-220;760" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <circle cx="380" cy="14" r="2.2" fill="#00E5FF">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="96" r="2.2" fill="#00E5FF">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
