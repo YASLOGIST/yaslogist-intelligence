@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-88774",
-    "system": "ADC",
+    "id": "CVE-2026-96274",
+    "system": "Nova 430H eNodeB  (model pBS3101SH)",
     "severity": "High",
-    "cvss": 7,
+    "cvss": 8.3,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-88773",
-    "system": "ADC",
+    "id": "CVE-2026-91191",
+    "system": "G520 Series",
+    "severity": "High",
+    "cvss": 7.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-84409",
+    "system": "G520 Series",
+    "severity": "High",
+    "cvss": 7.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-22755",
+    "system": "Affected device model numbers are FD8365, FD8365v2, FD9165, FD9171, FD9187, FD9189, FD9365, FD9371, FD9381, FD9387, FD9389, FD9391,FE9180,FE9181, FE9191, FE9381, FE9382, FE9391, FE9582, IB9365, IB93587LPR, IB9371,IB9381, IB9387, IB9389, IB939,IP9165,IP9171, IP9172, IP9181, IP9191, IT9389, MA9321, MA9322, MS9321, MS9390, TB9330",
     "severity": "Critical",
     "cvss": 9.3,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-88772",
-    "system": "ADC",
+    "id": "CVE-2026-84411",
+    "system": "RouterOS",
     "severity": "Critical",
-    "cvss": 9.5,
+    "cvss": 9.3,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-88771",
-    "system": "ADC",
-    "severity": "Critical",
-    "cvss": 9.5,
-    "badge": "badge-critical"
+    "id": "CVE-2026-100299",
+    "system": "YSSD-RTMP-H5",
+    "severity": "High",
+    "cvss": 7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-71189",
-    "system": "TMS7",
+    "id": "CVE-2026-100298",
+    "system": "YSSD-RTMP-H5",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-100297",
+    "system": "YSSD-RTMP-H5",
     "severity": "Medium",
-    "cvss": 4.8,
+    "cvss": 6.9,
     "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-69662",
-    "system": "TMS7",
-    "severity": "Low",
-    "cvss": 2.1,
-    "badge": "badge-low"
-  },
-  {
-    "id": "CVE-2026-71302",
-    "system": "TMS7",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-72507",
-    "system": "TMS7",
-    "severity": "High",
-    "cvss": 8.5,
-    "badge": "badge-high"
   }
 ]
