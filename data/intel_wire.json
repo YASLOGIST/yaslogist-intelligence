@@ -1,17 +1,209 @@
 [
   {
-    "titleEn": "Despite long history with Netanyahu, Trump hedges as Israel vote nears",
-    "titleAr": "Despite long history with Netanyahu, Trump hedges as Israel vote nears",
-    "link": "https://www.aljazeera.com/news/2026/10/13/despite-long-history-with-netanyahu-trump-hedges-as-israel-vote-nears?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791870010000,
-    "summaryEn": "US president has not endorsed Israeli prime minister ahead of October 27 election amid shifting public sentiment.",
-    "summaryAr": "US president has not endorsed Israeli prime minister ahead of October 27 election amid shifting public sentiment.",
+    "titleEn": "Docker Hub flaw let attackers impersonate users, tamper with images",
+    "titleAr": "Docker Hub flaw let attackers impersonate users, tamper with images",
+    "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+    "source": "BleepingComputer",
+    "pubDate": 1791904820000,
+    "summaryEn": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). […",
+    "summaryAr": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). […",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+    "titleAr": "Houthis threaten Saudi Arabia’s Aramco facilities and airports",
+    "link": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791903696000,
+    "summaryEn": "Explosions in Sanaa reported shortly after Saudi-led coalition's evacuation order as Houthis promise 'harsh' response.",
+    "summaryAr": "Explosions in Sanaa reported shortly after Saudi-led coalition's evacuation order as Houthis promise 'harsh' response.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinians dream of returning home after Israel raids West Bank camps",
+    "titleAr": "Palestinians dream of returning home after Israel raids West Bank camps",
+    "link": "https://www.aljazeera.com/features/2026/10/13/palestinians-dream-of-returning-home-after-israel-raids-west-bank-camps?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791900145000,
+    "summaryEn": "Palestinians have been displaced from their homes in Tulkarem refugee camp and dream of returning home.",
+    "summaryAr": "Palestinians have been displaced from their homes in Tulkarem refugee camp and dream of returning home.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemeni government launches air strikes on Houthi positions",
+    "titleAr": "Yemeni government launches air strikes on Houthi positions",
+    "link": "https://www.aljazeera.com/news/2026/10/13/yemeni-government-launches-air-strikes-on-houthi-positions?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791899234000,
+    "summaryEn": "Yemeni rights group accuses the Houthis of killing five civilians and injuring more than a dozen others.",
+    "summaryAr": "Yemeni rights group accuses the Houthis of killing five civilians and injuring more than a dozen others.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran sees ‘false flag’ operations after UK blames IRGC for airbase incident",
+    "titleAr": "Iran sees ‘false flag’ operations after UK blames IRGC for airbase incident",
+    "link": "https://www.aljazeera.com/news/2026/10/13/iran-sees-false-flag-operations-after-uk-blames-irgc-for-airbase-incident?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791896636000,
+    "summaryEn": "Iran has been accused of being behind a plot against an airbase in the UK.",
+    "summaryAr": "Iran has been accused of being behind a plot against an airbase in the UK.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran threatens Gulf data centres: How exposed is the region’s internet?",
+    "titleAr": "Iran threatens Gulf data centres: How exposed is the region’s internet?",
+    "link": "https://www.aljazeera.com/news/2026/10/13/iran-threatens-gulf-data-centres-how-exposed-is-the-regions-internet?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791896613000,
+    "summaryEn": "Iran has warned that cables and data centres in the region could be attacked, as Houthi allies hold internet chokepoint.",
+    "summaryAr": "Iran has warned that cables and data centres in the region could be attacked, as Houthi allies hold internet chokepoint.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
+    "titleAr": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0ZCaFBya2c1NVlDNGJfVDRRTERfa3plVEM2eWViS0VudG93cWxZbnNFeFRHSDIyNVF4SXhNV0U5b05aWVhYSXpQTk5JTlg3YWdBVmlPLVotRWg1anNlTWRXclFMZXlNSjh0LUNNQnk0QkcxUHVNNm9qZ2tTUnNKb0kxWEZXYkZ5cDdSclNJY0FudXlOdXBnN2IyM216d1lSU180ejV5SDNPTDAxOXg2YnhZLWhoWWdPdkwwbnRJaWU?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791896582000,
+    "summaryEn": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again The Business Standard",
+    "summaryAr": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again The Business Standard",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Deadly Houthi attacks in Yemen’s Taiz as government forces advance in Marib",
+    "titleAr": "Deadly Houthi attacks in Yemen’s Taiz as government forces advance in Marib",
+    "link": "https://www.aljazeera.com/news/2026/10/13/deadly-houthi-attacks-in-yemens-taiz-as-government-forces-advance-in-marib?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791896253000,
+    "summaryEn": "Government forces engage in intense clashes as Houthi shelling targets residential areas and hospitals in Taiz.",
+    "summaryAr": "Government forces engage in intense clashes as Houthi shelling targets residential areas and hospitals in Taiz.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemeni families’ search for missing loved ones hindered by new fighting",
+    "titleAr": "Yemeni families’ search for missing loved ones hindered by new fighting",
+    "link": "https://www.aljazeera.com/news/2026/10/13/yemens-families-search-for-missing-loved-ones-hindered-by-new-fighting?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791894300000,
+    "summaryEn": "Hundreds of people have gone missing in Yemen, with families not knowing whether they were killed in fighting or detained.",
+    "summaryAr": "Hundreds of people have gone missing in Yemen, with families not knowing whether they were killed in fighting or detained.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales - TradingView",
+    "titleAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWlVuTVhFWENFblo3YzBXc2JKdGxMdWxIcG8tRFNCUlJQV1NfcDRfOFh5cGVqaW5CZTlyMVZMc2xIV1pyMk9oWXRNVVpHdnlYdUMyczRYUFN4NnBoMnRZNWN6OG1uRmhYWk5mX1VhTEk1RmltMGUxbnVabXpXS3NYbDl6MlFRNjNGb0E4TGtTRS1VS24wUHNuT0dTak5lcGpnYTBtZFpyLTluSE0wc3JDMU9reXozVUJEZ05oZlo5aUxSVHBxdS1jVGh4UzJUUzZrTVFic2Ezb1RmaWhkNGFMbHVtY3Y?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791889068000,
+    "summaryEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales TradingView",
+    "summaryAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s military raids NGO offices in Ramallah",
+    "titleAr": "Israel’s military raids NGO offices in Ramallah",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791888796000,
+    "summaryEn": "Al Jazeera’s Nida Ibrahim reports from Ramallah in the occupied West Bank where Israeli forces raided several NGOs.",
+    "summaryAr": "Al Jazeera’s Nida Ibrahim reports from Ramallah in the occupied West Bank where Israeli forces raided several NGOs.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales By Reuters - Investing.com",
+    "titleAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmUxR2U4OU16cEg2azVOLXBkY1VVV3k0SVBVb2d2QlIxbzMxbndnSHVhS1hQVXlJS2RuamktdDVrOU5tS3g2S3hzTkdQMzd1ZWg1V1dmalEwYjZ5WW1xSDFPYWhVV0xIVkNCbG9kUWJwZl8xd3VmRWlabXRwd1VHZE0xdWpXSlItODgxczRVczR6bFJzV1E0RC1nUnprS2xpeVo4dmJGS2I2YWFXeEZEcmtOUTVjVmFNbXBIX2lCWEFtdjdCMTNjSEZLMEVfWUROUEE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791887243000,
+    "summaryEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales By Reuters Investing.com",
+    "summaryAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales By Reuters Investing.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who are the Houthis and what do they want?",
+    "titleAr": "Who are the Houthis and what do they want?",
+    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1791873512000,
+    "summaryEn": "Their fighting with pro-government forces over Yemen's Red Sea coast and attacks on Saudi Arabia has put the spotlight on the Iran-backed group.",
+    "summaryAr": "Their fighting with pro-government forces over Yemen's Red Sea coast and attacks on Saudi Arabia has put the spotlight on the Iran-backed group.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -48,109 +240,13 @@
     ]
   },
   {
-    "titleEn": "Ronaldo waves Saudi-flag scarf after match interrupted by missile alert",
-    "titleAr": "Ronaldo waves Saudi-flag scarf after match interrupted by missile alert",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-clip-ronaldowears-saudi-shawl-ksa?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791864592000,
-    "summaryEn": "Portuguese superstar Cristiano Ronaldo waved a scarf with the Saudi flag after Al Nassr’s victory.",
-    "summaryAr": "Portuguese superstar Cristiano Ronaldo waved a scarf with the Saudi flag after Al Nassr’s victory.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
-    "titleAr": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
-    "link": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791862223000,
-    "summaryEn": "US President urges Zelenskyy, Putin to end 'ridiculous war' and insists they agreed to stop attacks on energy sites.",
-    "summaryAr": "US President urges Zelenskyy, Putin to end 'ridiculous war' and insists they agreed to stop attacks on energy sites.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia and Ukraine trade strikes amid doubt over ‘energy ceasefire’",
-    "titleAr": "Russia and Ukraine trade strikes amid doubt over ‘energy ceasefire’",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791861079000,
-    "summaryEn": "Ukraine's president says Russian attacks on Ukraine’s energy infrastructure are continuing despite 'energy ceasefire'.",
-    "summaryAr": "Ukraine's president says Russian attacks on Ukraine’s energy infrastructure are continuing despite 'energy ceasefire'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-    "titleAr": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791849600000,
-    "summaryEn": "US President Trump condemns Yemen's Houthis over escalating attacks, as Saudi Arabia halts flights at Riyadh airport.",
-    "summaryAr": "US President Trump condemns Yemen's Houthis over escalating attacks, as Saudi Arabia halts flights at Riyadh airport.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-    "titleAr": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-    "link": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791849245000,
-    "summaryEn": "Saudi Arabia claims it downed a ballistic missile fired at Riyadh, as the Houthis say they targeted King Khalid airport.",
-    "summaryAr": "Saudi Arabia claims it downed a ballistic missile fired at Riyadh, as the Houthis say they targeted King Khalid airport.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Why do Iran’s oil ‘intermediaries’ owe the government billions?",
-    "titleAr": "Why do Iran’s oil ‘intermediaries’ owe the government billions?",
-    "link": "https://www.aljazeera.com/news/2026/10/12/why-do-irans-oil-intermediaries-owe-the-government-billions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791839818000,
-    "summaryEn": "Iran says intermediaries handling its oil sales owe it billions of dollars, but how did the debts accumulate?",
-    "summaryAr": "Iran says intermediaries handling its oil sales owe it billions of dollars, but how did the debts accumulate?",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel demolitions in Negev displace 400 Palestinians",
-    "titleAr": "Israel demolitions in Negev displace 400 Palestinians",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/12/israel-demolitions-in-negev-displace-400-palestinians?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791838237000,
-    "summaryEn": "Israeli authorities have demolished 80 structures in Al-Dahiya village in Israel’s Negev Desert",
-    "summaryAr": "Israeli authorities have demolished 80 structures in Al-Dahiya village in Israel’s Negev Desert",
+    "titleEn": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting - Reuters",
+    "titleAr": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV3ZjaXowUkVCSkx4TVpHUFY1S0ttLV9kYW9TN1YxWnh6N05YSEFQMFVUb29weUJpNkcydVRoTFplY2locjdUSUVNd2tZeWNmZnJ3TzhubWRuUzZMLUZpakRFM2U3dXJMeHNfSWV3LVNteU51aTRZeFMxeEdTMjl6UENYcWxvcWMyZnkwYVRRZGlwTHh2LWc1OFFBcjJ6TGJXcG5hVWY0MTRYY19FTXAzdGxNM1M?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791841440000,
+    "summaryEn": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting Reuters",
+    "summaryAr": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -176,22 +272,6 @@
     ]
   },
   {
-    "titleEn": "Israeli strike on tent in Gaza’s Khan Younis kills three",
-    "titleAr": "Israeli strike on tent in Gaza’s Khan Younis kills three",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/12/israeli-strike-on-tent-in-gazas-khan-younis-kills-three?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791835564000,
-    "summaryEn": "Israeli strike on tent in Gaza’s Khan Younis kills three",
-    "summaryAr": "Israeli strike on tent in Gaza’s Khan Younis kills three",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Prominent Ransomware Negotiator Faces Extortion Charges",
     "titleAr": "Prominent Ransomware Negotiator Faces Extortion Charges",
     "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
@@ -204,6 +284,38 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
+    "titleAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjlEMy1kcTFPQkRmLUp6cmlpdjV6YlhoMHF5cVBQRXdJUkVmdGVPMVQzM2xMQk5vY1ZsLWJPMlZmeHZBRTZFaHZvS2pTQXZCTlliSGltUGhHVEM3VTJFczFkdUcwM29RQWtwZnlOd3Uyc2FJR1RjMlBuUDJnZmg5Y3IyWjNmS0RmTGZKbHNRbHYxRVVuam9aNjIyZ0t0N2R6?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791835086000,
+    "summaryEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
+    "summaryAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791834686000,
+    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -325,13 +437,13 @@
     ]
   },
   {
-    "titleEn": "Oil rises as Middle East supply concerns persist amid shipping attacks - The Daily Star",
-    "titleAr": "Oil rises as Middle East supply concerns persist amid shipping attacks - The Daily Star",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPREFONUhuSTByMjVyVnBnZGN6c2pSU0JrdDhQd3ZROXE1Z2VzT3Y1YVI0QWNfWWZ3OVpnNVFJTURyMHdsZzBSNmtaRjEyTjFLczc0TXVFNUVkLU9sRm1ZOGxNcEtFdTdJeVZvYUN4enFvQnU4ekFtNzRhajhkYUpRS3BDWThHa2ZwY3lzZUs2Tm1TWmVVTWhIY2pXcjR6MGgyaGhsWk9RemYwbXJsZXRhVmpfTUJpRmszWkE?oc=5",
+    "titleEn": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says - Egypt Independent",
+    "titleAr": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says - Egypt Independent",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVTd3ZWFXVVZRSE1Ga2tOTUlraGNRUHJOMlpmdzJFanczeEI5Tzl3Mkx3T25HYlEtX1gyelc3NDNIdnhaaUE3U0taSGRfNE9XVXV0TzVDTmpHVzBLOUVqNWI5eFh0TGRtTVQyV1hwcGNqeHJjalgza3lyaTZpdzZId1YyNXBSOGxxbmRUSmlXc3BPSWtEQVdLd0ZpRDAzVWVuX2ZtamtiaGNxT2hB?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791808589000,
-    "summaryEn": "Oil rises as Middle East supply concerns persist amid shipping attacks The Daily Star",
-    "summaryAr": "Oil rises as Middle East supply concerns persist amid shipping attacks The Daily Star",
+    "pubDate": 1791808704000,
+    "summaryEn": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says Egypt Independent",
+    "summaryAr": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says Egypt Independent",
     "tags": [
       {
         "textEn": "INTEL",
@@ -421,22 +533,6 @@
     ]
   },
   {
-    "titleEn": "Riyadh says its 'dealing with threat of drones and missiles' - Middle East Eye",
-    "titleAr": "Riyadh says its 'dealing with threat of drones and missiles' - Middle East Eye",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNjdxeUNkV3dScF9WY1hCbXhkalFvMkszMkh5SGVKdFk1R1ZvaEJIV0NTNUU0SVZweHBfbWRKMzhkNDdBT09JUEpPTEctRXFTU2VuT2FfLWdwbVUtR0FIelA3V0V3eWlzYUdJNllUc0ZtMERkb3FoS0R1NW1rVl9Mc3dWbjhmaU4xZVVwV2JhUzhKamx0a2x5QXB4dDVSY19vRnc2QnJJR0VFSDQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791799320000,
-    "summaryEn": "Riyadh says its 'dealing with threat of drones and missiles' Middle East Eye",
-    "summaryAr": "Riyadh says its 'dealing with threat of drones and missiles' Middle East Eye",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
     "titleAr": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
     "link": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
@@ -444,22 +540,6 @@
     "pubDate": 1791797883000,
     "summaryEn": "Footage from inside the airport shows the moment the strike hit on Saturday.",
     "summaryAr": "Footage from inside the airport shows the moment the strike hit on Saturday.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Top oil executives dropped from event schedule after Riyadh attacks - Middle East Eye",
-    "titleAr": "Top oil executives dropped from event schedule after Riyadh attacks - Middle East Eye",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRFNPeEFfeFdxMDhfQlJ4RGp0MkRPa3F1RW5zVFVrSmZnbWpQeWF0NVNJOFZ4QVhsbFdxWXYwZVRlU3lCODNZaUxYUDEzbVhOWFVlMGRmZ0FsVTRrOFZ0RUFxWTFnOEZlQUpZQWE5V0Z1M0tPTGI4dTFyS2V4cTl3d1NlcndGeGVCTzU3ckZSbDUwZHV2OWp6ZmdTSDJJcjMxTU9hY1gxMkdYVllFZWE1bWR3bTlGdzgydlI0?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791797700000,
-    "summaryEn": "Top oil executives dropped from event schedule after Riyadh attacks Middle East Eye",
-    "summaryAr": "Top oil executives dropped from event schedule after Riyadh attacks Middle East Eye",
     "tags": [
       {
         "textEn": "INTEL",
@@ -492,38 +572,6 @@
     "pubDate": 1791793332000,
     "summaryEn": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport Reuters",
     "summaryAr": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "titleAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjlEMy1kcTFPQkRmLUp6cmlpdjV6YlhoMHF5cVBQRXdJUkVmdGVPMVQzM2xMQk5vY1ZsLWJPMlZmeHZBRTZFaHZvS2pTQXZCTlliSGltUGhHVEM3VTJFczFkdUcwM29RQWtwZnlOd3Uyc2FJR1RjMlBuUDJnZmg5Y3IyWjNmS0RmTGZKbHNRbHYxRVVuam9aNjIyZ0t0N2R6?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791791893000,
-    "summaryEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
-    "summaryAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
-    "titleAr": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0ZCaFBya2c1NVlDNGJfVDRRTERfa3plVEM2eWViS0VudG93cWxZbnNFeFRHSDIyNVF4SXhNV0U5b05aWVhYSXpQTk5JTlg3YWdBVmlPLVotRWg1anNlTWRXclFMZXlNSjh0LUNNQnk0QkcxUHVNNm9qZ2tTUnNKb0kxWEZXYkZ5cDdSclNJY0FudXlOdXBnN2IyM216d1lSU180ejV5SDNPTDAxOXg2YnhZLWhoWWdPdkwwbnRJaWU?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791791533000,
-    "summaryEn": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again The Business Standard",
-    "summaryAr": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again The Business Standard",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -572,22 +620,6 @@
     "pubDate": 1791789438000,
     "summaryEn": "South African rand steady as Middle East conflict, US inflation test sentiment CNBC Africa",
     "summaryAr": "South African rand steady as Middle East conflict, US inflation test sentiment CNBC Africa",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791789066000,
-    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -677,22 +709,6 @@
     ]
   },
   {
-    "titleEn": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok - Awani International",
-    "titleAr": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMFVyVHRibWtqUjFNWnRkVmE1WjRUZC01TkRFY1QwYVk2U3B1Zm8tLUJvWXl0MWxld3pOXzF5eDJBWXdlU3FCOFdadlpXSWh5RDN3ZVZRVktMVXdwNzRkU0FwTkpYTWZENkp2NzE4OTdhN2N1dFBna3dBelQ5RFpIX1UxbU02UkJ1MWtTU1JvVmRPcHl0bTgzZjVGSW9PbjRvXzFnMmptVWxabHR2dDByTU9XaF9IX3E1ZnZKRlpNbw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791773182000,
-    "summaryEn": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok Awani International",
-    "summaryAr": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok Awani International",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "South Korean shares fall, won firms as Middle East tensions escalate - TradingView",
     "titleAr": "South Korean shares fall, won firms as Middle East tensions escalate - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSlZjZERXR2xPQnRiUVVkdVlRc0U3dVhGUldTX2ZyREk1WDRSbmhOM0t2bGwyZTJJVVdIUG82UktrSFRFWHlGaWc0d0Rpa0ZEZG8xbzhUQVM3REdXNmlZeEVwaE9BdTNQeVVYbHU3eUUzVG1nU3Y4WkJxWTVPQ1h2aEo0NnRkX0d0MVBaWGlZUXoydmVUTkVkdzk0b1F1SU5WRzRMalZoZWVnZVBFQ2pSVWQ1eG1xWjkzUDlRMVBlaUI3LUdsWDdhaVVwVW9lSnpLc1g4?oc=5",
@@ -705,22 +721,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil climbs as Mideast conflict, tanker attacks persist By Reuters - Investing.com South Africa",
-    "titleAr": "Oil climbs as Mideast conflict, tanker attacks persist By Reuters - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVjh4ZDVEYXhMVUM5WjNaV2RfTTlyTmJOUTh4cWNVakFydjFNdEo5d2JfNGg0aWIxc1lnbFBDRzVDTGFMazBSejNac25EaU1OWnhudnlSek5uaXRUTjE2OXdaTU45WDFIV3kzMjE2NWp6MmNETjh3S1ZYaXRTRTlVQTVSOGVvSzlHdUZQd2pjenlQU1RpeFFTMFUycHQ3Z2ZJLURrQzhIRW9aOW9u?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791764845000,
-    "summaryEn": "Oil climbs as Mideast conflict, tanker attacks persist By Reuters Investing.com South Africa",
-    "summaryAr": "Oil climbs as Mideast conflict, tanker attacks persist By Reuters Investing.com South Africa",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
