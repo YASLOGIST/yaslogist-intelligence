@@ -1,5 +1,149 @@
 [
   {
+    "titleEn": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "titleAr": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "pubDate": 1792018607000,
+    "summaryEn": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+    "summaryAr": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Colombia opposition groups launch protest against de la Espriella’s cuts",
+    "titleAr": "Colombia opposition groups launch protest against de la Espriella’s cuts",
+    "link": "https://www.aljazeera.com/news/2026/10/14/colombia-opposition-groups-launch-protest-against-de-la-espriellas-cuts?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792013727000,
+    "summaryEn": "Former President Gustavo Petro joined thousands of demonstrators in Bogota in march against austerity, Israel ties.",
+    "summaryAr": "Former President Gustavo Petro joined thousands of demonstrators in Bogota in march against austerity, Israel ties.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "titleAr": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+    "source": "Dark Reading",
+    "pubDate": 1792012813000,
+    "summaryEn": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on…",
+    "summaryAr": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli quadcopter drone drops bomb in Lebanon",
+    "titleAr": "Israeli quadcopter drone drops bomb in Lebanon",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792010866000,
+    "summaryEn": "An Israeli quadcopter drone was filmed dropping a bomb on the outskirts of the village of Zibqin in southern Lebanon.",
+    "summaryAr": "An Israeli quadcopter drone was filmed dropping a bomb on the outskirts of the village of Zibqin in southern Lebanon.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Families of Trinidadian men killed in US boat strike demand accountability",
+    "titleAr": "Families of Trinidadian men killed in US boat strike demand accountability",
+    "link": "https://www.aljazeera.com/news/2026/10/14/families-of-trinidadian-men-killed-in-us-boat-strike-demand-accountability?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792010579000,
+    "summaryEn": "The Trump administration has killed at least 239 people in boat strikes denounced as extrajudicial killings.",
+    "summaryAr": "The Trump administration has killed at least 239 people in boat strikes denounced as extrajudicial killings.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthi attacks disrupt travel plans for Mecca pilgrims",
+    "titleAr": "Houthi attacks disrupt travel plans for Mecca pilgrims",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-attacks-disrupt-travel-plans-for-mecca-pilgrims?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792009504000,
+    "summaryEn": "Muslim pilgrims headed to Mecca for Umrah are facing travel disruptions as Houthi attacks hit Saudi Arabia.",
+    "summaryAr": "Muslim pilgrims headed to Mecca for Umrah are facing travel disruptions as Houthi attacks hit Saudi Arabia.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Sally Rooney’s books pulled from UK over Palestine Action support",
+    "titleAr": "Sally Rooney’s books pulled from UK over Palestine Action support",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sally-rooneys-books-pulled-from-uk-over-palestine-action-support?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792005807000,
+    "summaryEn": "Award-winning author Sally Rooney’s books are being withdrawn from the UK over her support for Palestine Action",
+    "summaryAr": "Award-winning author Sally Rooney’s books are being withdrawn from the UK over her support for Palestine Action",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "NEWSLETTER: Houthis bring the war to Riyadh - Reuters",
+    "titleAr": "NEWSLETTER: Houthis bring the war to Riyadh - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHJqSGhySVVZXy02Zk5GMWRyNjA2bURRWWpVbU9FdEREM2xBY1h6dnZUZ0lWVGFobjFCWjZhZTdra1Z3MjNGV1hkcUNaUkxueHdPTDlTSGI2V1JFRzl5WHRVQWNEM0dxZEs3MzRLSFhtam5qME1GQ2dudVNMMXZ3RnpsTE4?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792003680000,
+    "summaryEn": "NEWSLETTER: Houthis bring the war to Riyadh Reuters",
+    "summaryAr": "NEWSLETTER: Houthis bring the war to Riyadh Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel’s former security chief sues Netanyahu for October 7 defamation",
+    "titleAr": "Israel’s former security chief sues Netanyahu for October 7 defamation",
+    "link": "https://www.aljazeera.com/news/2026/10/14/israels-former-security-chief-sues-netanyahu-for-october-7-defamation?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792003143000,
+    "summaryEn": "Bar and Netanyahu have traded blame over the Hamas-led attack, as elections in Israel loom.",
+    "summaryAr": "Bar and Netanyahu have traded blame over the Hamas-led attack, as elections in Israel loom.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "UN peacekeeping chief says talks on future of Lebanon mission must begin soon - Reuters",
     "titleAr": "UN peacekeeping chief says talks on future of Lebanon mission must begin soon - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZFFDWURYODViUnVqWEFWMzZGUkxuUVQ2SFFDZTFsdGRseDR2Z0MwNzV5eWZXMXVEZnd2T243QmdyaTRSM3BwbDB1S19manhlNlJmc3VOSDVNX0JQNlBMOFFWQ1l2ZWJ1TE5FNHRINThxd1ZhSVVFVDR6N3dKdElubTlLd09qQU9HczZsMktsUjZSdFVaWnl2ajJPSXFXdE85ZFVzU215VDg1cnNUVGp3eXNhS2lGX1JaWGhsYTFtWWw2dlE?oc=5",
@@ -7,6 +151,22 @@
     "pubDate": 1792001448000,
     "summaryEn": "UN peacekeeping chief says talks on future of Lebanon mission must begin soon Reuters",
     "summaryAr": "UN peacekeeping chief says talks on future of Lebanon mission must begin soon Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791999276000,
+    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,105 +208,9 @@
     ]
   },
   {
-    "titleEn": "Palestinian collective uses art to connect Gaza and the West Bank",
-    "titleAr": "Palestinian collective uses art to connect Gaza and the West Bank",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/palestinian-collective-uses-art-to-connect-gaza-and-the-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791997880000,
-    "summaryEn": "A Palestinian exhibition opening simultaneously in Bethlehem and Gaza is challenging Israeli restrictions.",
-    "summaryAr": "A Palestinian exhibition opening simultaneously in Bethlehem and Gaza is challenging Israeli restrictions.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Settlers attack Palestinian mosque near occupied East Jerusalem",
-    "titleAr": "Settlers attack Palestinian mosque near occupied East Jerusalem",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/settlers-attack-palestinian-mosque-near-occupied-east-jerusalem?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791997501000,
-    "summaryEn": "Settlers attack Palestinian mosque near occupied East Jerusalem",
-    "summaryAr": "Settlers attack Palestinian mosque near occupied East Jerusalem",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ukraine accuses Elon Musk’s SpaceX of throttling Starlink terminals",
-    "titleAr": "Ukraine accuses Elon Musk’s SpaceX of throttling Starlink terminals",
-    "link": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791997351000,
-    "summaryEn": "Officials say ability to block Russian drones restricted as Kyiv reels from second night of ballistic missile attacks.",
-    "summaryAr": "Officials say ability to block Russian drones restricted as Kyiv reels from second night of ballistic missile attacks.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
-    "titleAr": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
-    "link": "https://www.aljazeera.com/news/2026/10/14/suspected-israeli-online-operations-cause-alarm-in-iran-and-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791996672000,
-    "summaryEn": "Suspected online espionage triggers intense security crackdowns and counter-intelligence measures in Iran and Lebanon.",
-    "summaryAr": "Suspected online espionage triggers intense security crackdowns and counter-intelligence measures in Iran and Lebanon.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "At least two security officials killed near Iran’s critical Chabahar port",
-    "titleAr": "At least two security officials killed near Iran’s critical Chabahar port",
-    "link": "https://www.aljazeera.com/news/2026/10/14/at-least-two-security-officials-killed-near-irans-critical-chabahar-port?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791994924000,
-    "summaryEn": "Iran says 'terrorist groups' supported from outside the country are targeting security forces.",
-    "summaryAr": "Iran says 'terrorist groups' supported from outside the country are targeting security forces.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
-    "titleAr": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
-    "link": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791994089000,
-    "summaryEn": "Without a quick deal to move fertiliser through the strait, agricultural productivity would 'significantly drop'.",
-    "summaryAr": "Without a quick deal to move fertiliser through the strait, agricultural productivity would 'significantly drop'.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Pilgrims caught up in Houthi strikes on Saudi Arabia - Reuters",
     "titleAr": "Pilgrims caught up in Houthi strikes on Saudi Arabia - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTWUzYUQwXzFUVGJsY2RZTUhiY055eFFGRGtYMDR0TkU0TkRLaWZaQ1VLdnhNbTFkOTBFOW1ZVEJTWWEwWDFBZHBPZTgyY19MZURTTVExR1hvRWtub2hZUGtTNWs2Z3JLMFZYVWhvZ0FrQmxSRWVrYkxyc1VzWWk3RUZGajF5OFRxZHJWZTBvdWJ2VFRhM0IyZkZwRXBHd2F1SUE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMHcyVVNZc09MWkJoSm0tUGF6MTJhRG9TUzgzeEZnMzR4em9iam00Q2FndEluNi02RDJUWHA3SGlzMjVCM1A5UHFCRzluVDJ5RjhLOEdZekpqZXFoT3VXcUlXMzc5MlNlQkZoVjFVeU42bVV3U1BRblNkVHUwcWd0dVdwN0h6WnloTV9SQUpMNnh1bjRqa1N4bG9vYW1TSnFFSU1ONDJIX29qSzRkR0hvMUVncw?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791993823000,
     "summaryEn": "Pilgrims caught up in Houthi strikes on Saudi Arabia Reuters",
@@ -160,34 +224,18 @@
     ]
   },
   {
-    "titleEn": "Jerusalem Daily: UN demands Israel do more to stop settler violence",
-    "titleAr": "Jerusalem Daily: UN demands Israel do more to stop settler violence",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/jerusalem-daily-un-demands-israel-do-more-to-stop-settler-violence?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791992994000,
-    "summaryEn": "Netanyahu warns again of Israel’s ‘enemies’ planning an attack before elections.",
-    "summaryAr": "Netanyahu warns again of Israel’s ‘enemies’ planning an attack before elections.",
+    "titleEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
+    "titleAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjlEMy1kcTFPQkRmLUp6cmlpdjV6YlhoMHF5cVBQRXdJUkVmdGVPMVQzM2xMQk5vY1ZsLWJPMlZmeHZBRTZFaHZvS2pTQXZCTlliSGltUGhHVEM3VTJFczFkdUcwM29RQWtwZnlOd3Uyc2FJR1RjMlBuUDJnZmg5Y3IyWjNmS0RmTGZKbHNRbHYxRVVuam9aNjIyZ0t0N2R6?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791992825000,
+    "summaryEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
+    "summaryAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",
-    "titleAr": "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",
-    "link": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791992987000,
-    "summaryEn": "Saudi Pro League postpones three matches after Houthi attacks, including one involving Cristiano Ronaldo's Al Nassr.",
-    "summaryAr": "Saudi Pro League postpones three matches after Houthi attacks, including one involving Cristiano Ronaldo's Al Nassr.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -208,22 +256,6 @@
     ]
   },
   {
-    "titleEn": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn",
-    "titleAr": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn",
-    "link": "https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791990378000,
-    "summaryEn": "Almost one million people cut off from food aid as health infrastructure overwhelmed by war-wounded.",
-    "summaryAr": "Almost one million people cut off from food aid as health infrastructure overwhelmed by war-wounded.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Yemen fighting overwhelms hospitals, cuts aid to 800,000 people, relief agencies say - Reuters",
     "titleAr": "Yemen fighting overwhelms hospitals, cuts aid to 800,000 people, relief agencies say - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVpzVDN0cmNMQUVHNkJaYWM0V2pOdXgzTGFrYWY3V1ZKNTd2WGhkY2JvdU1Vd2tOanRlRDdzY2JOTHZoLTlfcTdtcndRUGNFUlhqWFF6TWNhclZVeTcxY1pqX00ycm5Pb1JHaFQ2ekR6bEhsWTItbzJBOElETVZFMU9hdnVOc1BoQkgtMkVUNnRzUUJvQmlhR1puTk1COEZBSDYtODFYWVVUc0FTQ1IzWlBBNlFOeUFYSnZTYU5B?oc=5",
@@ -236,22 +268,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
-    "titleAr": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
-    "link": "https://www.aljazeera.com/news/2026/10/14/law-of-the-sea-comes-to-life-in-the-hunt-for-sanctioned-russian-oil?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791988689000,
-    "summaryEn": "Ukraine's Western allies are using maritime law to inspect Russian shadow tankers.",
-    "summaryAr": "Ukraine's Western allies are using maritime law to inspect Russian shadow tankers.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -348,6 +364,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1791979200000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-0322 Palo Alto Networks PAN-OS Cod…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-0322 Palo Alto Networks PAN-OS Cod…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -544,6 +576,22 @@
     ]
   },
   {
+    "titleEn": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers - Reuters",
+    "titleAr": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791941220000,
+    "summaryEn": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers Reuters",
+    "summaryAr": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "titleAr": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5",
@@ -551,22 +599,6 @@
     "pubDate": 1791936360000,
     "summaryEn": "Iran shifting tactics to step up attacks on shipping before US vote, officials say Reuters",
     "summaryAr": "Iran shifting tactics to step up attacks on shipping before US vote, officials say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791932374000,
-    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -672,50 +704,18 @@
     ]
   },
   {
-    "titleEn": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say - Middle East Eye",
-    "titleAr": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say - Middle East Eye",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNaW9FOVd5UzFlc1FUc1h4dGVTLXR1TXpZWkt0UGxDc0xaZDJtWjAyZXJoWHh3MzlOYnlGMkl4UUVRbFFOdkxvcmVMUzVuQ19ZOHJTS0JsNU11c2JUcHg0N2FEWnpNMzl5Zi10cTYwZHlESTRhNl9qRTRpN2Q2RXdHS0lfM3ppQldHWE95Q192Nmx6OUFJb1RkZ3NqNVBtNkJfSVlGMkh0Z0lYVGFXSEQxTTlENEduUDkydDJtQUlNUW5qQXJaamplcENMZ3kwbEU0LWhjd3NZWFo2YzdUaktld2hjNkY4RmxDdm5kUDVjVjNnUEVsTldjemNndEV6WDdWYWc?oc=5",
+    "titleEn": "Oil prices ease as US-Russia diesel deal hopes offset Middle East attacks - Virginia Business",
+    "titleAr": "Oil prices ease as US-Russia diesel deal hopes offset Middle East attacks - Virginia Business",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdkFUZzRWOEpUWGRlbG1fMTkzTi1vUWV0bFU5d1ptRTloejY4d1Jhekp5TGYzcFJ5bV9OdG1Jb05EYi1sZzhRdDBvckxZdWV5MTV3QW9PbFpYZ0pid1VDOC1JNkk4SjJOM0lSRFhpN2stb0dKdlhiNVNnMUtKd0xCSEZ4Z0M1NkM4Qmc?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791916920000,
-    "summaryEn": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say Middle East Eye",
-    "summaryAr": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say Middle East Eye",
+    "pubDate": 1791920924000,
+    "summaryEn": "Oil prices ease as US-Russia diesel deal hopes offset Middle East attacks Virginia Business",
+    "summaryAr": "Oil prices ease as US-Russia diesel deal hopes offset Middle East attacks Virginia Business",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "titleAr": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-    "source": "The Hacker News",
-    "pubDate": 1791912791000,
-    "summaryEn": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti ha…",
-    "summaryAr": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti ha…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections - Reuters",
-    "titleAr": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUjJueXpwNnRLbk1Db0NkZzBZS0tqUGF4NHU3ZWYxcWRHdVU0WW9uYVZJeUlpUVR2amR3Q0dyd1ZwYTFwZjRkUXU2VWRmX2otWUh5dHBmTW1Tak1iczg5a3pzR21oZTk3S3lzN0NfWmZ4TWRFalFNLVBsdU5vVTFkSDQ4TnNGVDZOcnVTS2FWTzBTbW1pN0ZoamZrRG5fQlc2QXpZWjV3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791909506000,
-    "summaryEn": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections Reuters",
-    "summaryAr": "Trump says Houthis trying to drive up oil prices ahead of US midterm elections Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
