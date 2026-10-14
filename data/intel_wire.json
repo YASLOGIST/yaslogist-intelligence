@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-    "titleAr": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
+    "titleEn": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "titleAr": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791936360000,
+    "summaryEn": "Iran shifting tactics to step up attacks on shipping before US vote, officials say Reuters",
+    "summaryAr": "Iran shifting tactics to step up attacks on shipping before US vote, officials say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+    "titleAr": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1791923590000,
-    "summaryEn": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-    "summaryAr": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+    "pubDate": 1791936000000,
+    "summaryEn": "A Saudi Aramco building has been hit in Dhahran, following Saudi-led coalition strikes on Houthi 'vital assets' in Yemen",
+    "summaryAr": "A Saudi Aramco building has been hit in Dhahran, following Saudi-led coalition strikes on Houthi 'vital assets' in Yemen",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -16,18 +32,18 @@
     ]
   },
   {
-    "titleEn": "Booms heard near Saudi Aramco headquarters as Houthi conflict escalates - Reuters",
-    "titleAr": "Booms heard near Saudi Aramco headquarters as Houthi conflict escalates - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791922380000,
-    "summaryEn": "Booms heard near Saudi Aramco headquarters as Houthi conflict escalates Reuters",
-    "summaryAr": "Booms heard near Saudi Aramco headquarters as Houthi conflict escalates Reuters",
+    "titleEn": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+    "titleAr": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+    "source": "Dark Reading",
+    "pubDate": 1791930597000,
+    "summaryEn": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
+    "summaryAr": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
       }
     ]
   },
@@ -36,9 +52,89 @@
     "titleAr": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
     "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1791921735000,
+    "pubDate": 1791930595000,
     "summaryEn": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
     "summaryAr": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+    "titleAr": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+    "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+    "source": "BleepingComputer",
+    "pubDate": 1791927206000,
+    "summaryEn": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF f…",
+    "summaryAr": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF f…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
+    "titleAr": "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2FlSHhCeHdBNFJVdTB4TndzdEgweWtZcktCbmVrOTRpOGNzRXVlLUplRUFqX0QzU1dCcjJQX3hHdVVFeHdHOWVjM0o1VG5FcXdwSGE2Y0pFRmpBb19lbml2T3FqY0x4VEs0NThJdFJRZVAteGlvRjhkRE1JUm0xdEZZaTE0akRfbjhQb1d4RHluWHRHeVdyZWg4MnY?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791926547000,
+    "summaryEn": "In Yemen's Taiz, shelling worsens and prices spiral Reuters",
+    "summaryAr": "In Yemen's Taiz, shelling worsens and prices spiral Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies",
+    "titleAr": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791925484000,
+    "summaryEn": "Yemeni government forces are encircled by the Houthis in Taiz, where blockades on road routes have worsened shortages.",
+    "summaryAr": "Yemeni government forces are encircled by the Houthis in Taiz, where blockades on road routes have worsened shortages.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Surveillance video shows moment ICE vehicle strikes man in Houston",
+    "titleAr": "Surveillance video shows moment ICE vehicle strikes man in Houston",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/surveillance-video-shows-moment-ice-vehicle-strikes-man-in-houston?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791925420000,
+    "summaryEn": "New footage shows the moment 48-year-old Miguel Parra-Hernandez was hit by an ICE officer’s car in Houston, Texas.",
+    "summaryAr": "New footage shows the moment 48-year-old Miguel Parra-Hernandez was hit by an ICE officer’s car in Houston, Texas.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+    "titleAr": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1791923590000,
+    "summaryEn": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+    "summaryAr": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -84,7 +180,7 @@
     "titleAr": "Saudi-led coalition intercepts Houthi missiles, drones launched toward country - The Jerusalem Post",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92NGJLRy1EbzdGUTlQdWRRVE1yWU1UdW1fdURBMXdCNU9jV1I3U0VhRnUwUjN6c0hSTUxMQ2g4VllWbm0tOWRXMUdDYVlUU054TEpGbHlnNlZaeDNU?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1791919736000,
+    "pubDate": 1791917371000,
     "summaryEn": "Saudi-led coalition intercepts Houthi missiles, drones launched toward country The Jerusalem Post",
     "summaryAr": "Saudi-led coalition intercepts Houthi missiles, drones launched toward country The Jerusalem Post",
     "tags": [
@@ -96,13 +192,13 @@
     ]
   },
   {
-    "titleEn": "Israel’s Yellow Line in Gaza advances, leaving displaced with nowhere to go",
-    "titleAr": "Israel’s Yellow Line in Gaza advances, leaving displaced with nowhere to go",
-    "link": "https://www.aljazeera.com/news/2026/10/13/gazas-yellow-line-advances-leaving-displaced-families-with-nowhere-to-go?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791916972000,
-    "summaryEn": "As Israel moves Gaza’s Yellow Line westward, displaced families in Shujayea face renewed danger.",
-    "summaryAr": "As Israel moves Gaza’s Yellow Line westward, displaced families in Shujayea face renewed danger.",
+    "titleEn": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say - Middle East Eye",
+    "titleAr": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say - Middle East Eye",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNaW9FOVd5UzFlc1FUc1h4dGVTLXR1TXpZWkt0UGxDc0xaZDJtWjAyZXJoWHh3MzlOYnlGMkl4UUVRbFFOdkxvcmVMUzVuQ19ZOHJTS0JsNU11c2JUcHg0N2FEWnpNMzl5Zi10cTYwZHlESTRhNl9qRTRpN2Q2RXdHS0lfM3ppQldHWE95Q192Nmx6OUFJb1RkZ3NqNVBtNkJfSVlGMkh0Z0lYVGFXSEQxTTlENEduUDkydDJtQUlNUW5qQXJaamplcENMZ3kwbEU0LWhjd3NZWFo2YzdUaktld2hjNkY4RmxDdm5kUDVjVjNnUEVsTldjemNndEV6WDdWYWc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791916920000,
+    "summaryEn": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say Middle East Eye",
+    "summaryAr": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say Middle East Eye",
     "tags": [
       {
         "textEn": "INTEL",
@@ -124,38 +220,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Cholera cases surge in Yemen as conflict intensifies, WHO says",
-    "titleAr": "Cholera cases surge in Yemen as conflict intensifies, WHO says",
-    "link": "https://www.aljazeera.com/news/2026/10/13/cholera-cases-surge-in-yemen-as-conflict-intensifies-who-says?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1791911925000,
-    "summaryEn": "Yemen has reported 8,034 suspected cases and 27 deaths this year, with a quarter of the total coming in last four weeks.",
-    "summaryAr": "Yemen has reported 8,034 suspected cases and 27 deaths this year, with a quarter of the total coming in last four weeks.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
-    "titleAr": "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2FlSHhCeHdBNFJVdTB4TndzdEgweWtZcktCbmVrOTRpOGNzRXVlLUplRUFqX0QzU1dCcjJQX3hHdVVFeHdHOWVjM0o1VG5FcXdwSGE2Y0pFRmpBb19lbml2T3FqY0x4VEs0NThJdFJRZVAteGlvRjhkRE1JUm0xdEZZaTE0akRfbjhQb1d4RHluWHRHeVdyZWg4MnY?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791909616000,
-    "summaryEn": "In Yemen's Taiz, shelling worsens and prices spiral Reuters",
-    "summaryAr": "In Yemen's Taiz, shelling worsens and prices spiral Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -183,22 +247,6 @@
     "pubDate": 1791909250000,
     "summaryEn": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events EnergyNow.com",
     "summaryAr": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "titleAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjlEMy1kcTFPQkRmLUp6cmlpdjV6YlhoMHF5cVBQRXdJUkVmdGVPMVQzM2xMQk5vY1ZsLWJPMlZmeHZBRTZFaHZvS2pTQXZCTlliSGltUGhHVEM3VTJFczFkdUcwM29RQWtwZnlOd3Uyc2FJR1RjMlBuUDJnZmg5Y3IyWjNmS0RmTGZKbHNRbHYxRVVuam9aNjIyZ0t0N2R6?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791906843000,
-    "summaryEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
-    "summaryAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -240,6 +288,22 @@
     ]
   },
   {
+    "titleEn": "Turkey's Erdogan Says He Will Stand by Saudi Arabia Amid Houthi Attacks - Haaretz",
+    "titleAr": "Turkey's Erdogan Says He Will Stand by Saudi Arabia Amid Houthi Attacks - Haaretz",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEI5TXRsY2tPaF9QNWJrOFFpdkJRdWRadmJja09QX25KSjFVb0k1T3BDaEV4c1NkLXZHU2ZEVWNBcXJOc0Mwc2d1OUMxdllmQXJ2WW1OU29OVEhCWjZSR1FLbGp4VEZIMXFaMUJkeFhENjNwQWhfaUFBVzI1U2Jmb21hS0VIY2kwOTRrTWRvY1Y5cnF4WEdjcS1iOWFaNXcwdFlYV2RLdnF4U2stOGh0WHNndld1TVZPeXhmWGVTV1JOTkF3MjNXZERMU1Q4aC1aRlhidUpGSjl3SzQ2VGhfSU9FS0ZPcUtMN1d4TXVDdW1HVlV3Rkpla2dRWS1DdlZ5ZnM3Q19aSHRjZmM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791902340000,
+    "summaryEn": "Turkey's Erdogan Says He Will Stand by Saudi Arabia Amid Houthi Attacks Haaretz",
+    "summaryAr": "Turkey's Erdogan Says He Will Stand by Saudi Arabia Amid Houthi Attacks Haaretz",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
     "titleAr": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again - The Business Standard",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0ZCaFBya2c1NVlDNGJfVDRRTERfa3plVEM2eWViS0VudG93cWxZbnNFeFRHSDIyNVF4SXhNV0U5b05aWVhYSXpQTk5JTlg3YWdBVmlPLVotRWg1anNlTWRXclFMZXlNSjh0LUNNQnk0QkcxUHVNNm9qZ2tTUnNKb0kxWEZXYkZ5cDdSclNJY0FudXlOdXBnN2IyM216d1lSU180ejV5SDNPTDAxOXg2YnhZLWhoWWdPdkwwbnRJaWU?oc=5",
@@ -252,22 +316,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1791892800000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Inj…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Inj…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -288,6 +336,54 @@
     ]
   },
   {
+    "titleEn": "Inductive Automation Ignition Software",
+    "titleAr": "Inductive Automation Ignition Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+    "source": "CISA Advisories",
+    "pubDate": 1791892800000,
+    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level. The following versions o…",
+    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level. The following versions o…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+    "titleAr": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+    "source": "CISA Advisories",
+    "pubDate": 1791892800000,
+    "summaryEn": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8…",
+    "summaryAr": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1791892800000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Inj…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Inj…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales - TradingView",
     "titleAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWlVuTVhFWENFblo3YzBXc2JKdGxMdWxIcG8tRFNCUlJQV1NfcDRfOFh5cGVqaW5CZTlyMVZMc2xIV1pyMk9oWXRNVVpHdnlYdUMyczRYUFN4NnBoMnRZNWN6OG1uRmhYWk5mX1VhTEk1RmltMGUxbnVabXpXS3NYbDl6MlFRNjNGb0E4TGtTRS1VS24wUHNuT0dTak5lcGpnYTBtZFpyLTluSE0wc3JDMU9reXozVUJEZ05oZlo5aUxSVHBxdS1jVGh4UzJUUzZrTVFic2Ezb1RmaWhkNGFMbHVtY3Y?oc=5",
@@ -295,6 +391,22 @@
     "pubDate": 1791889068000,
     "summaryEn": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales TradingView",
     "summaryAr": "J&J beats earnings estimates; Middle East conflict weighs on medical device sales TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes - Reuters",
+    "titleAr": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclNUQUdGdlRtUDhteWNFb0FkSHc2emhTVE1hNTQ4SGQ2MWtkTkRiUzJPd28xY3VHQ0ZZVmUyOVJpa3gyS3pyczJ5X1pMQllhMGdqQ3VLUU5BWkYxWVlLbWQ4SktZMjhySFhmWFZzYVpEOFJzZVlZa291NEx4Qnd6aU9tWTZlbmh6c3V1cTNJUTNGX0drQmliNFhaSHhsMlhJNElsa1AtYjdQR29jbGZ4QnhQZXNjYTZmMjMzSmpR?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791887980000,
+    "summaryEn": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes Reuters",
+    "summaryAr": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -368,13 +480,29 @@
     ]
   },
   {
-    "titleEn": "Oil prices mixed as US-Russia diesel deal hopes offset Saudi Yemen attacks - Reuters",
-    "titleAr": "Oil prices mixed as US-Russia diesel deal hopes offset Saudi Yemen attacks - Reuters",
+    "titleEn": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks - Reuters",
+    "titleAr": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa2sxWTVlekZ2bXloVXNiOUltMm5iODVOMW9NTUo4Q016ZU02OFQ5TU9relFTcUZSaW8xV0c2YmNVbE5jWW5uQjhKeXNKaWxBcE92SU1fQUU0R2RVamdNUzRhTER3NzEzMFUtRVd3bzVnZ1g0ZmtRek95VHdYbVNNMmNacmlDd3dLTThmaGF2VVJDYTc4c1hQeUZfX0ZGQzZjTXlpLU52U3JuUGpjOHJjWndoS19LandSX0dtMmdUMzNKZw?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1791851100000,
-    "summaryEn": "Oil prices mixed as US-Russia diesel deal hopes offset Saudi Yemen attacks Reuters",
-    "summaryAr": "Oil prices mixed as US-Russia diesel deal hopes offset Saudi Yemen attacks Reuters",
+    "summaryEn": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks Reuters",
+    "summaryAr": "Oil prices settle mixed, focus on US-Russia diesel deal, Saudi Yemen attacks Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting - Reuters",
+    "titleAr": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV3ZjaXowUkVCSkx4TVpHUFY1S0ttLV9kYW9TN1YxWnh6N05YSEFQMFVUb29weUJpNkcydVRoTFplY2locjdUSUVNd2tZeWNmZnJ3TzhubWRuUzZMLUZpakRFM2U3dXJMeHNfSWV3LVNteU51aTRZeFMxeEdTMjl6UENYcWxvcWMyZnkwYVRRZGlwTHh2LWc1OFFBcjJ6TGJXcG5hVWY0MTRYY19FTXAzdGxNM1M?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791841440000,
+    "summaryEn": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting Reuters",
+    "summaryAr": "North Korea's Kim showcases missile capable of reaching US as Trump signals possible meeting Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -480,6 +608,22 @@
     ]
   },
   {
+    "titleEn": "Galp's Q3 refining margins hit record high on Middle East fuel supply squeeze - TradingView",
+    "titleAr": "Galp's Q3 refining margins hit record high on Middle East fuel supply squeeze - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa0c2VmF6VkptS3ZQdC1FVDE1NTZyc3dZWHdmcTVVb2FJdjZFaUhxenUtSVVlNGZrcmxJby12d2g1UllydWlDdmJLTVkzM1RNUEhmd0d6bWtjdlNxR3pXM2NMR19xa3RjWGJQYmJDN0Nfb1VNc3NQM3NFVFlyNnBoOHVoX082akF6OWVaaEJNUmNQYUhESDFyMndUQldDYThnSk1TNDFNOVdpWUdCNHlfWnZNZnBoSk81MHNvVUFKUnd6b2R1dV9yZDEyYkw4dVRYOFFEc05POHhoM1NuaHM2Xw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1791823319000,
+    "summaryEn": "Galp's Q3 refining margins hit record high on Middle East fuel supply squeeze TradingView",
+    "summaryAr": "Galp's Q3 refining margins hit record high on Middle East fuel supply squeeze TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "On Yemen's desert battlefield, a war with global consequences is being waged",
     "titleAr": "On Yemen's desert battlefield, a war with global consequences is being waged",
     "link": "https://www.bbc.co.uk/news/articles/c5m2dn7zz4nyo?at_medium=RSS&at_campaign=rss",
@@ -572,150 +716,6 @@
     "pubDate": 1791807585000,
     "summaryEn": "EU establishes new Lebanon support mission Reuters",
     "summaryAr": "EU establishes new Lebanon support mission Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why is it so hard to fight the Houthis?",
-    "titleAr": "Why is it so hard to fight the Houthis?",
-    "link": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791807301000,
-    "summaryEn": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
-    "summaryAr": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Brent climbs as Middle East tensions fuel supply concerns - https://www.engine.online/",
-    "titleAr": "Brent climbs as Middle East tensions fuel supply concerns - https://www.engine.online/",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbW01TlZGMTgxQ1g1elM5MW51OWJjeWJFLVQyeHUyU2pIclJsZm1xNTVaVGI0djc2UEZlVWZKb094ejJjVy1NSC1FRG5FaWNhTHVNSFBxbDd0UldFU3d2R0hxb1hRZWVyS2x2Wjh0X1RMY0lmaVMyM295UFV3T2trR2o2Z2lYME92aHlBUEszdUVsSUpvWEhhUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791802057000,
-    "summaryEn": "Brent climbs as Middle East tensions fuel supply concerns https://www.engine.online/",
-    "summaryAr": "Brent climbs as Middle East tensions fuel supply concerns https://www.engine.online/",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran says it will reply to US response on Hormuz proposal once review over - Reuters",
-    "titleAr": "Iran says it will reply to US response on Hormuz proposal once review over - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2U1d1RUamtzYmRiN0tHUHhlclVaNVNLYTN4V05LTF90R0xjRTVhNS14WW1qRlhSYlZ5RzJOM3RSSGtxMGpLUDNZc0MyWmNaU0l6SVdpZm1WT295MTFYRWRDSXFRbE0yZlpBQTRpUDlJbHVoTHJOQmRBSVBNakdKTmw1QnV1RHc5b0xzZ212SHQwZmhSZ3JUQmlvZ21IY19yMFVURk8xMUtQcUxfRTNpLUZjMkp2dmRDWVVxa1VyTQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791802029000,
-    "summaryEn": "Iran says it will reply to US response on Hormuz proposal once review over Reuters",
-    "summaryAr": "Iran says it will reply to US response on Hormuz proposal once review over Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "titleAr": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1791801416000,
-    "summaryEn": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. Th…",
-    "summaryAr": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. Th…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
-    "titleAr": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
-    "link": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1791797883000,
-    "summaryEn": "Footage from inside the airport shows the moment the strike hit on Saturday.",
-    "summaryAr": "Footage from inside the airport shows the moment the strike hit on Saturday.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "titleAr": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-    "source": "The Hacker News",
-    "pubDate": 1791795734000,
-    "summaryEn": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability …",
-    "summaryAr": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport - Reuters",
-    "titleAr": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYnBxR2o2aXJjdDdueFQ4NEx2aDZwVTlsMExkd2syNmwzSlZYWVhiVnJqc3RPODJLQS1YbkRhQjJUdVlPSGN1RUpUYVFmUV9PZ3ZDeDY0TDN1NlFBVGxEeWdJdlpwMDFrR0xPUmRrZFFseG92OFBMOUF2U0xmNUxJUVlBLTlsNzYzeDZma0FpZkJSRWZuNi1MTlpEU2JVWFpEWmtSTDRvREQ3QVZnUnZZTFlqV2R5QjktTFV4aEtPWk11RzBFdGJJaGlRbkZOc01BT1N6SHl3VQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791793332000,
-    "summaryEn": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport Reuters",
-    "summaryAr": "Skies over Saudi capital Riyadh largely empty after deadly Houthi strikes on airport Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "titleAr": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-    "source": "The Hacker News",
-    "pubDate": 1791789972000,
-    "summaryEn": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, an…",
-    "summaryAr": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, an…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "South African rand steady as Middle East conflict, US inflation test sentiment - CNBC Africa",
-    "titleAr": "South African rand steady as Middle East conflict, US inflation test sentiment - CNBC Africa",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMno1cGoyUjFSZWNRSldqdnk1VTQ5S0ZiTnQtSUdfVjNHY1UzaXA4dzl0eVl2enhYMFA0M2QzSElsczZvejVSc181aVpsbTl4TlRfNXRXdC13MlJzR2Jud3BwY0ttblBOcE1CbXZyT0tTMnM0ZGEzSFN3czZMMHBHYkNVc0lMbVFqLUdXQ3ZPcy1xWEtEc05URmYzSzRxNW44Q1M1WUIwYkh1OHBsLVRJ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1791789438000,
-    "summaryEn": "South African rand steady as Middle East conflict, US inflation test sentiment CNBC Africa",
-    "summaryAr": "South African rand steady as Middle East conflict, US inflation test sentiment CNBC Africa",
     "tags": [
       {
         "textEn": "INTEL",
