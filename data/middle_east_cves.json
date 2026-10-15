@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-100299",
-    "system": "YSSD-RTMP-H5",
+    "id": "CVE-2026-96587",
+    "system": "Dashcam Android Application",
+    "severity": "Critical",
+    "cvss": 10,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-94204",
+    "system": "Dashcam Android Application",
     "severity": "High",
-    "cvss": 7,
+    "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-100298",
+    "id": "CVE-2026-100296",
+    "system": "YSSD-RTMP-H5",
+    "severity": "High",
+    "cvss": 7.2,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-100295",
+    "system": "YSSD-RTMP-H5",
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-100294",
     "system": "YSSD-RTMP-H5",
     "severity": "High",
     "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-100297",
+    "id": "CVE-2026-100293",
     "system": "YSSD-RTMP-H5",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-84411",
-    "system": "RouterOS",
-    "severity": "Critical",
-    "cvss": 9.3,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-76504",
-    "system": "Cisco Catalyst SD-WAN Manager",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-64893",
-    "system": "EasyIO NEO",
     "severity": "High",
-    "cvss": 7.3,
+    "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-93474",
-    "system": "monta.app",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
+    "id": "CVE-2026-100292",
+    "system": "YSSD-RTMP-H5",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-97212",
-    "system": "monta.app",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
+    "id": "CVE-2026-100291",
+    "system": "YSSD-RTMP-H5",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
   }
 ]
