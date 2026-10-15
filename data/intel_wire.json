@@ -4,7 +4,7 @@
     "titleAr": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQODZXb0UtbHJiTHdmLTZhUENYcXNNeVptZDFGV1pUUEpuS3A0RzROVlBWSGw2V2tvdjNabmlnX1llVmh1Tno5TW5jUjhLWm5BY3VOREdYTnd5Q2RpdmdyVnVzR0lFTlp4SDV4a3JzNWo0US1xdER1eUkybkRtOHlBT2U4RE43NFI2dGVnb29fSmdPVmVPaDY3NG5fNXRabFR5dkJBU0pwNDFZSkN0NkxaU2lEd2c1Mk9HbUNUYTROV3BJUnh3TEE?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792086627000,
+    "pubDate": 1792102401000,
     "summaryEn": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure Reuters",
     "summaryAr": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure Reuters",
     "tags": [
@@ -12,6 +12,118 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel halts commercial goods from entering Gaza; Hamas denies tax claims",
+    "titleAr": "Israel halts commercial goods from entering Gaza; Hamas denies tax claims",
+    "link": "https://www.aljazeera.com/news/2026/10/15/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792101478000,
+    "summaryEn": "The halt to commercial shipments, including fruit and winter clothing, cuts off a key source of critical supplies.",
+    "summaryAr": "The halt to commercial shipments, including fruit and winter clothing, cuts off a key source of critical supplies.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices",
+    "titleAr": "Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/israeli-ad-firm-helped-infect-spyware-into-al-jazeera-devices?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792098301000,
+    "summaryEn": "An Israeli spyware disguised as a digital advertisement firm has targeted journalists’ devices at Al Jazeera.",
+    "summaryAr": "An Israeli spyware disguised as a digital advertisement firm has targeted journalists’ devices at Al Jazeera.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+    "titleAr": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792096192000,
+    "summaryEn": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea.",
+    "summaryAr": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "titleAr": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "source": "BleepingComputer",
+    "pubDate": 1792095904000,
+    "summaryEn": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud…",
+    "summaryAr": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "titleAr": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "source": "The Hacker News",
+    "pubDate": 1792095876000,
+    "summaryEn": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against …",
+    "summaryAr": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why are migrants risking their lives at sea to reach Yemen?",
+    "titleAr": "Why are migrants risking their lives at sea to reach Yemen?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/why-are-migrants-risking-their-lives-at-sea-to-reach-yemen?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792095181000,
+    "summaryEn": "Al Jazeera’s Al Anoud Al Aqeedi explains why migrants are risking their lives to make the journey to Yemen.",
+    "summaryAr": "Al Jazeera’s Al Anoud Al Aqeedi explains why migrants are risking their lives to make the journey to Yemen.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Will Israeli voters punish Benjamin Netanyahu?",
+    "titleAr": "Will Israeli voters punish Benjamin Netanyahu?",
+    "link": "https://www.aljazeera.com/video/inside-story/2026/10/15/will-israeli-voters-punish-benjamin-netanyahu?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792093467000,
+    "summaryEn": "Netanyahu is reported to have received warnings before October 7, 2023, but failed to act on time.",
+    "summaryAr": "Netanyahu is reported to have received warnings before October 7, 2023, but failed to act on time.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -80,8 +192,8 @@
     ]
   },
   {
-    "titleEn": "Houthis target Yemen’s presidential palace in Aden with missiles",
-    "titleAr": "Houthis target Yemen’s presidential palace in Aden with missiles",
+    "titleEn": "At least 5 killed in Houthi attack on Yemen’s presidential palace in Aden",
+    "titleAr": "At least 5 killed in Houthi attack on Yemen’s presidential palace in Aden",
     "link": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1792083042000,
@@ -128,29 +240,13 @@
     ]
   },
   {
-    "titleEn": "Israeli ad-tech firm helped place spyware on Al Jazeera devices",
-    "titleAr": "Israeli ad-tech firm helped place spyware on Al Jazeera devices",
-    "link": "https://www.aljazeera.com/news/2026/10/15/israeli-ad-tech-firm-helped-spy-on-al-jazeera-devices?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792081923000,
-    "summaryEn": "Citizen Lab investigation says dozens of Al Jazeera devices were infected by malware planted through advertisements.",
-    "summaryAr": "Citizen Lab investigation says dozens of Al Jazeera devices were infected by malware planted through advertisements.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-    "titleAr": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/jerusalem-daily-ultra-orthodox-jews-storm-israeli-army-base?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792081148000,
-    "summaryEn": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-    "summaryAr": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
+    "titleEn": "Israel says commercial goods no longer entering Gaza after merchants suspend coordination - Reuters",
+    "titleAr": "Israel says commercial goods no longer entering Gaza after merchants suspend coordination - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcjRlbUN2V1haV3l1dVJUekRyOW5XcEszX0JtWlkwcHRRLXRkcjhBOXpXNW1rX01hLVZXVGJCZEFyUkdINUplbV9zaDJmWWlKSk1aWHhXU1BfOVJ5T3liLUFKLU9vUlpncDZnRmF3MmxrU3lNNkZ6ZTVTU283R01JOGxkaG41aTNTLU9jdUVOMUtONnh3aUxrNEp5YXpiOTFvQTdac1M5X1VPNV9adm5mMThqbUgzMjRRenB1RGRDcTdPUG5JZTZXYlpn?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792082023000,
+    "summaryEn": "Israel says commercial goods no longer entering Gaza after merchants suspend coordination Reuters",
+    "summaryAr": "Israel says commercial goods no longer entering Gaza after merchants suspend coordination Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -208,86 +304,6 @@
     ]
   },
   {
-    "titleEn": "What is the ‘Mother of All Bombs’ US could use in Iran?",
-    "titleAr": "What is the ‘Mother of All Bombs’ US could use in Iran?",
-    "link": "https://www.aljazeera.com/news/2026/10/15/what-is-the-mother-of-all-bombs-us-could-use-in-iran?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792079201000,
-    "summaryEn": "US media reports military considering plans to use GBU-43/B Massive Ordnance Air Blast Bomb (MOAB)",
-    "summaryAr": "US media reports military considering plans to use GBU-43/B Massive Ordnance Air Blast Bomb (MOAB)",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Syrian court sentences two to death over 2025 coastal violence",
-    "titleAr": "Syrian court sentences two to death over 2025 coastal violence",
-    "link": "https://www.aljazeera.com/news/2026/10/15/syrian-court-sentences-two-to-death-over-2025-coastal-violence?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792077558000,
-    "summaryEn": "Court rulings concern violence and killings during March 2025 uprising by pro-Assad forces and retaliatory attacks.",
-    "summaryAr": "Court rulings concern violence and killings during March 2025 uprising by pro-Assad forces and retaliatory attacks.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Delegates walk out as Israeli president addresses summit",
-    "titleAr": "Delegates walk out as Israeli president addresses summit",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/delegates-walk-out-as-israeli-president-addresses-summit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792077240000,
-    "summaryEn": "Officials from more than 10 countries walked out during an address by Israeli President Isaac Herzog at a summit in Baku",
-    "summaryAr": "Officials from more than 10 countries walked out during an address by Israeli President Isaac Herzog at a summit in Baku",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian jet-powered drone hits supermarket in Ukraine’s Odesa",
-    "titleAr": "Russian jet-powered drone hits supermarket in Ukraine’s Odesa",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/russian-jet-powered-drone-hits-supermarket-in-ukraines-odesa?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792077198000,
-    "summaryEn": "Ukrainian authorities say a Russian jet-powered drone struck a supermarket in its Odesa region on Thursday.",
-    "summaryAr": "Ukrainian authorities say a Russian jet-powered drone struck a supermarket in its Odesa region on Thursday.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans - The Business Standard",
-    "titleAr": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTDJkRGM0M0RSM1FpZGE0VFk4MWs2QXY2NThUdmRlSlFHZklqS01Zb0xCa2NHZVpkNVlwbGxLdW5Vc1RqRVhkdzl1NzgyMXE4Qld2czhYRUdWQjNRVjAxOVhiSTQtcVh0WFMwRTA4VFNNbzA3MVRka2FhUHBIckN0WkFQc2Vsb0pDaEt2WENYR2FpZG00TUthU2JELUtyZUtlR2Ezc3dHdVVRNjB5cm1Ydy1QaU8zVFBLd1l3Z3FfS0I?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792073680000,
-    "summaryEn": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans The Business Standard",
-    "summaryAr": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans The Business Standard",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Threats by Yemen's Houthis to hit Saudi Arabia again rattle Gulf bourses - Reuters",
     "titleAr": "Threats by Yemen's Houthis to hit Saudi Arabia again rattle Gulf bourses - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRno4UkRJYXkzMldxaU9XbzNpLWtsNVd4SmUtelluWEFxOHNCTjdpSmVJVzBac0h1TDF6TE8wY2FZNHBHaF9XTjZ0WTByY29yOTR4SDVKaG02YWItZkNVdXlQWWF6bWROd0ZSRDM5SDRSSEs2M0dBZHRVekJTVHhpYnMzemVCa3RQY3dmZ3g5UFBUZ2ZySWRjT0g0M2FuZElsaVkzUk1KSHB4ODRTdjBkbzJR?oc=5",
@@ -300,6 +316,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans - The Business Standard",
+    "titleAr": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTDJkRGM0M0RSM1FpZGE0VFk4MWs2QXY2NThUdmRlSlFHZklqS01Zb0xCa2NHZVpkNVlwbGxLdW5Vc1RqRVhkdzl1NzgyMXE4Qld2czhYRUdWQjNRVjAxOVhiSTQtcVh0WFMwRTA4VFNNbzA3MVRka2FhUHBIckN0WkFQc2Vsb0pDaEt2WENYR2FpZG00TUthU2JELUtyZUtlR2Ezc3dHdVVRNjB5cm1Ydy1QaU8zVFBLd1l3Z3FfS0I?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792067700000,
+    "summaryEn": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans The Business Standard",
+    "summaryAr": "Iran's precision strikes picked apart Gulf infrastructure, blunting US war plans The Business Standard",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -359,6 +391,22 @@
     "pubDate": 1792065600000,
     "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras. The following versions of Guangzhou Juan IoT Te…",
     "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras. The following versions of Guangzhou Juan IoT Te…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1792065600000,
+    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-21589 Atlassian Multiple Products Fil…",
+    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-21589 Atlassian Multiple Products Fil…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -480,6 +528,22 @@
     ]
   },
   {
+    "titleEn": "Hormuz shipping disruption is starting to hit harvests, UN agency says - Reuters",
+    "titleAr": "Hormuz shipping disruption is starting to hit harvests, UN agency says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3pFV3J3TU44dzNxVVVjWUoyeVc3bVFpV3RVWEducVZZUFk0UXNBdzlEcnpxSGUycUw0cTIyLUFvYnNxc1BOU0lOOHJVM21tRFVrWVp5Q0pKRENxc01LcFpJbk1JS0k1ZndiMURRRVBySmJ0MUltS1RoM2JCN3d0V0t6WkhfT2U3UHU4QWhKb1M5eGRoUVpaVVVNT2hzNWlFT2hPSVRuQlQ2cURjdTBPOVd2UzRCc0JGcTVMWQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792054903000,
+    "summaryEn": "Hormuz shipping disruption is starting to hit harvests, UN agency says Reuters",
+    "summaryAr": "Hormuz shipping disruption is starting to hit harvests, UN agency says Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
     "titleAr": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
     "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -576,22 +640,6 @@
     ]
   },
   {
-    "titleEn": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-    "titleAr": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792043739000,
-    "summaryEn": "Live Updates: War returns to Iran with Israel, US strikes Dawn",
-    "summaryAr": "Live Updates: War returns to Iran with Israel, US strikes Dawn",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Kenya raises fuel prices as Middle East conflict lifts import costs - Reuters",
     "titleAr": "Kenya raises fuel prices as Middle East conflict lifts import costs - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQal9MVUlacGx1Mk5qWU44N3lMY3FFZGhPQnpJT2xJQkdkdGlaUEI0dEJqdXVzWkxhOWI5SFFZS3lKN2tkX1I3TlV1OG5RSFJqU2xOd2VUWU8zcFdWdFZldENEWm9ybkdiOUc3am5wU19YaEJyZ3FFUDN1N194YlA4c29xbWxoMTVlekNRZHByWFQ4eHFpNmQyckxVVGRHcXY5el9MajgwMF9vYnd2emNNWk90aw?oc=5",
@@ -599,22 +647,6 @@
     "pubDate": 1792043400000,
     "summaryEn": "Kenya raises fuel prices as Middle East conflict lifts import costs Reuters",
     "summaryAr": "Kenya raises fuel prices as Middle East conflict lifts import costs Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices retreat as investors weigh supply outlook, Middle East tensions - WTVB",
-    "titleAr": "Oil prices retreat as investors weigh supply outlook, Middle East tensions - WTVB",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMF9qWnJzTzNIZGZnOXlUMXF2X2R0LVJqNUVDcmh2Q2xyMXVsWkZRUjl6blFHQURYanFWbzhPcnhWdVRXTGVha1BBRV9GTng2OFZIS09hOElqVlFzUW53bnQ3U2FqWkViY3cwMGs0XzVYVzI3TlU1aE5TSDRyMnFhanI0dmpPeF9pMVp3czVwbDJYX2VONUo1OHJub2ZfZGZjYWNJ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792042790000,
-    "summaryEn": "Oil prices retreat as investors weigh supply outlook, Middle East tensions WTVB",
-    "summaryAr": "Oil prices retreat as investors weigh supply outlook, Middle East tensions WTVB",
     "tags": [
       {
         "textEn": "INTEL",
@@ -672,45 +704,13 @@
     ]
   },
   {
-    "titleEn": "Oil prices retreat as investors weigh supply outlook, Middle East tensions - TradingView",
-    "titleAr": "Oil prices retreat as investors weigh supply outlook, Middle East tensions - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUTVDYUNkZmNFci1zMzNIWjhGcmpQdzNBU1pYaktwbVRBaUtaWGZlUGVKOTNuQUxrNXZkWXRwVmdoSFBZQ0pNMFR3OGVEZzBvbUZqMU1RTk00R1ZxN2twWHpMTzRVNGRpXy1sQ0liVHBqZk1OQjduTGRhREo3V3FLY3Q0TENaSWFJVW5UNnZQLUxwbmFzZzJUem9sb3J0REoxdVF5b3ZyU3FWSmFhRWJtZDItSFJlYV8xTThUWTdaZGxKVHlnY3czZ0s3LUp6b2lQWXBtS1VNTVBKWVk?oc=5",
+    "titleEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - Yahoo Finance UK",
+    "titleAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcEF3MXhkajFaUzBBMXJURnk5cTY5UTdQRnE3b3FXRzIzMHZieUp4eFU3VlRFSnV4MVZ2ZkhMWWtCYzVYVDlpT2FLQ0Q5MUcxeTR1eWR6ZS1uVGpUeE9kTmJUMjFLczl4RFNaQ3hkeHZaQ1BwbG9rclJNand4SE9kQm51dWlPLXBTbTVIc0k4THg?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792036140000,
-    "summaryEn": "Oil prices retreat as investors weigh supply outlook, Middle East tensions TradingView",
-    "summaryAr": "Oil prices retreat as investors weigh supply outlook, Middle East tensions TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices ease as investors weigh supply outlook, Middle East tensions - TradingView",
-    "titleAr": "Oil prices ease as investors weigh supply outlook, Middle East tensions - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVE9rZFFBdno1UDBjRTFkUnhyRTExYmMtdVBmY2JNaklGRnVuN3F3bXVxLU1iYUowTzlTZ2kyR081dUR6Y1RlQTVzYmxNaU9feUlZUGVGazZIY1pRNl94ZS1mTFYxcWpZWVNXdzAzdjZIakY0cVBxVHNBakV0QUpraVVsXzFJZGZfcXhUSDhCYUJCMjdzTzFUUmV2YUgyZUhVZXhoMFota2xDVXlvd3I5Y25DbGhTSmdBNEhYU1FLOERtb3hSMDZEdTZ2ZTlmRHRVTUpKR0xQbw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792036140000,
-    "summaryEn": "Oil prices ease as investors weigh supply outlook, Middle East tensions TradingView",
-    "summaryAr": "Oil prices ease as investors weigh supply outlook, Middle East tensions TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices fall as investors weigh supply outlook, Middle East tensions - Idaho Statesman",
-    "titleAr": "Oil prices fall as investors weigh supply outlook, Middle East tensions - Idaho Statesman",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOamFlU3lYcnMwVktWYTdSa0ZTX2txTmg0cDRnQnZxOFBlVkU4ZWRrbzVLR0FVRGFOc2IxZ3VOTFZKUmNfdk5PcENMVTFUUlVHc3hsZG80eXpuTHZzU3QxcUstYXRxcTRrOFVNb19oaVZ3Wm1pRmZiOExjVEllZnVrV0lPRm94Zw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792027740000,
-    "summaryEn": "Oil prices fall as investors weigh supply outlook, Middle East tensions Idaho Statesman",
-    "summaryAr": "Oil prices fall as investors weigh supply outlook, Middle East tensions Idaho Statesman",
+    "pubDate": 1792039020000,
+    "summaryEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says Yahoo Finance UK",
+    "summaryAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says Yahoo Finance UK",
     "tags": [
       {
         "textEn": "INTEL",
