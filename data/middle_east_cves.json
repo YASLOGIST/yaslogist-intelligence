@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-100299",
-    "system": "YSSD-RTMP-H5",
-    "severity": "High",
-    "cvss": 7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-100298",
-    "system": "YSSD-RTMP-H5",
-    "severity": "High",
-    "cvss": 8.7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-100297",
-    "system": "YSSD-RTMP-H5",
+    "id": "CVE-2026-90457",
+    "system": "Malcolm",
     "severity": "Medium",
     "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-84411",
-    "system": "RouterOS",
+    "id": "CVE-2026-90456",
+    "system": "Malcolm",
     "severity": "Critical",
-    "cvss": 9.3,
+    "cvss": 9.2,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-76504",
-    "system": "Cisco Catalyst SD-WAN Manager",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-64893",
-    "system": "EasyIO NEO",
-    "severity": "High",
-    "cvss": 7.3,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-93474",
-    "system": "monta.app",
+    "id": "CVE-2026-90455",
+    "system": "Malcolm",
     "severity": "Medium",
-    "cvss": 6.9,
+    "cvss": 6.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-97212",
-    "system": "monta.app",
+    "id": "CVE-2026-90454",
+    "system": "Malcolm",
     "severity": "Medium",
-    "cvss": 6.9,
+    "cvss": 5.3,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-90453",
+    "system": "Malcolm",
+    "severity": "Medium",
+    "cvss": 5.1,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-90452",
+    "system": "Malcolm",
+    "severity": "Medium",
+    "cvss": 6,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-90451",
+    "system": "Malcolm",
+    "severity": "High",
+    "cvss": 8.2,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-90450",
+    "system": "Malcolm",
+    "severity": "Medium",
+    "cvss": 5.3,
     "badge": "badge-medium"
   }
 ]
