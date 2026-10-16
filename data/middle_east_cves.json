@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-64892",
-    "system": "Easy IO Neo",
+    "id": "CVE-2026-93474",
+    "system": "monta.app",
     "severity": "Medium",
-    "cvss": 6.3,
+    "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-94594",
-    "system": "Armatura One",
+    "id": "CVE-2026-97212",
+    "system": "monta.app",
     "severity": "Medium",
-    "cvss": 5.1,
+    "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-94593",
-    "system": "Armatura One",
+    "id": "CVE-2026-97363",
+    "system": "monta.app",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-95102",
+    "system": "monta.app",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-102490",
+    "system": "Zammad",
     "severity": "High",
     "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-94592",
-    "system": "Armatura One",
+    "id": "CVE-2026-102489",
+    "system": "Zammad",
     "severity": "High",
-    "cvss": 8.6,
+    "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-94591",
-    "system": "Armatura One",
+    "id": "CVE-2026-88779",
+    "system": "ADC",
     "severity": "High",
-    "cvss": 8.6,
+    "cvss": 8.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2023-46604",
-    "system": "Apache ActiveMQ",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-64893",
-    "system": "EasyIO NEO",
+    "id": "CVE-2023-46143",
+    "system": "Automation Worx Software Suite",
     "severity": "High",
-    "cvss": 7.3,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-96613",
-    "system": "IoT Cloud Platform OpenAPI Service",
-    "severity": "High",
-    "cvss": 7.1,
+    "cvss": 7.5,
     "badge": "badge-high"
   }
 ]
