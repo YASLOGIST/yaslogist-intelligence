@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-90449",
-    "system": "Malcolm",
+    "id": "CVE-2026-64892",
+    "system": "Easy IO Neo",
     "severity": "Medium",
-    "cvss": 6.9,
+    "cvss": 6.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-90448",
-    "system": "Malcolm",
-    "severity": "High",
-    "cvss": 7.1,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-90447",
-    "system": "Malcolm",
-    "severity": "High",
-    "cvss": 7.1,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-90446",
-    "system": "Malcolm",
+    "id": "CVE-2026-94594",
+    "system": "Armatura One",
     "severity": "Medium",
-    "cvss": 5.3,
+    "cvss": 5.1,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-90445",
-    "system": "Malcolm",
+    "id": "CVE-2026-94593",
+    "system": "Armatura One",
     "severity": "High",
-    "cvss": 7.1,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-90444",
-    "system": "Malcolm",
+    "id": "CVE-2026-94592",
+    "system": "Armatura One",
     "severity": "High",
-    "cvss": 8.7,
+    "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-90443",
-    "system": "Malcolm",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
+    "id": "CVE-2026-94591",
+    "system": "Armatura One",
+    "severity": "High",
+    "cvss": 8.6,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-104286",
-    "system": "FortiMail",
+    "id": "CVE-2023-46604",
+    "system": "Apache ActiveMQ",
     "severity": "Critical",
-    "cvss": 9.8,
+    "cvss": 10,
     "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-64893",
+    "system": "EasyIO NEO",
+    "severity": "High",
+    "cvss": 7.3,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-96613",
+    "system": "IoT Cloud Platform OpenAPI Service",
+    "severity": "High",
+    "cvss": 7.1,
+    "badge": "badge-high"
   }
 ]
