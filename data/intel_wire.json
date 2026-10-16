@@ -1,5 +1,133 @@
 [
   {
+    "titleEn": "Yemen’s government says Houthis fired two missiles at Aden airport",
+    "titleAr": "Yemen’s government says Houthis fired two missiles at Aden airport",
+    "link": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792187767000,
+    "summaryEn": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
+    "summaryAr": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
+    "titleAr": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israeli-spyware-used-zero-click-hack-on-al-jazeera-staff?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792184924000,
+    "summaryEn": "Israeli spyware firms hacked into Al Jazeera devices in 2024 using a new ‘adfection’ method. Here's how it works.",
+    "summaryAr": "Israeli spyware firms hacked into Al Jazeera devices in 2024 using a new ‘adfection’ method. Here's how it works.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Food affordability fears plague Gaza as Israel halts commercial goods",
+    "titleAr": "Food affordability fears plague Gaza as Israel halts commercial goods",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/food-affordability-fears-plague-gaza-as-israel-halts-commercial-goods?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792183042000,
+    "summaryEn": "Commercial goods, such as fresh fruit, vegetables, meat and winter clothing, have not entered Gaza for two days.",
+    "summaryAr": "Commercial goods, such as fresh fruit, vegetables, meat and winter clothing, have not entered Gaza for two days.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+    "titleAr": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+    "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+    "source": "Dark Reading",
+    "pubDate": 1792182877000,
+    "summaryEn": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
+    "summaryAr": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
+    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQkU1bHk0ei02ZkZRZndPemRvNGZFQnM5ODdrR2EyTU9WRjBUN3MwcGdtLXY2NnZnWld0UkM2MjBUMDUzWVV6ak1vcGNSV05KMllWVWotQS1TdGNLQnVFOERMRElid09YaVB2bUhGLXE4TlFJelBfRFg3QS1vOVBSLXVJWTV3R01CQ3FSZzVZMHlub3V1ZjFtYlJYNGwwRDRFeUxTeWFzNlJjS1dwSGo1a0xOaXRMc0tiWnlrbVBtMA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792181156000,
+    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
+    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+    "titleAr": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+    "source": "BleepingComputer",
+    "pubDate": 1792180859000,
+    "summaryEn": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbit…",
+    "summaryAr": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbit…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why is the battle for Yemen's Taiz so important? - Reuters",
+    "titleAr": "Why is the battle for Yemen's Taiz so important? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNVFBabzlldE0taUdSWDNkQ1JOSENMdi12Z0pxMU1OS1NtWXg5WVBiZ3R6akI1NXhJUUJaS0lEVTR5al9JNjJYOE4yalpFS3RYQVhJNUw3aTVrdkxrTlZ1aGpsaU9VRE0?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792180738000,
+    "summaryEn": "Why is the battle for Yemen's Taiz so important? Reuters",
+    "summaryAr": "Why is the battle for Yemen's Taiz so important? Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
+    "titleAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792179439000,
+    "summaryEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
+    "summaryAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
     "titleAr": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHpQQlcxQ3FCakZ6YUIzOU83eUZHcFluRjU0TDRTb0RRdU9JM0xPQUZRSDUyUm9ZcjlpWFRvR1l3bmlxemxqV0ZsTmxEVk14RV9GTkxNc1pCNUUwcmRKdFJmU2dmbHBHaEQ5WHVDRGVDVXBnb2xQYnF1eUMybVJ2U2FLcGM1MXc0MHlyTW51RnNJSVJZbzA1U05nLUJLcS0tcFVoRVN0OXpOTlR2RTJr?oc=5",
@@ -12,22 +140,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
-    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQkU1bHk0ei02ZkZRZndPemRvNGZFQnM5ODdrR2EyTU9WRjBUN3MwcGdtLXY2NnZnWld0UkM2MjBUMDUzWVV6ak1vcGNSV05KMllWVWotQS1TdGNLQnVFOERMRElid09YaVB2bUhGLXE4TlFJelBfRFg3QS1vOVBSLXVJWTV3R01CQ3FSZzVZMHlub3V1ZjFtYlJYNGwwRDRFeUxTeWFzNlJjS1dwSGo1a0xOaXRMc0tiWnlrbVBtMA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792176268000,
-    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
-    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -80,22 +192,6 @@
     ]
   },
   {
-    "titleEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-    "titleAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792173376000,
-    "summaryEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-    "summaryAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply - GV Wire",
     "titleAr": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply - GV Wire",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeUtHZzN2aTJraDByclU4S3lrNDdEcXN2dW5jNnM1d2dDLWlsMlNxUkpWYm9Kc3Jsa0VEclhjcW1YNndLNU50bUhVVXoxazFCT1pmTDJwcTlkQkNVcEtIaERLNHBuLUltZEJmdTVJWVRMdjBnTE8wdU50a25iQVZidm5TakRwM1lzbE9pc21yNEdzcEcyQlFjd0RpeTI2c1BMWkpwSi04MlpFQm1SWVhCX2xqSkpLdw?oc=5",
@@ -103,22 +199,6 @@
     "pubDate": 1792170605000,
     "summaryEn": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply GV Wire",
     "summaryAr": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply GV Wire",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Sally Rooney can’t sell her books in UK over support for Palestine Action",
-    "titleAr": "Sally Rooney can’t sell her books in UK over support for Palestine Action",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/sally-rooney-cant-sell-her-books-in-uk-over-support-for-palestine-action?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792169689000,
-    "summaryEn": "We asked students what they think.",
-    "summaryAr": "We asked students what they think.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -160,22 +240,6 @@
     ]
   },
   {
-    "titleEn": "Gaza malnutrition and starvation at ‘catastrophic’ levels: Health Ministry",
-    "titleAr": "Gaza malnutrition and starvation at ‘catastrophic’ levels: Health Ministry",
-    "link": "https://www.aljazeera.com/news/2026/10/16/gaza-malnutrition-and-starvation-at-catastrophic-levels-health-ministry?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792165045000,
-    "summaryEn": "About 67 percent of Gaza's population projected to face crisis-level food insecurity or worse through the end of 2026.",
-    "summaryAr": "About 67 percent of Gaza's population projected to face crisis-level food insecurity or worse through the end of 2026.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
     "titleAr": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
     "link": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
@@ -192,22 +256,6 @@
     ]
   },
   {
-    "titleEn": "Supertanker rates fall from record highs - Reuters",
-    "titleAr": "Supertanker rates fall from record highs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVkk0WDVQcnY0THRwaTVSenJQTEQ0U1VuVHdEY2xKTl9CdEw2NjlFN0FvTnBGbldlREpWRGZ6YV9kWnRjNjVuTlJqTWVBR0U3VXAwbXgwRjlSY1pfSVd3SjRKYU5KMVJwVm56blVQMnFFbV9EejlRNlZuSWo2OGd1TVl4ZlVwOXlvVGttb0ZLVkk?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792160741000,
-    "summaryEn": "Supertanker rates fall from record highs Reuters",
-    "summaryAr": "Supertanker rates fall from record highs Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Italy names senior Israelis, Katz in probe over Gaza flotilla activists - Reuters",
     "titleAr": "Italy names senior Israelis, Katz in probe over Gaza flotilla activists - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjVCUjhWQ05fM0dEYS1oR29yb3RhREZxYkUyX2hTeS1xQlVHSjk3SWZSZHVNb2Zla0lsTmhKLXNsYXBQNlBHTkdiQ1AzYW5rdWp0SEtiZWNUZk5lMDlKallXUEZKT0xROWpJS3JzaFRTaGV0SmdwQmw1VVluWlYyRjFjT1FKWWJldWo5RUNNQlN3YWd3c3daOURld0NjNEczVlU5cUhtc2NPNUJzcVFwVWVqdzdXSlZmNTViWmNR?oc=5",
@@ -215,54 +263,6 @@
     "pubDate": 1792160465000,
     "summaryEn": "Italy names senior Israelis, Katz in probe over Gaza flotilla activists Reuters",
     "summaryAr": "Italy names senior Israelis, Katz in probe over Gaza flotilla activists Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar announces ‘massive’ solar plant project in Lebanon",
-    "titleAr": "Qatar announces ‘massive’ solar plant project in Lebanon",
-    "link": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792160376000,
-    "summaryEn": "Sheikh Mohammed also discussed Israeli 'violations' in Lebanese territory with Prime Minister Nawaf Salam.",
-    "summaryAr": "Sheikh Mohammed also discussed Israeli 'violations' in Lebanese territory with Prime Minister Nawaf Salam.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-    "titleAr": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-    "link": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792159933000,
-    "summaryEn": "A new ‘zero-click’ hack uses ads to target victims without any action needed on their part.",
-    "summaryAr": "A new ‘zero-click’ hack uses ads to target victims without any action needed on their part.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar FM calls for Israeli withdrawal from Lebanon",
-    "titleAr": "Qatar FM calls for Israeli withdrawal from Lebanon",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/qatar-fm-calls-for-israeli-withdrawal-from-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792159268000,
-    "summaryEn": "Qatar’s prime minister and minister of foreign affairs has reaffirmed his country’s support for Lebanon.",
-    "summaryAr": "Qatar’s prime minister and minister of foreign affairs has reaffirmed his country’s support for Lebanon.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -284,22 +284,6 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Israeli settlers burn Palestinian olive groves",
-    "titleAr": "Jerusalem Daily: Israeli settlers burn Palestinian olive groves",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/jerusalem-daily-israeli-settlers-burn-palestinian-olive-groves?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792158768000,
-    "summaryEn": "Israeli settlers carry out violent pogroms on Palestinian olive groves in the towns of Abu Falah and Turmus Ayya.",
-    "summaryAr": "Israeli settlers carry out violent pogroms on Palestinian olive groves in the towns of Abu Falah and Turmus Ayya.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -368,6 +352,22 @@
     ]
   },
   {
+    "titleEn": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "titleAr": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+    "source": "CISA Advisories",
+    "pubDate": 1792152000000,
+    "summaryEn": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
+    "summaryAr": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -375,6 +375,22 @@
     "pubDate": 1792152000000,
     "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
     "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil heads for weekly gain with focus on Middle East supply - AOL.com",
+    "titleAr": "Oil heads for weekly gain with focus on Middle East supply - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95UlZkOXlYeFVsSlh0bXQwaktGVE00VTh6aFl3UGZsMW03LTcyUnJHWjJOdzRlOC1iaTFoRWdMNFFPVWNLdTFZd25NQm5kQThXRWY5T01zVzBUNEpsc3duOGpacXFXQnh1RGJsZlFPejZSamlZVVFaUnpJRkU1aUk?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792149903000,
+    "summaryEn": "Oil heads for weekly gain with focus on Middle East supply AOL.com",
+    "summaryAr": "Oil heads for weekly gain with focus on Middle East supply AOL.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -528,6 +544,22 @@
     ]
   },
   {
+    "titleEn": "Oil prices gain more than 3%, heading for weekly gain with focus on Middle East supply - TradingView",
+    "titleAr": "Oil prices gain more than 3%, heading for weekly gain with focus on Middle East supply - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS191SEU0UVJfOXQ3ZWdLOUlpeEtReHNRUHd3NUlHQlBCZnVFd0hjNlp5SWRCYXJxZkltSG5YMjVhS3VvRkMyaHR0NFNzZ055aUtCdlp6Y1JUVWdwUENDRVMzSTlnTFlkc2lsRU1iQ2l4NVoyVjF3VjlLd3A0MFdMNDhncmJoUEIzWThCaWVXVnZjSmFicGM1cEhPajQyTDE5c2M5aHZ0dW82TkFWSEs4Q3E3MnNzeWRzS0F2Mmh6dWd3eWtjQXdySl9TcWN3WEtRMGc1LWhmMG12WEtKMHhtbDVab3JJQXdsRWc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792124700000,
+    "summaryEn": "Oil prices gain more than 3%, heading for weekly gain with focus on Middle East supply TradingView",
+    "summaryAr": "Oil prices gain more than 3%, heading for weekly gain with focus on Middle East supply TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "South Korea reviews expanding military mission in Middle East, report says - Internazionale",
     "titleAr": "South Korea reviews expanding military mission in Middle East, report says - Internazionale",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSzhuRVBxYjFtWXhvZ3Jnd2Y1WWNfZzFJTnZfWnNWdlZhMGNjckRPRllYNzg0a2EzU2Q5cUNCbm1zUnNpbDFwazBEZXV0WXFuWXYtUXZHMnRYUDhuaTVpSV85WGJNNEdDYTRIYnJ0eHZrZnZFeUQzMXpqbjU4ZEp1NVFjQ0tiQXlvTXpDQXFRWkZzMEdYLXBDLTVpeTAzTkRSR3VLLW0wVWJQNXdSOHFRZlkzdk9EbXlpMEZyT2xqby00WVR0RVNQbHNyVjEwS0tScjZV?oc=5",
@@ -560,6 +592,22 @@
     ]
   },
   {
+    "titleEn": "South Korea reviews expanding military mission in Middle East, report says - ThePrint",
+    "titleAr": "South Korea reviews expanding military mission in Middle East, report says - ThePrint",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN0V1MHBTX01KMW8ybjA5SmUxRndXc1h3SmtQQnhHWjNodzZOalhGMlM0MUFwOEtBY1FFdmY4dTVYQjhjb2Z4QUJwbkJPMzU2TUUzRURkQl9tUnNMRGhiTTJ0RDlySDJLdDNQcFpCeU5OSjlaN2xkQ2tXd1lYeHFTcUlyNm4wQnBqTVJHLTQ1VVBDUWswV2otTWg4cXVnOVNaREx2UWZ5X3NRc2x60gGyAUFVX3lxTE1iT05hZmJnTmFYOEN4bVROcXdhQkxWNV9BN0dQa0FYLTc5Z2RKX0lRREVxRUp6dkdhYWRRSEV4YnV0aFFJQWJKV0pMdXl3OW50cWlob3c4OWdtLUFBVWxkM01aTWJVZmFscEhma2xmM0twOW0tVmZRYlZPMENIQjZHa0JoSTdXMFVhejZhd0hyV043aFJEbkdfRW5RRkc0NVpjbmNWd29OX0pJZmh4MDFydFE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792121403000,
+    "summaryEn": "South Korea reviews expanding military mission in Middle East, report says ThePrint",
+    "summaryAr": "South Korea reviews expanding military mission in Middle East, report says ThePrint",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Sparc Technologies And Levidian Enter MoU For Ecosparc Commercialisation In Middle East - TradingView",
     "titleAr": "Sparc Technologies And Levidian Enter MoU For Ecosparc Commercialisation In Middle East - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdEp2MFBQWnFNT2dMTncwT2hBMGJ2TDBuV1VkanhGNWNmNF9kUFltempwVVVSQ3FvQ29zSkNsQnhqd2dVQkZSanlFa2x6S0JFUTBRSmRXM19wRHRYcnFXX0VXS2YzNmExSEx4VGs1NXhqZWhZYWgwNlp2ZWdyR0F0RUhxYWxDNVlodGJIRXJBVFdIR01WUFFGUDVFUlE0S2xtUG5xWjhSbXdVX1h6dmhpaVBtR2pnRzlIZVN3b3lVQ1REM0pvTndkZlBxZmZzUUhoa3ZDZ1djRXVVZUF5YzFCZmNjRjVPWmJyYncwdW1n?oc=5",
@@ -576,13 +624,13 @@
     ]
   },
   {
-    "titleEn": "Oil heads for weekly gain with focus on Middle East supply - Reuters",
-    "titleAr": "Oil heads for weekly gain with focus on Middle East supply - Reuters",
+    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
+    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1792112220000,
-    "summaryEn": "Oil heads for weekly gain with focus on Middle East supply Reuters",
-    "summaryAr": "Oil heads for weekly gain with focus on Middle East supply Reuters",
+    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears Reuters",
+    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -663,54 +711,6 @@
     "pubDate": 1792095904000,
     "summaryEn": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud…",
     "summaryAr": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "titleAr": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-    "source": "The Hacker News",
-    "pubDate": 1792095876000,
-    "summaryEn": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against …",
-    "summaryAr": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792094236000,
-    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
-    "titleAr": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792086334000,
-    "summaryEn": "Hezbollah says it owned confiscated explosives, meant to attack Israel Reuters",
-    "summaryAr": "Hezbollah says it owned confiscated explosives, meant to attack Israel Reuters",
     "tags": [
       {
         "textEn": "INTEL",

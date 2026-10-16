@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-93474",
-    "system": "monta.app",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-97212",
-    "system": "monta.app",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-97363",
-    "system": "monta.app",
+    "id": "CVE-2026-64893",
+    "system": "EasyIO NEO",
     "severity": "High",
-    "cvss": 8.7,
+    "cvss": 7.3,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-95102",
-    "system": "monta.app",
-    "severity": "Critical",
-    "cvss": 9.3,
-    "badge": "badge-critical"
+    "id": "CVE-2026-94594",
+    "system": "Armatura One",
+    "severity": "Medium",
+    "cvss": 5.1,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-102490",
-    "system": "Zammad",
+    "id": "CVE-2026-94593",
+    "system": "Armatura One",
     "severity": "High",
     "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-102489",
-    "system": "Zammad",
+    "id": "CVE-2026-94592",
+    "system": "Armatura One",
     "severity": "High",
-    "cvss": 8.7,
+    "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-88779",
-    "system": "ADC",
+    "id": "CVE-2026-94591",
+    "system": "Armatura One",
     "severity": "High",
-    "cvss": 8.7,
+    "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2023-46143",
-    "system": "Automation Worx Software Suite",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
+    "id": "CVE-2023-46604",
+    "system": "Apache ActiveMQ",
+    "severity": "Critical",
+    "cvss": 10,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2014-9195",
+    "system": "ProConOs",
+    "severity": "Critical",
+    "cvss": 10,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2010-2965",
+    "system": "n/a",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "badge": "badge-critical"
   }
 ]
