@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-90457",
+    "id": "CVE-2026-90449",
     "system": "Malcolm",
     "severity": "Medium",
     "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-90456",
-    "system": "Malcolm",
-    "severity": "Critical",
-    "cvss": 9.2,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-90455",
-    "system": "Malcolm",
-    "severity": "Medium",
-    "cvss": 6.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-90454",
-    "system": "Malcolm",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-90453",
-    "system": "Malcolm",
-    "severity": "Medium",
-    "cvss": 5.1,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-90452",
-    "system": "Malcolm",
-    "severity": "Medium",
-    "cvss": 6,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-90451",
+    "id": "CVE-2026-90448",
     "system": "Malcolm",
     "severity": "High",
-    "cvss": 8.2,
+    "cvss": 7.1,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-90450",
+    "id": "CVE-2026-90447",
+    "system": "Malcolm",
+    "severity": "High",
+    "cvss": 7.1,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-90446",
     "system": "Malcolm",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-90445",
+    "system": "Malcolm",
+    "severity": "High",
+    "cvss": 7.1,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-90444",
+    "system": "Malcolm",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-90443",
+    "system": "Malcolm",
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-104286",
+    "system": "FortiMail",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "badge": "badge-critical"
   }
 ]

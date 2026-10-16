@@ -1,5 +1,197 @@
 [
   {
+    "titleEn": "How Israel’s elections will affect Palestinians",
+    "titleAr": "How Israel’s elections will affect Palestinians",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israels-elections-will-affect-palestinians?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792134294000,
+    "summaryEn": "How Israel votes this month will shape the future of over 5.5 million Palestinians who have no say in the election.",
+    "summaryAr": "How Israel votes this month will shape the future of over 5.5 million Palestinians who have no say in the election.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "titleAr": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+    "source": "The Hacker News",
+    "pubDate": 1792133755000,
+    "summaryEn": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
+    "summaryAr": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "In Israel, Netanyahu’s ultimate legacy is the opposition he has forged",
+    "titleAr": "In Israel, Netanyahu’s ultimate legacy is the opposition he has forged",
+    "link": "https://www.aljazeera.com/news/2026/10/16/in-israel-netanyahus-ultimate-legacy-is-the-opposition-he-has-forged?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792132875000,
+    "summaryEn": "As Israel heads to the polls, PM Netanyahu’s most enduring domestic legacy may be the right-wing opposition he faces.",
+    "summaryAr": "As Israel heads to the polls, PM Netanyahu’s most enduring domestic legacy may be the right-wing opposition he faces.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "BeyondTrust patches zero-day exploited in attacks since August",
+    "titleAr": "BeyondTrust patches zero-day exploited in attacks since August",
+    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "source": "BleepingComputer",
+    "pubDate": 1792131488000,
+    "summaryEn": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+    "summaryAr": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Alone in Gaza: Genocide leaves Palestinian man without family or a home",
+    "titleAr": "Alone in Gaza: Genocide leaves Palestinian man without family or a home",
+    "link": "https://www.aljazeera.com/features/2026/10/16/alone-in-gaza-genocide-leaves-palestinian-man-without-family-or-a-home?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792130123000,
+    "summaryEn": "One man wanders Gaza in search of somewhere to sleep, having lost his family in an Israeli strike.",
+    "summaryAr": "One man wanders Gaza in search of somewhere to sleep, having lost his family in an Israeli strike.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US sanctions leave Iranians facing flight cancellations and soaring costs",
+    "titleAr": "US sanctions leave Iranians facing flight cancellations and soaring costs",
+    "link": "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792129900000,
+    "summaryEn": "New US aviation sanctions force Iranians to take longer, costlier journeys as international flight routes disappear.",
+    "summaryAr": "New US aviation sanctions force Iranians to take longer, costlier journeys as international flight routes disappear.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Rubio presses Lebanon on confiscation of weapons from Hezbollah",
+    "titleAr": "Rubio presses Lebanon on confiscation of weapons from Hezbollah",
+    "link": "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792128509000,
+    "summaryEn": "Lebanon's president reaffirms the commitment to bring all arms under state control.",
+    "summaryAr": "Lebanon's president reaffirms the commitment to bring all arms under state control.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ship attack reports near Hormuz reach record high as oil exports slow",
+    "titleAr": "Ship attack reports near Hormuz reach record high as oil exports slow",
+    "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792126817000,
+    "summaryEn": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
+    "summaryAr": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "titleAr": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "source": "The Hacker News",
+    "pubDate": 1792126776000,
+    "summaryEn": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTI…",
+    "summaryAr": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTI…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices rise due to the situation in the Middle East, not Ukraine’s strikes on Russian oil refineries — Reuters - Українські Національні Новини (УНН)",
+    "titleAr": "Oil prices rise due to the situation in the Middle East, not Ukraine’s strikes on Russian oil refineries — Reuters - Українські Національні Новини (УНН)",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWVBMVEthRmstUW1GV2YtVE1hZTUyUTNDY0loU3pPYUp0d3pBazlEYXg2aXMweHgyOFZ3SVl1UDQ3Z1NfT3d0eThTd2FfUF9KMmh1Tlo1aTA3TFIzUkEwN202aFdaZktOT3V4cjlmQk0tcllMZmVheW94cDBlc05GdFJKMjk1b3FaUDA1TExZT3N3LVdiX3FKQlFJU1Y3dGh4UUwzalgzN0tzMHQ5aDItbllhTmRsOW5fNnMwcnJvRXNzVkpuX0JvT1hpbEZlUdIBzAFBVV95cUxPQzlIUURpUU5EZWNPaURkTG1pUzllRElLSEpCUDFVeFExMWVDbXBZbjdlblM2NHB4eGY2RmNRWDR5dWR0aW1hWnNVWlh6TlZwYjc4Um1aR2xuT2F1MmRyZVpuODlsaXRyNUxoV0ZoaHY4YUdCcnpvaElFazBpYlY5eFhRUU1OakdaYzhKSldtTnExZEg0c3R3cFJ2QnFnYmtGczktWUdzZ2lXdENqQ1pPQjd5ZzNSQ0Z3REZqSzBpdmZSYTdVYlpXQlZ3Nkg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792126676000,
+    "summaryEn": "Oil prices rise due to the situation in the Middle East, not Ukraine’s strikes on Russian oil refineries — Reuters Українські Національні Новини (УНН)",
+    "summaryAr": "Oil prices rise due to the situation in the Middle East, not Ukraine’s strikes on Russian oil refineries — Reuters Українські Національні Новини (УНН)",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "South Korea reviews expanding military mission in Middle East, report says - Internazionale",
+    "titleAr": "South Korea reviews expanding military mission in Middle East, report says - Internazionale",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSzhuRVBxYjFtWXhvZ3Jnd2Y1WWNfZzFJTnZfWnNWdlZhMGNjckRPRllYNzg0a2EzU2Q5cUNCbm1zUnNpbDFwazBEZXV0WXFuWXYtUXZHMnRYUDhuaTVpSV85WGJNNEdDYTRIYnJ0eHZrZnZFeUQzMXpqbjU4ZEp1NVFjQ0tiQXlvTXpDQXFRWkZzMEdYLXBDLTVpeTAzTkRSR3VLLW0wVWJQNXdSOHFRZlkzdk9EbXlpMEZyT2xqby00WVR0RVNQbHNyVjEwS0tScjZV?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792123285000,
+    "summaryEn": "South Korea reviews expanding military mission in Middle East, report says Internazionale",
+    "summaryAr": "South Korea reviews expanding military mission in Middle East, report says Internazionale",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "South Korea reviews expanding military mission in Middle East, report says - Reuters",
+    "titleAr": "South Korea reviews expanding military mission in Middle East, report says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRmF3NllOSF9QUzVkUjZzNWVkQlo1MWRmdHkxQ082ZE5DTGdEVWtoS2JpRjUwLWtSYnpNNG9nR2Uyak9ESFBZNlh4LXZQenczNnB3YUNubmlmTUN2cTlzSDEyUzB3eTlqa1MySVZFSzQwYm9vM0kxU3VTMkdYMGhMRUlvOUE0bjFEeURLMmE1VklPRmxfU1l3Y2lOQVNkalBxUGhUaFRvdmV0a1FwREVhdG14ODVHYVlXaFZfenFneDFBWms?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792123140000,
+    "summaryEn": "South Korea reviews expanding military mission in Middle East, report says Reuters",
+    "summaryAr": "South Korea reviews expanding military mission in Middle East, report says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
     "titleAr": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
     "link": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss",
@@ -23,6 +215,22 @@
     "pubDate": 1792112280000,
     "summaryEn": "Sparc Technologies And Levidian Enter MoU For Ecosparc Commercialisation In Middle East TradingView",
     "summaryAr": "Sparc Technologies And Levidian Enter MoU For Ecosparc Commercialisation In Middle East TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil eases but heads for weekly gain as investors focus on Middle East supply - Reuters",
+    "titleAr": "Oil eases but heads for weekly gain as investors focus on Middle East supply - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792112220000,
+    "summaryEn": "Oil eases but heads for weekly gain as investors focus on Middle East supply Reuters",
+    "summaryAr": "Oil eases but heads for weekly gain as investors focus on Middle East supply Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,6 +288,22 @@
     ]
   },
   {
+    "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792107403000,
+    "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Two Syrian pipelines damaged amid spate of attacks on energy infrastructure",
     "titleAr": "Two Syrian pipelines damaged amid spate of attacks on energy infrastructure",
     "link": "https://www.aljazeera.com/economy/2026/10/15/two-syrian-pipelines-damaged-amid-spate-of-attacks-on-energy-infrastructure?traffic_source=rss",
@@ -128,38 +352,6 @@
     ]
   },
   {
-    "titleEn": "Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices",
-    "titleAr": "Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/israeli-ad-firm-helped-infect-spyware-into-al-jazeera-devices?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792098301000,
-    "summaryEn": "An Israeli spyware disguised as a digital advertisement firm has targeted journalists’ devices at Al Jazeera.",
-    "summaryAr": "An Israeli spyware disguised as a digital advertisement firm has targeted journalists’ devices at Al Jazeera.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "At least 7 crew members missing after drone attacks on ships in Black Sea",
-    "titleAr": "At least 7 crew members missing after drone attacks on ships in Black Sea",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792096192000,
-    "summaryEn": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea.",
-    "summaryAr": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
     "titleAr": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
@@ -192,22 +384,6 @@
     ]
   },
   {
-    "titleEn": "Why are migrants risking their lives at sea to reach Yemen?",
-    "titleAr": "Why are migrants risking their lives at sea to reach Yemen?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/why-are-migrants-risking-their-lives-at-sea-to-reach-yemen?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792095181000,
-    "summaryEn": "Al Jazeera’s Al Anoud Al Aqeedi explains why migrants are risking their lives to make the journey to Yemen.",
-    "summaryAr": "Al Jazeera’s Al Anoud Al Aqeedi explains why migrants are risking their lives to make the journey to Yemen.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
@@ -215,22 +391,6 @@
     "pubDate": 1792094236000,
     "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Will Israeli voters punish Benjamin Netanyahu?",
-    "titleAr": "Will Israeli voters punish Benjamin Netanyahu?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/10/15/will-israeli-voters-punish-benjamin-netanyahu?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792093467000,
-    "summaryEn": "Netanyahu is reported to have received warnings before October 7, 2023, but failed to act on time.",
-    "summaryAr": "Netanyahu is reported to have received warnings before October 7, 2023, but failed to act on time.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -544,178 +704,18 @@
     ]
   },
   {
-    "titleEn": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
-    "titleAr": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+    "titleEn": "Debris floats in waters near Hormuz after ships sunk - Reuters",
+    "titleAr": "Debris floats in waters near Hormuz after ships sunk - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sVExWdUpHOUE0LVA4NjRYMGp6ZDVYUDNvc0tkTW1OZk9tZlJBQmZReGFJQmFYeEh0UWVFUnFmUmRlUFppSnpQbGtwQjlkLU9obUg2WHFHN0R2VHJ0d2VzRzJ0RXZ5eDA?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792058400000,
-    "summaryEn": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans Reuters",
-    "summaryAr": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "WTO chief sees lasting impact on trade from Middle East war and geopolitics - CNBC Africa",
-    "titleAr": "WTO chief sees lasting impact on trade from Middle East war and geopolitics - CNBC Africa",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcnpvOVdmQUpHWVltTnozSGhWR1o5cG9Db1lLWEVvM0FfODZBUlhjLUxJSE0zY05yVERWS0hUZGtEeEtoTWpKckZJTnEwN0t2RmxsdnBmYU1CNEZwRUczMTd2ZzQtUW9fSzlEQVdLY1V1b0hRMlVhX0RlR3lxSWx2MGMwLVVkR1VPMUFzZl84V0k4VjUyU3MxODBheXFvVlJtVjVTNlM4VlU0NGs0?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792058022000,
-    "summaryEn": "WTO chief sees lasting impact on trade from Middle East war and geopolitics CNBC Africa",
-    "summaryAr": "WTO chief sees lasting impact on trade from Middle East war and geopolitics CNBC Africa",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "WTO chief sees lasting impact on trade from Middle East war and geopolitics - Reuters",
-    "titleAr": "WTO chief sees lasting impact on trade from Middle East war and geopolitics - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmFldXBLU0N2MEtrUHZGUXFMNEVGR0lsYzJwZDJwdVV0T0ZvN0FENHlMOXdmekY4elZOb1BsV04ydDZMazlQRlREcmowSUFKVkRHYXpXUlRnN24zcFpXUlRYWnNMNE5pN1dDVFZZb21WMzl1SnJZam1GOGFLemtxVjVMUjE2eTFrTEpZNGwtam5yanJjeWFyRkpIQTdtU21sRDZ2MVNObEZJNW9T?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792055623000,
-    "summaryEn": "WTO chief sees lasting impact on trade from Middle East war and geopolitics Reuters",
-    "summaryAr": "WTO chief sees lasting impact on trade from Middle East war and geopolitics Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hormuz shipping disruption is starting to hit harvests, UN agency says - Reuters",
-    "titleAr": "Hormuz shipping disruption is starting to hit harvests, UN agency says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3pFV3J3TU44dzNxVVVjWUoyeVc3bVFpV3RVWEducVZZUFk0UXNBdzlEcnpxSGUycUw0cTIyLUFvYnNxc1BOU0lOOHJVM21tRFVrWVp5Q0pKRENxc01LcFpJbk1JS0k1ZndiMURRRVBySmJ0MUltS1RoM2JCN3d0V0t6WkhfT2U3UHU4QWhKb1M5eGRoUVpaVVVNT2hzNWlFT2hPSVRuQlQ2cURjdTBPOVd2UzRCc0JGcTVMWQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792054903000,
-    "summaryEn": "Hormuz shipping disruption is starting to hit harvests, UN agency says Reuters",
-    "summaryAr": "Hormuz shipping disruption is starting to hit harvests, UN agency says Reuters",
+    "pubDate": 1792061807000,
+    "summaryEn": "Debris floats in waters near Hormuz after ships sunk Reuters",
+    "summaryAr": "Debris floats in waters near Hormuz after ships sunk Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "titleAr": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-    "source": "The Hacker News",
-    "pubDate": 1792048025000,
-    "summaryEn": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artific…",
-    "summaryAr": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artific…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Kenya raises fuel prices as Middle East conflict lifts import costs - CNBC Africa",
-    "titleAr": "Kenya raises fuel prices as Middle East conflict lifts import costs - CNBC Africa",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNXY1QkpzUHNHOENacUxxUGQ5QndtaWhvRkxKQmJPTU5sN2VjZnp2TENFaFR3Ny1MbkhzQjFOU1ZZLXFxRGNDeUhYb0dfMVA5SFkyM0YxQU5YVENZX0VjZ1NQT0M5RXlQWlhwSWFMeTRRenFxeFFZM0puWlJJQjZUdk1aeGRGM2VXWXEzR29xTjduTC1NS01HdUlac2x6VHVoMFE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792046609000,
-    "summaryEn": "Kenya raises fuel prices as Middle East conflict lifts import costs CNBC Africa",
-    "summaryAr": "Kenya raises fuel prices as Middle East conflict lifts import costs CNBC Africa",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-    "titleAr": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-    "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-    "source": "The Hacker News",
-    "pubDate": 1792046588000,
-    "summaryEn": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurre…",
-    "summaryAr": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurre…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - TradingView",
-    "titleAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeEJ3bmlMdUd2TVdXcU13SXI1NXBVNXlYYUFtSXBaZi11UW9IODRqdGpzTkZtYTh5R0ltMXBya2czaUFaak5UOG9fc3p0M3hlZElRQzhyU29sal9lQkJCN3NYNnZVV3VHY2ppTnB6X2tPcUpGZnRaNnQ4UDVwMnNhWmNleld5UngyQzloTzZCYXFxXzRxOFRQalJtVmFwQjV3TGtReE5FQkY3MGFYcjUzc09waUFEdzVlSzJ5enpDUFpMOFg2V19jb0thdGxfYm5NZWNldm1Kb0RvZ2JFT2dTU0pPVUNjMGc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792045620000,
-    "summaryEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says TradingView",
-    "summaryAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - Awani International",
-    "titleAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWjh0V0V1NmhtZFV0T0tuaTdKMVhEWVZJV1F6NzJNUVdrakt3cHZqdzB5cWx4V0dyUzNwV3FGQXNXUkJSOHFWYmdHaVlxeHZjNGNBOHRrZnZtVG1SbWxLNDczNXZzQnJGQzZjcVFEY3ZmN0NnTVBZTHZVNnptVXRSQ0VGSnVIY2wwUGlLMVZPVkxneEhEWXlQeW0zZlhjajJpTWNnRTdZTFEyaUpENGs5SHVUVkp0Q1AzN0NLOGlxRXBZWENyUVZz?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792045035000,
-    "summaryEn": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says Awani International",
-    "summaryAr": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says Awani International",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
-    "titleAr": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792044000000,
-    "summaryEn": "COMMENTARY: Oil's long view darkens as Iran war refuses to end Reuters",
-    "summaryAr": "COMMENTARY: Oil's long view darkens as Iran war refuses to end Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Kenya raises fuel prices as Middle East conflict lifts import costs - Reuters",
-    "titleAr": "Kenya raises fuel prices as Middle East conflict lifts import costs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQal9MVUlacGx1Mk5qWU44N3lMY3FFZGhPQnpJT2xJQkdkdGlaUEI0dEJqdXVzWkxhOWI5SFFZS3lKN2tkX1I3TlV1OG5RSFJqU2xOd2VUWU8zcFdWdFZldENEWm9ybkdiOUc3am5wU19YaEJyZ3FFUDN1N194YlA4c29xbWxoMTVlekNRZHByWFQ4eHFpNmQyckxVVGRHcXY5el9MajgwMF9vYnd2emNNWk90aw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792043400000,
-    "summaryEn": "Kenya raises fuel prices as Middle East conflict lifts import costs Reuters",
-    "summaryAr": "Kenya raises fuel prices as Middle East conflict lifts import costs Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
