@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "Israeli raids and arrests in southern Syria push population to the brink",
+    "titleAr": "Israeli raids and arrests in southern Syria push population to the brink",
+    "link": "https://www.aljazeera.com/features/2026/10/17/israeli-raids-and-arrests-in-southern-syria-push-population-to-the-brink?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792221426000,
+    "summaryEn": "Survivors recount brutal prison conditions, enduring beatings, restraints and psychological abuse by Israeli soldiers.",
+    "summaryAr": "Survivors recount brutal prison conditions, enduring beatings, restraints and psychological abuse by Israeli soldiers.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Can Yemen’s government forces sustain their offensive against the Houthis?",
+    "titleAr": "Can Yemen’s government forces sustain their offensive against the Houthis?",
+    "link": "https://www.aljazeera.com/news-analysis/2026/10/17/can-yemens-government-forces-sustain-their-offensive-against-the-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792219294000,
+    "summaryEn": "Houthi missile strikes threaten key supply routes on Yemen's Red Sea coast, intensifying pressure on government forces.",
+    "summaryAr": "Houthi missile strikes threaten key supply routes on Yemen's Red Sea coast, intensifying pressure on government forces.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
+    "titleAr": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
+    "link": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792214359000,
+    "summaryEn": "Russia strikes Kharkiv, Kramatorsk, Volyn and Rivne as Moscow presses its campaign against Ukraine's power grid.",
+    "summaryAr": "Russia strikes Kharkiv, Kramatorsk, Volyn and Rivne as Moscow presses its campaign against Ukraine's power grid.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "The Israeli politicians seeking to replace Netanyahu",
+    "titleAr": "The Israeli politicians seeking to replace Netanyahu",
+    "link": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792213258000,
+    "summaryEn": "A look at Israel's main opposition leaders, their parties and their largely shared positions on Gaza and other wars.",
+    "summaryAr": "A look at Israel's main opposition leaders, their parties and their largely shared positions on Gaza and other wars.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Healthcare crisis escalating in Yemen’s besieged Taiz",
     "titleAr": "Healthcare crisis escalating in Yemen’s besieged Taiz",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/healthcare-crisis-escalating-in-yemens-besieged-taiz?traffic_source=rss",
@@ -80,54 +144,6 @@
     ]
   },
   {
-    "titleEn": "Yemen’s government says Houthis fired two missiles at Aden airport",
-    "titleAr": "Yemen’s government says Houthis fired two missiles at Aden airport",
-    "link": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792187767000,
-    "summaryEn": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
-    "summaryAr": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
-    "titleAr": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israeli-spyware-used-zero-click-hack-on-al-jazeera-staff?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792184924000,
-    "summaryEn": "Israeli spyware firms hacked into Al Jazeera devices in 2024 using a new ‘adfection’ method. Here's how it works.",
-    "summaryAr": "Israeli spyware firms hacked into Al Jazeera devices in 2024 using a new ‘adfection’ method. Here's how it works.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Food affordability fears plague Gaza as Israel halts commercial goods",
-    "titleAr": "Food affordability fears plague Gaza as Israel halts commercial goods",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/food-affordability-fears-plague-gaza-as-israel-halts-commercial-goods?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792183042000,
-    "summaryEn": "Commercial goods, such as fresh fruit, vegetables, meat and winter clothing, have not entered Gaza for two days.",
-    "summaryAr": "Commercial goods, such as fresh fruit, vegetables, meat and winter clothing, have not entered Gaza for two days.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
     "titleAr": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
     "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
@@ -140,6 +156,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Why is the battle for Yemen's Taiz so important? - Reuters",
+    "titleAr": "Why is the battle for Yemen's Taiz so important? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNVFBabzlldE0taUdSWDNkQ1JOSENMdi12Z0pxMU1OS1NtWXg5WVBiZ3R6akI1NXhJUUJaS0lEVTR5al9JNjJYOE4yalpFS3RYQVhJNUw3aTVrdkxrTlZ1aGpsaU9VRE0?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792182028000,
+    "summaryEn": "Why is the battle for Yemen's Taiz so important? Reuters",
+    "summaryAr": "Why is the battle for Yemen's Taiz so important? Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -176,22 +208,6 @@
     ]
   },
   {
-    "titleEn": "Why is the battle for Yemen's Taiz so important? - Reuters",
-    "titleAr": "Why is the battle for Yemen's Taiz so important? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNVFBabzlldE0taUdSWDNkQ1JOSENMdi12Z0pxMU1OS1NtWXg5WVBiZ3R6akI1NXhJUUJaS0lEVTR5al9JNjJYOE4yalpFS3RYQVhJNUw3aTVrdkxrTlZ1aGpsaU9VRE0?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792180738000,
-    "summaryEn": "Why is the battle for Yemen's Taiz so important? Reuters",
-    "summaryAr": "Why is the battle for Yemen's Taiz so important? Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
     "titleAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
@@ -199,22 +215,6 @@
     "pubDate": 1792179439000,
     "summaryEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
     "summaryAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - AOL.com",
-    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95UlZkOXlYeFVsSlh0bXQwaktGVE00VTh6aFl3UGZsMW03LTcyUnJHWjJOdzRlOC1iaTFoRWdMNFFPVWNLdTFZd25NQm5kQThXRWY5T01zVzBUNEpsc3duOGpacXFXQnh1RGJsZlFPejZSamlZVVFaUnpJRkU1aUk?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792179247000,
-    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears AOL.com",
-    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears AOL.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -240,59 +240,11 @@
     ]
   },
   {
-    "titleEn": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
-    "titleAr": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
-    "link": "https://www.aljazeera.com/news/2026/10/16/uk-pm-advisers-wife-expresses-support-for-palestine-action?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792175168000,
-    "summaryEn": "Police reviewing social media post by writer Sarah Helm, wife of Burnham's National Security Adviser Jonathan Powell.",
-    "summaryAr": "Police reviewing social media post by writer Sarah Helm, wife of Burnham's National Security Adviser Jonathan Powell.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How Iran messaging highlights cost of war ahead of US midterm elections",
-    "titleAr": "How Iran messaging highlights cost of war ahead of US midterm elections",
-    "link": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792174903000,
-    "summaryEn": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-    "summaryAr": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Ukraine president targets Trump, Putin at EU summit",
-    "titleAr": "Ukraine president targets Trump, Putin at EU summit",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/ukraine-president-targets-trump-putin-at-eu-summit?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792173588000,
-    "summaryEn": "President Zelenskyy warned Russia’s ambitions extend beyond eastern Ukraine, saying its drone attack threaten NATO.",
-    "summaryAr": "President Zelenskyy warned Russia’s ambitions extend beyond eastern Ukraine, saying its drone attack threaten NATO.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply - GV Wire",
     "titleAr": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply - GV Wire",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeUtHZzN2aTJraDByclU4S3lrNDdEcXN2dW5jNnM1d2dDLWlsMlNxUkpWYm9Kc3Jsa0VEclhjcW1YNndLNU50bUhVVXoxazFCT1pmTDJwcTlkQkNVcEtIaERLNHBuLUltZEJmdTVJWVRMdjBnTE8wdU50a25iQVZidm5TakRwM1lzbE9pc21yNEdzcEcyQlFjd0RpeTI2c1BMWkpwSi04MlpFQm1SWVhCX2xqSkpLdw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792170633000,
+    "pubDate": 1792174267000,
     "summaryEn": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply GV Wire",
     "summaryAr": "Oil Prices Gain More Than 3%, Heading for Weekly Gain With Focus on Middle East Supply GV Wire",
     "tags": [
@@ -316,22 +268,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Supertanker rates fall from record highs - Reuters",
-    "titleAr": "Supertanker rates fall from record highs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVkk0WDVQcnY0THRwaTVSenJQTEQ0U1VuVHdEY2xKTl9CdEw2NjlFN0FvTnBGbldlREpWRGZ6YV9kWnRjNjVuTlJqTWVBR0U3VXAwbXgwRjlSY1pfSVd3SjRKYU5KMVJwVm56blVQMnFFbV9EejlRNlZuSWo2OGd1TVl4ZlVwOXlvVGttb0ZLVkk?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792160741000,
-    "summaryEn": "Supertanker rates fall from record highs Reuters",
-    "summaryAr": "Supertanker rates fall from record highs Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -576,6 +512,22 @@
     ]
   },
   {
+    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - TradingView",
+    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUnRWNldJd1NPRV9ieHYzYnpRSGxqSHIyenNaNUY0MVV4ZDlxSXUwZWZNZzlvYWFyQnZQRzlUQW9obGVBR3pmcGliYThDTzVORFdQTXA2dTJYSEdYQVZZbk9QY3JXUk01UktHTEVpRzJLRXZpVzNYTjdleU9UaFE0M1NVbWdPcFp6TWNuUkZ2QXRlMFNTNHJjM3pyNGNwb1NiOTB6NE9vdkJUaVNqREFmVHlhOXBSMEM2am9YZmhNUU1VeXRfU2FlVmowM3RQTGxJMHplSFIzbHJ5UTh4Uk9EbWJ4azZEVGx1bGc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792124708000,
+    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears TradingView",
+    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Oil eases but heads for small weekly gain as investors focus on Middle East supply - TradingView",
     "titleAr": "Oil eases but heads for small weekly gain as investors focus on Middle East supply - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnJyd0JlZ1Ria3F1b3N0a3hVZGxja1ZJQWVZMFFnenpzVDNlV0NHRVNWZmVPejNTb1hrTjZXSzNmUWVyQWQwb2VpeXY2emJJLVNvN1VvbXRxQ1loZEg3Zi1oR3ctS1Q3U0pvNmVBUFJyVm1TTkttaVNoUFdxWU9uM2NFZm05TERuRkREUXpUa2lCLUxOS3pQT2lYeTg5M2g0SWxLMzFSREdfb2MzOVZvcU45eU9VWWtTS0xHRzB3YjdsbzFyc3VUOU5VMm9JSnhHTUJTcExyVk1vNXJRRExOVG9SbWJNWTQ?oc=5",
@@ -716,6 +668,54 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792107403000,
+    "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says - Reuters",
+    "titleAr": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSlpQMDZaUUhySG1lc3RRT0R1SWZYemxuYVBWTHMyeXRnYzJwWm1JWnlLa19QQ0dqd01CcERwQkc5dGNxc0kwODZHek5YcnlNRzZCRHVxb3VQYlE1Ukd6WXJMY1JQSmRNQkYyaUtRZU1WMmo4cU10RDAzVE5xb1NhWFNDMEZfOURHMGZHQzlZMUxZNDlmUVZ3dkZ0YURzRFk1Y0xWSnVRS0hHVjBGbEdLNXc4blhCMDluZm05ZVpvcGNtb2VjbzNaOHhzVWxILU0?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792106322000,
+    "summaryEn": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says Reuters",
+    "summaryAr": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "titleAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXBEWEFlSG9EdHRhc2NkY1Npd0puaG1jVWMyX0lNZVBWT05RaTc1MzNoenJwdmIyYW9vYlRRTjR1Mm1sT1EtRnJoRk9DQnJxYk5tLTJwNndQUV9UdFlLMzEtZ0ZURHFVVDR6c1hoWXNYZlpQQVFpNEtRdkxjY1RYQl9iWkJORHN1UmxURXl6dmJtZC1RWVdzNU91VQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792105794000,
+    "summaryEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "summaryAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   }
