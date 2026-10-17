@@ -1,12 +1,92 @@
 [
   {
-    "titleEn": "West Bank settlers attack Palestinians, Western diplomats, Belgium says - Reuters",
-    "titleAr": "West Bank settlers attack Palestinians, Western diplomats, Belgium says - Reuters",
+    "titleEn": "Iranian TV airs video said to show tanker explosion in Hormuz",
+    "titleAr": "Iranian TV airs video said to show tanker explosion in Hormuz",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792267342000,
+    "summaryEn": "Iranian state TV aired footage claiming to show an oil tanker exploding after striking a naval mine in Hormuz",
+    "summaryAr": "Iranian state TV aired footage claiming to show an oil tanker exploding after striking a naval mine in Hormuz",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Albanian police fire rubber bullets as protests against Rama escalate",
+    "titleAr": "Albanian police fire rubber bullets as protests against Rama escalate",
+    "link": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792265173000,
+    "summaryEn": "Five days of clashes rock Tirana as students join a wider movement demanding Prime Minister Edi Rama's resignation.",
+    "summaryAr": "Five days of clashes rock Tirana as students join a wider movement demanding Prime Minister Edi Rama's resignation.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Is the US Embassy in Jerusalem for Israel or America?",
+    "titleAr": "Is the US Embassy in Jerusalem for Israel or America?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/is-the-us-embassy-in-jerusalem-for-israel-or-america?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792262490000,
+    "summaryEn": "What led to the deaths of the nine Americans killed in the occupied West Bank since 2022?",
+    "summaryAr": "What led to the deaths of the nine Americans killed in the occupied West Bank since 2022?",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
+    "titleAr": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
+    "link": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792261619000,
+    "summaryEn": "Attacks hit several areas as UNICEF reports more than 340 children killed since 'ceasefire' began a year ago.",
+    "summaryAr": "Attacks hit several areas as UNICEF reports more than 340 children killed since 'ceasefire' began a year ago.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israeli settlers attack farmers and journalists",
+    "titleAr": "Jerusalem Daily: Israeli settlers attack farmers and journalists",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792257530000,
+    "summaryEn": "After Israeli settlers beat and severely wounded Palestinian farmers, settler violence continues.",
+    "summaryAr": "After Israeli settlers beat and severely wounded Palestinian farmers, settler violence continues.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
+    "titleAr": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792252269000,
-    "summaryEn": "West Bank settlers attack Palestinians, Western diplomats, Belgium says Reuters",
-    "summaryAr": "West Bank settlers attack Palestinians, Western diplomats, Belgium says Reuters",
+    "pubDate": 1792256884000,
+    "summaryEn": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
+    "summaryAr": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,146 +96,50 @@
     ]
   },
   {
-    "titleEn": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
-    "titleAr": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+    "titleEn": "Why are Latin American countries building closer ties with Israel?",
+    "titleAr": "Why are Latin American countries building closer ties with Israel?",
+    "link": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792256084000,
+    "summaryEn": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
+    "summaryAr": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+    "titleAr": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792255747000,
+    "summaryEn": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks.",
+    "summaryAr": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Around 14 Million Barrels Per Day leaving Middle East, Vitol CEO Says - EnergyNow.com",
+    "titleAr": "Around 14 Million Barrels Per Day leaving Middle East, Vitol CEO Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT29VZnA2dUhiSGQ5VzBYRE1fQWo3TWRGbjRDUjlVcjVKT2JtZ1haY0xyNFFMeFpzbUVDb2lVNXI2SW5IYkZmRDdDQ3lTU2xmNGYtSjV5c25sWjlUYS1JZC1VVUhJOWR0aUozMkk5OV9VUEt6TmhVZDlQWFhldVVEbkUtUGZmZTFGUFVwZnBSM1c0MTBteHVDZ01Eei1Fb21i?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792244171000,
-    "summaryEn": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
-    "summaryAr": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Child, four women among Palestinians injured in West Bank pogroms",
-    "titleAr": "Child, four women among Palestinians injured in West Bank pogroms",
-    "link": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792241283000,
-    "summaryEn": "Attacks follow a religious edict by a prominent far-right rabbi permitting the seizure of Palestinian olives.",
-    "summaryAr": "Attacks follow a religious edict by a prominent far-right rabbi permitting the seizure of Palestinian olives.",
+    "pubDate": 1792221120000,
+    "summaryEn": "Around 14 Million Barrels Per Day leaving Middle East, Vitol CEO Says EnergyNow.com",
+    "summaryAr": "Around 14 Million Barrels Per Day leaving Middle East, Vitol CEO Says EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hardline Israeli rabbi ruling on stolen Palestinian olives prompts uproar",
-    "titleAr": "Hardline Israeli rabbi ruling on stolen Palestinian olives prompts uproar",
-    "link": "https://www.aljazeera.com/news/2026/10/17/hardline-israeli-rabbi-ruling-on-stolen-palestinian-olives-sparks-uproar?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792240069000,
-    "summaryEn": "A controversial ruling by a hardline Israeli rabbi has been condemned by Palestinians.",
-    "summaryAr": "A controversial ruling by a hardline Israeli rabbi has been condemned by Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
-    "titleAr": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
-    "link": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792239056000,
-    "summaryEn": "Two vessels have been struck with naval mines in the Strait of Hormuz this week.",
-    "summaryAr": "Two vessels have been struck with naval mines in the Strait of Hormuz this week.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Russian strikes kill civilians, injure dozens across Ukraine",
-    "titleAr": "Russian strikes kill civilians, injure dozens across Ukraine",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792236161000,
-    "summaryEn": "At least eight people have been killed and nearly 60 injured in the latest wave of Russian strikes across Ukraine.",
-    "summaryAr": "At least eight people have been killed and nearly 60 injured in the latest wave of Russian strikes across Ukraine.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Sally Rooney’s books pulled from UK over Palestine Action support",
-    "titleAr": "Sally Rooney’s books pulled from UK over Palestine Action support",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/sally-rooneys-books-pulled-from-uk-over-palestine-action-support-2?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792234239000,
-    "summaryEn": "We asked students what they think.",
-    "summaryAr": "We asked students what they think.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Solar power booms in Philippines as war on Iran spikes energy costs",
-    "titleAr": "Solar power booms in Philippines as war on Iran spikes energy costs",
-    "link": "https://www.aljazeera.com/news/2026/10/17/solar-power-booms-in-philippines-as-war-on-iran-spikes-energy-costs?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792231921000,
-    "summaryEn": "With Southeast Asia's largest electricity bills rising even higher, Filipinos invest in rooftop panels.",
-    "summaryAr": "With Southeast Asia's largest electricity bills rising even higher, Filipinos invest in rooftop panels.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "As Israel blocks PA funding, the West Bank’s healthcare system is failing",
-    "titleAr": "As Israel blocks PA funding, the West Bank’s healthcare system is failing",
-    "link": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792230475000,
-    "summaryEn": "Hospitals across the occupied West Bank have been hit by a funding shortage.",
-    "summaryAr": "Hospitals across the occupied West Bank have been hit by a funding shortage.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters",
-    "titleAr": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNDZxN09RLXNuaEpfdzNaQ3lhdzUyM29wSU84bG0tR3hpRm14NWM2d0hBbmtSVmtxM0hSZmhLMXQ5bFhCVTNKaTNkLW1LcUZRcEhlS3g1dmNMU1hFY1ZMYUJqaHBRQ0UwT3ZCNXUtM1Zwa3VxeDJxUmYtUXUxNXVKNk4wWHB3V2NaSkZEYk0yZkhXX2ZhMGtVZHhhcVhCOW9OUXp4djVwbGZ4UWdMa1RpTUJQenphV0RHTTFpejNMdDJtdw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792224313000,
-    "summaryEn": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says Reuters",
-    "summaryAr": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -176,13 +160,29 @@
     ]
   },
   {
-    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
+    "titleEn": "Iran accuses US, Israel of fueling regional turmoil in Middle East - Awani International",
+    "titleAr": "Iran accuses US, Israel of fueling regional turmoil in Middle East - Awani International",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVzU3cUZkSFd2XzA3ckJMdEcyTGRJeF9DcUZJa1N0LUJoOVZEQlF6d3FPWlhDZ0cydlRRcUVLUHc4ZVpZc2dENnBRa0c3ZFZDb2NjUm1NTFc0emxSZUxSeWxXOEVYcUo4cmVnUXRWREo2OTdmUjZjWk1oREtOWkFQSGl5U1lTaGNnYW5EZF9rMnBYeElCNW5abllicTFMcEl0NzRvX0lFS0RNdl9h?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792191033000,
-    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "pubDate": 1792212367000,
+    "summaryEn": "Iran accuses US, Israel of fueling regional turmoil in Middle East Awani International",
+    "summaryAr": "Iran accuses US, Israel of fueling regional turmoil in Middle East Awani International",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "titleAr": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11NWFDZjV2eVJvRlEtQzBwQWIwRnlEeFgxMkRLd1d1Yk5Hc2pPd01KYlJMV3dxYTBBMDRsQXJNRnVCaW1VVVZCTXpVWXlXQnJYZjVOYjhxb1ZTcFRaWHVtN0J5aEtHaHV4YWZiREh1YnRwR3BKUWI3Nl95dGNiMXM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792195205000,
+    "summaryEn": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
+    "summaryAr": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
     "tags": [
       {
         "textEn": "INTEL",
