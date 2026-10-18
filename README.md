@@ -9,7 +9,7 @@
 <div align="center">
    
 
-# YASLOGIST // INTELLIGENCE
+
 
 <a href="https://yaslogist.github.io/yaslogist-intelligence/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1450&pause=620&color=00E5FF&background=050B1200&center=true&vCenter=true&repeat=true&width=900&height=112&lines=%24+boot+yaslogist-intelligence+--edge;%3E+normalizing+OSINT+%2F+CVE+%2F+maritime+signals;%3E+validating+canonical+event+contracts;%3E+publishing+bilingual+EN%2FAR+operations+picture;%E2%96%88+SYSTEM_READY+%2F%2F+OPEN_CONSOLE" alt="Animated terminal boot sequence: boots the edge console, normalizes OSINT, CVE and maritime signals, validates canonical event contracts, publishes a bilingual operations picture" /></a>
 
