@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  width="72" height="72" alt="YASLOGIST radar reticle monogram" />
+   alt="YASLOGIST radar reticle monogram" />
 
 # YASLOGIST // INTELLIGENCE
 
