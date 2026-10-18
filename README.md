@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/yaslogist-logo-128.png" width="72" height="72" alt="YASLOGIST radar reticle monogram" />
+  width="72" height="72" alt="YASLOGIST radar reticle monogram" />
 
 # YASLOGIST // INTELLIGENCE
 
