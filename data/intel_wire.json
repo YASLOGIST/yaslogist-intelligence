@@ -1,5 +1,101 @@
 [
   {
+    "titleEn": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+    "titleAr": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+    "link": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792349070000,
+    "summaryEn": "Gulf ministers urge action against Houthis as fighting displaces more than 233,000 people across Yemen.",
+    "summaryAr": "Gulf ministers urge action against Houthis as fighting displaces more than 233,000 people across Yemen.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza bodybuilders find solace in strongman competition among the ruins",
+    "titleAr": "Gaza bodybuilders find solace in strongman competition among the ruins",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/gaza-bodybuilders-find-solace-in-strongman-competition-among-the-ruins?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792348562000,
+    "summaryEn": "Bodybuilders in Gaza are finding solace in testing their strength during a competition surrounded by rubble.",
+    "summaryAr": "Bodybuilders in Gaza are finding solace in testing their strength during a competition surrounded by rubble.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "JERUSALEM DAILY: Settlers attack EU diplomats",
+    "titleAr": "JERUSALEM DAILY: Settlers attack EU diplomats",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792345957000,
+    "summaryEn": "Israeli settlers attacked an EU delegation in the occupied West Bank while it was visiting olive harvesters near Taybeh.",
+    "summaryAr": "Israeli settlers attacked an EU delegation in the occupied West Bank while it was visiting olive harvesters near Taybeh.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump endorses Netanyahu in close Israeli election - Reuters",
+    "titleAr": "Trump endorses Netanyahu in close Israeli election - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792345280000,
+    "summaryEn": "Trump endorses Netanyahu in close Israeli election Reuters",
+    "summaryAr": "Trump endorses Netanyahu in close Israeli election Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Residents recount drone strikes in Ethiopia’s northern Tigray region",
+    "titleAr": "Residents recount drone strikes in Ethiopia’s northern Tigray region",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/residents-recount-drone-strikes-in-ethiopias-northern-tigray-region?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792344020000,
+    "summaryEn": "In Adigrat, a city close to the Eritrean border, residents recall recent drone strikes by Ethiopian forces",
+    "summaryAr": "In Adigrat, a city close to the Eritrean border, residents recall recent drone strikes by Ethiopian forces",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US officials visit Palestinian village after settler attacks on diplomats - Reuters",
+    "titleAr": "US officials visit Palestinian village after settler attacks on diplomats - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXFmMW1hVjRCN2Fsa0p6OGNUX29BanZRTS1nS3ZwcV9fVzFsTklsN0w1TmxNSWVpamZ0NmEtU1RiQjNpdjNVcWY1TEZmcnhKSXltWEFtenZlVnZubzJPOENjTVotVjA2OVR4UVdwaVVsaGFLV050dnRTN0xKQzBmZWFNU0hPLTZUQ2VwaEtDelhCOTZqbEFYV2JYemRuNGE1dzNmUkhaQzN1OUltOUc3OXdMVUYyb19wNGI5aW04amZYQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792343693000,
+    "summaryEn": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
+    "summaryAr": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Trump endorses Netanyahu in Israeli legislative elections",
     "titleAr": "Trump endorses Netanyahu in Israeli legislative elections",
     "link": "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections?traffic_source=rss",
@@ -16,29 +112,13 @@
     ]
   },
   {
-    "titleEn": "Trump endorses Netanyahu in Israeli election - Reuters",
-    "titleAr": "Trump endorses Netanyahu in Israeli election - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
+    "titleEn": "Trump endorses Netanyahu ahead of Israel’s parliamentary election - Aaj English TV",
+    "titleAr": "Trump endorses Netanyahu ahead of Israel’s parliamentary election - Aaj English TV",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HRmxTOGVPbHE0aUVBRXI3Y09RRExzQmhVZ19HamNaUGhVRExJdl8za1JkVlJMdjhiLWQ2aTlIY1ozN2RjNjIxT3FsQnA2U05mcnlN?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792339837000,
-    "summaryEn": "Trump endorses Netanyahu in Israeli election Reuters",
-    "summaryAr": "Trump endorses Netanyahu in Israeli election Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US officials visit Palestinian village after settler attacks on diplomats - Reuters",
-    "titleAr": "US officials visit Palestinian village after settler attacks on diplomats - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXFmMW1hVjRCN2Fsa0p6OGNUX29BanZRTS1nS3ZwcV9fVzFsTklsN0w1TmxNSWVpamZ0NmEtU1RiQjNpdjNVcWY1TEZmcnhKSXltWEFtenZlVnZubzJPOENjTVotVjA2OVR4UVdwaVVsaGFLV050dnRTN0xKQzBmZWFNU0hPLTZUQ2VwaEtDelhCOTZqbEFYV2JYemRuNGE1dzNmUkhaQzN1OUltOUc3OXdMVUYyb19wNGI5aW04amZYQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792338104000,
-    "summaryEn": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
-    "summaryAr": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
+    "pubDate": 1792339800000,
+    "summaryEn": "Trump endorses Netanyahu ahead of Israel’s parliamentary election Aaj English TV",
+    "summaryAr": "Trump endorses Netanyahu ahead of Israel’s parliamentary election Aaj English TV",
     "tags": [
       {
         "textEn": "INTEL",
@@ -160,93 +240,13 @@
     ]
   },
   {
-    "titleEn": "There’s a ‘New Middle East’, but not the one Israel planned",
-    "titleAr": "There’s a ‘New Middle East’, but not the one Israel planned",
-    "link": "https://www.aljazeera.com/video/pinch-point/2026/10/18/pp-new-middle-east?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792325254000,
-    "summaryEn": "Instead of redrawing the region, Israel's wars of expasion pushed the region to work together against it.",
-    "summaryAr": "Instead of redrawing the region, Israel's wars of expasion pushed the region to work together against it.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?",
-    "titleAr": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?",
-    "link": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792324804000,
-    "summaryEn": "Akhlaghi's experience centres on ballistic missiles, aerospace technology and defence-industrial production.",
-    "summaryAr": "Akhlaghi's experience centres on ballistic missiles, aerospace technology and defence-industrial production.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
-    "titleAr": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
-    "link": "https://www.aljazeera.com/news/2026/10/18/funeral-held-for-75-palestinians-after-remains-recovered-from-gaza-ruins?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792322683000,
-    "summaryEn": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
-    "summaryAr": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
-    "titleAr": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
-    "link": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792321886000,
-    "summaryEn": "Analysts say that any move from Egypt will remain 'strictly defensive', as the conflict in Yemen intensifies.",
-    "summaryAr": "Analysts say that any move from Egypt will remain 'strictly defensive', as the conflict in Yemen intensifies.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
-    "titleAr": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
-    "link": "https://www.aljazeera.com/news/2026/10/18/jordans-israel-border-becomes-a-new-hotspot-for-a-sophisticated-drug-trade?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792320498000,
-    "summaryEn": "A surge in drug smuggling from Israel to Jordan using drones and balloons prompts accusations of border guard collusion.",
-    "summaryAr": "A surge in drug smuggling from Israel to Jordan using drones and balloons prompts accusations of border guard collusion.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinian karate champion Maryam Bsharat wins second world title",
-    "titleAr": "Palestinian karate champion Maryam Bsharat wins second world title",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/palestinian-karate-champion-maryam-bsharat-wins-second-world-title?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792320479000,
-    "summaryEn": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
-    "summaryAr": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
+    "titleEn": "Netanyahu sought Saudi approval for Israeli role in Yemen campaign, Crown Prince rejected: Sources - The Business Standard",
+    "titleAr": "Netanyahu sought Saudi approval for Israeli role in Yemen campaign, Crown Prince rejected: Sources - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSVhiZ2pRQUpCX3JIQjZ4MmNmM0t3SzJmbUlCM1p3VVJXQzV3NkRNaEdMNnJ4RkpFazZteTVmOWZiUVV3c1JUNmlDMHRKak1CdTFtZnUzcWRUd0Z6OTdrVDg5UEFKVzJvRTRNbFd3MkRCNU1BbU8tdjBtVkJQTDMyQ3NGOEF2N3d3SGZIQ3dCUTN1SUNHeTB1MWJFWmw4Q1hOMjNHNzN1UFM2WEg0bmF3RG1rYWM1Zy1kZmdTQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792321786000,
+    "summaryEn": "Netanyahu sought Saudi approval for Israeli role in Yemen campaign, Crown Prince rejected: Sources The Business Standard",
+    "summaryAr": "Netanyahu sought Saudi approval for Israeli role in Yemen campaign, Crown Prince rejected: Sources The Business Standard",
     "tags": [
       {
         "textEn": "INTEL",
@@ -320,11 +320,27 @@
     ]
   },
   {
+    "titleEn": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "titleAr": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4bUxNSXduT09qYTNXMG9MRHNXNHZWRm51S3B5QVI2UkpjVzBCSDB2MGJmSkpZSHpOMFFfQWFaSVhJVVFsN0lZaVV6TVJ6bmlKNzJEcFNDalhwWVE2S1dnNFRTTVFaeHg4NWF4dVl0aGtpU3d1Z0NWNzlnNDBjWW8?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792281901000,
+    "summaryEn": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
+    "summaryAr": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
     "titleAr": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemVCbnY2QnZocEZyc3g2WmMzUmtQS0ZFY2V0dXBXaDVkVU1ZYlN6MnZsQmJuN1pMWjlRZ002ZjlIOWwxLXp5ZFdkT0p0LXhOVGwzb0xZZ0VhU3NQY2JOUFhhXy1Cd3hjTlltYi1ZU2hkU2t5YVFTUHVzZjJnSHQyNGtNOTdmdEY1R1MyV1lUV0VHUzRLOUotcnNKY2kzNElSTG82UDVxRHFXMVYyQ1JSQmRpQ1FqOVM4X3V5TkV3RU9wSUxqTXdIc1BnRQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792280940000,
+    "pubDate": 1792280977000,
     "summaryEn": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
     "summaryAr": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
     "tags": [
@@ -432,22 +448,6 @@
     ]
   },
   {
-    "titleEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "titleAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjlEMy1kcTFPQkRmLUp6cmlpdjV6YlhoMHF5cVBQRXdJUkVmdGVPMVQzM2xMQk5vY1ZsLWJPMlZmeHZBRTZFaHZvS2pTQXZCTlliSGltUGhHVEM3VTJFczFkdUcwM29RQWtwZnlOd3Uyc2FJR1RjMlBuUDJnZmg5Y3IyWjNmS0RmTGZKbHNRbHYxRVVuam9aNjIyZ0t0N2R6?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792223242000,
-    "summaryEn": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
-    "summaryAr": "Middle East Crude Premiums Surge, Asian Refiners Seeking Alternatives EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "US Natural Gas Futures Leap 6% as Middle East Conflict Disrupts Global Supplies - EnergyNow.com",
     "titleAr": "US Natural Gas Futures Leap 6% as Middle East Conflict Disrupts Global Supplies - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPREZQcm84b2pIQ3VLWWwtOUhfd3VuSFphcmQtOXlfNF9ubElDN0RXdUtYaW5mVHJUc1VaNHhTSVJRWUd2cUJBMjYyZkJfRVY5MDFHRjFIVjFzS2lHY0trQ1BFMnZhdmtUa1dKLXJFaUNZR1VNUGJnT2NLN1NYc1BQOTM1VTJsWmtFN0ttUktBLUdQVEFxRUk1YWxuT3NfOFVGaEFsVUtNWllEQ3p3bVE?oc=5",
@@ -471,6 +471,54 @@
     "pubDate": 1792221808000,
     "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "titleAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXBEWEFlSG9EdHRhc2NkY1Npd0puaG1jVWMyX0lNZVBWT05RaTc1MzNoenJwdmIyYW9vYlRRTjR1Mm1sT1EtRnJoRk9DQnJxYk5tLTJwNndQUV9UdFlLMzEtZ0ZURHFVVDR6c1hoWXNYZlpQQVFpNEtRdkxjY1RYQl9iWkJORHN1UmxURXl6dmJtZC1RWVdzNU91VQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792220053000,
+    "summaryEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "summaryAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
+    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjZyN2NWdDVCeElhelhRNnhKZ1l1SkNyNmw3alUxWFRjTEgtQU9PTTFUS3Z5UkJHTHZlTzRvR0JDU054aUt5eHhLdXBWdUNDWk1sNVRza2RsYXRueWRocUhKMk5HeWpwTWhlTDF4VzkycDNYbUhYZGdabERNSk03YmZaay10S2x4ZGtOWW5NV0V6OU9CcWZ1R0xTN2xITUpfQlNvcG45bkI1NjlTT01rclBaRmVGSHo0NVcwRTl3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792218229000,
+    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
+    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil touches US$110 a barrel for first time since May on Middle East, Russia supply fears - The Business Times",
+    "titleAr": "Oil touches US$110 a barrel for first time since May on Middle East, Russia supply fears - The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUp1eWxDVEJVdnVFcVk0TEgwMmFxUFVBdERDRVU2SDQ4MVZVWmhSVV9NM2xEbVpVVTh3RVl4WlB6MTRJMjRxY050d2JQZ21DRDNqdi1pR3psUklQQXRSd1lvVDFOeWpFYV8tcGF1eGo4Z2VBS0ZBTG1EOTNMenJlV09yRGY1S2NVaVo1ajlna29BdW9aVTFKUUJnSWRGYjNMcFluNVFrSkl1eUNxUzdSSUl3YUFfZG1wZ3pGWFA5aw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792199160000,
+    "summaryEn": "Oil touches US$110 a barrel for first time since May on Middle East, Russia supply fears The Business Times",
+    "summaryAr": "Oil touches US$110 a barrel for first time since May on Middle East, Russia supply fears The Business Times",
     "tags": [
       {
         "textEn": "INTEL",
@@ -544,22 +592,6 @@
     ]
   },
   {
-    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
-    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQkU1bHk0ei02ZkZRZndPemRvNGZFQnM5ODdrR2EyTU9WRjBUN3MwcGdtLXY2NnZnWld0UkM2MjBUMDUzWVV6ak1vcGNSV05KMllWVWotQS1TdGNLQnVFOERMRElid09YaVB2bUhGLXE4TlFJelBfRFg3QS1vOVBSLXVJWTV3R01CQ3FSZzVZMHlub3V1ZjFtYlJYNGwwRDRFeUxTeWFzNlJjS1dwSGo1a0xOaXRMc0tiWnlrbVBtMA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792181156000,
-    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
-    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "titleAr": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
@@ -572,102 +604,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-    "titleAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792179439000,
-    "summaryEn": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-    "summaryAr": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis Strike Yemen's Presidential Palace as Saudi Arabia Reports Attacks - Haaretz",
-    "titleAr": "Houthis Strike Yemen's Presidential Palace as Saudi Arabia Reports Attacks - Haaretz",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQXlpa2RRaWVIUlQyWjY2dDR3YWdoTXl5VzV6djZPT2RhVnR6QTVYclMtMk5ZcmxaOXRuSUxTOG80TVBlQ2JDaG5raFNWZEZqc1l2cTZHMXRCVS1ya203Y1A5YVBYNjhmYmFSNEtGZDJlcF8zcU1jbUxsbm4teE1SSzRxXzZMaV9lQVlESXZEQzJsR19EYlZ1SnFlU3k2MzBtSjZneHlSZUFsMnc5TktWSXJ1NkwtTWpZQ1VVUkI5MndqQk5JSEJBWXV5bEp0R3B5S0tuOXVvZ05jR1MybkJ0dlVWd1JBVzE5VndYeHFLUEtYOG4wUGdJT3RtZ1M1b2M?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792179420000,
-    "summaryEn": "Houthis Strike Yemen's Presidential Palace as Saudi Arabia Reports Attacks Haaretz",
-    "summaryAr": "Houthis Strike Yemen's Presidential Palace as Saudi Arabia Reports Attacks Haaretz",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
-    "titleAr": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHpQQlcxQ3FCakZ6YUIzOU83eUZHcFluRjU0TDRTb0RRdU9JM0xPQUZRSDUyUm9ZcjlpWFRvR1l3bmlxemxqV0ZsTmxEVk14RV9GTkxNc1pCNUUwcmRKdFJmU2dmbHBHaEQ5WHVDRGVDVXBnb2xQYnF1eUMybVJ2U2FLcGM1MXc0MHlyTW51RnNJSVJZbzA1U05nLUJLcS0tcFVoRVN0OXpOTlR2RTJr?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792176704000,
-    "summaryEn": "In Yemen's besieged Taiz, families take shelter as Houthis close in Reuters",
-    "summaryAr": "In Yemen's besieged Taiz, families take shelter as Houthis close in Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
-    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792175709000,
-    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears Reuters",
-    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "titleAr": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11NWFDZjV2eVJvRlEtQzBwQWIwRnlEeFgxMkRLd1d1Yk5Hc2pPd01KYlJMV3dxYTBBMDRsQXJNRnVCaW1VVVZCTXpVWXlXQnJYZjVOYjhxb1ZTcFRaWHVtN0J5aEtHaHV4YWZiREh1YnRwR3BKUWI3Nl95dGNiMXM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792174156000,
-    "summaryEn": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "summaryAr": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "PetroChina reaps record trading profits from Middle East war chaos - Baird Maritime",
-    "titleAr": "PetroChina reaps record trading profits from Middle East war chaos - Baird Maritime",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOGNkamRZY2NXcGNkWXdSazNndXRpSWc5QVpGQUhtdkk1cS1JM25Kak5wRTRRbkdnMnJlVnB6c3pSWDd6LV9VODUxbUpEbjlzU1Y0SDZ4eE16ZnRNc25uaTRjRU9YYXUtRWdIa0p4Ykp5cWtYc1NDaDNuZWduNUI3a0xobnFjcHU0N2NQVUlBaGp6UGRkUmJjbEczV0dENlpOVlhEZ20xQzZBeWNkWTE2NDdMcWhvWUpBTXhWcXJCV1U1aWPSAdABQVVfeXFMTWRVOW1TYkpSdWFpSGplQ0tPLTd0M0w2ajlUcGQ5UHZRdDlIQi05QTM1eDN5eWZPbTg2bUl6TE1IS2lRRWRPRWg1UmFSQ2c1cFFvYWlzT1pxQWRpVEtvUTFEZG1XSlJBdmo3eTdaZnJDYi0yeXp2ckJVT1dYVzdhT3JPdEg4WFZMeS1taTd2aFFhbExRVk1zb0c2OVE4cThxMFFWSTBYM1dmV01yOU16Sl9Gc2lqalFJLXpZWGk1S01BUXlCd0t3QzZMSjJPVmpmcg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792173741000,
-    "summaryEn": "PetroChina reaps record trading profits from Middle East war chaos Baird Maritime",
-    "summaryAr": "PetroChina reaps record trading profits from Middle East war chaos Baird Maritime",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -716,6 +652,70 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1792152000000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+    "titleAr": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+    "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792140354000,
+    "summaryEn": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
+    "summaryAr": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "titleAr": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+    "source": "The Hacker News",
+    "pubDate": 1792133755000,
+    "summaryEn": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
+    "summaryAr": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "BeyondTrust patches zero-day exploited in attacks since August",
+    "titleAr": "BeyondTrust patches zero-day exploited in attacks since August",
+    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "source": "BleepingComputer",
+    "pubDate": 1792131488000,
+    "summaryEn": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+    "summaryAr": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
       }
     ]
   }
