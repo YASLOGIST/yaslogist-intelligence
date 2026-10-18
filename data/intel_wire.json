@@ -1,76 +1,252 @@
 [
   {
-    "titleEn": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence, state media - Reuters",
-    "titleAr": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence, state media - Reuters",
+    "titleEn": "Gaza families fear food shortages as Israel halts commercial shipments",
+    "titleAr": "Gaza families fear food shortages as Israel halts commercial shipments",
+    "link": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792329373000,
+    "summaryEn": "Residents report rising prices as the latest restrictions bite, leaving families unable to afford extra supplies.",
+    "summaryAr": "Residents report rising prices as the latest restrictions bite, leaving families unable to afford extra supplies.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "European diplomats attacked by Israeli settlers in West Bank",
+    "titleAr": "European diplomats attacked by Israeli settlers in West Bank",
+    "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792325774000,
+    "summaryEn": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+    "summaryAr": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "There’s a ‘New Middle East’, but not the one Israel planned",
+    "titleAr": "There’s a ‘New Middle East’, but not the one Israel planned",
+    "link": "https://www.aljazeera.com/video/pinch-point/2026/10/18/pp-new-middle-east?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792325254000,
+    "summaryEn": "Instead of redrawing the region, Israel's wars of expasion pushed the region to work together against it.",
+    "summaryAr": "Instead of redrawing the region, Israel's wars of expasion pushed the region to work together against it.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?",
+    "titleAr": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?",
+    "link": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792324804000,
+    "summaryEn": "Akhlaghi's experience centres on ballistic missiles, aerospace technology and defence-industrial production.",
+    "summaryAr": "Akhlaghi's experience centres on ballistic missiles, aerospace technology and defence-industrial production.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+    "titleAr": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+    "link": "https://www.aljazeera.com/news/2026/10/18/funeral-held-for-75-palestinians-after-remains-recovered-from-gaza-ruins?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792322683000,
+    "summaryEn": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
+    "summaryAr": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+    "titleAr": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+    "link": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792321886000,
+    "summaryEn": "Analysts say that any move from Egypt will remain 'strictly defensive', as the conflict in Yemen intensifies.",
+    "summaryAr": "Analysts say that any move from Egypt will remain 'strictly defensive', as the conflict in Yemen intensifies.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
+    "titleAr": "Jordan-Israel border becomes new hotspot for sophisticated drug trade",
+    "link": "https://www.aljazeera.com/news/2026/10/18/jordans-israel-border-becomes-a-new-hotspot-for-a-sophisticated-drug-trade?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792320498000,
+    "summaryEn": "A surge in drug smuggling from Israel to Jordan using drones and balloons prompts accusations of border guard collusion.",
+    "summaryAr": "A surge in drug smuggling from Israel to Jordan using drones and balloons prompts accusations of border guard collusion.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinian karate champion Maryam Bsharat wins second world title",
+    "titleAr": "Palestinian karate champion Maryam Bsharat wins second world title",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/palestinian-karate-champion-maryam-bsharat-wins-second-world-title?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792320479000,
+    "summaryEn": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
+    "summaryAr": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
+    "titleAr": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
+    "link": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792319649000,
+    "summaryEn": "Zelenskyy says Russian attacks on Ukraine overnight kill two people, adding that Moscow continues to break energy ceasefire.",
+    "summaryAr": "Zelenskyy says Russian attacks on Ukraine overnight kill two people, adding that Moscow continues to break energy ceasefire.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza Family Reunion: Finding each other after the ‘ceasefire’",
+    "titleAr": "Gaza Family Reunion: Finding each other after the ‘ceasefire’",
+    "link": "https://www.aljazeera.com/video/witness/2026/10/18/gaza-family-reunion-finding-each-other-after-the-ceasefire?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792319400000,
+    "summaryEn": "Separated by war for more than a year, a captain in Gaza’s Civil Defence unit attempts to reunite with his family.",
+    "summaryAr": "Separated by war for more than a year, a captain in Gaza’s Civil Defence unit attempts to reunite with his family.",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
+    "titleAr": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792319383000,
+    "summaryEn": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
+    "summaryAr": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
+    "titleAr": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
+    "link": "https://www.aljazeera.com/news/2026/10/18/egypt-to-provide-all-necessary-and-possible-support-to-saudi?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792319018000,
+    "summaryEn": "Presidency says Egypt will provide Saudi Arabia with support to defend its security and protect its resources.",
+    "summaryAr": "Presidency says Egypt will provide Saudi Arabia with support to defend its security and protect its resources.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+    "titleAr": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792318663000,
+    "summaryEn": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
+    "summaryAr": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
+    "titleAr": "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
+    "link": "https://www.aljazeera.com/news/2026/10/18/rubio-says-ukraine-without-access-to-starshield-future-under-discussion?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792316560000,
+    "summaryEn": "Top US diplomat says Ukraine has requested access to military-grade version of Starlink for strikes deep inside Russia.",
+    "summaryAr": "Top US diplomat says Ukraine has requested access to military-grade version of Starlink for strikes deep inside Russia.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Fighting intensifies across Yemen as humanitarian crisis deepens",
+    "titleAr": "Fighting intensifies across Yemen as humanitarian crisis deepens",
+    "link": "https://www.aljazeera.com/news/2026/10/18/fighting-intensifies-across-yemen-as-humanitarian-crisis-deepens?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792315014000,
+    "summaryEn": "Clashes between Yemeni forces and Houthis cause casualties on both sides as aid agencies warn of humanitarian crisis.",
+    "summaryAr": "Clashes between Yemeni forces and Houthis cause casualties on both sides as aid agencies warn of humanitarian crisis.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
+    "titleAr": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUllscVFHdi1ER1I5djNzUWkwbXpXUGVTRkRVLUNWSWRBUU9lek5waWFCVjJwMXphLXFHaV9EUkF0SjdXVGMwNnpLYl9xZ2xrWDFvZzlrN2RwV2J4QUt1UUtiLTlzZTA1Qms2eTMtTjMyRXRGblJXVkF5NV9nTzEzTE1rbDFLUDdNOWRuQlhrS1BIVXFRdVJiQUtuT0lmODVRcVZ1dTRMeU11SkJuWlJvNGNJUjJhY1RBVGN1WWJGQ0JyZw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792311853000,
-    "summaryEn": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence, state media Reuters",
-    "summaryAr": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence, state media Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why Iran-US negotiations keep failing",
-    "titleAr": "Why Iran-US negotiations keep failing",
-    "link": "https://www.aljazeera.com/opinions/2026/10/18/why-iran-us-negotiations-keep-failing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792308779000,
-    "summaryEn": "Relations between the two countries are dominated by policy complexes shaped by a history of hostility.",
-    "summaryAr": "Relations between the two countries are dominated by policy complexes shaped by a history of hostility.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel’s ties with Europe are fraying. Can its election change that?",
-    "titleAr": "Israel’s ties with Europe are fraying. Can its election change that?",
-    "link": "https://www.aljazeera.com/news/2026/10/18/israels-ties-with-europe-are-fraying-can-its-election-change-that?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792307100000,
-    "summaryEn": "European condemnation is mounting, but Israel’s election offers little prospect of a material change for Palestinians.",
-    "summaryAr": "European condemnation is mounting, but Israel’s election offers little prospect of a material change for Palestinians.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "St Petersburg under attack from Ukrainian drone swarm",
-    "titleAr": "St Petersburg under attack from Ukrainian drone swarm",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792299061000,
-    "summaryEn": "Video posted on social media shows multiple explosions in St Petersburg, Russia after a suspected Ukrainian drone swarm.",
-    "summaryAr": "Video posted on social media shows multiple explosions in St Petersburg, Russia after a suspected Ukrainian drone swarm.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK police rule out probe into Palestine Action post by PM adviser’s wife",
-    "titleAr": "UK police rule out probe into Palestine Action post by PM adviser’s wife",
-    "link": "https://www.aljazeera.com/news/2026/10/18/uk-police-rule-out-probe-into-palestine-action-post-by-pm-advisers-wife?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792298777000,
-    "summaryEn": "Met Police determine X post by Sarah Helm, seen to endorse Palestine Action, does 'not meet the criminal threshold'.",
-    "summaryAr": "Met Police determine X post by Sarah Helm, seen to endorse Palestine Action, does 'not meet the criminal threshold'.",
+    "pubDate": 1792314482000,
+    "summaryEn": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence Reuters",
+    "summaryAr": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -96,91 +272,11 @@
     ]
   },
   {
-    "titleEn": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
-    "titleAr": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
-    "link": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792288458000,
-    "summaryEn": "The vessels, each carrying about two million barrels of crude oil, used an unauthorised route, the IRGC says.",
-    "summaryAr": "The vessels, each carrying about two million barrels of crude oil, used an unauthorised route, the IRGC says.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
-    "titleAr": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792285964000,
-    "summaryEn": "Saudi-led forces say they’ve struck multiple positions around the Yemeni city of Taiz to break the Houthi siege.",
-    "summaryAr": "Saudi-led forces say they’ve struck multiple positions around the Yemeni city of Taiz to break the Houthi siege.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers attack European diplomats in the occupied West Bank",
-    "titleAr": "Israeli settlers attack European diplomats in the occupied West Bank",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792285357000,
-    "summaryEn": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
-    "summaryAr": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Ships attacked off UAE, Yemen; drones downed near Riyadh",
-    "titleAr": "Iran war live: Ships attacked off UAE, Yemen; drones downed near Riyadh",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792281611000,
-    "summaryEn": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
-    "summaryAr": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "European diplomats attacked by Israeli settlers in West Bank",
-    "titleAr": "European diplomats attacked by Israeli settlers in West Bank",
-    "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792281158000,
-    "summaryEn": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-    "summaryAr": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
     "titleAr": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792280977000,
+    "pubDate": 1792280940000,
     "summaryEn": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
     "summaryAr": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
     "tags": [
@@ -192,29 +288,13 @@
     ]
   },
   {
-    "titleEn": "US ambassador urges Israel to prosecute attackers of American journalist",
-    "titleAr": "US ambassador urges Israel to prosecute attackers of American journalist",
-    "link": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792280459000,
-    "summaryEn": "US Secretary of State Rubio separately urges Israel to ‘crack down’ on settler violence after attack on photographer.",
-    "summaryAr": "US Secretary of State Rubio separately urges Israel to ‘crack down’ on settler violence after attack on photographer.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-    "titleAr": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-    "link": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792279317000,
-    "summaryEn": "Forces intercepted and destroyed four drones over Saudi Arabia's Riyadh, Eastern Province and southern region.",
-    "summaryAr": "Forces intercepted and destroyed four drones over Saudi Arabia's Riyadh, Eastern Province and southern region.",
+    "titleEn": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Awani International",
+    "titleAr": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Awani International",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcm82bEhINnVOdU1QTEFpZ1ZMNHZET0lobG1YTmxuN0dsa0lmbll3bnZ2MDFHQ1lMT2pMSWdlZ29Lc3NaSXEwWkt6RW0wdDZKa3V5bFBYY1RrcG5TOWNySmVXSW9xWTZSSnhnRmd0NGlWblMxQjFsSWM4VDhrUXA3bjVETlBvWjFySnpjYlREakRfc0lGX0pMNUtBcUx4TnFpY1E4eDNuaGh5ZzJDSDd3UldiUkYxQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792275571000,
+    "summaryEn": "US slaps new sanctions on networks aiding Iran's proxies in Middle East Awani International",
+    "summaryAr": "US slaps new sanctions on networks aiding Iran's proxies in Middle East Awani International",
     "tags": [
       {
         "textEn": "INTEL",
@@ -244,7 +324,7 @@
     "titleAr": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792256884000,
+    "pubDate": 1792252260000,
     "summaryEn": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
     "summaryAr": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
     "tags": [
@@ -268,6 +348,22 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
+    "titleAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFZUQnloZ3llVFp2N0VWLUZ0OGZwQTh6dDl0dUFNbk9VQU5ZRVVhZ09xakdxMlhweTlCMlVmNGFqdEZ4SGRxclFSWHl6NDJBblFKX3VLRTQzSGlUWlNKaTA0RHkzQUd4TjlpVFhmeTUtUkU2NHMyaDM1YTBiTEt2QWU5bHQ3YmJVMl9SbmFlcmlJeXhXNm9JbllsRTZUS01ZdllfOGRyc0c3YnF0dENPS2VuRQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792239290000,
+    "summaryEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
+    "summaryAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -327,6 +423,54 @@
     "pubDate": 1792220732000,
     "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
     "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "titleAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXBEWEFlSG9EdHRhc2NkY1Npd0puaG1jVWMyX0lNZVBWT05RaTc1MzNoenJwdmIyYW9vYlRRTjR1Mm1sT1EtRnJoRk9DQnJxYk5tLTJwNndQUV9UdFlLMzEtZ0ZURHFVVDR6c1hoWXNYZlpQQVFpNEtRdkxjY1RYQl9iWkJORHN1UmxURXl6dmJtZC1RWVdzNU91VQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792220053000,
+    "summaryEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "summaryAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran Update: October 16, 2026 - Critical Threats",
+    "titleAr": "Iran Update: October 16, 2026 - Critical Threats",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS3NqS3lkV1NOU1RUUU9oRWpfYTZfMGNPcDNkSGFwXzR3d0F0bHF3OVpTNnc0TW9mY0huMER1NFc5OGl0UXBBV1NTdXRQbGpZYURsemFKckJ3M0pXeEFQeDlYVzBUNXZzZHhBS05ydlpKRXlCVnVzZUoyd2t2Y3dSanRRNlVfS0R2S0E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792195443000,
+    "summaryEn": "Iran Update: October 16, 2026 Critical Threats",
+    "summaryAr": "Iran Update: October 16, 2026 Critical Threats",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
+    "titleAr": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUWp1N3V3WmtFN2xwQWlfa285NVRlVlVvS1VUR19EcHpCSE5aaDFzR0I0YTZHeG5XM0FNOEJDaEtFYUhHaFMyekg3LUJZd0lyeVhfeFVLS1pqbzExTDJoYWdfa2N1NFNfZjIzMXhTM1FGcWlnTHIyQWNxZDY3NmdOWnNmZHNPeEhGZjMyRnV5ek0yOHVxZFJBTDdiNmxHQlg0cjJqbUNQZFUwYkFOSk5udXQ4a19WQkVfdnFSV0RidFRJRWZLOWtjazlkMk5nYjA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792189476000,
+    "summaryEn": "Russia builds major new drone attack base in six weeks, satellite images show Reuters",
+    "summaryAr": "Russia builds major new drone attack base in six weeks, satellite images show Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -572,150 +716,6 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Italy's growth outlook improving on smaller Middle East impact, central bank says - TradingView",
-    "titleAr": "Italy's growth outlook improving on smaller Middle East impact, central bank says - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM3IwUTQ2VER1em9PS2dhMlN6cGVWbVA1cGY0ZWdmTlJqSzViRVlsQXp2V2dQbWN5TUtqZjhoZkVRZWtKVk90Z241VVB4RkIwb216bEdKQ21nQU45Y1pkRmh0UnZIUjgwUnZ6MUZFNnJJWGx0ajB2N0tnZWRsWC0wajZOSDE0VHBnX1ItVjg2R01TVEVDZzVBVFl0N3haWjhOTGZPN2NncFowNmYyZzh2THlNRWQ2d1JIYmJMWTFEOFVUNV9iNElxTFhyLVVRV0htWVlNQmVQbHJsSFZvOHhhTmxuc0M?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792155630000,
-    "summaryEn": "Italy's growth outlook improving on smaller Middle East impact, central bank says TradingView",
-    "summaryAr": "Italy's growth outlook improving on smaller Middle East impact, central bank says TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UN says Gaza malnutrition gains fragile as commercial supplies halt - Reuters",
-    "titleAr": "UN says Gaza malnutrition gains fragile as commercial supplies halt - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmRYa1dxTlJBS2hzeXFCOVVCOU9iS21iUVhhd3N0NkpQSkxvb1BCYng0c3JhS0FndlVEemJ2dEtrRmVvVE5HOG8yTFpqQzFLM21mM3hDYzNqZnA5UHFVRUUzak90elBWOFlfcHpGWWYtZ1hENFJpY1M5d1Nza1dQWl8yWXUzQmNEODJfU1MzSkk4aFJJdlNJRDhLR1o5TmMtZGVaVWJGcEY0TjdUZW9uTTJvdFZtOW9uZEE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792153194000,
-    "summaryEn": "UN says Gaza malnutrition gains fragile as commercial supplies halt Reuters",
-    "summaryAr": "UN says Gaza malnutrition gains fragile as commercial supplies halt Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "F2 wants and expects Middle East races to go ahead, says CEO - Reuters",
-    "titleAr": "F2 wants and expects Middle East races to go ahead, says CEO - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc0RjcWx2N19maFBMUC16TlN5S3lsYUxUczV4QTdmQTF4cGxzMGZiY2UtOVhtUmpuN211RTRlQ0s5WHo0U1kzb20zeUZhcU9oVnNVeWtiR1g2MjRKc080dXRjcml6ZVBiYVdfaU1wTXlhc1Mxa3pvUWg0cV9rUVdYMnhrajVULU4yZmJwSzhkRjBmOGliWkhsRHNRd05XRmFVbFlTM19kUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792152345000,
-    "summaryEn": "F2 wants and expects Middle East races to go ahead, says CEO Reuters",
-    "summaryAr": "F2 wants and expects Middle East races to go ahead, says CEO Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "titleAr": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-    "source": "CISA Advisories",
-    "pubDate": 1792152000000,
-    "summaryEn": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
-    "summaryAr": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1792152000000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil eases but heads for small weekly gain as investors focus on Middle East supply - The Lufkin Daily News",
-    "titleAr": "Oil eases but heads for small weekly gain as investors focus on Middle East supply - The Lufkin Daily News",
-    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNRmVNa2NlQVRhWDk1WnpYeVYyazNxR0FralRNWGZJaWZhNlFOTmlNNW03cVQ2T3ZRcmpQMk44QzQzSDJPYTlfRGR2aWFBTVIxcGZSYm9kTVRURzFLMEFZTFRnRzRTeGNsZWVWZ2c2bG9pX3hZaDZfMG9COXZjaW9iRWRHVzdmZmlWRVptYTMwemVRMUZVN2liaXh4Yy1zUzVXTGViUnV4Q2FyR3BOMjNuZVhjdThpNWp0OWQzbmtYNENqLUhHVlRydnk0T3pCZzlWeFRfZ2lUb2RBb2o2eVowMEJha0xqRUVSOGZDTTFleUJWR2h4MEdfOWhVTWluRklBMjQxYUk3WWpLTHhZbTU4?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792145179000,
-    "summaryEn": "Oil eases but heads for small weekly gain as investors focus on Middle East supply The Lufkin Daily News",
-    "summaryAr": "Oil eases but heads for small weekly gain as investors focus on Middle East supply The Lufkin Daily News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-    "titleAr": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-    "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792140354000,
-    "summaryEn": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
-    "summaryAr": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-    "titleAr": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-    "source": "The Hacker News",
-    "pubDate": 1792133755000,
-    "summaryEn": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
-    "summaryAr": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly …",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "BeyondTrust patches zero-day exploited in attacks since August",
-    "titleAr": "BeyondTrust patches zero-day exploited in attacks since August",
-    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-    "source": "BleepingComputer",
-    "pubDate": 1792131488000,
-    "summaryEn": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-    "summaryAr": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   }
