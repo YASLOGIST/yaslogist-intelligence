@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
-    "titleAr": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
-    "link": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+    "titleEn": "On Iran, Israel’s opposition is even more hawkish than Netanyahu",
+    "titleAr": "On Iran, Israel’s opposition is even more hawkish than Netanyahu",
+    "link": "https://www.aljazeera.com/news/2026/10/19/on-iran-israels-opposition-is-even-more-hawkish-than-netanyahu?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1792375809000,
-    "summaryEn": "The air strike, one of Ukraine's largest in the war, comes amid rising tensions between Kyiv and Washington.",
-    "summaryAr": "The air strike, one of Ukraine's largest in the war, comes amid rising tensions between Kyiv and Washington.",
+    "pubDate": 1792409752000,
+    "summaryEn": "In rest of the world, the Israeli PM is often blamed for the Iran war. His opponents say he hasn't been tough enough.",
+    "summaryAr": "In rest of the world, the Israeli PM is often blamed for the Iran war. His opponents say he hasn't been tough enough.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +16,45 @@
     ]
   },
   {
-    "titleEn": "Iran urges US to accept proposal to reopen Strait of Hormuz - Red Lake Nation News",
-    "titleAr": "Iran urges US to accept proposal to reopen Strait of Hormuz - Red Lake Nation News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZVBRbDlaY0lJUXFZNUFKMURjTjg0OWRxMi1HUDctZzRxdTNoQUhyLVVFcUxqU3Y4RXJnSnFwc1JtMmdESFVTeF9Oa3lWb1VWYnZ6NWJvZVRJVnNjbkphRzltNTA3RzQ4MFNOd3M3OUNUTTQ5YjJjdnBvMzBCcVVic2ZwVGU4cmFXcUJtN3dYcndQYXFhUU4tUTNPR3JZWS1FUUFoOE4wblhxX3AzLXU4dThHNlBUWE5PN2xTbUtnUUhtWFRuUXc?oc=5",
+    "titleEn": "Arab voter turnout could make or break Netanyahu in Israeli election - Reuters",
+    "titleAr": "Arab voter turnout could make or break Netanyahu in Israeli election - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUWlScDFIcENiRk5OaDRHRHNzNjlrdnNxM0VobjJKbWhKcWpfaTNvM2J5U256QV9ZNEY3bGpMWUxhZ29idThSajljTXlpUnZ3Mmp2SmZEVE9hVURJTGxmMkNwUWpZMk85VWFxMGJpcWZEa2dRTVg5WHdNeGZLT1QyOU5CaXpUUnZIOG5MZVF2TUZtREJHSkpYTU13NlZmNGdBRk8yTGhvUWpUQThjUzBCRHA5Nms4Q2RqT0k4?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792373634000,
-    "summaryEn": "Iran urges US to accept proposal to reopen Strait of Hormuz Red Lake Nation News",
-    "summaryAr": "Iran urges US to accept proposal to reopen Strait of Hormuz Red Lake Nation News",
+    "pubDate": 1792408304000,
+    "summaryEn": "Arab voter turnout could make or break Netanyahu in Israeli election Reuters",
+    "summaryAr": "Arab voter turnout could make or break Netanyahu in Israeli election Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages - Reuters",
+    "titleAr": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNenIya2dWLVowN3ZJZjB5eXlJekpqc3VCajlVN0N3eldBMzg4d05JSG9MQXVKQWdqbVZRYnZ3VXlVSGktNEE2MndNU1dZX2FFd0YyeW9teDFfN19WNk9RS09rV0JlM2dnbEluVlgydFFJc3QtQ0RNRkRSWkkxV0V6WjNRM21NX0FqRVZLdnp0WWFtNmFWZEh6YUJXXzJRRVU5Sy1MbmtjRm5pc1VVc1daWk9MTmFScG5yRmh4SHZBNno1eUloQXVDRkRVNU5kUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792407966000,
+    "summaryEn": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages Reuters",
+    "summaryAr": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
+    "titleAr": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
+    "link": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792406963000,
+    "summaryEn": "There have been new reports of Iranian support for the Houthis in Yemen amid a wave of attacks on Saudi cities.",
+    "summaryAr": "There have been new reports of Iranian support for the Houthis in Yemen amid a wave of attacks on Saudi cities.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -32,13 +64,13 @@
     ]
   },
   {
-    "titleEn": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
-    "titleAr": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
+    "titleEn": "Israeli police arrest 10 after settler attacks on journalist, diplomats",
+    "titleAr": "Israeli police arrest 10 after settler attacks on journalist, diplomats",
+    "link": "https://www.aljazeera.com/news/2026/10/19/israeli-police-arrest-10-after-settler-attacks-on-journalist-diplomats?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1792367974000,
-    "summaryEn": "Iran's Foreign Minister Abbas Araghchi says Israeli Prime Minister Benjamin Netanyahu seeks more war before elections.",
-    "summaryAr": "Iran's Foreign Minister Abbas Araghchi says Israeli Prime Minister Benjamin Netanyahu seeks more war before elections.",
+    "pubDate": 1792406635000,
+    "summaryEn": "US Ambassador to Israel Mike Huckabee said on X that the arrests were 'a very positive development'.",
+    "summaryAr": "US Ambassador to Israel Mike Huckabee said on X that the arrests were 'a very positive development'.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +80,13 @@
     ]
   },
   {
-    "titleEn": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-    "titleAr": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-    "link": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792367885000,
-    "summaryEn": "Crew of Austrian Airlines flight OS82 decides to land in Sofia after receiving bomb threat, Bulgarian authorities say.",
-    "summaryAr": "Crew of Austrian Airlines flight OS82 decides to land in Sofia after receiving bomb threat, Bulgarian authorities say.",
+    "titleEn": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
+    "titleAr": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
+    "link": "https://www.bbc.co.uk/news/articles/cqn7323p0dxyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792406058000,
+    "summaryEn": "It comes after masked settlers attacked Palestinians and European officials visiting the West Bank during olive harvesting season.",
+    "summaryAr": "It comes after masked settlers attacked Palestinians and European officials visiting the West Bank during olive harvesting season.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,18 +96,274 @@
     ]
   },
   {
-    "titleEn": "Protesters disrupt Ben-Gvir event forcing him off stage",
-    "titleAr": "Protesters disrupt Ben-Gvir event forcing him off stage",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+    "titleEn": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
+    "titleAr": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
+    "link": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1792364776000,
-    "summaryEn": "Israeli protesters disrupted a Tel Aviv university event featuring far-right National Security Minister Itamar Ben-Gvir.",
-    "summaryAr": "Israeli protesters disrupted a Tel Aviv university event featuring far-right National Security Minister Itamar Ben-Gvir.",
+    "pubDate": 1792404486000,
+    "summaryEn": "The UN agency says funding shortages threaten to reverse 'modest and fragile' progress on food security.",
+    "summaryAr": "The UN agency says funding shortages threaten to reverse 'modest and fragile' progress on food security.",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Asian refiners' pain is Middle East oil producers' problem: Bousso - TradingView",
+    "titleAr": "Asian refiners' pain is Middle East oil producers' problem: Bousso - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb3BjaHlSZDNfZ0piOUJzY2RXNFFCLU9rV1dTUUFDZ0RudVRHZnBFNGxjYWZOczcxeDhmZUo5Tk45amc5ejRvQmdCRTV0cEV1RGZTWVlWbDN5Qk1uMDBGeVhVazBDbkxDTUJ6UjBFSWc1SkJNOHdoWnowRFJIX0FRZ2Y0ajJYemRnOUxyaEdweU1uTHFFSHVPaGlrcGJVNFFGZmRvQXZjQlNXcGRGMTBJUThjYUhKTExLRk9ieWczd3doT3lwR04zVEJfZ3RkUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792404000000,
+    "summaryEn": "Asian refiners' pain is Middle East oil producers' problem: Bousso TradingView",
+    "summaryAr": "Asian refiners' pain is Middle East oil producers' problem: Bousso TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - The Daily Star",
+    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - The Daily Star",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT3htWVc3NU1KYUZGNm1WcGE2aHhsX2RMRnVJSDR2R3VQeHNjS1RqZUFHSHg1d0FfV3ZCdFl0X1FDYm9BclRDcUJudDRUR0pUU1VGSUk0bjRCN1lhVXBWbHhpdmhidTlta2dHQWtqSEFublZKUkpIa0laVUVQeE1jUEVFQ2Nlc3pibG1qdjhBNlliVXBOYmp6U1BFMzMxS1daQmZrdVZvbE9ySEVGU1QzYnZNLXRNM0w3a3U5MQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792401868000,
+    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears The Daily Star",
+    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears The Daily Star",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Qatar warns global energy shockwaves from Iran war have yet to peak",
+    "titleAr": "Qatar warns global energy shockwaves from Iran war have yet to peak",
+    "link": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792401504000,
+    "summaryEn": "Deputy PM calls for dialogue with Tehran, highlights US defence ties and rejects Strait of Hormuz transit fees.",
+    "summaryAr": "Deputy PM calls for dialogue with Tehran, highlights US defence ties and rejects Strait of Hormuz transit fees.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Rubio says there was no US pause in intelligence sharing with Ukraine",
+    "titleAr": "Rubio says there was no US pause in intelligence sharing with Ukraine",
+    "link": "https://www.aljazeera.com/news/2026/10/19/rubio-says-there-was-no-us-pause-in-intelligence-sharing-with?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792400284000,
+    "summaryEn": "Ukraine relies on US intel through Starshield to spot fast-moving ballistic missiles that Russia ​fires at its cities.",
+    "summaryAr": "Ukraine relies on US intel through Starshield to spot fast-moving ballistic missiles that Russia ​fires at its cities.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "NFL’s Azeez Al-Shaair honours Palestinian children for fifth straight week",
+    "titleAr": "NFL’s Azeez Al-Shaair honours Palestinian children for fifth straight week",
+    "link": "https://www.aljazeera.com/sports/2026/10/19/nfls-azeez-al-shaair-honours-palestinian-children-for-fifth-straight-week?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792399505000,
+    "summaryEn": "Al-Shaair's eyeblack carried the name of Maryam Ghanem, a girl in Gaza who was forced to watch her mother burn alive.",
+    "summaryAr": "Al-Shaair's eyeblack carried the name of Maryam Ghanem, a girl in Gaza who was forced to watch her mother burn alive.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hezbollah funding plan indicates a new challenge to Lebanon’s government",
+    "titleAr": "Hezbollah funding plan indicates a new challenge to Lebanon’s government",
+    "link": "https://www.aljazeera.com/news/2026/10/19/hezbollah-funding-plan-indicates-a-new-challenge-to-lebanons-government?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792398896000,
+    "summaryEn": "The reported $200m in aid from Iran to Hezbollah has put the Lebanese government under increased pressure from the US.",
+    "summaryAr": "The reported $200m in aid from Iran to Hezbollah has put the Lebanese government under increased pressure from the US.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
+    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjZyN2NWdDVCeElhelhRNnhKZ1l1SkNyNmw3alUxWFRjTEgtQU9PTTFUS3Z5UkJHTHZlTzRvR0JDU054aUt5eHhLdXBWdUNDWk1sNVRza2RsYXRueWRocUhKMk5HeWpwTWhlTDF4VzkycDNYbUhYZGdabERNSk03YmZaay10S2x4ZGtOWW5NV0V6OU9CcWZ1R0xTN2xITUpfQlNvcG45bkI1NjlTT01rclBaRmVGSHo0NVcwRTl3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792398391000,
+    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
+    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+    "titleAr": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+    "link": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792397839000,
+    "summaryEn": "Saudi Arabia said it executed two Bangladeshis last week for committing an \"indecent act\" in a mosque.",
+    "summaryAr": "Saudi Arabia said it executed two Bangladeshis last week for committing an \"indecent act\" in a mosque.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East chemicals keep their pricing power as Hormuz tensions reshape trade - Indiatimes",
+    "titleAr": "Middle East chemicals keep their pricing power as Hormuz tensions reshape trade - Indiatimes",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUmZUN251Q3VPZTFwYVd1VHJFOHpnc29iZ2Jza3lBeEdETVp0TXFmM2J3ajJYRHJiMTVQTkFLdVB6bVNva2plUWFEVXVvSzFMa0ZueDB4Q2x4LS1Id2FwMXZsYTI3Q09hOEF5TE5jUXhSQkFkZXA2endQOFhHWHNGN0QwY1ZyV2NGOWl5TjMzYkl5eU1rOTdJZDN3SUpiSmFHVllzQUZZLTZZTDIwZ0VoLUlCcHBQWG1aeHVjNjI1NS1sdEdrMDQ3aHFsVkg2M1Q1OWlhYjcwNXVIUlJjcFZiQmRId1drVkJpQmt5MVZULV9TV2vSAfcBQVVfeXFMTlZXNG9xWGxxb0YwUWg0emg3YzJpM2FQYXZSYTZYRi01azU3c3BMUTh0azBZa1JmcHNTWWhwNGZaRFVlR1p5QVFxeDhSejJOOEUtNVN3VmI2RmhZdDg0aEQzVDJhdVZ5dm0weENoU3RBYzZSUmMzakptTE50dEM0eHR5dTNwYTVXUFlPTktpTTRfTnBGNi1tZm9RM0VwMVBPb1hLbE1ha1JKbzFibFZzSlZIc0NySU1QdzBIVWhWVkI3eG9tek5mU2twNE1rbml3MzFaUkpTUFZVbTdWb3pMMlhTUGFvYklqeVkwLUNjalRzLVVRX1B0Yw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792393466000,
+    "summaryEn": "Middle East chemicals keep their pricing power as Hormuz tensions reshape trade Indiatimes",
+    "summaryAr": "Middle East chemicals keep their pricing power as Hormuz tensions reshape trade Indiatimes",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "In pro-Palestine hub of Athens, Israeli buyers increase local resentment",
+    "titleAr": "In pro-Palestine hub of Athens, Israeli buyers increase local resentment",
+    "link": "https://www.aljazeera.com/features/2026/10/19/in-pro-palestine-hub-of-athens-israeli-buyers-increase-local-resentment?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792392670000,
+    "summaryEn": "In Exarchia, residents say short-term rentals are driving up rents and eroding its character.",
+    "summaryAr": "In Exarchia, residents say short-term rentals are driving up rents and eroding its character.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Bomb threat forces Israel to Austria flight into emergency landing",
+    "titleAr": "Bomb threat forces Israel to Austria flight into emergency landing",
+    "link": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792391395000,
+    "summaryEn": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
+    "summaryAr": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Funding shortages force World Food Programme to cut aid to Gaza",
+    "titleAr": "Funding shortages force World Food Programme to cut aid to Gaza",
+    "link": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792389618000,
+    "summaryEn": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+    "summaryAr": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "COMMENTARY: Asian refiners' pain is Middle East oil producers' problem - Reuters",
+    "titleAr": "COMMENTARY: Asian refiners' pain is Middle East oil producers' problem - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORXo3cnhIZDJzWmtCS3BfenR2LVNIbWYxQ2dfNTVOdFlnMm8wZGIwemtWUC1vdTlTd2V3SzhIUTJWRmY5cG1JbWg5QzJfUGQ5UlZ0aDlydmVQbTZWNURyWGtFWlY3NDY4Y215MnpVT0xMdFlBaWlBMllnd0h0Zjh6TzdDMk5UT1JxR1FQSHkxRlhJeE5qQjF6SzduTTVOMUdLTFdDSG9hOGVoY3BPY2t3eUVVa0g2MDV1SktDc2ljaUJzWUkycGhubEgxUl8?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792389600000,
+    "summaryEn": "COMMENTARY: Asian refiners' pain is Middle East oil producers' problem Reuters",
+    "summaryAr": "COMMENTARY: Asian refiners' pain is Middle East oil producers' problem Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "The kingmakers who could determine Israel’s election",
+    "titleAr": "The kingmakers who could determine Israel’s election",
+    "link": "https://www.aljazeera.com/news/2026/10/19/the-kingmakers-that-could-determine-israels-election?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792389526000,
+    "summaryEn": "Israel’s Arab-led and ultra-Orthodox parties face attacks but could hold the balance of power after October 27 vote.",
+    "summaryAr": "Israel’s Arab-led and ultra-Orthodox parties face attacks but could hold the balance of power after October 27 vote.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792374642000,
+    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil slips from five-month high with Hormuz transits in focus - Reuters",
+    "titleAr": "Oil slips from five-month high with Hormuz transits in focus - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792362180000,
+    "summaryEn": "Oil slips from five-month high with Hormuz transits in focus Reuters",
+    "summaryAr": "Oil slips from five-month high with Hormuz transits in focus Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -96,22 +384,6 @@
     ]
   },
   {
-    "titleEn": "Fire engulfs Albania’s Supreme Court as protests enter fifth day",
-    "titleAr": "Fire engulfs Albania’s Supreme Court as protests enter fifth day",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792355163000,
-    "summaryEn": "Offices at the Supreme Court in Tirana were set ablaze as anti-government protests continue.",
-    "summaryAr": "Offices at the Supreme Court in Tirana were set ablaze as anti-government protests continue.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
@@ -119,54 +391,6 @@
     "pubDate": 1792352926000,
     "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
-    "titleAr": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
-    "link": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792349070000,
-    "summaryEn": "Gulf ministers urge action against Houthis as fighting displaces more than 233,000 people across Yemen.",
-    "summaryAr": "Gulf ministers urge action against Houthis as fighting displaces more than 233,000 people across Yemen.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza bodybuilders find solace in strongman competition among the ruins",
-    "titleAr": "Gaza bodybuilders find solace in strongman competition among the ruins",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/gaza-bodybuilders-find-solace-in-strongman-competition-among-the-ruins?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792348562000,
-    "summaryEn": "Bodybuilders in Gaza are finding solace in testing their strength during a competition surrounded by rubble.",
-    "summaryAr": "Bodybuilders in Gaza are finding solace in testing their strength during a competition surrounded by rubble.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "JERUSALEM DAILY: Settlers attack EU diplomats",
-    "titleAr": "JERUSALEM DAILY: Settlers attack EU diplomats",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792345957000,
-    "summaryEn": "Israeli settlers attacked an EU delegation in the occupied West Bank while it was visiting olive harvesters near Taybeh.",
-    "summaryAr": "Israeli settlers attacked an EU delegation in the occupied West Bank while it was visiting olive harvesters near Taybeh.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -199,22 +423,6 @@
     "pubDate": 1792338000000,
     "summaryEn": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
     "summaryAr": "US officials visit Palestinian village after settler attacks on diplomats Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump endorses Netanyahu in Israeli election - Fresno Bee",
-    "titleAr": "Trump endorses Netanyahu in Israeli election - Fresno Bee",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iTEluT1l3R3V3YnBCZnUtaUtHbkJXS3VzMXJhcEwzUzVWc0trem0wV0YtVFZWZFFBN0dlaFl5ajlMcm5zZGN1MjV5eV92Q01fT0taZWh4SnhMS2p5RVdiY1A0VTBkc1Q1ZnNtQWhjbjlJYmt4NDAxaXBwSQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792337766000,
-    "summaryEn": "Trump endorses Netanyahu in Israeli election Fresno Bee",
-    "summaryAr": "Trump endorses Netanyahu in Israeli election Fresno Bee",
     "tags": [
       {
         "textEn": "INTEL",
@@ -260,7 +468,7 @@
     "titleAr": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792319383000,
+    "pubDate": 1792319340000,
     "summaryEn": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
     "summaryAr": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
     "tags": [
@@ -304,22 +512,6 @@
     ]
   },
   {
-    "titleEn": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says - Awani International",
-    "titleAr": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQTlVVWFKeXRLLWlqWkxiekpYdjFHck9WdGRmbXQ1dWdEVWNLZFIwbHFSQmc0LUhXUEVST3JfWlRFb1RCUW5lQjFRQ0g0d1libE5xTWNtNmtGdS04OGk1Z1huV3V6ZFRZQTgyWFhVVUtfS0NOZ19kUHQxWlZLT0t5Y0I1cHF2d3F0Z3ZzdTlCNHZGc2NkVE90djRlY1BQZDB1T1ptbUhrTWRWYXJyU0Q4UG1TbTllb1FFUjNBYQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792309762000,
-    "summaryEn": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says Awani International",
-    "summaryAr": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says Awani International",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Middle East LNG industry remains hostage of Iran war - Awani International",
     "titleAr": "Middle East LNG industry remains hostage of Iran war - Awani International",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZko5d1l3ZGhmaFRRVE9ZcHZDRndZNnBySkRrdEx1dHY4ZWdXLVhIaFV1cmpDekdFclBSR3FFd0dQWk5leWpUQTVfVXNaRjZlVHIyTUktWnZpZGFKcldtRHJQT0xUQkpuR25BVlJKUlJ0b2VpdlVNYzRzemEzcnFTUDFNVzc3MVZ1dm9aWV9EZ1dzcS1UQzAzZDFLV1VhMVNoQ2c?oc=5",
@@ -327,22 +519,6 @@
     "pubDate": 1792294225000,
     "summaryEn": "Middle East LNG industry remains hostage of Iran war Awani International",
     "summaryAr": "Middle East LNG industry remains hostage of Iran war Awani International",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil's long view darkens as Iran war refuses to end - Awani International",
-    "titleAr": "Oil's long view darkens as Iran war refuses to end - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZlBvSTA0OW1WOXBRbFoxeWVtUGlkVVUtZkdvUW9NRjhXMmlZY0JtcE8zWld6SzNnX2xyOC1SNk5kZE9rOWlGQzJpZjVQUFpoRS1sT0dycG1mc2tud2N5SlVDalRMNXFiSEdrTFJWRUVKdUxCV2x6d3M3eWE2RTdGZ3FiNURLMzhQZkNsdi00QnEwSmg2MjNYUEpB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792287667000,
-    "summaryEn": "Oil's long view darkens as Iran war refuses to end Awani International",
-    "summaryAr": "Oil's long view darkens as Iran war refuses to end Awani International",
     "tags": [
       {
         "textEn": "INTEL",
@@ -375,22 +551,6 @@
     "pubDate": 1792280940000,
     "summaryEn": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
     "summaryAr": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China says Israel should stop its 'forced establishment' of West Bank settlements - Aaj English TV",
-    "titleAr": "China says Israel should stop its 'forced establishment' of West Bank settlements - Aaj English TV",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4YVBMVmFiRFFyOE4wOUxPcEkwSThrLW1BaFA3UWt6U09NVnNRVW5UelROalRNN1hFRTVyRWFNbzkyVi03aDJGa2Vtc2c2Zw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792276793000,
-    "summaryEn": "China says Israel should stop its 'forced establishment' of West Bank settlements Aaj English TV",
-    "summaryAr": "China says Israel should stop its 'forced establishment' of West Bank settlements Aaj English TV",
     "tags": [
       {
         "textEn": "INTEL",
@@ -480,134 +640,6 @@
     ]
   },
   {
-    "titleEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - The Daily Star",
-    "titleAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - The Daily Star",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT3htWVc3NU1KYUZGNm1WcGE2aHhsX2RMRnVJSDR2R3VQeHNjS1RqZUFHSHg1d0FfV3ZCdFl0X1FDYm9BclRDcUJudDRUR0pUU1VGSUk0bjRCN1lhVXBWbHhpdmhidTlta2dHQWtqSEFublZKUkpIa0laVUVQeE1jUEVFQ2Nlc3pibG1qdjhBNlliVXBOYmp6U1BFMzMxS1daQmZrdVZvbE9ySEVGU1QzYnZNLXRNM0w3a3U5MQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792248351000,
-    "summaryEn": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears The Daily Star",
-    "summaryAr": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears The Daily Star",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Some Middle East Oil Output Will Stay Shut Through Next Year, US EIA Says - EnergyNow.com",
-    "titleAr": "Some Middle East Oil Output Will Stay Shut Through Next Year, US EIA Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjR0bjhPb1hsc2IzTGZEcDJfUnpsWmpRUGlQajJ4TFoxNXJLelJmNUw3ZHZmWTFOSTRmM3NOREowQmxuMmRDSXh0M2Q2NDdTSm8zcXdjYzRtOExsdnZYbnBRTE9lQVpPcGZ4WUxnb1hsZFlvQkJFbU1kZlBZMzlGRkRUVEYza2VQZVZsYURFUzFhU0VoOEs5dXRRTWZKYzlnV1MtSTVn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792244977000,
-    "summaryEn": "Some Middle East Oil Output Will Stay Shut Through Next Year, US EIA Says EnergyNow.com",
-    "summaryAr": "Some Middle East Oil Output Will Stay Shut Through Next Year, US EIA Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "World Bank Forecasts 24% Surge in Energy Prices in 2026 Due to Middle East War - EnergyNow.com",
-    "titleAr": "World Bank Forecasts 24% Surge in Energy Prices in 2026 Due to Middle East War - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNld2eUh3b2xTa2xnNTZRRUdGYXIxaEEyU2ZtX1owRWlxZDA3eG92U2F2SDR4dS1lRnRFQnZCaFlhelRYRW5WVVJnYU5lT1Q1X001TU8xaGVrZ0hJRHluOGhWN2ZKS3VMd1VZaGJBWDhkdUZ2MmZSOXYtRThWS0FiRWEwVm80a0dSQ295Y2IxX3FzRk5qemI0aGtjaS1nenhpU0xDdlBKVU1PQXVw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792241643000,
-    "summaryEn": "World Bank Forecasts 24% Surge in Energy Prices in 2026 Due to Middle East War EnergyNow.com",
-    "summaryAr": "World Bank Forecasts 24% Surge in Energy Prices in 2026 Due to Middle East War EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
-    "titleAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFZUQnloZ3llVFp2N0VWLUZ0OGZwQTh6dDl0dUFNbk9VQU5ZRVVhZ09xakdxMlhweTlCMlVmNGFqdEZ4SGRxclFSWHl6NDJBblFKX3VLRTQzSGlUWlNKaTA0RHkzQUd4TjlpVFhmeTUtUkU2NHMyaDM1YTBiTEt2QWU5bHQ3YmJVMl9SbmFlcmlJeXhXNm9JbllsRTZUS01ZdllfOGRyc0c3YnF0dENPS2VuRQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792239290000,
-    "summaryEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
-    "summaryAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "World Faces Largest-Ever Oil Supply Disruption on Middle East War, IEA Says - EnergyNow.com",
-    "titleAr": "World Faces Largest-Ever Oil Supply Disruption on Middle East War, IEA Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWtjSVEwbUNJREVxanlFRzZYV0NFbmFEdUtpelF1MTgxOVluNTQ5dmJFZnVJQWRwaUhpLWVOektSUzZfREVxSmtCRXNjaXl0cE5SOW5NWkdBOXpGdE9sbmFYR25zZHZubG1KbTBJWHo2T2pmNE9wMDZPME9xTWwwVThnRXlRb2ZkTXFzN2xCbjdlX0Q3dWJ2dDdQblVFT0NNUVdsVm56Vno?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792222642000,
-    "summaryEn": "World Faces Largest-Ever Oil Supply Disruption on Middle East War, IEA Says EnergyNow.com",
-    "summaryAr": "World Faces Largest-Ever Oil Supply Disruption on Middle East War, IEA Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israelis in Tel Aviv protest government and settler violence - Reuters",
-    "titleAr": "Israelis in Tel Aviv protest government and settler violence - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EQTF1VUg3MEJoVGpsdURSTGdiUm9LdGZabnEwVkpHRWszRWR6bUpxNXpIQjQ2dzZlWlU2d0NxX1FPQmlFcnRQaFRCOG5TaXpjNjd3bVJ1RWtOODY5Wi05VHVWTEJieDA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792220400000,
-    "summaryEn": "Israelis in Tel Aviv protest government and settler violence Reuters",
-    "summaryAr": "Israelis in Tel Aviv protest government and settler violence Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
-    "titleAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXBEWEFlSG9EdHRhc2NkY1Npd0puaG1jVWMyX0lNZVBWT05RaTc1MzNoenJwdmIyYW9vYlRRTjR1Mm1sT1EtRnJoRk9DQnJxYk5tLTJwNndQUV9UdFlLMzEtZ0ZURHFVVDR6c1hoWXNYZlpQQVFpNEtRdkxjY1RYQl9iWkJORHN1UmxURXl6dmJtZC1RWVdzNU91VQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792220053000,
-    "summaryEn": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
-    "summaryAr": "Escalation in Middle East Possible in Coming Days, Polish PM Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
-    "titleAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjZyN2NWdDVCeElhelhRNnhKZ1l1SkNyNmw3alUxWFRjTEgtQU9PTTFUS3Z5UkJHTHZlTzRvR0JDU054aUt5eHhLdXBWdUNDWk1sNVRza2RsYXRueWRocUhKMk5HeWpwTWhlTDF4VzkycDNYbUhYZGdabERNSk03YmZaay10S2x4ZGtOWW5NV0V6OU9CcWZ1R0xTN2xITUpfQlNvcG45bkI1NjlTT01rclBaRmVGSHo0NVcwRTl3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792218229000,
-    "summaryEn": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
-    "summaryAr": "Israeli settlers burn olive trees, injure journalist in West Bank attack The Business Standard",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
     "titleAr": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
     "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
@@ -679,38 +711,6 @@
     "pubDate": 1792152000000,
     "summaryEn": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
     "summaryAr": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are avai…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1792152000000,
-    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
-    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Pa…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-    "titleAr": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-    "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792140354000,
-    "summaryEn": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
-    "summaryAr": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
     "tags": [
       {
         "textEn": "INTEL",
