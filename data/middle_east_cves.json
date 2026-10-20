@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-64893",
-    "system": "EasyIO NEO",
+    "id": "CVE-2023-46143",
+    "system": "Automation Worx Software Suite",
     "severity": "High",
-    "cvss": 7.3,
+    "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-94594",
-    "system": "Armatura One",
+    "id": "CVE-2026-8067",
+    "system": "RTU500 series CMU firmware",
     "severity": "Medium",
-    "cvss": 5.1,
+    "cvss": 6.5,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-94593",
-    "system": "Armatura One",
-    "severity": "High",
-    "cvss": 8.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-94592",
-    "system": "Armatura One",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-94591",
-    "system": "Armatura One",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2023-46604",
-    "system": "Apache ActiveMQ",
+    "id": "CVE-2026-8066",
+    "system": "RTU500 series CMU firmware",
     "severity": "Critical",
-    "cvss": 10,
+    "cvss": 9.1,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2014-9195",
-    "system": "ProConOs",
+    "id": "CVE-2026-8065",
+    "system": "RTU500 series CMU firmware",
     "severity": "Critical",
-    "cvss": 10,
+    "cvss": 9.1,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2010-2965",
-    "system": "n/a",
+    "id": "CVE-2026-15340",
+    "system": "lwIP SMTP client",
     "severity": "Critical",
-    "cvss": 9.8,
+    "cvss": 9.3,
     "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-34197",
+    "system": "Apache ActiveMQ Broker",
+    "severity": "High",
+    "cvss": 8.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-27873",
+    "system": "EasyIO FG",
+    "severity": "Medium",
+    "cvss": 5.6,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-27872",
+    "system": "Easy IO FG",
+    "severity": "Medium",
+    "cvss": 5.6,
+    "badge": "badge-medium"
   }
 ]
