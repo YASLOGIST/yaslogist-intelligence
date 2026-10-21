@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-15340",
-    "system": "lwIP SMTP client",
-    "severity": "Critical",
-    "cvss": 9.3,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-34197",
-    "system": "Apache ActiveMQ Broker",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-27873",
-    "system": "EasyIO FG",
+    "id": "CVE-2026-11796",
+    "system": "Asset Suite",
     "severity": "Medium",
-    "cvss": 5.6,
+    "cvss": 5.1,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-27872",
-    "system": "Easy IO FG",
-    "severity": "Medium",
-    "cvss": 5.6,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2016-3081",
-    "system": "n/a",
+    "id": "CVE-2026-7395",
+    "system": "Asset Suite",
     "severity": "High",
-    "cvss": 8.1,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2015-5477",
-    "system": "n/a",
+    "id": "CVE-2025-59375",
+    "system": "libexpat",
     "severity": "High",
     "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2015-3306",
+    "id": "CVE-2024-8176",
+    "system": "Unknown System",
+    "severity": "High",
+    "cvss": 7.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2023-22894",
     "system": "n/a",
+    "severity": "High",
+    "cvss": 7.2,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2021-3199",
+    "system": "n/a",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2021-22205",
+    "system": "GitLab",
     "severity": "Critical",
     "cvss": 10,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2014-6278",
+    "id": "CVE-2019-11510",
     "system": "n/a",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
+    "severity": "Critical",
+    "cvss": 9.9,
+    "badge": "badge-critical"
   }
 ]
