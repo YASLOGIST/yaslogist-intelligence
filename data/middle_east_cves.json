@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-11796",
-    "system": "Asset Suite",
+    "id": "CVE-2026-102764",
+    "system": "Remote Support",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-109813",
+    "system": "AIG-302 Series",
+    "severity": "High",
+    "cvss": 8.6,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-109812",
+    "system": "AIG-302 Series",
     "severity": "Medium",
-    "cvss": 5.1,
+    "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-7395",
-    "system": "Asset Suite",
+    "id": "CVE-2026-106931",
+    "system": "SiteGuard Server Edition for Apache httpd",
     "severity": "High",
     "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2023-22894",
-    "system": "n/a",
+    "id": "CVE-2026-96656",
+    "system": "Media Server",
     "severity": "High",
-    "cvss": 7.2,
+    "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2021-3199",
-    "system": "n/a",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
+    "id": "CVE-2026-96655",
+    "system": "Media Server",
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2021-22205",
-    "system": "GitLab",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
+    "id": "CVE-2026-96654",
+    "system": "Media Server",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2019-11510",
-    "system": "n/a",
-    "severity": "Critical",
-    "cvss": 9.9,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-39453",
-    "system": "700 Series",
-    "severity": "High",
-    "cvss": 8.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-29797",
-    "system": "700 Series",
-    "severity": "High",
-    "cvss": 8.4,
-    "badge": "badge-high"
+    "id": "CVE-2026-105960",
+    "system": "PEAK-System Device Driver Setup",
+    "severity": "Medium",
+    "cvss": 6.8,
+    "badge": "badge-medium"
   }
 ]
