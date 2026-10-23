@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Six shot dead by gunmen at church funeral in Jordan, officials say",
-    "titleAr": "Six shot dead by gunmen at church funeral in Jordan, officials say",
+    "titleEn": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+    "titleAr": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
     "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Middle East",
-    "pubDate": 1792765911000,
-    "summaryEn": "Another 28 people are injured in the southern Karak governorate, and a manhunt is now under way.",
-    "summaryAr": "Another 28 people are injured in the southern Karak governorate, and a manhunt is now under way.",
+    "pubDate": 1792784790000,
+    "summaryEn": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+    "summaryAr": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,18 +16,274 @@
     ]
   },
   {
-    "titleEn": "Hundreds to defy Palestine Action ban in protest at US embassy in London",
-    "titleAr": "Hundreds to defy Palestine Action ban in protest at US embassy in London",
-    "link": "https://www.aljazeera.com/features/2026/10/23/hundreds-to-defy-palestine-action-ban-in-protest-at-us-embassy-in-london?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792761958000,
-    "summaryEn": "Campaigners plan mass Halloween action before Supreme Court hearing on challenge to group's 'terrorist' proscription.",
-    "summaryAr": "Campaigners plan mass Halloween action before Supreme Court hearing on challenge to group's 'terrorist' proscription.",
+    "titleEn": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
+    "titleAr": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792784218000,
+    "summaryEn": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks The National",
+    "summaryAr": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks The National",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "titleAr": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "source": "The Hacker News",
+    "pubDate": 1792781413000,
+    "summaryEn": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled o…",
+    "summaryAr": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled o…",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel locks down occupied West Bank after Hebron shooting",
+    "titleAr": "Israel locks down occupied West Bank after Hebron shooting",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792780706000,
+    "summaryEn": "Israel has imposed a lockdown across the occupied West Bank after a shooting near Hebron killed two Israeli soldiers.",
+    "summaryAr": "Israel has imposed a lockdown across the occupied West Bank after a shooting near Hebron killed two Israeli soldiers.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "titleAr": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "source": "The Hacker News",
+    "pubDate": 1792777847000,
+    "summaryEn": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to th…",
+    "summaryAr": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to th…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israel to ‘lock down’ occupied West Bank",
+    "titleAr": "Jerusalem Daily: Israel to ‘lock down’ occupied West Bank",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792776651000,
+    "summaryEn": "Israeli Prime Minister Benjamin Netanyahu orders a “full lockdown” of the occupied West Bank following a shooting.",
+    "summaryAr": "Israeli Prime Minister Benjamin Netanyahu orders a “full lockdown” of the occupied West Bank following a shooting.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
+    "titleAr": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792776445000,
+    "summaryEn": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say Reuters",
+    "summaryAr": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Romania blames Russia after drone sinks ship in the Black Sea",
+    "titleAr": "Romania blames Russia after drone sinks ship in the Black Sea",
+    "link": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792776373000,
+    "summaryEn": "One sailor killed and three others missing after Comoros-flagged Khoryv hit near Romanian waters.",
+    "summaryAr": "One sailor killed and three others missing after Comoros-flagged Khoryv hit near Romanian waters.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
+    "titleAr": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792775324000,
+    "summaryEn": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says Reuters",
+    "summaryAr": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Indonesia seizes more than a tonne of ketamine from tanker",
+    "titleAr": "Indonesia seizes more than a tonne of ketamine from tanker",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_indonesia-seizes-more-than-a-tonne-of-ketamine-231026?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792774822000,
+    "summaryEn": "Indonesian authorities seized 1.16 tonnes of ketamine from a Malaysian vessel in the Strait of Malacca.",
+    "summaryAr": "Indonesian authorities seized 1.16 tonnes of ketamine from a Malaysian vessel in the Strait of Malacca.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - The Straits Times",
+    "titleAr": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - The Straits Times",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWVN4eFp6OWNELTZORndVTTNSalJ4aHR4dmo5ZXBjSDhvN2FMLXliLXJwUzFHaVZRUHc5NlRYazY5VDV5S2s0OHpJSEpBZ3JPOXhRc3Qxdk5QR3REdDJRRUJ5VGJJLXJ1M0pjUEkwc2szWUs1N19DNTVySnhRN3pXNzUyNUFPT09FY25sY1draUh5cU93YzY0ZG81T3MzSTVCVm1pUHNwUW5IbUVsTmhJQWQzbGZVSUxRQjNTOUlzXzBBUmdGb3c?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792774620000,
+    "summaryEn": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say The Straits Times",
+    "summaryAr": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say The Straits Times",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli roadblocks disrupt schools and medical care in West Bank village",
+    "titleAr": "Israeli roadblocks disrupt schools and medical care in West Bank village",
+    "link": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792773479000,
+    "summaryEn": "Residents of Madama describe being cut off from hospitals, schools, and olive groves as Israeli forces blockade village.",
+    "summaryAr": "Residents of Madama describe being cut off from hospitals, schools, and olive groves as Israeli forces blockade village.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+    "titleAr": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+    "link": "https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792772991000,
+    "summaryEn": "An escalation would 'create nothing but losers', French foreign minister says as US official warns of possible strike.",
+    "summaryAr": "An escalation would 'create nothing but losers', French foreign minister says as US official warns of possible strike.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
+    "titleAr": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
+    "link": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792770689000,
+    "summaryEn": "Democrats are framing the conflict as an affordability issue to criticise Republican candidates backed by Trump.",
+    "summaryAr": "Democrats are framing the conflict as an affordability issue to criticise Republican candidates backed by Trump.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+    "titleAr": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+    "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792769827000,
+    "summaryEn": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+    "summaryAr": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "SLB signals stronger 2027 on Middle East rebound, beats estimates - Reuters",
+    "titleAr": "SLB signals stronger 2027 on Middle East rebound, beats estimates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVFTelJLT0RLMUpoVkFUUEJPdU13dmFDQkUzcFBWX1V2TGZBcXhSRTVZMTJ6RUVKU1pSZTRSZXdEeHA1bmwxYVROc1d5bW83bWh6Xzc0QzJ0cjVwLU9FVVNsUklWX3ZJVVAxZkx0cUNGT3BIRlNRRlotNDV5ZXdlOWsxZmo5OXlJX0FGR3FwSHFiSkhjM3BZNnJmTlZLRVZTUHNIZEpRWElHRE1JSkw1NDczUm44UQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792769421000,
+    "summaryEn": "SLB signals stronger 2027 on Middle East rebound, beats estimates Reuters",
+    "summaryAr": "SLB signals stronger 2027 on Middle East rebound, beats estimates Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Ship attacks in Strait of Hormuz hit record high in October - Reuters",
+    "titleAr": "Ship attacks in Strait of Hormuz hit record high in October - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0p6ZElVazFhVWJxRy15cXJ6X2VJZlBZbkp6dTFNUGNzb1pCbjYyenA2UE5ERXBYMnMya2tYNkNfcGN3U3FGZ3V2MzdaN0RWUng5VFJHVl9jVk9LLVJGOVFVRFNKR21sc0pULWQ0Vm9uQk9tODlWTGs0U3BSeFd2MC15X2RIakQ2Mkw0eFhMa1Y2UUVWYVBsZkhrZHowVnlaWUpKZA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792767583000,
+    "summaryEn": "Ship attacks in Strait of Hormuz hit record high in October Reuters",
+    "summaryAr": "Ship attacks in Strait of Hormuz hit record high in October Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill - Yahoo Finance",
+    "titleAr": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOHpyOVBKMGxIbF9oUXluaUVMeGxfQlFjdEZHLUY3WHBia0lnMzVSbVNmX2YwcWVISVdORlcxaDdydXFRb0hsdURFV21td3dyb1RpVGs3Q1RHM2JQRm9JR3VuWm1NLWt2bnJhQnpQOWwxdVgxNjZ1Y05tSEx0eFA1RGZ1ODFWcjlPZFFhYjdWT08tUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792761429000,
+    "summaryEn": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill Yahoo Finance",
+    "summaryAr": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill Yahoo Finance",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -64,70 +320,6 @@
     ]
   },
   {
-    "titleEn": "Qatar Moto GP to go ahead despite regional tensions",
-    "titleAr": "Qatar Moto GP to go ahead despite regional tensions",
-    "link": "https://www.aljazeera.com/sports/2026/10/23/qatar-moto-gp-to-go-ahead-despite-regional-tensions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792760418000,
-    "summaryEn": "Qatar GP goes ahead despite Saudi Arabia scrapping events in region after deadly strike on Riyadh airport.",
-    "summaryAr": "Qatar GP goes ahead despite Saudi Arabia scrapping events in region after deadly strike on Riyadh airport.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-    "titleAr": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-    "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792759732000,
-    "summaryEn": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
-    "summaryAr": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "SLB tops estimates on resilient North America demand, sees Middle East rebound - Reuters",
-    "titleAr": "SLB tops estimates on resilient North America demand, sees Middle East rebound - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVFTelJLT0RLMUpoVkFUUEJPdU13dmFDQkUzcFBWX1V2TGZBcXhSRTVZMTJ6RUVKU1pSZTRSZXdEeHA1bmwxYVROc1d5bW83bWh6Xzc0QzJ0cjVwLU9FVVNsUklWX3ZJVVAxZkx0cUNGT3BIRlNRRlotNDV5ZXdlOWsxZmo5OXlJX0FGR3FwSHFiSkhjM3BZNnJmTlZLRVZTUHNIZEpRWElHRE1JSkw1NDczUm44UQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792756927000,
-    "summaryEn": "SLB tops estimates on resilient North America demand, sees Middle East rebound Reuters",
-    "summaryAr": "SLB tops estimates on resilient North America demand, sees Middle East rebound Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "SLB tops estimates on resilient North America demand, sees Middle East rebound - The Lufkin Daily News",
-    "titleAr": "SLB tops estimates on resilient North America demand, sees Middle East rebound - The Lufkin Daily News",
-    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTWprQjRGLXFCWmI0alRhdndSU25Ic0xNOTZkZjlXVmVPRWxrbGJLeENVU3RTbUZvZk95VGVmQ25LSlBJUm5mZVpuby1tdE9RUElNQTN3N0tyR3p5U3ZFazZUc2ItT05IcmxmNjlreVdyWm1vMzRjRHd3TUVkWDJzSmFPZ2trVEdmWWphYTM2RFNnUnBlQlVKQVg0clB2cTZhNVlEVzktUUtOdGNfTWlmbEg0TmZyT0VkbDVJdmczQXlnajdjRUdmODI3QlI5ZWxFMzNvaUptYkl4OElEaEdSdWhDeDhjdENDX3R1Qk9yWmRRc3VRaFAyQnFRd0FpMkxSWVdJNnBqLXI?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792756899000,
-    "summaryEn": "SLB tops estimates on resilient North America demand, sees Middle East rebound The Lufkin Daily News",
-    "summaryAr": "SLB tops estimates on resilient North America demand, sees Middle East rebound The Lufkin Daily News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Istanbul Summit: Turkey and Europe negotiate with the Middle East to secure the Strait of Hormuz - Atalayar",
     "titleAr": "Istanbul Summit: Turkey and Europe negotiate with the Middle East to secure the Strait of Hormuz - Atalayar",
     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONW8tbEoxTUlqUlo5eXFScnVVUmhuSDZ5UHYxOWNXdHBaVXczMU9KUm9WS3dsdzVDbzZhYlJtXzlzazJqX2dFRjZ1X3FFZTA4bkNvNHZRNFRSLWNfekw5cVBRSERlUjJHSDBaTTFOdXhsQUlhZS1zVl9LVFJFbmQ0OXhnSXZoMmM4eTItbldXWGFfcDdYY29zRTlHWEhjZUJDTGZZTnQwVDgtVTk1NFpmZFJPX2prRnJYTHR5ZzBEUXEzNFVtQi1vS2szdnRyeHN5NWh2ZUtYMHBESm5uRkZNRFhTWWdEYXdHcUpwT185b0dTVFN2clRHUnk4RQ?oc=5",
@@ -144,40 +336,8 @@
     ]
   },
   {
-    "titleEn": "US-Iran war, then and now: How the landscape has changed since February",
-    "titleAr": "US-Iran war, then and now: How the landscape has changed since February",
-    "link": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792755833000,
-    "summaryEn": "The positions of Washington and Tehran have changed dramatically since US-Israeli strikes began the war, analysts say.",
-    "summaryAr": "The positions of Washington and Tehran have changed dramatically since US-Israeli strikes began the war, analysts say.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "‘Pink blooms from among the rubble’: Battling breast cancer in Gaza",
-    "titleAr": "‘Pink blooms from among the rubble’: Battling breast cancer in Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/pink-blooms-from-among-the-rubble-battling-breast-cancer-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792754855000,
-    "summaryEn": "Health workers in Gaza are participating in a breast cancer campaign called ‘pink blooms from among the rubble’.",
-    "summaryAr": "Health workers in Gaza are participating in a breast cancer campaign called ‘pink blooms from among the rubble’.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
-    "titleAr": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+    "titleEn": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+    "titleAr": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
     "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
     "source": "The Hacker News",
     "pubDate": 1792754743000,
@@ -192,8 +352,8 @@
     ]
   },
   {
-    "titleEn": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "titleAr": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "titleEn": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "titleAr": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "source": "The Hacker News",
     "pubDate": 1792753883000,
@@ -224,18 +384,18 @@
     ]
   },
   {
-    "titleEn": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
-    "titleAr": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5",
+    "titleEn": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue - Reuters",
+    "titleAr": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792751233000,
-    "summaryEn": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says Reuters",
-    "summaryAr": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says Reuters",
+    "pubDate": 1792752271000,
+    "summaryEn": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue Reuters",
+    "summaryAr": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue Reuters",
     "tags": [
       {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -320,13 +480,13 @@
     ]
   },
   {
-    "titleEn": "Israel says it will demolish homes and go house to house after attack in the West Bank - Reuters",
-    "titleAr": "Israel says it will demolish homes and go house to house after attack in the West Bank - Reuters",
+    "titleEn": "Palestinian gunmen kill two Israeli soldiers; Israel threatens new West Bank offensive - Reuters",
+    "titleAr": "Palestinian gunmen kill two Israeli soldiers; Israel threatens new West Bank offensive - Reuters",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS0hzRExtQTYyRlJxd3QybEt5ZzFRNlNXMUJKWU9rLWtOMXZEZzFTLVVKeTAyLTlSVzNEU09vMjlreHdXZ2NBRE5RVXlqSUtfeThrQlE5NjUwbThFbEp6dDEtR0J4T1FIa2FtQUlPczV1aEdyZnZXWjJjWHpQSmItLUJJenRHNDd5VGQ1YXdWRGRLR25RSnN6ZTlxN1NOMmJZdjMzUGhubGRkQW80VTdiT195aU1OXzNuMDFETG9SdmZmbDB0VUtHaDFvNncyZw?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1792731660000,
-    "summaryEn": "Israel says it will demolish homes and go house to house after attack in the West Bank Reuters",
-    "summaryAr": "Israel says it will demolish homes and go house to house after attack in the West Bank Reuters",
+    "summaryEn": "Palestinian gunmen kill two Israeli soldiers; Israel threatens new West Bank offensive Reuters",
+    "summaryAr": "Palestinian gunmen kill two Israeli soldiers; Israel threatens new West Bank offensive Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -352,13 +512,13 @@
     ]
   },
   {
-    "titleEn": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill - Reuters",
-    "titleAr": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill - Reuters",
+    "titleEn": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill - Reuters",
+    "titleAr": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill - Reuters",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1792717440000,
-    "summaryEn": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill Reuters",
-    "summaryAr": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill Reuters",
+    "summaryEn": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill Reuters",
+    "summaryAr": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -551,166 +711,6 @@
     "pubDate": 1792687200000,
     "summaryEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
     "summaryAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-    "titleAr": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-    "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792684596000,
-    "summaryEn": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
-    "summaryAr": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump says Iran is trying to drive up oil prices before the midterm elections - L'Orient Today",
-    "titleAr": "Trump says Iran is trying to drive up oil prices before the midterm elections - L'Orient Today",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeHMzUXluUTlPSE84T1BJcElQOEJvZk5hUDNrZm4wakZacUgtekx6OUdROWhvWV9vbjhkS3dDSHZ2OHR3UDJPeC05U0NVcFYzR0ZDZHk5Uk9YbFktZE9lOEV5UDdjTFFwYVE3TGdrRjZCamo5ZGpMMnVnT05JS0k2dU9LazN5T1Q5R2lYQmttZm9EcThVbjNtQUZHVF8ySjZsTFNMUWRJN01VN0ZSam1aZ3JNUFhYbnJHV3dRVXQ0aXBZRTM0aG52aC1B?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792684564000,
-    "summaryEn": "Trump says Iran is trying to drive up oil prices before the midterm elections L'Orient Today",
-    "summaryAr": "Trump says Iran is trying to drive up oil prices before the midterm elections L'Orient Today",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Accor lifts outlook as Middle East rebounds - TradingView",
-    "titleAr": "Accor lifts outlook as Middle East rebounds - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVWppZi1pSlc2ZnlMdGlDNkgyVUFKOUpqbEloSUZGbVVucWVVekcxRFJWcms3b19Qc2NqTFN5bDdqZ3NjblZkdlUwVG5UVm9NWTBHREVMeXBDTFh2YnRJR0RtekxzVkpQUFJnZkpkdTJ0QXM3WU91cmlSOVRLUHRwV2hYZ0hCR3RHTXZrZEh1YjJJTzZmaU5OUVpZaklyQWZYelU5ZFlzeVdVNXVHRUFTYmNGaw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792684067000,
-    "summaryEn": "Accor lifts outlook as Middle East rebounds TradingView",
-    "summaryAr": "Accor lifts outlook as Middle East rebounds TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-    "titleAr": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-    "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792676793000,
-    "summaryEn": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
-    "summaryAr": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters",
-    "titleAr": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS1ESU5ra242UzdCbkxuVkNzUkV2NWZVTGlRcDZnSzJBeE5KTkFyMEZvaTd0ZEl4LWduc0lmbGZkRnV6REF1dV9VUkRESHpVM3lLUkt0SmtfQzJDLXdnZ0l6akwwOWZpS1lza2tSbHczcnlpU2JPSXo5eHNrY0c4aWNpWjNJSlFYa2M2UEhDNnVsUnQySGF6MVJSY1FPam1LSlliSkJUTzFKck9tZ2J6S2xlUnVSam1TTllJbUxQWmtTcjQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792676662000,
-    "summaryEn": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk Reuters",
-    "summaryAr": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Brent hits five-month high on escalating Middle East conflict - Euronext Markets: Real-time Stock Market Data | live",
-    "titleAr": "Brent hits five-month high on escalating Middle East conflict - Euronext Markets: Real-time Stock Market Data | live",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHBPWFRjTDhMVC1xV2JKMkh5bE9Lc3hob1A3Sm5sY3RISGVhUjlReG9jcUxfbnJPb3NHUnVQTElfWmM3T2s1STM2b2otRW5tSXdkSzUzM1B6Ym4xUXlrVl9iX0VvLVRTdXV3Ukpjdm9OdG96UkJETXQ5X20zREo1QXpZRzRVbU5VTHJxWVE4ZEdSVFdlR1hZTlBGZFc5c2FpRmdEUg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792675372000,
-    "summaryEn": "Brent hits five-month high on escalating Middle East conflict Euronext Markets: Real-time Stock Market Data | live",
-    "summaryAr": "Brent hits five-month high on escalating Middle East conflict Euronext Markets: Real-time Stock Market Data | live",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Bloomberg hires Khan to cover Middle East oil - Talking Biz News",
-    "titleAr": "Bloomberg hires Khan to cover Middle East oil - Talking Biz News",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVl91UUp6YXVDUENDOVFrTFd4aEpsR1BSNVJsT2xtNjg4dkRpc1g2STZsd3QxazB2ZjNRVXlCUmM2ODNiSjRSLVlsZnhEbWdQdEJWRjJfV2R1TkNzMHhMMlhrcjNqY0EyR1ppMi1tMDVpOFVITmZlbFVIUndFc0tkRlFiazdBVm56SE5J?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792675135000,
-    "summaryEn": "Bloomberg hires Khan to cover Middle East oil Talking Biz News",
-    "summaryAr": "Bloomberg hires Khan to cover Middle East oil Talking Biz News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply - EnergyNow.com",
-    "titleAr": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamczazBVQWd3UXkyWGdFMkp5U1lCd3gxRlB2ZGlTUXI5OUxsMkhkLThEcVhlSDMzcU1OdlgyQzNITlIteDFsNXd5NmEtdkFxVlVEOVB0RVotRmhfYm9INV9aeW1HanNNc2g3OUozdktwTzQzWFliQzBLNjVkUTZxUjNCREJvYkVhdTByT3Q0cTVYQXcxTWtB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792671456000,
-    "summaryEn": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply EnergyNow.com",
-    "summaryAr": "Asia Pivots to Coal as Middle East Conflict Chokes LNG Supply EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens SIMATIC S7 Webserver API",
-    "titleAr": "Siemens SIMATIC S7 Webserver API",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
-    "source": "CISA Advisories",
-    "pubDate": 1792670400000,
-    "summaryEn": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary…",
-    "summaryAr": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-    "titleAr": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
-    "source": "CISA Advisories",
-    "pubDate": 1792670400000,
-    "summaryEn": "View CSAF Summary The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of th…",
-    "summaryAr": "View CSAF Summary The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of th…",
     "tags": [
       {
         "textEn": "INTEL",
