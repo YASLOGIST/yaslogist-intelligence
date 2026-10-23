@@ -1,28 +1,12 @@
 [
   {
-    "titleEn": "Middle East latest: UAE condemns Houthi attack on Saudi Arabia’s Dammam airport - The National",
-    "titleAr": "Middle East latest: UAE condemns Houthi attack on Saudi Arabia’s Dammam airport - The National",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5",
+    "titleEn": "Brent crude hits more than five-month high on concern over Middle East escalation - Central Oregon Daily",
+    "titleAr": "Brent crude hits more than five-month high on concern over Middle East escalation - Central Oregon Daily",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZzNEMVA1TVJmT3ViaEZ1VTBINFZpVUltdlE3eGp6RURyVlZxX3lWVmVmYlhESVprT0NicjkxcElXWmZhWGZhTXRZY3BXWG5HU2NNcl9VSDhRUk0yVl9lUGhla2xVR05xWDBjNGJlWlNINWNQTmQwRV9mbVpQcTk3RlNseERPV0JXa1ZlVlVYc0NWRXE5VkVMNFNIQlhIWHpMdVZ6czNwcUJYeHZsaFlDRjhtX1pQWGJkXzJaREEtUjEyUDhOb3lDSmdEY2dmWG9yZ2VJeXAxV2xlMWtxUHp0QTZOZW9Fc3VUQUpfTzR3bGtjVjBJU3FUd05iQU9KSlNJUGNlM2tYa1luaFRj?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792720508000,
-    "summaryEn": "Middle East latest: UAE condemns Houthi attack on Saudi Arabia’s Dammam airport The National",
-    "summaryAr": "Middle East latest: UAE condemns Houthi attack on Saudi Arabia’s Dammam airport The National",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
-    "titleAr": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792713600000,
-    "summaryEn": "Trump indicates new strikes on Iran, saying the US has knocked the 'hell out' of the country.",
-    "summaryAr": "Trump indicates new strikes on Iran, saying the US has knocked the 'hell out' of the country.",
+    "pubDate": 1792745811000,
+    "summaryEn": "Brent crude hits more than five-month high on concern over Middle East escalation Central Oregon Daily",
+    "summaryAr": "Brent crude hits more than five-month high on concern over Middle East escalation Central Oregon Daily",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +16,141 @@
     ]
   },
   {
-    "titleEn": "Ballon d’Or 2026: Can Bayern’s Harry Kane end England’s 25 years of hurt?",
-    "titleAr": "Ballon d’Or 2026: Can Bayern’s Harry Kane end England’s 25 years of hurt?",
-    "link": "https://www.aljazeera.com/sports/2026/10/22/ballon-dor-2026-can-bayerns-harry-kane-end-englands-25-years-of-hurt?traffic_source=rss",
+    "titleEn": "Israeli forces accused of killing disabled man in Syria raid",
+    "titleAr": "Israeli forces accused of killing disabled man in Syria raid",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-forces-accused-of-killing-disabled-man-in-syria-raid?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1792703028000,
-    "summaryEn": "Bayern Munich striker Kane faces tough competition from Lamine Yamal and Kylian Mbappe, who are also in the ‌‌running.",
-    "summaryAr": "Bayern Munich striker Kane faces tough competition from Lamine Yamal and Kylian Mbappe, who are also in the ‌‌running.",
+    "pubDate": 1792744544000,
+    "summaryEn": "Israeli forces reportedly shot dead a Syrian man with an intellectual disability and hearing problems, during a raid.",
+    "summaryAr": "Israeli forces reportedly shot dead a Syrian man with an intellectual disability and hearing problems, during a raid.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "titleAr": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+    "source": "The Hacker News",
+    "pubDate": 1792741801000,
+    "summaryEn": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proo…",
+    "summaryAr": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proo…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "titleAr": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+    "source": "The Hacker News",
+    "pubDate": 1792741245000,
+    "summaryEn": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Pota…",
+    "summaryAr": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Pota…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
+    "titleAr": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
+    "link": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792741032000,
+    "summaryEn": "With emergency stocks at multidecade lows, analysts say the world may have only a month or two if Hormuz shuts again.",
+    "summaryAr": "With emergency stocks at multidecade lows, analysts say the world may have only a month or two if Hormuz shuts again.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "EU entering winter with lowest gas reserves on record, IEA boss warns",
+    "titleAr": "EU entering winter with lowest gas reserves on record, IEA boss warns",
+    "link": "https://www.aljazeera.com/economy/2026/10/23/eu-entering-winter-with-lowest-gas-reserves-on-record-iea-boss-warns?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792735335000,
+    "summaryEn": "Al Jazeera interviews Fatih Birol in Berlin as the Iran war disrupts global energy supplies.",
+    "summaryAr": "Al Jazeera interviews Fatih Birol in Berlin as the Iran war disrupts global energy supplies.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel military: two suspected attackers killed after shooting attack near Judea junction - Reuters",
+    "titleAr": "Israel military: two suspected attackers killed after shooting attack near Judea junction - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS0hzRExtQTYyRlJxd3QybEt5ZzFRNlNXMUJKWU9rLWtOMXZEZzFTLVVKeTAyLTlSVzNEU09vMjlreHdXZ2NBRE5RVXlqSUtfeThrQlE5NjUwbThFbEp6dDEtR0J4T1FIa2FtQUlPczV1aEdyZnZXWjJjWHpQSmItLUJJenRHNDd5VGQ1YXdWRGRLR25RSnN6ZTlxN1NOMmJZdjMzUGhubGRkQW80VTdiT195aU1OXzNuMDFETG9SdmZmbDB0VUtHaDFvNncyZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792731660000,
+    "summaryEn": "Israel military: two suspected attackers killed after shooting attack near Judea junction Reuters",
+    "summaryAr": "Israel military: two suspected attackers killed after shooting attack near Judea junction Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel preparing full lockdown of occupied West Bank after Hebron gun fight",
+    "titleAr": "Israel preparing full lockdown of occupied West Bank after Hebron gun fight",
+    "link": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792728568000,
+    "summaryEn": "Clampdown comes as Israeli pogroms heighten tension and spread violence across Palestinian territory.",
+    "summaryAr": "Clampdown comes as Israeli pogroms heighten tension and spread violence across Palestinian territory.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "XRG in talks over stake in Eni’s Libya oil and gas business, Reuters reports - Oil & Gas Middle East",
+    "titleAr": "XRG in talks over stake in Eni’s Libya oil and gas business, Reuters reports - Oil & Gas Middle East",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DZjlSN09RYTJCb0tvQW5UaTlvY2FIZ1N0MXZudmFPM2tqQi1ETkFrbUhSMmNoS1V0dVd0U0IzalhabUZ5X25xTGQ4WlNTNU1uamhyNGRQM1RKbE1INW11LXNBLVdOanQ5bHdiNVJTczB4OGt1?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792728372000,
+    "summaryEn": "XRG in talks over stake in Eni’s Libya oil and gas business, Reuters reports Oil & Gas Middle East",
+    "summaryAr": "XRG in talks over stake in Eni’s Libya oil and gas business, Reuters reports Oil & Gas Middle East",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil jumps on escalating Middle East conflict - The Express Tribune",
+    "titleAr": "Oil jumps on escalating Middle East conflict - The Express Tribune",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmpJSi04LXN0OHM5V21UZE1zU19GTGlLaE84VnhfOUFYZlZmYWNiRm5DWXN6ZGtjTjFUTEkyWWtOVWl5M3FRQmFsYjBqbWZkSnZEN1dma19SRXZsUDFsYVE0S214b0VRZHZ5ak9ncHRoVXRRRHZBNzBaSm5CZ1FRb0d4c2pUMmdpOHVSWlZsWlFLdzJpaHQxVl9tMzZ4bGd4Z3Nkcm1EalQySXhIMzR3dFFVMW9Sc1HSAb8BQVVfeXFMUGkzQWE5bUpmczhmRy1XNHdaWF9GODJIM2daSnFQTXVhV0NSOE1EZHBid0ZRNlpTdktlWWdhS3hvT1M1bGRGUksxdWIzWkxLUi04NG9xMndRbjlSVnFVX2tOX3cwMnZISEJpUGhVRnN3bERVU01qR3RtWWtWQTRxNnotMko3WEZfbm9HaFA3T0FhWV96ZVU3S0VHRmpYSURZTHA3TC1jT092WlEtc05VY3dZT3VjS2psQWxNWVRtLVE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792703573000,
+    "summaryEn": "Oil jumps on escalating Middle East conflict The Express Tribune",
+    "summaryAr": "Oil jumps on escalating Middle East conflict The Express Tribune",
     "tags": [
       {
         "textEn": "INTEL",
@@ -55,6 +167,22 @@
     "pubDate": 1792699818000,
     "summaryEn": "Sainz says talk of F1 racing in Middle East is 'premature' Reuters",
     "summaryAr": "Sainz says talk of F1 racing in Middle East is 'premature' Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UBS urges investors to stick with stocks as Middle East tensions lift oil prices - TradingView",
+    "titleAr": "UBS urges investors to stick with stocks as Middle East tensions lift oil prices - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMENXT1BrQ3MtVUl3XzZZeXVRRF8yVmNERUVlX1o5c09ESFU3R2RlbHVMdjhuYjFDc2tjN0FZZHFtREFFUnFFUFpOek5MeWg5YS0wWFEwdm8tLWI1OVVreDE1U2tSMUd0MVhxY3A5Z2xfT1liYWF0QThLN2tiNVdTaklKeDR1SFdsbDFzZzFHS2xpdzRpN1EtWGFQeW5jMzhwWWxhd0FUaVdIbVFDT2xJREJ5Y0ozUE1SWkRyM0RnVEFVcnpoQVhPajhZSHVEU2NMOTFHSWxVZkppeFh0dFJfSXRTbkM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792698357000,
+    "summaryEn": "UBS urges investors to stick with stocks as Middle East tensions lift oil prices TradingView",
+    "summaryAr": "UBS urges investors to stick with stocks as Middle East tensions lift oil prices TradingView",
     "tags": [
       {
         "textEn": "INTEL",
@@ -128,6 +256,22 @@
     ]
   },
   {
+    "titleEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "titleAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792692225000,
+    "summaryEn": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "summaryAr": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
@@ -135,6 +279,22 @@
     "pubDate": 1792691986000,
     "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
     "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792691248000,
+    "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
     "tags": [
       {
         "textEn": "INTEL",
@@ -263,22 +423,6 @@
     "pubDate": 1792675135000,
     "summaryEn": "Bloomberg hires Khan to cover Middle East oil Talking Biz News",
     "summaryAr": "Bloomberg hires Khan to cover Middle East oil Talking Biz News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
-    "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792674099000,
-    "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
-    "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
     "tags": [
       {
         "textEn": "INTEL",
@@ -567,150 +711,6 @@
     "pubDate": 1792670400000,
     "summaryEn": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-…",
     "summaryAr": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens SIMATIC S7-1500 TM MFP",
-    "titleAr": "Siemens SIMATIC S7-1500 TM MFP",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
-    "source": "CISA Advisories",
-    "pubDate": 1792670400000,
-    "summaryEn": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommend…",
-    "summaryAr": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommend…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Kiloview E3 NDI Encoder",
-    "titleAr": "Kiloview E3 NDI Encoder",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
-    "source": "CISA Advisories",
-    "pubDate": 1792670400000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder ar…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder ar…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent - Reuters",
-    "titleAr": "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUVhDZXVHTEtXNnJyeEx0a1ZvUS1iU3lGNV9Ia2dNTmljcm5PaVNvYUZ6ZkJsUGtoTjF6NDktS0FYeEstZEhOVkxvWUZmNU9VV05IUElNbTlHZk1iZGFNUVdzNXBXX01MVW03LXhnRTNVbzZRYlBKdExpeU5ZbHk3aldOVktTT2NRQmJ3Yjd4OEM4Q21JZU5GejMzRUhBbmxBamtBVmEzRGQtb1VnZ0E5dXJ5RUlfa1M2bHJvLTdWcDBjeWl0aFhSVzVn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792669754000,
-    "summaryEn": "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent Reuters",
-    "summaryAr": "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? - Reuters",
-    "titleAr": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ2xXYi1DUkZKV25adVhIeHluYU04TzlGUVRrRUtMRDNpeDJnUlYyNzY1Mmd4M0VSbjhRdWNXXy1wSnBkTzR6b1hfVG44S0tyZm45SXJqUDlDNTI4d2k4QUJDZ3U4dFJoakQtX1FlYWdYT3M5SWpjYUZfMzBncjQtVHdGMzZ4a3JiVWRDeUxJYnB4clo2Nl8wRTNjM3JhTWIzcnFtV3lDMnV5WTBOMjdnVm83LWxTdDZPMnBmX3RGUlBUS3k3VzFaUG5oTQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792668704000,
-    "summaryEn": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? Reuters",
-    "summaryAr": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "The olive thieves: Palestinian farmers battle Israeli settler raids - Reuters",
-    "titleAr": "The olive thieves: Palestinian farmers battle Israeli settler raids - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXY1U0VkVtcjFSLTl3ZU4zSEJGb0lldG9JMmlfY0lrRGtVc3VDeE0wN3gwN0FuQS05c2Z6dXdVU3JSVFFTdmpydnhLYnlNcUNSX0pONXBaMk5EZk5QRUpwMnJCckdDQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792668592000,
-    "summaryEn": "The olive thieves: Palestinian farmers battle Israeli settler raids Reuters",
-    "summaryAr": "The olive thieves: Palestinian farmers battle Israeli settler raids Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "India increased Middle East oil imports by 32% in September — OilPrice - UA.NEWS",
-    "titleAr": "India increased Middle East oil imports by 32% in September — OilPrice - UA.NEWS",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObzRDNE5VU2t0SVdsVlN3RlVsSmxTN1J2YktCTXBfb0NoRlppZ3FfZE9qV2FHX0U5YmRUQnlkZ2xOaklZdDRqdUlYRkNiOXh2UnY1dW4zLTJlTWlVMjllOWltZnFvMTRnUG1LSklOWm1FTWRobHRmay1QOTV3aUdfajREWTBpVEgtZmUwZ3B3Y3dLYjIyVU1zNV83dHkyd0VGRm1sSQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792667392000,
-    "summaryEn": "India increased Middle East oil imports by 32% in September — OilPrice UA.NEWS",
-    "summaryAr": "India increased Middle East oil imports by 32% in September — OilPrice UA.NEWS",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says - TradingView",
-    "titleAr": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSWhDMXFPV3hOamZoME82Q00yd25VVW9PZVR4MUtuSFE3UFdMRFJ3NFZnaU14aDZvdTAtLXZFdkZuekpXekRZM3dhSGRjWE1HT2p4VmR1cXF0N2VuV0tMZW5GaFB5QkxsTmZCanpRV0xlOTloTFk2VU5fdVVYZWpfaEdyckZ2VUJhMjJoeEwzSjNqUkNRWENIS1ZSOERJeC1ySHhVcm1ZZnk0OE1XRTlvdUVOeEozY2dPRUdzdllJMFRlNFdUQkJGcWx1UlVJWVRIZkZhUC03TUFoMlB4?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792663082000,
-    "summaryEn": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says TradingView",
-    "summaryAr": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mediclinic Middle East Joins Hub71+ Lifesciences To Advance Healthcare Innovation In Abu Dhabi - TradingView",
-    "titleAr": "Mediclinic Middle East Joins Hub71+ Lifesciences To Advance Healthcare Innovation In Abu Dhabi - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOYkg5OXR2aExPT0RBNlJoUklVajFRbWYzS1c1VTJCOW5QdVhoZVFBYTlzeDVCSU5wVUlITXJ5UFo5WnB2TXVVSktWTmtCRzJSLS1xT0VOZHBVNGM0RVJvejBxYXUwMnJMRk9aLUxYMDFrTEtzN1hHeUxROTRmWHNxeXlTUUpJZHUtc3ZlVjRFdjhjMzZtV3VGTXVTZ0pmcWk0eGpVUUs2RUJENGtfVXJQRElRZFZ2MG81dDZudGZlaXI3cW1RVFNLNmtPcXI0RXh6VEstM2Yxb0E2NnUzeVNxb2U0V2NHZjhncm1WaHNpV1JMd1pwVlE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792662661000,
-    "summaryEn": "Mediclinic Middle East Joins Hub71+ Lifesciences To Advance Healthcare Innovation In Abu Dhabi TradingView",
-    "summaryAr": "Mediclinic Middle East Joins Hub71+ Lifesciences To Advance Healthcare Innovation In Abu Dhabi TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How do Israel's elections work and who are the main contenders?",
-    "titleAr": "How do Israel's elections work and who are the main contenders?",
-    "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792661230000,
-    "summaryEn": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
-    "summaryAr": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
     "tags": [
       {
         "textEn": "INTEL",
