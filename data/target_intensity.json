@@ -1,11 +1,11 @@
 [
   {
     "country": "Israel",
-    "attacks": "14",
+    "attacks": "17",
     "previous": "1",
-    "intensity": "High",
+    "intensity": "Critical",
     "trend": "up",
-    "deltaPct": 1300,
+    "deltaPct": 1600,
     "class": "intensity-high"
   },
   {
@@ -28,7 +28,7 @@
   },
   {
     "country": "Egypt",
-    "attacks": "2",
+    "attacks": "3",
     "previous": "0",
     "intensity": "Medium",
     "trend": "up",
