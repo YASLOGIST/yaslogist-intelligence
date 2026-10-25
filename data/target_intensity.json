@@ -19,11 +19,11 @@
   },
   {
     "country": "Yemen",
-    "attacks": "3",
+    "attacks": "2",
     "previous": "1",
     "intensity": "Medium",
     "trend": "up",
-    "deltaPct": 200,
+    "deltaPct": 100,
     "class": "intensity-med"
   },
   {

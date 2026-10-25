@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' - The National",
+    "titleAr": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' - The National",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792956435000,
+    "summaryEn": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' The National",
+    "summaryAr": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' The National",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli air strike on Gaza City university kills three people",
+    "titleAr": "Israeli air strike on Gaza City university kills three people",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792951933000,
+    "summaryEn": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City.",
+    "summaryAr": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US and Israel elections: New leaders, same policies?",
+    "titleAr": "US and Israel elections: New leaders, same policies?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/us-and-israel-elections-new-leaders-same-policies?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792950803000,
+    "summaryEn": "Israeli governments change. US presidents come and go. But settlement expansion on occupied Palestinian land continues.",
+    "summaryAr": "Israeli governments change. US presidents come and go. But settlement expansion on occupied Palestinian land continues.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "titleAr": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "source": "The Hacker News",
+    "pubDate": 1792948786000,
+    "summaryEn": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as…",
+    "summaryAr": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "How do Israel's elections work and who are the main contenders?",
     "titleAr": "How do Israel's elections work and who are the main contenders?",
     "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
@@ -7,6 +71,22 @@
     "pubDate": 1792948431000,
     "summaryEn": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
     "summaryAr": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israel expels thousands from Hebron",
+    "titleAr": "Jerusalem Daily: Israel expels thousands from Hebron",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1792948379000,
+    "summaryEn": "Jerusalem Daily: Israel expels thousands from Hebron",
+    "summaryAr": "Jerusalem Daily: Israel expels thousands from Hebron",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,8 +144,8 @@
     ]
   },
   {
-    "titleEn": "Seven killed in Gaza as Israel targets university campus and other sites",
-    "titleAr": "Seven killed in Gaza as Israel targets university campus and other sites",
+    "titleEn": "Eight killed in Gaza as Israel targets university campus and other sites",
+    "titleAr": "Eight killed in Gaza as Israel targets university campus and other sites",
     "link": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1792942825000,
@@ -87,70 +167,6 @@
     "pubDate": 1792939675000,
     "summaryEn": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
     "summaryAr": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Netanyahu’s pitch: Can Israel use crypto to evade economic sanctions?",
-    "titleAr": "Netanyahu’s pitch: Can Israel use crypto to evade economic sanctions?",
-    "link": "https://www.aljazeera.com/news/2026/10/25/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792939598000,
-    "summaryEn": "Prime Minister Netanyahu mulls cryptocurrency as answer to economic sanctions on Israel, but there are few buyers.",
-    "summaryAr": "Prime Minister Netanyahu mulls cryptocurrency as answer to economic sanctions on Israel, but there are few buyers.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza content creator tells Al Jazeera how much her award win means",
-    "titleAr": "Gaza content creator tells Al Jazeera how much her award win means",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/gaza-content-creator-tells-al-jazeera-how-much-her-award-win-means?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792937766000,
-    "summaryEn": "Palestinian girl Nisreen Skaik tells Al Jazeera how much winning a Junior Digital Creator Award means",
-    "summaryAr": "Palestinian girl Nisreen Skaik tells Al Jazeera how much winning a Junior Digital Creator Award means",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi air defences intercept Houthi barrage near Mecca",
-    "titleAr": "Saudi air defences intercept Houthi barrage near Mecca",
-    "link": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792936173000,
-    "summaryEn": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
-    "summaryAr": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza’s visually and hearing-impaired children miss school due to Israel war",
-    "titleAr": "Gaza’s visually and hearing-impaired children miss school due to Israel war",
-    "link": "https://www.aljazeera.com/features/2026/10/25/gazas-visually-and-hearing-impaired-children-miss-school-due-to-israel-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792936011000,
-    "summaryEn": "Children in Gaza with auditory and visual challenges often have no access to specialist education.",
-    "summaryAr": "Children in Gaza with auditory and visual challenges often have no access to specialist education.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -192,13 +208,13 @@
     ]
   },
   {
-    "titleEn": "Why Israel’s latest assault on Hebron is so significant for the West Bank",
-    "titleAr": "Why Israel’s latest assault on Hebron is so significant for the West Bank",
-    "link": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792930659000,
-    "summaryEn": "Mass expulsions, blockades and expanding settler control in Hebron threaten to devastate the West Bank economy.",
-    "summaryAr": "Mass expulsions, blockades and expanding settler control in Hebron threaten to devastate the West Bank economy.",
+    "titleEn": "Iran threatens to attack Internet links in the Middle East - https://www.irishsun.com/",
+    "titleAr": "Iran threatens to attack Internet links in the Middle East - https://www.irishsun.com/",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObjVGMGoweWg4V0pWVEpkU052UmVDNnVpMUdtbzRrb3RDUXhQbVQyUmQ3eEEwVkQyem42ZDZhY2V0MklTNmhHWXlOLUs0eHVEdTJtM09NaVpXVGlaSFBRMHpWZkZJT1lRM200bk8tR1dlN29fc2dLd0ZPbXEzUDVMTUVOMVJZUTVuT1FfaFUzUXhrb0s1aC1TQkV1WWFDVmM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792931160000,
+    "summaryEn": "Iran threatens to attack Internet links in the Middle East https://www.irishsun.com/",
+    "summaryAr": "Iran threatens to attack Internet links in the Middle East https://www.irishsun.com/",
     "tags": [
       {
         "textEn": "INTEL",
@@ -208,29 +224,13 @@
     ]
   },
   {
-    "titleEn": "Oil slick from tanker in Hormuz Strait washes up on UAE beaches",
-    "titleAr": "Oil slick from tanker in Hormuz Strait washes up on UAE beaches",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/oil-slick-from-tanker-in-hormuz-strait-washes-up-on-uae-beaches?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792929916000,
-    "summaryEn": "An oil slick has been filmed washing up on the UAE shoreline, prompting authorities to close beaches in Umm Al Quwain.",
-    "summaryAr": "An oil slick has been filmed washing up on the UAE shoreline, prompting authorities to close beaches in Umm Al Quwain.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
-    "titleAr": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
-    "link": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792928381000,
-    "summaryEn": "Reports say Pentagon has drawn up plans for strikes after midterm polls, but analysts question what it could achieve.",
-    "summaryAr": "Reports say Pentagon has drawn up plans for strikes after midterm polls, but analysts question what it could achieve.",
+    "titleEn": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump - Reuters",
+    "titleAr": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXpULV9fUktZbnM0SlNnU1prS1RjMmp2b1FfakpycmpYU2pwelRVOWxsZTFVY1I5bUE3Wm82S1I4WG1kZHBIcExkeWhlRlV5Yjc2OWJnMDZDbnFSNnhLV3FlNUFBUnhxaDJ5b1ZjRVgwUHE1ZUVIYWwyNWdNR3J2ajMwWGlsTGRaX0tGOGFnOVE4ZVd3VGU3cEFmTGRGQWpyaDZjQ0hySnpaN2Nlc2hOR1VUT1VJYXBJSW4w?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792926198000,
+    "summaryEn": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump Reuters",
+    "summaryAr": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -391,6 +391,38 @@
     "pubDate": 1792857780000,
     "summaryEn": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
     "summaryAr": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran - PBS",
+    "titleAr": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran - PBS",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY28tMWVESXd5dC1kQUwxQzNjVE5hbnR2aWdwWnQ3SnJfdEtkdTYyOUpqTk54bTJudGpDNjF0eTFpVTU3NGlFM2FUY09sbEUyUE1rUm5yQ0pPRWNNQkNSV0ljVUFUQWNCN1NSWWNqZC1xUzgxeGVRUnkxalpULWE2QzVGX1ZVWTJaY3k3ZTlvaFg2VkxWTjdqZTNjREZQQlN0dDM0U05NSFBSSXVHOG5maUZsSWF0QjhJdkNUVWtPbUR0Vnh30gHEAUFVX3lxTE9jby0xZURJd3l0LWRBTDFDM2NUTmFudHZpZ3BadDdKcl90S2R1NjI5SmpOTnhtMm50akM2MXR5MWlVNTc0aUUzYVRjT2xsRTJQTWtSbnJDSk9FY01CQ1JXSWNVQVRBY0I3U1JZY2pkLXFTODF4ZVFSeTFqWlQtYTZDNUZfVlVZMlpjeTdlOW9oWDZWTFZON2plM2NERlBCU3R0MzRTTk1IUFJJdUc4bmZpRmxJYXRCOEl2Q1RVa09tRHRWeHc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792854560000,
+    "summaryEn": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran PBS",
+    "summaryAr": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran PBS",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks - EnergyNow.com",
+    "titleAr": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOENBQWFqQVUzNWR6NW1sUVNhVmM1ZEFrbUd5bmxLWGRZcjZwZkV6SWJBM0poTWtMdmJGQk9JcE1Rc1pnR1JSZEJNNkdKb2FfT1hGLXREeTkyS2dWY0VCdUdRSktsc2ZKTGdpTkRhZjJVN0JLUmk5RDV1WHRuR2prYUJsVTRXQTJzdkcwS0FwcEdEUzJBN093c3liN3NxeVZUaXpkcWN0d28xTnZNbVRpekJB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1792850658000,
+    "summaryEn": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks EnergyNow.com",
+    "summaryAr": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -576,22 +608,6 @@
     ]
   },
   {
-    "titleEn": "Asian Refiners Use Smaller Tankers, Buy Delivered Crude as Freight Rates Soar - EnergyNow.com",
-    "titleAr": "Asian Refiners Use Smaller Tankers, Buy Delivered Crude as Freight Rates Soar - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU3RFN01vM3ZQbVlKM0VOSlczXzZtc3ZRZVJVVC1ZSW5PblFMMk1hbExaVTQ3SGNTSDRsWVJpM19XamNHd0FQV0pKWWxzV0hLbVkzQWdvLVhSWmloOXNGNjdiLW5VODRsbVQzXzE0S0g0RGFwZFJIV25rVVgtQ2hwdXB5Qzd5b3B6dUM0S19YLUtGN0phY2oyV3B0VmZQQTcyTi1ISGNXWGE4bjg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792831758000,
-    "summaryEn": "Asian Refiners Use Smaller Tankers, Buy Delivered Crude as Freight Rates Soar EnergyNow.com",
-    "summaryAr": "Asian Refiners Use Smaller Tankers, Buy Delivered Crude as Freight Rates Soar EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
     "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
@@ -700,22 +716,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
-    "titleAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFZUQnloZ3llVFp2N0VWLUZ0OGZwQTh6dDl0dUFNbk9VQU5ZRVVhZ09xakdxMlhweTlCMlVmNGFqdEZ4SGRxclFSWHl6NDJBblFKX3VLRTQzSGlUWlNKaTA0RHkzQUd4TjlpVFhmeTUtUkU2NHMyaDM1YTBiTEt2QWU5bHQ3YmJVMl9SbmFlcmlJeXhXNm9JbllsRTZUS01ZdllfOGRyc0c3YnF0dENPS2VuRQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792788410000,
-    "summaryEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
-    "summaryAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
