@@ -19,12 +19,12 @@
   },
   {
     "country": "Yemen",
-    "attacks": "3",
+    "attacks": "5",
     "previous": "1",
-    "intensity": "Medium",
+    "intensity": "High",
     "trend": "up",
-    "deltaPct": 200,
-    "class": "intensity-med"
+    "deltaPct": 400,
+    "class": "intensity-high"
   },
   {
     "country": "Jordan",
