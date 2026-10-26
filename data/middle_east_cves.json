@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-96652",
+    "id": "CVE-2026-102764",
+    "system": "Remote Support",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-109813",
+    "system": "AIG-302 Series",
+    "severity": "High",
+    "cvss": 8.6,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-109812",
+    "system": "AIG-302 Series",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-106931",
+    "system": "SiteGuard Server Edition for Apache httpd",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-96656",
+    "system": "Media Server",
+    "severity": "High",
+    "cvss": 8.6,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-96655",
     "system": "Media Server",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-110322",
-    "system": "PEAK-System Device Driver Setup",
-    "severity": "Medium",
-    "cvss": 6.8,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-103672",
-    "system": "PEAK-System Device Driver Setup",
+    "id": "CVE-2026-96654",
+    "system": "Media Server",
     "severity": "Medium",
     "cvss": 6.9,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-94188",
-    "system": "Unknown (Active Exploit)",
-    "severity": "High",
-    "cvss": null,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-101103",
+    "id": "CVE-2026-105960",
     "system": "PEAK-System Device Driver Setup",
     "severity": "Medium",
     "cvss": 6.8,
     "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-109576",
-    "system": "PEAK-System Device Driver Setup",
-    "severity": "Medium",
-    "cvss": 6.8,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-8932",
-    "system": "curl",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-8927",
-    "system": "curl",
-    "severity": "Critical",
-    "cvss": 9.1,
-    "badge": "badge-critical"
   }
 ]

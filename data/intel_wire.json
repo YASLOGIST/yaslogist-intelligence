@@ -1,12 +1,476 @@
 [
   {
+    "titleEn": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
+    "titleAr": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793042286000,
+    "summaryEn": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate Reuters",
+    "summaryAr": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "UN inquiry says Israel kept committing genocide in Gaza after truce - Reuters",
+    "titleAr": "UN inquiry says Israel kept committing genocide in Gaza after truce - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN2xxeTlxYThOMDR2al9fZldibDQ4bUJBczVwTEJsRGJxQUJZeWZzZWphQTlzd3pqaW1rUFJvU2VLUElyOGduUDVNYXh2eFFzNHQzU2x0OTRZMGxldlA5bXVtcWcySTdUOS1KOTBVLXNjc1JGcy0tdnFnUjRNM1RyVzk3ZFZza2dhQkhSUkE4TTFBM2RfeF9OTzRLcExrOEw0S25vMjR3aFlRcExuWE83V3dCUGQtSE5Fanc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793039264000,
+    "summaryEn": "UN inquiry says Israel kept committing genocide in Gaza after truce Reuters",
+    "summaryAr": "UN inquiry says Israel kept committing genocide in Gaza after truce Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Could the midterms change US military support for Israel?",
+    "titleAr": "Could the midterms change US military support for Israel?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793037912000,
+    "summaryEn": "From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel.",
+    "summaryAr": "From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "titleAr": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+    "source": "The Hacker News",
+    "pubDate": 1793036757000,
+    "summaryEn": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let a…",
+    "summaryAr": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let a…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Dutch airline KLM extends Middle East flight cancellations throughout winter - Reuters",
+    "titleAr": "Dutch airline KLM extends Middle East flight cancellations throughout winter - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWTlrOXR0NnpJa3VQWXZhZlI0TlNxWS03MkYtdTNQSmdYRG9wc25UTmZKZnJQMXBod1BrOE5zeW5PaHI0VnR0OXdiaU1PdlpoNWt4Yk5RTGJDTUNFZnUwR1Q4WUtpUThNUGo2NEV0a2NlYUk0bXpEWHJHbTJXa09wSFFYb0RjcFFaQ1p5UnViZ1g1aldiRDNkM0FiSlZ6X0M0Vm1OaE1RX0Q1aG15eXF2MGdaQ2hxd1pMR3RVYXpsWnhWWmREOVFtM09n?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793036144000,
+    "summaryEn": "Dutch airline KLM extends Middle East flight cancellations throughout winter Reuters",
+    "summaryAr": "Dutch airline KLM extends Middle East flight cancellations throughout winter Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Enough is enough’: Palestinians and Israelis share views ahead of election",
+    "titleAr": "‘Enough is enough’: Palestinians and Israelis share views ahead of election",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/enough-is-enough-palestinians-and-israelis-share-views-ahead-of-election?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793033473000,
+    "summaryEn": "On the eve of Israel’s general election, some Israelis call for change while others back Netanyahu to stay in power.",
+    "summaryAr": "On the eve of Israel’s general election, some Israelis call for change while others back Netanyahu to stay in power.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
+    "titleAr": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/guterres-warns-iran-gulf-escalation-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793032788000,
+    "summaryEn": "UN Chief Antonio Guterres has warned of devastating consequences from any military escalation in the Gulf region.",
+    "summaryAr": "UN Chief Antonio Guterres has warned of devastating consequences from any military escalation in the Gulf region.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel and the US are both going to the polls - the consequences will be global",
+    "titleAr": "Israel and the US are both going to the polls - the consequences will be global",
+    "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793032234000,
+    "summaryEn": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
+    "summaryAr": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+    "titleAr": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUluTlhFbGtJMWMtZ09ieVhSblh2b0Y4cWpleDVwWUVfUWVyanZIOHFhenFqaWRYZ0U0cEd6MFVjQk5xSXZkWjJNRmM4ZWdPa01KTHBRRjVHRnJPRWtlbGRwWFBNOFJnQ3F5Z2JZbjVFVE5ERUxDdmozN0FPUjRkaUpVNGIwRUFTVXhROU95dC1wby0wX2xzTlg2ODlZeDR2cmM3bHFFaHItbGJ6X3gxT2lwX0FONW11aGtoeWFXQmhmc00tWnlQZEhHQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793032195000,
+    "summaryEn": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Reuters",
+    "summaryAr": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Everything destroyed’: Hebron businesses count cost of Israeli assault",
+    "titleAr": "‘Everything destroyed’: Hebron businesses count cost of Israeli assault",
+    "link": "https://www.aljazeera.com/features/2026/10/26/everything-destroyed-hebron-businesses-count-cost-of-israeli-assault?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793031864000,
+    "summaryEn": "Israeli demolitions and road closures have devastated businesses in Hebron, leaving owners facing millions in losses.",
+    "summaryAr": "Israeli demolitions and road closures have devastated businesses in Hebron, leaving owners facing millions in losses.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "titleAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2dIbzJhWlc4T3JOckx6UWphLWdpODZjcWJ3dlZKUzJMRk80ODlEUnVIaUE5TF9FWENjZ09jRF9YZ0wwU3BRSEl6alN0WDFKUEdTSjY3N2hVYzk5blR3c2ZRX1dpT2xHc01ES2xqT2dYVWhWZHpfZWhJa1BUWjFGOHk5TEVaYzlYbWV1YWNwNkNBN2xXa2ZTUE0yR296d1JUa1huTWk4WWRGQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793031755000,
+    "summaryEn": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "summaryAr": "Middle East Buyers Interested in LNG Cargoes From Canada, Pacific Energy Says EnergyNow",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Last minute efforts by Israeli politicians before election",
+    "titleAr": "Jerusalem Daily: Last minute efforts by Israeli politicians before election",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jerusalem-daily-last-minute-efforts-by-israeli-politicians-before-election?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793031120000,
+    "summaryEn": "Israelis are about to vote in one of the most decisive elections in the country’s history.",
+    "summaryAr": "Israelis are about to vote in one of the most decisive elections in the country’s history.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+    "titleAr": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+    "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+    "source": "The Hacker News",
+    "pubDate": 1793029960000,
+    "summaryEn": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' ex…",
+    "summaryAr": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' ex…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel committing crimes against humanity in occupied West Bank: UN",
+    "titleAr": "Israel committing crimes against humanity in occupied West Bank: UN",
+    "link": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793029499000,
+    "summaryEn": "UN report highlights crimes including extermination, torture, rape and other forms of sexual violence.",
+    "summaryAr": "UN report highlights crimes including extermination, torture, rape and other forms of sexual violence.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egyptian parliament authorises military aid for Saudi Arabia",
+    "titleAr": "Egyptian parliament authorises military aid for Saudi Arabia",
+    "link": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793029289000,
+    "summaryEn": "Legislators approve military support amid Houthi attacks on Saudi Arabia, but Cairo has ruled out strikes on Yemen.",
+    "summaryAr": "Legislators approve military support amid Houthi attacks on Saudi Arabia, but Cairo has ruled out strikes on Yemen.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "What does the Israeli election mean for religious groups?",
+    "titleAr": "What does the Israeli election mean for religious groups?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/what-does-the-israeli-election-mean-for-religious-groups?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793029241000,
+    "summaryEn": "What does the Israeli election mean for religious groups?",
+    "summaryAr": "What does the Israeli election mean for religious groups?",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
+    "titleAr": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckIwZ1pHUU1CZ1VHMmpaR3NBZmJkZkJwRlBvUjJzVTFGbXFySzkybTUxV2Jqa1R3S0dGbGhJdDNmRVdtTkRfVU5pcU1HVjVNNU51NGZHamZhdGxIUjJOS0lRYTNPejFYTHNrMVFHRjRpMTF5aWRST1JTSEpIN3ZKZUVCbXpwUjU1UXdrbGpWR21vVGN0RkVDUzVNaFpmbE1FTkRlSlNnOHQ0MVVFZ1VnWkRBSDNLZjhkY3JzME1B?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793028104000,
+    "summaryEn": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink Reuters",
+    "summaryAr": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hezbollah readies for new regional war with funds from Iran: Reuters - L'Orient Today",
+    "titleAr": "Hezbollah readies for new regional war with funds from Iran: Reuters - L'Orient Today",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYi1BcUNMRWFiZ3NpS3lLZWQ3ZHJOZkJ5UWlMY2NhYzUxb04zWUZpa0lla0dRS1lVNW9GNXJ0emozNmFaTkpMajdDYUZUZzlUOFlZeHJnMVI3V3hQbG9KMlYwaVFxN3ZYbWxtbDFHT25fVkN2TV9RS0ZlcklwcXd6dU9VUnN0Z19OTzJhQmJGR0Zoa2xJRXVHZ3FFaXhLN2dCVklUdnc2X0xWMWtkRGhjWW14bUZ1b0p0c3llbg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793026913000,
+    "summaryEn": "Hezbollah readies for new regional war with funds from Iran: Reuters L'Orient Today",
+    "summaryAr": "Hezbollah readies for new regional war with funds from Iran: Reuters L'Orient Today",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt authorizes military to help defend Saudi Arabia against Houthis - Haaretz",
+    "titleAr": "Egypt authorizes military to help defend Saudi Arabia against Houthis - Haaretz",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNR3Z3Uzg3WElKXzZTMDd1YWJ2TTR3dEJfSG9XX2J5ZTVIZUZ2ZzlYREtzVHhBQVdETWZ2SGVmbkk3T0RkTHlRQjRQMURBUGdLLWZTYmdSdUJURW1UUkNaS09DSGRQVGNLWnY2dzJvR05DUmwwenNTZ2ZTQlhJc3lIaGZVdjR1TnJ0d1R6QUNaZ3ZJX25oTzhqbWVZVEdWTmxsTGw5dUljZEJEcGptRFAyTWN4eWVrb1JTNlRYS1hKRFcxTlJLbGxidXlfZlpDMGxoNHZCMmdrcENJSkFKMmVvdThJMkNrNVM2OTRNS0c1TktudnB5emVSUGUzaWs4UQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793026500000,
+    "summaryEn": "Egypt authorizes military to help defend Saudi Arabia against Houthis Haaretz",
+    "summaryAr": "Egypt authorizes military to help defend Saudi Arabia against Houthis Haaretz",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
+    "titleAr": "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793026423000,
+    "summaryEn": "Hezbollah readies for new regional war with funds from Iran, sources say Reuters",
+    "summaryAr": "Hezbollah readies for new regional war with funds from Iran, sources say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Mecca defence alliance members in Tehran to defuse Iran-US, Yemen tensions",
+    "titleAr": "Mecca defence alliance members in Tehran to defuse Iran-US, Yemen tensions",
+    "link": "https://www.aljazeera.com/news/2026/10/26/mecca-defence-alliance-members-in-tehran-to-defuse-iran-us-yemen-tensions?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793025530000,
+    "summaryEn": "Countering Houthi advances in Yemen will be a major focus for Saudi Arabia and its allies in Tehran.",
+    "summaryAr": "Countering Houthi advances in Yemen will be a major focus for Saudi Arabia and its allies in Tehran.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran’s anti-negotiation hardliners turn against President Pezeshkian",
+    "titleAr": "Iran’s anti-negotiation hardliners turn against President Pezeshkian",
+    "link": "https://www.aljazeera.com/news/2026/10/26/irans-anti-negotiation-hardliners-turn-against-president-pezeshkian?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793024853000,
+    "summaryEn": "Iran’s anti-negotiation hardliners turn against President Pezeshkian over negotiations with the US.",
+    "summaryAr": "Iran’s anti-negotiation hardliners turn against President Pezeshkian over negotiations with the US.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "HSBC cuts global equities to 'neutral' on Middle East, AI risks - Reuters",
+    "titleAr": "HSBC cuts global equities to 'neutral' on Middle East, AI risks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0V1TF9Dd0ZIU0VSSC1UQzZPTkx4TnNXTXlHb3N6TWx1UHZCc2N1bGYtZDNMUnlNZmpRbEtXbW5CTHB0WHozTTcxZlBwSkhfdEpuVDdGd0ZhdERUYUtubTFua2o2M1R4VEdDeldCQnVLd210NmdfdF9fSHY3bmJHYjIxVHN0Rks1VVZHWUNyOE9QczN6Y2YwRV85d3VFc2pF?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793022103000,
+    "summaryEn": "HSBC cuts global equities to 'neutral' on Middle East, AI risks Reuters",
+    "summaryAr": "HSBC cuts global equities to 'neutral' on Middle East, AI risks Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "HSBC cuts global equities to 'neutral' on Middle East, AI risks - TradingView",
+    "titleAr": "HSBC cuts global equities to 'neutral' on Middle East, AI risks - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc0hFSUd6V3RDejE0VC1yYXktS3NSVDVwdHVmNEE5ZWhRZHc5LWp0VEZvTGZ3eUhNVWZSWmFNUlNwSERHTFVMVWhKMnpaTk9hRTFTaEh4LVE1NTMxZ0xYRFdzVjFDa1BnVGY5bnNiZW9pbl85ME9oek9XWlItTkw4Nk9BSnpLRThRZ0NfMXE1RktHaGtETHc5eU5sMExLdHIzTFg1djF5bkdJbTdscXJYc0NiTW84aGRGbmlqbG1VdDZRa2dSZ2NHNTVR?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793021647000,
+    "summaryEn": "HSBC cuts global equities to 'neutral' on Middle East, AI risks TradingView",
+    "summaryAr": "HSBC cuts global equities to 'neutral' on Middle East, AI risks TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - L'Orient Today",
+    "titleAr": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - L'Orient Today",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGZRRjhFTDk1ZzFXLXhoWkNyOWhTMkRLS3ZDeDdxVlRsN1JDX3o3Y2FxRVB4TnN1QVpDX2NaQUxhYXRFeXRlNEFaV25BZ05uYURxUk8wT1hzUjQ2Z0N1Q0dTLU5KQXdUT3FScTlKaFdBckxjeV9ocUcyQlNRTHgtbFRrT0k5SUUzc2FzSlRVUE0yakM4V0YyUGtyYmd2YzFuVEpRVGstZFJLZ3lyRGItLTY3OGRXUWV5ZVhiaHhQQy1UU3NmUTAtbTFBVQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793021233000,
+    "summaryEn": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate L'Orient Today",
+    "summaryAr": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate L'Orient Today",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote - Reuters",
+    "titleAr": "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDhPSnA1U2M2cUI1ajJYZy1COWI1WG1mNUx1ajhqR0ZaZWw2OHhTZGxISHFCa01lZUlNMlFpMFktREVjQ0NUTGNWbGF6V2hOSndpWm10djdnNHpwa01ObUc4ZjBHQzU3ZnNkSm5HTDBlOTFPLXJVejlvalhOOEZRY3Y2b3JzdjRJNnRBZHFyTXo2Zmo0UHBzRVFRcmJFS0NlMjdxazZFZEJoREtRcmJjZENtay1Xd1VraWdSQ1BYQ0pYSUhVWFE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793020336000,
+    "summaryEn": "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote Reuters",
+    "summaryAr": "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Bloomberg News Hires Shariq Khan to Cover Middle East Oil Markets - citybiz",
+    "titleAr": "Bloomberg News Hires Shariq Khan to Cover Middle East Oil Markets - citybiz",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUNRVW5QUXRjd0NyZlNaVDA1LVc1Xy1vaWpIeWxONDcyVS11VTE4OGo2aFFYTWdFRHI2TDhMMWdFSWRrR21NWVduY3VWRjRneFAyRGhQZHJ3aUtHcEI5NENPRXlhdUpPZnZrYVRGZks2S2I3amd2UVU0OTUxaXVTOEpSYmxMYjV4bDNhTjFZd29TOF91aUlnZWJzLTB1eXZZZGNrZEtGdw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793020071000,
+    "summaryEn": "Bloomberg News Hires Shariq Khan to Cover Middle East Oil Markets citybiz",
+    "summaryAr": "Bloomberg News Hires Shariq Khan to Cover Middle East Oil Markets citybiz",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Netanyahu faces reckoning for October 7 in Israel's first vote since attack - Reuters",
     "titleAr": "Netanyahu faces reckoning for October 7 in Israel's first vote since attack - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcFFqSzVtdXZSUFloUUFMWE1MNV9hV2dFamJyWkdGcnRzdExxcXBGYlZTbUJBZ3J4d2FjcVZ6OE1ZRGR1RDlzcWU5RWpKMlA5eDlrelpnQ0hoaThNSHc2ejFZNlg0elBvMWNpYjRoYndhdjFBQk0wTWNPbXNWeGY5cndJZU55R0ZUN3dJR1BsR3BycjlMMU5oSnRJdkI2OUgxcmM1VjhCLXZkRzlEdkFIUWVVU255MTZFd2dmaVF3?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793014784000,
+    "pubDate": 1793019598000,
     "summaryEn": "Netanyahu faces reckoning for October 7 in Israel's first vote since attack Reuters",
     "summaryAr": "Netanyahu faces reckoning for October 7 in Israel's first vote since attack Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Barclays Says Brent Could Test $120/bbl if Middle East Tensions Persist - EnergyNow.com",
+    "titleAr": "Barclays Says Brent Could Test $120/bbl if Middle East Tensions Persist - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMlFGUWpIVVprWTdWaFg0RTQyeXBHYTRJWHlvYjdIVTVvX3ZnMHVTbmxPdUtsTWgwdnJvZWpoRlhIMkxWY2xGY0dCMVphbVQ5bW45RE8zWlRQbUlvTHpnd2thM2NGSVhqclFpZkVpa2ZWMzZ4UEdMR3pXZndQTm8xZENVbHF1Qll1VEw2N0M3Q05rak9fTUE0YWx4aWlNMU1Wd05N?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793019398000,
+    "summaryEn": "Barclays Says Brent Could Test $120/bbl if Middle East Tensions Persist EnergyNow.com",
+    "summaryAr": "Barclays Says Brent Could Test $120/bbl if Middle East Tensions Persist EnergyNow.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
+    "titleAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFZUQnloZ3llVFp2N0VWLUZ0OGZwQTh6dDl0dUFNbk9VQU5ZRVVhZ09xakdxMlhweTlCMlVmNGFqdEZ4SGRxclFSWHl6NDJBblFKX3VLRTQzSGlUWlNKaTA0RHkzQUd4TjlpVFhmeTUtUkU2NHMyaDM1YTBiTEt2QWU5bHQ3YmJVMl9SbmFlcmlJeXhXNm9JbllsRTZUS01ZdllfOGRyc0c3YnF0dENPS2VuRQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793019394000,
+    "summaryEn": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
+    "summaryAr": "IMF Chief Georgieva Warns of ‘Much Worse Outcome’ if Middle East War Drags Into 2027 EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,22 +512,6 @@
     ]
   },
   {
-    "titleEn": "Saudi-led coalition says it struck Houthi missile facilities",
-    "titleAr": "Saudi-led coalition says it struck Houthi missile facilities",
-    "link": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793011283000,
-    "summaryEn": "Coalition says it destroyed ballistic missile launchers as well as tunnels and a depot used to store missiles.",
-    "summaryAr": "Coalition says it destroyed ballistic missile launchers as well as tunnels and a depot used to store missiles.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Galp posts 68 per cent rise in adjusted net profit amid Middle East conflict - Baird Maritime",
     "titleAr": "Galp posts 68 per cent rise in adjusted net profit amid Middle East conflict - Baird Maritime",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVkoxSHVCMTVEMzdWTnNUOGJXTkVVM1ZMOFg4WUs5cExtOGdqSTk0cHFfdmRWbDRmWUlXZEdGME8yOFB1aUVyRl9YVzVIN2JPMFdTb2ZLSmhuTENYYnIxV1k4Q25ZRkQzTG1MX3J5NlJ0Q3JYNkFNaWFyTW9sNmxkSVJMeEtXdy1jYW1pSElrRTJ5SUpyQXpqLUNwTnpsT2lvX25Scy01NG0xTFNNTDNqSnZNclRnZEIxQ3hvY3RLTTVFXzhuSmpGYnF2ZXpCT2hE0gHeAUFVX3lxTE90VWxmU1NOZGwwNHZtUDhlX2l6aHI2T2Zyd1JtTWExUWhPcWJXNW1PNXNBVGlPSVpjNW4zNWZzX2NWMUFtTU8xdWlNUkxoNkFrSWZIWWlFdnI2b09XWGVPaWdFQ0d0OHhCMnFPXzh1TFV3WllKUXdOWXdaLV9pNEs5SHJocVBSQy1lUGhNcWY3UnUwUmZqMy1ONFFONUlhcFc2VWgyYVdRTWdZbXoyZmRJLUZKTmNYend2NzMwN293M1d1aExSS0hVTVJLV3E2dzdHYkRGRG5vd21rMFhhUQ?oc=5",
@@ -76,86 +524,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Suwayda remains in stasis as US signals differences with Israel on Syria",
-    "titleAr": "Suwayda remains in stasis as US signals differences with Israel on Syria",
-    "link": "https://www.aljazeera.com/news/2026/10/26/suwayda-remains-in-deadlock-as-us-signals-differences-with-israel-on-syria?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793011008000,
-    "summaryEn": "Governorate's Druze majority in deadlock with Syrian government.",
-    "summaryAr": "Governorate's Druze majority in deadlock with Syrian government.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East latest: Saudi Arabia leads Makkah pact countries to Tehran for crucial war talks - The National",
-    "titleAr": "Middle East latest: Saudi Arabia leads Makkah pact countries to Tehran for crucial war talks - The National",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUJsM2R4ODZmeV9taEQzSnl2UDNKTVB2dldvLUFKeU5DenV1bk9RelNDT2NuWGhpZWpzVUd3VFFONjE0eEVrdnY1VDU2RnVHd3Q5Uk8xNlhHOWxHYjJLaDBuWWlZZXdUMmpZOWU5YU1YMUE1MGl1bFVzY1hBTVZrRXJBQmJZeFFDSzZGNjBMS051UnpMVzhjNA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793010927000,
-    "summaryEn": "Middle East latest: Saudi Arabia leads Makkah pact countries to Tehran for crucial war talks The National",
-    "summaryAr": "Middle East latest: Saudi Arabia leads Makkah pact countries to Tehran for crucial war talks The National",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "If Netanyahu loses, what changes for Palestinians?",
-    "titleAr": "If Netanyahu loses, what changes for Palestinians?",
-    "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/26/if-netanyahu-loses-what-changes-for-palestinians?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793009799000,
-    "summaryEn": "AJLabs tracks how Israeli parties voted against eight Knesset bills that disfavoured Palestinians ahead of the election.",
-    "summaryAr": "AJLabs tracks how Israeli parties voted against eight Knesset bills that disfavoured Palestinians ahead of the election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
-    "titleAr": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
-    "link": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793008378000,
-    "summaryEn": "Asian Cup 2027 to kick off on January 7 with Saudi Arabia facing Palestine in Riyadh as the AFC announces the schedule.",
-    "summaryAr": "Asian Cup 2027 to kick off on January 7 with Saudi Arabia facing Palestine in Riyadh as the AFC announces the schedule.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinians are opening their doors to the displaced of besieged Hebron",
-    "titleAr": "Palestinians are opening their doors to the displaced of besieged Hebron",
-    "link": "https://www.aljazeera.com/news/2026/10/26/palestinians-are-opening-their-doors-to-the-displaced-of-besieged-hebron?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793007925000,
-    "summaryEn": "Israel's assault on the West Bank city has forced thousands of people to flee their homes.",
-    "summaryAr": "Israel's assault on the West Bank city has forced thousands of people to flee their homes.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -192,134 +560,6 @@
     ]
   },
   {
-    "titleEn": "Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say - The Jerusalem Post",
-    "titleAr": "Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say - The Jerusalem Post",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ya0VlVUNSS3Y5ZnpxaV9TWjRjV2locFd2b0VEYTZnUVVhUzktRXdrR2l6Z3FMUFhKaG9fTzZBem55d2NIYnJlZjc0TFQ1TUZYcktxWERYdU9HTjFOS3hpMjRpOExVamdkU3c?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793004718000,
-    "summaryEn": "Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say The Jerusalem Post",
-    "summaryAr": "Top officials from Mecca pact countries to meet Iranian officials in Tehran, two sources say The Jerusalem Post",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
-    "titleAr": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
-    "link": "https://www.aljazeera.com/news/2026/10/26/do-palestinians-in-gaza-expect-anything-to-change-after-israels-election?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793004219000,
-    "summaryEn": "After years of war, displacement and restrictions, Gazans ask whether Israel’s election will affect their future.",
-    "summaryAr": "After years of war, displacement and restrictions, Gazans ask whether Israel’s election will affect their future.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities - Reuters",
-    "titleAr": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDhPSnA1U2M2cUI1ajJYZy1COWI1WG1mNUx1ajhqR0ZaZWw2OHhTZGxISHFCa01lZUlNMlFpMFktREVjQ0NUTGNWbGF6V2hOSndpWm10djdnNHpwa01ObUc4ZjBHQzU3ZnNkSm5HTDBlOTFPLXJVejlvalhOOEZRY3Y2b3JzdjRJNnRBZHFyTXo2Zmo0UHBzRVFRcmJFS0NlMjdxazZFZEJoREtRcmJjZENtay1Xd1VraWdSQ1BYQ0pYSUhVWFE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793003862000,
-    "summaryEn": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities Reuters",
-    "summaryAr": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities - TradingView",
-    "titleAr": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMjRTUDBSRUhpa0NwLTQ5ZjhYVTFnOXA4YWZYZFBoX0pnQmI1X1NGUFNZSlc0SlhyeFVIb3FxeGlSZEk4c0FrNzRxWTlvZmdvZjFjMTN4d3FtWnFicXdrV0tpdU1Xa3ZtTWdFam5pRUJZZkgwUFFTRTZWdjFoMVo5S0ZBYUlnNk9GYXZqQUZQUGF4WW5LUC1YWUIwQnlwbk9NTkNaTFVFUTRUdWMwR3lmdWk5LU43YnZjY2RNT3ZDQl9kdHJwN2Nsa2pFR1RiTHRLT3pCSmhSSVR0dnIyc09odzB5bw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793003095000,
-    "summaryEn": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities TradingView",
-    "summaryAr": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-    "titleAr": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-    "link": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793000027000,
-    "summaryEn": "Talks to be first high-level contact between Iran and the bloc since Houthi rebels escalated attacks on Saudi Arabia.",
-    "summaryAr": "Talks to be first high-level contact between Iran and the bloc since Houthi rebels escalated attacks on Saudi Arabia.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel’s election: The main issues in the words of the leading candidates",
-    "titleAr": "Israel’s election: The main issues in the words of the leading candidates",
-    "link": "https://www.aljazeera.com/news/2026/10/26/israels-election-the-main-issues-in-the-words-of-the-leading-candidates?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792998223000,
-    "summaryEn": "From judicial reform to conscription, here's where candidates stand on the key issues dominating the campaign.",
-    "summaryAr": "From judicial reform to conscription, here's where candidates stand on the key issues dominating the campaign.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Dakar Rally 2027 moved out of Saudi Arabia amid conflict in Middle East",
-    "titleAr": "Dakar Rally 2027 moved out of Saudi Arabia amid conflict in Middle East",
-    "link": "https://www.aljazeera.com/sports/2026/10/26/dakar-rally-2027-moved-out-of-saudi-arabia-amid-conflict-in-middle-east?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1792996150000,
-    "summaryEn": "Organisers of January's off-road race say it will be relocated due to recent developments in the region.",
-    "summaryAr": "Organisers of January's off-road race say it will be relocated due to recent developments in the region.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil slides from six-month highs on hopes of easing Middle East hostilities - Latest news from Azerbaijan",
-    "titleAr": "Oil slides from six-month highs on hopes of easing Middle East hostilities - Latest news from Azerbaijan",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbGc4d0ZWdDl5bUJzRENTWjJDUXc1YTMxbjR6UlpobkdlMGFTdjdHV29HREZ2cUwtV2xMUGxLQjB1aWdVQ2ZBYkdFUVNIVjNfNDhwdlNwTGlJeTVwMWFiU09kNWIzNlRaYlZxbkFzM01Rb3RVSlY4R2RLNHo3ampSaDUxLUY4amNiT3JlVzh1UVB6eHdjUTV1YVNuTQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792996035000,
-    "summaryEn": "Oil slides from six-month highs on hopes of easing Middle East hostilities Latest news from Azerbaijan",
-    "summaryAr": "Oil slides from six-month highs on hopes of easing Middle East hostilities Latest news from Azerbaijan",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Six injured in Russian strikes on Ukraine's Zaporizhzhia, Chernihiv, officials say - Reuters",
     "titleAr": "Six injured in Russian strikes on Ukraine's Zaporizhzhia, Chernihiv, officials say - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcFB2N0FmQzU4ZUhMRTdFc1lVazh3YUNhcWYwdGt6ZGlzb25sLVdDZV9YeHROcGZkZ0VuUTA5WVBNMktrOFl4V1YzRWRwVHBxWmJzalljbXF4TEE4R1JDcXM5cXRrTVo3c1EwSnVGdGVjMlJwNlBYMTBPM3k5NkxMZnAtY0drQ1Z4NC1SSWZWaW5OM0FtQ0N6ZGZLc2JQYXhWakQtYV9wV1JQNGliem5nLVU0N2ZXdVBqVlhITmZiMA?oc=5",
@@ -336,13 +576,13 @@
     ]
   },
   {
-    "titleEn": "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Yahoo Finance",
-    "titleAr": "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRjNIelN3bmZMUWt0eHdNZFZlR3hFbndhSHhjUG1WdDBLaVJhc2NPZ0hxdVZCQlJoVkczUHRyQUNjMmxmYW9wMWRZaElTbm5wQzlCUE83TzdJTWkxZVNMbWZPVVRIeWk4WUhnaGt0VnB6ZGw5VWdNbkl2cGY3M0ZNdE05SlJBRlNt?oc=5",
+    "titleEn": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar - The Jerusalem Post",
+    "titleAr": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UZEI3TWRQTXllX3Q4M2VseGRZMk5RVml3Y0xXVFR0ZUcyVW9BSUFPM2dYNTNuRkd0ZGhhWlhnOFlpVlFOaUhfSXRfZUZsRUNWYi10Tzd4UG8yVjEzXzd4cDhwWmdfSjRLVEE?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1792988880000,
-    "summaryEn": "Oil drops from near six-month highs on hopes Iran war hostilities to ease Yahoo Finance",
-    "summaryAr": "Oil drops from near six-month highs on hopes Iran war hostilities to ease Yahoo Finance",
+    "pubDate": 1792988590000,
+    "summaryEn": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar The Jerusalem Post",
+    "summaryAr": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar The Jerusalem Post",
     "tags": [
       {
         "textEn": "INTEL",
@@ -476,246 +716,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why Israel's election is one of the most important in its history",
-    "titleAr": "Why Israel's election is one of the most important in its history",
-    "link": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792965930000,
-    "summaryEn": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
-    "summaryAr": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Reuters: Decline in Popularity of Netanyahu's Party in Israel's 1st Election After Operation Al-Aqsa Flood - ABNA English",
-    "titleAr": "Reuters: Decline in Popularity of Netanyahu's Party in Israel's 1st Election After Operation Al-Aqsa Flood - ABNA English",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcHRlX3BjUkQ3YmZhTHFTUHhXUjBvT24tTWFFWmVPMFVFYlpzbFdiaEV1cHdRSzVKVURsMFpzdnJaQ0VZcElEQmpSRXZ2NVZqVTFKMTJEY3hVQWxtcjFPb1A4Wkp6U3VSQTR4UEVpTTJpSnRXUXZSZFkzc0N0T2t1UEhBV2JxTUpvem13cm12SXZxanRjZ2dZZkFLR183dw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792953240000,
-    "summaryEn": "Reuters: Decline in Popularity of Netanyahu's Party in Israel's 1st Election After Operation Al-Aqsa Flood ABNA English",
-    "summaryAr": "Reuters: Decline in Popularity of Netanyahu's Party in Israel's 1st Election After Operation Al-Aqsa Flood ABNA English",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' - The National",
-    "titleAr": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' - The National",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792951265000,
-    "summaryEn": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' The National",
-    "summaryAr": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation' The National",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How do Israel's elections work and who are the main contenders?",
-    "titleAr": "How do Israel's elections work and who are the main contenders?",
-    "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792948431000,
-    "summaryEn": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
-    "summaryAr": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
-    "titleAr": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSlk2VkFXVkdJWWhnUXFnSFNuN25YOHpiSHdWczV3X3BHQURLcVhtVzdIVXlRbE5CWU9KSG45dkNqemxwZXBSRHpMR2hkdmhRSFhrNkpHU2dZa2RNbm1hQ3dMTUQtWGlIbElrNHhrb2Zsem4xY19hOHoxNmNlMjJPb3BUd2YybklKZXREeVNKZVNBRGJHTW5jcG5LaVdzZUhLTExFT3ZBV0Nwc29NRXhZXzJFbkRQTjR5UDQ5dVo4b2Jhcm5oVzF3ekt0MA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792946274000,
-    "summaryEn": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government Reuters",
-    "summaryAr": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
-    "titleAr": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792934432000,
-    "summaryEn": "Most Gulf shares close lower as Saudi-Houthi fighting rages on Reuters",
-    "summaryAr": "Most Gulf shares close lower as Saudi-Houthi fighting rages on Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Beirut's $13 chicken sandwich becomes symbol of Lebanon divide - Reuters",
-    "titleAr": "Beirut's $13 chicken sandwich becomes symbol of Lebanon divide - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWERrNDJCWllyTDNzSWZjUVB2dHh5bGtoaU82c0tEWGUxclNVWm9MdVVSMTg2M1Z3eHdHdjJaNjRXd0FVdExMR3ktanhTNlF3MlRTbGhuelhQYzM2RWtwYWNiTmUwQWpUYWJzTlRiMGwxMFlpMWU5RUxQeldFTFlhdDJZR0tPeVAteXN5SC00VHJkQTdMbWYzdGhXaWJqT3QxTHFyVDBVb3kyQWVfclZKXw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792932502000,
-    "summaryEn": "Beirut's $13 chicken sandwich becomes symbol of Lebanon divide Reuters",
-    "summaryAr": "Beirut's $13 chicken sandwich becomes symbol of Lebanon divide Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran threatens to attack Internet links in the Middle East - https://www.irishsun.com/",
-    "titleAr": "Iran threatens to attack Internet links in the Middle East - https://www.irishsun.com/",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObjVGMGoweWg4V0pWVEpkU052UmVDNnVpMUdtbzRrb3RDUXhQbVQyUmQ3eEEwVkQyem42ZDZhY2V0MklTNmhHWXlOLUs0eHVEdTJtM09NaVpXVGlaSFBRMHpWZkZJT1lRM200bk8tR1dlN29fc2dLd0ZPbXEzUDVMTUVOMVJZUTVuT1FfaFUzUXhrb0s1aC1TQkV1WWFDVmM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792931160000,
-    "summaryEn": "Iran threatens to attack Internet links in the Middle East https://www.irishsun.com/",
-    "summaryAr": "Iran threatens to attack Internet links in the Middle East https://www.irishsun.com/",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump - Reuters",
-    "titleAr": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXpULV9fUktZbnM0SlNnU1prS1RjMmp2b1FfakpycmpYU2pwelRVOWxsZTFVY1I5bUE3Wm82S1I4WG1kZHBIcExkeWhlRlV5Yjc2OWJnMDZDbnFSNnhLV3FlNUFBUnhxaDJ5b1ZjRVgwUHE1ZUVIYWwyNWdNR3J2ajMwWGlsTGRaX0tGOGFnOVE4ZVd3VGU3cEFmTGRGQWpyaDZjQ0hySnpaN2Nlc2hOR1VUT1VJYXBJSW4w?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792926198000,
-    "summaryEn": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump Reuters",
-    "summaryAr": "How Ukraine's strikes on Russian energy sites deepened the rift with Trump Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal - EnergyNow.com",
-    "titleAr": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjZicmtPeG9nUzk1bG9iLVhUS2ppUllzcGhEVDdGWUV5UkZtWUEwUUQyYmttTl81SFNxa3BOM09KaFpIU1VkcG84N0NhUW5oOTFNSkdHUHhka0drVDl6czUzdjRMd3F0djJhRWNNS3F2UEtrUDJNc3I2Z0dzWC1MS2g0Vk1kS0xoc2pQTHVQZ1pUTUl0dWw4?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792917275000,
-    "summaryEn": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal EnergyNow.com",
-    "summaryAr": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil Prices Rise 2% as Hostilities Worsen in the Middle East - EnergyNow.com",
-    "titleAr": "Oil Prices Rise 2% as Hostilities Worsen in the Middle East - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTnBEQXA0cElsbmJ6allPS2hCZlZLeEhsbTlLcUp4MzZTX1o3ZGpVaVB0RXRPdU5xd05WM2hwQWhfNlhHTTF4bGZ0ZlhhQV9UY2hGV0tPRFFtMWltRjlBSThHQWM2bk4zSUExUWw2ZVJXdFFRZHRqYzBTNGw3LWhFSVk0d0h3VFNZb0Q2UmJVckl6U1U?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792915717000,
-    "summaryEn": "Oil Prices Rise 2% as Hostilities Worsen in the Middle East EnergyNow.com",
-    "summaryAr": "Oil Prices Rise 2% as Hostilities Worsen in the Middle East EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
-    "titleAr": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjlxWUNjczg2SHFQamFEZDV0SVhZaHA5bFdqaVQzT1oxSjd0b2ZQQjd6MldHeEhKcUstbGJEa1QxMmFBMFhad2VnREVIa2xoT0tPWlFXVW5lcXVEYjMwdUd5NTRIYm0zTFpabXUxY2pCakRGM3JnWE1iNHc3MmtlbWduRno3ZWVGVWVpa2JtRjF4VDh5TEFHN21hUV9sQUhxOWpJMVVPNlhFMDd5SkJMekZkTFdtQzlnYnBQNkd2MG1TNzZy?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792912959000,
-    "summaryEn": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports Reuters",
-    "summaryAr": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel to close West Bank crossings on election day as crackdown escalates",
-    "titleAr": "Israel to close West Bank crossings on election day as crackdown escalates",
-    "link": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1792905352000,
-    "summaryEn": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-    "summaryAr": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iranian plots to kill US officials in Middle East at advanced stages, memo warns - India Today",
-    "titleAr": "Iranian plots to kill US officials in Middle East at advanced stages, memo warns - India Today",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT3ZKZ3VqOUM4MHY5NGp2dm9wcVZBTnFYelVVbDVlSkt2Sl9WRzVFaGYxQ0toaGV5UXFIZkJ5OTdFcE9OVjFETVpwVkUxaFVjX2QwRVRBNlF3bEM0S19MdE1SUWMwM1BUUGJ6TE9QTnBRUkVhOWxON2ZheG5wUnZ3T3Z2SkRpU2wyUkU3QUZ3M1pFSmF4VjczYW8zNGtZMkdMazl3YlVKNDVwaXhsWnRtaXlUTXA0WkFpVzhQSTJVbUxLajZmTnFmQU1GdDdjX054dkxHVNIB1AFBVV95cUxQT3ZKZ3VqOUM4MHY5NGp2dm9wcVZBTnFYelVVbDVlSkt2Sl9WRzVFaGYxQ0toaGV5UXFIZkJ5OTdFcE9OVjFETVpwVkUxaFVjX2QwRVRBNlF3bEM0S19MdE1SUWMwM1BUUGJ6TE9QTnBRUkVhOWxON2ZheG5wUnZ3T3Z2SkRpU2wyUkU3QUZ3M1pFSmF4VjczYW8zNGtZMkdMazl3YlVKNDVwaXhsWnRtaXlUTXA0WkFpVzhQSTJVbUxLajZmTnFmQU1GdDdjX054dkxHVA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792898042000,
-    "summaryEn": "Iranian plots to kill US officials in Middle East at advanced stages, memo warns India Today",
-    "summaryAr": "Iranian plots to kill US officials in Middle East at advanced stages, memo warns India Today",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - The Business Standard",
-    "titleAr": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTUdURFpfZU1PY1o3b0RCUy01OHhaUTNfQ0ZTVjdweU5jQUFPOHlFWm9HZ2lTdkxDV2tFU0U0R1k4TlFSa3d1VFJ6QUpKdVR6ZzFGcm81dmFNSm5WSjgxdHBJMnlQWUttUzlRSk1hNHdRM1ZTT1hxdThXdW91NTJXY0xNcnk0X2RObGRVbG1Vd3BDUmRIN2R5UW1rWkJHYlpUMm5kT0tWdnNfOXNDVjJUOW9Uc3ZMS3M?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1792895548000,
-    "summaryEn": "Houthis say they targeted Saudi oil sites; attacks reported in Aden The Business Standard",
-    "summaryAr": "Houthis say they targeted Saudi oil sites; attacks reported in Aden The Business Standard",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
