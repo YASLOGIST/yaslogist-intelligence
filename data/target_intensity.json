@@ -1,20 +1,20 @@
 [
   {
     "country": "Israel",
-    "attacks": "16",
+    "attacks": "18",
     "previous": "1",
     "intensity": "Critical",
     "trend": "up",
-    "deltaPct": 1500,
+    "deltaPct": 1700,
     "class": "intensity-high"
   },
   {
     "country": "Iran",
-    "attacks": "8",
+    "attacks": "11",
     "previous": "1",
     "intensity": "High",
     "trend": "up",
-    "deltaPct": 700,
+    "deltaPct": 1000,
     "class": "intensity-high"
   },
   {
