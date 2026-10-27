@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-106931",
-    "system": "SiteGuard Server Edition for Apache httpd",
-    "severity": "High",
-    "cvss": 8.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-96656",
-    "system": "Media Server",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-96655",
+    "id": "CVE-2026-96652",
     "system": "Media Server",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-96654",
-    "system": "Media Server",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-105960",
+    "id": "CVE-2026-110322",
     "system": "PEAK-System Device Driver Setup",
     "severity": "Medium",
     "cvss": 6.8,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-9852",
-    "system": "MicroSCADA SYS600",
-    "severity": "Medium",
-    "cvss": 4.6,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-109813",
-    "system": "AIG-302 Series",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-109812",
-    "system": "AIG-302 Series",
+    "id": "CVE-2026-103672",
+    "system": "PEAK-System Device Driver Setup",
     "severity": "Medium",
     "cvss": 6.9,
     "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-94188",
+    "system": "Unknown (Active Exploit)",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-101103",
+    "system": "PEAK-System Device Driver Setup",
+    "severity": "Medium",
+    "cvss": 6.8,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-109576",
+    "system": "PEAK-System Device Driver Setup",
+    "severity": "Medium",
+    "cvss": 6.8,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-9854",
+    "system": "MicroSCADA SYS600",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-9853",
+    "system": "MicroSCADA SYS600",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
   }
 ]
