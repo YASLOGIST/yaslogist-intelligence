@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-105960",
-    "system": "PEAK-System Device Driver Setup",
-    "severity": "Medium",
-    "cvss": 6.8,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-9852",
+    "id": "CVE-2026-9854",
     "system": "MicroSCADA SYS600",
-    "severity": "Medium",
-    "cvss": 4.6,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-109813",
-    "system": "AIG-302 Series",
     "severity": "High",
-    "cvss": 8.6,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-109812",
-    "system": "AIG-302 Series",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
+    "id": "CVE-2026-9853",
+    "system": "MicroSCADA SYS600",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-8932",
+    "id": "CVE-2026-6276",
     "system": "curl",
     "severity": "High",
     "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-8927",
-    "system": "curl",
-    "severity": "Critical",
-    "cvss": 9.1,
-    "badge": "badge-critical"
+    "id": "CVE-2026-6653",
+    "system": "libxml2",
+    "severity": "High",
+    "cvss": 7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-11856",
-    "system": "curl",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
+    "id": "CVE-2026-6732",
+    "system": "Red Hat Hardened Images",
+    "severity": "Medium",
+    "cvss": 6.5,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-9079",
-    "system": "curl",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
+    "id": "CVE-2026-28388",
+    "system": "OpenSSL",
+    "severity": "High",
+    "cvss": 7.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-17539",
+    "system": "RTU500 series CMU firmware",
+    "severity": "Medium",
+    "cvss": 5.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-72895",
+    "system": "SIMATIC IPC BX-21A",
+    "severity": "High",
+    "cvss": 8.4,
+    "badge": "badge-high"
   }
 ]
