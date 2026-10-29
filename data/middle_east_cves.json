@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-6276",
-    "system": "curl",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-6653",
-    "system": "libxml2",
-    "severity": "High",
-    "cvss": 7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-6732",
-    "system": "Red Hat Hardened Images",
-    "severity": "Medium",
-    "cvss": 6.5,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-28388",
-    "system": "OpenSSL",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-17539",
-    "system": "RTU500 series CMU firmware",
-    "severity": "Medium",
-    "cvss": 5.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-72895",
-    "system": "SIMATIC IPC BX-21A",
-    "severity": "High",
-    "cvss": 8.4,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53358",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53356",
+    "id": "CVE-2026-53362",
     "system": "Linux",
     "severity": "High",
     "cvss": 7.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53350",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53349",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53337",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53325",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53265",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": 7.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53264",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": 7.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53263",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
     "badge": "badge-high"
   }
 ]
