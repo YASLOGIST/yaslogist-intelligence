@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-53358",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53356",
+    "id": "CVE-2026-53362",
     "system": "Linux",
     "severity": "High",
     "cvss": 7.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53256",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53255",
+    "id": "CVE-2026-53350",
     "system": "Linux",
     "severity": "High",
     "cvss": null,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53254",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8.1,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53253",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 7.1,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53245",
+    "id": "CVE-2026-53349",
     "system": "Linux",
     "severity": "High",
     "cvss": null,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53242",
+    "id": "CVE-2026-53337",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53325",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53265",
     "system": "Linux",
     "severity": "High",
     "cvss": 7.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53264",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": 7.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53263",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
     "badge": "badge-high"
   }
 ]
