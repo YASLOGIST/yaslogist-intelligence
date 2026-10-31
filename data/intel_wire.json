@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "New Android SMS of Death exploit can remotely crash unpatched phones",
-    "titleAr": "New Android SMS of Death exploit can remotely crash unpatched phones",
-    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-    "source": "BleepingComputer",
-    "pubDate": 1793460911000,
-    "summaryEn": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers…",
-    "summaryAr": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers…",
+    "titleEn": "Israel’s allegations of Qatari election interference rejected",
+    "titleAr": "Israel’s allegations of Qatari election interference rejected",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793478298000,
+    "summaryEn": "Israel’s allegations of Qatari election interference rejected",
+    "summaryAr": "Israel’s allegations of Qatari election interference rejected",
     "tags": [
       {
         "textEn": "INTEL",
@@ -20,9 +20,89 @@
     "titleAr": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793458663000,
+    "pubDate": 1793476836000,
     "summaryEn": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
     "summaryAr": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinians ‘Stealing their own olives’",
+    "titleAr": "Palestinians ‘Stealing their own olives’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/palestinians-stealing-their-own?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793474312000,
+    "summaryEn": "In the occupied West Bank, Israeli settlers have turned olive harvesting into a deadly activity for Palestinians.",
+    "summaryAr": "In the occupied West Bank, Israeli settlers have turned olive harvesting into a deadly activity for Palestinians.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "London police arrest 139 as hundreds protest Palestine Action ban",
+    "titleAr": "London police arrest 139 as hundreds protest Palestine Action ban",
+    "link": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793472509000,
+    "summaryEn": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription.",
+    "summaryAr": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+    "titleAr": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+    "link": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793468963000,
+    "summaryEn": "Israel carried out several attacks in Gaza, including shelling the Nuseirat refugee camp.",
+    "summaryAr": "Israel carried out several attacks in Gaza, including shelling the Nuseirat refugee camp.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Who will form Israel’s next government?",
+    "titleAr": "Jerusalem Daily: Who will form Israel’s next government?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793467740000,
+    "summaryEn": "Netanyahu and Eisenkot are locked in a struggle to form a governing coalition in the Knesset.",
+    "summaryAr": "Netanyahu and Eisenkot are locked in a struggle to form a governing coalition in the Knesset.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "titleAr": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "source": "BleepingComputer",
+    "pubDate": 1793460911000,
+    "summaryEn": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers…",
+    "summaryAr": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,118 +144,6 @@
     ]
   },
   {
-    "titleEn": "Israel voted for Israel: Why Gaza wasn’t on the ballot",
-    "titleAr": "Israel voted for Israel: Why Gaza wasn’t on the ballot",
-    "link": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793453751000,
-    "summaryEn": "Despite genocide, regional war and isolation, Israel's election revealed little appetite for political alternatives.",
-    "summaryAr": "Despite genocide, regional war and isolation, Israel's election revealed little appetite for political alternatives.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "New Yemen fighting displaces 290,000, says UN, with pregnant women at risk",
-    "titleAr": "New Yemen fighting displaces 290,000, says UN, with pregnant women at risk",
-    "link": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793450749000,
-    "summaryEn": "A new outbreak in fighting in Yemen has forced tens of thousands of people from their homes.",
-    "summaryAr": "A new outbreak in fighting in Yemen has forced tens of thousands of people from their homes.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
-    "titleAr": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
-    "link": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793449365000,
-    "summaryEn": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
-    "summaryAr": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-    "titleAr": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-    "link": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793448822000,
-    "summaryEn": "Iran’s supreme leader says Tehran’s potential response will not be restricted by geography.",
-    "summaryAr": "Iran’s supreme leader says Tehran’s potential response will not be restricted by geography.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
-    "titleAr": "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
-    "link": "https://www.aljazeera.com/sports/2026/10/31/swiss-commentary-on-israeli-olympic-bobsleigh-team-termed-discriminatory?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793443759000,
-    "summaryEn": "Criticism of Israel's captain Adam Edelman at Winter Olympics breached discrimination rules, Swiss complaints body says.",
-    "summaryAr": "Criticism of Israel's captain Adam Edelman at Winter Olympics breached discrimination rules, Swiss complaints body says.",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Pakistan military 'cautiously optimistic' on Iran-US mediation: Reuters - LBCI Lebanon",
-    "titleAr": "Pakistan military 'cautiously optimistic' on Iran-US mediation: Reuters - LBCI Lebanon",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlVMajZmSFpLdTU3Wll1Z0ZvSXpSbXFpTmg2S3dyVkp6dU55R3RwcGt1eEw3RUY4UXJsLTZybzR5ZkE5ZXhEYTBuZzZWdnQzbk03RXhPMDJkeWtiM1pVSHpGRTBLOFpBdkI1MExsU0ctWk9jem5UV2k5Y1dnMFQ1UVNhMW03SU1PcENxRDg2YjJiWnhkSTNFT0REbFFMNFBLQi1BMGZtUl85WElzYWhtcUF3a3lpTnNJSUNuMnFLUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793443197000,
-    "summaryEn": "Pakistan military 'cautiously optimistic' on Iran-US mediation: Reuters LBCI Lebanon",
-    "summaryAr": "Pakistan military 'cautiously optimistic' on Iran-US mediation: Reuters LBCI Lebanon",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jordan stops fighters attempting to enter from Syria, armed forces say - Reuters",
-    "titleAr": "Jordan stops fighters attempting to enter from Syria, armed forces say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793435779000,
-    "summaryEn": "Jordan stops fighters attempting to enter from Syria, armed forces say Reuters",
-    "summaryAr": "Jordan stops fighters attempting to enter from Syria, armed forces say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
     "titleAr": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
     "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
@@ -199,6 +167,22 @@
     "pubDate": 1793434903000,
     "summaryEn": "Egypt fears escalation in Iran war would be more destructive, foreign minister says Reuters",
     "summaryAr": "Egypt fears escalation in Iran war would be more destructive, foreign minister says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
+    "titleAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUNpeEtweXR5czNHU2pBcjE2MV9GdjZaclZtdTdST2RtUnBNNUhjVGhiZFNXQUF2RkxyaE9HYTYzeVEyekw4TTVsU2NZdGVMb3NjdkNyc2pHZHFsLXFOQ1B1Mm8xTVhwMDZVWmJtVkd0V3hOUnJORF84OUhSalJoTlhFcTlPWjdidjFoUzBHWEZqejIyckcyOWxKcTJ2WEc2?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793432752000,
+    "summaryEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
+    "summaryAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -240,13 +224,29 @@
     ]
   },
   {
-    "titleEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
-    "titleAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUNpeEtweXR5czNHU2pBcjE2MV9GdjZaclZtdTdST2RtUnBNNUhjVGhiZFNXQUF2RkxyaE9HYTYzeVEyekw4TTVsU2NZdGVMb3NjdkNyc2pHZHFsLXFOQ1B1Mm8xTVhwMDZVWmJtVkd0V3hOUnJORF84OUhSalJoTlhFcTlPWjdidjFoUzBHWEZqejIyckcyOWxKcTJ2WEc2?oc=5",
+    "titleEn": "Middle East Oil Exports Drop at Least 60% as Hormuz Stays Mostly Closed, Data Shows - EnergyNow",
+    "titleAr": "Middle East Oil Exports Drop at Least 60% as Hormuz Stays Mostly Closed, Data Shows - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFBCN2VwMjZkSk9RcTN2bHp4N0VJOGxHeFg2ak5HQmpKWVYxODVYR2trbHNSeGNGSXZrUkFUT2o5dFJWT252V2U4YVZxR19QSTJFQ2k3NUZ1OW5hREcxejBYNGVGVEpLTnRTX0xncG1WQ1pQWU11UTI3TUhHMmlBZjRvNUt2RGg1WThwYjFXWVNOSEVoR1BZdFpLRVJLZFNLRTdmVzZleE9pRnpOak01NA?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793399613000,
-    "summaryEn": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
-    "summaryAr": "Pentagon to Move Carrier to Middle East From Caribbean, Officials Say EnergyNow.com",
+    "pubDate": 1793404812000,
+    "summaryEn": "Middle East Oil Exports Drop at Least 60% as Hormuz Stays Mostly Closed, Data Shows EnergyNow",
+    "summaryAr": "Middle East Oil Exports Drop at Least 60% as Hormuz Stays Mostly Closed, Data Shows EnergyNow",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks - EnergyNow.com",
+    "titleAr": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOENBQWFqQVUzNWR6NW1sUVNhVmM1ZEFrbUd5bmxLWGRZcjZwZkV6SWJBM0poTWtMdmJGQk9JcE1Rc1pnR1JSZEJNNkdKb2FfT1hGLXREeTkyS2dWY0VCdUdRSktsc2ZKTGdpTkRhZjJVN0JLUmk5RDV1WHRuR2prYUJsVTRXQTJzdkcwS0FwcEdEUzJBN093c3liN3NxeVZUaXpkcWN0d28xTnZNbVRpekJB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793398707000,
+    "summaryEn": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks EnergyNow.com",
+    "summaryAr": "Oil Rises Over 1% After Reuters Report Signals Complication to US-Iran Peace Talks EnergyNow.com",
     "tags": [
       {
         "textEn": "INTEL",
@@ -272,13 +272,13 @@
     ]
   },
   {
-    "titleEn": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify - WTI and Brent Finish Week Higher, October Gains Exceed 13% - EnergyNow",
-    "titleAr": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify - WTI and Brent Finish Week Higher, October Gains Exceed 13% - EnergyNow",
+    "titleEn": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify – WTI and Brent Finish Week Higher, October Gains Exceed 13% - EnergyNow",
+    "titleAr": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify – WTI and Brent Finish Week Higher, October Gains Exceed 13% - EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPazNtQUNQYXVPN2JJbTZzb181WWRudWRQSjRfQ0FJX3NKRDRTVzRRMjhkT2IxQVd0YUhyRFF4UDU5dko1NHhqandWS0VWU2pHVG05blY2N2hjSXBmVFhaSjNZWDZ0NDZNSGhoUjJCM2pDQkxwWTFYTDRxTnhWM1lHb0kwTzJ0cU1aRC1Ua3g0UHFTdlpvS29mMDFkX2FDcTY0TkxQalV5aWF4eWNsRUdaelFoVUt4d1A4ajFYY0RMRVBqbFpadWFnd2FtV09rLWpJOHFBNWYyQ2RVZmRxVHgxWWJSbw?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1793394060000,
-    "summaryEn": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify - WTI and Brent Finish Week Higher, October Gains Exceed 13% EnergyNow",
-    "summaryAr": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify - WTI and Brent Finish Week Higher, October Gains Exceed 13% EnergyNow",
+    "summaryEn": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify – WTI and Brent Finish Week Higher, October Gains Exceed 13% EnergyNow",
+    "summaryAr": "Oil Climbs More Than 2% Friday as Middle East Attacks Intensify – WTI and Brent Finish Week Higher, October Gains Exceed 13% EnergyNow",
     "tags": [
       {
         "textEn": "INTEL",
@@ -364,6 +364,22 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Mass protests sweep Italy during nationwide strike - Reuters",
+    "titleAr": "Mass protests sweep Italy during nationwide strike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWF5NXN3Z25WdEU0R0kwT0NBT180OHc4TklWcWxrSUVLTlRtZHpQWmplV1NnRkJfS28wbEVLdEwzMlA0UnNvOXBIWlpZN0xCcm9WLUNBZzZ2Um5UTkdQLXMtUUxocEIwZWZ1NGU1YW9qdnFWdFc0Zy1yTEUxWlhkdUxhbm1Tdi11enhoQ25Qenk3ZTdMekNv?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1793378940000,
+    "summaryEn": "Mass protests sweep Italy during nationwide strike Reuters",
+    "summaryAr": "Mass protests sweep Italy during nationwide strike Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -592,29 +608,13 @@
     ]
   },
   {
-    "titleEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "titleAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5",
+    "titleEn": "Qatari mediators return to Tehran in bid to reach agreement between Iran, US - L'Orient Today",
+    "titleAr": "Qatari mediators return to Tehran in bid to reach agreement between Iran, US - L'Orient Today",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWdXTjBudTBVX0dQLVB2ZlN6SGVBWVVlV05hZVlvMjlvSERyYTRWSVQ4clJ2TVdHVjBRLVVaYWJZcE16UVNlcUsyUFdFNWUwUG1LMWdlR0RkMFZnSlIxR1kxXzR0bDZHNzdUQ3lLbTNRUnQwbkxOcThLbmZ2clp5R09ZUVJkWTlXajlNSVZYZU5Sd1Vsbkx1Sm5paE9GenhZN1pkelFfNnBXbkM5Y01CVEdrS216eklKNmsxTVBXR2Y3UXJzaUVr?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793350213000,
-    "summaryEn": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "summaryAr": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says EnergyNow.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Morning update - Middle East Eye",
-    "titleAr": "Morning update - Middle East Eye",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRFdTaVFOUXFtei15M2RmRE9OZ3M4d1hmMDJvQmd1Qkg4T1puOGFydjhiWll6VE9aUGhwZjJIdk9WR1hscHlVbzNpaDQ1YXVaWmdSS1JPbVNrRmZQOGtxeEsxVjVtNDRTc0xrOFQwZk5LaEd6NjRFbDU2aHNPRXk0dw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793346540000,
-    "summaryEn": "Morning update Middle East Eye",
-    "summaryAr": "Morning update Middle East Eye",
+    "pubDate": 1793348495000,
+    "summaryEn": "Qatari mediators return to Tehran in bid to reach agreement between Iran, US L'Orient Today",
+    "summaryAr": "Qatari mediators return to Tehran in bid to reach agreement between Iran, US L'Orient Today",
     "tags": [
       {
         "textEn": "INTEL",
