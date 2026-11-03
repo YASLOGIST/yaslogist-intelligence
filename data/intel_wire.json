@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "TRUMP: Iran wants to make a deal; that could happen - L'Orient Today",
-    "titleAr": "TRUMP: Iran wants to make a deal; that could happen - L'Orient Today",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVy15SVZ1Q1BZSHJTTE8wN0wxM19VWTJjWDFJcE56VXZpQ1Q4dHF2WHJBalFlMUJidG9MTVlHZTJLRkxrZTNrQzYycFdabzcyUmVUYWRYX0ZVaGo4WXNpdmpHT0trSEpFNlZWaVNYSkpJSUE2OTBRUnBYMXNmeUtVaHdtLUNUQzlhUXFKcFBpM0pUMjVzTThQTWRWQmtpQTJZQWtVcw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793648290000,
-    "summaryEn": "TRUMP: Iran wants to make a deal; that could happen L'Orient Today",
-    "summaryAr": "TRUMP: Iran wants to make a deal; that could happen L'Orient Today",
+    "titleEn": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
+    "titleAr": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
+    "link": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793672702000,
+    "summaryEn": "Several explosions heard in Qeshm Island and Bandar Lengeh, as US media say the US military carried out the strikes.",
+    "summaryAr": "Several explosions heard in Qeshm Island and Bandar Lengeh, as US media say the US military carried out the strikes.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+    "titleAr": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793668677000,
+    "summaryEn": "At least 26 people were killed in Russian strikes on a school being used as a humanitarian aid centre.",
+    "summaryAr": "At least 26 people were killed in Russian strikes on a school being used as a humanitarian aid centre.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,242 +32,50 @@
     ]
   },
   {
-    "titleEn": "Iran pushing accelerated plan for ceasefire talks with US",
-    "titleAr": "Iran pushing accelerated plan for ceasefire talks with US",
+    "titleEn": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+    "titleAr": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793664000000,
+    "summaryEn": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats.",
+    "summaryAr": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+    "titleAr": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+    "link": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1793662878000,
+    "summaryEn": "Hit hard by Trump's tariffs and the war on Iran, countries in the Asia-Pacific want 'enormous changes' in US policies.",
+    "summaryAr": "Hit hard by Trump's tariffs and the war on Iran, countries in the Asia-Pacific want 'enormous changes' in US policies.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+    "titleAr": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
     "link": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
     "source": "Al Jazeera",
     "pubDate": 1793645366000,
-    "summaryEn": "Tehran says plan has been condensed and can be implemented within two days as it continues talks with mediators.",
-    "summaryAr": "Tehran says plan has been condensed and can be implemented within two days as it continues talks with mediators.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "German unions launch wave of strikes over cost-of-living pressures",
-    "titleAr": "German unions launch wave of strikes over cost-of-living pressures",
-    "link": "https://www.aljazeera.com/news/2026/11/2/german-unions-launch-wave-of-strikes-over-cost-of-living-pressures?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793645244000,
-    "summaryEn": "The expanded industrial action comes amid a wave of strikes and protests that have sparked unrest across Europe.",
-    "summaryAr": "The expanded industrial action comes amid a wave of strikes and protests that have sparked unrest across Europe.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "After Israel’s election: What’s next?",
-    "titleAr": "After Israel’s election: What’s next?",
-    "link": "https://www.aljazeera.com/video/the-bottom-line/2026/11/2/after-israels-election-whats-next?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793644379000,
-    "summaryEn": "Knesset member Ofer Cassif argues that the ‘politics of exclusion’ keep Israel in political deadlock.",
-    "summaryAr": "Knesset member Ofer Cassif argues that the ‘politics of exclusion’ keep Israel in political deadlock.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "European shares rise as oil falls on Middle East deal hopes - Reuters",
-    "titleAr": "European shares rise as oil falls on Middle East deal hopes - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793641536000,
-    "summaryEn": "European shares rise as oil falls on Middle East deal hopes Reuters",
-    "summaryAr": "European shares rise as oil falls on Middle East deal hopes Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Drone attacks extend campaign targeting Sudan’s power system",
-    "titleAr": "Drone attacks extend campaign targeting Sudan’s power system",
-    "link": "https://www.aljazeera.com/news/2026/11/2/drone-attacks-extend-campaign-targeting-sudans-power-system?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793640392000,
-    "summaryEn": "Attacks the latest to disrupt electricity supplies; army reports new defections from paramilitary RSF.",
-    "summaryAr": "Attacks the latest to disrupt electricity supplies; army reports new defections from paramilitary RSF.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Jerusalem Daily: Israel’s lockdown of Hebron comes to an end",
-    "titleAr": "Jerusalem Daily: Israel’s lockdown of Hebron comes to an end",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/jerusalem-daily-israels-lockdown-of-hebron-comes-to-an-end?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793638601000,
-    "summaryEn": "Israeli forces ended their lockdown of Hebron in the occupied West Bank, but its forces continued to attack a school.",
-    "summaryAr": "Israeli forces ended their lockdown of Hebron in the occupied West Bank, but its forces continued to attack a school.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport - Reuters",
-    "titleAr": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzNEMlp2dXhWWEdwUkhIUUNNenRfR21MM3hCZjRBSnc5cTFpVVBqclhIMVMtMGI2aDMzTklBSU9paVZ3Q1FSMHU3T0J6RmxpR2VlUmx1YVZIZzZkSmFycXVUSWNwOTMycnhyMDd0MjNSY2VrVHRxUWcxYndmN2MwWVhlR1YyZ0VqM1VtR0dGT2FuSmtWYlVhSnU3Q3ZrWEpXd3lJX2tFWGllRGoyYnJSQkREWklvRzNiWDZiUXhFZEZzWXNRdUVzT2hR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793636214000,
-    "summaryEn": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport Reuters",
-    "summaryAr": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport Reuters",
+    "summaryEn": "Iran says its offer to reopen the Strait of Hormuz can be implemented in two days if the US agrees to terms.",
+    "summaryAr": "Iran says its offer to reopen the Strait of Hormuz can be implemented in two days if the US agrees to terms.",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "China steps up Middle East diplomacy with Iran and Oman meetings",
-    "titleAr": "China steps up Middle East diplomacy with Iran and Oman meetings",
-    "link": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793635432000,
-    "summaryEn": "Beijing urges dialogue on US-Iran war, sends envoy to Gulf as Xi hosts first Omani head of state visit since 1978.",
-    "summaryAr": "Beijing urges dialogue on US-Iran war, sends envoy to Gulf as Xi hosts first Omani head of state visit since 1978.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Displaced in Hebron: Picking up pieces after Israeli siege",
-    "titleAr": "Displaced in Hebron: Picking up pieces after Israeli siege",
-    "link": "https://www.aljazeera.com/news/2026/11/2/displaced-in-hebron-picking-up-pieces-after-israeli-siege?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793634180000,
-    "summaryEn": "Displaced Hebron families return to damaged homes, left to pick up scattered pieces of their lives after Israeli siege.",
-    "summaryAr": "Displaced Hebron families return to damaged homes, left to pick up scattered pieces of their lives after Israeli siege.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Reuters",
-    "titleAr": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS0JEenI2QkpMYXJSVUxpUGJrNHpaMkFtZ244cE93RWhCWExKTmJFdm5FbFZEck14aVdnaW0tdU5DdHY0UUk3TkpqbW5vb1RzMW85Z1VkZHFBSnlRMkRVUTlxRDgyR2Z1N3BBSkRsdzI2Mm9WQmxjaFpiOUpqR3k5WjRZUVVZaUtGWGVscXhlS01PZjBUTWRMNHpIU28?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793634170000,
-    "summaryEn": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials Reuters",
-    "summaryAr": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US yields drop as oil sinks on Middle East peace hopes - TradingView",
-    "titleAr": "US yields drop as oil sinks on Middle East peace hopes - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZkxrSVZiazY2RTF4STFSUFdfcHVnWUtCOEswTjFPbC1iVVhOcFRDTFBmTUM5eFhMYlotblM5akNYSEtVRWxZN1BkOGkxUWlSQ0I3ZVppeFdpZW1hZXBiSnhOc3BrR1YwWW1DNlRkU1kyM3RvR2R0WEludUtzekdfa00yRUZ6S0l3b253RHM2Z1VsUnJEU1QyWmR4d29VT0JHbVBpMmNuZG9lRG9OeWJFb1RBODdheWVWbWItcEJBQnRfdw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793633906000,
-    "summaryEn": "US yields drop as oil sinks on Middle East peace hopes TradingView",
-    "summaryAr": "US yields drop as oil sinks on Middle East peace hopes TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen's Houthis advance to within 80 km of Aden, sources say - Reuters",
-    "titleAr": "Yemen's Houthis advance to within 80 km of Aden, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlRCZUUyWF9VckZ3NWJGbUV2Z3luSldoNGZIVk1zTkN4MEZ1ajdSZm4zYmNLYjhVbU5TQU9yYTU2YVVrSFY3QzNPU21wT2EwVlFlRG9mMGxkeG84RHptSzlsOUw3Zmd6SHRqZGdzM1UxQnpWZlZ4MFJSYTFTZ296c2U1T1NGZFBqd3hnazg3clVMUFJ4SWNzYUtjOVoxY2FHMHpzY3RKZkNudw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793632731000,
-    "summaryEn": "Yemen's Houthis advance to within 80 km of Aden, sources say Reuters",
-    "summaryAr": "Yemen's Houthis advance to within 80 km of Aden, sources say Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
-    "titleAr": "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793632524000,
-    "summaryEn": "Iran says contacts over ending war continue after talks finish with no breakthrough Reuters",
-    "summaryAr": "Iran says contacts over ending war continue after talks finish with no breakthrough Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Al Jazeera condemns Israeli ban extension, calls for its immediate lifting",
-    "titleAr": "Al Jazeera condemns Israeli ban extension, calls for its immediate lifting",
-    "link": "https://www.aljazeera.com/news/2026/11/2/al-jazeera-condemns-israeli-ban-extension-calls-for-its-immediate-lifting?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793632189000,
-    "summaryEn": "Network calls move 'assault' on press freedom, warns of 'dangerous pattern' that undermines ability to report facts.",
-    "summaryAr": "Network calls move 'assault' on press freedom, warns of 'dangerous pattern' that undermines ability to report facts.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Arab parties back Eisenkot: What’s the latest in Israel’s coalition talks?",
-    "titleAr": "Arab parties back Eisenkot: What’s the latest in Israel’s coalition talks?",
-    "link": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1793631608000,
-    "summaryEn": "Political wrangling is still ongoing as all blocs weigh potential paths to power.",
-    "summaryAr": "Political wrangling is still ongoing as all blocs weigh potential paths to power.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -263,86 +87,6 @@
     "pubDate": 1793630765000,
     "summaryEn": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between Augus…",
     "summaryAr": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between Augus…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices ease 4% on optimism for Qatari-led talks on ending Iran war - Yahoo Finance",
-    "titleAr": "Oil prices ease 4% on optimism for Qatari-led talks on ending Iran war - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CcHdGM1lqaFFzVU8xNmo2ZmpaLVk1WTMyME9mRmNPbkhrWjFaZmhqYzJGV3dZZ1o4Y1pwaWZwS2Ewd281TERVSHJMM1FtR1pqZHA4eVY4R1l5dnNsSWFhWTBMLU1EYVlJNEt6enM2UVpzRHVseC0w?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793630245000,
-    "summaryEn": "Oil prices ease 4% on optimism for Qatari-led talks on ending Iran war Yahoo Finance",
-    "summaryAr": "Oil prices ease 4% on optimism for Qatari-led talks on ending Iran war Yahoo Finance",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Displaced Palestinians return to damaged Hebron quarter as Israeli troops withdraw - Reuters",
-    "titleAr": "Displaced Palestinians return to damaged Hebron quarter as Israeli troops withdraw - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMkwtUi1US0VSaXJSRmpvcXdNek9qYld0NjBnTk5vajRYTDIwYTNfUi1HWG52YUU3MkVpMDA4QnF5VHJJaElVXzdLek1LNTdZSnhxQk5DNVJMNWZ2cEoxdTljV0RjU01HQ3JlV3p0bGE4bFpoTE0xeHA4elZwZC1HZExlU2V0WEVLTDc1NU5RbUNpMDVTVFJZZGw2MVNyZEJxdlBCcVl5V21idXc5TW1DaWVJQ1ZvOWU5c1lfa0lEY3JoLVRyeWg5QnV3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793630144000,
-    "summaryEn": "Displaced Palestinians return to damaged Hebron quarter as Israeli troops withdraw Reuters",
-    "summaryAr": "Displaced Palestinians return to damaged Hebron quarter as Israeli troops withdraw Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "TSX opens higher as oil tumbles on hopes of easing Middle East tensions - TradingView",
-    "titleAr": "TSX opens higher as oil tumbles on hopes of easing Middle East tensions - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdXQtQ2pMeDZNZ3ViS0o2WjRWYVUzWmx5VnZNcVAtblpRZVNBZExHS2hKUmljYlEyWTRUb2NUa2twR2pTeUNtVHljZUdjVVBXX3dnUWQ3RFd4UW16RzV6bG9SS2c5bTByaFVTWEhFNmdvemp6Q1ZpQTczal91R0pMWXZxbGU0b2I5S1hwWHpsbEVYYjBoNXZhSm1VNmhJWGlzUnFDenZRb0hyY1U3azJFLVctelNqcU12UmRGRmlJdzBGRVF2c0RfMWRGZ241TVlSeV83bm9RaEE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793630038000,
-    "summaryEn": "TSX opens higher as oil tumbles on hopes of easing Middle East tensions TradingView",
-    "summaryAr": "TSX opens higher as oil tumbles on hopes of easing Middle East tensions TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Major Gulf markets rise as investors weigh Iran-Qatar talks - Reuters",
-    "titleAr": "Major Gulf markets rise as investors weigh Iran-Qatar talks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVHA5dWpnM3hRc0Z6WDhxZ0xZaWpnVzVmajJnMTAtMWJhYi14My1FME1uU1dvbHF2cUc3T2U4eFZ0MWNkOWxCZEJlS1J2WTBlUGZyUXg1b1FNUms5VkZDYU9EdWxOYWVNNTh0WHZGU1BuTWF4Z01wMFRHeDBpblJJQnVjLU02TjhkMmg1eGZqeWlNb2pnak92UUJCWnVZY0NWWkM4RFNVdTNBOUk?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793625169000,
-    "summaryEn": "Major Gulf markets rise as investors weigh Iran-Qatar talks Reuters",
-    "summaryAr": "Major Gulf markets rise as investors weigh Iran-Qatar talks Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump's Iran threat renews Gulf fears of a war it didn't choose - Reuters",
-    "titleAr": "Trump's Iran threat renews Gulf fears of a war it didn't choose - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVTJwa2lIdnVGZzJIX3NYSDNzLU9mUTU5MjVBeGFmbmNOR1NiQ1I0a0J6OGdnd2VhbHd5ZWZMakp3NzlwcFJ6OVZDcmc4T0FSQ2lORnltSk5md0psZ19nd3ZtRmE2Vlg3bHdBY3JQV3hMbko5NlFJY2dRVVRsTkJ3ajZVOFQ3clU1eHFBQnFUZUg1SV9takV2bVllN2ZVNHRuanMzLWh5REkzaU9vYWw4?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793623322000,
-    "summaryEn": "Trump's Iran threat renews Gulf fears of a war it didn't choose Reuters",
-    "summaryAr": "Trump's Iran threat renews Gulf fears of a war it didn't choose Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -368,38 +112,6 @@
     ]
   },
   {
-    "titleEn": "European shares subdued as investors weigh Middle East talks; Alstom tanks - AOL.com",
-    "titleAr": "European shares subdued as investors weigh Middle East talks; Alstom tanks - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbU95aU00TDZJcXFhWkNnZERpMXFFVGVLVVpQYWxrd3ZJazg3OENoZjdTeDNNTGtkeVRLVl85b25iY2gxNjVFb2J6M2w3eU5JVWo1Ym9GMjRtZ1JjdDBtUHBSNDR6ZjR6czN4aXhJRmtsajIwcEFfQUhUbDJCT193cFVNUWpDOHc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793613418000,
-    "summaryEn": "European shares subdued as investors weigh Middle East talks; Alstom tanks AOL.com",
-    "summaryAr": "European shares subdued as investors weigh Middle East talks; Alstom tanks AOL.com",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China’s Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Internazionale",
-    "titleAr": "China’s Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Internazionale",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLTF6bEg5OTJ2TU1hLS1MWkZzekRWcDBta0tlZjlqdnlIUnFPYVNEMFpkTVBSbGFlRGFIVWRNQnZMX2t5MFFLbGMtNWF6YnBERXNZQjhXaWw5am5leV9JbFVuaDBNRUE1S0wtLTlUMUNZdXVLWWpUUG1lX2xCRFNvQTZNWXZjMXItcHl4ZVNrdjM0eS0xbEJmZlJmOERPQXBVLXlsQ2V5TWpfcEoxdmctV2ZIam5qZEI5azNEaE4wX2FFOTZnZEt3Wk4xbV9yQzBWVWZfMTYySQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793613181000,
-    "summaryEn": "China’s Wang urges Middle East dialogue in meetings with Iranian, Saudi officials Internazionale",
-    "summaryAr": "China’s Wang urges Middle East dialogue in meetings with Iranian, Saudi officials Internazionale",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Ivanti patches two more Connect Secure zero-days chained in attacks",
     "titleAr": "Ivanti patches two more Connect Secure zero-days chained in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
@@ -416,38 +128,6 @@
     ]
   },
   {
-    "titleEn": "China's Xi says Middle East should not become battleground for great power rivalry - Awani International",
-    "titleAr": "China's Xi says Middle East should not become battleground for great power rivalry - Awani International",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb3ZNa1N0QkJGWE10YjFvMTV4cUw2N3NrX3U2azQxMjRCOV9JTWpnR0hDbE9OOWRheFFLMHZERXBFVF8xS3o3T3p3cTc4MWV3X0xWQ3plNHREaHVjV0wxX1pLSWtMcVpONnp3dENnSVZBeUhGZktDU0VCYTJENmdvLV9TMDgwbzRYSnVjV2RYS1ZUdFhENm96WktBQWZDcXFjYlY0UzFFRFpZNkVfblpxT1NXWmZWYXB0WnZqQTlzRmVSd0FY?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793610385000,
-    "summaryEn": "China's Xi says Middle East should not become battleground for great power rivalry Awani International",
-    "summaryAr": "China's Xi says Middle East should not become battleground for great power rivalry Awani International",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli strikes kill four people in Gaza, medics say - Reuters",
-    "titleAr": "Israeli strikes kill four people in Gaza, medics say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY19KZDAxQzZjOUlldUhfSTJfRlBVUXVhVXprMkw3UXBfX2ZTWDBCa1ExcVpCSXU5NHhiUDloQk9XX2JRXzBtTzM0XzlsTHI1Z3FMODJISDRoSTYyTmFyNTBHaHFvUGxzRlljU0NPRHprVjZiNFBRSWtXeGhueFlGX1NGRG9fTjBwS3hlZVdlNDM1ejlEWmt3TDRhSTBPbTFDSlZQMHJR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793603880000,
-    "summaryEn": "Israeli strikes kill four people in Gaza, medics say Reuters",
-    "summaryAr": "Israeli strikes kill four people in Gaza, medics say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Iran killed her teenage daughter - now she is facing up to the regime",
     "titleAr": "Iran killed her teenage daughter - now she is facing up to the regime",
     "link": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
@@ -460,54 +140,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "China's Xi says Middle East should not become battleground for great power rivalry - Reuters",
-    "titleAr": "China's Xi says Middle East should not become battleground for great power rivalry - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnVWxsbFNKRU13RlhzdndMQ21JVC1KMzBXalQzZllxT2J3SkVGdmQtVXBVRGJ6Y2tEbFRiT29IWEVjZ0ZrUnlIcnVfTk9WTllKdWdnWkJFRXJwYjNsWmV6dm1rTXlZQnV4OHRaZ1V2WEpWNklNWGQ2WDd5a1hQT3QxQjllX2VO?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793593920000,
-    "summaryEn": "China's Xi says Middle East should not become battleground for great power rivalry Reuters",
-    "summaryAr": "China's Xi says Middle East should not become battleground for great power rivalry Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil drops 7% as Iran signals openness to peace talks - Reuters",
-    "titleAr": "Oil drops 7% as Iran signals openness to peace talks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793574780000,
-    "summaryEn": "Oil drops 7% as Iran signals openness to peace talks Reuters",
-    "summaryAr": "Oil drops 7% as Iran signals openness to peace talks Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz - Reuters",
-    "titleAr": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmk2dmxjdk1sOW96UkZiaUlJVXhzc1pJMjZJUnY2WGtvaXd4aXRJY3d4UTNoUmFJdUVQQjlkb0JPSmxEc2YzS1JOZ2NSWmpTUnhzYzBiU1hfeXBvb2F2WEp2NHc5YkFfUUNKSHc2NW1PMUVKT0xqUTdOa0tfUmZpQWE2SDFtdzJ5TmZleWpLd0Zid1JWR2Z0d0dOeVMwekFzNTNTYndHMmMyV0poZ2h0UmFOVWc2M3o3Z2h6TUR2SQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793563953000,
-    "summaryEn": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz Reuters",
-    "summaryAr": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -540,102 +172,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
-    "titleAr": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793551303000,
-    "summaryEn": "Israeli strikes kill eight people in Gaza - medics say Reuters",
-    "summaryAr": "Israeli strikes kill eight people in Gaza - medics say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar surges, bucking Gulf market slide on Iran war concerns - Reuters",
-    "titleAr": "Qatar surges, bucking Gulf market slide on Iran war concerns - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793541784000,
-    "summaryEn": "Qatar surges, bucking Gulf market slide on Iran war concerns Reuters",
-    "summaryAr": "Qatar surges, bucking Gulf market slide on Iran war concerns Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
-    "titleAr": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793535840000,
-    "summaryEn": "Iran, Qatari mediators hold third day of talks to end US-Iran war Reuters",
-    "summaryAr": "Iran, Qatari mediators hold third day of talks to end US-Iran war Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Mass protests sweep Italy during nationwide strike - Reuters",
-    "titleAr": "Mass protests sweep Italy during nationwide strike - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWF5NXN3Z25WdEU0R0kwT0NBT180OHc4TklWcWxrSUVLTlRtZHpQWmplV1NnRkJfS28wbEVLdEwzMlA0UnNvOXBIWlpZN0xCcm9WLUNBZzZ2Um5UTkdQLXMtUUxocEIwZWZ1NGU1YW9qdnFWdFc0Zy1yTEUxWlhkdUxhbm1Tdi11enhoQ25Qenk3ZTdMekNv?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793514097000,
-    "summaryEn": "Mass protests sweep Italy during nationwide strike Reuters",
-    "summaryAr": "Mass protests sweep Italy during nationwide strike Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-    "titleAr": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793476836000,
-    "summaryEn": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
-    "summaryAr": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UN says Yemeni staff member dies in Houthi custody, demands investigation - Reuters",
-    "titleAr": "UN says Yemeni staff member dies in Houthi custody, demands investigation - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjU5VUNuY25Gb0FFSjFteXRhNE1EeTJkZk53dUxJOEpmNmpqZzZ0Nm1nZFdiMXU1cmI5ODVDa3ZYVTRuZDVkQTdfRWFZd3hVTm1EMXNYalp5NHctOGpLM0RDYVVreHFmN1VLa293VzZNZG1iX2cxZFNsOFVYSUlaN0Z1MTR3OWZMelRZLXBkb3RQOW16NUc0d2t0Y0tfZndpalVKZ245U01HU1V0OVdGbk5MNjJIOExSeVV2QkZzT1c?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793475471000,
-    "summaryEn": "UN says Yemeni staff member dies in Houthi custody, demands investigation Reuters",
-    "summaryAr": "UN says Yemeni staff member dies in Houthi custody, demands investigation Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -711,6 +247,470 @@
     "pubDate": 1793372969000,
     "summaryEn": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority.",
     "summaryAr": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1793361600000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missin…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missin…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "titleAr": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "source": "The Hacker News",
+    "pubDate": 1793356845000,
+    "summaryEn": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy th…",
+    "summaryAr": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy th…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "titleAr": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "source": "The Hacker News",
+    "pubDate": 1793346330000,
+    "summaryEn": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A…",
+    "summaryAr": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "titleAr": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "source": "The Hacker News",
+    "pubDate": 1793345225000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KE…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KE…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+    "titleAr": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+    "link": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793340143000,
+    "summaryEn": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
+    "summaryAr": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "titleAr": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "source": "The Hacker News",
+    "pubDate": 1793289425000,
+    "summaryEn": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it…",
+    "summaryAr": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hitachi Energy CoreTec Product",
+    "titleAr": "Hitachi Energy CoreTec Product",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+    "source": "CISA Advisories",
+    "pubDate": 1793275200000,
+    "summaryEn": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitati…",
+    "summaryAr": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitati…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hitachi Energy TRO600 series products",
+    "titleAr": "Hitachi Energy TRO600 series products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+    "source": "CISA Advisories",
+    "pubDate": 1793275200000,
+    "summaryEn": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited…",
+    "summaryAr": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Siemens Mendix SAML Module",
+    "titleAr": "Siemens Mendix SAML Module",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+    "source": "CISA Advisories",
+    "pubDate": 1793275200000,
+    "summaryEn": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a …",
+    "summaryAr": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a …",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "titleAr": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+    "source": "The Hacker News",
+    "pubDate": 1793270686000,
+    "summaryEn": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software …",
+    "summaryAr": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software …",
+    "tags": [
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "How could Israel break election deadlock? Here are four scenarios",
+    "titleAr": "How could Israel break election deadlock? Here are four scenarios",
+    "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793264808000,
+    "summaryEn": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+    "summaryAr": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "titleAr": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "source": "The Hacker News",
+    "pubDate": 1793264739000,
+    "summaryEn": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. Th…",
+    "summaryAr": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. Th…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "titleAr": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "source": "The Hacker News",
+    "pubDate": 1793254953000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catal…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catal…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel's election deadlock is a sign of the country's deep divisions",
+    "titleAr": "Israel's election deadlock is a sign of the country's deep divisions",
+    "link": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793220782000,
+    "summaryEn": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
+    "summaryAr": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "titleAr": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "source": "The Hacker News",
+    "pubDate": 1793210913000,
+    "summaryEn": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day e…",
+    "summaryAr": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day e…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel's election result is messy - here's why",
+    "titleAr": "Israel's election result is messy - here's why",
+    "link": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793197584000,
+    "summaryEn": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell.",
+    "summaryAr": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "titleAr": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+    "source": "The Hacker News",
+    "pubDate": 1793191683000,
+    "summaryEn": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerabi…",
+    "summaryAr": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerabi…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "titleAr": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+    "source": "The Hacker News",
+    "pubDate": 1793186151000,
+    "summaryEn": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security featu…",
+    "summaryAr": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security featu…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+    "titleAr": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+    "link": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793183713000,
+    "summaryEn": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
+    "summaryAr": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+    "titleAr": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+    "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793182674000,
+    "summaryEn": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+    "summaryAr": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Egypt court fines journalist Lina Attalah and orders news site's closure",
+    "titleAr": "Egypt court fines journalist Lina Attalah and orders news site's closure",
+    "link": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793133880000,
+    "summaryEn": "Amnesty International said the verdict against Attalah and independent outlet Mada Masr represented \"a crushing blow to press freedom\".",
+    "summaryAr": "Amnesty International said the verdict against Attalah and independent outlet Mada Masr represented \"a crushing blow to press freedom\".",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "External Teams Chats Anchor 15-Minute Malware Delivery",
+    "titleAr": "External Teams Chats Anchor 15-Minute Malware Delivery",
+    "link": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+    "source": "Dark Reading",
+    "pubDate": 1793133760000,
+    "summaryEn": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+    "summaryAr": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "EPICS Base",
+    "titleAr": "EPICS Base",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+    "source": "CISA Advisories",
+    "pubDate": 1793102400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, o…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, o…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+    "titleAr": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+    "source": "CISA Advisories",
+    "pubDate": 1793102400000,
+    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-…",
+    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What does Israel's election mean for Gaza and the wider world?",
+    "titleAr": "What does Israel's election mean for Gaza and the wider world?",
+    "link": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793096256000,
+    "summaryEn": "The BBC's diplomatic correspondent James Landale reports from Jerusalem as ballots are cast.",
+    "summaryAr": "The BBC's diplomatic correspondent James Landale reports from Jerusalem as ballots are cast.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why it could take time for a new Israeli government to form",
+    "titleAr": "Why it could take time for a new Israeli government to form",
+    "link": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793090250000,
+    "summaryEn": "Israel faces what many view as one of the most pivotal elections in the country's history.",
+    "summaryAr": "Israel faces what many view as one of the most pivotal elections in the country's history.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+    "titleAr": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+    "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793068817000,
+    "summaryEn": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
+    "summaryAr": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel and the US are both going to the polls - the consequences will be global",
+    "titleAr": "Israel and the US are both going to the polls - the consequences will be global",
+    "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793032234000,
+    "summaryEn": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
+    "summaryAr": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Why Israel's election is one of the most important in its history",
+    "titleAr": "Why Israel's election is one of the most important in its history",
+    "link": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1792965930000,
+    "summaryEn": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
+    "summaryAr": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
     "tags": [
       {
         "textEn": "INTEL",
