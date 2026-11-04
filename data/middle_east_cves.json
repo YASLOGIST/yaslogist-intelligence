@@ -1,5 +1,19 @@
 [
   {
+    "id": "CVE-2026-58868",
+    "system": "Android",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-109593",
+    "system": "Global Management System (GMS)",
+    "severity": "Critical",
+    "cvss": 9.1,
+    "badge": "badge-critical"
+  },
+  {
     "id": "CVE-2026-97229",
     "system": "GitLab",
     "severity": "Critical",
@@ -40,19 +54,5 @@
     "severity": "Critical",
     "cvss": 9.8,
     "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-116606",
-    "system": "Barracuda Email Security Gateway (ESG)",
-    "severity": "Critical",
-    "cvss": 9.3,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-119977",
-    "system": "WordPress",
-    "severity": "High",
-    "cvss": 8.1,
-    "badge": "badge-high"
   }
 ]
