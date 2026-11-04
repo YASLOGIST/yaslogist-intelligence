@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-04T08:47:17.031Z",
+  "generatedAt": "2026-11-04T17:50:32.378Z",
   "source": "pipeline",
   "counts": {
     "wire": 45,
     "cves": 8,
     "countries": 7
   },
-  "wireNewestAt": "2026-11-04T08:33:43.000Z",
+  "wireNewestAt": "2026-11-04T17:18:50.000Z",
   "feeds": [
     {
       "source": "BBC Middle East",
       "ok": true,
-      "items": 23,
+      "items": 24,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
     {
       "source": "Reuters (Google News)",
       "ok": true,
-      "items": 63,
+      "items": 39,
       "error": null
     },
     {
@@ -47,9 +47,9 @@
     },
     {
       "source": "CISA Advisories",
-      "ok": true,
-      "items": 30,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTP 403"
     }
   ]
 }

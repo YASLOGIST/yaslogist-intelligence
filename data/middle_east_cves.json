@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-109122",
-    "system": "E3 Firmware",
+    "id": "CVE-2026-97229",
+    "system": "GitLab",
     "severity": "Critical",
-    "cvss": 9.4,
+    "cvss": 10,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2024-7322",
-    "system": "EmberZNet",
+    "id": "CVE-2026-118539",
+    "system": "Commerce Core",
     "severity": "Medium",
-    "cvss": 5.8,
+    "cvss": 6.5,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63357",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
+    "id": "CVE-2026-111357",
+    "system": "Connect Secure",
+    "severity": "High",
+    "cvss": 7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-63356",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63355",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63354",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2026-81648",
+    "system": "CryptoPayment Gateway",
     "severity": "Critical",
-    "cvss": 9.4,
+    "cvss": 10,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-63353",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2026-58115",
+    "system": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)",
     "severity": "Critical",
-    "cvss": 9.4,
+    "cvss": 10,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-63352",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
+    "id": "CVE-2026-98432",
+    "system": "Linux",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-116606",
+    "system": "Barracuda Email Security Gateway (ESG)",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-119977",
+    "system": "WordPress",
+    "severity": "High",
+    "cvss": 8.1,
+    "badge": "badge-high"
   }
 ]
