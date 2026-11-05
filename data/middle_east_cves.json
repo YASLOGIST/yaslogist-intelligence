@@ -1,5 +1,19 @@
 [
   {
+    "id": "CVE-2026-111357",
+    "system": "Connect Secure",
+    "severity": "High",
+    "cvss": 7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-81648",
+    "system": "CryptoPayment Gateway",
+    "severity": "Critical",
+    "cvss": 10,
+    "badge": "badge-critical"
+  },
+  {
     "id": "CVE-2026-58115",
     "system": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)",
     "severity": "Critical",
@@ -40,19 +54,5 @@
     "severity": "High",
     "cvss": null,
     "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-109593",
-    "system": "Global Management System (GMS)",
-    "severity": "Critical",
-    "cvss": 9.1,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-97229",
-    "system": "GitLab",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
   }
 ]
