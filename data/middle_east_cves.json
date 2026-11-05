@@ -1,5 +1,19 @@
 [
   {
+    "id": "CVE-2026-116606",
+    "system": "Barracuda Email Security Gateway (ESG)",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-119977",
+    "system": "WordPress",
+    "severity": "High",
+    "cvss": 8.1,
+    "badge": "badge-high"
+  },
+  {
     "id": "CVE-2026-58868",
     "system": "Android",
     "severity": "High",
@@ -39,20 +53,6 @@
     "system": "CryptoPayment Gateway",
     "severity": "Critical",
     "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-58115",
-    "system": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-98432",
-    "system": "Linux",
-    "severity": "Critical",
-    "cvss": 9.8,
     "badge": "badge-critical"
   }
 ]
