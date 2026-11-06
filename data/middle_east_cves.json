@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-89208",
-    "system": "Capital Embedded AR Classic 431-422",
+    "id": "CVE-2026-11824",
+    "system": "SQLite",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-11822",
+    "system": "SQLite",
     "severity": "Medium",
-    "cvss": 6.9,
+    "cvss": 6.8,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-59241",
-    "system": "SIMATIC WinCC V7.5",
-    "severity": "High",
-    "cvss": 8.7,
-    "badge": "badge-high"
+    "id": "CVE-2025-71316",
+    "system": "sqldiff",
+    "severity": "Critical",
+    "cvss": 9.2,
+    "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-64552",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8.4,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-64545",
-    "system": "Linux",
+    "id": "CVE-2025-70873",
+    "system": "n/a",
     "severity": "High",
     "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-64538",
-    "system": "Linux",
+    "id": "CVE-2025-6965",
+    "system": "SQLite",
     "severity": "High",
-    "cvss": null,
+    "cvss": 7.2,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-64425",
-    "system": "Linux",
+    "id": "CVE-2026-110936",
+    "system": "Siemens Software Center",
     "severity": "High",
-    "cvss": null,
+    "cvss": 8.4,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-64423",
-    "system": "Linux",
+    "id": "CVE-2026-72895",
+    "system": "SIMATIC IPC BX-21A",
     "severity": "High",
-    "cvss": 7.8,
+    "cvss": 8.4,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-64422",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 7.1,
-    "badge": "badge-high"
+    "id": "CVE-2026-111594",
+    "system": "IRIS for Health",
+    "severity": "Critical",
+    "cvss": 9.2,
+    "badge": "badge-critical"
   }
 ]
