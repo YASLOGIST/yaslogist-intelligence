@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-111357",
-    "system": "Connect Secure",
+    "id": "CVE-2026-11824",
+    "system": "SQLite",
     "severity": "High",
-    "cvss": 7,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-81648",
-    "system": "CryptoPayment Gateway",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-58115",
-    "system": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-98432",
-    "system": "Linux",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2024-27834",
-    "system": "Safari",
+    "id": "CVE-2026-11822",
+    "system": "SQLite",
     "severity": "Medium",
-    "cvss": 5.5,
+    "cvss": 6.8,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-116606",
-    "system": "Barracuda Email Security Gateway (ESG)",
+    "id": "CVE-2025-71316",
+    "system": "sqldiff",
     "severity": "Critical",
-    "cvss": 9.3,
+    "cvss": 9.2,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-119977",
-    "system": "WordPress",
+    "id": "CVE-2025-70873",
+    "system": "n/a",
     "severity": "High",
-    "cvss": 8.1,
+    "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-58868",
-    "system": "Android",
+    "id": "CVE-2025-6965",
+    "system": "SQLite",
     "severity": "High",
-    "cvss": null,
+    "cvss": 7.2,
     "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-110936",
+    "system": "Siemens Software Center",
+    "severity": "High",
+    "cvss": 8.4,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-72895",
+    "system": "SIMATIC IPC BX-21A",
+    "severity": "High",
+    "cvss": 8.4,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-111594",
+    "system": "IRIS for Health",
+    "severity": "Critical",
+    "cvss": 9.2,
+    "badge": "badge-critical"
   }
 ]
