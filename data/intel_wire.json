@@ -1,5 +1,117 @@
 [
   {
+    "titleEn": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+    "titleAr": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+    "link": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794052766000,
+    "summaryEn": "Government forces reclaim key territories in Taiz and Lahij but face setbacks under Houthi resistance in certain areas.",
+    "summaryAr": "Government forces reclaim key territories in Taiz and Lahij but face setbacks under Houthi resistance in certain areas.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Rains flood thousands of displaced families’ tents in Gaza",
+    "titleAr": "Rains flood thousands of displaced families’ tents in Gaza",
+    "link": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794049802000,
+    "summaryEn": "Civil Defence says it received 1,500 distress calls in 10 hours as a storm swept through displacement camps.",
+    "summaryAr": "Civil Defence says it received 1,500 distress calls in 10 hours as a storm swept through displacement camps.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestinian citizens of Israel put to ‘loyalty test’ after election wins",
+    "titleAr": "Palestinian citizens of Israel put to ‘loyalty test’ after election wins",
+    "link": "https://www.aljazeera.com/features/2026/11/7/palestinian-citizens-of-israel-put-to-loyalty-test-after-election-wins?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794044891000,
+    "summaryEn": "Palestinian citizens of Israel say Arab parties' success in recent elections has led to growing pressure.",
+    "summaryAr": "Palestinian citizens of Israel say Arab parties' success in recent elections has led to growing pressure.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+    "titleAr": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+    "link": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794041136000,
+    "summaryEn": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+    "summaryAr": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Qatari PM says US willing to seek solution to war with Iran",
+    "titleAr": "Qatari PM says US willing to seek solution to war with Iran",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794035437000,
+    "summaryEn": "Qatari PM says US willing to seek solution to war with Iran",
+    "summaryAr": "Qatari PM says US willing to seek solution to war with Iran",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump confirms US strikes in Iran, insists ‘it’s not a war’",
+    "titleAr": "Trump confirms US strikes in Iran, insists ‘it’s not a war’",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/trump-confirms-us-strikes-in-iran-insists-its-not-a?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794035101000,
+    "summaryEn": "US President Donald Trump said America has carried out ‘minor strikes’ on Iran’s Qeshm Island.",
+    "summaryAr": "US President Donald Trump said America has carried out ‘minor strikes’ on Iran’s Qeshm Island.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How the Iran war helped Democrats win the midterms",
+    "titleAr": "How the Iran war helped Democrats win the midterms",
+    "link": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794032818000,
+    "summaryEn": "Tehran brought the costs of war into American homes, fuelling the backlash against Trump's party.",
+    "summaryAr": "Tehran brought the costs of war into American homes, fuelling the backlash against Trump's party.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "President Herzog faces key choice as Israel struggles to form government",
     "titleAr": "President Herzog faces key choice as Israel struggles to form government",
     "link": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
@@ -32,22 +144,6 @@
     ]
   },
   {
-    "titleEn": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
-    "titleAr": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
-    "link": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794027046000,
-    "summaryEn": "US Treasury claims firms helped sanctioned Iranian entities and handled funds linked to alleged drug trafficking boss.",
-    "summaryAr": "US Treasury claims firms helped sanctioned Iranian entities and handled funds linked to alleged drug trafficking boss.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Qatar says its mediation efforts between US and Iran continue to prevent escalation - Reuters",
     "titleAr": "Qatar says its mediation efforts between US and Iran continue to prevent escalation - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnBiR0l0NVE4d1Rpd2xSTmFvVGtGSTU2SDJmZXRndk9yS2Z0TlhsUW1ZNldhRnZtOGs0UUhJZWt0VFYzNEtrV1FJMW9QU05BMl94azJLZkZNNTNDWm9TbDFualhlV0VBbHJyQzdnZEJOVnd5Z0pMNzJUZkQ1dF82TU83MkNJbkxsRlhkRVVCYWxxbXF0SlhGaGdvcEhYdVFRQm05bVM4b1BHZzlhcEEta21QQzZRZUl6NUtQZ0o4ajVTTzJxV3lEdVhB?oc=5",
@@ -55,54 +151,6 @@
     "pubDate": 1794025380000,
     "summaryEn": "Qatar says its mediation efforts between US and Iran continue to prevent escalation Reuters",
     "summaryAr": "Qatar says its mediation efforts between US and Iran continue to prevent escalation Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump confirms new US strikes on Iran’s Qeshm Island",
-    "titleAr": "Trump confirms new US strikes on Iran’s Qeshm Island",
-    "link": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794023581000,
-    "summaryEn": "The US president also claims 'a lot of progress' in Washington's negotiations with Tehran.",
-    "summaryAr": "The US president also claims 'a lot of progress' in Washington's negotiations with Tehran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-    "titleAr": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794009600000,
-    "summaryEn": "Qatar's prime minister urges the US and Iran not to wait for a 'perfect moment' to reach a deal to end the war.",
-    "summaryAr": "Qatar's prime minister urges the US and Iran not to wait for a 'perfect moment' to reach a deal to end the war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
-    "titleAr": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
-    "link": "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794006442000,
-    "summaryEn": "Donald Trump and the Republicans struggle to spin a historic defeat in the US midterms.",
-    "summaryAr": "Donald Trump and the Republicans struggle to spin a historic defeat in the US midterms.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -135,22 +183,6 @@
     "pubDate": 1794002754000,
     "summaryEn": "'We have nothing': Displaced mothers in Yemen's Taiz collect plastic to survive Reuters",
     "summaryAr": "'We have nothing': Displaced mothers in Yemen's Taiz collect plastic to survive Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinian couples tie the knot in mass wedding in Gaza",
-    "titleAr": "Palestinian couples tie the knot in mass wedding in Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/palestinian-couples-tie-the-knot-in-mass-wedding-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794001050000,
-    "summaryEn": "The event brought 250 couples together to celebrate love and new beginnings despite Israel’s genocidal war on Gaza.",
-    "summaryAr": "The event brought 250 couples together to celebrate love and new beginnings despite Israel’s genocidal war on Gaza.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -450,9 +482,9 @@
   {
     "titleEn": "After Trump's dismal midterms, Europe's far-right blame Iran war - Reuters",
     "titleAr": "After Trump's dismal midterms, Europe's far-right blame Iran war - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VWHhKaVFtc0pCRlZPMVZJdEZHcTdMdnJ2eXlHUDlVWGFXdl9rbHdrVHR5Sko4TnYxUHpValV2TEFOU1U3bkdaZWZ0RjdIY2ExdlBoTmJWd21Ld0VNYVhBaGtHc3VVZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKc0t5ZFFSS3B4NVlIaFdQeENVMkwxUnItc0xUNE9zdHV0SjBqb0pMTUY5RjFqYjVhNUtObzFGTmpITm9xSWdnM1ZRWS0xV1ROV0RyR1RrR0lueE9k?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793899051000,
+    "pubDate": 1793899613000,
     "summaryEn": "After Trump's dismal midterms, Europe's far-right blame Iran war Reuters",
     "summaryAr": "After Trump's dismal midterms, Europe's far-right blame Iran war Reuters",
     "tags": [
@@ -496,61 +528,13 @@
     ]
   },
   {
-    "titleEn": "Israel's president pledges to pick candidate on Sunday to form government - Reuters",
-    "titleAr": "Israel's president pledges to pick candidate on Sunday to form government - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXl2TW1pRDd2eEFya2FTU0pkOWJWd3lFZG1PdUdSNlBWTVR5VGp3UWtLb2E0Ri1iTmt1SWhRckdOVVhkN2ItZ1Y2QlhjT2NrcGR0ZTg3MklhcENpZUFOM0I1SDRYdTZwMFlYeGMwMTM1SWF5ZzNnd2h4ZnJ1bC1BZWhlNDlYUXM3S3FRdXVyR1p3SE5GYUFoMm1wSWRYSlBYY3NkcTBpVklrTnZibm51eURCWkszdHBtdU9vYQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793877420000,
-    "summaryEn": "Israel's president pledges to pick candidate on Sunday to form government Reuters",
-    "summaryAr": "Israel's president pledges to pick candidate on Sunday to form government Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation - Reuters",
     "titleAr": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOURmMHZvcURoTHdPckpVdEYtMVA3WTktOGNLOGpHeTRZcGZ4OWZjQ2tHQTlTYy15N05pZ0VPemlkZEozUGdHTU9ieDdvZlEyU2dBbzZtbzVPNDVaaGVGNktHTGg0Nk5GbU9kYnVTN291Zkp4NV9Idk05OTNKR1FFckUtVnFfX25tWkRYd1A3VEdrME1YQjFzVzF2VDk1T1Fnc2RRdEZMZzZPNWN1YVVtX2MyTzV0SlA4eWMzOFVlQ0NBY3p2VXpsZQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1793873520000,
+    "pubDate": 1793884992000,
     "summaryEn": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation Reuters",
     "summaryAr": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Vance repudiates Iran war after US electoral defeat - Reuters",
-    "titleAr": "Vance repudiates Iran war after US electoral defeat - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa013TjNzRzN3VjI3QVg1bEtHRjdHNjFyeVpZTURvOWw1M1cwX2dpZXhKUXVTVEZRUjJTS20tNjBHSUlSS3NnOU4zZENjTmRoTHZmN1lEZE9lS0dRU1ROWWxnaFlhRXNtZUkzTGlHVnZ6YmpfTERySXRfV3FzOEd0bmgzOW5oVlJqa1FONmI3NjVleWVZR2d6LTY1dlZqUURPMnU3ZkpDQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793869206000,
-    "summaryEn": "Vance repudiates Iran war after US electoral defeat Reuters",
-    "summaryAr": "Vance repudiates Iran war after US electoral defeat Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli ex-generals condemn settler violence, help Palestinian farmers - Reuters",
-    "titleAr": "Israeli ex-generals condemn settler violence, help Palestinian farmers - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcXVPVE1ZTHdtRTFaaW9Ga2dYeGNoNmJiSlBVd29tZGZZdHdEMVNVMEZzcmRvelJrdjJSaXZ3TGJRNEpYdWlhSmFIa0ozYXhYQWJvMEpTY21hMUZfel90QTkxalRvelZKTGpjWExJUEtGZ3VxVlNaLTAyU2d0VUt6eGZyMEtReFdqRVFhdmJPNG1hbkkyNGlaTFRBZFZmZlNucXh3MWdoQzhLaXZPd3JpTUtXd0JOcnAyb09EcUJXX3I?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1793867640000,
-    "summaryEn": "Israeli ex-generals condemn settler violence, help Palestinian farmers Reuters",
-    "summaryAr": "Israeli ex-generals condemn settler violence, help Palestinian farmers Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -711,6 +695,22 @@
     "pubDate": 1793707200000,
     "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The follo…",
     "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The follo…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US strikes Iranian island ahead of midterm elections",
+    "titleAr": "US strikes Iranian island ahead of midterm elections",
+    "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1793705613000,
+    "summaryEn": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+    "summaryAr": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
     "tags": [
       {
         "textEn": "INTEL",
