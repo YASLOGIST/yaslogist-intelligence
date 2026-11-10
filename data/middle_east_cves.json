@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-63357",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2026-11824",
+    "system": "SQLite",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-11822",
+    "system": "SQLite",
     "severity": "Medium",
-    "cvss": 5.3,
+    "cvss": 6.8,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63356",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63355",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63354",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2025-71316",
+    "system": "sqldiff",
     "severity": "Critical",
-    "cvss": 9.4,
+    "cvss": 9.2,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-63353",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Critical",
-    "cvss": 9.4,
-    "badge": "badge-critical"
+    "id": "CVE-2025-70873",
+    "system": "n/a",
+    "severity": "High",
+    "cvss": 7.5,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-63352",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2025-6965",
+    "system": "SQLite",
+    "severity": "High",
+    "cvss": 7.2,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-89206",
+    "system": "RUGGEDCOM CROSSBOW",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63351",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2026-89205",
+    "system": "RUGGEDCOM CROSSBOW",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63350",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Critical",
-    "cvss": 9.4,
-    "badge": "badge-critical"
+    "id": "CVE-2026-89204",
+    "system": "RUGGEDCOM CROSSBOW",
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
   }
 ]

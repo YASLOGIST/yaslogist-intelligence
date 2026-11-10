@@ -1,5 +1,309 @@
 [
   {
+    "titleEn": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+    "titleAr": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+    "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+    "source": "The Hacker News",
+    "pubDate": 1794301700000,
+    "summaryEn": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French …",
+    "summaryAr": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "titleAr": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "source": "BleepingComputer",
+    "pubDate": 1794300685000,
+    "summaryEn": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+    "summaryAr": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "What powers does Netanyahu have as Israel’s interim PM?",
+    "titleAr": "What powers does Netanyahu have as Israel’s interim PM?",
+    "link": "https://www.aljazeera.com/news/2026/11/10/what-powers-does-netanyahu-have-as-israels-interim-pm?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794299891000,
+    "summaryEn": "As Israel faces political gridlock, Netanyahu wields caretaker powers to manage security and disrupt his rivals.",
+    "summaryAr": "As Israel faces political gridlock, Netanyahu wields caretaker powers to manage security and disrupt his rivals.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices extend losses as fears of Middle East escalation ease - سانا",
+    "titleAr": "Oil prices extend losses as fears of Middle East escalation ease - سانا",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0yaVpPZjFHWllpcGMwV2hDLUttSnJwUDEzcTVJUWdmckVkZDBfSTdaUE53ZEkyS29oVlhaRWdwUEwzS0hoSC1LUTdkakU?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794299785000,
+    "summaryEn": "Oil prices extend losses as fears of Middle East escalation ease سانا",
+    "summaryAr": "Oil prices extend losses as fears of Middle East escalation ease سانا",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Gulf bourses open higher as Trump holds off on Iran strikes - Reuters",
+    "titleAr": "Gulf bourses open higher as Trump holds off on Iran strikes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVhYVkx5WEEtWEJFanhNSTZMMVdIQ0NHcjR2dTNNZXJwWXFDMUg0THpNV1BEdnl4dlhXaHRSdy1oUjgwekg3c01kTGVvWFhRYnhhbWRRelFHbFdzZms2TmYxWlJQRHBRRUFIYzMzallCTl9zT3hGSmRCY0hZMzJpRVVhY1dJWV8tX2ttQzZCa0Rod0dNRWtIVVpoVncwZWNJbW90eEpBeldyd2s?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794298335000,
+    "summaryEn": "Gulf bourses open higher as Trump holds off on Iran strikes Reuters",
+    "summaryAr": "Gulf bourses open higher as Trump holds off on Iran strikes Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US moves aircraft from second UK base over ‘threat from Iran’",
+    "titleAr": "US moves aircraft from second UK base over ‘threat from Iran’",
+    "link": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794298104000,
+    "summaryEn": "Two refuelling tankers and several other aircraft diverted from RAF Mildenhall airbase ​to other locations, WSJ reports.",
+    "summaryAr": "Two refuelling tankers and several other aircraft diverted from RAF Mildenhall airbase ​to other locations, WSJ reports.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "titleAr": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "source": "The Hacker News",
+    "pubDate": 1794293574000,
+    "summaryEn": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assign…",
+    "summaryAr": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assign…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "titleAr": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+    "source": "The Hacker News",
+    "pubDate": 1794293076000,
+    "summaryEn": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure o…",
+    "summaryAr": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure o…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
+    "titleAr": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
+    "link": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794292633000,
+    "summaryEn": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
+    "summaryAr": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "titleAr": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "source": "The Hacker News",
+    "pubDate": 1794292302000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Fasp…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Fasp…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Khor Mor drone attack raises fears over Iraq’s energy security",
+    "titleAr": "Khor Mor drone attack raises fears over Iraq’s energy security",
+    "link": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794291720000,
+    "summaryEn": "Drone strike disrupts electricity supply in Iraq's semi-autonomous Kurdish region, renewing concerns about armed groups.",
+    "summaryAr": "Drone strike disrupts electricity supply in Iraq's semi-autonomous Kurdish region, renewing concerns about armed groups.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump says more US attacks on Iran 'highly unlikely'",
+    "titleAr": "Trump says more US attacks on Iran 'highly unlikely'",
+    "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794288805000,
+    "summaryEn": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
+    "summaryAr": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli forces kill 14-year-old Palestinian boy in occupied West Bank",
+    "titleAr": "Israeli forces kill 14-year-old Palestinian boy in occupied West Bank",
+    "link": "https://www.aljazeera.com/news/2026/11/10/israeli-forces-kill-14-year-old-palestinian-boy-in-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794288237000,
+    "summaryEn": "Israel's military says its soldiers opened fire to prevent Palestinians from throwing stones at vehicles in Burqa.",
+    "summaryAr": "Israel's military says its soldiers opened fire to prevent Palestinians from throwing stones at vehicles in Burqa.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "China's October crude oil imports rise to highest level since March amid Middle East war - Bellingham Herald",
+    "titleAr": "China's October crude oil imports rise to highest level since March amid Middle East war - Bellingham Herald",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVFZpb2RyNmZjQTVlWlVSWlctZjZ3NzQ4cEROQ1NSTE9sZmpXUDVCY2ZpUTVUaUs2VzRHUFBFd0g1aktFV0tqVl8xOS1wcVFPSk5GZGVrcnd5X1laeUFMVHJOVDU4QW9LQkRJeHJYZFROMGc0RGNodTF2ZE1VUFdoaG5WU21ObEZf?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794283747000,
+    "summaryEn": "China's October crude oil imports rise to highest level since March amid Middle East war Bellingham Herald",
+    "summaryAr": "China's October crude oil imports rise to highest level since March amid Middle East war Bellingham Herald",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+    "titleAr": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+    "link": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794280671000,
+    "summaryEn": "Saudi forces intercept two missiles fired towards Riyadh, hours after reporting damage to key East-West pipeline.",
+    "summaryAr": "Saudi forces intercept two missiles fired towards Riyadh, hours after reporting damage to key East-West pipeline.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa - Reuters",
+    "titleAr": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794275580000,
+    "summaryEn": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa Reuters",
+    "summaryAr": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
+    "titleAr": "Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWIxdHFYZXdDLUkyNjhxSklldE1kTVJUMXBHOENVUUF0YWVXRmhpbGhvSDdJSUtSUG9ZUk5FVGxZdExQa0c0WmJFZDd2QXFNUnJUV0ZuZ0x3eHZCTFBiVXY3b0lVMVA0RkVaVllFRHJHSjJaUmlpSjNOQThxOGhoN05LelBtdjE4Qk5PbnRoTThFVWc3NE91WlE2WHJKbG5kWEVkeF9SS20wSGs?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794274980000,
+    "summaryEn": "Oil falls as Trump downplays prospect of escalation with Iran Reuters",
+    "summaryAr": "Oil falls as Trump downplays prospect of escalation with Iran Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi official inspects Aramco Riyadh office after Houthi attack - Reuters",
+    "titleAr": "Saudi official inspects Aramco Riyadh office after Houthi attack - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3VOTzlJaFROd09yclJ3alhQdEFVRWtON284LTh5Ry05QmxqYVg1RDVVLUhRQWJtZHZuSlEtdHZwTzl6SERCYmFnMWlURWg0REh1WnNrXzBRMFVXYnVGY1RMV2RqTjg4VHN0VlhCX3FDZTZFUlZ2YXFVQ3NhamkzN1kwRVZHUjdQZERGRTl0aHZFQ3lUOWNqVUlCN2RiNXFpTkRRUTBJVWFmZUhxQUZ5Zmk5a09ZdDltUFE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794271140000,
+    "summaryEn": "Saudi official inspects Aramco Riyadh office after Houthi attack Reuters",
+    "summaryAr": "Saudi official inspects Aramco Riyadh office after Houthi attack Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump says military action against Iran not necessary 'at this point' - Reuters",
+    "titleAr": "Trump says military action against Iran not necessary 'at this point' - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzaElFd1BlNlVDQTZuczh2UjVFZW9qQk9HelpTNDAyb1NsQ0N1a2JaRldVN3Zxak80NF9pZ1FVaGFTU05FRHNuLVEtWngwS2lieFlxZUJ5X0FCY3VMS1daRW5tNlRKSDg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794270150000,
+    "summaryEn": "Trump says military action against Iran not necessary 'at this point' Reuters",
+    "summaryAr": "Trump says military action against Iran not necessary 'at this point' Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
     "titleAr": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
     "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
@@ -16,43 +320,11 @@
     ]
   },
   {
-    "titleEn": "Trump says Qatar, Saudi prefer peace in Iran conflict - Reuters",
-    "titleAr": "Trump says Qatar, Saudi prefer peace in Iran conflict - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794265629000,
-    "summaryEn": "Trump says Qatar, Saudi prefer peace in Iran conflict Reuters",
-    "summaryAr": "Trump says Qatar, Saudi prefer peace in Iran conflict Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump says war on Iran ‘effectively over’ after talks with Qatar’s PM",
-    "titleAr": "Trump says war on Iran ‘effectively over’ after talks with Qatar’s PM",
-    "link": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794263479000,
-    "summaryEn": "Iranian officials dismissed Trump's latest remarks as 'fake news' after the US president suggested an end to the war.",
-    "summaryAr": "Iranian officials dismissed Trump's latest remarks as 'fake news' after the US president suggested an end to the war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Trump says US military action against Iran not necessary 'at this point' - Reuters",
     "titleAr": "Trump says US military action against Iran not necessary 'at this point' - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTmtxNXdZTTY4U3h6bUNvMm5NZDBiWXNMMVJoalRMSzZ5OG4yR3ZkWkdaVU82SUFNYTlPcWhjZGZGUlVWczRwMnM1RjJLZGxtZUI3T0ZaTm1xS3RpZ0Z0V0lBQW5LRW9Ja3hoUXhuekl1UnNzWVE1QXA3MVk2Z2ppQVpwQ2pzSTdPbThuLUIzeko5UDIyQ21leGpreE9PdWEtN000NVQ2clduSTJQRC1wM2pwYmxWNjdmbGRLQTFFcjdjZw?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1794262850000,
+    "pubDate": 1794262020000,
     "summaryEn": "Trump says US military action against Iran not necessary 'at this point' Reuters",
     "summaryAr": "Trump says US military action against Iran not necessary 'at this point' Reuters",
     "tags": [
@@ -60,22 +332,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia reports new attack on key East-West pipeline",
-    "titleAr": "Saudi Arabia reports new attack on key East-West pipeline",
-    "link": "https://www.aljazeera.com/news/2026/11/9/saudi-arabia-reports-new-attack-on-key-east-west-pipeline?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794262252000,
-    "summaryEn": "The oil pipeline runs through the desert to the coast and is essential for bypassing the Strait of Hormuz.",
-    "summaryAr": "The oil pipeline runs through the desert to the coast and is essential for bypassing the Strait of Hormuz.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -92,6 +348,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed - Reuters",
+    "titleAr": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794256963000,
+    "summaryEn": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed Reuters",
+    "summaryAr": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -124,86 +396,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Syria, Jordan seek to mend ties after deadly airstrikes, sign cooperation deals - Reuters",
-    "titleAr": "Syria, Jordan seek to mend ties after deadly airstrikes, sign cooperation deals - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdkdRX3ZKb0hFX0EtM25yamlZYWJ3dVh4UlZJelZWMmpSOVlSR3dzdVg1TEFoNmJoZFM4Q2dDeUtkQ1RCYWs1cFNsRlctRl9XeEF2VzM0N29BRzBMMlVhUVBEQmdHV0hwand0N0xGQ2JKZE0tR0NYaS1yRzBqN1JxcDg1ckxhRm96SThIeGVYcUlOY1ZLWVl3UG9senBxOGtOdk11TlMwT2haVEdoa1hvYXIwZjhZZXJCZkVmYUtfay1oS3lnOFJR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794255076000,
-    "summaryEn": "Syria, Jordan seek to mend ties after deadly airstrikes, sign cooperation deals Reuters",
-    "summaryAr": "Syria, Jordan seek to mend ties after deadly airstrikes, sign cooperation deals Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "How is Gaza coping with another severe winter?",
-    "titleAr": "How is Gaza coping with another severe winter?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/how-is-gaza-coping-with-another-severe-winter?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794253666000,
-    "summaryEn": "How is Gaza coping with another severe winter?",
-    "summaryAr": "How is Gaza coping with another severe winter?",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US agencies unite to combat rogue drone threats nationwide",
-    "titleAr": "US agencies unite to combat rogue drone threats nationwide",
-    "link": "https://www.aljazeera.com/news/2026/11/9/us-agencies-unite-to-combat-rogue-drone-threats-nationwide?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794251276000,
-    "summaryEn": "More than $40bn allocated by NATO for counter-drone technologies as US agencies ramp up measures against aerial threats.",
-    "summaryAr": "More than $40bn allocated by NATO for counter-drone technologies as US agencies ramp up measures against aerial threats.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Qatar PM meets with Trump for talks on ending war on Iran",
-    "titleAr": "Qatar PM meets with Trump for talks on ending war on Iran",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794250080000,
-    "summaryEn": "Qatari Prime Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani has met with US President Donald Trump.",
-    "summaryAr": "Qatari Prime Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani has met with US President Donald Trump.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen government forces claim new advances as Houthi border attacks resume",
-    "titleAr": "Yemen government forces claim new advances as Houthi border attacks resume",
-    "link": "https://www.aljazeera.com/news/2026/11/9/yemen-government-forces-claim-new-advances-as-houthi-border-attacks-resume?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794249423000,
-    "summaryEn": "Yemeni forces claim fresh advances across key fronts as cross-border Houthi attacks surge amid heavy clashes.",
-    "summaryAr": "Yemeni forces claim fresh advances across key fronts as cross-border Houthi attacks surge amid heavy clashes.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -256,38 +448,6 @@
     ]
   },
   {
-    "titleEn": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Arab News",
-    "titleAr": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Arab News",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMTJmQjZyXzV6WndUR3ZMMWtUMjRuSGtKbmJIQkR0bTBBRHBhb1Awajh6aUUtaXFBZXk0QUZ5NXd0QnJQN2xUMWxzVTNNS2VDZXRNUlRhLXhDd3lfdFJHS1otXzI2UTQxc1JTbGkwOHFJZFhVNEc4WHhteTg3M1FLVk9uNlN6NjFtbmNMTGlGSVlhRmU0WVlTYWdlS2J0S3NMcFN2UkxyLUNuaVIwZ2tTTEtTV0R6dUNjSXZn?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794230946000,
-    "summaryEn": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war Arab News",
-    "summaryAr": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war Arab News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gulf markets gain on hopes Iran strikes will stay off the table - Reuters",
-    "titleAr": "Gulf markets gain on hopes Iran strikes will stay off the table - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTktoWW9WcXF4bTZDdDJwR2Z4Rm1SdmZvZlR3Sl9NVmxPZUhZQVBhb2k4WXJUczBkLUxOV0dWaHZHZ0tuNUlEcVU3azhUem9ib1prV0xXNWdPdVZjNFAwYTBTNFRKWEgwMmNtMUQ5dG1zTzVFY3J1RmdHMk92d2pNYkoxaTBmdE9oaV9aUFdLc0tPdVNqRmNGTlpvS3hQSE5LaDdGbzJkVFdNNXNoSlJyZE1mQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794229855000,
-    "summaryEn": "Gulf markets gain on hopes Iran strikes will stay off the table Reuters",
-    "summaryAr": "Gulf markets gain on hopes Iran strikes will stay off the table Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
     "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -304,13 +464,29 @@
     ]
   },
   {
-    "titleEn": "Oil Prices Fall Below $90 as Trump Signals Reduced Risk of New Iran Attacks — Middle East Supply Recovery Pressures Crude Markets - EnergyNow.com",
-    "titleAr": "Oil Prices Fall Below $90 as Trump Signals Reduced Risk of New Iran Attacks — Middle East Supply Recovery Pressures Crude Markets - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNFM3QTZyMDJjRnFZNS16empZel9FMGYzbHpVV2NocTBQNkpUQ1BIS0RpaWlIbUJHclJIYXJnSWZyVlEzeDVLMF9DVjJzSk9XWmxkbGt5ME5EOXNBcWtuTW9LOGZEcFN2cTFESGFEVE5JRWpmb3JGdnM4VU1MTjlRZHNhMnNqVGtOajcxWm1XRl9SRjlBTm1tTDdtZDd5SWF0Nk9aWTZZT1dWYUtaYmRmQi1nNWZBWUtpckJvSngzQXA1NUg1YmxnX3dyVEdLUzkzVzVydEdkMWphcnNybFl3bGoyZ0ZZdzhCVHFHWDNR?oc=5",
+    "titleEn": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh - The National",
+    "titleAr": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh - The National",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1794223980000,
-    "summaryEn": "Oil Prices Fall Below $90 as Trump Signals Reduced Risk of New Iran Attacks — Middle East Supply Recovery Pressures Crude Markets EnergyNow.com",
-    "summaryAr": "Oil Prices Fall Below $90 as Trump Signals Reduced Risk of New Iran Attacks — Middle East Supply Recovery Pressures Crude Markets EnergyNow.com",
+    "pubDate": 1794224559000,
+    "summaryEn": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh The National",
+    "summaryAr": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh The National",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Trump says he will hold off on fresh Iran strikes for now - Reuters",
+    "titleAr": "Trump says he will hold off on fresh Iran strikes for now - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794222960000,
+    "summaryEn": "Trump says he will hold off on fresh Iran strikes for now Reuters",
+    "summaryAr": "Trump says he will hold off on fresh Iran strikes for now Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -432,6 +608,22 @@
     ]
   },
   {
+    "titleEn": "Houthi attack damages Aramco building in Riyadh's financial district - Reuters",
+    "titleAr": "Houthi attack damages Aramco building in Riyadh's financial district - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794168188000,
+    "summaryEn": "Houthi attack damages Aramco building in Riyadh's financial district Reuters",
+    "summaryAr": "Houthi attack damages Aramco building in Riyadh's financial district Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Seven dead and more than 100 injured after trains collide in Egypt",
     "titleAr": "Seven dead and more than 100 injured after trains collide in Egypt",
     "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
@@ -498,7 +690,7 @@
   {
     "titleEn": "'Sorely needed': Israelis hope for change as Eisenkot to form government - Reuters",
     "titleAr": "'Sorely needed': Israelis hope for change as Eisenkot to form government - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56X2pFdEdQRTZJWWZ2Tl9RalZMMzBCMUs5MXk4SFBaN3ZYV3ROVExRcGtJTkxyYUpBREwzblFIX0ZacWtYa3NrdE50TVlrY1VSTmpja3hzNlBJX3dXa2w1OGhMYTVxQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zT3N4YlVKSGJTUGhPQk1haFQtektuakdsRjJyMnFtS0RRdy10ZzRsRWtaOWx4NTctN25xYXdqMGdmTXlnd0Y2VTZqdXNCdFFCWDdhS2ltMXJXVVdKWURCWmZ0aGtPR2s?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1794153125000,
     "summaryEn": "'Sorely needed': Israelis hope for change as Eisenkot to form government Reuters",
@@ -519,198 +711,6 @@
     "pubDate": 1794147600000,
     "summaryEn": "Trump says he is highly unlikely to order Iran strikes if talks progress Reuters",
     "summaryAr": "Trump says he is highly unlikely to order Iran strikes if talks progress Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran executes three men for 'armed unrest' after January protests",
-    "titleAr": "Iran executes three men for 'armed unrest' after January protests",
-    "link": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794145070000,
-    "summaryEn": "It is claimed Hassan Dioband, Hamid Kazemi and Reza Zanganeh were part of anti-government protests earlier this year.",
-    "summaryAr": "It is claimed Hassan Dioband, Hamid Kazemi and Reza Zanganeh were part of anti-government protests earlier this year.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gulf markets retreat as traders await Trump's next move on Iran - Reuters",
-    "titleAr": "Gulf markets retreat as traders await Trump's next move on Iran - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEhqejQxdWF5MFpVWjduZHVuY1l1VmxKYm9CN3F4aC1qWkFIWFJqZDJEZ1VoWmthUW1NaWdWQUY4UUprUGsyWFA2a0trUE5HUjEtUHpPNFV1UnBpMHRrR2RlQWo1c2xvY1J2QnprNnNkbHNpY3ZtUWxMQkRzTVpKcktuZjhJdW5zSHdsZUhxYmxBVy00UWVnbndnOEc2WWplMEEwREVib0VyZ3BzZWlR?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794143648000,
-    "summaryEn": "Gulf markets retreat as traders await Trump's next move on Iran Reuters",
-    "summaryAr": "Gulf markets retreat as traders await Trump's next move on Iran Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli carrier Israir in talks to purchase local rival Arkia - Reuters",
-    "titleAr": "Israeli carrier Israir in talks to purchase local rival Arkia - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1VzSmNzUWpRT19Xek4wcVlGWjFKUV8xR3daN25YckZUVGRCamtfNU1IZVVySzV3Zi1fa1p2TEZRMWl3aGxFc2xYaTJjallVWXZveEppZzRsay1xS0VZYVBDOXIzZmozYjh2Tmk5XzJvb1E1ZDJsdzM5SS1pTi1vUkYtT1ZZYmJlSW9LZDF0VS01czU2ZERRZlZWeVQ0aGZabldmR1V6VFpwMGIza1E?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794137529000,
-    "summaryEn": "Israeli carrier Israir in talks to purchase local rival Arkia Reuters",
-    "summaryAr": "Israeli carrier Israir in talks to purchase local rival Arkia Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthi attack damages Aramco building in Riyadh's financial district - Reuters",
-    "titleAr": "Houthi attack damages Aramco building in Riyadh's financial district - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794115440000,
-    "summaryEn": "Houthi attack damages Aramco building in Riyadh's financial district Reuters",
-    "summaryAr": "Houthi attack damages Aramco building in Riyadh's financial district Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Houthis say at least 33 killed in Saudi air strike",
-    "titleAr": "Houthis say at least 33 killed in Saudi air strike",
-    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794110592000,
-    "summaryEn": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-    "summaryAr": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel's president tasks opposition leader Eisenkot with forming government",
-    "titleAr": "Israel's president tasks opposition leader Eisenkot with forming government",
-    "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794089999000,
-    "summaryEn": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-    "summaryAr": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US offers $20m reward for information about Iran's nuclear programme",
-    "titleAr": "US offers $20m reward for information about Iran's nuclear programme",
-    "link": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794075278000,
-    "summaryEn": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
-    "summaryAr": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza wedding festival sees 250 couples married at the same time",
-    "titleAr": "Gaza wedding festival sees 250 couples married at the same time",
-    "link": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794074321000,
-    "summaryEn": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-    "summaryAr": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Tens of thousands of tents flooded after heavy rains in Gaza",
-    "titleAr": "Tens of thousands of tents flooded after heavy rains in Gaza",
-    "link": "https://www.bbc.co.uk/news/articles/cx240e5py64jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794068755000,
-    "summaryEn": "Heavy rain has flooded temporary shelters used by Palestinians displaced during Israel's war with Hamas.",
-    "summaryAr": "Heavy rain has flooded temporary shelters used by Palestinians displaced during Israel's war with Hamas.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "titleAr": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "source": "The Hacker News",
-    "pubDate": 1793981318000,
-    "summaryEn": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The upda…",
-    "summaryAr": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The upda…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "titleAr": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-    "source": "The Hacker News",
-    "pubDate": 1793978509000,
-    "summaryEn": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.…",
-    "summaryAr": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US midterm results spark fears in Israel over future of two countries' ties",
-    "titleAr": "US midterm results spark fears in Israel over future of two countries' ties",
-    "link": "https://www.bbc.co.uk/news/articles/cx30ee8018lvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1793971424000,
-    "summaryEn": "Staunch US support of Israel has been raised as one of the reasons why Republicans performed so badly.",
-    "summaryAr": "Staunch US support of Israel has been raised as one of the reasons why Republicans performed so badly.",
     "tags": [
       {
         "textEn": "INTEL",
