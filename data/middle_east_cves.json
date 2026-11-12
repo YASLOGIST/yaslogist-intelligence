@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-89204",
-    "system": "RUGGEDCOM CROSSBOW",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-89203",
-    "system": "RUGGEDCOM CROSSBOW",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-89202",
-    "system": "RUGGEDCOM CROSSBOW",
+    "id": "CVE-2026-11824",
+    "system": "SQLite",
     "severity": "High",
-    "cvss": 7.1,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-89201",
-    "system": "RUGGEDCOM CROSSBOW",
+    "id": "CVE-2026-11822",
+    "system": "SQLite",
+    "severity": "Medium",
+    "cvss": 6.8,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2025-71316",
+    "system": "sqldiff",
+    "severity": "Critical",
+    "cvss": 9.2,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2025-70873",
+    "system": "n/a",
     "severity": "High",
-    "cvss": 7.7,
+    "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-89200",
-    "system": "RUGGEDCOM CROSSBOW",
+    "id": "CVE-2025-6965",
+    "system": "SQLite",
+    "severity": "High",
+    "cvss": 7.2,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-110936",
+    "system": "Siemens Software Center",
     "severity": "High",
     "cvss": 8.4,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-89199",
+    "id": "CVE-2026-89206",
     "system": "RUGGEDCOM CROSSBOW",
-    "severity": "High",
-    "cvss": 8.7,
-    "badge": "badge-high"
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-89198",
+    "id": "CVE-2026-89205",
     "system": "RUGGEDCOM CROSSBOW",
-    "severity": "High",
-    "cvss": 8.7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-89197",
-    "system": "RUGGEDCOM CROSSBOW",
-    "severity": "High",
-    "cvss": 8.7,
-    "badge": "badge-high"
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
   }
 ]
