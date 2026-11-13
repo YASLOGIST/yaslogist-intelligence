@@ -1,5 +1,245 @@
 [
   {
+    "titleEn": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
+    "titleAr": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794594483000,
+    "summaryEn": "Six-year-old burns victim Masa is one of the patients in Gaza whose recovery is under threat due to Israeli restrictions",
+    "summaryAr": "Six-year-old burns victim Masa is one of the patients in Gaza whose recovery is under threat due to Israeli restrictions",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+    "titleAr": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794593345000,
+    "summaryEn": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
+    "summaryAr": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+    "titleAr": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+    "link": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794593062000,
+    "summaryEn": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
+    "summaryAr": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "German military drone operations disrupted by cyberattack",
+    "titleAr": "German military drone operations disrupted by cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+    "source": "BleepingComputer",
+    "pubDate": 1794591116000,
+    "summaryEn": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+    "summaryAr": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "titleAr": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+    "source": "The Hacker News",
+    "pubDate": 1794588788000,
+    "summaryEn": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full …",
+    "summaryAr": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full …",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UN rights chief demands Houthis return body of Yemeni staff member - Reuters",
+    "titleAr": "UN rights chief demands Houthis return body of Yemeni staff member - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0tBUjRIbFpCamQtRnZqMWMyaTFZanhSMGVETDdETnlENjB2NVptdHpscFBKM0N0ZzFtT25mcUlOMi1FV1FvU3E3eGtHbHc1Ymo1U2VPdVVSaVNuMHExMm9rRlBxNUdpdHluTTA5SXNWajZ0X3BTM200UmZhdEdTUHBqZEc3ejYtSjFHTURoQVYtekZPeWlWQTZwX0s1RTZhbURIU24wOFNHdFRBNElVU0Y4MzRjVmg1?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794588703000,
+    "summaryEn": "UN rights chief demands Houthis return body of Yemeni staff member Reuters",
+    "summaryAr": "UN rights chief demands Houthis return body of Yemeni staff member Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Baby dies from cold in Gaza",
+    "titleAr": "Jerusalem Daily: Baby dies from cold in Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/jerusalem-daily-baby-dies-from-cold-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794587664000,
+    "summaryEn": "A baby dies from the cold in Gaza as 53 countries urge Israel to allow aid in.",
+    "summaryAr": "A baby dies from the cold in Gaza as 53 countries urge Israel to allow aid in.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+    "titleAr": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+    "link": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794586953000,
+    "summaryEn": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
+    "summaryAr": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+    "titleAr": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "source": "BleepingComputer",
+    "pubDate": 1794586903000,
+    "summaryEn": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+    "summaryAr": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
+    "titleAr": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
+    "link": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794582136000,
+    "summaryEn": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
+    "summaryAr": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "France favours adding pressure on Yemen's Houthis, foreign ministry spokesperson says - Reuters",
+    "titleAr": "France favours adding pressure on Yemen's Houthis, foreign ministry spokesperson says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0dEanluS0JnQXlINU1sdXFaSHJWVElqdTlyY3Y2RmxWcGRFOVhBYWdXZGh2T2Y3Z3gwTG5NZWF1N2p2YXhoVFMxWEtoMTN2RWtSTnBmMUN4M1Q4NUNuQy0yeEUtb21zS2pZZTlSNDZrbG1tYnRxRzd3bUl2NEt1eVE2aEVCenh4SGYwZnJ6Ymt4UFZCazE3UTFRbEY3ek9BVXVocW0zNWswRzJFNWxCanV0NzNhcWlCZ3poTWc5RlRBOFhUNkFsRkJqWl94MW8?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794580063000,
+    "summaryEn": "France favours adding pressure on Yemen's Houthis, foreign ministry spokesperson says Reuters",
+    "summaryAr": "France favours adding pressure on Yemen's Houthis, foreign ministry spokesperson says Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Can Netanyahu launch a strike on Iran before he leaves?",
+    "titleAr": "Can Netanyahu launch a strike on Iran before he leaves?",
+    "link": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794579380000,
+    "summaryEn": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
+    "summaryAr": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
+    "titleAr": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/uk-accused-of-silencing-pro-palestine-voices-through-entry-bans?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794575966000,
+    "summaryEn": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
+    "summaryAr": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "France slams Israel’s ‘demagogic’ ban on opposition leader Melenchon",
+    "titleAr": "France slams Israel’s ‘demagogic’ ban on opposition leader Melenchon",
+    "link": "https://www.aljazeera.com/news/2026/11/13/france-slams-israels-demagogic-ban-on-left-wing-leader-melenchon?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794574628000,
+    "summaryEn": "Israel's move came after France banned a prominent Israeli settler from entering the country.",
+    "summaryAr": "Israel's move came after France banned a prominent Israeli settler from entering the country.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+    "titleAr": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+    "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794572908000,
+    "summaryEn": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+    "summaryAr": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
     "titleAr": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
     "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
@@ -11,22 +251,6 @@
       {
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran threatens unlimited response over Strait of Hormuz after US attack",
-    "titleAr": "Iran threatens unlimited response over Strait of Hormuz after US attack",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794567265000,
-    "summaryEn": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
-    "summaryAr": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
       }
     ]
@@ -48,38 +272,6 @@
     ]
   },
   {
-    "titleEn": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
-    "titleAr": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
-    "link": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794565582000,
-    "summaryEn": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
-    "summaryAr": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "With every rainfall, Gaza risks losing access to power and healthcare",
-    "titleAr": "With every rainfall, Gaza risks losing access to power and healthcare",
-    "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794563010000,
-    "summaryEn": "Heavy rains flood shelters, damage solar power systems and threaten essential healthcare services.",
-    "summaryAr": "Heavy rains flood shelters, damage solar power systems and threaten essential healthcare services.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "titleAr": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
@@ -96,77 +288,13 @@
     ]
   },
   {
-    "titleEn": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war - Haaretz",
-    "titleAr": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war - Haaretz",
-    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTHdTU0VScTcwYjg1bHRWYlViQndOcF9Md0FFay0yQlhPWENaT1dBRUlIelhlUnFsbHFJbnF1SmJvdkkyb0RLN3BSWWdxQkJ1MkQ0M1VUT3NSeVo0aDFvS1MxVjhEZnRINC03M19XV1dlWTZqR3Zhb2tlUGFYYnM2Um9lY0FNMzZsM3ZYdmNVU2p5Rmh6SWlMTldXMEFsY2xheU9LVE54LS1kdFNyNXMyamMzaDBXb1JjbTlxdmFmbTBSeml3bjEzQTdFMTF5ZnZTbjRONVRfdFhmb3hvRXJHSXFCZUpPQjlERkZuVFJYUzAteW5QeEM1cnNlT1VPZDA5R3BsYQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794556380000,
-    "summaryEn": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war Haaretz",
-    "summaryAr": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war Haaretz",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-    "titleAr": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-    "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794545516000,
-    "summaryEn": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
-    "summaryAr": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-    "titleAr": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-    "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794545320000,
-    "summaryEn": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
-    "summaryAr": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
-    "titleAr": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794538860000,
-    "summaryEn": "Oil prices set for second weekly decline as Trump sticks with Iran blockade Reuters",
-    "summaryAr": "Oil prices set for second weekly decline as Trump sticks with Iran blockade Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
-    "titleAr": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
+    "titleEn": "US denies Iran's claim that it attacked early-warning radar in Bahrain - Reuters",
+    "titleAr": "US denies Iran's claim that it attacked early-warning radar in Bahrain - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5",
     "source": "Reuters (Google News)",
     "pubDate": 1794538260000,
-    "summaryEn": "Iran's Guards say they targeted a US early-warning radar in Bahrain Reuters",
-    "summaryAr": "Iran's Guards say they targeted a US early-warning radar in Bahrain Reuters",
+    "summaryEn": "US denies Iran's claim that it attacked early-warning radar in Bahrain Reuters",
+    "summaryAr": "US denies Iran's claim that it attacked early-warning radar in Bahrain Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -256,6 +384,22 @@
     ]
   },
   {
+    "titleEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
+    "titleAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdVF6dFIxTTlxMm1rYjJUaHVwV09rLWI4Q0c4M3dZYm5pTE5DMlh5U0xvX3hXUDBCcG96LVJra01vbkJVcl9VZ3k2d2cyY1VRNWllQmFnY3NRVUFkSlBDa3FqQXZPaFhONU9MWHF2d3JoMGkzYUY2ZkRUajR3eXVRYjV2UVM2RFJlS205Y19uU3Jyd000TlR3RV9vZFRuSFhzUVMyY3plazhUUXluLTUtU3JNZlpvUE1ZTTJ1bmhybEpmMHRMVEpOOXNZbTZFenpTeVp0S3FROTJ5TW0ta3V2UnMxQ2pneFNwYWNaeHB3?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794505773000,
+    "summaryEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
+    "summaryAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
     "titleAr": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
     "link": "https://www.bbc.co.uk/news/articles/c804wp9013kvo?at_medium=RSS&at_campaign=rss",
@@ -304,6 +448,22 @@
     ]
   },
   {
+    "titleEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
+    "titleAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794500855000,
+    "summaryEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
+    "summaryAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
     "titleAr": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnl4RjlVd0VYeWFKTUM1eDh4Y1J4V2RsZXlIYTRDUjZGdzJoeHBJQnZXd0NCYTBXcVhUQjFYZ1JNUnk3SDhVWXBHZWJrbm1EQTREYWJzN2MxU1lkQUg1Y3JyWDV1bU1mN3Fha2VfejBDN3o5ZG5aZWdGMVdZT1NvbDBXM045V01GUHpvWEI5TmFTMTlyTkN6cDZhWmxsTVZxNE5mOW1Wb1lLMG04a0F3RXdRT1o1d0hld1h2Tg?oc=5",
@@ -343,6 +503,22 @@
     "pubDate": 1794497929000,
     "summaryEn": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS)…",
     "summaryAr": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS)…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike - Reuters",
+    "titleAr": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14aXlwR0ZmMUJhQW8yRnA5aUVEQnd4cjhzX1hESWxaUUNfNVE2NndfSHNRNkF6WFBFZ0FBNENsTXpGMFVRRFlQdm9kazd4VDlxM29qOTM5aGNTUlp1LU9YNUZjZTlVWEs3NU9EeHI3bllyTmZBZ3I1bEtfREM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794492410000,
+    "summaryEn": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike Reuters",
+    "summaryAr": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -535,187 +711,6 @@
     "pubDate": 1794450540000,
     "summaryEn": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift Reuters",
     "summaryAr": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
-    "titleAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794448320000,
-    "summaryEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
-    "summaryAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia says debris from intercepted missiles falls in Mecca region - Reuters",
-    "titleAr": "Saudi Arabia says debris from intercepted missiles falls in Mecca region - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEdmMVduSHJxWEd1UWVkOUtrcF91S3VfSnI0MzlnTjh6NFdHOFNpSTBXU1JpdFk3NHdORlNsck91bFEyNUNLMHdoT1hFZmlqTGdaUDU2c2ZkeXE0Zl82cURaQXZxTS1IMmxqS3FNUEVNU1FRU1NQU01EQkxzNkN0YUhWek1qRm9ZYkNUS1FrWUIyTmFaUFFkTERqZER3UUx6cEN3VVdWNG56R19zSFkzRWphVUl1Z3I1eHc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794442860000,
-    "summaryEn": "Saudi Arabia says debris from intercepted missiles falls in Mecca region Reuters",
-    "summaryAr": "Saudi Arabia says debris from intercepted missiles falls in Mecca region Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Tankers burn in the Middle East despite hopes for de-escalation - Reuters",
-    "titleAr": "Tankers burn in the Middle East despite hopes for de-escalation - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObk1HVHlrMXF2OXBza19vMDdFUENMek40em9sQmVNLXdWOFduMEJlVU4ycmVzeE1MYWt0YV9FRDR1OTVSc05jWFQ5QnJ1bjlZSGk4bXhwUEk2cGhBeTBlMkI5VEkzbHF4YlNKdkpYdFYzWUtua1RqWEh2VFR2TkppS3hsQlBrb1hHLTJBSzh6ZngyNXc5bk9XTWNJbWlaSWlxZDlwcGl1WTdEWFhOZ2RZSVRxMA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794440368000,
-    "summaryEn": "Tankers burn in the Middle East despite hopes for de-escalation Reuters",
-    "summaryAr": "Tankers burn in the Middle East despite hopes for de-escalation Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli strike on Gaza hospital kills six, including surgeon, medics say - Reuters",
-    "titleAr": "Israeli strike on Gaza hospital kills six, including surgeon, medics say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOekJqQTlDSnpyUHhBeEEwb0V2X2s4NzdhSzR3a0NvbDZoR0FWXzR0X2k5YV9zaHlhU0M3YlVMWk9RTDltZXZiajZGdlVMSmxrMnJkWEI4QXU4bUFGSWppTDJFcVh4amhHR1lkYkdKT3VvT1BicUZnWTRBb3JuU3lHYVBScHhIdkc2bC1DZWpOVWNlbkJiTTRIQXdxYlE2a1hndlV5R3pwOVY4WVhvVXYwNVJ0UXU3WGJuTFAxZlhNU3YyeVhB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794439560000,
-    "summaryEn": "Israeli strike on Gaza hospital kills six, including surgeon, medics say Reuters",
-    "summaryAr": "Israeli strike on Gaza hospital kills six, including surgeon, medics say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Hamilton urges Israel to let Gaza aid in after Rafah visit - Reuters",
-    "titleAr": "Hamilton urges Israel to let Gaza aid in after Rafah visit - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTG9mNkNObjdjUi1CVnI5cTBsMmNzVVNFck4yb1Bnd2lTUDVqMDk0WEd5UXpnVlZPamRudXZuOVdCSXFicEViNEFMSWFnZ2k0cmhsWmJZSmlhUEQ2MnRMMEJtYU9OSkQ5d0FFS2tQU3BWeHl2VHlFckJaeEZKS0VqRU5mSW1va2FHM2VzbVFjVWdiVTAwenQzVkJwcDJJVERabjJ1SEFZUGttUQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794435568000,
-    "summaryEn": "Hamilton urges Israel to let Gaza aid in after Rafah visit Reuters",
-    "summaryAr": "Hamilton urges Israel to let Gaza aid in after Rafah visit Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters",
-    "titleAr": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794430671000,
-    "summaryEn": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca Reuters",
-    "summaryAr": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-    "titleAr": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-    "source": "Dark Reading",
-    "pubDate": 1794427518000,
-    "summaryEn": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
-    "summaryAr": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation - gCaptain",
-    "titleAr": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation - gCaptain",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmxwZ2ZQZUVxY3dLT214SlFyNl9pYk81THhCWWdiVHIycGlySTlHeHZQdXR3V3Q0TnhhS0F4enlLako4Wkt2bWlOY05fSzJ2NWtrQ21XNk5MaTQ1VXNRTW12T0dBQWZLZ0dPcldCQTUxeFMxb0dLeXlNdXpvaFl5VkxRb1Y2RXhlMkgyeEp6Z1MtdkF2Y0RsYnVLU0tnQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794417622000,
-    "summaryEn": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation gCaptain",
-    "summaryAr": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation gCaptain",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      },
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "titleAr": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794416374000,
-    "summaryEn": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
-    "summaryAr": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-    "titleAr": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-    "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794415511000,
-    "summaryEn": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
-    "summaryAr": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "titleAr": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-    "source": "The Hacker News",
-    "pubDate": 1794413566000,
-    "summaryEn": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affecte…",
-    "summaryAr": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affecte…",
     "tags": [
       {
         "textEn": "INTEL",

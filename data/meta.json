@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-13T11:57:54.927Z",
+  "generatedAt": "2026-11-13T19:31:27.763Z",
   "source": "pipeline",
   "counts": {
     "wire": 45,
     "cves": 8,
     "countries": 7
   },
-  "wireNewestAt": "2026-11-13T10:55:03.000Z",
+  "wireNewestAt": "2026-11-13T18:28:03.000Z",
   "feeds": [
     {
       "source": "BBC Middle East",
       "ok": true,
-      "items": 28,
+      "items": 26,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
     {
       "source": "Reuters (Google News)",
       "ok": true,
-      "items": 33,
+      "items": 34,
       "error": null
     },
     {
