@@ -1,65 +1,177 @@
 [
   {
-    "titleEn": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
-    "titleAr": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
-    "link": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794534295000,
-    "summaryEn": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
-    "summaryAr": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
+    "titleEn": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+    "titleAr": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+    "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+    "source": "The Hacker News",
+    "pubDate": 1794567303000,
+    "summaryEn": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal pas…",
+    "summaryAr": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal pas…",
     "tags": [
       {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
       }
     ]
   },
   {
-    "titleEn": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
-    "titleAr": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
-    "link": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
+    "titleEn": "Iran threatens unlimited response over Strait of Hormuz after US attack",
+    "titleAr": "Iran threatens unlimited response over Strait of Hormuz after US attack",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1794534197000,
-    "summaryEn": "Albania has faced criticism over low defence spending, as Rama is under pressure at home amid months of protests.",
-    "summaryAr": "Albania has faced criticism over low defence spending, as Rama is under pressure at home amid months of protests.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-    "titleAr": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794528026000,
-    "summaryEn": "Speaking at the White House, Trump says Gulf countries asked him to hold off on further attacks against Iran.",
-    "summaryAr": "Speaking at the White House, Trump says Gulf countries asked him to hold off on further attacks against Iran.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-    "titleAr": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-    "link": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794527558000,
-    "summaryEn": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure.",
-    "summaryAr": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure.",
+    "pubDate": 1794567265000,
+    "summaryEn": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
+    "summaryAr": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
     "tags": [
       {
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Check Point warns of zero-day flaw exploited for root access",
+    "titleAr": "Check Point warns of zero-day flaw exploited for root access",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+    "source": "BleepingComputer",
+    "pubDate": 1794566662000,
+    "summaryEn": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerab…",
+    "summaryAr": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerab…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
+    "titleAr": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
+    "link": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794565582000,
+    "summaryEn": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
+    "summaryAr": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "With every rainfall, Gaza risks losing access to power and healthcare",
+    "titleAr": "With every rainfall, Gaza risks losing access to power and healthcare",
+    "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794563010000,
+    "summaryEn": "Heavy rains flood shelters, damage solar power systems and threaten essential healthcare services.",
+    "summaryAr": "Heavy rains flood shelters, damage solar power systems and threaten essential healthcare services.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+    "titleAr": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+    "source": "The Hacker News",
+    "pubDate": 1794557149000,
+    "summaryEn": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unrepor…",
+    "summaryAr": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unrepor…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war - Haaretz",
+    "titleAr": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war - Haaretz",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTHdTU0VScTcwYjg1bHRWYlViQndOcF9Md0FFay0yQlhPWENaT1dBRUlIelhlUnFsbHFJbnF1SmJvdkkyb0RLN3BSWWdxQkJ1MkQ0M1VUT3NSeVo0aDFvS1MxVjhEZnRINC03M19XV1dlWTZqR3Zhb2tlUGFYYnM2Um9lY0FNMzZsM3ZYdmNVU2p5Rmh6SWlMTldXMEFsY2xheU9LVE54LS1kdFNyNXMyamMzaDBXb1JjbTlxdmFmbTBSeml3bjEzQTdFMTF5ZnZTbjRONVRfdFhmb3hvRXJHSXFCZUpPQjlERkZuVFJYUzAteW5QeEM1cnNlT1VPZDA5R3BsYQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794556380000,
+    "summaryEn": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war Haaretz",
+    "summaryAr": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war Haaretz",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+    "titleAr": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+    "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794545516000,
+    "summaryEn": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
+    "summaryAr": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+    "titleAr": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+    "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794545320000,
+    "summaryEn": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
+    "summaryAr": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
+    "titleAr": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794538860000,
+    "summaryEn": "Oil prices set for second weekly decline as Trump sticks with Iran blockade Reuters",
+    "summaryAr": "Oil prices set for second weekly decline as Trump sticks with Iran blockade Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
+    "titleAr": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794538260000,
+    "summaryEn": "Iran's Guards say they targeted a US early-warning radar in Bahrain Reuters",
+    "summaryAr": "Iran's Guards say they targeted a US early-warning radar in Bahrain Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -80,22 +192,6 @@
     ]
   },
   {
-    "titleEn": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
-    "titleAr": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
-    "link": "https://www.aljazeera.com/news/2026/11/12/palestinian-baby-dies-from-cold-in-gaza-amid-israeli-restrictions-on-aid?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794513386000,
-    "summaryEn": "The baby's father said he died of hypothermia overnight in their family's tent in southern Gaza.",
-    "summaryAr": "The baby's father said he died of hypothermia overnight in their family's tent in southern Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
     "titleAr": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
     "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
@@ -112,38 +208,6 @@
     ]
   },
   {
-    "titleEn": "Iranian men guilty of spying on British journalists",
-    "titleAr": "Iranian men guilty of spying on British journalists",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794512313000,
-    "summaryEn": "Two Iranian men were convicted under Britain's National Security Act for spying on dissident journalists.",
-    "summaryAr": "Two Iranian men were convicted under Britain's National Security Act for spying on dissident journalists.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
-    "titleAr": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
-    "link": "https://www.aljazeera.com/news/2026/11/12/uk-mosque-rebukes-comissions-warning-following-palestine-comments?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794509929000,
-    "summaryEn": "The Lewisham Islamic Centre accused the charity watchdog of imposing disproportionate expectations on Muslim charities.",
-    "summaryAr": "The Lewisham Islamic Centre accused the charity watchdog of imposing disproportionate expectations on Muslim charities.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Two men guilty of spying for Iran over plan to target journalists and lawyer",
     "titleAr": "Two men guilty of spying for Iran over plan to target journalists and lawyer",
     "link": "https://www.bbc.co.uk/news/articles/ck9q8g8209l2o?at_medium=RSS&at_campaign=rss",
@@ -151,22 +215,6 @@
     "pubDate": 1794509640000,
     "summaryEn": "The men were convicted of engaging in conduct likely to assist an Iranian intelligence service.",
     "summaryAr": "The men were convicted of engaging in conduct likely to assist an Iranian intelligence service.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Pro-Palestine philanthropist faces US extradition hearing in Spain",
-    "titleAr": "Pro-Palestine philanthropist faces US extradition hearing in Spain",
-    "link": "https://www.aljazeera.com/news/2026/11/12/james-fergie-chambers-extradition-hearing?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794508900000,
-    "summaryEn": "James 'Fergie' Chambers denies wrongdoing, while his wife urges PM Sanchez to grant him political asylum.",
-    "summaryAr": "James 'Fergie' Chambers denies wrongdoing, while his wife urges PM Sanchez to grant him political asylum.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -192,22 +240,6 @@
     ]
   },
   {
-    "titleEn": "Al Jazeera reports from Gaza hospital attacked by Israel",
-    "titleAr": "Al Jazeera reports from Gaza hospital attacked by Israel",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794506582000,
-    "summaryEn": "Al Jazeera’s Tareq Abu Azzoum reports on the aftermath of an Israeli strike on Nasser Hospital",
-    "summaryAr": "Al Jazeera’s Tareq Abu Azzoum reports on the aftermath of an Israeli strike on Nasser Hospital",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
     "titleAr": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
     "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
@@ -220,22 +252,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
-    "titleAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdVF6dFIxTTlxMm1rYjJUaHVwV09rLWI4Q0c4M3dZYm5pTE5DMlh5U0xvX3hXUDBCcG96LVJra01vbkJVcl9VZ3k2d2cyY1VRNWllQmFnY3NRVUFkSlBDa3FqQXZPaFhONU9MWHF2d3JoMGkzYUY2ZkRUajR3eXVRYjV2UVM2RFJlS205Y19uU3Jyd000TlR3RV9vZFRuSFhzUVMyY3plazhUUXluLTUtU3JNZlpvUE1ZTTJ1bmhybEpmMHRMVEpOOXNZbTZFenpTeVp0S3FROTJ5TW0ta3V2UnMxQ2pneFNwYWNaeHB3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794505773000,
-    "summaryEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
-    "summaryAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -284,22 +300,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
-    "titleAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794500855000,
-    "summaryEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
-    "summaryAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -656,6 +656,27 @@
     ]
   },
   {
+    "titleEn": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation - gCaptain",
+    "titleAr": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation - gCaptain",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmxwZ2ZQZUVxY3dLT214SlFyNl9pYk81THhCWWdiVHIycGlySTlHeHZQdXR3V3Q0TnhhS0F4enlLako4Wkt2bWlOY05fSzJ2NWtrQ21XNk5MaTQ1VXNRTW12T0dBQWZLZ0dPcldCQTUxeFMxb0dLeXlNdXpvaFl5VkxRb1Y2RXhlMkgyeEp6Z1MtdkF2Y0RsYnVLU0tnQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794417622000,
+    "summaryEn": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation gCaptain",
+    "summaryAr": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation gCaptain",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
     "titleEn": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
     "titleAr": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
     "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
@@ -700,22 +721,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "NEWSLETTER: Hormuz traffic is up. So are the attacks - Reuters",
-    "titleAr": "NEWSLETTER: Hormuz traffic is up. So are the attacks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYjlBX041WVNOU3VBZEk1UVBkeDJQZ2tmNDFiTExBWUtNMldua215TURPWTU3aTFEbGhlcGRiSnFrX191UVpONXpMSjc5dlVhNVpDZzJWM25lNEtoSE4wSFZpTmtKX1BMWnpkSUdoNk9OeTd0SzFUa2NqdlVxcGpRQ2ZSZEcyTlN3MnRzbTlUZm9tVlU?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794413531000,
-    "summaryEn": "NEWSLETTER: Hormuz traffic is up. So are the attacks Reuters",
-    "summaryAr": "NEWSLETTER: Hormuz traffic is up. So are the attacks Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }

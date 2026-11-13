@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-63352",
+    "id": "CVE-2026-89208",
+    "system": "Capital Embedded AR Classic 431-422",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-44415",
+    "system": "Industrial Edge Device Kit - arm64 V1.10",
+    "severity": "High",
+    "cvss": 8.9,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-44414",
+    "system": "Industrial Edge Cloud Device (IECD)",
+    "severity": "Medium",
+    "cvss": 6.9,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-63357",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63351",
+    "id": "CVE-2026-63356",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63350",
+    "id": "CVE-2026-63355",
+    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "severity": "Medium",
+    "cvss": 5.3,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-63354",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Critical",
     "cvss": 9.4,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-64552",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 8.4,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-64545",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-64538",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": null,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-64425",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": null,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-64423",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": 7.8,
-    "badge": "badge-high"
+    "id": "CVE-2026-63353",
+    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "severity": "Critical",
+    "cvss": 9.4,
+    "badge": "badge-critical"
   }
 ]
