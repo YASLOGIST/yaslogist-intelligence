@@ -1,12 +1,60 @@
 [
   {
-    "titleEn": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
-    "titleAr": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
-    "link": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss",
+    "titleEn": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+    "titleAr": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1794642396000,
-    "summaryEn": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
-    "summaryAr": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
+    "pubDate": 1794672823000,
+    "summaryEn": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+    "summaryAr": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "EU calls for immediate humanitarian access to Gaza",
+    "titleAr": "EU calls for immediate humanitarian access to Gaza",
+    "link": "https://www.aljazeera.com/news/2026/11/14/eu-calls-for-immediate-humanitarian-access-to-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794671842000,
+    "summaryEn": "The EU said that “Israel must enable the work of the UN and its agencies\" after the group was blocked access into Gaza.",
+    "summaryAr": "The EU said that “Israel must enable the work of the UN and its agencies\" after the group was blocked access into Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Israeli forces occupy Palestinian-American’s home",
+    "titleAr": "Jerusalem Daily: Israeli forces occupy Palestinian-American’s home",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/jerusalem-daily-israeli-forces-occupy-palestinian-americans-home?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794670597000,
+    "summaryEn": "Israeli forces occupied a Palestinian-American’s home in the occupied West Bank for 17 days.",
+    "summaryAr": "Israeli forces occupied a Palestinian-American’s home in the occupied West Bank for 17 days.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How does Iran view shift in US approach after JD Vance ordered away?",
+    "titleAr": "How does Iran view shift in US approach after JD Vance ordered away?",
+    "link": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794662684000,
+    "summaryEn": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+    "summaryAr": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -16,13 +64,13 @@
     ]
   },
   {
-    "titleEn": "Siege fuels disease fears in Yemen’s Taiz",
-    "titleAr": "Siege fuels disease fears in Yemen’s Taiz",
-    "link": "https://www.aljazeera.com/news/2026/11/14/siege-fuels-disease-fears-in-yemens-besieged-taiz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794637047000,
-    "summaryEn": "Health officials warn that falling numbers of recorded infections may conceal a worsening disease crisis in Taiz.",
-    "summaryAr": "Health officials warn that falling numbers of recorded infections may conceal a worsening disease crisis in Taiz.",
+    "titleEn": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "titleAr": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "source": "The Hacker News",
+    "pubDate": 1794659915000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +80,13 @@
     ]
   },
   {
-    "titleEn": "Trump, Xi and Putin to hold first three-way summit in China",
-    "titleAr": "Trump, Xi and Putin to hold first three-way summit in China",
-    "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+    "titleEn": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+    "titleAr": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+    "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1794632158000,
-    "summaryEn": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
-    "summaryAr": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
+    "pubDate": 1794658454000,
+    "summaryEn": "A nuclear treaty and the US's war on Iran are among priority topics for China, Russia and US leaders.",
+    "summaryAr": "A nuclear treaty and the US's war on Iran are among priority topics for China, Russia and US leaders.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +96,13 @@
     ]
   },
   {
-    "titleEn": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
-    "titleAr": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794629535000,
-    "summaryEn": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
-    "summaryAr": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
+    "titleEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+    "titleAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794654250000,
+    "summaryEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
+    "summaryAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,18 +112,34 @@
     ]
   },
   {
-    "titleEn": "Tanker collision leaves riverboat passengers clinging to railings",
-    "titleAr": "Tanker collision leaves riverboat passengers clinging to railings",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794620228000,
-    "summaryEn": "Passengers were rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans.",
-    "summaryAr": "Passengers were rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans.",
+    "titleEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - The Straits Times",
+    "titleAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - The Straits Times",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZEU3bzVxUE5PN211RmJTWThVajVpUUlxQ1lRLURrM2ljMUlVeHdZblltQmg0NS1hNDBOX05zQmZvcmNCdE4xRV9tc3RXa0VWcUpNVzJXX1BHWjUyZVFOU3h6ZXFBZ0tOckpGNk9oa0oyLU5nZXVSMVJyT3Y1ZHd2UmRPV3lLWm1CWjJaRFl4SFpIQkFSTGpGM0dxdWZYQm5vdmt2Zm1GSHFEOUtqNUFzbF91Ny00ZkNjTlFCSzAtS2lubVBhR2RoT2NDV05icGRyb0E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794654240000,
+    "summaryEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say The Straits Times",
+    "summaryAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say The Straits Times",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu may fall, but his far-right legacy in Israel is going nowhere",
+    "titleAr": "Netanyahu may fall, but his far-right legacy in Israel is going nowhere",
+    "link": "https://www.aljazeera.com/news/2026/11/14/netanyahu-may-fall-but-his-far-right-legacy-in-israel-is-going-nowhere?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794649407000,
+    "summaryEn": "Israel’s far-right is accused of embedding a hardline agenda so deeply that reversing it may prove almost impossible.",
+    "summaryAr": "Israel’s far-right is accused of embedding a hardline agenda so deeply that reversing it may prove almost impossible.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -288,6 +352,22 @@
     ]
   },
   {
+    "titleEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+    "titleAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794514198000,
+    "summaryEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
+    "summaryAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
     "titleAr": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
     "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
@@ -300,6 +380,22 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
+    "titleAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORXNfU1I1YVJRdVJqRUhINjVoSGhJMlVHYng4azBKSU5ZakZHTDVzYU11WGtkODFrQ1hMUGpxcHVxRW5YbEhLSkIzcmZFc01Zck80MnVUZlhqSWdGOGtrb3pnZ0xPd2wxY3ZCTUdqdnZsS0xKcGxjekdCVkg0LXNpSHlTRXJNVDZTZHhGVGhFVldCZWtqYnI5RzFyazY0Tlk4Z2tES185ZFR5cGlMdE1pZ2ZUQllPT3NvWTk0SUFaekQ2SUF6UWxmal9aUk1FVWZWMG9PMXpweW5RdkVNVUdaRzhkdEZWUThDTWpJ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794511091000,
+    "summaryEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
+    "summaryAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -368,22 +464,6 @@
     ]
   },
   {
-    "titleEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
-    "titleAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdVF6dFIxTTlxMm1rYjJUaHVwV09rLWI4Q0c4M3dZYm5pTE5DMlh5U0xvX3hXUDBCcG96LVJra01vbkJVcl9VZ3k2d2cyY1VRNWllQmFnY3NRVUFkSlBDa3FqQXZPaFhONU9MWHF2d3JoMGkzYUY2ZkRUajR3eXVRYjV2UVM2RFJlS205Y19uU3Jyd000TlR3RV9vZFRuSFhzUVMyY3plazhUUXluLTUtU3JNZlpvUE1ZTTJ1bmhybEpmMHRMVEpOOXNZbTZFenpTeVp0S3FROTJ5TW0ta3V2UnMxQ2pneFNwYWNaeHB3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794505773000,
-    "summaryEn": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
-    "summaryAr": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears TradingView",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
     "titleAr": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
     "link": "https://www.bbc.co.uk/news/articles/c804wp9013kvo?at_medium=RSS&at_campaign=rss",
@@ -432,22 +512,6 @@
     ]
   },
   {
-    "titleEn": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
-    "titleAr": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnl4RjlVd0VYeWFKTUM1eDh4Y1J4V2RsZXlIYTRDUjZGdzJoeHBJQnZXd0NCYTBXcVhUQjFYZ1JNUnk3SDhVWXBHZWJrbm1EQTREYWJzN2MxU1lkQUg1Y3JyWDV1bU1mN3Fha2VfejBDN3o5ZG5aZWdGMVdZT1NvbDBXM045V01GUHpvWEI5TmFTMTlyTkN6cDZhWmxsTVZxNE5mOW1Wb1lLMG04a0F3RXdRT1o1d0hld1h2Tg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794499491000,
-    "summaryEn": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group Reuters",
-    "summaryAr": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
     "titleAr": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
     "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
@@ -480,38 +544,6 @@
     ]
   },
   {
-    "titleEn": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike - Reuters",
-    "titleAr": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14aXlwR0ZmMUJhQW8yRnA5aUVEQnd4cjhzX1hESWxaUUNfNVE2NndfSHNRNkF6WFBFZ0FBNENsTXpGMFVRRFlQdm9kazd4VDlxM29qOTM5aGNTUlp1LU9YNUZjZTlVWEs3NU9EeHI3bllyTmZBZ3I1bEtfREM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794492410000,
-    "summaryEn": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike Reuters",
-    "summaryAr": "'The world turned upside down': Gaza doctor recalls deadly Israeli strike Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill - Reuters",
-    "titleAr": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1VjNG1TSnF3bDRTUXp1cHJ2TDA3WkJNY2J3dVkxWWJMOGxhczN6WlVncFEwTlNQT29sR1FMdjBSV2FFMkowS3ZhNEZ5SXlJeXNLcGg5MlA5eW5JY0VWYzlPazJDdlcxczFkQlBDVVl2MjhsNFdDRmFTbS1CT0s2QkxwQmpkLUh5ZmpRODRNZlhWU1YxWDRJZUFKOTd4LVFRUFZaLVY5RkRNZ0pHY3hqRldQMk5VYXVOazd1cmREY25KanNNdnc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794489857000,
-    "summaryEn": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill Reuters",
-    "summaryAr": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
     "titleAr": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
     "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
@@ -519,38 +551,6 @@
     "pubDate": 1794488908000,
     "summaryEn": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new …",
     "summaryAr": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oman monitors handling of oil tanker run aground off its coast - Reuters",
-    "titleAr": "Oman monitors handling of oil tanker run aground off its coast - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOajlqak9wTzJCY2RvLTg2YTV6MFZDX3hSMUMxVUVEM3BDQXBVWG10dDM3SDJ0S2pzWmd5NU1BNTZYbTFPVHluME43UTZ0QTVTcllRcDhUdTJienpEcFZ4MmZucnlYRHFCWlMtVG5EUGU1N2pwZl9DTWl1M2lDZFBwRFNwWUtBbVJyWWc3LWZsYlNuYWk3WFRnR1M4cDVVTWZXRnZhMjVrT2h3TXl2d2FPNlR0UQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794488409000,
-    "summaryEn": "Oman monitors handling of oil tanker run aground off its coast Reuters",
-    "summaryAr": "Oman monitors handling of oil tanker run aground off its coast Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
-    "titleAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794485338000,
-    "summaryEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
-    "summaryAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -656,22 +656,6 @@
     ]
   },
   {
-    "titleEn": "South Africa's citrus exports fall on Iran war disruption, bad weather - Reuters",
-    "titleAr": "South Africa's citrus exports fall on Iran war disruption, bad weather - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSEdMeVJPU1FqTUdleG5McVVJdTBkTXpIbng3bnEzRi1ZWUlSNWFfUExHbnZsc1h4Tm5Nb2k5b1JoWllINEhReExZbndMbTFXZ0JhcUNQWHZrYjlzcGFoRWNuc1FELUk0ekRTVmJub1dYUkNYdzIyZWowRWpITERUWXVScnhBVjlQU2ozWmdmNkhOUUY2U3dQQ1R2OVN5WHNLaFc0NWdVUndrZVRjanpEbVo1Z3o?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794473650000,
-    "summaryEn": "South Africa's citrus exports fall on Iran war disruption, bad weather Reuters",
-    "summaryAr": "South Africa's citrus exports fall on Iran war disruption, bad weather Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
     "titleAr": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
     "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
@@ -711,6 +695,22 @@
     "pubDate": 1794416374000,
     "summaryEn": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
     "summaryAr": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+    "titleAr": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+    "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794415511000,
+    "summaryEn": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+    "summaryAr": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
     "tags": [
       {
         "textEn": "INTEL",
