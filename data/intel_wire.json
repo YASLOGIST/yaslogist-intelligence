@@ -1,12 +1,28 @@
 [
   {
-    "titleEn": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
-    "titleAr": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+    "titleEn": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+    "titleAr": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+    "link": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1794614425000,
-    "summaryEn": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians.",
-    "summaryAr": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians.",
+    "pubDate": 1794642396000,
+    "summaryEn": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
+    "summaryAr": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Siege fuels disease fears in Yemen’s Taiz",
+    "titleAr": "Siege fuels disease fears in Yemen’s Taiz",
+    "link": "https://www.aljazeera.com/news/2026/11/14/siege-fuels-disease-fears-in-yemens-besieged-taiz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794637047000,
+    "summaryEn": "Health officials warn that falling numbers of recorded infections may conceal a worsening disease crisis in Taiz.",
+    "summaryAr": "Health officials warn that falling numbers of recorded infections may conceal a worsening disease crisis in Taiz.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +32,45 @@
     ]
   },
   {
-    "titleEn": "32 passengers taken to hospital after tanker hits river cruise boat in US",
-    "titleAr": "32 passengers taken to hospital after tanker hits river cruise boat in US",
-    "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+    "titleEn": "Trump, Xi and Putin to hold first three-way summit in China",
+    "titleAr": "Trump, Xi and Putin to hold first three-way summit in China",
+    "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1794610036000,
-    "summaryEn": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
-    "summaryAr": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+    "pubDate": 1794632158000,
+    "summaryEn": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
+    "summaryAr": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
+    "titleAr": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794629535000,
+    "summaryEn": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
+    "summaryAr": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Tanker collision leaves riverboat passengers clinging to railings",
+    "titleAr": "Tanker collision leaves riverboat passengers clinging to railings",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794620228000,
+    "summaryEn": "Passengers were rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans.",
+    "summaryAr": "Passengers were rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -44,70 +92,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
-    "titleAr": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794597785000,
-    "summaryEn": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
-    "summaryAr": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
-    "titleAr": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794594483000,
-    "summaryEn": "Six-year-old burns victim Masa is one of the patients in Gaza whose recovery is under threat due to Israeli restrictions",
-    "summaryAr": "Six-year-old burns victim Masa is one of the patients in Gaza whose recovery is under threat due to Israeli restrictions",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
-    "titleAr": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794593345000,
-    "summaryEn": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
-    "summaryAr": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
-    "titleAr": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
-    "link": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794593062000,
-    "summaryEn": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
-    "summaryAr": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -336,6 +320,22 @@
     ]
   },
   {
+    "titleEn": "Israeli strike on Gaza hospital kills six, including surgeon, medics say - Reuters",
+    "titleAr": "Israeli strike on Gaza hospital kills six, including surgeon, medics say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOekJqQTlDSnpyUHhBeEEwb0V2X2s4NzdhSzR3a0NvbDZoR0FWXzR0X2k5YV9zaHlhU0M3YlVMWk9RTDltZXZiajZGdlVMSmxrMnJkWEI4QXU4bUFGSWppTDJFcVh4amhHR1lkYkdKT3VvT1BicUZnWTRBb3JuU3lHYVBScHhIdkc2bC1DZWpOVWNlbkJiTTRIQXdxYlE2a1hndlV5R3pwOVY4WVhvVXYwNVJ0UXU3WGJuTFAxZlhNU3YyeVhB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794508237000,
+    "summaryEn": "Israeli strike on Gaza hospital kills six, including surgeon, medics say Reuters",
+    "summaryAr": "Israeli strike on Gaza hospital kills six, including surgeon, medics say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "US House Democratic Leader Jeffries wants 'dramatic change' in Middle East - Reuters",
     "titleAr": "US House Democratic Leader Jeffries wants 'dramatic change' in Middle East - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMV9nQXduWS1BMTRTSzRtc19UMm5sa1JxU3lpbTFiU2sxMDk1cFdzWHVtemNPX2NncUJEYTRBdkREUnBnYXJXWnB3MDZoTURRVzV5MDdOZndzQWJkanJpVUw5SURtRGp1OHUzbmVrbE5yNjFKYVI5ZnhOajlXLTdQa1lvRHhyMjlxb1J3OTdzSS1Gd3laMUFTWWZtNmktYTNRYjY1SHBsdmppS1pybXJ6VjBLWUs?oc=5",
@@ -544,6 +544,22 @@
     ]
   },
   {
+    "titleEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
+    "titleAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794485338000,
+    "summaryEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
+    "summaryAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Siemens Desigo, Gridscale",
     "titleAr": "Siemens Desigo, Gridscale",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
@@ -672,50 +688,34 @@
     ]
   },
   {
-    "titleEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
-    "titleAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794454800000,
-    "summaryEn": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
-    "summaryAr": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears Reuters",
+    "titleEn": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+    "titleAr": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+    "source": "Dark Reading",
+    "pubDate": 1794427518000,
+    "summaryEn": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
+    "summaryAr": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+    "titleAr": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+    "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794416374000,
+    "summaryEn": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
+    "summaryAr": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift - Reuters",
-    "titleAr": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSlZjNWY2dkd4bm1KencxSFlpZFVSQUdLak1feHByckhTbERwYUs1SUVfOGJVeUw1UmZ2dEUxR20tODBZN3lFMVdsZlFjT3pLeHRPaWRkQUZFRVVTSXlBckRUanRRMzNoaERhcHRWUzZFSjhyOHU0enAzQzZGR3cxbEVJNWNjX3dUdFVEY01WaTdKeFNGNUVGY3Nsd3NQbTNpM21DSW4wRXhIZG5kUy1jeEk4czFSZ3UtcHZpcmdBZFZieXphempPb1p5TjM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794450540000,
-    "summaryEn": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift Reuters",
-    "summaryAr": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
-    "titleAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794448320000,
-    "summaryEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
-    "summaryAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   }
