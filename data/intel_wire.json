@@ -1,5 +1,69 @@
 [
   {
+    "titleEn": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+    "titleAr": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794614425000,
+    "summaryEn": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians.",
+    "summaryAr": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+    "titleAr": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+    "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794610036000,
+    "summaryEn": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+    "summaryAr": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran's IRGC says two tankers hit sea mines in Hormuz - Reuters",
+    "titleAr": "Iran's IRGC says two tankers hit sea mines in Hormuz - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794604495000,
+    "summaryEn": "Iran's IRGC says two tankers hit sea mines in Hormuz Reuters",
+    "summaryAr": "Iran's IRGC says two tankers hit sea mines in Hormuz Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+    "titleAr": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794597785000,
+    "summaryEn": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
+    "summaryAr": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
     "titleAr": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
@@ -96,38 +160,6 @@
     ]
   },
   {
-    "titleEn": "Jerusalem Daily: Baby dies from cold in Gaza",
-    "titleAr": "Jerusalem Daily: Baby dies from cold in Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/jerusalem-daily-baby-dies-from-cold-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794587664000,
-    "summaryEn": "A baby dies from the cold in Gaza as 53 countries urge Israel to allow aid in.",
-    "summaryAr": "A baby dies from the cold in Gaza as 53 countries urge Israel to allow aid in.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
-    "titleAr": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
-    "link": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794586953000,
-    "summaryEn": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
-    "summaryAr": "Despite Treasury's Scott Bessent's remarks, financial tracker CME Fed Watch forecasts rate hike in December likely.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
     "titleAr": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
@@ -135,22 +167,6 @@
     "pubDate": 1794586903000,
     "summaryEn": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
     "summaryAr": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
-    "titleAr": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
-    "link": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794582136000,
-    "summaryEn": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
-    "summaryAr": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -176,54 +192,6 @@
     ]
   },
   {
-    "titleEn": "Can Netanyahu launch a strike on Iran before he leaves?",
-    "titleAr": "Can Netanyahu launch a strike on Iran before he leaves?",
-    "link": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794579380000,
-    "summaryEn": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
-    "summaryAr": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
-    "titleAr": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/uk-accused-of-silencing-pro-palestine-voices-through-entry-bans?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794575966000,
-    "summaryEn": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
-    "summaryAr": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "France slams Israel’s ‘demagogic’ ban on opposition leader Melenchon",
-    "titleAr": "France slams Israel’s ‘demagogic’ ban on opposition leader Melenchon",
-    "link": "https://www.aljazeera.com/news/2026/11/13/france-slams-israels-demagogic-ban-on-left-wing-leader-melenchon?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794574628000,
-    "summaryEn": "Israel's move came after France banned a prominent Israeli settler from entering the country.",
-    "summaryAr": "Israel's move came after France banned a prominent Israeli settler from entering the country.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
     "titleAr": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
     "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
@@ -231,6 +199,22 @@
     "pubDate": 1794572908000,
     "summaryEn": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
     "summaryAr": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1794571200000,
+    "summaryEn": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutrali…",
+    "summaryAr": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutrali…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -448,22 +432,6 @@
     ]
   },
   {
-    "titleEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
-    "titleAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794500855000,
-    "summaryEn": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
-    "summaryAr": "Four tankers struck by explosions in Strait of Hormuz, Iran says Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
     "titleEn": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
     "titleAr": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnl4RjlVd0VYeWFKTUM1eDh4Y1J4V2RsZXlIYTRDUjZGdzJoeHBJQnZXd0NCYTBXcVhUQjFYZ1JNUnk3SDhVWXBHZWJrbm1EQTREYWJzN2MxU1lkQUg1Y3JyWDV1bU1mN3Fha2VfejBDN3o5ZG5aZWdGMVdZT1NvbDBXM045V01GUHpvWEI5TmFTMTlyTkN6cDZhWmxsTVZxNE5mOW1Wb1lLMG04a0F3RXdRT1o1d0hld1h2Tg?oc=5",
@@ -524,6 +492,22 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill - Reuters",
+    "titleAr": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1VjNG1TSnF3bDRTUXp1cHJ2TDA3WkJNY2J3dVkxWWJMOGxhczN6WlVncFEwTlNQT29sR1FMdjBSV2FFMkowS3ZhNEZ5SXlJeXNLcGg5MlA5eW5JY0VWYzlPazJDdlcxczFkQlBDVVl2MjhsNFdDRmFTbS1CT0s2QkxwQmpkLUh5ZmpRODRNZlhWU1YxWDRJZUFKOTd4LVFRUFZaLVY5RkRNZ0pHY3hqRldQMk5VYXVOazd1cmREY25KanNNdnc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794489857000,
+    "summaryEn": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill Reuters",
+    "summaryAr": "UAE's Ras Al Khaimah, Sharjah reopen several beaches after tanker oil spill Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -716,6 +700,22 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+    "titleAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794448320000,
+    "summaryEn": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
+    "summaryAr": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   }
