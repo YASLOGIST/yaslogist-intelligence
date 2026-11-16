@@ -1,17 +1,241 @@
 [
   {
-    "titleEn": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
-    "titleAr": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
-    "link": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794804822000,
-    "summaryEn": "Iran-aligned Kataib Hezbollah says the group is subjected to 'blackmail' to force disarmament amid US pressure on Iraq.",
-    "summaryAr": "Iran-aligned Kataib Hezbollah says the group is subjected to 'blackmail' to force disarmament amid US pressure on Iraq.",
+    "titleEn": "Oil prices fall as supply surplus outlook outweighs Middle East risks - The Eastern Herald",
+    "titleAr": "Oil prices fall as supply surplus outlook outweighs Middle East risks - The Eastern Herald",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb2o3XzhpRm85OXhNY0t3MUdVbUdoZ3VpR3pVVGVSVzBHUjlBbjJmU3RzNFdESmxaRjNkNzlabHpSOHMySFlLZ2NCWmpmTGZyXzNINnF1dVJ0NlhsR21rWGFIaFl6M1lZclBlSlo1ajRnd29RR3FnTUVQWnFZQkZneVFmX210R2VrcGZCMFItbw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794840847000,
+    "summaryEn": "Oil prices fall as supply surplus outlook outweighs Middle East risks The Eastern Herald",
+    "summaryAr": "Oil prices fall as supply surplus outlook outweighs Middle East risks The Eastern Herald",
     "tags": [
       {
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Supertanker rates plunge more than 60% from record highs - Reuters",
+    "titleAr": "Supertanker rates plunge more than 60% from record highs - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794840823000,
+    "summaryEn": "Supertanker rates plunge more than 60% from record highs Reuters",
+    "summaryAr": "Supertanker rates plunge more than 60% from record highs Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "‘My arms are empty’: Tragedy strikes Gaza family after baby dies from cold",
+    "titleAr": "‘My arms are empty’: Tragedy strikes Gaza family after baby dies from cold",
+    "link": "https://www.aljazeera.com/features/2026/11/16/my-arms-are-empty-gaza-mothers-brace-for-another-winter-of-cold-and-fear?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794838843000,
+    "summaryEn": "A nine-month-old baby has died from hypothermia inside his family’s displacement tent in Gaza, as winter returns.",
+    "summaryAr": "A nine-month-old baby has died from hypothermia inside his family’s displacement tent in Gaza, as winter returns.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis seize ground on Yemen's southern coast, edge closer to Aden - Reuters",
+    "titleAr": "Houthis seize ground on Yemen's southern coast, edge closer to Aden - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794838282000,
+    "summaryEn": "Houthis seize ground on Yemen's southern coast, edge closer to Aden Reuters",
+    "summaryAr": "Houthis seize ground on Yemen's southern coast, edge closer to Aden Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters",
+    "titleAr": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794837444000,
+    "summaryEn": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling Reuters",
+    "summaryAr": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb",
+    "titleAr": "Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb",
+    "link": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794836754000,
+    "summaryEn": "Houthis edge closer to Aden as Yemeni forces retreat from the Red Sea coast, threatening global maritime security.",
+    "summaryAr": "Houthis edge closer to Aden as Yemeni forces retreat from the Red Sea coast, threatening global maritime security.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Jericho settlers harass Al Jazeera reporter after stealing Palestinian home",
+    "titleAr": "Jericho settlers harass Al Jazeera reporter after stealing Palestinian home",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/jericho-settlers-harass-al-jazeera-reporter-after-stealing-palestinian-home?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794831954000,
+    "summaryEn": "Israeli settlers who took over 8 homes in Jericho harassed Al Jazeera’s Nour Odeh.",
+    "summaryAr": "Israeli settlers who took over 8 homes in Jericho harassed Al Jazeera’s Nour Odeh.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Who is Ahmad Tibi, the Arab MP elected deputy speaker of Israel’s Knesset?",
+    "titleAr": "Who is Ahmad Tibi, the Arab MP elected deputy speaker of Israel’s Knesset?",
+    "link": "https://www.aljazeera.com/news/2026/11/16/who-is-ahmad-tibi-the-arab-mp-elected-israels-knesset-deputy-speaker?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794829225000,
+    "summaryEn": "A Palestinian citizen of Israel, Tibi was an aide to Yasser Arafat and has been a legislator for 27 years.",
+    "summaryAr": "A Palestinian citizen of Israel, Tibi was an aide to Yasser Arafat and has been a legislator for 27 years.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "As homes seized, Jericho’s Palestinian residents fear settler takeover",
+    "titleAr": "As homes seized, Jericho’s Palestinian residents fear settler takeover",
+    "link": "https://www.aljazeera.com/news/2026/11/16/jerichos-palestinian-residents-lay-in-wait-of-an-israeli-settler-takeover?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794828223000,
+    "summaryEn": "Palestinians are assaulted and their homes are levelled in pogrom in occupied West Bank.",
+    "summaryAr": "Palestinians are assaulted and their homes are levelled in pogrom in occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Yemeni forces retreat to defend port city from Houthis",
+    "titleAr": "Yemeni forces retreat to defend port city from Houthis",
+    "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794827378000,
+    "summaryEn": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to protect the interim capital, Aden.",
+    "summaryAr": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to protect the interim capital, Aden.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Lebanon’s second airport could provide economic and political benefits",
+    "titleAr": "Lebanon’s second airport could provide economic and political benefits",
+    "link": "https://www.aljazeera.com/features/2026/11/16/lebanons-second-airport-could-provide-economic-and-political-benefits?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794824902000,
+    "summaryEn": "The establishment of a second airport in Lebanon gives the war-devastated country more options for air travel.",
+    "summaryAr": "The establishment of a second airport in Lebanon gives the war-devastated country more options for air travel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+    "titleAr": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+    "link": "https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794824067000,
+    "summaryEn": "The aircraft carrier joins two others operating in the US Central Command area of responsibility.",
+    "summaryAr": "The aircraft carrier joins two others operating in the US Central Command area of responsibility.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+    "titleAr": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1794821496000,
+    "summaryEn": "Trump shares a message saying: ‘May God protect our troops’ as the USS Theodore Roosevelt arrives in the Middle East.",
+    "summaryAr": "Trump shares a message saying: ‘May God protect our troops’ as the USS Theodore Roosevelt arrives in the Middle East.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "UK and allies urge Israel to allow rapid humanitarian access to Gaza",
+    "titleAr": "UK and allies urge Israel to allow rapid humanitarian access to Gaza",
+    "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794819364000,
+    "summaryEn": "The UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, including 150,00 tents.",
+    "summaryAr": "The UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, including 150,00 tents.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Houthi video said to show clashes with pro-government forces in Yemen - Reuters",
+    "titleAr": "Houthi video said to show clashes with pro-government forces in Yemen - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2TElXSVpJd1dTQ2oxS2lGUkc0enVBS3A2NDY4ZGdDMi15X0RHX0NLU0Y3OGhFcjcwQk1PMkh6RVFsd3NIQkpxQmxBV1JhOFZ5VkJpc2lVamlocTE5OUtQVlg2SVVuMEk?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794808259000,
+    "summaryEn": "Houthi video said to show clashes with pro-government forces in Yemen Reuters",
+    "summaryAr": "Houthi video said to show clashes with pro-government forces in Yemen Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -32,146 +256,18 @@
     ]
   },
   {
-    "titleEn": "Houthis advance in Yemen as government forces move to defend Aden",
-    "titleAr": "Houthis advance in Yemen as government forces move to defend Aden",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794795749000,
-    "summaryEn": "An advance by the Houthi armed group in Yemen is threatening one of the government’s last strongholds.",
-    "summaryAr": "An advance by the Houthi armed group in Yemen is threatening one of the government’s last strongholds.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
-    "titleAr": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
-    "link": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794787305000,
-    "summaryEn": "Arab party members were reportedly arrested before Israeli elections based on unfounded evidence from the PM's office.",
-    "summaryAr": "Arab party members were reportedly arrested before Israeli elections based on unfounded evidence from the PM's office.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
-    "titleAr": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794787200000,
-    "summaryEn": "The USS Theodore Roosevelt has arrived in the Middle East, while Iran warned it would not simply wait for an attack.",
-    "summaryAr": "The USS Theodore Roosevelt has arrived in the Middle East, while Iran warned it would not simply wait for an attack.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
-    "titleAr": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
-    "link": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794780398000,
-    "summaryEn": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
-    "summaryAr": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Yemen’s Houthis unilaterally release 600 war detainees",
-    "titleAr": "Yemen’s Houthis unilaterally release 600 war detainees",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794777548000,
-    "summaryEn": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
-    "summaryAr": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinians reclaim Gaza’s shores with a swim for hope",
-    "titleAr": "Palestinians reclaim Gaza’s shores with a swim for hope",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794775815000,
-    "summaryEn": "For the first time in more than three years, Gaza’s swimming federation has held a competition.",
-    "summaryAr": "For the first time in more than three years, Gaza’s swimming federation has held a competition.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Who can force Israel to implement Gaza ceasefire deal?",
-    "titleAr": "Who can force Israel to implement Gaza ceasefire deal?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794775063000,
-    "summaryEn": "Storms batter Palestinian territory as Israel restricts entry of aid.",
-    "summaryAr": "Storms batter Palestinian territory as Israel restricts entry of aid.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Estonia to close border crossings with Russia after alleged arson attack",
-    "titleAr": "Estonia to close border crossings with Russia after alleged arson attack",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794774678000,
-    "summaryEn": "Estonia is closing its border crossings with Russia following an alleged arson attempt at a drone factory.",
-    "summaryAr": "Estonia is closing its border crossings with Russia following an alleged arson attempt at a drone factory.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
-    "titleAr": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+    "titleEn": "Oil falls as recovering Middle East exports bolster surplus outlook - Reuters",
+    "titleAr": "Oil falls as recovering Middle East exports bolster surplus outlook - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXlabl9ocWtiOEZLcnc2SGNVSEh2bjltWURkWU1RSDVTejZWMEtNYTR4QW9sT19DQy05SVhHVmphTEtIQXdtVzlUS25Vdk1oS0hjdWZ0MHpUb01NQUp4dzlBcE55anIwR0hKVmhCUDRsT3V3ek9jTURVYkcySDNBM1B0RmJ3emdUaHpPVWpENENfZ2JGRHB3MlJuekVfUWlFa2lfUQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1794769159000,
-    "summaryEn": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain Reuters",
-    "summaryAr": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain Reuters",
+    "pubDate": 1794794400000,
+    "summaryEn": "Oil falls as recovering Middle East exports bolster surplus outlook Reuters",
+    "summaryAr": "Oil falls as recovering Middle East exports bolster surplus outlook Reuters",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
@@ -183,6 +279,38 @@
     "pubDate": 1794765773000,
     "summaryEn": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre Reuters",
     "summaryAr": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+    "titleAr": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794758160000,
+    "summaryEn": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain Reuters",
+    "summaryAr": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran targets US military base in Bahrain with drone attack",
+    "titleAr": "Iran targets US military base in Bahrain with drone attack",
+    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794750178000,
+    "summaryEn": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+    "summaryAr": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -208,11 +336,27 @@
     ]
   },
   {
+    "titleEn": "Three men sentenced to death in Jordan over fatal church mass shooting",
+    "titleAr": "Three men sentenced to death in Jordan over fatal church mass shooting",
+    "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794740792000,
+    "summaryEn": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
+    "summaryAr": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
     "titleAr": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1794749098000,
+    "pubDate": 1794731640000,
     "summaryEn": "Yemeni government force retreats from strait in major setback in war against Houthis Reuters",
     "summaryAr": "Yemeni government force retreats from strait in major setback in war against Houthis Reuters",
     "tags": [
@@ -224,13 +368,13 @@
     ]
   },
   {
-    "titleEn": "Samir Abu-Younes assassinated in Gaza, Reuters reports - Egypt Independent",
-    "titleAr": "Samir Abu-Younes assassinated in Gaza, Reuters reports - Egypt Independent",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNmZTRFJsUWxpOWljSzlpSTJxSEYzTURITEoxLTZGVFYybUpBYkN5UUR4eExKYTVEMl9oYnFQSVkwWDg4VkRUOGdOSHg1MUo1SzU5X25BOHloZHJfOEQ3elV1TXczUXlnem1WcWozTTdZZGxCa3JZUTBEZG9NaU0yamZLZ2xaY05ZdTFjNXp3T18?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794732762000,
-    "summaryEn": "Samir Abu-Younes assassinated in Gaza, Reuters reports Egypt Independent",
-    "summaryAr": "Samir Abu-Younes assassinated in Gaza, Reuters reports Egypt Independent",
+    "titleEn": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+    "titleAr": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1794730661000,
+    "summaryEn": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+    "summaryAr": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -288,38 +432,6 @@
     ]
   },
   {
-    "titleEn": "Middle East War: 7 things UAE residents need to know tonight, November 14 - Gulf News",
-    "titleAr": "Middle East War: 7 things UAE residents need to know tonight, November 14 - Gulf News",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzJ5ZXBTN1lUbzkwLVQtenYyNEI0VzVXX0FubHIyektfRWE3V2ZpRjgxclRYRTZYWDlncXdLbUo0MTVxN0tNdzdoZDVxUV95UUt0X2pRaS1XUkFBWGlSenNsUHEwRFNFWW9UaTBUd05tcEJwQXhyWFB2SEl1czhFVDFDeU1QU211VDFITUIxd0V3WnpHSUJkVGtBaU5mNFZHdndHTHBycVZXUWM40gG8AUFVX3lxTE1KWk1LMXVwd2ZMbW93RUVjcXpkV3loUDc3SkIydEg1c1JFdmZKd2MxWXROSWlUYWhaQ3I3SGQwbTF3TEhzZXJWX0RTbkpUWVFxMDdPRlpob2FtQS1rNUo5SkZJQXRPZEdhbkgwSGt1N3dFSGh3UGlCQkxPWDdZbkVkd3d0SFJ2V1pYUzhYTngwR0xtdlRHVjU3anZ5bEYxaWlZUWd1bkRGSnFJRE9QclpMaDFzbmpzR0JldVl5?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794665759000,
-    "summaryEn": "Middle East War: 7 things UAE residents need to know tonight, November 14 Gulf News",
-    "summaryAr": "Middle East War: 7 things UAE residents need to know tonight, November 14 Gulf News",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump May Postpone Planned Strikes on Iran — Reuters - UA.NEWS",
-    "titleAr": "Trump May Postpone Planned Strikes on Iran — Reuters - UA.NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOFVnT3piSTFoV0Z1b0hSc0NmSm4tUXJIdlQwY1VXbVdrS0VEXzFfbGdRYUtDMmI0M2NqcGFZOVhHOEkxR1JCWW91UzdQTHA4anFJVjBRWmhpaThZcjFjQVFKUnFqOGxPM2hzMXFYbmU3djdkRXpFZ2xQMklXRUk3NjFrMVVRaFlB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794664868000,
-    "summaryEn": "Trump May Postpone Planned Strikes on Iran — Reuters UA.NEWS",
-    "summaryAr": "Trump May Postpone Planned Strikes on Iran — Reuters UA.NEWS",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
     "titleAr": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
     "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
@@ -327,22 +439,6 @@
     "pubDate": 1794659915000,
     "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server…",
     "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
-    "titleAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794654250000,
-    "summaryEn": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
-    "summaryAr": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -444,22 +540,6 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Check Point warns of zero-day flaw exploited for root access",
-    "titleAr": "Check Point warns of zero-day flaw exploited for root access",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-    "source": "BleepingComputer",
-    "pubDate": 1794566662000,
-    "summaryEn": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerab…",
-    "summaryAr": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerab…",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
       }
     ]
   },
@@ -631,86 +711,6 @@
     "pubDate": 1794484800000,
     "summaryEn": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Manag…",
     "summaryAr": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Manag…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "titleAr": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-    "source": "The Hacker News",
-    "pubDate": 1794483195000,
-    "summaryEn": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The secur…",
-    "summaryAr": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The secur…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-    "titleAr": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-    "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-    "source": "The Hacker News",
-    "pubDate": 1794475500000,
-    "summaryEn": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later…",
-    "summaryAr": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-    "titleAr": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-    "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-    "source": "The Hacker News",
-    "pubDate": 1794460346000,
-    "summaryEn": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2…",
-    "summaryAr": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-    "titleAr": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-    "source": "Dark Reading",
-    "pubDate": 1794427518000,
-    "summaryEn": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
-    "summaryAr": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
-    "tags": [
-      {
-        "textEn": "ZERO-DAY",
-        "textAr": "يوم-الصفر",
-        "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "titleAr": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1794416374000,
-    "summaryEn": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
-    "summaryAr": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
     "tags": [
       {
         "textEn": "INTEL",
