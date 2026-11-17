@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-89208",
-    "system": "Capital Embedded AR Classic 431-422",
-    "severity": "Medium",
-    "cvss": 6.9,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63357",
+    "id": "CVE-2026-63352",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63356",
+    "id": "CVE-2026-63351",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Medium",
     "cvss": 5.3,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-63355",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-63354",
+    "id": "CVE-2026-63350",
     "system": "SIMATIC Drive Controller CPU 1504D TF",
     "severity": "Critical",
     "cvss": 9.4,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-63353",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Critical",
-    "cvss": 9.4,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-53362",
+    "id": "CVE-2026-53356",
     "system": "Linux",
     "severity": "High",
     "cvss": 7.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53358",
+    "id": "CVE-2026-53350",
     "system": "Linux",
     "severity": "High",
-    "cvss": 8.8,
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53349",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53337",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-53325",
+    "system": "Linux",
+    "severity": "High",
+    "cvss": null,
     "badge": "badge-high"
   }
 ]
