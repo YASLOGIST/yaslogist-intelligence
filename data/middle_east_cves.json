@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-63352",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
+    "id": "CVE-2026-106087",
+    "system": "TRO600 Series Firmware",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-63351",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
-    "severity": "Medium",
-    "cvss": 5.3,
-    "badge": "badge-medium"
+    "id": "CVE-2026-10756",
+    "system": "TRO600 Series Firmware",
+    "severity": "High",
+    "cvss": 7.7,
+    "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-63350",
-    "system": "SIMATIC Drive Controller CPU 1504D TF",
+    "id": "CVE-2026-76418",
+    "system": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
+    "severity": "High",
+    "cvss": 8.6,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-97229",
+    "system": "GitLab",
     "severity": "Critical",
-    "cvss": 9.4,
+    "cvss": 10,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-53356",
+    "id": "CVE-2026-43284",
     "system": "Linux",
     "severity": "High",
-    "cvss": 7.8,
+    "cvss": 8.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53350",
-    "system": "Linux",
+    "id": "CVE-2026-13162",
+    "system": "CoreTec 5",
     "severity": "High",
-    "cvss": null,
+    "cvss": 7.7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53349",
-    "system": "Linux",
+    "id": "CVE-2026-89209",
+    "system": "Mendix SAML (Mendix 10 compatible)",
     "severity": "High",
-    "cvss": null,
+    "cvss": 7.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-53337",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": null,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-53325",
-    "system": "Linux",
-    "severity": "High",
-    "cvss": null,
-    "badge": "badge-high"
+    "id": "CVE-2026-118527",
+    "system": "Connect Secure",
+    "severity": "Medium",
+    "cvss": 4.3,
+    "badge": "badge-medium"
   }
 ]
