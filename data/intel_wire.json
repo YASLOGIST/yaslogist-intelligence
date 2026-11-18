@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Palestinians find refuge in ancient caves after Israel demolishes homes",
-    "titleAr": "Palestinians find refuge in ancient caves after Israel demolishes homes",
-    "link": "https://www.aljazeera.com/features/2026/11/18/palestinians-find-refuge-in-ancient-caves-after-israel-demolish-homes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795003461000,
-    "summaryEn": "Palestinians displaced in the occupied West Bank's Masafer Yatta area have been forced to live in underground caves.",
-    "summaryAr": "Palestinians displaced in the occupied West Bank's Masafer Yatta area have been forced to live in underground caves.",
+    "titleEn": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+    "titleAr": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+    "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+    "source": "Dark Reading",
+    "pubDate": 1795034749000,
+    "summaryEn": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+    "summaryAr": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,29 +16,322 @@
     ]
   },
   {
-    "titleEn": "Saudi coalition hits 60 Houthi military sites; Taiz sees ‘fierce battles’",
-    "titleAr": "Saudi coalition hits 60 Houthi military sites; Taiz sees ‘fierce battles’",
-    "link": "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795003029000,
-    "summaryEn": "Houthis advance towards Aden as Saudi-led coalition conducts precision strikes on key military targets in Yemen.",
-    "summaryAr": "Houthis advance towards Aden as Saudi-led coalition conducts precision strikes on key military targets in Yemen.",
+    "titleEn": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+    "titleAr": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+    "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+    "source": "Dark Reading",
+    "pubDate": 1795034322000,
+    "summaryEn": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+    "summaryAr": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
       }
     ]
   },
   {
-    "titleEn": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "titleAr": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "titleEn": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
+    "titleAr": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
+    "link": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795034286000,
+    "summaryEn": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
+    "summaryAr": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "titleAr": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1795032897000,
+    "summaryEn": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+    "summaryAr": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says - Reuters",
+    "titleAr": "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYTM2TVZTRTVjaWp6c2VodVYwVm5MeEFVMXZ0eFctVzZVaU94eGxScWNRMHlQb1ZJRzZ0YXpFekJ6SmJkR2RWcU4wVUNTWkJMU3J0NTFaSmw5clBIYWhFQklMM3NiSzZtV3dWYThROEZIRWlJWmpKWUhaM2w4cGIzMjhjVk5IREJRaHBnVjhpZVRjcWdoMF9MeUhRQXRqUi1RSWJ1LWxVcFVwNUxOVGc1WmQ1N2tKWEhrd2ZpQmxLY0dQdFFUS0p4ZGR5dEY?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795031312000,
+    "summaryEn": "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says Reuters",
+    "summaryAr": "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Four killed as Russian strikes hit Ukraine’s Odesa",
+    "titleAr": "Four killed as Russian strikes hit Ukraine’s Odesa",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/four-killed-as-russian-strikes-hit-ukraines-odesa?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795030291000,
+    "summaryEn": "At least four people have been killed and thirteen more injured after Russian strikes hit Ukraine’s port city of Odesa.",
+    "summaryAr": "At least four people have been killed and thirteen more injured after Russian strikes hit Ukraine’s port city of Odesa.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli settler kills Palestinian grandmother in occupied West Bank",
+    "titleAr": "Israeli settler kills Palestinian grandmother in occupied West Bank",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795030062000,
+    "summaryEn": "A Palestinian grandmother was killed by an Israeli settler in the occupied West Bank.",
+    "summaryAr": "A Palestinian grandmother was killed by an Israeli settler in the occupied West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+    "titleAr": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+    "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
     "source": "The Hacker News",
-    "pubDate": 1795002949000,
-    "summaryEn": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security…",
-    "summaryAr": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security…",
+    "pubDate": 1795026677000,
+    "summaryEn": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2ro…",
+    "summaryAr": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2ro…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli court extends Gaza doctor Abu Safia’s detention without charge",
+    "titleAr": "Israeli court extends Gaza doctor Abu Safia’s detention without charge",
+    "link": "https://www.aljazeera.com/news/2026/11/18/israeli-court-extends-gaza-doctor-abu-safias-detention-without-charge?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795026146000,
+    "summaryEn": "An Israeli court extended the detention of Abu Safia nearly two years after Israel's army detained him.",
+    "summaryAr": "An Israeli court extended the detention of Abu Safia nearly two years after Israel's army detained him.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "titleAr": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795025871000,
+    "summaryEn": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+    "summaryAr": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli forces launch new military operation in central Gaza",
+    "titleAr": "Israeli forces launch new military operation in central Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795025562000,
+    "summaryEn": "Israeli forces have launched a new military operation in central Gaza, advancing west of the Yellow Line",
+    "summaryAr": "Israeli forces have launched a new military operation in central Gaza, advancing west of the Yellow Line",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
+    "titleAr": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
+    "link": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795023909000,
+    "summaryEn": "Billions have been pledged for Gaza since a 2025 'ceasefire', but rebuilding hasn’t begun and Israeli attacks continue.",
+    "summaryAr": "Billions have been pledged for Gaza since a 2025 'ceasefire', but rebuilding hasn’t begun and Israeli attacks continue.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+    "titleAr": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+    "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+    "source": "The Hacker News",
+    "pubDate": 1795021845000,
+    "summaryEn": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation…",
+    "summaryAr": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+    "titleAr": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+    "link": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795020446000,
+    "summaryEn": "Iranian attacks on the Gulf countries draw condemnation from across the region.",
+    "summaryAr": "Iranian attacks on the Gulf countries draw condemnation from across the region.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "World Bank official says Lebanon reconstruction making slow progress",
+    "titleAr": "World Bank official says Lebanon reconstruction making slow progress",
+    "link": "https://www.aljazeera.com/news/2026/11/18/world-bank-official-says-lebanon-reconstruction-making-slow-progress?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795020299000,
+    "summaryEn": "Beirut blames Israel's occupation and attacks on southern Lebanon for reconstruction delays.",
+    "summaryAr": "Beirut blames Israel's occupation and attacks on southern Lebanon for reconstruction delays.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Jerusalem Daily: Chaos in the Knesset as new speaker elected",
+    "titleAr": "Jerusalem Daily: Chaos in the Knesset as new speaker elected",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/jerusalem-daily-chaos-in-the-knesset-as-new-speaker-elected?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795019334000,
+    "summaryEn": "Israel’s army beat a journalist covering a settler attack near Jericho.",
+    "summaryAr": "Israel’s army beat a journalist covering a settler attack near Jericho.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Explainer: What is Iraq's Kataib Hezbollah militia? - Reuters",
+    "titleAr": "Explainer: What is Iraq's Kataib Hezbollah militia? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1BsSFlwZ3UtdGRTdml2RGtmQXN6SFV3ZDRnWEVLcWRYQ0JyQkFHSFFPcUVwaTNaTHp2bjFhdWROMzFRaFBySUxxQjZsbVNHekpWdmFHRUhqdmxwaUEwTFdQSnkzWkY5bDFJX09xMXRFY1d6ZUdIUnFpaTF1QUpoV0NpdVQwTU1JVjBINHZBZXJ0UzZsaHc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795017766000,
+    "summaryEn": "Explainer: What is Iraq's Kataib Hezbollah militia? Reuters",
+    "summaryAr": "Explainer: What is Iraq's Kataib Hezbollah militia? Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
+    "titleAr": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795016779000,
+    "summaryEn": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
+    "summaryAr": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
+    "titleAr": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795013034000,
+    "summaryEn": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 Reuters",
+    "summaryAr": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027 Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Most Gulf bourses in the red as US-Iran hostilities build - Reuters",
+    "titleAr": "Most Gulf bourses in the red as US-Iran hostilities build - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNTF5RndtTUxKd1VTX1l6NHh0RW9WMmJzTzV4ZjhLMWE1MTM1NFdVYlI1clo5Q2ZFUFpUcG1KZ0J1V29sS3hxZXY0MVJUcW9RcnlFTEtVcEtTemRuSFY3YWRBcmM3SVdTWndZTGJUOVBtLVI1T3QzSERwbjlpV1NkR05KRndQeGVXZ3VWaExCaEZlNkVVVGNfVDdrTF9zOFprQmloZlJTa0M?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795007671000,
+    "summaryEn": "Most Gulf bourses in the red as US-Iran hostilities build Reuters",
+    "summaryAr": "Most Gulf bourses in the red as US-Iran hostilities build Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "titleAr": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1795007088000,
+    "summaryEn": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+    "summaryAr": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -52,7 +345,7 @@
     "titleAr": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUo2UWtYUkdWbUFwMVlzSHJwTVNrZlhyMzVuVnk3YVFXLW9mN1g5ZU44SmpMZG9kUUc1NFhacHEwbFJBN0lTQUdaMzFmNXNyd0RQaHNsaG9vY1lNRHRzV2pqV1dmT0Q0dXdWVDdORjZCVDczU2NueUdWaVZNd01GSXdBa05pQ0E1ZmkwRWFENXdlckFVLUdHVUFSNmhwa29oU1gyS0NJaTU1S2dJa3U5VmtKWQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1795002308000,
+    "pubDate": 1795005363000,
     "summaryEn": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war Reuters",
     "summaryAr": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war Reuters",
     "tags": [
@@ -64,61 +357,29 @@
     ]
   },
   {
-    "titleEn": "India lodges complaint against Palestinian footballer after under-17 match",
-    "titleAr": "India lodges complaint against Palestinian footballer after under-17 match",
-    "link": "https://www.aljazeera.com/sports/2026/11/18/india-lodges-complaint-against-palestinian-footballer-after-under-17-match?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795001544000,
-    "summaryEn": "Palestinian player Taha Soueidan 'deeply surprised' by criticism following accusations that he made a racist gesture.",
-    "summaryAr": "Palestinian player Taha Soueidan 'deeply surprised' by criticism following accusations that he made a racist gesture.",
+    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "pubDate": 1795003200000,
+    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager…",
+    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager…",
     "tags": [
       {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
       }
     ]
   },
   {
-    "titleEn": "Tim Hortons accused of sharing user data with firm linked to Israeli army",
-    "titleAr": "Tim Hortons accused of sharing user data with firm linked to Israeli army",
-    "link": "https://www.aljazeera.com/news/2026/11/18/tim-hortons-app-sharing-extensive-data-with-israeli-military-linked-firm?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795001434000,
-    "summaryEn": "Research into Tim Hortons’s app finds that it began transmitting information to Forter as soon as it opened.",
-    "summaryAr": "Research into Tim Hortons’s app finds that it began transmitting information to Forter as soon as it opened.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Why has an NYT report on Iran’s dams ignited fierce pushback?",
-    "titleAr": "Why has an NYT report on Iran’s dams ignited fierce pushback?",
-    "link": "https://www.aljazeera.com/news/2026/11/18/why-has-an-nyt-report-on-irans-dams-ignited-fierce-pushback?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794998293000,
-    "summaryEn": "The NYT faces backlash over report suggesting a possible link between Iranian dams and underground missile facilities.",
-    "summaryAr": "The NYT faces backlash over report suggesting a possible link between Iranian dams and underground missile facilities.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Most Gulf bourses fall as US-Iran hostilities escalate - Reuters",
-    "titleAr": "Most Gulf bourses fall as US-Iran hostilities escalate - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNTF5RndtTUxKd1VTX1l6NHh0RW9WMmJzTzV4ZjhLMWE1MTM1NFdVYlI1clo5Q2ZFUFpUcG1KZ0J1V29sS3hxZXY0MVJUcW9RcnlFTEtVcEtTemRuSFY3YWRBcmM3SVdTWndZTGJUOVBtLVI1T3QzSERwbjlpV1NkR05KRndQeGVXZ3VWaExCaEZlNkVVVGNfVDdrTF9zOFprQmloZlJTa0M?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794990823000,
-    "summaryEn": "Most Gulf bourses fall as US-Iran hostilities escalate Reuters",
-    "summaryAr": "Most Gulf bourses fall as US-Iran hostilities escalate Reuters",
+    "titleEn": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "titleAr": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "source": "The Hacker News",
+    "pubDate": 1795002949000,
+    "summaryEn": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security…",
+    "summaryAr": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -160,13 +421,13 @@
     ]
   },
   {
-    "titleEn": "Ships risk Hormuz Strait due to limited US protection",
-    "titleAr": "Ships risk Hormuz Strait due to limited US protection",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/ships-risk-hormuz-strait-due-to-limited-us-protection?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1794989540000,
-    "summaryEn": "Elisabeth Braw with the Atlantic Council says US navy cannot protection to every vessel passing the Hormuz Strait.",
-    "summaryAr": "Elisabeth Braw with the Atlantic Council says US navy cannot protection to every vessel passing the Hormuz Strait.",
+    "titleEn": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - Reuters",
+    "titleAr": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0otMXozQUNrekhJLWlpdzg1WW8tcVJZVkhPVkNrTWNRNmY0MDBPLVZnWXNraWJ0X3drck5ST0RHMThaazY5Vmk2ZWVCZVY1UlltQjVOTU5MeEh1N2F4ck5TaVRQYk0yNjlYeERUNU1fQ2dOOEd6bjUzME44dGdiNkpUSEl5Tm5uT3JYZW5nMTdVZEZQVllVaVFScHRxM1BibUk2SXZiZWZoUjFnZEFjbWpoTFNHMk5kRElfWi1CQVhFTTFlT0E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794987660000,
+    "summaryEn": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz Reuters",
+    "summaryAr": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -176,13 +437,13 @@
     ]
   },
   {
-    "titleEn": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - Reuters",
-    "titleAr": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0otMXozQUNrekhJLWlpdzg1WW8tcVJZVkhPVkNrTWNRNmY0MDBPLVZnWXNraWJ0X3drck5ST0RHMThaazY5Vmk2ZWVCZVY1UlltQjVOTU5MeEh1N2F4ck5TaVRQYk0yNjlYeERUNU1fQ2dOOEd6bjUzME44dGdiNkpUSEl5Tm5uT3JYZW5nMTdVZEZQVllVaVFScHRxM1BibUk2SXZiZWZoUjFnZEFjbWpoTFNHMk5kRElfWi1CQVhFTTFlT0E?oc=5",
+    "titleEn": "Oil edges up on tanker attacks, expected US crude drop - Reuters",
+    "titleAr": "Oil edges up on tanker attacks, expected US crude drop - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5",
     "source": "Reuters (Google News)",
-    "pubDate": 1794987660000,
-    "summaryEn": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz Reuters",
-    "summaryAr": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz Reuters",
+    "pubDate": 1794970745000,
+    "summaryEn": "Oil edges up on tanker attacks, expected US crude drop Reuters",
+    "summaryAr": "Oil edges up on tanker attacks, expected US crude drop Reuters",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -368,6 +629,22 @@
     ]
   },
   {
+    "titleEn": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say - Reuters",
+    "titleAr": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3N2T0s5NlNIS0VqZVhXb3B2eExINDRJSE9Mc3BCZDRadjJmVVA0ck1LMFBWVFR2REVpSG4tdGI2VW5ITnhRSU1Ic0p6WDlKY2Ywd3l5c3NsZkp4eUYtb2ZtZ0E1TzlwVFVRX1MycEY1SUZpU3ZXR2lCcExUaUdJNVZiOGxva3dFcTBYMUtpN1NZTVE2SFhmWUhBdzhSRXlNOHh3MkJSNkh1RUxZVnVRZlhPVlF4eG5hZFE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1794923352000,
+    "summaryEn": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say Reuters",
+    "summaryAr": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet - Reuters",
     "titleAr": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVV95bnRSWlVFU1dhSExfODRXN3Q5b1d1VHZZT2Z5Tk1nXzJBUHBFUkNibzBIY1I5NkdoeFAyU1ltNE9tYTVONzA1Smt4YWxmNWlSeVh6ZjVmMVNhbDluZGFwSW1ocExKb3Q0a1g2dFZNWFk3Vy1xclZDd0lRTVlJSFdnUU1ka29SM2wwbVhpTDJITlJzcllObUV3bFNfejhJMlBpdS0xcjIzYzRjVHR5ZE9kQktzTWZiY2VUdXFFOVVudw?oc=5",
@@ -396,22 +673,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
-    "titleAr": "Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWXJ2aExLekNjeW00aGRET2wyTWZxVUhYTnpmNGx5SUx5OTFZc3VYQmhIS01YMTVlZHFPd2RZaTVXbU82aEY2Q3BYTW56TkhzY3pYanpGQy1sMlJheWFuZkNJdTFMd1Ffa0NCclBGT0JTVkdVWGl6ZzNyVE01SkxSQS00cVhDZ2d2c1FidDVreml0RVE?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794917747000,
-    "summaryEn": "Oil prices caught between rising Mideast exports and tanker attacks Yahoo Finance",
-    "summaryAr": "Oil prices caught between rising Mideast exports and tanker attacks Yahoo Finance",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
       }
     ]
   },
@@ -455,262 +716,6 @@
     "pubDate": 1794916800000,
     "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, …",
     "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Mendix Studio Pro",
-    "titleAr": "Siemens Mendix Studio Pro",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or tr…",
-    "summaryAr": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or tr…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-    "titleAr": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary…",
-    "summaryAr": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Critical Java Vulnerability Requires Immediate Patching",
-    "titleAr": "Critical Java Vulnerability Requires Immediate Patching",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, kno…",
-    "summaryAr": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, kno…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Industrial Software Products",
-    "titleAr": "Siemens Industrial Software Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referr…",
-    "summaryAr": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referr…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Simcenter Femap",
-    "titleAr": "Siemens Simcenter Femap",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an att…",
-    "summaryAr": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an att…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens SIMATIC",
-    "titleAr": "Siemens SIMATIC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and ex…",
-    "summaryAr": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and ex…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Industrial Automation Software Products",
-    "titleAr": "Siemens Industrial Automation Software Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referr…",
-    "summaryAr": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referr…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens RUGGEDCOM APE1808",
-    "titleAr": "Siemens RUGGEDCOM APE1808",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to u…",
-    "summaryAr": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to u…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens SIMATIC WinCC",
-    "titleAr": "Siemens SIMATIC WinCC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to ca…",
-    "summaryAr": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to ca…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "titleAr": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Des…",
-    "summaryAr": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Des…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens meta-iot2050",
-    "titleAr": "Siemens meta-iot2050",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an a…",
-    "summaryAr": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an a…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US, Iran exchange fire despite talks with mediators - Reuters",
-    "titleAr": "US, Iran exchange fire despite talks with mediators - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV29iM2xvSHBZbjBVTy1QTFd3aUVKb2ZnMjY3a2wzWWo5eGRGV2UxSTcwTUJCeVFUaDc5TFhoaE1HbC14UVg5NUtRLUE4bXB5M0o2UnhCOXoxVEFLd29QYmJYdWg2M2h5NG80Rkk4X1BaOE5fTUpJVUctOTBIZEltS2FfSXRXeEFFOVNqaFNBaGljVmxubGJnWERTUC05ek5vX0tubUt6cUd2Qi1SZ3NSMUFtVnlHLUtqSzRiUVl3?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794894300000,
-    "summaryEn": "US, Iran exchange fire despite talks with mediators Reuters",
-    "summaryAr": "US, Iran exchange fire despite talks with mediators Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil edges up on tanker attacks, expected US crude drop - Reuters",
-    "titleAr": "Oil edges up on tanker attacks, expected US crude drop - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794879420000,
-    "summaryEn": "Oil edges up on tanker attacks, expected US crude drop Reuters",
-    "summaryAr": "Oil edges up on tanker attacks, expected US crude drop Reuters",
-    "tags": [
-      {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Who is fighting in Yemen? - Reuters",
-    "titleAr": "Who is fighting in Yemen? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGN6VHU5dzJMTmdKNHlfN0pUNC1QX0hDeDhKc2V1MEl1ZUV1dU9xUldNa21WWUNOX0dZY1FlLVhkNFh5X0pSUnZuQlFFV0RUWWVkZm1rMlhsdFhxTjdFTnVnUms5aDVGTGx6dEwyclJ2V05oWDN5Mkp1TnEzOWY2Yg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794875938000,
-    "summaryEn": "Who is fighting in Yemen? Reuters",
-    "summaryAr": "Who is fighting in Yemen? Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli settlers kill Palestinian woman, 72, in West Bank - Reuters",
-    "titleAr": "Israeli settlers kill Palestinian woman, 72, in West Bank - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2o4YldZdldhMFNnWkpmZGlBZE5iUDRjMzJBSFV5SmdyRTQwU05nMjhRcVpZb2ZuWW1fdTNNdzV4VGMyTEZqNDhEZlI4SWJGMnRSOTh5ME5ORWxLcWZWVU5GOGo4bmZaZ1FZdEs3VW8yakdJMHVJM3NYbllNLU9YeFlwYzhnUDRsUldlRWQ4bGhRMHhKbEFhQ2tKLUdHTkRJcGdMY0stSU9CM0p3OXd4ZkZIcWJoNDJHOWlFa01JTQ?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794874740000,
-    "summaryEn": "Israeli settlers kill Palestinian woman, 72, in West Bank Reuters",
-    "summaryAr": "Israeli settlers kill Palestinian woman, 72, in West Bank Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart - Reuters",
-    "titleAr": "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUI4WnRjazloVU5KUTR5MndXU19SVjNiQzRib2JHSC1ZOTFFVE5kdUlweUZjNkJrZzNheVc0bUlJY3UzRGtoanF1NDV4eGdTUnZIOEh4QUZ1MEF1NWt5M2Y3UmtZdnVRN3QwZzg1NTlGQWxsMlFjNzE4c0t6VnVTaUNPTFRZUWxnMVRMUHRZV18tMWttdm80V21kSFgzVUhxdEpUYk9MZElPZXJyTVN3LWVBM2VJTXpmdzlINTFZcTVER1pXV0ZnMHFsWEI?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794871965000,
-    "summaryEn": "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart Reuters",
-    "summaryAr": "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart Reuters",
     "tags": [
       {
         "textEn": "INTEL",
