@@ -1,17 +1,15 @@
-/* YASLOGIST offline runtime
- * Navigation fetches the current HTML when online and falls back to the
- * offline shell only if that fetch fails. Committed intelligence data remains
- * network-first with the last saved snapshot for offline continuity.
- */
+/* YASLOGIST: fresh online HTML and cached offline shell/data. */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v12-shell';
+const CACHE_VERSION = 'yaslogist-v14-shell';
 const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
     './index.html',
     './styles.css?v=26',
     './smart-operations.css?v=4',
+    './sitewide-upgrade.css?v=1',
+    './sitewide-ui.js?v=1',
     './app.js?v=24',
     './lib/wire-visual-state.js',
     './threat-map.js?v=22',
@@ -44,8 +42,7 @@ self.addEventListener('activate', (event) => {
     const keep = new Set([CACHE_VERSION, RUNTIME_CACHE]);
     event.waitUntil((async () => {
         const keys = await caches.keys();
-        // Older versions used cache-first navigation. Refresh their open
-        // dashboard tab once so existing visitors cannot remain on old HTML.
+        // Refresh old cache-first clients once.
         const legacyShell = keys.some(key => /^yaslogist-v(?:[1-9]|10|11)-shell$/.test(key));
         await Promise.all(keys
             .filter(key => key.startsWith('yaslogist-') && !keep.has(key))
@@ -61,8 +58,7 @@ self.addEventListener('activate', (event) => {
     })());
 });
 
-// A network-first navigation is essential for consistent deployments: a
-// versioned app.js cannot help if a previous service worker serves old HTML.
+// HTML must be fresh online; fall back to cache offline.
 const currentNavigation = async (request) => {
     const shell = await caches.open(CACHE_VERSION);
     try {
@@ -93,8 +89,7 @@ self.addEventListener('fetch', (event) => {
 
     const url = new URL(request.url);
     if (url.origin !== self.location.origin) {
-        // CDN assets are optional enhancements, but cache them after the first
-        // online visit so icons, fonts, charts, and Leaflet survive offline.
+        // Cache optional CDN assets for later offline use.
         if (!RUNTIME_HOSTS.has(url.hostname)) return;
         event.respondWith(caches.open(RUNTIME_CACHE).then(async (cache) => {
             const hit = await cache.match(request);

@@ -70,6 +70,7 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="styles.css?v=26">
     <link rel="stylesheet" href="smart-operations.css?v=4">
+    <link rel="stylesheet" href="sitewide-upgrade.css?v=1">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
@@ -177,6 +178,27 @@
             <button class="nav-tab" id="tab-cve-matrix" data-target="cve-matrix" role="tab" aria-selected="false" aria-controls="cve-matrix" tabindex="-1" data-i18n="navCveMatrix">CVE MATRIX</button>
             <button class="nav-tab" id="tab-apt-dossiers" data-target="apt-dossiers" role="tab" aria-selected="false" aria-controls="apt-dossiers" tabindex="-1" data-i18n="navAptDossiers">APT DOSSIERS</button>
         </nav>
+
+        <!-- Lightweight workspace utilities shared by all five existing panels. -->
+        <div class="workspace-bar" role="region" aria-label="Workspace view controls" id="workspace-bar">
+            <div class="workspace-context">
+                <span class="workspace-index mono" id="workspace-index" aria-hidden="true">01 / 05</span>
+                <span class="workspace-name" id="workspace-name">OPERATIONS</span>
+                <span class="workspace-description">
+                    <span class="ui-en" lang="en">Public-source monitoring · validate before action</span>
+                    <span class="ui-ar" lang="ar">رصد من مصادر عامة · تحقق قبل اتخاذ إجراء</span>
+                </span>
+            </div>
+            <div class="workspace-tools">
+                <output id="workspace-results" class="workspace-results" aria-live="polite" hidden></output>
+                <button class="workspace-action" id="workspace-density" type="button" aria-pressed="false" title="Switch between comfortable and compact reading">
+                    <i class="fa-solid fa-layer-group" aria-hidden="true"></i><span id="workspace-density-label">Comfort view</span>
+                </button>
+                <button class="workspace-action" id="workspace-copy-link" type="button" title="Copy this view URL">
+                    <i class="fa-solid fa-link" aria-hidden="true"></i><span id="workspace-copy-label">Copy view link</span>
+                </button>
+            </div>
+        </div>
 
         <section id="dashboard" class="tab-panel glass-panel active" role="tabpanel" aria-labelledby="tab-dashboard" tabindex="0">
             <!-- KPI strip with data-derived progress -->
@@ -599,5 +621,6 @@
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js?v=20"></script>
     <script type="module" src="app.js?v=24"></script>
+    <script type="module" src="sitewide-ui.js?v=1"></script>
 </body>
 </html>

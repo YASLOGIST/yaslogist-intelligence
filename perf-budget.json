@@ -12,12 +12,16 @@
         "data/target_intensity.json": 16384,
         "data/meta.json": 16384,
         "data/signal_timeline.json": 8192,
-        "lib/wire-visual-state.js": 10240
+        "lib/wire-visual-state.js": 10240,
+        "sitewide-upgrade.css": 20480,
+        "sitewide-ui.js": 8192
     },
     "localSurface": [
         "index.html",
         "styles.css",
         "smart-operations.css",
+        "sitewide-upgrade.css",
+        "sitewide-ui.js",
         "app.js",
         "lib/wire-visual-state.js",
         "threat-map.js",
