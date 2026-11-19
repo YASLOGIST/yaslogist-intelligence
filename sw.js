@@ -1,7 +1,7 @@
 /* YASLOGIST: fresh online HTML and cached offline shell/data. */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v15-shell';
+const CACHE_VERSION = 'yaslogist-v16-shell';
 const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
@@ -10,7 +10,7 @@ const APP_SHELL = [
     './smart-operations.css?v=4',
     './sitewide-upgrade.css?v=1',
     './mobile-cve.css?v=1',
-    './sitewide-ui.js?v=1',
+    './sitewide-ui.js?v=2',
     './app.js?v=24',
     './lib/wire-visual-state.js',
     './threat-map.js?v=22',

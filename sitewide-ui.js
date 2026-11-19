@@ -16,6 +16,29 @@ export const UI_TEXT = Object.freeze({
     },
 });
 
+/** Context belongs to the active panel, never to unverified incident status. */
+export const VIEW_CONTEXT = Object.freeze({
+    en: {
+        dashboard: 'Committed signals · analytical overview, not confirmed incidents',
+        'threat-map-view': 'Country-linked reports · reference markers are not live positions',
+        'intel-wire': 'Original public reports · independently verify before action',
+        'cve-matrix': 'Observed CVEs · confirm product applicability before remediation',
+        'apt-dossiers': 'Reference actor profiles · alias matching is not attribution',
+    },
+    ar: {
+        dashboard: 'إشارات منشورة · نظرة تحليلية وليست حوادث مؤكدة',
+        'threat-map-view': 'تقارير مرتبطة بالدول · العلامات المرجعية ليست مواقع حية',
+        'intel-wire': 'تقارير من مصادر عامة · تحقق مستقل قبل اتخاذ إجراء',
+        'cve-matrix': 'ثغرات مرصودة · تحقق من انطباقها قبل المعالجة',
+        'apt-dossiers': 'ملفات مرجعية للجهات · تطابق الأسماء ليس إثباتًا للهوية',
+    },
+});
+
+export function workspaceContext(tabId, language = 'en') {
+    const localized = VIEW_CONTEXT[language === 'ar' ? 'ar' : 'en'];
+    return localized[tabId] || localized.dashboard;
+}
+
 export function activeWorkspace(tabs) {
     const index = tabs.findIndex(tab => tab.getAttribute('aria-selected') === 'true');
     return index < 0 ? 0 : index;
@@ -42,6 +65,9 @@ export function mountSitewideUI(documentRef = document, windowRef = window) {
     const countEl = documentRef.getElementById('workspace-results');
     const densityText = documentRef.getElementById('workspace-density-label');
     const copyText = documentRef.getElementById('workspace-copy-label');
+    const descEn = documentRef.getElementById('workspace-desc-en');
+    const descAr = documentRef.getElementById('workspace-desc-ar');
+    const workspaceBar = documentRef.getElementById('workspace-bar');
     const lang = () => documentRef.documentElement.lang === 'ar' ? 'ar' : 'en';
     let compact = false;
     try { compact = windowRef.localStorage.getItem('yaslogist.viewDensity') === 'compact'; } catch {}
@@ -51,6 +77,11 @@ export function mountSitewideUI(documentRef = document, windowRef = window) {
         indexEl.textContent = String(idx + 1).padStart(2, '0') + ' / 05';
         nameEl.textContent = nav[idx].textContent.trim();
         const panel = nav[idx].getAttribute('data-target');
+        const contextEn = workspaceContext(panel, 'en');
+        const contextAr = workspaceContext(panel, 'ar');
+        if (descEn && descEn.textContent !== contextEn) descEn.textContent = contextEn;
+        if (descAr && descAr.textContent !== contextAr) descAr.textContent = contextAr;
+        workspaceBar?.setAttribute('aria-description', lang() === 'ar' ? contextAr : contextEn);
         const count = resultCount(panel, documentRef);
         countEl.hidden = !count;
         if (count) countEl.textContent = count.value + ' ' + UI_TEXT[lang()][count.kind];

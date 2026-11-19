@@ -80,3 +80,28 @@ panels, interactive browser test log, QA and CI records.
 Do not merge to main or promote to the custom production domain until
 the review branch preview is explicitly accepted. Verify Vercel READY
 and CI Node20/22 and hygiene on the exact final commit.
+
+
+## Review polish: per-panel guidance
+
+The shared workspace caption now follows the active panel and the selected
+language rather than repeating generic text. It states the correct evidence
+limits for Operations, country-reference Map, public-source Wire, CVE asset
+eligibility and APT alias matching. The existing compact bar is unchanged in
+height; the text is hidden on narrow phones as before. This is an
+explanation layer only, not additional telemetry or a threat classifier.
+The small UI script changes to v2, and the PWA shell rotates to v16 so
+returning visitors do not mix old controls with new panel guidance.
+
+## Final contextual guidance verification (same Draft PR)
+
+Local Node 24 CI and data/security/performance checks passed **126/126 tests**
+before the final accessibility regression check. Chromium desktop 1490px
+and WebKit mobile 390px revisited all five panels: no horizontal overflow,
+all 45 original reports and 8 CVEs/12 reference actor cards present,
+CVE rows remain readable mobile cards, map retains a rendered viewport,
+and the UI reports the correct per-panel explanatory text in EN/AR.
+Density remains persistent after reload. Versioned controls, stylesheet
+and mobile CVE cards are all present in the v16 offline shell. The
+workspace region also updates its ARIA description for small-screen
+assistive users while the visual caption is hidden.
