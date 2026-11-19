@@ -16,6 +16,10 @@ const COUNTRY_NODES = {
         country: 'Egypt', coords: [29.9668, 32.5498],
         nameEn: 'Egypt · Suez corridor', nameAr: 'مصر · ممر السويس'
     },
+    'saudi arabia': {
+        country: 'Saudi Arabia', coords: [24.7136, 46.6753],
+        nameEn: 'Saudi Arabia · regional report context', nameAr: 'السعودية · سياق التقارير الإقليمية'
+    },
     iran: {
         country: 'Iran', coords: [35.6892, 51.3890],
         nameEn: 'Iran · Persian Gulf context', nameAr: 'إيران · سياق الخليج'

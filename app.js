@@ -16,7 +16,7 @@
  */
 
 import { initAcidSquares } from './acid-squares-bg.js';
-import { initThreatMap } from './threat-map.js?v=21';
+import { initThreatMap } from './threat-map.js?v=22';
 
 // ===================================================================
 // Runtime safety helpers
@@ -170,6 +170,8 @@ const I18N = {
         sevHigh: 'HIGH',
         sevMedium: 'MEDIUM',
         sevLow: 'LOW',
+        tagLogistics: 'LOGISTICS KEYWORDS',
+        sourceOriginalEnglish: 'Source text in English · not translated',
         tagPinned: 'PINNED',
         pinItem: 'Pin to operator watchlist',
         unpinItem: 'Remove from operator watchlist',
@@ -291,6 +293,8 @@ const I18N = {
         sevHigh: 'مرتفعة',
         sevMedium: 'متوسطة',
         sevLow: 'منخفضة',
+        tagLogistics: 'لوجستيات · كلمات مفتاحية',
+        sourceOriginalEnglish: 'النص الأصلي بالإنجليزية · غير مترجم',
         tagPinned: 'المثبتة',
         pinItem: 'تثبيت في قائمة مراقبة المحلل',
         unpinItem: 'إزالة من قائمة المراقبة',
@@ -701,6 +705,16 @@ class YaslogistThreatRadarApp {
         const link = String(item?.link || '').trim();
         if (link && link !== '#') return `l:${link}`;
         return `t:${String(item?.titleEn || item?.titleAr || '').trim().toLowerCase()}`;
+    }
+
+    /**
+     * Conservative client-side keyword filter, NOT a verified event detector.
+     * Does not remove, retag or mutate any original wire item.
+     */
+    static matchesLogisticsKeywords(item) {
+        const text = [item?.titleEn, item?.summaryEn, item?.titleAr, item?.summaryAr]
+            .filter(Boolean).join(' ').toLowerCase();
+        return /\b(?:maritime|shipping|shipment|freight|container|containers|cargo|logistics|supply[ -]chain|vessel|vessels|tanker|tankers|port|ports|airport|airspace|aviation|suez|hormuz|red[ -]sea|bab[ -]el[ -]mandeb|customs|transit)\b|ملاحة|ميناء|موانئ|الشحن|الشحنات|النقل|الجمارك|السويس|البحر الأحمر|هرمز/.test(text);
     }
 
     loadPinnedIds() {
@@ -2310,6 +2324,8 @@ class YaslogistThreatRadarApp {
         // Apply Tag Filter (PINNED is the operator watchlist pseudo-tag).
         if (this.activeWireTag === 'PINNED') {
             filtered = filtered.filter(item => this.isWirePinned(item));
+        } else if (this.activeWireTag === 'LOGISTICS') {
+            filtered = filtered.filter(item => YaslogistThreatRadarApp.matchesLogisticsKeywords(item));
         } else if (this.activeWireTag !== 'ALL') {
             filtered = filtered.filter(item =>
                 item.tags.some(t => t.textEn.toUpperCase() === this.activeWireTag.toUpperCase())
@@ -2351,13 +2367,15 @@ class YaslogistThreatRadarApp {
             const timeAgo = this.formatTimeAgo(item.pubDate);
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
             const summary = isAr ? (item.summaryAr || item.summaryEn) : item.summaryEn;
+            // An English feed fallback must never masquerade as a translation.
+            const sourceIsEnglish = isAr && /[a-zA-Z]/.test(title) && !/[\u0600-\u06FF]/.test(title);
             const pinned = this.isWirePinned(item);
             const isNew = Date.now() - Number(item.pubDate || 0) < 3 * 3600 * 1000;
 
             return `
                 <div class="wire-item reveal ${pinned ? 'wire-item-pinned' : ''}" style="--reveal-index: ${Math.min(idx, 12)}">
                     <div class="wire-item-header">
-                        <span class="wire-source">${escapeHTML(item.source)}${isNew ? ` <span class="wire-new-badge">${escapeHTML(dict.newBadge)}</span>` : ''}</span>
+                        <span class="wire-source">${escapeHTML(item.source)}${isNew ? ` <span class="wire-new-badge">${escapeHTML(dict.newBadge)}</span>` : ''}${sourceIsEnglish ? ` <span class="wire-language-note" lang="ar">${escapeHTML(dict.sourceOriginalEnglish)}</span>` : ''}</span>
                         <span class="wire-item-tools">
                             <span class="wire-timestamp mono">${escapeHTML(timeAgo)}</span>
                             <button type="button" class="wire-pin-btn ${pinned ? 'pinned' : ''}" data-pin-id="${escapeHTML(YaslogistThreatRadarApp.wireItemId(item))}"
@@ -2367,9 +2385,9 @@ class YaslogistThreatRadarApp {
                         </span>
                     </div>
                     <h3 class="wire-title">
-                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
+                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer" lang="${sourceIsEnglish ? 'en' : this.currentLang}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
                     </h3>
-                    <p class="wire-summary">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
+                    <p class="wire-summary" dir="auto">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
                     <div class="wire-tags">
                         ${item.tags.map(tag => `
                             <span class="wire-tag ${escapeHTML(String(tag.class || "").replace(/[^a-z0-9_-]/gi, ""))}">${escapeHTML(isAr ? tag.textAr : tag.textEn)}</span>
@@ -2506,7 +2524,7 @@ class YaslogistThreatRadarApp {
 
     /** Apply wire filter state coming from a shared link (tag + search). */
     applyWireState({ tag, q } = {}) {
-        const allowedTags = new Set(['ALL', 'PINNED', 'RANSOMWARE', 'ZERO-DAY', 'MARITIME', 'DDoS', 'APT']);
+        const allowedTags = new Set(['ALL', 'PINNED', 'LOGISTICS', 'RANSOMWARE', 'ZERO-DAY', 'MARITIME', 'DDoS', 'APT']);
         const requestedTag = String(tag || 'ALL').toUpperCase();
         this.activeWireTag = allowedTags.has(requestedTag)
             ? (requestedTag === 'DDOS' ? 'DDoS' : requestedTag)

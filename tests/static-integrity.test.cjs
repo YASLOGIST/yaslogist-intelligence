@@ -67,8 +67,8 @@ test('offline runtime serves cache-busted committed data and marks the shell mod
     const app = read('app.js');
     assert.match(worker, /ignoreSearch:\s*true/, 'cache-busted data requests must fall back to the base snapshot');
     assert.match(worker, /dataCacheKey/, 'successful data must be stored under a queryless cache key');
-    assert.match(worker, /CACHE_VERSION = 'yaslogist-v7-shell'/);
-    assert.match(worker, /RUNTIME_CACHE = 'yaslogist-v7-runtime'/);
+    assert.match(worker, /CACHE_VERSION = 'yaslogist-v8-shell'/);
+    assert.match(worker, /RUNTIME_CACHE = 'yaslogist-v8-runtime'/);
     assert.match(app, /OFFLINE MODE \/\/ CACHED SNAPSHOT/);
     assert.match(read('index.html'), /id="live-connection-badge"[^>]*role="status"/);
 });
