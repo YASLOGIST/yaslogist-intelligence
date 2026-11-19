@@ -2,6 +2,7 @@
  * YASLOGIST Intelligence: tiny, independent cross-panel view controls.
  * No external calls, data modification, analytics, polling or new dependencies.
  */
+import { mountEvidenceAction } from './lib/interface-language.js';
 export const TAB_IDS = Object.freeze(['dashboard', 'threat-map-view', 'intel-wire', 'cve-matrix', 'apt-dossiers']);
 export const UI_TEXT = Object.freeze({
     en: {
@@ -69,6 +70,7 @@ export function mountSitewideUI(documentRef = document, windowRef = window) {
     const descAr = documentRef.getElementById('workspace-desc-ar');
     const workspaceBar = documentRef.getElementById('workspace-bar');
     const lang = () => documentRef.documentElement.lang === 'ar' ? 'ar' : 'en';
+    const evidenceAction = mountEvidenceAction(documentRef, windowRef, () => nav[activeWorkspace(nav)].getAttribute('data-target'), lang);
     let compact = false;
     try { compact = windowRef.localStorage.getItem('yaslogist.viewDensity') === 'compact'; } catch {}
     let feedbackTimer;
@@ -93,6 +95,7 @@ export function mountSitewideUI(documentRef = document, windowRef = window) {
         copyText.textContent = UI_TEXT[lang()][copyButton.dataset.feedback || 'copy'];
         copyButton.title = UI_TEXT[lang()].copy;
         copyButton.setAttribute('aria-label', UI_TEXT[lang()].copy);
+        evidenceAction.sync();
     }
     densityButton.addEventListener('click', () => {
         compact = !compact;
@@ -131,6 +134,7 @@ export function mountSitewideUI(documentRef = document, windowRef = window) {
             languageObserver.disconnect();
             windowRef.removeEventListener('hashchange', sync);
             windowRef.clearTimeout(feedbackTimer);
+            evidenceAction.dispose();
         },
     };
 }

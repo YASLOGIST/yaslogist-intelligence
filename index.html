@@ -72,6 +72,7 @@
     <link rel="stylesheet" href="smart-operations.css?v=4">
     <link rel="stylesheet" href="sitewide-upgrade.css?v=1">
     <link rel="stylesheet" href="mobile-cve.css?v=1">
+    <link rel="stylesheet" href="interface-fixed.css?v=1">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
@@ -197,6 +198,9 @@
                 </button>
                 <button class="workspace-action" id="workspace-copy-link" type="button" title="Copy this view URL">
                     <i class="fa-solid fa-link" aria-hidden="true"></i><span id="workspace-copy-label">Copy view link</span>
+                </button>
+                <button class="workspace-action" id="workspace-evidence-brief" type="button" title="Copy evidence brief" aria-label="Copy evidence brief">
+                    <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><span id="workspace-evidence-label">Copy evidence brief</span>
                 </button>
             </div>
         </div>
@@ -464,7 +468,7 @@
                         <div class="wire-toolbar">
                             <div class="search-input-wrap">
                                 <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                                <input type="text" id="news-search" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" aria-label="Filter intelligence wire" />
+                                <input type="text" id="news-search" dir="auto" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" aria-label="Filter intelligence wire" />
                             </div>
                             <div class="tactical-tags-filter" id="wire-tags-filter" role="group" aria-label="Wire tag filters">
                                 <button class="filter-pill active" data-tag="ALL" data-i18n="tagAll">ALL</button>
@@ -544,7 +548,7 @@
                         <div class="cve-toolbar-right">
                             <div class="search-input-wrap small-search">
                                 <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                                <input type="text" id="cve-search" placeholder="Filter CVEs by id, vendor, advisory..." data-i18n-placeholder="cveSearchPlaceholder" aria-label="Filter CVE matrix" />
+                                <input type="text" id="cve-search" dir="auto" placeholder="Filter CVEs by id, vendor, advisory..." data-i18n-placeholder="cveSearchPlaceholder" aria-label="Filter CVE matrix" />
                             </div>
                             <button class="filter-pill cve-sort-toggle" id="cve-sort-toggle" type="button" aria-pressed="false">
                                 <i class="fa-solid fa-arrow-down-wide-short"></i> <span data-i18n="cveSortCvss">SORT: CVSS</span>
@@ -587,7 +591,7 @@
                         </div>
                         <div class="search-input-wrap small-search">
                             <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                            <input type="text" id="actor-search" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" aria-label="Search threat actors" />
+                            <input type="text" id="actor-search" dir="auto" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" aria-label="Search threat actors" />
                         </div>
                     </div>
                     <div class="actors-grid-scroller" id="actors-grid">
@@ -621,7 +625,7 @@
 
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js?v=20"></script>
-    <script type="module" src="app.js?v=24"></script>
-    <script type="module" src="sitewide-ui.js?v=2"></script>
+    <script type="module" src="app.js?v=25"></script>
+    <script type="module" src="sitewide-ui.js?v=3"></script>
 </body>
 </html>

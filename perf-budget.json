@@ -15,7 +15,9 @@
         "lib/wire-visual-state.js": 10240,
         "sitewide-upgrade.css": 20480,
         "sitewide-ui.js": 8192,
-        "mobile-cve.css": 4096
+        "mobile-cve.css": 4096,
+        "interface-fixed.css": 4096,
+        "lib/interface-language.js": 12288
     },
     "localSurface": [
         "index.html",
@@ -23,7 +25,9 @@
         "smart-operations.css",
         "sitewide-upgrade.css",
         "mobile-cve.css",
+        "interface-fixed.css",
         "sitewide-ui.js",
+        "lib/interface-language.js",
         "app.js",
         "lib/wire-visual-state.js",
         "threat-map.js",

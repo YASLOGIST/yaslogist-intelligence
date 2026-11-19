@@ -38,11 +38,11 @@ test("sitewide styling stays inside performance budget and PWA shell",()=>{
     for(const file of ['sitewide-upgrade.css','sitewide-ui.js']){
         assert.ok(budget.localSurface.includes(file),file+' missing from total budget');
         assert.ok(fs.statSync(path.join(root,file)).size<=budget.maxFileBytes[file],file+' breaches file budget');
-        const version = file === 'sitewide-ui.js' ? 2 : 1;
+        const version = file === 'sitewide-ui.js' ? 3 : 1;
         assert.ok(sw.includes("'./"+file+"?v="+version+"'"),file+' not cached offline');
         assert.ok(html.includes(file+'?v='+version),file+' not loaded by page');
     }
-    assert.ok(sw.includes('yaslogist-v16-shell'));
+    assert.ok(sw.includes('yaslogist-v17-shell'));
     assert.ok(sw.includes('currentNavigation'));
     assert.ok(sw.includes("'./lib/wire-visual-state.js'"));
 });

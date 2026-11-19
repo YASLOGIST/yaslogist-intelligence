@@ -23,7 +23,7 @@ function fixture({ online = true, legacyShells = [] } = {}) {
         match: async key => stores.get(name)?.get(String(key))?.clone() ?? null,
         addAll: async () => {},
     });
-    for (const name of ['yaslogist-v16-shell', 'yaslogist-v8-runtime', ...legacyShells, 'foreign-app-cache']) {
+    for (const name of ['yaslogist-v17-shell', 'yaslogist-v8-runtime', ...legacyShells, 'foreign-app-cache']) {
         stores.set(name, new Map());
     }
     const caches = {
@@ -77,9 +77,9 @@ function fixture({ online = true, legacyShells = [] } = {}) {
     return { nav, activate, removed, redirects, stores, get calls() { return calls; },
         setOnline: on => { online = on; },
         setNetwork: html => { returnedNetwork = html; },
-        setShell: async html => makeCache('yaslogist-v16-shell').put('./index.html',
+        setShell: async html => makeCache('yaslogist-v17-shell').put('./index.html',
             new Response(html, { headers: { 'content-type': 'text/html' } })),
-        readShell: () => makeCache('yaslogist-v16-shell').match('./index.html') };
+        readShell: () => makeCache('yaslogist-v17-shell').match('./index.html') };
 }
 
 test('navigation obtains live HTML instead of cached old Intel Wire on healthy network', async () => {
