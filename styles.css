@@ -3092,11 +3092,16 @@ body {
 .table-container-scroller { scrollbar-gutter: stable; }
 .intel-feed-scroller { gap: 7px; padding: 10px 12px; max-height: min(68vh, 760px); }
 .wire-item {
+    /* Keep article cards at their real content height inside the constrained
+       vertical flex scroller. Otherwise flex-shrink: 1 squeezes ~50 reports
+       into 20px strips and hides their titles/summaries behind overflow. */
+    flex: 0 0 auto;
+    min-height: max-content;
     content-visibility: auto;
     contain: layout paint style;
     contain-intrinsic-size: 118px;
-    padding: 11px 12px;
-    gap: 6px;
+    padding: 13px 14px;
+    gap: 7px;
     transform: none !important;
     background: rgba(7, 13, 19, .76) !important;
     border: 1px solid var(--panel-border) !important;
@@ -3114,8 +3119,8 @@ body {
 }
 .wire-timestamp { color: var(--text-muted) !important; text-shadow: none !important; }
 .wire-source { font: 650 9px var(--font-mono); letter-spacing: .05em; }
-.wire-title { font-size: 12px; line-height: 1.45; }
-.wire-summary { font-size: 10.5px; line-height: 1.5; }
+.wire-title { font-size: 13.5px; line-height: 1.55; }
+.wire-summary { font-size: 12px; line-height: 1.6; }
 .wire-tag { border-radius: 2px; font: 650 8px var(--font-mono); }
 .wire-new-badge, .actor-activity-chip.live { animation: none; box-shadow: none; }
 .source-chip { border-radius: 2px; transform: none !important; }

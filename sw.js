@@ -4,12 +4,12 @@
  */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v8-shell';
+const CACHE_VERSION = 'yaslogist-v9-shell';
 const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
     './index.html',
-    './styles.css?v=23',
+    './styles.css?v=24',
     './smart-operations.css?v=4',
     './app.js?v=22',
     './threat-map.js?v=22',
