@@ -70,6 +70,7 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="styles.css?v=26">
     <link rel="stylesheet" href="smart-operations.css?v=4">
+    <link rel="stylesheet" href="wire-design.css?v=1">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
@@ -485,6 +486,21 @@
 
                         <!-- Feed contribution strip: click a source to filter by it -->
                         <div class="wire-source-strip" id="wire-source-strip" hidden aria-label="Source breakdown"></div>
+
+                        <!-- Editorial reading section: visual only; no source ranking. -->
+                        <div class="wire-feed-heading">
+                            <div>
+                                <span class="wire-feed-eyebrow" aria-hidden="true">YASLOGIST / WIRE</span>
+                                <h3 class="wire-feed-title">
+                                    <span class="wire-en" lang="en">Published source reports</span>
+                                    <span class="wire-ar" lang="ar">تقارير المصادر المنشورة</span>
+                                </h3>
+                            </div>
+                            <p class="wire-feed-caption">
+                                <span class="wire-en" lang="en">Browse original reports. First card follows your sort order, not incident severity.</span>
+                                <span class="wire-ar" lang="ar">تصفّح التقارير الأصلية. أول بطاقة تتبع الترتيب المحدد، وليست تصنيفًا لخطورة الحادث.</span>
+                            </p>
+                        </div>
 
                         <!-- Scrollable Feed Container -->
                         <div class="intel-feed-scroller" id="news-container" aria-live="polite" aria-busy="false">
