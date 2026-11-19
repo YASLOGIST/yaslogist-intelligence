@@ -42,7 +42,7 @@ test("sitewide styling stays inside performance budget and PWA shell",()=>{
         assert.ok(sw.includes("'./"+file+"?v="+version+"'"),file+' not cached offline');
         assert.ok(html.includes(file+'?v='+version),file+' not loaded by page');
     }
-    assert.ok(sw.includes('yaslogist-v17-shell'));
+    assert.ok(sw.includes('yaslogist-v18-shell'));
     assert.ok(sw.includes('currentNavigation'));
     assert.ok(sw.includes("'./lib/wire-visual-state.js'"));
 });

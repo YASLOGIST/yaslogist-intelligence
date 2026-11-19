@@ -68,7 +68,7 @@ test('new evidence action and versioned localized module are all offline cached'
     assert.ok(html.includes('id="workspace-evidence-label"'));
     assert.ok(sw.includes("'./lib/interface-language.js'"));
     assert.ok(sw.includes("'./interface-fixed.css?v=1'"));
-    assert.ok(sw.includes("yaslogist-v17-shell"));
+    assert.ok(sw.includes("yaslogist-v18-shell"));
     assert.ok(sw.includes("app.js?v=25")&&sw.includes("sitewide-ui.js?v=3"));
     const sizes=JSON.parse(read('perf-budget.json'));
     for(const name of ['lib/interface-language.js','interface-fixed.css']){

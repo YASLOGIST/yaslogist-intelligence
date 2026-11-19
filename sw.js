@@ -1,7 +1,7 @@
 /* YASLOGIST: fresh online HTML and cached offline shell/data. */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v17-shell';
+const CACHE_VERSION = 'yaslogist-v18-shell';
 const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
@@ -11,6 +11,7 @@ const APP_SHELL = [
     './sitewide-upgrade.css?v=1',
     './mobile-cve.css?v=1',
     './interface-fixed.css?v=1',
+    './visual-finishing.css?v=1',
     './lib/interface-language.js',
     './sitewide-ui.js?v=3',
     './app.js?v=25',

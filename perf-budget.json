@@ -17,7 +17,8 @@
         "sitewide-ui.js": 8192,
         "mobile-cve.css": 4096,
         "interface-fixed.css": 4096,
-        "lib/interface-language.js": 12288
+        "lib/interface-language.js": 12288,
+        "visual-finishing.css": 8192
     },
     "localSurface": [
         "index.html",
@@ -26,6 +27,7 @@
         "sitewide-upgrade.css",
         "mobile-cve.css",
         "interface-fixed.css",
+        "visual-finishing.css",
         "sitewide-ui.js",
         "lib/interface-language.js",
         "app.js",
