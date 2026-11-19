@@ -1,5 +1,6 @@
 {
     "maxFileBytes": {
+        "wire-design.css": 20480,
         "index.html": 45056,
         "styles.css": 139264,
         "smart-operations.css": 12288,
@@ -17,6 +18,7 @@
     "localSurface": [
         "index.html",
         "styles.css",
+        "wire-design.css",
         "smart-operations.css",
         "app.js",
         "lib/wire-visual-state.js",
