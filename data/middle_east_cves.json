@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-76418",
-    "system": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-97229",
-    "system": "GitLab",
-    "severity": "Critical",
-    "cvss": 10,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-118527",
+    "id": "CVE-2026-111357",
     "system": "Connect Secure",
-    "severity": "Medium",
-    "cvss": 4.3,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-116779",
-    "system": "freeswitch",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-102895",
-    "system": "gpustack",
-    "severity": "Critical",
-    "cvss": 9.8,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-125350",
-    "system": "Chrome",
     "severity": "High",
-    "cvss": 8.8,
+    "cvss": 7,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-124194",
-    "system": "Microsoft 365 Apps for Enterprise",
+    "id": "CVE-2026-63774",
+    "system": "PowerSYSTEM Center 2024",
+    "severity": "Critical",
+    "cvss": 9.4,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-63017",
+    "system": "PowerSYSTEM Center 2020",
+    "severity": "Critical",
+    "cvss": 9.4,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-119977",
+    "system": "WordPress",
+    "severity": "High",
+    "cvss": 8.1,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2024-27834",
+    "system": "Safari",
     "severity": "Medium",
-    "cvss": 6.5,
+    "cvss": 5.5,
     "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-116606",
-    "system": "Barracuda Email Security Gateway (ESG)",
+    "id": "CVE-2026-19868",
+    "system": "SonicOS",
+    "severity": "High",
+    "cvss": 7.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-123218",
+    "system": "Aspera Faspex",
     "severity": "Critical",
-    "cvss": 9.3,
+    "cvss": 9.8,
     "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-123158",
+    "system": "OpenSSH",
+    "severity": "High",
+    "cvss": 8.1,
+    "badge": "badge-high"
   }
 ]

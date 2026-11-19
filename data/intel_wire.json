@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Settler rams into Palestinians at multiple locations in central Israel",
-    "titleAr": "Settler rams into Palestinians at multiple locations in central Israel",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/settler-rams-into-palestinians-at-multiple-locations-in-central-israel?traffic_source=rss",
+    "titleEn": "Trump claims Iran is developing bioweapons: Is there any evidence?",
+    "titleAr": "Trump claims Iran is developing bioweapons: Is there any evidence?",
+    "link": "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795050825000,
-    "summaryEn": "At least eight Palestinians were injured after a settler driver was caught on camera running them over.",
-    "summaryAr": "At least eight Palestinians were injured after a settler driver was caught on camera running them over.",
+    "pubDate": 1795088319000,
+    "summaryEn": "Trump threatens to 'wipe out' Iran in case of attack as Tehran's capabilities remain unclear.",
+    "summaryAr": "Trump threatens to 'wipe out' Iran in case of attack as Tehran's capabilities remain unclear.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,13 +16,77 @@
     ]
   },
   {
-    "titleEn": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
-    "titleAr": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+    "titleEn": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+    "titleAr": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Middle East",
+    "pubDate": 1795086457000,
+    "summaryEn": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+    "summaryAr": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel says it concludes Gaza tank raid - Reuters",
+    "titleAr": "Israel says it concludes Gaza tank raid - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTlHeU1CNWItYmpkOXVld21mVVRpNm9EbHhicnE3d1BQcmJ3em1HREh3NkFTUVNSUVFxMjFrWVU5V1dhT2Q2TWZEZ3VwYW9WSjB0SkhJU0JNMUxVMlAyU0RWYnZTekpLUS1oT0xPUXNzUWpjT0dhSktadFFXalBlcG1EaUJXaU1HMnBYb3pxd0V6OVBGdElzYg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795084889000,
+    "summaryEn": "Israel says it concludes Gaza tank raid Reuters",
+    "summaryAr": "Israel says it concludes Gaza tank raid Reuters",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "‘Displacement by design’: Trump’s Gaza peace plan a failure, aid groups say",
+    "titleAr": "‘Displacement by design’: Trump’s Gaza peace plan a failure, aid groups say",
+    "link": "https://www.aljazeera.com/news/2026/11/19/displacement-by-design-trumps-gaza-peace-plan-a-failure-aid-groups-say?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795046462000,
-    "summaryEn": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
-    "summaryAr": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
+    "pubDate": 1795082733000,
+    "summaryEn": "With two million Palestinians confined to an area of less than 130sq km, UN-backed Gaza peace plan has collapsed.",
+    "summaryAr": "With two million Palestinians confined to an area of less than 130sq km, UN-backed Gaza peace plan has collapsed.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "NVIDIA investigating Gentlemen ransomware breach claims",
+    "titleAr": "NVIDIA investigating Gentlemen ransomware breach claims",
+    "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+    "source": "BleepingComputer",
+    "pubDate": 1795080201000,
+    "summaryEn": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+    "summaryAr": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "PIF Tower in Riyadh’s financial district damaged in Houthi strike, sources say - The Jerusalem Post",
+    "titleAr": "PIF Tower in Riyadh’s financial district damaged in Houthi strike, sources say - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ieGctbDhsekFjRGx1NWFlSEhwa2UzMldwWGgyWEVfUkwxOWVmdFEyaWhvVjFkSHN5My0zTmgyUG1SSjNENXhzNnJtNkFGUGZNTV96bzNpb3NCbFVI?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795076361000,
+    "summaryEn": "PIF Tower in Riyadh’s financial district damaged in Houthi strike, sources say The Jerusalem Post",
+    "summaryAr": "PIF Tower in Riyadh’s financial district damaged in Houthi strike, sources say The Jerusalem Post",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -32,13 +96,50 @@
     ]
   },
   {
-    "titleEn": "US intelligence chief says threats from Iran have increased substantially - Reuters",
-    "titleAr": "US intelligence chief says threats from Iran have increased substantially - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nMllFcERiQkpNc1BhVmJRZVN3Q1g4Z2h3UXE5a2N4bnVXLVRBTjA2WjRnUGk5RV92NkI2YWRCX09MOW1abTNady1XXzdtUy01dG9YeDREc09WYmNlX1VZak15Y1lwb28?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795046389000,
-    "summaryEn": "US intelligence chief says threats from Iran have increased substantially Reuters",
-    "summaryAr": "US intelligence chief says threats from Iran have increased substantially Reuters",
+    "titleEn": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
+    "titleAr": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
+    "link": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795076357000,
+    "summaryEn": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
+    "summaryAr": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+    "titleAr": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+    "source": "The Hacker News",
+    "pubDate": 1795075200000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis,…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis,…",
+    "tags": [
+      {
+        "textEn": "RANSOMWARE",
+        "textAr": "برمجيات الفدية",
+        "class": "tag-urgent"
+      },
+      {
+        "textEn": "APT",
+        "textAr": "مجموعات متقدمة",
+        "class": "tag-cyan"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
+    "titleAr": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
+    "link": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795074663000,
+    "summaryEn": "Israeli soldiers describe the psychological toll of the genocide in Gaza, yet many express no remorse.",
+    "summaryAr": "Israeli soldiers describe the psychological toll of the genocide in Gaza, yet many express no remorse.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +149,93 @@
     ]
   },
   {
-    "titleEn": "Israel uses Gaza swimming video to minimise winter hardships",
-    "titleAr": "Israel uses Gaza swimming video to minimise winter hardships",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israel-uses-gaza-swimming-video-to-minimise-winter-hardships?traffic_source=rss",
+    "titleEn": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+    "titleAr": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+    "link": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795046001000,
-    "summaryEn": "Israel shared an Al Jazeera video of Palestinians swimming, to suggest winter storms in Gaza can’t be that bad.",
-    "summaryAr": "Israel shared an Al Jazeera video of Palestinians swimming, to suggest winter storms in Gaza can’t be that bad.",
+    "pubDate": 1795072137000,
+    "summaryEn": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
+    "summaryAr": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Netanyahu’s last stand and the dangerous politics of survival",
+    "titleAr": "Netanyahu’s last stand and the dangerous politics of survival",
+    "link": "https://www.aljazeera.com/news/2026/11/19/netanyahus-last-stand-and-the-dangerous-politics-of-survival?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795071524000,
+    "summaryEn": "Facing political oblivion, Netanyahu is playing a high-stakes game that could push Israel towards violence and chaos.",
+    "summaryAr": "Facing political oblivion, Netanyahu is playing a high-stakes game that could push Israel towards violence and chaos.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook By Reuters - Investing.com",
+    "titleAr": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemhxQlN0TzNLV2xBQ0I5aVMtQ09hbFljZVNEWDJpcE9sd1M4LXZtWVN4OGpvMGtnbXYyUWRJNmpyd1MzWlROQ1AzX1NWMUZ2amNUeFFmdF9YZy14ZjFCSVB4c29jd0VXUUI3Znh1eVJkUjN2TWFua2NNbGI2SklybTd3RWEzclRpSl9WdDhxZ25yN3BrbEhwWUpwajMydEtwX29Ed3F0MzlMMUhNemNZT0FQaXRTejExVGh4bmNBQmZOb1pGc2dmVWd0RFVRQWM?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795069162000,
+    "summaryEn": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook By Reuters Investing.com",
+    "summaryAr": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook By Reuters Investing.com",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "How America’s Middle East allies should navigate the political shift in Washington - The National",
+    "titleAr": "How America’s Middle East allies should navigate the political shift in Washington - The National",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbUVraWJaeXZCWTFRdm00ZW1QX0wtb29wRUswS3RBNlQtWDVGYXdReUc5NzFFblU1SHRrVDRuM3lXVHBZZ0ExVklSdUxJV2Z5cVlUZFRDMWZmRTMwLVBtY0wwREUxX2ptdWVzeGtyWUNWLWFsNXJTd1RwS1NQekJOTnNQeXQwRUFrQnVjZFo4N2pTTHg4bG1jTEczRmxSNjNtTnNwQmZxZW9VdFNocjhzdklRb1N0MXItSURSOGxR?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795061171000,
+    "summaryEn": "How America’s Middle East allies should navigate the political shift in Washington The National",
+    "summaryAr": "How America’s Middle East allies should navigate the political shift in Washington The National",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ - Reuters",
+    "titleAr": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVVMURmUjNxMHVQNThNQkRiUElQbkhnNVJNdkdVejBqLVVIRU1hUl9DWDhpYlFVWUtFZlo5dGNOSnFqTFU5VE93bXdGY3NaOEVmSERoWlJNOWhQN25NN3E1bGF1MEprczBsWFlkOHBDTUVLM21CSFJydjFzUFFaM2ozQU8wSTdnSENadVQ2UTNmSWhOMFBHNE1ZaDB5MURkMFM0cHZuU1BySDl0ZlQ2aDBEUEdmNUE5MnNzTnl2T2VBaV9sWUQ2Zg?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795058340000,
+    "summaryEn": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ Reuters",
+    "summaryAr": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Reuters",
+    "titleAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795056420000,
+    "summaryEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook Reuters",
+    "summaryAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -80,54 +261,6 @@
     ]
   },
   {
-    "titleEn": "US steps up pressure on Iran-backed Hezbollah with new sanctions",
-    "titleAr": "US steps up pressure on Iran-backed Hezbollah with new sanctions",
-    "link": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795042579000,
-    "summaryEn": "The US Treasury has accused Hezbollah of using charitable organisations as 'fronts' for fundraising.",
-    "summaryAr": "The US Treasury has accused Hezbollah of using charitable organisations as 'fronts' for fundraising.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-    "titleAr": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Middle East",
-    "pubDate": 1795041296000,
-    "summaryEn": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-    "summaryAr": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iraq sentences six French nationals to life in prison for joining ISIL",
-    "titleAr": "Iraq sentences six French nationals to life in prison for joining ISIL",
-    "link": "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795038797000,
-    "summaryEn": "Trials began in September for 47 French citizens who were transferred from Syria last year.",
-    "summaryAr": "Trials began in September for 47 French citizens who were transferred from Syria last year.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
     "titleAr": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
     "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
@@ -135,22 +268,6 @@
     "pubDate": 1795034749000,
     "summaryEn": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
     "summaryAr": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-    "titleAr": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795034600000,
-    "summaryEn": "Israel launches ground operation in central Gaza, dozens flee Reuters",
-    "summaryAr": "Israel launches ground operation in central Gaza, dozens flee Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -177,22 +294,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
-    "titleAr": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
-    "link": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795034286000,
-    "summaryEn": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
-    "summaryAr": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -316,6 +417,22 @@
     "pubDate": 1795007088000,
     "summaryEn": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
     "summaryAr": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "titleAr": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795006860000,
+    "summaryEn": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+    "summaryAr": "Israel launches ground operation in central Gaza, dozens flee Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -549,22 +666,6 @@
     ]
   },
   {
-    "titleEn": "Syria forecasts strong economic growth as EU plans 2027 investment conference - Reuters",
-    "titleAr": "Syria forecasts strong economic growth as EU plans 2027 investment conference - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX0ZXRlNaMmtUU0JBUUNMejVkNkVhNzlkMnJHelZ3ZW1vQzZGQ094ejJUTXZQWnJSZFBUYVotcW9MdjFXU21IZ0RYdFN3SVZpcjBFcWJUQnNtNWVaaUNlYlAzVThEc2pIaHFaal9LUnZrUUE5RmlhQlhNbldVUGdSbW1udFhLZUxJVWt1MHdaX1J4OVZoNFNGeGRodmF3cnVRaVhzRkh3SFBucEhSZzJCNkRpMnBuU2xKT1JNRU93R2RObE8yRzhV?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794931423000,
-    "summaryEn": "Syria forecasts strong economic growth as EU plans 2027 investment conference Reuters",
-    "summaryAr": "Syria forecasts strong economic growth as EU plans 2027 investment conference Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters",
     "titleAr": "Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5",
@@ -620,102 +721,6 @@
     "pubDate": 1794923352000,
     "summaryEn": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say Reuters",
     "summaryAr": "Israeli fire kills four, including a 6-year-old boy, in Gaza, medics say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet - Reuters",
-    "titleAr": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVV95bnRSWlVFU1dhSExfODRXN3Q5b1d1VHZZT2Z5Tk1nXzJBUHBFUkNibzBIY1I5NkdoeFAyU1ltNE9tYTVONzA1Smt4YWxmNWlSeVh6ZjVmMVNhbDluZGFwSW1ocExKb3Q0a1g2dFZNWFk3Vy1xclZDd0lRTVlJSFdnUU1ka29SM2wwbVhpTDJITlJzcllObUV3bFNfejhJMlBpdS0xcjIzYzRjVHR5ZE9kQktzTWZiY2VUdXFFOVVudw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794922175000,
-    "summaryEn": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet Reuters",
-    "summaryAr": "Iraqi leader's planned crackdown on pro-Iran militias is riskiest move yet Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "EXCLUSIVE: Elbit sees opportunities from end of US military aid to Israel - Reuters",
-    "titleAr": "EXCLUSIVE: Elbit sees opportunities from end of US military aid to Israel - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ09yM3YzOUNNeHVvNFVJZXJlYjFaeHMyYkdiV3N6NUl1VHFTaFZ6ZXVCalZlLWZFSXppSTREUXNXN0d5bmo3dlU1a2RrWXlvbEJXTHZxNlRRZ29uY2ZMYmpSN3BKaFlzMGR1VVNBS0dCbmw4SkVsaEdfaXBmOENGcXpZb3ZyWjc4ZlV4VmNRODRQT215TF96bFZVY243RUU2Y29qQzMxTGc2Z2wzb1o1RjBRaWc?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794921540000,
-    "summaryEn": "EXCLUSIVE: Elbit sees opportunities from end of US military aid to Israel Reuters",
-    "summaryAr": "EXCLUSIVE: Elbit sees opportunities from end of US military aid to Israel Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot - Reuters",
-    "titleAr": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVVnUzJMMDJJUTh1NTl4Vy1VU2U0bjEzVkRGWFBtamliVkRZQkZud2VuZ25YSDc0VzM5aXhQWWN2YTBFSTRaV1BSNUE3aWp5bmpsV0ZSMDMyT2YxcW5LekhIVEt6Tm9Od1ItNUs1U0ZOd2tfeTJSdkJhVVEtbUFzV2d0Z1NGa0doNGljVlhVOUJNS1UwYXFjVVRxMEY2OTRGY1lHQzcxRTlXR2VnVkh3QjRENEd0VTFPMjRJdmk3bVpXUEVWS3RV?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1794917220000,
-    "summaryEn": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot Reuters",
-    "summaryAr": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens ROS#",
-    "titleAr": "Siemens ROS#",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user …",
-    "summaryAr": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Dorsett Controls InfoScan",
-    "titleAr": "Dorsett Controls InfoScan",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, …",
-    "summaryAr": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, …",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Siemens Mendix Studio Pro",
-    "titleAr": "Siemens Mendix Studio Pro",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-    "source": "CISA Advisories",
-    "pubDate": 1794916800000,
-    "summaryEn": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or tr…",
-    "summaryAr": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or tr…",
     "tags": [
       {
         "textEn": "INTEL",
