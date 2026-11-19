@@ -22,7 +22,7 @@ test("layout fix only replaces the stylesheet cache and preserves scroll, tags, 
         assert.ok(html.includes('data-tag="' + tag + '"'), "lost filter: " + tag);
     }
     const sw = fs.readFileSync(path.resolve(__dirname, "../sw.js"), "utf8");
-    assert.match(sw, /yaslogist-v14-shell/);
+    assert.match(sw, /yaslogist-v15-shell/);
     assert.ok(sw.includes("styles.css?v=26"));
 });
 
