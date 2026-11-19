@@ -1,10 +1,11 @@
 /* YASLOGIST offline runtime
- * The shell is cache-first for instant startup. Committed intelligence is
- * network-first while online, then served from the last successful snapshot.
+ * Navigation fetches the current HTML when online and falls back to the
+ * offline shell only if that fetch fails. Committed intelligence data remains
+ * network-first with the last saved snapshot for offline continuity.
  */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v11-shell';
+const CACHE_VERSION = 'yaslogist-v12-shell';
 const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
@@ -15,6 +16,7 @@ const APP_SHELL = [
     './lib/wire-visual-state.js',
     './threat-map.js?v=22',
     './acid-squares-bg.js?v=20',
+    './acid-squares-bg.js', // app.js imports this exact queryless module offline
     './manifest.webmanifest',
     './assets/yaslogist-logo-128.png',
     './assets/yaslogist-icon-192.png',
@@ -40,18 +42,41 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
     const keep = new Set([CACHE_VERSION, RUNTIME_CACHE]);
-    event.waitUntil(
-        caches.keys()
-            .then((keys) => Promise.all(keys
-                .filter((key) => key.startsWith('yaslogist-') && !keep.has(key))
-                .map((key) => caches.delete(key))))
-            .then(() => self.clients.claim())
-    );
+    event.waitUntil((async () => {
+        const keys = await caches.keys();
+        // Older versions used cache-first navigation. Refresh their open
+        // dashboard tab once so existing visitors cannot remain on old HTML.
+        const legacyShell = keys.some(key => /^yaslogist-v(?:[1-9]|10|11)-shell$/.test(key));
+        await Promise.all(keys
+            .filter(key => key.startsWith('yaslogist-') && !keep.has(key))
+            .map(key => caches.delete(key)));
+        await self.clients.claim();
+        if (legacyShell) {
+            const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+            await Promise.all(windows
+                .filter(client => client.url.startsWith(self.registration.scope))
+                .map(client => typeof client.navigate === 'function'
+                    ? client.navigate(client.url).catch(() => null) : Promise.resolve()));
+        }
+    })());
 });
 
-const cachedFallback = async (request, fallback = './index.html') => {
-    const cached = await caches.match(request, { ignoreSearch: true });
-    return cached || caches.match(fallback, { ignoreSearch: true });
+// A network-first navigation is essential for consistent deployments: a
+// versioned app.js cannot help if a previous service worker serves old HTML.
+const currentNavigation = async (request) => {
+    const shell = await caches.open(CACHE_VERSION);
+    try {
+        const response = await fetch(request, { cache: 'no-store' });
+        if (response.ok && (response.headers.get('content-type') || '').includes('text/html')) {
+            // Ignore cache write failures.
+            try { await shell.put('./index.html', response.clone()); } catch (_) { /* quota/private mode */ }
+        }
+        return response;
+    } catch (_) {
+        return (await shell.match('./index.html'))
+            || (await shell.match('./', { ignoreSearch: true }))
+            || Response.error();
+    }
 };
 
 const dataCacheKey = (url) => new Request(`${url.origin}${url.pathname}`);
@@ -82,9 +107,7 @@ self.addEventListener('fetch', (event) => {
     }
 
     if (request.mode === 'navigate') {
-        // Cache-first is intentional: the installed shell paints immediately
-        // while every data artifact below independently resolves from cache.
-        event.respondWith(cachedFallback(request).then((cached) => cached || fetch(request)));
+        event.respondWith(currentNavigation(request));
         return;
     }
 
