@@ -1,0 +1,120 @@
+/* YASLOGIST Intelligence / final visual finish.
+   Calm, static, non-blocking editorial polish for the original 5 tabs.
+   No additional DOM, timers, animations, blur layers, dependencies or GPU loops.
+   Colors express visual organization; NOT risk severity unless supplied by
+   the existing data-status value. Fixed LTR layout in both languages. */
+
+:root{
+  --vf-cyan:#81dbe5;
+  --vf-gold:#f0c888;
+  --vf-line:rgba(134,207,220,.32);
+}
+.command-header{
+  position:relative;
+  background-image:radial-gradient(ellipse 70% 90% at 8% 2%,rgba(64,151,183,.075),transparent 73%),
+    linear-gradient(115deg,rgba(10,23,34,.98),rgba(6,15,25,.96))!important;
+}
+.command-header::after{
+  content:"";
+  pointer-events:none;position:absolute;inset:0;border-radius:inherit;
+  background:
+    linear-gradient(90deg,transparent 8%,rgba(126,207,222,.48) 22%,rgba(230,188,111,.40) 63%,transparent 91%) 0 0/100% 1px no-repeat,
+    linear-gradient(90deg,rgba(127,219,228,.64),transparent) 0 0/28px 1px no-repeat,
+    linear-gradient(rgba(127,219,228,.64),transparent) 0 0/1px 26px no-repeat;
+}
+.tactical-navbar .nav-tab{
+  transition:background-color .16s ease,border-color .16s ease,color .16s ease;
+}
+.tactical-navbar .nav-tab.active{
+  border-color:rgba(228,194,129,.50);
+  background:linear-gradient(165deg,rgba(100,79,46,.31),rgba(25,50,63,.79));
+  text-shadow:0 0 13px rgba(242,204,139,.13);
+}
+.workspace-bar{
+  background-image:linear-gradient(108deg,rgba(26,68,77,.30),transparent 59%),
+    linear-gradient(110deg,rgba(15,36,47,.91),rgba(6,17,27,.95));
+  box-shadow:inset 0 1px 0 rgba(184,226,237,.07);
+}
+.workspace-name{color:#f1f7f9;text-shadow:0 1px 8px rgba(91,183,214,.12)}
+/* Section cues are stable chrome, not fake live telemetry. */
+#dashboard{--vf-section:#8bcfde}
+#threat-map-view{--vf-section:#74d7d0}
+#intel-wire{--vf-section:#77cde2}
+#cve-matrix{--vf-section:#e49d95}
+#apt-dossiers{--vf-section:#e5c17d}
+.tab-panel .card-header{
+  position:relative;
+  box-shadow:inset 0 1px 0 rgba(214,240,247,.035);
+}
+.tab-panel .card-header::after{
+  content:"";position:absolute;bottom:0;left:17px;width:min(90px,22%);
+  height:2px;pointer-events:none;opacity:.78;
+  background:linear-gradient(90deg,var(--vf-section,#81dbe5),transparent);
+}
+.tab-panel .header-icon{
+  box-shadow:inset 0 1px 0 rgba(199,237,246,.08),0 0 0 1px rgba(68,131,149,.08);
+}
+#dashboard .kpi-card{
+  background-image:radial-gradient(ellipse 92% 80% at 97% 3%,rgba(111,192,208,.09),transparent 73%),
+    linear-gradient(150deg,#152b3a,#0c1c2a)!important;
+  box-shadow:inset 0 1px 0 rgba(211,239,249,.08);
+}
+#dashboard .kpi-value{text-shadow:0 0 18px rgba(76,152,166,.10)}
+#dashboard .progress-metric-box{
+  background-image:linear-gradient(155deg,rgba(30,69,86,.26),transparent 82%);
+  box-shadow:inset 0 1px rgba(181,228,238,.05);
+}
+#dashboard .vector-chart-panel,
+#dashboard .industry-chart-panel{box-shadow:inset 0 1px rgba(192,231,239,.06),0 8px 24px rgba(0,0,0,.10)}
+#threat-map-view .map-container-relative{position:relative}
+#threat-map-view .map-container-relative::after{
+  content:"";position:absolute;inset:0;z-index:450;pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(118,219,216,.68),transparent) 0 0/29px 1px no-repeat,
+    linear-gradient(rgba(118,219,216,.68),transparent) 0 0/1px 28px no-repeat,
+    linear-gradient(270deg,rgba(118,219,216,.68),transparent) 100% 100%/29px 1px no-repeat,
+    linear-gradient(0deg,rgba(118,219,216,.68),transparent) 100% 100%/1px 28px no-repeat;
+}
+#threat-map-view .map-legend{box-shadow:inset 0 1px rgba(196,229,235,.05)}
+#threat-map-view .btn-reset-map:hover{border-color:#81dbe5;background:#163a49}
+#intel-wire .wire-state-card{
+  background-image:linear-gradient(125deg,color-mix(in srgb,var(--signal-color,#81dbe5) 10%,transparent),transparent 75%),
+    linear-gradient(130deg,#173244,#0d2231);
+  box-shadow:inset 0 1px 0 rgba(217,240,246,.07);
+}
+#intel-wire .wire-item{
+  box-shadow:inset 0 1px 0 rgba(207,235,243,.04);
+}
+#intel-wire .wire-item:focus-within{
+  border-color:#85dce7;outline:1px solid rgba(122,210,226,.35);outline-offset:0;
+}
+#intel-wire .wire-item-pinned{
+  background-image:linear-gradient(130deg,rgba(187,139,64,.10),transparent 65%),
+    linear-gradient(120deg,rgba(19,43,56,.97),rgba(11,28,41,.97));
+}
+#intel-wire .source-chip[aria-pressed="true"]{
+  box-shadow:inset 0 1px rgba(186,234,242,.10);
+}
+#cve-matrix .tactical-table tbody tr:focus-within{
+  box-shadow:inset 3px 0 rgba(240,200,136,.70);
+  outline:1px solid rgba(240,200,136,.38);outline-offset:-1px;
+}
+#cve-matrix .cve-badge{box-shadow:inset 0 1px rgba(255,255,255,.07)}
+#apt-dossiers .actor-dossier-card{
+  background-image:radial-gradient(ellipse 70% 100% at 100% 0%,rgba(189,152,82,.075),transparent 75%),
+    linear-gradient(140deg,#182d3b,#0d2130)!important;
+  box-shadow:inset 0 1px 0 rgba(232,226,196,.06),0 5px 18px rgba(0,0,0,.12);
+}
+#apt-dossiers .actor-dossier-card:focus-within{
+  border-color:rgba(240,200,136,.65)!important;
+  outline:1px solid rgba(240,200,136,.32);outline-offset:-1px;
+}
+#apt-dossiers .actor-target-pill{border:1px solid rgba(142,186,199,.14)}
+/* Stable page geometry, humane keyboard navigation and low-end GPU safety. */
+@media(max-width:680px){
+ .tab-panel .card-header::after{left:11px;width:58px}
+ #threat-map-view .map-container-relative::after{background-size:17px 1px,1px 17px,17px 1px,1px 17px}
+}
+@media(prefers-reduced-motion:reduce){
+ .tactical-navbar .nav-tab{transition:none!important}
+}

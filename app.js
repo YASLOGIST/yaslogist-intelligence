@@ -17,6 +17,7 @@
 
 import { initAcidSquares } from './acid-squares-bg.js';
 import { initThreatMap } from './threat-map.js?v=22';
+import { applySupplementaryLabels, hasUntranslatedSource, localizePalette, paletteCopy, translateCommandLabels } from './lib/interface-language.js';
 import { matchesLogisticsKeywords, orderWireItems, paintWireVisualState } from './lib/wire-visual-state.js';
 
 // ===================================================================
@@ -316,15 +317,15 @@ const I18N = {
         pinItem: 'تثبيت في قائمة مراقبة المحلل',
         unpinItem: 'إزالة من قائمة المراقبة',
         newBadge: 'جديد',
-        pinnedEmptyState: 'لا توجد تقارير مثبتة بعد. قم بتمييز الاعتراضات بنجمة لبناء قائمة مراقبتك الشخصية.',
+        pinnedEmptyState: 'لا توجد تقارير مثبتة بعد. استخدم النجمة لحفظ التقارير في قائمة المتابعة.',
         cveSearchPlaceholder: 'تصفية الثغرات بالرمز، الشركة، أو التوجيه...',
         cveExportCsvTitle: 'تصدير مصفوفة الثغرات المصفاة بصيغة CSV',
         cveExportToast: 'تم تصدير مصفوفة الثغرات بصيغة CSV',
         actorLevelLabel: 'مستوى التهديد',
-        actorActivityLabel: 'مطابقات الأسماء في الشريط',
+        actorActivityLabel: 'مطابقات الأسماء في التقارير',
         actorNoActivity: 'لا تطابق حالي',
         actorMitreLink: 'MITRE ATT&CK',
-        sourceBreakdownLabel: 'توزيع المصادر',
+        sourceBreakdownLabel: 'توزيع التقارير حسب المصدر',
         sourceFilterTitle: 'انقر لتصفية الشريط حسب هذا المصدر',
         wireSyncIdle: 'فحص الطبقة · 10 د',
         wireSyncedAt: 'آخر فحص للطبقة',
@@ -630,7 +631,7 @@ class YaslogistThreatRadarApp {
             </section>`;
         document.body.appendChild(palette);
 
-        const commands = this.buildCommandList();
+        const commands = () => translateCommandLabels(this.buildCommandList(), this.currentLang);
         const dialog = palette.querySelector('.command-palette-dialog');
         const list = palette.querySelector('#command-list');
         const search = palette.querySelector('#command-search');
@@ -639,13 +640,13 @@ class YaslogistThreatRadarApp {
         const renderCommands = () => {
             const query = search.value.trim().toLowerCase();
             const visible = [];
-            commands.forEach((cmd, idx) => {
+            commands().forEach((cmd, idx) => {
                 if (cmd[0].toLowerCase().includes(query)) visible.push([cmd[0], cmd[1], idx]);
             });
             selected = Math.min(selected, Math.max(visible.length - 1, 0));
             list.innerHTML = visible.map(([label, key, idx], i) =>
                 `<button type="button" class="command-item ${i === selected ? 'selected' : ''}" role="menuitem" data-command-index="${idx}"><span>${escapeHTML(label)}</span><kbd>${key}</kbd></button>`
-            ).join('') || '<div class="command-empty">No matching command</div>';
+            ).join('') || '<div class="command-empty">' + paletteCopy(this.currentLang).none + '</div>';
         };
         const close = () => {
             if (palette.hidden) return;
@@ -658,6 +659,7 @@ class YaslogistThreatRadarApp {
         const open = () => {
             returnFocus = document.activeElement?.focus ? document.activeElement : null;
             palette.hidden = false;
+            localizePalette(document, this.currentLang);
             renderCommands();
             requestAnimationFrame(() => search.focus());
         };
@@ -665,7 +667,7 @@ class YaslogistThreatRadarApp {
             if (event.target.closest('[data-command-close]')) return close();
             const item = event.target.closest('[data-command-index]');
             if (!item) return;
-            const command = commands[Number(item.dataset.commandIndex)];
+            const command = commands()[Number(item.dataset.commandIndex)];
             close(); command?.[2]();
         });
         search.addEventListener('input', renderCommands);
@@ -1139,7 +1141,7 @@ class YaslogistThreatRadarApp {
             if (point) { point.setAttribute('cx', x.toFixed(1)); point.setAttribute('cy', y.toFixed(1)); }
         });
         const vectorState = document.getElementById('smart-vector-state');
-        if (vectorState) vectorState.textContent = ar ? '٣ محاور · مباشر' : '3 AXES · LIVE';
+        if (vectorState) vectorState.textContent = ar ? '٣ محاور · بيانات منشورة' : '3 AXES · PUBLISHED DATA';
         const scoreEl = document.getElementById('smart-risk-score');
         if (scoreEl) scoreEl.textContent = `${risk}/100`;
         const trendEl = document.getElementById('smart-risk-trend');
@@ -1517,7 +1519,7 @@ class YaslogistThreatRadarApp {
         const langText = document.getElementById('langBtnText');
         const applyShell = () => {
             const isAr = this.currentLang === 'ar';
-            document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
+            document.documentElement.setAttribute('dir', 'ltr');
             document.documentElement.setAttribute('lang', this.currentLang);
             if (langText) langText.textContent = isAr ? 'ENGLISH' : 'العربية';
             this.applyTranslations();
@@ -1589,11 +1591,11 @@ class YaslogistThreatRadarApp {
                     node.setAttribute('title', dict[titleKey]);
                 }
 
-                // Need to convert to array before iterating since we might modify childNodes
-                Array.from(node.childNodes).forEach(walkDOM);
+                        Array.from(node.childNodes).forEach(walkDOM);
             }
         };
         walkDOM(document.body);
+        applySupplementaryLabels(document, this.currentLang);
 
         // Update browser document title
         document.title = isAr
@@ -2394,7 +2396,7 @@ class YaslogistThreatRadarApp {
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
             const summary = isAr ? (item.summaryAr || item.summaryEn) : item.summaryEn;
             // Identify untranslated source titles.
-            const sourceIsEnglish = isAr && /[a-zA-Z]/.test(title) && !/[\u0600-\u06FF]/.test(title);
+            const sourceIsEnglish = isAr && hasUntranslatedSource(title, summary);
             const pinned = this.isWirePinned(item);
             const isNew = Date.now() - Number(item.pubDate || 0) < 3 * 3600 * 1000;
 
@@ -2411,7 +2413,7 @@ class YaslogistThreatRadarApp {
                         </span>
                     </div>
                     <h3 class="wire-title">
-                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer" lang="${sourceIsEnglish ? 'en' : this.currentLang}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
+                        <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer" lang="${isAr && hasUntranslatedSource(title) ? 'en' : this.currentLang}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
                     </h3>
                     <p class="wire-summary" id="wire-excerpt-${idx}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
                     ${summary?.length > 110 ? `<button type="button" class="wire-excerpt-toggle" aria-expanded="false" aria-controls="wire-excerpt-${idx}">${escapeHTML(dict.wireShowExcerpt)}</button>` : ''}

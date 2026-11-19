@@ -1,0 +1,47 @@
+/* Fixed-English-layout doctrine: language changes content only, not the
+   physical order of navigation, cards, maps, buttons or workspace controls. */
+html,html[lang="ar"],body{direction:ltr!important}
+html[lang="ar"] .hud-container,
+html[lang="ar"] .tactical-navbar,
+html[lang="ar"] .workspace-bar,
+html[lang="ar"] .tab-panel,
+html[lang="ar"] .card-header,
+html[lang="ar"] .wire-toolbar,
+html[lang="ar"] .cve-toolbar,
+html[lang="ar"] .actors-dossier-panel{direction:ltr!important}
+/* Allocate stable slots so translating labels never reorders the controls. */
+.tactical-navbar .nav-tab{flex:0 0 152px}
+.workspace-bar .workspace-tools{min-width:410px;justify-content:flex-end}
+@media(max-width:700px){
+ .tactical-navbar .nav-tab{flex-basis:120px}
+ .workspace-bar .workspace-tools{min-width:0}
+}
+/* Arabic lines use natural punctuation and glyph order inside their ORIGINAL
+   LTR slots; they do not move their cards or flip navigation. */
+html[lang="ar"] :is(.wire-title,.wire-summary,.card-title,.card-subtitle,
+  .workspace-description,.workspace-name,.smart-recommendation p,
+  .actor-motivation,.actor-origin,.wire-state-value,.source-chip-name){
+    unicode-bidi:plaintext;
+}
+html[lang="ar"] .search-input-wrap input[dir="auto"]{
+    text-align:left;
+}
+#workspace-evidence-brief{border-color:rgba(218,187,126,.37)}
+#workspace-evidence-brief .fa-solid{color:#edc67b}
+#workspace-evidence-brief:hover{border-color:rgba(237,198,123,.8)}
+#workspace-evidence-brief:focus-visible{outline:2px solid #edc67b;outline-offset:2px}
+@media(max-width:680px){
+  /* Both languages reserve the same header footprint: text never shifts
+     navigation or the workspace bar vertically on phones. */
+  .command-header{min-height:306px}
+  #workspace-evidence-brief{width:42px;min-width:42px}
+  .workspace-tools{gap:4px}
+}
+@media(max-width:370px){
+  .command-header{min-height:350px}
+  .workspace-tools .workspace-action{width:38px;min-width:38px}
+  .workspace-results{max-width:66px}
+}
+@media(prefers-reduced-motion:reduce){
+ #workspace-evidence-brief{transition:none}
+}

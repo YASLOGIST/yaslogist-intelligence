@@ -70,6 +70,10 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="styles.css?v=26">
     <link rel="stylesheet" href="smart-operations.css?v=4">
+    <link rel="stylesheet" href="sitewide-upgrade.css?v=1">
+    <link rel="stylesheet" href="mobile-cve.css?v=1">
+    <link rel="stylesheet" href="interface-fixed.css?v=1">
+    <link rel="stylesheet" href="visual-finishing.css?v=1">
 </head>
 <body class="yaslogist-terminal">
     <a class="skip-link" href="#dashboard" data-i18n="skipToContent">Skip to main dashboard</a>
@@ -177,6 +181,30 @@
             <button class="nav-tab" id="tab-cve-matrix" data-target="cve-matrix" role="tab" aria-selected="false" aria-controls="cve-matrix" tabindex="-1" data-i18n="navCveMatrix">CVE MATRIX</button>
             <button class="nav-tab" id="tab-apt-dossiers" data-target="apt-dossiers" role="tab" aria-selected="false" aria-controls="apt-dossiers" tabindex="-1" data-i18n="navAptDossiers">APT DOSSIERS</button>
         </nav>
+
+        <!-- Lightweight workspace utilities shared by all five existing panels. -->
+        <div class="workspace-bar" role="region" aria-label="Workspace view controls" id="workspace-bar">
+            <div class="workspace-context">
+                <span class="workspace-index mono" id="workspace-index" aria-hidden="true">01 / 05</span>
+                <span class="workspace-name" id="workspace-name">OPERATIONS</span>
+                <span class="workspace-description">
+                    <span class="ui-en" id="workspace-desc-en" lang="en">Committed signals · analytical overview, not confirmed incidents</span>
+                    <span class="ui-ar" id="workspace-desc-ar" lang="ar">إشارات منشورة · نظرة تحليلية وليست حوادث مؤكدة</span>
+                </span>
+            </div>
+            <div class="workspace-tools">
+                <output id="workspace-results" class="workspace-results" aria-live="polite" hidden></output>
+                <button class="workspace-action" id="workspace-density" type="button" aria-pressed="false" title="Switch between comfortable and compact reading">
+                    <i class="fa-solid fa-layer-group" aria-hidden="true"></i><span id="workspace-density-label">Comfort view</span>
+                </button>
+                <button class="workspace-action" id="workspace-copy-link" type="button" title="Copy this view URL">
+                    <i class="fa-solid fa-link" aria-hidden="true"></i><span id="workspace-copy-label">Copy view link</span>
+                </button>
+                <button class="workspace-action" id="workspace-evidence-brief" type="button" title="Copy evidence brief" aria-label="Copy evidence brief">
+                    <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><span id="workspace-evidence-label">Copy evidence brief</span>
+                </button>
+            </div>
+        </div>
 
         <section id="dashboard" class="tab-panel glass-panel active" role="tabpanel" aria-labelledby="tab-dashboard" tabindex="0">
             <!-- KPI strip with data-derived progress -->
@@ -441,7 +469,7 @@
                         <div class="wire-toolbar">
                             <div class="search-input-wrap">
                                 <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                                <input type="text" id="news-search" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" aria-label="Filter intelligence wire" />
+                                <input type="text" id="news-search" dir="auto" placeholder="Filter wire by keyword, CVE, or region..." data-i18n-placeholder="searchWirePlaceholder" aria-label="Filter intelligence wire" />
                             </div>
                             <div class="tactical-tags-filter" id="wire-tags-filter" role="group" aria-label="Wire tag filters">
                                 <button class="filter-pill active" data-tag="ALL" data-i18n="tagAll">ALL</button>
@@ -521,7 +549,7 @@
                         <div class="cve-toolbar-right">
                             <div class="search-input-wrap small-search">
                                 <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                                <input type="text" id="cve-search" placeholder="Filter CVEs by id, vendor, advisory..." data-i18n-placeholder="cveSearchPlaceholder" aria-label="Filter CVE matrix" />
+                                <input type="text" id="cve-search" dir="auto" placeholder="Filter CVEs by id, vendor, advisory..." data-i18n-placeholder="cveSearchPlaceholder" aria-label="Filter CVE matrix" />
                             </div>
                             <button class="filter-pill cve-sort-toggle" id="cve-sort-toggle" type="button" aria-pressed="false">
                                 <i class="fa-solid fa-arrow-down-wide-short"></i> <span data-i18n="cveSortCvss">SORT: CVSS</span>
@@ -536,11 +564,11 @@
                         <table class="tactical-table" id="cve-table">
                             <thead>
                                 <tr>
-                                    <th data-i18n="thCveId">CVE IDENTIFIER</th>
-                                    <th data-i18n="thSystem">AFFECTED SYSTEM / VENDOR</th>
-                                    <th data-i18n="thSeverity">SEVERITY</th>
-                                    <th data-i18n="thCvss">CVSS</th>
-                                    <th data-i18n="thAdvisory">TACTICAL ADVISORY</th>
+                                    <th scope="col" data-i18n="thCveId">CVE IDENTIFIER</th>
+                                    <th scope="col" data-i18n="thSystem">AFFECTED SYSTEM / VENDOR</th>
+                                    <th scope="col" data-i18n="thSeverity">SEVERITY</th>
+                                    <th scope="col" data-i18n="thCvss">CVSS</th>
+                                    <th scope="col" data-i18n="thAdvisory">TACTICAL ADVISORY</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -564,7 +592,7 @@
                         </div>
                         <div class="search-input-wrap small-search">
                             <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                            <input type="text" id="actor-search" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" aria-label="Search threat actors" />
+                            <input type="text" id="actor-search" dir="auto" placeholder="Search actor by alias, origin, target..." data-i18n-placeholder="searchActorsPlaceholder" aria-label="Search threat actors" />
                         </div>
                     </div>
                     <div class="actors-grid-scroller" id="actors-grid">
@@ -598,6 +626,7 @@
 
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js?v=20"></script>
-    <script type="module" src="app.js?v=24"></script>
+    <script type="module" src="app.js?v=25"></script>
+    <script type="module" src="sitewide-ui.js?v=3"></script>
 </body>
 </html>
