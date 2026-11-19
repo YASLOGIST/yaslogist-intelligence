@@ -233,3 +233,11 @@ test('fetchWithRetry does not retry permanent client errors', async () => {
         global.fetch = realFetch;
     }
 });
+
+test('multi-word Saudi Arabia country is title-cased and contains only source-count semantics', () => {
+    const value = core.intensityEntry('saudi arabia', 2, 1);
+    assert.equal(value.country, 'Saudi Arabia');
+    assert.equal(value.attacks, '2'); // legacy JSON field is a signal-mention count
+    assert.equal(value.previous, '1');
+    assert.equal(value.deltaPct, 100);
+});

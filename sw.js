@@ -4,15 +4,16 @@
  */
 'use strict';
 
-const CACHE_VERSION = 'yaslogist-v7-shell';
-const RUNTIME_CACHE = 'yaslogist-v7-runtime';
+const CACHE_VERSION = 'yaslogist-v11-shell';
+const RUNTIME_CACHE = 'yaslogist-v8-runtime';
 const APP_SHELL = [
     './',
     './index.html',
-    './styles.css?v=22',
+    './styles.css?v=26',
     './smart-operations.css?v=4',
-    './app.js?v=21',
-    './threat-map.js?v=21',
+    './app.js?v=24',
+    './lib/wire-visual-state.js',
+    './threat-map.js?v=22',
     './acid-squares-bg.js?v=20',
     './manifest.webmanifest',
     './assets/yaslogist-logo-128.png',

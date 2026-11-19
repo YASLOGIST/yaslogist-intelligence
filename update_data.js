@@ -57,7 +57,7 @@ const KEYWORDS = [
     'wiper', 'scada', 'cve-'
 ];
 
-const TARGET_COUNTRIES = ['israel', 'iran', 'lebanon', 'syria', 'yemen', 'jordan', 'egypt'];
+const TARGET_COUNTRIES = ['israel', 'iran', 'lebanon', 'syria', 'yemen', 'jordan', 'egypt', 'saudi arabia'];
 
 const MAX_WIRE_ITEMS = 45;
 const MAX_CVES = 8;
@@ -163,9 +163,18 @@ async function run() {
             (contentStr.match(/cve-\d{4}-\d{4,7}/gi) || []).forEach(m => foundCves.add(m.toUpperCase()));
 
             if (daysOld <= 7) {
-                TARGET_COUNTRIES.forEach(c => { if (contentStr.includes(c)) countryStats[c].recent++; });
+                TARGET_COUNTRIES.forEach(c => {
+                    // Country-linked REPORT mentions, not verified attacks or exposure.
+                    if (contentStr.includes(c) || (c === 'saudi arabia' && /\bksa\b|السعودية|السعوديه/.test(contentStr))) {
+                        countryStats[c].recent++;
+                    }
+                });
             } else if (daysOld <= 14) {
-                TARGET_COUNTRIES.forEach(c => { if (contentStr.includes(c)) countryStats[c].previous++; });
+                TARGET_COUNTRIES.forEach(c => {
+                    if (contentStr.includes(c) || (c === 'saudi arabia' && /\bksa\b|السعودية|السعوديه/.test(contentStr))) {
+                        countryStats[c].previous++;
+                    }
+                });
             }
         });
     });

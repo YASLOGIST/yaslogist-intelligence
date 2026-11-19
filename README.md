@@ -11,15 +11,25 @@
 
 
 
-<a href="https://yaslogist.github.io/yaslogist-intelligence/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1450&pause=620&color=00E5FF&background=050B1200&center=true&vCenter=true&repeat=true&width=900&height=112&lines=%24+boot+yaslogist-intelligence+--edge;%3E+normalizing+OSINT+%2F+CVE+%2F+maritime+signals;%3E+validating+canonical+event+contracts;%3E+publishing+bilingual+EN%2FAR+operations+picture;%E2%96%88+SYSTEM_READY+%2F%2F+OPEN_CONSOLE" alt="Animated terminal boot sequence: boots the edge console, normalizes OSINT, CVE and maritime signals, validates canonical event contracts, publishes a bilingual operations picture" /></a>
+<a href="https://intelligence.yaslogist.com/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1450&pause=620&color=00E5FF&background=050B1200&center=true&vCenter=true&repeat=true&width=900&height=112&lines=%24+boot+yaslogist-intelligence+--edge;%3E+normalizing+OSINT+%2F+CVE+%2F+maritime+signals;%3E+validating+canonical+event+contracts;%3E+publishing+bilingual+EN%2FAR+operations+picture;%E2%96%88+SYSTEM_READY+%2F%2F+OPEN_CONSOLE" alt="Animated terminal boot sequence: boots the edge console, normalizes OSINT, CVE and maritime signals, validates canonical event contracts, publishes a bilingual operations picture" /></a>
 
 **SOVEREIGN CTI · MARITIME LOGISTICS RADAR · ZERO-BUILD EDGE RUNTIME**
 
 A static, bilingual (EN / AR) regional-threat and supply-chain operations picture.
+**Canonical site:** https://intelligence.yaslogist.com/ — this YASLOGIST
+Intelligence site remains an **independent** web property. GitHub Pages and
+the legacy Vercel address remain available; they are not deleted or merged
+into any other application. The intelligence wire is public-source monitoring,
+not verified real-time shipment telemetry.
+
+**Independent fallback:** https://yaslogist.github.io/yaslogist-intelligence/
+remains accessible for repository-hosted operation. Both live hosts declare the
+dedicated YASLOGIST Intelligence subdomain as the canonical website.
+
 Every number on screen derives from committed, schema-validated JSON; the pipeline
 cannot silently ship malformed data; the UI degrades honestly offline.
 
-[![OPEN CONSOLE](https://img.shields.io/badge/OPEN_CONSOLE-LIVE-00E5FF?style=for-the-badge&logo=githubpages&logoColor=061018)](https://yaslogist.github.io/yaslogist-intelligence/)
+[![OPEN CONSOLE](https://img.shields.io/badge/OPEN_CONSOLE-LIVE-00E5FF?style=for-the-badge&logo=githubpages&logoColor=061018)](https://intelligence.yaslogist.com/)
 [![CI GATE](https://img.shields.io/github/actions/workflow/status/YASLOGIST/yaslogist-intelligence/ci.yml?branch=main&style=for-the-badge&label=CI%20GATE&logo=githubactions&logoColor=white&color=00E5FF)](https://github.com/YASLOGIST/yaslogist-intelligence/actions/workflows/ci.yml)
 [![2H INGEST](https://img.shields.io/github/actions/workflow/status/YASLOGIST/yaslogist-intelligence/update-data.yml?branch=main&style=for-the-badge&label=2H%20INGEST&logo=radar&logoColor=white&color=8B5CF6)](https://github.com/YASLOGIST/yaslogist-intelligence/actions/workflows/update-data.yml)
 
@@ -400,7 +410,7 @@ produced for this repository and stored under `assets/readme/`.
 
 <div align="center">
   <code>STATIC BY DEFAULT // VERSIONED INTELLIGENCE // HOSTILE-INPUT AWARE // FAILURE TOLERANT</code><br/><br/>
-  <a href="https://yaslogist.github.io/yaslogist-intelligence/">CONSOLE</a> ·
+  <a href="https://intelligence.yaslogist.com/">CONSOLE</a> ·
   <a href="https://www.yaslogist.com">YASLOGIST</a> ·
   <a href="docs/ARCHITECTURE.md">ARCHITECTURE</a> ·
   <a href="docs/AUDIT-2026-10.md">AUDIT</a> ·

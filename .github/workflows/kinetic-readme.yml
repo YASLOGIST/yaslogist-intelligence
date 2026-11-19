@@ -47,7 +47,7 @@ jobs:
       - name: Measure edge and build Shields endpoint payloads
         shell: bash
         env:
-          SITE_URL: https://yaslogist.github.io/yaslogist-intelligence/
+          SITE_URL: https://intelligence.yaslogist.com/
         run: |
           set -euo pipefail
           mkdir -p assets/readme-telemetry

@@ -1087,6 +1087,23 @@ button:disabled {
     text-transform: uppercase;
 }
 
+.wire-language-note {
+    display: inline-flex;
+    margin-inline-start: 6px;
+    padding: 2px 6px;
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    color: var(--text-secondary);
+    font-family: 'Cairo', var(--font-arabic);
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.5;
+    max-width: 100%;
+    white-space: normal;
+}
+.wire-title a[dir="auto"] { unicode-bidi: plaintext; }
+
 .wire-timestamp {
     font-size: 9.5px;
     color: var(--text-muted);
@@ -3075,11 +3092,16 @@ body {
 .table-container-scroller { scrollbar-gutter: stable; }
 .intel-feed-scroller { gap: 7px; padding: 10px 12px; max-height: min(68vh, 760px); }
 .wire-item {
+    /* Keep article cards at their real content height inside the constrained
+       vertical flex scroller. Otherwise flex-shrink: 1 squeezes ~50 reports
+       into 20px strips and hides their titles/summaries behind overflow. */
+    flex: 0 0 auto;
+    min-height: max-content;
     content-visibility: auto;
     contain: layout paint style;
     contain-intrinsic-size: 118px;
-    padding: 11px 12px;
-    gap: 6px;
+    padding: 13px 14px;
+    gap: 7px;
     transform: none !important;
     background: rgba(7, 13, 19, .76) !important;
     border: 1px solid var(--panel-border) !important;
@@ -3097,8 +3119,8 @@ body {
 }
 .wire-timestamp { color: var(--text-muted) !important; text-shadow: none !important; }
 .wire-source { font: 650 9px var(--font-mono); letter-spacing: .05em; }
-.wire-title { font-size: 12px; line-height: 1.45; }
-.wire-summary { font-size: 10.5px; line-height: 1.5; }
+.wire-title { font-size: 13.5px; line-height: 1.55; }
+.wire-summary { font-size: 12px; line-height: 1.6; }
 .wire-tag { border-radius: 2px; font: 650 8px var(--font-mono); }
 .wire-new-badge, .actor-activity-chip.live { animation: none; box-shadow: none; }
 .source-chip { border-radius: 2px; transform: none !important; }
@@ -3555,3 +3577,200 @@ body.yaslogist-terminal { background: var(--surface-0) !important; }
     .data-integrity-status { font-size: 8.5px; }
 }
 .data-integrity-status[hidden] { display: none !important; }
+
+/* Intelligence Wire v1.6: restrained reading controls and accessible excerpts.
+   No new filters may hide/alter upstream source records. */
+.wire-view-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    padding-block-start: 8px;
+    border-top: 1px solid var(--line-soft);
+    min-width: 0;
+}
+.wire-results-count {
+    flex: 0 0 auto;
+    color: var(--text-primary);
+    font-size: 11.5px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+.wire-evidence-hint {
+    flex: 1 1 220px;
+    color: var(--text-secondary);
+    font-size: 11.5px;
+    line-height: 1.5;
+}
+.wire-sort-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-inline-start: auto;
+    color: var(--text-secondary);
+    font: 600 11px/1.3 var(--font-arabic);
+    white-space: nowrap;
+}
+.wire-sort-wrap select {
+    appearance: auto;
+    min-height: 36px;
+    min-width: 124px;
+    max-width: 100%;
+    padding: 6px 9px;
+    color: var(--text-primary);
+    background: #101d28;
+    border: 1px solid rgba(127, 165, 185, .4);
+    border-radius: 4px;
+    font: 600 12px/1.4 var(--font-arabic);
+    cursor: pointer;
+}
+.wire-sort-wrap select:focus-visible,
+.wire-excerpt-toggle:focus-visible {
+    outline: 2px solid var(--yas-cyan);
+    outline-offset: 2px;
+}
+.wire-excerpt-toggle {
+    appearance: none;
+    align-self: flex-start;
+    min-height: 30px;
+    max-width: 100%;
+    padding: 4px 8px;
+    color: #a5d7e0;
+    background: rgba(6, 182, 212, .07);
+    border: 1px solid rgba(84, 184, 194, .24);
+    border-radius: 3px;
+    font: 600 11px/1.45 var(--font-arabic);
+    text-align: start;
+    cursor: pointer;
+}
+.wire-excerpt-toggle:hover {
+    background: rgba(6, 182, 212, .13);
+    border-color: rgba(84, 184, 194, .50);
+    color: var(--text-primary);
+}
+.wire-item.wire-expanded .wire-summary {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+    .wire-view-bar { gap: 7px 10px; }
+    .wire-evidence-hint { flex-basis: 100%; order: 3; }
+    .wire-sort-wrap { margin-inline-start: auto; }
+    .wire-sort-wrap select { min-width: 110px; }
+    .wire-item .wire-title { font-size: 14px; line-height: 1.55; }
+    .wire-item .wire-summary { font-size: 12.5px; }
+}
+
+/* Source-status signals: factual publication, optional fetch, and local view.
+   Subtle static accent, no compositing loops or "verified" incident colors. */
+.wire-status-rail {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--panel-border);
+    background: linear-gradient(120deg, rgba(8, 24, 35, .58), rgba(5, 12, 20, .16));
+}
+.wire-state-card {
+    --signal-color: #8295a5;
+    position: relative;
+    min-width: 0;
+    min-height: 66px;
+    padding: 10px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(121, 152, 175, .18);
+    border-radius: 5px;
+    background: linear-gradient(145deg, rgba(16, 29, 42, .93), rgba(8, 18, 28, .88));
+    transition: border-color 160ms ease, background-color 160ms ease;
+}
+.wire-state-card::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 2px;
+    opacity: .75;
+    background: linear-gradient(to right, var(--signal-color), transparent);
+    pointer-events: none;
+}
+.wire-state-kicker {
+    min-width: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: #99abb9;
+    font: 700 10px/1.4 var(--font-arabic);
+    letter-spacing: .045em;
+}
+.wire-state-dot {
+    flex: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--signal-color);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--signal-color) 12%, transparent);
+}
+.wire-state-label { min-width: 0; overflow-wrap: anywhere; }
+.wire-state-value {
+    min-width: 0;
+    color: #d9e7ed;
+    font: 650 12px/1.45 var(--font-arabic);
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}
+.wire-state-card[data-status="recent"],
+.wire-state-card[data-status="responsive"],
+.wire-state-card[data-status="all"] { --signal-color: #55c5ba; }
+.wire-state-card[data-status="delayed"],
+.wire-state-card[data-status="partial"],
+.wire-state-card[data-status="watchlist"] { --signal-color: #eab657; }
+.wire-state-card[data-status="stale"],
+.wire-state-card[data-status="unavailable"] { --signal-color: #ed807a; }
+.wire-state-card[data-status="filtered"] { --signal-color: #65b9e4; }
+.wire-state-card[data-status="offline"] { --signal-color: #96a4b5; }
+.wire-state-card[data-status="stale"],
+.wire-state-card[data-status="unavailable"] { border-color: rgba(237, 128, 122, .37); }
+.wire-state-card[data-status="delayed"],
+.wire-state-card[data-status="partial"] { border-color: rgba(234, 182, 87, .36); }
+.wire-sync-chip[data-state="partial"] {
+    color: #eab657;
+    border-color: rgba(234, 182, 87, .36);
+}
+.wire-sync-chip[data-state="degraded"] {
+    color: #ed807a;
+    border-color: rgba(237, 128, 122, .36);
+}
+.source-chip[aria-pressed="true"] {
+    background: rgba(67, 150, 170, .15);
+    border-color: #60c1d0;
+    color: var(--text-primary);
+}
+.source-chip[aria-pressed="true"]::after {
+    opacity: 1;
+    background: linear-gradient(90deg, #60c1d0, #ddb05b);
+}
+.source-chip[aria-pressed="true"] .source-chip-name { color: #d5ebef; }
+.wire-item-pinned .wire-pin-btn.pinned {
+    color: #f4c669;
+    background: rgba(234, 182, 87, .10);
+    border-color: rgba(234, 182, 87, .35);
+}
+@media (max-width: 760px) {
+    .wire-status-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 9px 10px; gap: 7px; }
+    .wire-state-card { min-height: 60px; padding: 9px 10px 10px; }
+    .wire-state-card:last-child { grid-column: 1 / -1; min-height: 52px; }
+    .wire-state-value { font-size: 11.5px; }
+}
+@media (max-width: 340px) {
+    .wire-status-rail { grid-template-columns: 1fr; }
+    .wire-state-card:last-child { grid-column: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .wire-state-card { transition: none; }
+}

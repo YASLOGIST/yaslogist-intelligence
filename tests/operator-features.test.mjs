@@ -266,3 +266,61 @@ test('NEW badge appears only for intercepts younger than 3 hours', () => {
     // Exactly one occurrence (the fresh item only).
     assert.equal((html.match(/wire-new-badge/g) || []).length, 1);
 });
+
+/* ---------------------- independent logistics discovery + language integrity */
+
+test('LOGISTICS keyword filter is optional and never suppresses the ALL wire', () => {
+    const app = makeApp();
+    const unrelated = { ...ITEMS[0], titleEn: 'Economic debate in parliament',
+        titleAr: 'Economic debate in parliament', summaryEn: 'No freight relevance',
+        summaryAr: '', tags: [{ textEn: 'INTEL', textAr: 'استخبارات', class: '' }] };
+    // Avoid "freight" in the unrelated item's text, including the summary.
+    unrelated.summaryEn = 'A local budget discussion.';
+    app.allWireItems = [ITEMS[1], unrelated];
+    app.activeWireTag = 'LOGISTICS';
+    app.renderIntelligenceWire();
+    const filtered = document.getElementById('news-container').innerHTML;
+    assert.ok(filtered.includes('Maritime chokepoint'));
+    assert.ok(!filtered.includes('Economic debate'));
+    app.activeWireTag = 'ALL';
+    app.renderIntelligenceWire();
+    assert.ok(document.getElementById('news-container').innerHTML.includes('Economic debate'),
+        'the source wire stays intact when the operator returns to ALL');
+});
+
+test('keyword matching is precise about port versus support and handles Arabic', () => {
+    assert.ok(YaslogistThreatRadarApp.matchesLogisticsKeywords({ titleEn: 'Port Said cargo terminal advisory' }));
+    assert.ok(YaslogistThreatRadarApp.matchesLogisticsKeywords({ titleAr: 'تأخر الشحنات في ميناء جدة' }));
+    assert.ok(!YaslogistThreatRadarApp.matchesLogisticsKeywords({ titleEn: 'The support team met today' }));
+    assert.ok(!YaslogistThreatRadarApp.matchesLogisticsKeywords({ titleEn: 'Parliamentary budget debate' }));
+});
+
+test('Arabic UI labels untranslated English source headlines instead of inventing a translation', () => {
+    const app = makeApp();
+    app.currentLang = 'ar';
+    app.allWireItems = [{
+        ...ITEMS[0], titleEn: 'English-only source report', titleAr: 'English-only source report',
+        summaryEn: 'Source description', summaryAr: 'Source description',
+        tags: [{ textEn: 'INTEL', textAr: 'استخبارات', class: '' }]
+    }];
+    app.activeWireTag = 'ALL';
+    app.renderIntelligenceWire();
+    const ar = document.getElementById('news-container').innerHTML;
+    assert.ok(ar.includes('النص الأصلي بالإنجليزية · غير مترجم'));
+    assert.ok(ar.includes('lang="en" dir="auto"'));
+    app.currentLang = 'en';
+    app.renderIntelligenceWire();
+    const en = document.getElementById('news-container').innerHTML;
+    assert.ok(!en.includes('wire-language-note'),
+        'there should be no untranslated-source warning in the English interface');
+});
+
+test('LOGISTICS filter can be deep-linked without changing other existing tags', () => {
+    const state = YaslogistThreatRadarApp.parseWireState('tag=LOGISTICS');
+    const app = makeApp();
+    app.applyWireState(state);
+    assert.equal(app.activeWireTag, 'LOGISTICS');
+    assert.equal(YaslogistThreatRadarApp.parseWireState('tag=MARITIME').tag, 'MARITIME');
+    assert.equal(YaslogistThreatRadarApp.parseWireState('tag=APT').tag, 'APT');
+    assert.equal(YaslogistThreatRadarApp.parseWireState('tag=PINNED').tag, 'PINNED');
+});
