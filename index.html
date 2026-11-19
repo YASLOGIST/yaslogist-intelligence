@@ -68,7 +68,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=25">
+    <link rel="stylesheet" href="styles.css?v=26">
     <link rel="stylesheet" href="smart-operations.css?v=4">
 </head>
 <body class="yaslogist-terminal">
@@ -467,6 +467,22 @@
                             </div>
                         </div>
 
+                        <!-- Distinct states: published artifact, optional fetches, local view. -->
+                        <div class="wire-status-rail" id="wire-status-rail" role="group" data-i18n-aria-label="wireRailAria" aria-label="Source and view status">
+                            <div class="wire-state-card" id="wire-state-snapshot" data-status="unknown">
+                                <span class="wire-state-kicker"><span class="wire-state-dot" aria-hidden="true"></span><span class="wire-state-label">Published snapshot</span></span>
+                                <span class="wire-state-value">Publication time unknown</span>
+                            </div>
+                            <div class="wire-state-card" id="wire-state-overlay" data-status="unchecked">
+                                <span class="wire-state-kicker"><span class="wire-state-dot" aria-hidden="true"></span><span class="wire-state-label">Optional source check</span></span>
+                                <span class="wire-state-value">Not checked yet</span>
+                            </div>
+                            <div class="wire-state-card" id="wire-state-view" data-status="all">
+                                <span class="wire-state-kicker"><span class="wire-state-dot" aria-hidden="true"></span><span class="wire-state-label">Wire reading mode</span></span>
+                                <span class="wire-state-value">All reports</span>
+                            </div>
+                        </div>
+
                         <!-- Feed contribution strip: click a source to filter by it -->
                         <div class="wire-source-strip" id="wire-source-strip" hidden aria-label="Source breakdown"></div>
 
@@ -582,6 +598,6 @@
 
     <!-- ES Modules -->
     <script type="module" src="acid-squares-bg.js?v=20"></script>
-    <script type="module" src="app.js?v=23"></script>
+    <script type="module" src="app.js?v=24"></script>
 </body>
 </html>

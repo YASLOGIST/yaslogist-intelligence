@@ -22,8 +22,8 @@ test("layout fix only replaces the stylesheet cache and preserves scroll, tags, 
         assert.ok(html.includes('data-tag="' + tag + '"'), "lost filter: " + tag);
     }
     const sw = fs.readFileSync(path.resolve(__dirname, "../sw.js"), "utf8");
-    assert.match(sw, /yaslogist-v10-shell/);
-    assert.ok(sw.includes("styles.css?v=25"));
+    assert.match(sw, /yaslogist-v11-shell/);
+    assert.ok(sw.includes("styles.css?v=26"));
 });
 
 test("wire order and excerpt controls never re-enable shrinking or remove the source scroller", () => {
@@ -35,4 +35,17 @@ test("wire order and excerpt controls never re-enable shrinking or remove the so
     assert.ok(style.includes(".wire-item.wire-expanded .wire-summary"));
     assert.ok(style.includes(".wire-sort-wrap select:focus-visible"));
     assert.ok(style.includes("flex: 0 0 auto;"));
+});
+
+test("snapshot/overlay/filter source status rail is semantic, calm and fully cached offline", () => {
+    for (const id of ['wire-state-snapshot', 'wire-state-overlay', 'wire-state-view']) {
+        assert.ok(html.includes('id="' + id + '"'));
+    }
+    assert.ok(html.includes('data-i18n-aria-label="wireRailAria"'));
+    assert.ok(style.includes('.wire-status-rail'));
+    assert.ok(style.includes('.wire-state-card[data-status="stale"]'));
+    assert.ok(style.includes('.source-chip[aria-pressed="true"]'));
+    assert.ok(style.includes('@media (prefers-reduced-motion: reduce)'));
+    const sw = fs.readFileSync(path.resolve(__dirname, '../sw.js'), 'utf8');
+    assert.ok(sw.includes("./lib/wire-visual-state.js"), 'offline PWA must cache the dynamically imported local module');
 });

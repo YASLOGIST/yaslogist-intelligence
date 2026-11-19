@@ -17,6 +17,7 @@
 
 import { initAcidSquares } from './acid-squares-bg.js';
 import { initThreatMap } from './threat-map.js?v=22';
+import { matchesLogisticsKeywords, orderWireItems, paintWireVisualState } from './lib/wire-visual-state.js';
 
 // ===================================================================
 // Runtime safety helpers
@@ -135,6 +136,7 @@ const I18N = {
         searchWirePlaceholder: 'Filter wire by keyword, CVE, or region...',
         wireResultsTemplate: '{shown} of {total} reports',
         wireEvidenceHint: 'Public reports · verify before action',
+        wireRailAria: 'Source and view status',
         wireSortLabel: 'Order',
         wireSortNewest: 'Newest first',
         wireSortOldest: 'Oldest first',
@@ -265,6 +267,7 @@ const I18N = {
         searchWirePlaceholder: 'ابحث بالكلمة المفتاحية، رمز الثغرة أو الإقليم...',
         wireResultsTemplate: 'عرض {shown} من {total} تقارير',
         wireEvidenceHint: 'تقارير من مصادر عامة · تحقق قبل التصرف',
+        wireRailAria: 'حالة المصادر وطريقة العرض',
         wireSortLabel: 'الترتيب',
         wireSortNewest: 'الأحدث أولاً',
         wireSortOldest: 'الأقدم أولاً',
@@ -324,7 +327,7 @@ const I18N = {
         sourceBreakdownLabel: 'توزيع المصادر',
         sourceFilterTitle: 'انقر لتصفية الشريط حسب هذا المصدر',
         wireSyncIdle: 'فحص الطبقة · 10 د',
-        wireSyncedAt: 'آخر مزامنة للبث الحي',
+        wireSyncedAt: 'آخر فحص للطبقة',
         kpiBarCountries: 'الدول المرصودة التي ترسل إشارات حالياً',
         kpiBarAptShare: 'نسبة الشريط الحي الموسومة كنشاط APT أو مدعوم من دولة',
         kpiBarPeakCvss: 'أعلى درجة CVSS أساسية بين الثغرات المرصودة',
@@ -601,6 +604,7 @@ class YaslogistThreatRadarApp {
             ? I18N[this.currentLang].statusLiveFeed
             : (I18N[this.currentLang].statusOfflineCached || 'FEED: OFFLINE / CACHED');
         document.documentElement.dataset.network = online ? 'online' : 'offline';
+        paintWireVisualState(this);
     }
 
     initSmartOperations() {
@@ -722,15 +726,7 @@ class YaslogistThreatRadarApp {
         return `t:${String(item?.titleEn || item?.titleAr || '').trim().toLowerCase()}`;
     }
 
-    /**
-     * Conservative client-side keyword filter, NOT a verified event detector.
-     * Does not remove, retag or mutate any original wire item.
-     */
-    static matchesLogisticsKeywords(item) {
-        const text = [item?.titleEn, item?.summaryEn, item?.titleAr, item?.summaryAr]
-            .filter(Boolean).join(' ').toLowerCase();
-        return /\b(?:maritime|shipping|shipment|freight|container|containers|cargo|logistics|supply[ -]chain|vessel|vessels|tanker|tankers|port|ports|airport|airspace|aviation|suez|hormuz|red[ -]sea|bab[ -]el[ -]mandeb|customs|transit)\b|ملاحة|ميناء|موانئ|الشحن|الشحنات|النقل|الجمارك|السويس|البحر الأحمر|هرمز/.test(text);
-    }
+    static matchesLogisticsKeywords(item) { return matchesLogisticsKeywords(item); }
 
     loadPinnedIds() {
         try {
@@ -912,10 +908,13 @@ class YaslogistThreatRadarApp {
         const time = this.lastWireSyncAt
             ? new Date(this.lastWireSyncAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
             : null;
-        chip.textContent = synced && time
+        const checked = synced || !!this.lastWireSyncAt;
+        chip.textContent = checked && time
             ? `${dict.wireSyncedAt} ${time}`
             : dict.wireSyncIdle;
-        chip.dataset.state = synced ? 'synced' : 'idle';
+        chip.dataset.state = !checked ? 'idle' : this.feedHealth?.ok === this.feedHealth?.total
+            ? 'synced' : this.feedHealth?.ok > 0 ? 'partial' : 'degraded';
+        paintWireVisualState(this);
     }
 
     /** Source contribution strip: one chip per top feed, click filters by it. */
@@ -934,6 +933,7 @@ class YaslogistThreatRadarApp {
             `<span class="source-chip-bar" style="width:${Math.max(8, Math.round((count / max) * 100))}%"></span>` +
             `</button>`
         ).join('');
+        paintWireVisualState(this);
     }
 
     downloadBlob(content, mimeType, filename) {
@@ -1701,6 +1701,7 @@ class YaslogistThreatRadarApp {
         this.updateFooterSync();
         this.renderSmartBriefing();
         this.updateDataIntegrityStatus();
+        paintWireVisualState(this);
     }
 
     /** Footer sync chip: honest pipeline age, stale-state colouring. */
@@ -2137,6 +2138,7 @@ class YaslogistThreatRadarApp {
             : `${n} public-source reports // verify before action${pinnedText}`;
         const pinnedCount = document.getElementById('wire-pinned-count');
         if (pinnedCount) pinnedCount.textContent = String(pinned);
+        paintWireVisualState(this);
     }
 
     async fetchSingleFeed(feed, timeoutMs = 9000) {
@@ -2328,14 +2330,7 @@ class YaslogistThreatRadarApp {
         return dist;
     }
 
-    static orderWireItems(items, order = 'newest') {
-        const stamp = item => { const n = Number(item?.pubDate); return n > 0 && Number.isFinite(n) ? n : null; };
-        return [...(items || [])].sort((a, b) => {
-            const x = stamp(a), y = stamp(b);
-            if (x === null || y === null) return x === null ? (y === null ? 0 : 1) : -1;
-            return (order === 'oldest' ? 1 : -1) * (x - y);
-        });
-    }
+    static orderWireItems(items, order = 'newest') { return orderWireItems(items, order); }
 
     renderIntelligenceWire() {
         const container = document.getElementById('news-container');
@@ -2372,6 +2367,8 @@ class YaslogistThreatRadarApp {
         if (count) count.textContent = dict.wireResultsTemplate
             .replace('{shown}', filtered.length)
             .replace('{total}', (this.allWireItems || []).length);
+        this.wireVisibleCount = filtered.length;
+        paintWireVisualState(this, filtered.length);
 
         if (filtered.length === 0) {
             const unavailable = !(this.allWireItems || []).length;

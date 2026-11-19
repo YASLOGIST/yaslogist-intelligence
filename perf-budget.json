@@ -11,13 +11,15 @@
         "data/middle_east_cves.json": 32768,
         "data/target_intensity.json": 16384,
         "data/meta.json": 16384,
-        "data/signal_timeline.json": 8192
+        "data/signal_timeline.json": 8192,
+        "lib/wire-visual-state.js": 10240
     },
     "localSurface": [
         "index.html",
         "styles.css",
         "smart-operations.css",
         "app.js",
+        "lib/wire-visual-state.js",
         "threat-map.js",
         "acid-squares-bg.js",
         "sw.js",
