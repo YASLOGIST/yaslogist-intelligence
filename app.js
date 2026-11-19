@@ -133,6 +133,13 @@ const I18N = {
         wireTitle: 'PRIORITY INTELLIGENCE WIRE',
         wireSubtitle: 'Committed reports with optional public-source overlay',
         searchWirePlaceholder: 'Filter wire by keyword, CVE, or region...',
+        wireResultsTemplate: '{shown} of {total} reports',
+        wireEvidenceHint: 'Public reports · verify before action',
+        wireSortLabel: 'Order',
+        wireSortNewest: 'Newest first',
+        wireSortOldest: 'Oldest first',
+        wireShowExcerpt: 'Show excerpt',
+        wireHideExcerpt: 'Show less',
         tagAll: 'ALL',
         tagRansomware: 'RANSOMWARE',
         tagZeroday: 'ZERO-DAY',
@@ -256,6 +263,13 @@ const I18N = {
         wireTitle: 'شريط الاستخبارات ذي الأولوية',
         wireSubtitle: 'تقارير مثبتة مع طبقة اختيارية من المصادر العامة',
         searchWirePlaceholder: 'ابحث بالكلمة المفتاحية، رمز الثغرة أو الإقليم...',
+        wireResultsTemplate: 'عرض {shown} من {total} تقارير',
+        wireEvidenceHint: 'تقارير من مصادر عامة · تحقق قبل التصرف',
+        wireSortLabel: 'الترتيب',
+        wireSortNewest: 'الأحدث أولاً',
+        wireSortOldest: 'الأقدم أولاً',
+        wireShowExcerpt: 'عرض المقتطف',
+        wireHideExcerpt: 'طي المقتطف',
         tagAll: 'الكل',
         tagRansomware: 'برمجيات الفدية',
         tagZeroday: 'يوم-الصفر',
@@ -515,6 +529,7 @@ class YaslogistThreatRadarApp {
         this.cveData = [];
         this.allWireItems = [];
         this.activeWireTag = storage.get('yaslogist.wireTag', 'ALL');
+        this.wireSortOrder = storage.get('yaslogist.wireSortOrder', 'newest') === 'oldest' ? 'oldest' : 'newest';
         this.wireSearchTerm = '';
         this.cveFilter = 'ALL';
         this.cveSort = 'cvss';
@@ -2118,8 +2133,8 @@ class YaslogistThreatRadarApp {
             ? (isAr ? ` · ${pinned} مثبتة` : ` · ${pinned} pinned`)
             : '';
         countEl.textContent = isAr
-            ? `${n} تقارير معترضة // تدفق حي متواصل${pinnedText}`
-            : `${n} intercepted reports // Active streams${pinnedText}`;
+            ? `${n} تقارير من مصادر عامة // تُراجع قبل الاعتماد${pinnedText}`
+            : `${n} public-source reports // verify before action${pinnedText}`;
         const pinnedCount = document.getElementById('wire-pinned-count');
         if (pinnedCount) pinnedCount.textContent = String(pinned);
     }
@@ -2313,6 +2328,15 @@ class YaslogistThreatRadarApp {
         return dist;
     }
 
+    static orderWireItems(items, order = 'newest') {
+        const stamp = item => { const n = Number(item?.pubDate); return n > 0 && Number.isFinite(n) ? n : null; };
+        return [...(items || [])].sort((a, b) => {
+            const x = stamp(a), y = stamp(b);
+            if (x === null || y === null) return x === null ? (y === null ? 0 : 1) : -1;
+            return (order === 'oldest' ? 1 : -1) * (x - y);
+        });
+    }
+
     renderIntelligenceWire() {
         const container = document.getElementById('news-container');
         if (!container) return;
@@ -2321,7 +2345,7 @@ class YaslogistThreatRadarApp {
         const dict = I18N[this.currentLang];
         let filtered = this.allWireItems;
 
-        // Apply Tag Filter (PINNED is the operator watchlist pseudo-tag).
+        // Tags and operator watchlist.
         if (this.activeWireTag === 'PINNED') {
             filtered = filtered.filter(item => this.isWirePinned(item));
         } else if (this.activeWireTag === 'LOGISTICS') {
@@ -2332,7 +2356,6 @@ class YaslogistThreatRadarApp {
             );
         }
 
-        // Apply Search Filter — Arabic operators search Arabic fields too.
         if (this.wireSearchTerm) {
             const term = this.wireSearchTerm.toLowerCase();
             filtered = filtered.filter(item =>
@@ -2343,6 +2366,12 @@ class YaslogistThreatRadarApp {
                 (item.source && item.source.toLowerCase().includes(term))
             );
         }
+
+        filtered = YaslogistThreatRadarApp.orderWireItems(filtered, this.wireSortOrder);
+        const count = document.getElementById('wire-results-count');
+        if (count) count.textContent = dict.wireResultsTemplate
+            .replace('{shown}', filtered.length)
+            .replace('{total}', (this.allWireItems || []).length);
 
         if (filtered.length === 0) {
             const unavailable = !(this.allWireItems || []).length;
@@ -2367,7 +2396,7 @@ class YaslogistThreatRadarApp {
             const timeAgo = this.formatTimeAgo(item.pubDate);
             const title = isAr ? (item.titleAr || item.titleEn) : item.titleEn;
             const summary = isAr ? (item.summaryAr || item.summaryEn) : item.summaryEn;
-            // An English feed fallback must never masquerade as a translation.
+            // Identify untranslated source titles.
             const sourceIsEnglish = isAr && /[a-zA-Z]/.test(title) && !/[\u0600-\u06FF]/.test(title);
             const pinned = this.isWirePinned(item);
             const isNew = Date.now() - Number(item.pubDate || 0) < 3 * 3600 * 1000;
@@ -2387,7 +2416,8 @@ class YaslogistThreatRadarApp {
                     <h3 class="wire-title">
                         <a href="${safeURL(item.link)}" target="_blank" rel="noopener noreferrer" lang="${sourceIsEnglish ? 'en' : this.currentLang}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(title, term)}</a>
                     </h3>
-                    <p class="wire-summary" dir="auto">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
+                    <p class="wire-summary" id="wire-excerpt-${idx}" dir="auto">${YaslogistThreatRadarApp.highlightHTML(summary, term)}</p>
+                    ${summary?.length > 110 ? `<button type="button" class="wire-excerpt-toggle" aria-expanded="false" aria-controls="wire-excerpt-${idx}">${escapeHTML(dict.wireShowExcerpt)}</button>` : ''}
                     <div class="wire-tags">
                         ${item.tags.map(tag => `
                             <span class="wire-tag ${escapeHTML(String(tag.class || "").replace(/[^a-z0-9_-]/gi, ""))}">${escapeHTML(isAr ? tag.textAr : tag.textEn)}</span>
@@ -2591,8 +2621,26 @@ class YaslogistThreatRadarApp {
             });
         }
 
-        // Watchlist star toggles (delegated — survives wire re-renders).
+        const sortSelect = document.getElementById('wire-sort-order');
+        if (sortSelect) {
+            sortSelect.value = this.wireSortOrder;
+            sortSelect.addEventListener('change', () => {
+                this.wireSortOrder = sortSelect.value === 'oldest' ? 'oldest' : 'newest';
+                storage.set('yaslogist.wireSortOrder', this.wireSortOrder);
+                this.renderIntelligenceWire();
+            });
+        }
+
+        // Delegated watchlist.
         const wireContainer = document.getElementById('news-container');
+        wireContainer?.addEventListener('click', event => {
+            const button = event.target.closest?.('.wire-excerpt-toggle');
+            const card = button?.closest('.wire-item');
+            if (!card) return;
+            const open = card.classList.toggle('wire-expanded');
+            button.setAttribute('aria-expanded', String(open));
+            button.textContent = I18N[this.currentLang][open ? 'wireHideExcerpt' : 'wireShowExcerpt'];
+        });
         wireContainer?.addEventListener('click', (e) => {
             const btn = e.target.closest?.('.wire-pin-btn');
             if (!btn) return;
@@ -2605,7 +2653,6 @@ class YaslogistThreatRadarApp {
             this.renderIntelligenceWire();
         });
 
-        // Source contribution strip: clicking a chip filters the wire by source.
         const sourceStrip = document.getElementById('wire-source-strip');
         sourceStrip?.addEventListener('click', (e) => {
             const chip = e.target.closest?.('.source-chip');
@@ -2618,7 +2665,7 @@ class YaslogistThreatRadarApp {
             this.syncWireHash();
         });
 
-        // Search Input on Wire
+        // Wire search.
         const newsSearchInput = document.getElementById('news-search');
         if (newsSearchInput) {
             newsSearchInput.addEventListener('input', (e) => {

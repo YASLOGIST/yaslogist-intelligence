@@ -22,6 +22,17 @@ test("layout fix only replaces the stylesheet cache and preserves scroll, tags, 
         assert.ok(html.includes('data-tag="' + tag + '"'), "lost filter: " + tag);
     }
     const sw = fs.readFileSync(path.resolve(__dirname, "../sw.js"), "utf8");
-    assert.match(sw, /yaslogist-v9-shell/);
-    assert.ok(sw.includes("styles.css?v=24"));
+    assert.match(sw, /yaslogist-v10-shell/);
+    assert.ok(sw.includes("styles.css?v=25"));
+});
+
+test("wire order and excerpt controls never re-enable shrinking or remove the source scroller", () => {
+    assert.ok(html.includes('id="wire-results-count"'));
+    assert.ok(html.includes('id="wire-sort-order"'));
+    assert.ok(html.includes('data-i18n="wireEvidenceHint"'));
+    const app = fs.readFileSync(path.resolve(__dirname, "../app.js"), "utf8");
+    assert.ok(app.includes("wire-excerpt-toggle"));
+    assert.ok(style.includes(".wire-item.wire-expanded .wire-summary"));
+    assert.ok(style.includes(".wire-sort-wrap select:focus-visible"));
+    assert.ok(style.includes("flex: 0 0 auto;"));
 });

@@ -29,12 +29,12 @@ test("crawler sitemap and robots point to this app, not the company homepage or 
 
 test("PWA refresh keeps all existing functionality while replacing stale shell cache", () => {
     const sw = read("sw.js");
-    assert.ok(sw.includes("yaslogist-v9-shell"));
+    assert.ok(sw.includes("yaslogist-v10-shell"));
     assert.ok(sw.includes("yaslogist-v8-runtime"));
-    assert.ok(sw.includes("./app.js?v=22"));
+    assert.ok(sw.includes("./app.js?v=23"));
     assert.ok(sw.includes("./threat-map.js?v=22"));
-    assert.ok(sw.includes("./styles.css?v=24"));
-    assert.ok(html.includes("app.js?v=22") && html.includes("styles.css?v=24"));
+    assert.ok(sw.includes("./styles.css?v=25"));
+    assert.ok(html.includes("app.js?v=23") && html.includes("styles.css?v=25"));
     assert.ok(read("app.js").includes("./threat-map.js?v=22"));
 });
 
