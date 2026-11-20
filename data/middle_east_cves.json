@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-63774",
-    "system": "PowerSYSTEM Center 2024",
-    "severity": "Critical",
-    "cvss": 9.4,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-63017",
-    "system": "PowerSYSTEM Center 2020",
-    "severity": "Critical",
-    "cvss": 9.4,
-    "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2024-27834",
-    "system": "Safari",
-    "severity": "Medium",
-    "cvss": 5.5,
-    "badge": "badge-medium"
-  },
-  {
-    "id": "CVE-2026-19868",
-    "system": "SonicOS",
-    "severity": "High",
-    "cvss": 7.5,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-123218",
-    "system": "Aspera Faspex",
+    "id": "CVE-2026-116779",
+    "system": "freeswitch",
     "severity": "Critical",
     "cvss": 9.8,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-123158",
-    "system": "OpenSSH",
+    "id": "CVE-2026-102895",
+    "system": "gpustack",
+    "severity": "Critical",
+    "cvss": 9.8,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-125350",
+    "system": "Chrome",
     "severity": "High",
-    "cvss": 8.1,
+    "cvss": 8.8,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-123039",
-    "system": "Quantum Security Gateway",
+    "id": "CVE-2026-124194",
+    "system": "Microsoft 365 Apps for Enterprise",
+    "severity": "Medium",
+    "cvss": 6.5,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-116606",
+    "system": "Barracuda Email Security Gateway (ESG)",
+    "severity": "Critical",
+    "cvss": 9.3,
+    "badge": "badge-critical"
+  },
+  {
+    "id": "CVE-2026-111793",
+    "system": "Webtop Media Transcoder",
+    "severity": "Medium",
+    "cvss": 4.3,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-111560",
+    "system": "Barracuda Email Security Gateway (ESG)",
     "severity": "High",
-    "cvss": 7.8,
+    "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-106175",
-    "system": "FortiOS",
-    "severity": "Low",
-    "cvss": 2.1,
-    "badge": "badge-low"
+    "id": "CVE-2026-20320",
+    "system": "Cisco BroadWorks",
+    "severity": "High",
+    "cvss": 7.5,
+    "badge": "badge-high"
   }
 ]

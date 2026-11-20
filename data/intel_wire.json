@@ -1,12 +1,12 @@
 [
   {
-    "titleEn": "Ten killed in Pakistan as bus crashes into gas tanker",
-    "titleAr": "Ten killed in Pakistan as bus crashes into gas tanker",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker?traffic_source=rss",
+    "titleEn": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+    "titleAr": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+    "link": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795122564000,
-    "summaryEn": "Ten people were killed and at least 27 more injured after a passenger bus collided with an LPG tanker in Pakistan.",
-    "summaryAr": "Ten people were killed and at least 27 more injured after a passenger bus collided with an LPG tanker in Pakistan.",
+    "pubDate": 1795154583000,
+    "summaryEn": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
+    "summaryAr": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
     "tags": [
       {
         "textEn": "MARITIME",
@@ -16,13 +16,29 @@
     ]
   },
   {
-    "titleEn": "Jerusalem Daily: Israel launches ground offensive in Gaza",
-    "titleAr": "Jerusalem Daily: Israel launches ground offensive in Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+    "titleEn": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "titleAr": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "source": "The Hacker News",
+    "pubDate": 1795152601000,
+    "summaryEn": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it g…",
+    "summaryAr": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it g…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
+    "titleAr": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
+    "link": "https://www.aljazeera.com/news/2026/11/20/gaza-civil-defence-struggles-to-rescue-lives-as-vehicles-fall-into-disrepair?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795121921000,
-    "summaryEn": "Israel launches its first major ground offensive in central Gaza, pushing beyond the ‘Yellow Line’ it controls",
-    "summaryAr": "Israel launches its first major ground offensive in central Gaza, pushing beyond the ‘Yellow Line’ it controls",
+    "pubDate": 1795150900000,
+    "summaryEn": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
+    "summaryAr": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -32,13 +48,29 @@
     ]
   },
   {
-    "titleEn": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-    "titleAr": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-    "link": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+    "titleEn": "Contaminated petrol leaves Yemeni drivers struggling to make ends meet",
+    "titleAr": "Contaminated petrol leaves Yemeni drivers struggling to make ends meet",
+    "link": "https://www.aljazeera.com/news/2026/11/20/contaminated-petrol-leaves-yemeni-drivers-struggling-to-make-ends-meet?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795120254000,
-    "summaryEn": "The resolution was defeated 51-48. Three Republicans broke rank, voting for the measure.",
-    "summaryAr": "The resolution was defeated 51-48. Three Republicans broke rank, voting for the measure.",
+    "pubDate": 1795150816000,
+    "summaryEn": "Drivers in Houthi-controlled areas face rising fuel prices and costly repairs as contaminated petrol damages their cars.",
+    "summaryAr": "Drivers in Houthi-controlled areas face rising fuel prices and costly repairs as contaminated petrol damages their cars.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Canada’s beloved Tim Hortons brews ire over ‘excessive’ Israeli data deal",
+    "titleAr": "Canada’s beloved Tim Hortons brews ire over ‘excessive’ Israeli data deal",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/canadas-beloved-tim-hortons-brews-ire-over-excessive-israeli-data-deal-2?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795147517000,
+    "summaryEn": "Advocates raised concerns about the Tim Horton’s app and consumer privacy and data-sharing.",
+    "summaryAr": "Advocates raised concerns about the Tim Horton’s app and consumer privacy and data-sharing.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -48,13 +80,45 @@
     ]
   },
   {
-    "titleEn": "Save the Children: Gaza’s children face ‘unmatched dangers’",
-    "titleAr": "Save the Children: Gaza’s children face ‘unmatched dangers’",
-    "link": "https://www.aljazeera.com/news/2026/11/19/save-the-children-gazas-children-face-unmatched-dangers?traffic_source=rss",
+    "titleEn": "VMware patches vCenter zero-day exploited in attacks since September",
+    "titleAr": "VMware patches vCenter zero-day exploited in attacks since September",
+    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "source": "BleepingComputer",
+    "pubDate": 1795134385000,
+    "summaryEn": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks si…",
+    "summaryAr": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks si…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Houthis escalate attacks on Saudi capital",
+    "titleAr": "Iran war live: Houthis escalate attacks on Saudi capital",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795116225000,
-    "summaryEn": "Aid group says one third of violations against children worldwide were in occupied Palestinian territory.",
-    "summaryAr": "Aid group says one third of violations against children worldwide were in occupied Palestinian territory.",
+    "pubDate": 1795132720000,
+    "summaryEn": "Houthi missile fire has rocked Riyadh's financial centre as the Iran war leaves 'lasting marks' on global energy.",
+    "summaryAr": "Houthi missile fire has rocked Riyadh's financial centre as the Iran war leaves 'lasting marks' on global energy.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Mosque torched in Israel sparks political backlash against Netanyahu",
+    "titleAr": "Mosque torched in Israel sparks political backlash against Netanyahu",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795129128000,
+    "summaryEn": "A mosque in al-Dahi, a Palestinian Arab village in northern Israel, was set on fire in a suspected arson attack.",
+    "summaryAr": "A mosque in al-Dahi, a Palestinian Arab village in northern Israel, was set on fire in a suspected arson attack.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -64,34 +128,18 @@
     ]
   },
   {
-    "titleEn": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
-    "titleAr": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/families-flee-gazas-bureij-camp-as-israel-launches-new-offensive?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795114860000,
-    "summaryEn": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
-    "summaryAr": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
+    "titleEn": "Houthi strike damages Riyadh’s tallest skyscraper - Reuters",
+    "titleAr": "Houthi strike damages Riyadh’s tallest skyscraper - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlellNcl9iOFk5YURTaUJXSTRKZkVTWk13NUhyS3ptX3VUOVMzVkV4VFdGQjZpQU9DMFdkNUNXMUZuNWl5SWxxdTZUcXIyNE1NM3VaOHBGWG41RThNQjJ3WjA1Tm0zU28?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795124618000,
+    "summaryEn": "Houthi strike damages Riyadh’s tallest skyscraper Reuters",
+    "summaryAr": "Houthi strike damages Riyadh’s tallest skyscraper Reuters",
     "tags": [
       {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Palestinians in Gaza face new displacement after Israeli army operation",
-    "titleAr": "Palestinians in Gaza face new displacement after Israeli army operation",
-    "link": "https://www.aljazeera.com/news/2026/11/19/palestinians-in-gaza-face-new-displacement-after-israeli-army-operation?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795113970000,
-    "summaryEn": "Families in Nuseirat spend the night without shelter, while many fear returning despite Israel ending offensive.",
-    "summaryAr": "Families in Nuseirat spend the night without shelter, while many fear returning despite Israel ending offensive.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
       }
     ]
   },
@@ -103,22 +151,6 @@
     "pubDate": 1795113558000,
     "summaryEn": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say Reuters",
     "summaryAr": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Iraq reaches compromise with Kataib Hezbollah over armed group’s stronghold",
-    "titleAr": "Iraq reaches compromise with Kataib Hezbollah over armed group’s stronghold",
-    "link": "https://www.aljazeera.com/news/2026/11/19/iraq-reaches-compromise-with-kataib-hezbollah-over-armed-group-stronghold?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795112169000,
-    "summaryEn": "The compromise reached will unite forces that include brigades from the Popular Mobilisation Forces.",
-    "summaryAr": "The compromise reached will unite forces that include brigades from the Popular Mobilisation Forces.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -224,6 +256,22 @@
     ]
   },
   {
+    "titleEn": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+    "titleAr": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "source": "The Hacker News",
+    "pubDate": 1795101066000,
+    "summaryEn": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an adv…",
+    "summaryAr": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an adv…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
     "titleEn": "Gazans return to battered camp after Israel says it concluded tank raid - Reuters",
     "titleAr": "Gazans return to battered camp after Israel says it concluded tank raid - Reuters",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTlHeU1CNWItYmpkOXVld21mVVRpNm9EbHhicnE3d1BQcmJ3em1HREh3NkFTUVNSUVFxMjFrWVU5V1dhT2Q2TWZEZ3VwYW9WSjB0SkhJU0JNMUxVMlAyU0RWYnZTekpLUS1oT0xPUXNzUWpjT0dhSktadFFXalBlcG1EaUJXaU1HMnBYb3pxd0V6OVBGdElzYg?oc=5",
@@ -252,22 +300,6 @@
         "textEn": "RANSOMWARE",
         "textAr": "برمجيات الفدية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-    "titleAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795093370000,
-    "summaryEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook Yahoo Finance",
-    "summaryAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook Yahoo Finance",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -373,6 +405,22 @@
     ]
   },
   {
+    "titleEn": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+    "titleAr": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdy1WaGxIV3Q2SDJjX0k5anJIcmtrR3ZJOVlpMmJ6UjgzcEdtTXFJVVh1UWZlMnhheTRZUEotUmFvWHlvMmRWX3BxemhuMHdwVklWeVBBd2laRjVfRWM2V04xNWpuQWlDSi1mUUhuSk0wZWdHV25zb0RlWk1DcVVFZnQ2cTV4bm54SEQzNE5mcVVCUXc?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795072380000,
+    "summaryEn": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook Yahoo Finance",
+    "summaryAr": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook Yahoo Finance",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Energy-security response to Iran war could cut oil demand by 4% by 2035, IEA says - Reuters",
     "titleAr": "Energy-security response to Iran war could cut oil demand by 4% by 2035, IEA says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRlVLekJsV1lXTGsxOWFDNkJLTDZhV3JSeFRQWS1zNXlobWJ6cDB0dXdhUE5IZ2VBY3N1THJOdVFtNmhEcnVTcUpWS2x4cVJRV1BscHJ2cVRmbGxtUEJLd0xvRUhkYlpUZU1PcnZpUzJ5cWx5R3ZnWFN5VXdiWmkwczJpci1yQkpVWWtMNV9yY3JHc3NfNzc0V2R2ZWlkSDVaa3V1MUhJVUNoSV9MQl91ckE5c2J4c1c2VFlPSHBIYzAxX2RZYXpZ?oc=5",
@@ -433,22 +481,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "US intelligence chief says threats from Iran have increased substantially - Reuters",
-    "titleAr": "US intelligence chief says threats from Iran have increased substantially - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nMllFcERiQkpNc1BhVmJRZVN3Q1g4Z2h3UXE5a2N4bnVXLVRBTjA2WjRnUGk5RV92NkI2YWRCX09MOW1abTNady1XXzdtUy01dG9YeDREc09WYmNlX1VZak15Y1lwb28?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795046389000,
-    "summaryEn": "US intelligence chief says threats from Iran have increased substantially Reuters",
-    "summaryAr": "US intelligence chief says threats from Iran have increased substantially Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -586,22 +618,6 @@
     ]
   },
   {
-    "titleEn": "Dar Global presses ahead with Trump golf and villa project in Qatar despite Iran war - Reuters",
-    "titleAr": "Dar Global presses ahead with Trump golf and villa project in Qatar despite Iran war - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2hfelhncGZ2YmJUc1ZsV1BCLWVhSWZFTFk2ZXRJNUZ3bG05clRQMXFkQVB6cmRUblBMV3VxWm15dnNFVWtCbFN4SnVjSm5tN3JodzZ3Z3lZNmRMNDItUU5QWE56XzFWMVFhZTlTTHpwRGd2YUFJU2pvY0I2Z1cxdmI3WFpBbkY0aTctc1JQbDlKbnNiNnFvOW5JSno1R2lrbHlBcGo0S0ppaXY2SGZ6QWpwOGxXaWhwVk1OUlUyYzN3TGhweWpwWUZBZw?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795018981000,
-    "summaryEn": "Dar Global presses ahead with Trump golf and villa project in Qatar despite Iran war Reuters",
-    "summaryAr": "Dar Global presses ahead with Trump golf and villa project in Qatar despite Iran war Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Explainer: What is Iraq's Kataib Hezbollah militia? - Reuters",
     "titleAr": "Explainer: What is Iraq's Kataib Hezbollah militia? - Reuters",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1BsSFlwZ3UtdGRTdml2RGtmQXN6SFV3ZDRnWEVLcWRYQ0JyQkFHSFFPcUVwaTNaTHp2bjFhdWROMzFRaFBySUxxQjZsbVNHekpWdmFHRUhqdmxwaUEwTFdQSnkzWkY5bDFJX09xMXRFY1d6ZUdIUnFpaTF1QUpoV0NpdVQwTU1JVjBINHZBZXJ0UzZsaHc?oc=5",
@@ -710,22 +726,6 @@
         "textEn": "INTEL",
         "textAr": "استخبارات",
         "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "titleAr": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "pubDate": 1795003200000,
-    "summaryEn": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager…",
-    "summaryAr": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager…",
-    "tags": [
-      {
-        "textEn": "APT",
-        "textAr": "مجموعات متقدمة",
-        "class": "tag-cyan"
       }
     ]
   }
