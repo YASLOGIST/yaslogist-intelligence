@@ -10,16 +10,16 @@
   },
   {
     "country": "Israel",
-    "attacks": "11",
-    "previous": "1",
+    "attacks": "7",
+    "previous": "0",
     "intensity": "High",
     "trend": "up",
-    "deltaPct": 1000,
+    "deltaPct": null,
     "class": "intensity-high"
   },
   {
     "country": "Yemen",
-    "attacks": "5",
+    "attacks": "6",
     "previous": "0",
     "intensity": "High",
     "trend": "up",
