@@ -1,12 +1,44 @@
 [
   {
-    "titleEn": "Can Israel’s opposition bloc stay united against Netanyahu?",
-    "titleAr": "Can Israel’s opposition bloc stay united against Netanyahu?",
-    "link": "https://www.aljazeera.com/news/2026/11/21/can-israels-opposition-bloc-stay-united-against-netanyahu?traffic_source=rss",
+    "titleEn": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+    "titleAr": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+    "link": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795239989000,
-    "summaryEn": "Eisenkot's fragile alliance must overcome deep ideological divisions to turn its opposition into a government.",
-    "summaryAr": "Eisenkot's fragile alliance must overcome deep ideological divisions to turn its opposition into a government.",
+    "pubDate": 1795273278000,
+    "summaryEn": "British maritime agency reports two incidents near Oman, while Iran says a tanker caught fire due to naval mine.",
+    "summaryAr": "British maritime agency reports two incidents near Oman, while Iran says a tanker caught fire due to naval mine.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Two Oil Tankers Hit by Unidentified Projectiles Near Strait of Hormuz, U.K. Maritime Organization Says - Haaretz",
+    "titleAr": "Two Oil Tankers Hit by Unidentified Projectiles Near Strait of Hormuz, U.K. Maritime Organization Says - Haaretz",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWWVRM0NDRU85Tm5RZlNiNVNpamNVSlRic0VqdkVUR0ZRMzdCWThmTjQxUEV5NGRYdzZrSzVYWGZoZk9MZEg1dWNBUVR0cEdvS3VBbmoxemVseWJ4ZE44TVFSYWFYdmI3ekZWNVctWmdlOENveVpCRnNQdTJsQV9EaEhjeVl0Sm9LOW1LaXJDazEzbGdGU1hWNXRvLTRTaVpYU3VjVlZyeXRhemNySmRycHZ5cVFCV055OXhDTmVVeUtheXUwblhxb29CSDUyRHV3MXNaZEVnZldnTk5qU0lqdmN2dXh3MEJUZkRKWDFuMVhyZDNrR3V5RTM3Yl9oVFNKdmVZWA?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795271940000,
+    "summaryEn": "Two Oil Tankers Hit by Unidentified Projectiles Near Strait of Hormuz, U.K. Maritime Organization Says Haaretz",
+    "summaryAr": "Two Oil Tankers Hit by Unidentified Projectiles Near Strait of Hormuz, U.K. Maritime Organization Says Haaretz",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+    "titleAr": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+    "link": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795270536000,
+    "summaryEn": "Iran's FM Araghchi says there is 'major strategic debate' about the future of Iran's nuclear doctrine.",
+    "summaryAr": "Iran's FM Araghchi says there is 'major strategic debate' about the future of Iran's nuclear doctrine.",
     "tags": [
       {
         "textEn": "INTEL",
@@ -16,45 +48,141 @@
     ]
   },
   {
-    "titleEn": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-    "titleAr": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-    "link": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+    "titleEn": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+    "titleAr": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795235527000,
-    "summaryEn": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
-    "summaryAr": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+    "pubDate": 1795269966000,
+    "summaryEn": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+    "summaryAr": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
   {
-    "titleEn": "Iran war live: Saudi-led coalition downs Houthi missiles",
-    "titleAr": "Iran war live: Saudi-led coalition downs Houthi missiles",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795219206000,
-    "summaryEn": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
-    "summaryAr": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
+    "titleEn": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say - Reuters",
+    "titleAr": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNER6Q2NPRk9TUmtuX1hhQ21MdEdsc05rT0FxZzE4RTczVDJqbjN1My04Zm4tUkd1aUJ4cDdXSTM3ZVl6UVg0S0hLTWs1d1pjLTRDcVgtM1dVeVNvWFZHd1g3NEZCdm5HMlR1U09Cd1JfWUg1cEQ0aUZSU19uSHowSWhEUERvNE5OM1NxTDR1T3VYV21rb25pX1NSOFdFcHlOd3VzYkpMT2VzMlYwRVVSMmFuc2J3SkZ5dUM3Z0M0YXEyZw?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795269249000,
+    "summaryEn": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say Reuters",
+    "summaryAr": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say Reuters",
     "tags": [
       {
-        "textEn": "MARITIME",
-        "textAr": "ملاحة بحرية",
-        "class": "tag-urgent"
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
       }
     ]
   },
   {
-    "titleEn": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
-    "titleAr": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
+    "titleEn": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+    "titleAr": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+    "link": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
     "source": "Al Jazeera",
-    "pubDate": 1795216850000,
-    "summaryEn": "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
-    "summaryAr": "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
+    "pubDate": 1795265124000,
+    "summaryEn": "Two drones attack a cargo ship that Finnish authorities say has links to Russia's armed forces.",
+    "summaryAr": "Two drones attack a cargo ship that Finnish authorities say has links to Russia's armed forces.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Israeli attacks on Gaza kill at least four Palestinians",
+    "titleAr": "Israeli attacks on Gaza kill at least four Palestinians",
+    "link": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795264189000,
+    "summaryEn": "Israeli drone attack kills three people in Gaza City; another is shot dead by Israeli forces in Jabalia.",
+    "summaryAr": "Israeli drone attack kills three people in Gaza City; another is shot dead by Israeli forces in Jabalia.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "titleAr": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+    "source": "The Hacker News",
+    "pubDate": 1795259153000,
+    "summaryEn": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warn…",
+    "summaryAr": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warn…",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "titleAr": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+    "source": "The Hacker News",
+    "pubDate": 1795258997000,
+    "summaryEn": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a universi…",
+    "summaryAr": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a universi…",
+    "tags": [
+      {
+        "textEn": "ZERO-DAY",
+        "textAr": "يوم-الصفر",
+        "class": "tag-purple"
+      }
+    ]
+  },
+  {
+    "titleEn": "Russian missiles hit Poland: What happened, and could NATO respond?",
+    "titleAr": "Russian missiles hit Poland: What happened, and could NATO respond?",
+    "link": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795258969000,
+    "summaryEn": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
+    "summaryAr": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Demolition notices for buildings in Hebron provoke fear among Palestinians",
+    "titleAr": "Demolition notices for buildings in Hebron provoke fear among Palestinians",
+    "link": "https://www.aljazeera.com/news/2026/11/21/demolition-notices-for-buildings-in-area-a-of-hebron-spark-fear-among-palestinians?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795257493000,
+    "summaryEn": "Palestinians fear forced displacement as Israeli authorities target legally licensed homes in West Bank.",
+    "summaryAr": "Palestinians fear forced displacement as Israeli authorities target legally licensed homes in West Bank.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "titleAr": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "source": "The Hacker News",
+    "pubDate": 1795250953000,
+    "summaryEn": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to…",
+    "summaryAr": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to…",
     "tags": [
       {
         "textEn": "INTEL",
@@ -112,22 +240,6 @@
     ]
   },
   {
-    "titleEn": "Trump defends Putin relationship, warns AI data centres must stay in US",
-    "titleAr": "Trump defends Putin relationship, warns AI data centres must stay in US",
-    "link": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795208707000,
-    "summaryEn": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
-    "summaryAr": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
     "titleAr": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
@@ -140,54 +252,6 @@
         "textEn": "ZERO-DAY",
         "textAr": "يوم-الصفر",
         "class": "tag-purple"
-      }
-    ]
-  },
-  {
-    "titleEn": "Gaza’s displaced children celebrate World Children’s Day",
-    "titleAr": "Gaza’s displaced children celebrate World Children’s Day",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795207509000,
-    "summaryEn": "Displaced children gathered in al-Nuseirat refugee camp to mark World Children’s Day.",
-    "summaryAr": "Displaced children gathered in al-Nuseirat refugee camp to mark World Children’s Day.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Russia complains of ‘new Iron Curtain’ as Estonia shuts its borders",
-    "titleAr": "Russia complains of ‘new Iron Curtain’ as Estonia shuts its borders",
-    "link": "https://www.aljazeera.com/news/2026/11/20/russia-complains-of-new-iron-curtain-as-estonia-shuts-its-borders?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795206646000,
-    "summaryEn": "Tallinn's decision to shut road border crossings comes after an attack on a drone manufacturer.",
-    "summaryAr": "Tallinn's decision to shut road border crossings comes after an attack on a drone manufacturer.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Israeli drone attacks kill seven Palestinians in central Gaza",
-    "titleAr": "Israeli drone attacks kill seven Palestinians in central Gaza",
-    "link": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795205696000,
-    "summaryEn": "Drones cause 'fear and panic' among Palestinians as Israel continues attacks on the Strip despite 'ceasefire'.",
-    "summaryAr": "Drones cause 'fear and panic' among Palestinians as Israel continues attacks on the Strip despite 'ceasefire'.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -220,22 +284,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Trump says Iran won't make a deal acceptable to him - Reuters",
-    "titleAr": "Trump says Iran won't make a deal acceptable to him - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wQW1WNkVHQ2tzdWVNaDVIRWc4SVg2bkNPMjZ4aG9RMTNiVTNsRS1wbE1TQlBpUk5JTXNtWEhOWVlXbThaWWN4RW5aRm5XYmxpeEcwSDN2Y1cwWXE1eURlSGNSRS04UzA?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795200068000,
-    "summaryEn": "Trump says Iran won't make a deal acceptable to him Reuters",
-    "summaryAr": "Trump says Iran won't make a deal acceptable to him Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -448,6 +496,22 @@
     ]
   },
   {
+    "titleEn": "Oil prices set for third straight weekly decline on strong Middle East export flows - TradingView",
+    "titleAr": "Oil prices set for third straight weekly decline on strong Middle East export flows - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNVU2Z1dpUlVsenpjeFlReWg5bmhmWVJHU0tkUzZSOTFFTEoyRldKMjE1YmpCanhWX2M0M181UTJaTWhVbU1WRF95YVRVeDE2YjF5cHVPNUJYcUVEQjNWMFFqZnN0OU5aT29WZHprazJCTkdsOUlBcnY5NWdMUTg2bTNNTHBfM1JianctTXczUThiWmI0RUtNTDczNnBWcjF6ZTlTLUw5MFVqUmI0eEMyYjI0YUk0YkQ2Y0k3emJwNmdXQWs1ZENQRE4tUENOQ3RFaTBmSnV3X3VwdHJiMGxVV2Qta0l4QnlP?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795147664000,
+    "summaryEn": "Oil prices set for third straight weekly decline on strong Middle East export flows TradingView",
+    "summaryAr": "Oil prices set for third straight weekly decline on strong Middle East export flows TradingView",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday - Reuters",
     "titleAr": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
@@ -576,6 +640,22 @@
     ]
   },
   {
+    "titleEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - American Journal of Transportation",
+    "titleAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - American Journal of Transportation",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUxMUEVzZ0RmazZVR1oxSlVqVlpkMzNkTG4zNXkxUUZuOGF6VDZhWHZmQ3ZudVVHTGVjT3RobnRTYjdhY3dISVZ0VzZRR2dBSWlSR0JDMFJtLTVNR1JkU0VZWk5YUy1TdGQtMmxqc2N0dnlSaHc4OGc5RDFFRGZKVWNZMjdyYXNxSEdPa3VBZ2hwUnhxeVR3dkxsS0o2ZWstUVJUNnJyUQ?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795106820000,
+    "summaryEn": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook American Journal of Transportation",
+    "summaryAr": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook American Journal of Transportation",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
     "titleEn": "Houthi attacks on Saudi Arabia - Reuters",
     "titleAr": "Houthi attacks on Saudi Arabia - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXVIQUMwVTA5TllQb203X3V6XzNUVlNqaHhXd3NlNjJ0VF9rVUp1OTdRRjBWaVFMREswSVlfNjVESFAwb2w0NGMyVk5LeWNjTU42RnBIOWRsR05kWFktNFhrNnJtMm84cGNmekdUYmlvREJLQkt6NjUxMEZ2Sy1wUjVQbnhMS2JG?oc=5",
@@ -624,54 +704,6 @@
     ]
   },
   {
-    "titleEn": "Gazans return to battered camp after Israel says it concluded tank raid - Reuters",
-    "titleAr": "Gazans return to battered camp after Israel says it concluded tank raid - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTlHeU1CNWItYmpkOXVld21mVVRpNm9EbHhicnE3d1BQcmJ3em1HREh3NkFTUVNSUVFxMjFrWVU5V1dhT2Q2TWZEZ3VwYW9WSjB0SkhJU0JNMUxVMlAyU0RWYnZTekpLUS1oT0xPUXNzUWpjT0dhSktadFFXalBlcG1EaUJXaU1HMnBYb3pxd0V6OVBGdElzYg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795100980000,
-    "summaryEn": "Gazans return to battered camp after Israel says it concluded tank raid Reuters",
-    "summaryAr": "Gazans return to battered camp after Israel says it concluded tank raid Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Five warning signs of ransomware breach before encryption or data theft",
-    "titleAr": "Five warning signs of ransomware breach before encryption or data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-    "source": "BleepingComputer",
-    "pubDate": 1795100410000,
-    "summaryEn": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs th…",
-    "summaryAr": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs th…",
-    "tags": [
-      {
-        "textEn": "RANSOMWARE",
-        "textAr": "برمجيات الفدية",
-        "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say - Reuters",
-    "titleAr": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVE54c3Eza3gxMTYwRmh4U0tZR0ZvWmctdm1OV1dkN1BzZXNXdFFiTjZkZlc5Mk01YVQzN2ZkZFZzUVVPdmMtc3ZzRjJZY28wdFE3ejFtcnlkbWZmUkZicXFKMU1ydEJZalZwZlFnQkhWSGVaMXFUUkt5T0pVaUp1WUxJMjdiVDhCWnlOLXRKaFh2UXhvQnNNQnNnZVBkWEdwMFBPOEEtc1ZzOTFIOHNfZklhZWJuQVVJaDBpU3hPNk4ycllOcTg4WmZoRG5zaDg?oc=5",
-    "source": "Reuters (Google News)",
-    "pubDate": 1795092300000,
-    "summaryEn": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say Reuters",
-    "summaryAr": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say Reuters",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "Elecbrakes EB2, VM1, ELBC2000",
     "titleAr": "Elecbrakes EB2, VM1, ELBC2000",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
@@ -684,38 +716,6 @@
         "textEn": "APT",
         "textAr": "مجموعات متقدمة",
         "class": "tag-cyan"
-      }
-    ]
-  },
-  {
-    "titleEn": "libumqtt",
-    "titleAr": "libumqtt",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-    "source": "CISA Advisories",
-    "pubDate": 1795089600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The follow…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The follow…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Autonomy Logic OpenPLC Runtime",
-    "titleAr": "Autonomy Logic OpenPLC Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-    "source": "CISA Advisories",
-    "pubDate": 1795089600000,
-    "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC R…",
-    "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC R…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   }
