@@ -1,5 +1,53 @@
 [
   {
+    "titleEn": "Can Israel’s opposition bloc stay united against Netanyahu?",
+    "titleAr": "Can Israel’s opposition bloc stay united against Netanyahu?",
+    "link": "https://www.aljazeera.com/news/2026/11/21/can-israels-opposition-bloc-stay-united-against-netanyahu?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795239989000,
+    "summaryEn": "Eisenkot's fragile alliance must overcome deep ideological divisions to turn its opposition into a government.",
+    "summaryAr": "Eisenkot's fragile alliance must overcome deep ideological divisions to turn its opposition into a government.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+    "titleAr": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+    "link": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795235527000,
+    "summaryEn": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+    "summaryAr": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
+    "titleEn": "Iran war live: Saudi-led coalition downs Houthi missiles",
+    "titleAr": "Iran war live: Saudi-led coalition downs Houthi missiles",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+    "source": "Al Jazeera",
+    "pubDate": 1795219206000,
+    "summaryEn": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
+    "summaryAr": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
     "titleAr": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
@@ -7,6 +55,22 @@
     "pubDate": 1795216850000,
     "summaryEn": "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
     "summaryAr": "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
+    "tags": [
+      {
+        "textEn": "INTEL",
+        "textAr": "استخبارات",
+        "class": ""
+      }
+    ]
+  },
+  {
+    "titleEn": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+    "titleAr": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMmJ1MkI1NFRhVGFBd09OcklwWXpmN2taa1EtT1pfNWxDSzZhamdaUkJubjMxb01yQV9zQ0hqQ0JFVGFGUE92RFRvRjh1Q21UeElHcWFxWnRhdnFlZFNuT1BBY081U2tyTVpaZmU5RmR6cmRfcklWUG1LeXRfdUZJTlNGQ213X0JDNGdzMTZOdVlPTVZYZVZaUmdGVVFpYmJFdG5xSUlBclI0QWlPYzdsTFdncWJjeF80XzI5N3NXMDM4b1E?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795216260000,
+    "summaryEn": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable Reuters",
+    "summaryAr": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable Reuters",
     "tags": [
       {
         "textEn": "INTEL",
@@ -128,22 +192,6 @@
     ]
   },
   {
-    "titleEn": "Palestinian anti-Hamas groups accused of role in Israel Gaza operation",
-    "titleAr": "Palestinian anti-Hamas groups accused of role in Israel Gaza operation",
-    "link": "https://www.aljazeera.com/news/2026/11/20/palestinian-anti-hamas-groups-accused-of-role-in-israel-gaza-operation?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795204625000,
-    "summaryEn": "Israeli-backed Palestinian militias accused of expanding operations, raising concerns over their role in Gaza’s security",
-    "summaryAr": "Israeli-backed Palestinian militias accused of expanding operations, raising concerns over their role in Gaza’s security",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
     "titleEn": "ATP to 'wait and see' on Middle East tournaments amid conflict, says chairman Gaudenzi - Reuters",
     "titleAr": "ATP to 'wait and see' on Middle East tournaments amid conflict, says chairman Gaudenzi - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWlQcDBYYncwXzdzd3B0eG04czF2MXN0TW1MelRQVHp5Q21xYmRmcTlFaVRfejRTTGY3N0FSQk1LSEJwdGd4WHFEMWg1S1N4Tmg5dlYxeDMyakoxZ2d6ZGtjVUlxZERDRmlFWFIwcnMybV81T05zWF82MVBtNWttT1Rab2JER2pRSTFiaWc4WDNLWDI0ekpGenZFV2hTMVJmTkNraGc0eUtrenF5ODJlM2d2Y3ZDMWNncERLNEVTak8?oc=5",
@@ -172,54 +220,6 @@
         "textEn": "MARITIME",
         "textAr": "ملاحة بحرية",
         "class": "tag-urgent"
-      }
-    ]
-  },
-  {
-    "titleEn": "What are the implications of the ICJ Rohingya genocide ruling?",
-    "titleAr": "What are the implications of the ICJ Rohingya genocide ruling?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795201934000,
-    "summaryEn": "Verdict against Myanmar may have implications for Israel's genocide in Gaza.",
-    "summaryAr": "Verdict against Myanmar may have implications for Israel's genocide in Gaza.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Former US national security adviser confronted by students on Gaza",
-    "titleAr": "Former US national security adviser confronted by students on Gaza",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/former-us-national-security-adviser-confronted-by-students-on-gaza?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795200686000,
-    "summaryEn": "Former US National Security Adviser Jake Sullivan was confronted by student protesters during a speaking event at MIT.",
-    "summaryAr": "Former US National Security Adviser Jake Sullivan was confronted by student protesters during a speaking event at MIT.",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Swimming lessons offer Gaza’s children a moment of relief",
-    "titleAr": "Swimming lessons offer Gaza’s children a moment of relief",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_swimming-lessons-offer-gazas-children-relief-201126?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795200217000,
-    "summaryEn": "Palestinian children gathered along Gaza’s coast for swimming lessons, finding relief from the psychological toll of war",
-    "summaryAr": "Palestinian children gathered along Gaza’s coast for swimming lessons, finding relief from the psychological toll of war",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
       }
     ]
   },
@@ -256,13 +256,13 @@
     ]
   },
   {
-    "titleEn": "Ukraine strikes Kerch Bridge as Putin ally declares ‘no one needs Europe’",
-    "titleAr": "Ukraine strikes Kerch Bridge as Putin ally declares ‘no one needs Europe’",
-    "link": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs?traffic_source=rss",
-    "source": "Al Jazeera",
-    "pubDate": 1795199855000,
-    "summaryEn": "Russia-Europe tensions rise as Ukraine uses its own weapons and communications tech to hit the Kerch Bridge.",
-    "summaryAr": "Russia-Europe tensions rise as Ukraine uses its own weapons and communications tech to hit the Kerch Bridge.",
+    "titleEn": "European emissions proposal faces Middle East pushback at UN aviation agency - TradingView",
+    "titleAr": "European emissions proposal faces Middle East pushback at UN aviation agency - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONGt1MGZ1OEZWdF9FRHladUpYbTNhRFF5aHd6VjBCTEgyQXJXVW9ybFF2ak5OdDdQNEpmaEptZkJZME81UWtHdG16ODR5MWcya2JobTJ1NVZsNHV2Vzc2OHJkSGJ6endISmplS2xoYkkzUlBUOXprR1laanhqNE1RZnZFd2NNbXZtcnk0bVVuVURpMzg2NGhmVndqYXpGdGRBdUxjUWxzeDBqQ1pLdWJUVV9hU1B3aWNaSmNLN25FMDhYR3RDZEp2UmZfcFY4OUpUV0ZYcjNVX0xiak5fNFdF?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795199879000,
+    "summaryEn": "European emissions proposal faces Middle East pushback at UN aviation agency TradingView",
+    "summaryAr": "European emissions proposal faces Middle East pushback at UN aviation agency TradingView",
     "tags": [
       {
         "textEn": "INTEL",
@@ -496,6 +496,22 @@
     ]
   },
   {
+    "titleEn": "Oil settles flat as Hormuz disruptions offset global surplus fears - Reuters",
+    "titleAr": "Oil settles flat as Hormuz disruptions offset global surplus fears - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+    "source": "Reuters (Google News)",
+    "pubDate": 1795122121000,
+    "summaryEn": "Oil settles flat as Hormuz disruptions offset global surplus fears Reuters",
+    "summaryAr": "Oil settles flat as Hormuz disruptions offset global surplus fears Reuters",
+    "tags": [
+      {
+        "textEn": "MARITIME",
+        "textAr": "ملاحة بحرية",
+        "class": "tag-urgent"
+      }
+    ]
+  },
+  {
     "titleEn": "Most Gulf stocks retreat on Iran strife; traders eye Fed signals - Reuters",
     "titleAr": "Most Gulf stocks retreat on Iran strife; traders eye Fed signals - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjVqLVF0N0FwLU0yOVlzZk1zZVhwOS1rS0NRNWJZd1FiUThaejRKN0RrOFozalFsMEplcURYaFhseWg0TzB2bnhXNDF0QzVVdmdycnl3bTZ3WFdtbjdDU1Q3dGk2LW9KQXp1SG0tbUtrd2pUVUNxOXh2bkwzeGhNY2hrS3Z6RjVWN19UOHkxR0V6cWVyMmpreGpwSTRpUEZqaTlpdmJERGVVWklUT3pOUktCU3I?oc=5",
@@ -695,22 +711,6 @@
     "pubDate": 1795089600000,
     "summaryEn": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC R…",
     "summaryAr": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC R…",
-    "tags": [
-      {
-        "textEn": "INTEL",
-        "textAr": "استخبارات",
-        "class": ""
-      }
-    ]
-  },
-  {
-    "titleEn": "Everything Is a Web Application, Including Your Firewall",
-    "titleAr": "Everything Is a Web Application, Including Your Firewall",
-    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-    "source": "The Hacker News",
-    "pubDate": 1795089143000,
-    "summaryEn": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-202…",
-    "summaryAr": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-202…",
     "tags": [
       {
         "textEn": "INTEL",
