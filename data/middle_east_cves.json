@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-123218",
-    "system": "Aspera Faspex",
+    "id": "CVE-2026-125350",
+    "system": "Chrome",
+    "severity": "High",
+    "cvss": 8.8,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-124194",
+    "system": "Microsoft 365 Apps for Enterprise",
+    "severity": "Medium",
+    "cvss": 6.5,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-116606",
+    "system": "Barracuda Email Security Gateway (ESG)",
     "severity": "Critical",
-    "cvss": 9.8,
+    "cvss": 9.3,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-123158",
-    "system": "OpenSSH",
-    "severity": "High",
-    "cvss": 8.1,
-    "badge": "badge-high"
+    "id": "CVE-2026-111793",
+    "system": "Webtop Media Transcoder",
+    "severity": "Medium",
+    "cvss": 4.3,
+    "badge": "badge-medium"
   },
   {
-    "id": "CVE-2026-123039",
-    "system": "Quantum Security Gateway",
-    "severity": "High",
-    "cvss": 7.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-114713",
-    "system": "UnrealIRCd",
+    "id": "CVE-2026-111560",
+    "system": "Barracuda Email Security Gateway (ESG)",
     "severity": "High",
     "cvss": 8.6,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-109830",
-    "system": "meta-iot2050",
+    "id": "CVE-2026-20320",
+    "system": "Cisco BroadWorks",
     "severity": "High",
-    "cvss": 7,
+    "cvss": 7.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-106175",
-    "system": "FortiOS",
-    "severity": "Low",
-    "cvss": 2.1,
-    "badge": "badge-low"
-  },
-  {
-    "id": "CVE-2026-58114",
-    "system": "SIMATIC BATCH V9.1",
+    "id": "CVE-2026-59082",
+    "system": "SIMATIC WinCC V7.5",
     "severity": "High",
-    "cvss": 7.7,
+    "cvss": 8.5,
     "badge": "badge-high"
   },
   {
-    "id": "CVE-2026-109097",
-    "system": "ROS#",
+    "id": "CVE-2026-64629",
+    "system": "Parasolid V38.0",
     "severity": "High",
-    "cvss": 8.6,
+    "cvss": 7.3,
     "badge": "badge-high"
   }
 ]
