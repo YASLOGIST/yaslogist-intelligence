@@ -1,58 +1,58 @@
 [
   {
-    "id": "CVE-2026-109619",
-    "system": "PHP",
+    "id": "CVE-2026-59082",
+    "system": "SIMATIC WinCC V7.5",
+    "severity": "High",
+    "cvss": 8.5,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-106175",
+    "system": "FortiOS",
+    "severity": "Low",
+    "cvss": 2.1,
+    "badge": "badge-low"
+  },
+  {
+    "id": "CVE-2026-64629",
+    "system": "Parasolid V38.0",
+    "severity": "High",
+    "cvss": 7.3,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-85115",
+    "system": ".NET Client Library for SIMATIC S7 Webserver API",
+    "severity": "Medium",
+    "cvss": 6.8,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-85114",
+    "system": ".NET Client Library for SIMATIC S7 Webserver API",
+    "severity": "High",
+    "cvss": 8.7,
+    "badge": "badge-high"
+  },
+  {
+    "id": "CVE-2026-112137",
+    "system": "Mendix Studio Pro 11",
+    "severity": "Medium",
+    "cvss": 5.1,
+    "badge": "badge-medium"
+  },
+  {
+    "id": "CVE-2026-112136",
+    "system": "Mendix Studio Pro 11",
     "severity": "Critical",
     "cvss": 9.2,
     "badge": "badge-critical"
   },
   {
-    "id": "CVE-2026-109618",
-    "system": "PHP",
+    "id": "CVE-2026-115731",
+    "system": "Puppet Enterprise",
     "severity": "Critical",
-    "cvss": 9.2,
+    "cvss": 9.4,
     "badge": "badge-critical"
-  },
-  {
-    "id": "CVE-2026-123039",
-    "system": "Quantum Security Gateway",
-    "severity": "High",
-    "cvss": 7.8,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-114713",
-    "system": "UnrealIRCd",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-58114",
-    "system": "SIMATIC BATCH V9.1",
-    "severity": "High",
-    "cvss": 7.7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-109097",
-    "system": "ROS#",
-    "severity": "High",
-    "cvss": 8.6,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-109830",
-    "system": "meta-iot2050",
-    "severity": "High",
-    "cvss": 7,
-    "badge": "badge-high"
-  },
-  {
-    "id": "CVE-2026-114938",
-    "system": "Oracle Java SE",
-    "severity": "High",
-    "cvss": 8.1,
-    "badge": "badge-high"
   }
 ]
